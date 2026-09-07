@@ -1,15 +1,15 @@
 /* 自動生成: python tools/analyze-karaoke.py（変更しないでください） */
 window.KARAOKE_SHAZAM = {
   "vos7X7sJ5Dg": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-07T22:54:59.233397+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-07T23:18:03.893235+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: 音声ストリームがありません / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> / https://pipedapi.really"
   },
   "6t5oqLio_Ts": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-09-07T22:55:17.181668+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-09-07T23:18:22.170958+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "R7rxlZ7VRWc": {
@@ -259,9 +259,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "ZKziA4Tu-rM": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-07T22:54:42.301985+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-07T23:17:54.568133+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: 音声ストリームがありません / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> / https://pipedapi.really"
   },
   "UQi3DEDW90w": {
