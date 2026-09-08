@@ -137,8 +137,20 @@
     return '<div style="background:var(--accent-soft);border:2px solid var(--accent);border-radius:12px;padding:8px 14px;font-weight:900;margin:6px 0 4px">📮 送信先：' + esc(label) + '</div>';
   }
 
-  function stepLabel(n, text) {
-    return '<div style="font-weight:900;margin:14px 0 2px;font-size:.9rem"><span style="display:inline-block;background:var(--accent-deep);color:#fff;border-radius:999px;padding:1px 10px;margin-right:6px;font-size:.78rem">STEP ' + n + '</span>' + esc(text) + '</div>';
+  function stepLabel(n, text, anchor) {
+    return '<div style="font-weight:900;margin:14px 0 2px;font-size:.9rem"' + (anchor ? ' data-step="' + anchor + '"' : '') + '><span style="display:inline-block;background:var(--accent-deep);color:#fff;border-radius:999px;padding:1px 10px;margin-right:6px;font-size:.78rem">STEP ' + n + '</span>' + esc(text) + '</div>';
+  }
+
+  /* 次のSTEPへ自動スクロール（中央寄せ。モーダル内・ページ両対応） */
+  function scrollToStep(root, name) {
+    try {
+      if (!root || !root.querySelector) return;
+      var el = root.querySelector('[data-step="' + name + '"]');
+      if (!el || !el.scrollIntoView) return;
+      var smooth = true;
+      try { smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+      el.scrollIntoView(smooth ? { behavior: "smooth", block: "center" } : { block: "center" });
+    } catch (e) {}
   }
   function field(label, inner, hint) {
     return '<label style="display:block;margin:10px 0 2px;font-weight:800;font-size:.82rem">' + label + "</label>" + inner
@@ -175,12 +187,12 @@
     var svcs = [{ v: "orbis", t: "Milli Orbis" }, { v: "unishare", t: "Milli Unishare" }, { v: "games", t: "Milli Games" }, { v: "other", t: "その他" }];
     boxBody.innerHTML = '<h3 style="margin:0 0 4px">お問い合わせ <span style="font-size:.72rem;color:var(--muted)">全サービス共通窓口</span></h3>'
       + '<p class="acct-hint">内容は運営が確認します（返信が必要な場合はメールアドレスへ）。</p>'
-      + stepLabel(1, "対象サービスを選ぶ")
+      + stepLabel(1, "対象サービスを選ぶ", "target")
       + pillRow("target", svcs, sel)
       + destBanner(TARGET_LABEL[sel])
-      + stepLabel(2, "種別を選ぶ")
+      + stepLabel(2, "種別を選ぶ", "kind")
       + kindPillsHtml(kind)
-      + stepLabel(3, "内容を入力する")
+      + stepLabel(3, "内容を入力する", "form")
       + field("サイト名・サービス名" + (sel === "other" ? "（必須）" : "（「その他」の場合のみ）"), input("serviceNote", "例：○○（URLがあれば本文へ）"))
       + field("件名（任意）", input("subject", "例：誤字の報告"))
       + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
@@ -189,7 +201,7 @@
       + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
       + '<p class="acct-msg" data-contact-msg></p>'
       + '<button type="button" class="btn" data-contact-send style="width:100%;justify-content:center">送信する</button>';
-    wirePills("target", function (v) { renderService(v, true); });
+    wirePills("target", function (v) { renderService(v, true); scrollToStep(boxBody, "kind"); });
     wireKindPills();
     wireSend("service", function () { return { target: current.target }; });
   }
@@ -209,6 +221,7 @@
       if (!b) return;
       current.kind = b.getAttribute("data-val");
       wrap.querySelectorAll("button[data-val]").forEach(function (x) { var on = x === b; x.classList.toggle("active", on); x.setAttribute("aria-pressed", String(on)); });
+      scrollToStep(boxBody, "form");
     });
   }
 
@@ -216,16 +229,16 @@
     sel = sel || "map";
     boxBody.innerHTML = '<h3 style="margin:0 0 4px">MilliDexへのお問い合わせ</h3>'
       + '<p class="acct-hint">有志マップの目撃情報・過去グッズの追加依頼はこちら。運営が確認後にサイトへ反映します。</p>'
-      + stepLabel(1, "送信先を選ぶ")
+      + stepLabel(1, "送信先を選ぶ", "target")
       + pillRow("target", [{ v: "map", t: "有志マップ" }, { v: "goods", t: "過去グッズ申請" }], sel)
       + destBanner(TARGET_LABEL[sel])
-      + stepLabel(2, "内容を入力する")
+      + stepLabel(2, "内容を入力する", "form")
       + '<div data-area="form"></div>'
       + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
       + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
       + '<p class="acct-msg" data-contact-msg></p>'
       + '<button type="button" class="btn" data-contact-send style="width:100%;justify-content:center">送信する</button>';
-    wirePills("target", function (v) { renderMillidex(v); });
+    wirePills("target", function (v) { renderMillidex(v); scrollToStep(boxBody, "form"); });
     renderMillidexFields(sel);
     wireSend("millidex", function () { return { target: current.target }; });
   }
@@ -425,15 +438,15 @@
     }
     function draw() {
       var keep = snapshot();
-      root.innerHTML = stepLabel(1, "窓口を選ぶ")
+      root.innerHTML = stepLabel(1, "窓口を選ぶ", "entry")
         + entryTabsHtml()
-        + stepLabel(2, "送信先を選ぶ")
+        + stepLabel(2, "送信先を選ぶ", "targets")
         + '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0">'
         + pgTargets().map(function (o) {
           return '<button type="button" class="cd-style-btn' + (o.v === pg.target ? " active" : "") + '" data-pg-target="' + o.v + '" aria-pressed="' + (o.v === pg.target) + '" style="flex:1;min-width:100px">' + esc(o.t) + "</button>";
         }).join("") + "</div>"
         + destBanner(TARGET_LABEL[pg.target])
-        + (pg.entry === "service" ? stepLabel(3, "種別を選ぶ") + kindPillsHtml(pg.kind) + stepLabel(4, "内容を入力する") : stepLabel(3, "内容を入力する"))
+        + (pg.entry === "service" ? stepLabel(3, "種別を選ぶ", "kind") + kindPillsHtml(pg.kind) + stepLabel(4, "内容を入力する", "form") : stepLabel(3, "内容を入力する", "form"))
         + pgFields()
         + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
         + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
@@ -445,12 +458,14 @@
           pg.entry = b.getAttribute("data-pg-entry");
           pg.target = pg.entry === "service" ? "orbis" : "map";
           draw();
+          scrollToStep(root, "targets");
         });
       });
       root.querySelectorAll("[data-pg-target]").forEach(function (b) {
         b.addEventListener("click", function () {
           pg.target = b.getAttribute("data-pg-target");
           draw();
+          scrollToStep(root, pg.entry === "service" ? "kind" : "form");
         });
       });
       var kw = root.querySelector("[data-kindpills]");
@@ -459,6 +474,7 @@
         if (!b) return;
         pg.kind = b.getAttribute("data-val");
         kw.querySelectorAll("button[data-val]").forEach(function (x) { var on = x === b; x.classList.toggle("active", on); x.setAttribute("aria-pressed", String(on)); });
+        scrollToStep(root, "form");
       });
       var btn = root.querySelector("[data-pg-send]");
       if (btn) btn.addEventListener("click", function () {
