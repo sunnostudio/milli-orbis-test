@@ -40,21 +40,21 @@
     } catch (e) { return "unknown"; }
   }
   function recordCursorDl(href) {
+    // ServerValue.increment による原子加算。transaction と違い読み取り権限が不要
+    // （ルールは書き込みのみ許可＋+1バリデーション）。
     try {
       if (typeof initFirebase === "function") initFirebase();
       if (typeof firebaseAvailable !== "function" || !firebaseAvailable()) return;
+      if (typeof firebase.database === "undefined" || !firebase.database.ServerValue) return;
       var key = dlKeyFromHref(href);
       if (!key) return;
-      firebase.database().ref("cursorStats/" + key).transaction(function (c) {
-        return (c || 0) + 1;
-      }).catch(function () {});
+      var inc = firebase.database.ServerValue.increment(1);
+      firebase.database().ref("cursorStats/" + key).set(inc).catch(function () {});
       // 日別も残す（重くなったら消してOK）
       try {
         var d = new Date();
         var dk = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
-        firebase.database().ref("cursorStatsDaily/" + dk + "/" + key).transaction(function (c) {
-          return (c || 0) + 1;
-        }).catch(function () {});
+        firebase.database().ref("cursorStatsDaily/" + dk + "/" + key).set(inc).catch(function () {});
       } catch (e2) {}
     } catch (e) {}
   }
