@@ -72,10 +72,13 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump! (ELI Mix)",
-      "artist": "絢瀬絵里(CV.南條愛乃)",
-      "album": "ラブライブ! Solo Live! Collection from μ's 絢瀬絵里 Beloved Ellie",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/5e/a2/1f5ea270-b3ea-bd99-7561-5da49cca4994/4540774200603.png/600x600bb.jpg"
+      "title": "夏色えがおで1,2,Jump!",
+      "artist": "μ's",
+      "album": "μ's Complete BEST BOX Chapter.01",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -1660,12 +1663,6 @@ window.SONG_MASTER = {
       "artist": "Adam Ozari",
       "album": "センチメンタルな愛慕心 (feat. Muhammad Zaky Zulfiqor & Rora Meeza) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/01/59/99/01599957-2275-80b6-efcf-383cde773967/198009138098.png/600x600bb.jpg"
-    },
-    "ケッペキショウいました": {
-      "title": "絶望性:ヒーロー治療薬 (feat. そらる)",
-      "artist": "スズム",
-      "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
       "title": "ドーナツホール (COVER)",

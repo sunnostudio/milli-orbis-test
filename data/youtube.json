@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T01:39:21.250Z",
+  "updatedAt": "2026-09-08T08:22:42.438Z",
   "streams": [
     {
       "id": "pNA7blKMe34",
@@ -8,6 +8,33 @@
       "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-08T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "CiFzk0xZYPo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "02awXqdLNOQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 Night Shippers 】配達バイトのホラゲーらしい【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "PKXFq4Jeel8",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Night Shippers 】今話題の⁉バケモノが住む街で配達するホラーゲーム👻 【 #ゆまの酒盛り 】",
+      "thumb": "https://i.ytimg.com/vi/PKXFq4Jeel8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -219,6 +246,46 @@
     }
   ],
   "videos": [
+    {
+      "id": "CiFzk0xZYPo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
+      "publishedAt": "2026-09-08T08:22:05Z",
+      "live": false
+    },
+    {
+      "id": "rju0k84LLn8",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "画面にバーが出る世界！？ #minecraft",
+      "thumb": "https://i.ytimg.com/vi/rju0k84LLn8/hqdefault.jpg",
+      "publishedAt": "2026-09-08T07:38:18Z",
+      "live": false
+    },
+    {
+      "id": "02awXqdLNOQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Night Shippers 】配達バイトのホラゲーらしい【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault_live.jpg",
+      "publishedAt": "2026-09-08T07:33:02Z",
+      "live": false
+    },
+    {
+      "id": "PKXFq4Jeel8",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Night Shippers 】今話題の⁉バケモノが住む街で配達するホラーゲーム👻 【 #ゆまの酒盛り 】",
+      "thumb": "https://i.ytimg.com/vi/PKXFq4Jeel8/hqdefault_live.jpg",
+      "publishedAt": "2026-09-08T06:34:59Z",
+      "live": false
+    },
     {
       "id": "fWkq-34lFBo",
       "memberId": "tsukuri",
@@ -440,16 +507,6 @@
       "live": false
     },
     {
-      "id": "6q9mf4_ufvI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【歌枠┆雑談】久しぶりに声出しだ～！！！！【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/6q9mf4_ufvI/hqdefault.jpg",
-      "publishedAt": "2026-09-05T11:18:33Z",
-      "live": true
-    },
-    {
       "id": "lSbndj8gieg",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -487,36 +544,6 @@
       "title": "【めっちゃカメレオン】夕霧レイ視点！視聴者の皆を全員打ち抜くまで告知できません⁉️⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
       "thumb": "https://i.ytimg.com/vi/t5GDlA3rUYM/hqdefault.jpg",
       "publishedAt": "2026-09-04T13:49:17Z",
-      "live": false
-    },
-    {
-      "id": "KYrJTUAMsDM",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜くまで告知できません⁉️【音ノ瀬らこ /夕霧レイ 】",
-      "thumb": "https://i.ytimg.com/vi/KYrJTUAMsDM/hqdefault.jpg",
-      "publishedAt": "2026-09-04T13:44:52Z",
-      "live": false
-    },
-    {
-      "id": "Vf9oYfBoOSE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "Help me, ERINNNNNN!!／小廻こま（cover）",
-      "thumb": "https://i.ytimg.com/vi/Vf9oYfBoOSE/hqdefault.jpg",
-      "publishedAt": "2026-09-04T11:00:06Z",
-      "live": false
-    },
-    {
-      "id": "5h6RNQPnS6k",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【強風オールバック】ヤバいやつだけで合唱してみたら…【眠雲ツクリ/ミリプロ】 #歌ってみた #強風オールバック",
-      "thumb": "https://i.ytimg.com/vi/5h6RNQPnS6k/hqdefault.jpg",
-      "publishedAt": "2026-09-04T09:00:34Z",
       "live": false
     }
   ],
