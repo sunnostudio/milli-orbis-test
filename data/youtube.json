@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T08:22:42.438Z",
+  "updatedAt": "2026-09-08T15:28:01.465Z",
   "streams": [
     {
       "id": "pNA7blKMe34",
@@ -7,8 +7,8 @@
       "member": "鹿乃まほろ",
       "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T10:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-08T10:00:10Z",
+      "status": "live"
     },
     {
       "id": "CiFzk0xZYPo",
@@ -16,38 +16,26 @@
       "member": "眠雲ツクリ",
       "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T11:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-08T11:31:37Z",
+      "status": "live"
     },
     {
-      "id": "02awXqdLNOQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Night Shippers 】配達バイトのホラゲーらしい【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T12:00:00Z",
-      "status": "upcoming"
+      "id": "4Y4sps7GDDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T15:00:05Z",
+      "status": "live"
     },
     {
-      "id": "PKXFq4Jeel8",
+      "id": "AxKbURZpmPU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【 Night Shippers 】今話題の⁉バケモノが住む街で配達するホラーゲーム👻 【 #ゆまの酒盛り 】",
-      "thumb": "https://i.ytimg.com/vi/PKXFq4Jeel8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T12:00:00Z",
+      "title": "【 しっぷぅ騎士団 】再集結⁉️二次会「めっちゃカメレオン」を遊び尽くす🤩【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-09T09:00:00Z",
       "status": "upcoming"
-    },
-    {
-      "id": "V_8Z9GWJRGE",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【📢グッズ情報】1周年記念グッズが販売中✨",
-      "thumb": "https://i.ytimg.com/vi/V_8Z9GWJRGE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Goods information] 1st anniversary goods are now on sale✨"
-      }
     },
     {
       "id": "9d0t0z_cECo",
@@ -247,23 +235,13 @@
   ],
   "videos": [
     {
-      "id": "CiFzk0xZYPo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
-      "publishedAt": "2026-09-08T08:22:05Z",
-      "live": false
-    },
-    {
-      "id": "rju0k84LLn8",
+      "id": "PKXFq4Jeel8",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "画面にバーが出る世界！？ #minecraft",
-      "thumb": "https://i.ytimg.com/vi/rju0k84LLn8/hqdefault.jpg",
-      "publishedAt": "2026-09-08T07:38:18Z",
+      "title": "【 Night Shippers 】今話題の⁉バケモノが住む街で配達するホラーゲーム👻 【 #ゆまの酒盛り 】",
+      "thumb": "https://i.ytimg.com/vi/PKXFq4Jeel8/hqdefault.jpg",
+      "publishedAt": "2026-09-08T15:14:46Z",
       "live": false
     },
     {
@@ -272,18 +250,78 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 Night Shippers 】配達バイトのホラゲーらしい【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault_live.jpg",
-      "publishedAt": "2026-09-08T07:33:02Z",
+      "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault.jpg",
+      "publishedAt": "2026-09-08T15:10:02Z",
       "live": false
     },
     {
-      "id": "PKXFq4Jeel8",
+      "id": "4Y4sps7GDDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault_live.jpg",
+      "publishedAt": "2026-09-08T15:00:05Z",
+      "live": true
+    },
+    {
+      "id": "AxKbURZpmPU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Night Shippers 】今話題の⁉バケモノが住む街で配達するホラーゲーム👻 【 #ゆまの酒盛り 】",
-      "thumb": "https://i.ytimg.com/vi/PKXFq4Jeel8/hqdefault_live.jpg",
-      "publishedAt": "2026-09-08T06:34:59Z",
+      "title": "【 しっぷぅ騎士団 】再集結⁉️二次会「めっちゃカメレオン」を遊び尽くす🤩【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault_live.jpg",
+      "publishedAt": "2026-09-08T11:51:13Z",
+      "live": false
+    },
+    {
+      "id": "CiFzk0xZYPo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
+      "publishedAt": "2026-09-08T11:31:37Z",
+      "live": false
+    },
+    {
+      "id": "3fOVYO-ClXM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "未来予測装置！？画面にゲージが出る世界 #minecraft",
+      "thumb": "https://i.ytimg.com/vi/3fOVYO-ClXM/hqdefault.jpg",
+      "publishedAt": "2026-09-08T11:03:17Z",
+      "live": false
+    },
+    {
+      "id": "pNA7blKMe34",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
+      "publishedAt": "2026-09-08T10:00:10Z",
+      "live": false
+    },
+    {
+      "id": "xXZxNzExbvQ",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "イガク、クセ強い奴だけで歌ったらどうなんの！？ 【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/xXZxNzExbvQ/hqdefault.jpg",
+      "publishedAt": "2026-09-08T09:28:34Z",
+      "live": false
+    },
+    {
+      "id": "bGxNgznISo0",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/bGxNgznISo0/hqdefault.jpg",
+      "publishedAt": "2026-09-08T09:00:06Z",
       "live": false
     },
     {
@@ -457,16 +495,6 @@
       "live": false
     },
     {
-      "id": "pNA7blKMe34",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
-      "publishedAt": "2026-09-06T07:02:56Z",
-      "live": false
-    },
-    {
       "id": "12OziPHmZyk",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -484,16 +512,6 @@
       "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
       "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault.jpg",
       "publishedAt": "2026-09-05T14:53:11Z",
-      "live": false
-    },
-    {
-      "id": "-bSYot2qUzg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault.jpg",
-      "publishedAt": "2026-09-05T14:46:36Z",
       "live": false
     },
     {
@@ -515,37 +533,35 @@
       "thumb": "https://i.ytimg.com/vi/lSbndj8gieg/hqdefault.jpg",
       "publishedAt": "2026-09-05T11:00:07Z",
       "live": false
-    },
-    {
-      "id": "AsZcLArMnOw",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】持ち物検査#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/AsZcLArMnOw/hqdefault.jpg",
-      "publishedAt": "2026-09-05T09:00:07Z",
-      "live": false
-    },
-    {
-      "id": "CfjpZKp7PYU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【夕霧レイと】引いた言葉が歌詞に含まれる曲歌ってみた【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CfjpZKp7PYU/hqdefault.jpg",
-      "publishedAt": "2026-09-05T09:00:02Z",
-      "live": false
-    },
-    {
-      "id": "t5GDlA3rUYM",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【めっちゃカメレオン】夕霧レイ視点！視聴者の皆を全員打ち抜くまで告知できません⁉️⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
-      "thumb": "https://i.ytimg.com/vi/t5GDlA3rUYM/hqdefault.jpg",
-      "publishedAt": "2026-09-04T13:49:17Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "pNA7blKMe34",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T10:00:10Z",
+      "status": "live"
+    },
+    {
+      "id": "CiFzk0xZYPo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T11:31:37Z",
+      "status": "live"
+    },
+    {
+      "id": "4Y4sps7GDDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T15:00:05Z",
+      "status": "live"
+    }
+  ]
 }

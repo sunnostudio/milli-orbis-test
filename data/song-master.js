@@ -1664,6 +1664,12 @@ window.SONG_MASTER = {
       "album": "センチメンタルな愛慕心 (feat. Muhammad Zaky Zulfiqor & Rora Meeza) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/01/59/99/01599957-2275-80b6-efcf-383cde773967/198009138098.png/600x600bb.jpg"
     },
+    "ケッペキショウいました": {
+      "title": "絶望性:ヒーロー治療薬 (feat. そらる)",
+      "artist": "スズム",
+      "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
+    },
     "ハロハワユいました": {
       "title": "ドーナツホール (COVER)",
       "artist": "米津玄師",
