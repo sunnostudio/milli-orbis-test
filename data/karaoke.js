@@ -4,7 +4,7 @@ window.KARAOKE = [
     "id": "R4oRuHrYY4g",
     "memberId": "liz",
     "publishedAt": "2026-09-06",
-    "title": "【歌枠】ちょっとサムネねむちょもの顔真似してみた【雨夜リズ/ミリプロ】",
+    "title": "【歌枠】かなりちるのうた【雨夜リズ/ミリプロ】",
     "duration": 6215,
     "songs": []
   },
