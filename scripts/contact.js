@@ -277,5 +277,21 @@
     } catch (e) {}
   }
 
+  /* ---------- 直リンク限定オープン（テスト用。UI導線は出さない） ---------- */
+  /* ?contact=service | millidex-map | millidex-goods | millidex */
+  function openFromUrl() {
+    var v = null;
+    try { v = new URLSearchParams(location.search).get("contact"); } catch (e) {}
+    if (!v) return;
+    try {
+      if (v === "service") openService();
+      else if (v === "millidex-map") openMillidex("map");
+      else if (v === "millidex-goods") openMillidex("goods");
+      else if (v === "millidex") openMillidex();
+    } catch (e) {}
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", openFromUrl);
+  else openFromUrl();
+
   window.ContactHub = { openService: openService, openMillidex: openMillidex, push: pushContact, inject: inject };
 })();
