@@ -1,17 +1,14 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-08",
   "official": [
     {
       "id": "MG3I1rUs5v8",
       "title": "NET CHOOSE SHOW／雨夜リズ（official）",
-      "publishedAt": "2026-08-27",
+      "publishedAt": "2026-08-31",
       "members": [
         "liz"
-      ],
-      "en": {
-        "title": "NET CHOOSE SHOW / Amayo Liz (official)"
-      }
+      ]
     },
     {
       "id": "1UdnoJ6qgPs",
@@ -446,17 +443,6 @@ window.SONGS = {
           "id": "dkfixC4fq-w",
           "memberId": "tsukuri",
           "publishedAt": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "title": "NET CHOOSE SHOW／雨夜リズ（official）",
-      "key": "netchooseshow",
-      "urls": [
-        {
-          "id": "MG3I1rUs5v8",
-          "memberId": "liz",
-          "publishedAt": "2026-08-31"
         }
       ]
     },

@@ -1,31 +1,13 @@
 {
-  "updatedAt": "2026-09-06T01:31:11.134Z",
+  "updatedAt": "2026-09-08T01:39:21.250Z",
   "streams": [
     {
-      "id": "_JkHDl-_DVw",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
-      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T09:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "BNybJ5Kttzs",
+      "id": "pNA7blKMe34",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
-      "title": "【How to Fish】ゆらちゃんと！話題の魚釣り×銃撃ゲームやるよ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BNybJ5Kttzs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-07T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "pKv7C5ZJTAw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/pKv7C5ZJTAw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T12:00:00Z",
+      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-08T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -65,6 +47,24 @@
       "title": "【#にじぷかぬふ3Dお披露目】たっくさん動くところ見ててね👀【虹深°ぬふ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/A3okHjHt2To/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-12T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "hHyNursn9mw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【#ののとノクターン】第1回のゲストはなるみや様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-13T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "pKv7C5ZJTAw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/pKv7C5ZJTAw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-14T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -220,6 +220,186 @@
   ],
   "videos": [
     {
+      "id": "fWkq-34lFBo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗お誕生日にいただいたスパチャを読み読み〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/fWkq-34lFBo/hqdefault.jpg",
+      "publishedAt": "2026-09-07T14:12:25Z",
+      "live": true
+    },
+    {
+      "id": "8tQbO3O_bwo",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 How to Fish 】 話題の命がけバカ釣りゲーで遊ぶ！ w/鹿乃まほろ【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8tQbO3O_bwo/hqdefault.jpg",
+      "publishedAt": "2026-09-07T13:46:03Z",
+      "live": false
+    },
+    {
+      "id": "BNybJ5Kttzs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【How to Fish】ゆらちゃんと！話題の魚釣り×銃撃ゲームやるよ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BNybJ5Kttzs/hqdefault.jpg",
+      "publishedAt": "2026-09-07T13:41:45Z",
+      "live": false
+    },
+    {
+      "id": "fE-v5N9W4MY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "「あぁい」言ったら即終了【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fE-v5N9W4MY/hqdefault.jpg",
+      "publishedAt": "2026-09-07T11:16:45Z",
+      "live": false
+    },
+    {
+      "id": "b2QL9Mu77Sg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【音ノ瀬らこと】引いた言葉が歌詞に含まれる曲歌ってみた！【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/b2QL9Mu77Sg/hqdefault.jpg",
+      "publishedAt": "2026-09-07T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "2P_32JxeiF0",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】Princess Viral #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/2P_32JxeiF0/hqdefault.jpg",
+      "publishedAt": "2026-09-07T09:00:11Z",
+      "live": false
+    },
+    {
+      "id": "W4PFHlR_8oU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【ゆらぎゆらと】引いた言葉が歌詞に含まれる曲歌ってみた【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/W4PFHlR_8oU/hqdefault.jpg",
+      "publishedAt": "2026-09-07T09:00:03Z",
+      "live": false
+    },
+    {
+      "id": "hHyNursn9mw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#ののとノクターン】第1回のゲストはなるみや様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault_live.jpg",
+      "publishedAt": "2026-09-06T21:31:17Z",
+      "live": false
+    },
+    {
+      "id": "paYLb_ElVA4",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault.jpg",
+      "publishedAt": "2026-09-06T17:02:04Z",
+      "live": false
+    },
+    {
+      "id": "5HGN7o9U7fM",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault.jpg",
+      "publishedAt": "2026-09-06T16:47:26Z",
+      "live": false
+    },
+    {
+      "id": "vVy6r58qdSc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault.jpg",
+      "publishedAt": "2026-09-06T14:49:04Z",
+      "live": true
+    },
+    {
+      "id": "R4oRuHrYY4g",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】ちょっとサムネねむちょもの顔真似してみた【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R4oRuHrYY4g/hqdefault.jpg",
+      "publishedAt": "2026-09-06T12:58:23Z",
+      "live": false
+    },
+    {
+      "id": "_JkHDl-_DVw",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
+      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault.jpg",
+      "publishedAt": "2026-09-06T10:33:30Z",
+      "live": false
+    },
+    {
+      "id": "dniVVkpDu00",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】VTuberが全員幼稚園児になって遊んだらカオスすぎたｗｗｗ【ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dniVVkpDu00/hqdefault.jpg",
+      "publishedAt": "2026-09-06T10:00:06Z",
+      "live": false
+    },
+    {
+      "id": "baIpgg_ocw4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】勝者は誰？ダイヤ直下掘りトーナメント【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/baIpgg_ocw4/hqdefault.jpg",
+      "publishedAt": "2026-09-06T09:00:16Z",
+      "live": false
+    },
+    {
+      "id": "npsV1HArmus",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『スパークル』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/npsV1HArmus/hqdefault.jpg",
+      "publishedAt": "2026-09-06T09:00:11Z",
+      "live": false
+    },
+    {
+      "id": "oySV1DLxrp0",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/oySV1DLxrp0/hqdefault.jpg",
+      "publishedAt": "2026-09-06T07:18:37Z",
+      "live": false
+    },
+    {
+      "id": "pNA7blKMe34",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
+      "publishedAt": "2026-09-06T07:02:56Z",
+      "live": false
+    },
+    {
       "id": "12OziPHmZyk",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -247,16 +427,6 @@
       "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault.jpg",
       "publishedAt": "2026-09-05T14:46:36Z",
-      "live": false
-    },
-    {
-      "id": "BNybJ5Kttzs",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【How to Fish】ゆらちゃんと！話題の魚釣り×銃撃ゲームやるよ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BNybJ5Kttzs/hqdefault_live.jpg",
-      "publishedAt": "2026-09-05T14:46:17Z",
       "live": false
     },
     {
@@ -347,176 +517,6 @@
       "title": "【強風オールバック】ヤバいやつだけで合唱してみたら…【眠雲ツクリ/ミリプロ】 #歌ってみた #強風オールバック",
       "thumb": "https://i.ytimg.com/vi/5h6RNQPnS6k/hqdefault.jpg",
       "publishedAt": "2026-09-04T09:00:34Z",
-      "live": false
-    },
-    {
-      "id": "SLE0lC1Br8I",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/SLE0lC1Br8I/hqdefault.jpg",
-      "publishedAt": "2026-09-04T09:00:11Z",
-      "live": false
-    },
-    {
-      "id": "9asNysw7mbI",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 VALORANT 】まほろちゃんと激アツduo【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault.jpg",
-      "publishedAt": "2026-09-03T18:22:15Z",
-      "live": false
-    },
-    {
-      "id": "EBHirQ-TYLQ",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault.jpg",
-      "publishedAt": "2026-09-03T18:17:46Z",
-      "live": false
-    },
-    {
-      "id": "_JkHDl-_DVw",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
-      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault_live.jpg",
-      "publishedAt": "2026-09-03T14:53:05Z",
-      "live": false
-    },
-    {
-      "id": "beMkuWTFABw",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/beMkuWTFABw/hqdefault.jpg",
-      "publishedAt": "2026-09-03T12:23:04Z",
-      "live": false
-    },
-    {
-      "id": "dkfixC4fq-w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
-      "thumb": "https://i.ytimg.com/vi/dkfixC4fq-w/hqdefault.jpg",
-      "publishedAt": "2026-09-03T12:00:07Z",
-      "live": false
-    },
-    {
-      "id": "HAY6YqpAY0o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】ミリプロ後輩メンの水着デザインしてみた結果・・・【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/HAY6YqpAY0o/hqdefault.jpg",
-      "publishedAt": "2026-09-03T10:00:06Z",
-      "live": false
-    },
-    {
-      "id": "Ju5E-U96w4o",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "ロクデナシ様の『スピカ』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Ju5E-U96w4o/hqdefault.jpg",
-      "publishedAt": "2026-09-03T09:00:29Z",
-      "live": false
-    },
-    {
-      "id": "8GHeVgL1evk",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【高速山手線ゲーム】ファンサして！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8GHeVgL1evk/hqdefault.jpg",
-      "publishedAt": "2026-09-03T09:00:18Z",
-      "live": false
-    },
-    {
-      "id": "ePV16QaKTYI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "別れ話の湿度で友情を深めるゆらぎゆら #minecraft",
-      "thumb": "https://i.ytimg.com/vi/ePV16QaKTYI/hqdefault.jpg",
-      "publishedAt": "2026-09-03T05:57:32Z",
-      "live": false
-    },
-    {
-      "id": "ikcdM5AaKbA",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 誕生日カウントダウン 〗一番はやくお祝いして！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ikcdM5AaKbA/hqdefault.jpg",
-      "publishedAt": "2026-09-02T17:10:18Z",
-      "live": false
-    },
-    {
-      "id": "wh4UF6M-Lbk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】告知アリ！Vaundy縛り歌枠！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/wh4UF6M-Lbk/hqdefault.jpg",
-      "publishedAt": "2026-09-02T14:00:31Z",
-      "live": false
-    },
-    {
-      "id": "8IKlJ7y4xyM",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【お料理雑談】ねむちょもの誕生日ケーキ作る【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8IKlJ7y4xyM/hqdefault.jpg",
-      "publishedAt": "2026-09-02T12:48:41Z",
-      "live": true
-    },
-    {
-      "id": "QlaGDL69HjY",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "おもかげ covered by 音ノ乃のの＆戌亥とこ＆緑仙",
-      "thumb": "https://i.ytimg.com/vi/QlaGDL69HjY/hqdefault.jpg",
-      "publishedAt": "2026-09-02T12:00:06Z",
-      "live": false
-    },
-    {
-      "id": "ZnbMFL12CCY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex】突発コラボ！ゆらちゃんとランク【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ZnbMFL12CCY/hqdefault.jpg",
-      "publishedAt": "2026-09-02T11:32:19Z",
-      "live": false
-    },
-    {
-      "id": "jQj96UUuFfg",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "右と左どっち？👈👉Left or Right?! #shorts #animation #illustration",
-      "thumb": "https://i.ytimg.com/vi/jQj96UUuFfg/hqdefault.jpg",
-      "publishedAt": "2026-09-02T09:00:38Z",
-      "live": false
-    },
-    {
-      "id": "6UNsgZF2lMM",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/6UNsgZF2lMM/hqdefault.jpg",
-      "publishedAt": "2026-09-02T09:00:30Z",
       "live": false
     }
   ],

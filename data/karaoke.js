@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "R4oRuHrYY4g",
+    "memberId": "liz",
+    "publishedAt": "2026-09-06",
+    "title": "【歌枠】ちょっとサムネねむちょもの顔真似してみた【雨夜リズ/ミリプロ】",
+    "duration": 6215,
+    "songs": []
+  },
+  {
     "id": "6q9mf4_ufvI",
     "memberId": "yura",
     "publishedAt": "2026-09-05",

@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-08",
   "songs": {
     "surges＆": {
       "title": "Surges",
@@ -19,12 +19,6 @@ window.SONG_MASTER = {
       "artist": "カンザキイオリ",
       "album": "白紙",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg"
-    },
-    "netchooseshow": {
-      "title": "NET CHOOSE SHOW",
-      "artist": "雨夜リズ",
-      "album": "NET CHOOSE SHOW - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/45/04/0f450497-102f-3bfc-9e7b-f8aed02d27c7/PA00225408_0_252573_jacket.jpg/600x600bb.jpg"
     },
     "八月の夜": {
       "title": "八月の夜",
@@ -483,13 +477,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Let's dance"
-      }
+      "title": "アンドロメダ",
+      "artist": "aiko",
+      "album": "暁のラブレター",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/e1/2d/39e12d27-a080-b9b7-962f-08d2676e085f/dj.rvhspbob.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -1002,13 +993,10 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "marshall maximizer"
-      }
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
     },
     "祝福": {
       "title": "祝福",
@@ -1332,7 +1320,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1638,10 +1626,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "ロマンティックいか焼き",
-      "artist": "乃木坂46",
-      "album": "君の名は希望 TypeA - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
@@ -1675,12 +1663,6 @@ window.SONG_MASTER = {
       "artist": "Adam Ozari",
       "album": "センチメンタルな愛慕心 (feat. Muhammad Zaky Zulfiqor & Rora Meeza) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/01/59/99/01599957-2275-80b6-efcf-383cde773967/198009138098.png/600x600bb.jpg"
-    },
-    "ケッペキショウいました": {
-      "title": "絶望性:ヒーロー治療薬 (feat. そらる)",
-      "artist": "スズム",
-      "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
       "title": "ドーナツホール (COVER)",
@@ -1890,10 +1872,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
-      "title": "Alien Alien",
-      "artist": "Nayutalien",
-      "album": "Nayutan Sei Kara No Buttai Y",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/5fcbcac1572f1a22ceec2a1bf083b7d5/500x500-000000-80-0-0.jpg"
+      "title": "エイリアンエイリアン",
+      "artist": "ナユタン星人",
+      "album": "ナユタン星からの物体Y",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/df/90/0a/df900a21-8c01-c600-3898-78572b3a7bd3/4562251593879_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "alien alien"
+      }
     },
     "ようかい体操第一": {
       "title": "ようかい体操第一",
