@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-08T15:28:01.465Z",
+  "updatedAt": "2026-09-08T19:02:36.495Z",
   "streams": [
-    {
-      "id": "pNA7blKMe34",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T10:00:10Z",
-      "status": "live"
-    },
-    {
-      "id": "CiFzk0xZYPo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T11:31:37Z",
-      "status": "live"
-    },
-    {
-      "id": "4Y4sps7GDDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
-      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T15:00:05Z",
-      "status": "live"
-    },
     {
       "id": "AxKbURZpmPU",
       "memberId": "yura",
@@ -235,6 +208,36 @@
   ],
   "videos": [
     {
+      "id": "CiFzk0xZYPo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault.jpg",
+      "publishedAt": "2026-09-08T18:42:28Z",
+      "live": false
+    },
+    {
+      "id": "4Y4sps7GDDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault.jpg",
+      "publishedAt": "2026-09-08T16:39:52Z",
+      "live": true
+    },
+    {
+      "id": "pNA7blKMe34",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault.jpg",
+      "publishedAt": "2026-09-08T16:17:43Z",
+      "live": false
+    },
+    {
       "id": "PKXFq4Jeel8",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -255,16 +258,6 @@
       "live": false
     },
     {
-      "id": "4Y4sps7GDDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
-      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault_live.jpg",
-      "publishedAt": "2026-09-08T15:00:05Z",
-      "live": true
-    },
-    {
       "id": "AxKbURZpmPU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -275,16 +268,6 @@
       "live": false
     },
     {
-      "id": "CiFzk0xZYPo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
-      "publishedAt": "2026-09-08T11:31:37Z",
-      "live": false
-    },
-    {
       "id": "3fOVYO-ClXM",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -292,16 +275,6 @@
       "title": "未来予測装置！？画面にゲージが出る世界 #minecraft",
       "thumb": "https://i.ytimg.com/vi/3fOVYO-ClXM/hqdefault.jpg",
       "publishedAt": "2026-09-08T11:03:17Z",
-      "live": false
-    },
-    {
-      "id": "pNA7blKMe34",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
-      "publishedAt": "2026-09-08T10:00:10Z",
       "live": false
     },
     {
@@ -439,7 +412,7 @@
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】ちょっとサムネねむちょもの顔真似してみた【雨夜リズ/ミリプロ】",
+      "title": "【歌枠】かなりちるのうた【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/R4oRuHrYY4g/hqdefault.jpg",
       "publishedAt": "2026-09-06T12:58:23Z",
       "live": false
@@ -535,33 +508,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "pNA7blKMe34",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T10:00:10Z",
-      "status": "live"
-    },
-    {
-      "id": "CiFzk0xZYPo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T11:31:37Z",
-      "status": "live"
-    },
-    {
-      "id": "4Y4sps7GDDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
-      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-08T15:00:05Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
