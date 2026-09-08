@@ -128,9 +128,17 @@
   function pillRow(name, opts, sel) {
     return '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0" data-pills="' + name + '">'
       + opts.map(function (o) {
-        return '<button type="button" class="cd-style-btn' + (o.v === sel ? " on" : "") + '" data-val="' + o.v + '" style="flex:1;min-width:100px">'
+        return '<button type="button" class="cd-style-btn' + (o.v === sel ? " active" : "") + '" data-val="' + o.v + '" aria-pressed="' + (o.v === sel) + '" style="flex:1;min-width:100px">'
           + esc(o.t) + "</button>";
       }).join("") + "</div>";
+  }
+
+  function destBanner(label) {
+    return '<div style="background:var(--accent-soft);border:2px solid var(--accent);border-radius:12px;padding:8px 14px;font-weight:900;margin:6px 0 4px">📮 送信先：' + esc(label) + '</div>';
+  }
+
+  function stepLabel(n, text) {
+    return '<div style="font-weight:900;margin:14px 0 2px;font-size:.9rem"><span style="display:inline-block;background:var(--accent-deep);color:#fff;border-radius:999px;padding:1px 10px;margin-right:6px;font-size:.78rem">STEP ' + n + '</span>' + esc(text) + '</div>';
   }
   function field(label, inner, hint) {
     return '<label style="display:block;margin:10px 0 2px;font-weight:800;font-size:.82rem">' + label + "</label>" + inner
@@ -166,12 +174,14 @@
     var kind = current.kind || "other";
     var svcs = [{ v: "orbis", t: "Milli Orbis" }, { v: "unishare", t: "Milli Unishare" }, { v: "games", t: "Milli Games" }, { v: "other", t: "その他" }];
     boxBody.innerHTML = '<h3 style="margin:0 0 4px">お問い合わせ <span style="font-size:.72rem;color:var(--muted)">全サービス共通窓口</span></h3>'
-      + '<p class="acct-hint">まず対象サービスを選んでください。内容は運営が確認します（返信が必要な場合はメールアドレスへ）。</p>'
+      + '<p class="acct-hint">内容は運営が確認します（返信が必要な場合はメールアドレスへ）。</p>'
+      + stepLabel(1, "対象サービスを選ぶ")
       + pillRow("target", svcs, sel)
-      + '<p class="acct-hint" style="font-weight:800;margin:2px 0 0">送信先：' + esc(TARGET_LABEL[sel]) + '</p>'
-      + field("種別", kindPillsHtml(kind))
-      + '<div data-area="serviceNote" style="display:' + (sel === "other" ? "" : "none") + '">'
-      + field("サイト名・サービス名", input("serviceNote", "例：○○（URLがあれば本文へ）")) + "</div>"
+      + destBanner(TARGET_LABEL[sel])
+      + stepLabel(2, "種別を選ぶ")
+      + kindPillsHtml(kind)
+      + stepLabel(3, "内容を入力する")
+      + field("サイト名・サービス名" + (sel === "other" ? "（必須）" : "（「その他」の場合のみ）"), input("serviceNote", "例：○○（URLがあれば本文へ）"))
       + field("件名（任意）", input("subject", "例：誤字の報告"))
       + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
       + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。")
@@ -187,7 +197,7 @@
   function kindPillsHtml(kind) {
     return '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0" data-kindpills>'
       + KINDS.map(function (k) {
-        return '<button type="button" class="cd-style-btn' + (k === kind ? " on" : "") + '" data-val="' + k + '" style="flex:1;min-width:100px">' + esc(KIND_LABEL[k]) + "</button>";
+        return '<button type="button" class="cd-style-btn' + (k === kind ? " active" : "") + '" data-val="' + k + '" aria-pressed="' + (k === kind) + '" style="flex:1;min-width:100px">' + esc(KIND_LABEL[k]) + "</button>";
       }).join("") + "</div>";
   }
 
@@ -198,7 +208,7 @@
       var b = e.target.closest("button[data-val]");
       if (!b) return;
       current.kind = b.getAttribute("data-val");
-      wrap.querySelectorAll("button[data-val]").forEach(function (x) { x.classList.toggle("on", x === b); });
+      wrap.querySelectorAll("button[data-val]").forEach(function (x) { var on = x === b; x.classList.toggle("active", on); x.setAttribute("aria-pressed", String(on)); });
     });
   }
 
@@ -206,8 +216,10 @@
     sel = sel || "map";
     boxBody.innerHTML = '<h3 style="margin:0 0 4px">MilliDexへのお問い合わせ</h3>'
       + '<p class="acct-hint">有志マップの目撃情報・過去グッズの追加依頼はこちら。運営が確認後にサイトへ反映します。</p>'
+      + stepLabel(1, "送信先を選ぶ")
       + pillRow("target", [{ v: "map", t: "有志マップ" }, { v: "goods", t: "過去グッズ申請" }], sel)
-      + '<p class="acct-hint" style="font-weight:800;margin:2px 0 0">送信先：' + esc(TARGET_LABEL[sel]) + '</p>'
+      + destBanner(TARGET_LABEL[sel])
+      + stepLabel(2, "内容を入力する")
       + '<div data-area="form"></div>'
       + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
       + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
@@ -399,18 +411,29 @@
       var el = root.querySelector("[data-pg-msg]");
       if (el) { el.textContent = text; el.style.color = kind === "err" ? "#c0392b" : "var(--accent-deep)"; }
     }
+    function entryTabsHtml() {
+      var tabs = [
+        { v: "service", t: "全サービス", d: "バグ報告・要望・削除依頼など" },
+        { v: "millidex", t: "MilliDex", d: "マップ目撃情報・グッズ追加申請" }
+      ];
+      return '<div style="display:flex;gap:10px;flex-wrap:wrap;margin:8px 0">'
+        + tabs.map(function (o) {
+          return '<button type="button" class="cd-style-btn' + (o.v === pg.entry ? " active" : "") + '" data-pg-entry="' + o.v + '" aria-pressed="' + (o.v === pg.entry) + '" style="flex:1;min-width:150px;padding:12px 10px;line-height:1.6">'
+            + '<span style="display:block;font-size:1.02rem">📋 ' + esc(o.t) + '</span>'
+            + '<span style="display:block;font-size:.72rem;font-weight:700;opacity:.85">' + esc(o.d) + '</span></button>';
+        }).join("") + "</div>";
+    }
     function draw() {
       var keep = snapshot();
-      root.innerHTML = '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0">'
-        + [{ v: "service", t: "全サービス" }, { v: "millidex", t: "MilliDex（マップ・グッズ申請）" }].map(function (o) {
-          return '<button type="button" class="cd-style-btn' + (o.v === pg.entry ? " on" : "") + '" data-pg-entry="' + o.v + '" style="flex:1;min-width:140px">' + esc(o.t) + "</button>";
-        }).join("") + "</div>"
+      root.innerHTML = stepLabel(1, "窓口を選ぶ")
+        + entryTabsHtml()
+        + stepLabel(2, "送信先を選ぶ")
         + '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0">'
         + pgTargets().map(function (o) {
-          return '<button type="button" class="cd-style-btn' + (o.v === pg.target ? " on" : "") + '" data-pg-target="' + o.v + '" style="flex:1;min-width:100px">' + esc(o.t) + "</button>";
+          return '<button type="button" class="cd-style-btn' + (o.v === pg.target ? " active" : "") + '" data-pg-target="' + o.v + '" aria-pressed="' + (o.v === pg.target) + '" style="flex:1;min-width:100px">' + esc(o.t) + "</button>";
         }).join("") + "</div>"
-        + '<p class="acct-hint" style="font-weight:800;font-size:1rem;margin:4px 0">送信先：' + esc(TARGET_LABEL[pg.target]) + '</p>'
-        + (pg.entry === "service" ? field("種別", kindPillsHtml(pg.kind)) : "")
+        + destBanner(TARGET_LABEL[pg.target])
+        + (pg.entry === "service" ? stepLabel(3, "種別を選ぶ") + kindPillsHtml(pg.kind) + stepLabel(4, "内容を入力する") : stepLabel(3, "内容を入力する"))
         + pgFields()
         + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
         + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
@@ -435,7 +458,7 @@
         var b = e.target.closest("button[data-val]");
         if (!b) return;
         pg.kind = b.getAttribute("data-val");
-        kw.querySelectorAll("button[data-val]").forEach(function (x) { x.classList.toggle("on", x === b); });
+        kw.querySelectorAll("button[data-val]").forEach(function (x) { var on = x === b; x.classList.toggle("active", on); x.setAttribute("aria-pressed", String(on)); });
       });
       var btn = root.querySelector("[data-pg-send]");
       if (btn) btn.addEventListener("click", function () {
