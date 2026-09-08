@@ -17,6 +17,8 @@
 |---|---|---|---|
 | `entry` | string | ○ | `service`（①）／`millidex`（②） |
 | `target` | string | ○ | ①：`orbis`／`unishare`／`games`／`other`。②：`map`／`goods` |
+| `kind` | string | △ | ①のみ種別：`request`（追加依頼）／`bug`（バグ報告）／`remove`（削除依頼）／`other`（その他）。未指定時は `other` |
+| `email` | string | ①のみ○ | ①のみ必須（迷惑行為防止）。形式 `*@*.*`・5〜200字 |
 | `serviceNote` | string | △ | `target:other` 時のサイト名等（最大100字） |
 | `subject` | string | △ | ①のみ件名（最大100字） |
 | `body` | string | ○ | 本文（最大2000字。②map/goodsでは補足・コメント欄） |
@@ -42,7 +44,7 @@
   "$id": {
     ".write": "newData.exists() && !data.exists()",
     ".read": "false",
-    ".validate": "newData.hasChildren(['entry','target','body','fields','status','createdAt']) && newData.child('status').val() === 'pending' && (newData.child('entry').val() === 'service' || newData.child('entry').val() === 'millidex') && (newData.child('target').val() === 'orbis' || newData.child('target').val() === 'unishare' || newData.child('target').val() === 'games' || newData.child('target').val() === 'other' || newData.child('target').val() === 'map' || newData.child('target').val() === 'goods') && newData.child('body').isString() && newData.child('body').val().length > 0 && newData.child('body').val().length <= 2000"
+    ".validate": "newData.hasChildren(['entry','target','body','fields','status','createdAt']) && newData.child('status').val() === 'pending' && (newData.child('entry').val() === 'service' || newData.child('entry').val() === 'millidex') && (newData.child('target').val() === 'orbis' || newData.child('target').val() === 'unishare' || newData.child('target').val() === 'games' || newData.child('target').val() === 'other' || newData.child('target').val() === 'map' || newData.child('target').val() === 'goods') && newData.child('body').isString() && newData.child('body').val().length > 0 && newData.child('body').val().length <= 2000 && (!newData.hasChild('kind') || newData.child('kind').val() === 'request' || newData.child('kind').val() === 'bug' || newData.child('kind').val() === 'remove' || newData.child('kind').val() === 'other') && (newData.child('entry').val() !== 'service' || (newData.child('email').isString() && newData.child('email').val().length >= 5 && newData.child('email').val().length <= 200 && newData.child('email').val().matches(/^[^@]+@[^@]+[.][^@]+$/)))"
   }
 }
 ```
@@ -70,4 +72,6 @@
 
 - `scripts/contact.js`：`pushContact(entry, target, data)`／honeypot（`company` 欄）／1分1件制限（localStorage `milli-contact-last`）／未設定・rules未適用時の画面案内
 - モーダルは `acct-overlay`／`acct-box` 意匠を流用し `scripts/contact.js` 内で生成（各頁HTMLは触らない）
+- 専用ページ `contact.html`：`ContactHub.renderPageForm()` でインライン描画（`?entry=`・`?target=` で初期選択可）。他画面からの導線は未設置
+- テスト用直リンク：`?contact=service`／`millidex-map`／`millidex-goods`（`openFromUrl` が自動オープン。UI導線は出さない）
 - 導線：全頁フッター＋全頁ドロワーへ2リンク注入（`script.js boot` から `ContactHub.inject()` 呼び出し）。`goods/map.html` の提供リンク・`goods/archive.html` の追加依頼ボタンは各専用フォームへ直結

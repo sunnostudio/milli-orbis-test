@@ -12,6 +12,10 @@
   var RATE_MS = 60000;
   var TARGETS = ["orbis", "unishare", "games", "other", "map", "goods"];
   var TARGET_LABEL = { orbis: "Milli Orbis", unishare: "Milli Unishare", games: "Milli Games", other: "その他", map: "有志マップ", goods: "過去グッズ申請" };
+  var KINDS = ["request", "bug", "remove", "other"];
+  var KIND_LABEL = { request: "追加依頼", bug: "バグ報告", remove: "削除依頼", other: "その他" };
+  var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  var DISCLAIMER = "※ 内容によっては対応できない場合があります。あらかじめご了承ください。";
   var PREFS = ["北海道","青森県","岩手県","宮城県","秋田県","山形県","福島県","茨城県","栃木県","群馬県","埼玉県","千葉県","東京都","神奈川県","新潟県","富山県","石川県","福井県","山梨県","長野県","岐阜県","静岡県","愛知県","三重県","滋賀県","京都府","大阪府","兵庫県","奈良県","和歌山県","鳥取県","島根県","岡山県","広島県","山口県","徳島県","香川県","愛媛県","高知県","福岡県","佐賀県","長崎県","熊本県","大分県","宮崎県","鹿児島県","沖縄県"];
 
   function esc(s) {
@@ -50,6 +54,13 @@
     var body = trimStr(d.body, 2000);
     if (!body) return Promise.resolve({ ok: false, error: "empty" });
     if (rateBlocked()) return Promise.resolve({ ok: false, error: "rate" });
+    var kind = "other", email = null;
+    if (entry === "service") {
+      kind = KINDS.indexOf(d.kind) >= 0 ? d.kind : "other";
+      email = trimStr(d.email, 200);
+      if (!email) return Promise.resolve({ ok: false, error: "emailRequired" });
+      if (!EMAIL_RE.test(email)) return Promise.resolve({ ok: false, error: "email" });
+    }
     var fields = {};
     ["shop", "pref", "date", "item", "member", "url", "image", "price", "period"].forEach(function (k) {
       if (d[k] != null && String(d[k]).trim() !== "") fields[k] = trimStr(d[k], 200);
@@ -62,6 +73,8 @@
     if (!database) return Promise.resolve({ ok: false, error: "unavailable" });
     var rec = {
       entry: entry, target: target,
+      kind: entry === "service" ? kind : null,
+      email: email,
       serviceNote: trimStr(d.serviceNote, 100) || null,
       subject: trimStr(d.subject, 100) || null,
       body: body, fields: fields,
@@ -82,6 +95,8 @@
     entry: "種別エラーです。開き直してお試しください。",
     target: "選択エラーです。開き直してお試しください。",
     empty: "本文を入力してください。",
+    emailRequired: "メールアドレスを入力してください（迷惑行為防止のため必須です）。",
+    email: "メールアドレスの形式が正しくありません。",
     rate: "連続投稿は1分ほど空けてください。",
     required: "必須項目を入力してください。",
     unavailable: "送信基盤に接続できませんでした。時間をおいてお試しください。",
@@ -145,22 +160,46 @@
     if (el) { el.textContent = text; el.style.color = kind === "err" ? "#c0392b" : "var(--accent-deep)"; }
   }
 
-  function renderService(sel) {
+  function renderService(sel, keepKind) {
     sel = sel || "orbis";
+    if (!keepKind && !current.kind) current.kind = "other";
+    var kind = current.kind || "other";
     var svcs = [{ v: "orbis", t: "Milli Orbis" }, { v: "unishare", t: "Milli Unishare" }, { v: "games", t: "Milli Games" }, { v: "other", t: "その他" }];
     boxBody.innerHTML = '<h3 style="margin:0 0 4px">お問い合わせ <span style="font-size:.72rem;color:var(--muted)">全サービス共通窓口</span></h3>'
-      + '<p class="acct-hint">まず対象サービスを選んでください。内容は運営が確認します（返信が必要な場合は連絡先へ）。</p>'
+      + '<p class="acct-hint">まず対象サービスを選んでください。内容は運営が確認します（返信が必要な場合はメールアドレスへ）。</p>'
       + pillRow("target", svcs, sel)
+      + '<p class="acct-hint" style="font-weight:800;margin:2px 0 0">送信先：' + esc(TARGET_LABEL[sel]) + '</p>'
+      + field("種別", kindPillsHtml(kind))
       + '<div data-area="serviceNote" style="display:' + (sel === "other" ? "" : "none") + '">'
       + field("サイト名・サービス名", input("serviceNote", "例：○○（URLがあれば本文へ）")) + "</div>"
       + field("件名（任意）", input("subject", "例：誤字の報告"))
       + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
-      + field("連絡先（任意・X IDやメール）", input("contact", "返信が必要な場合のみ"))
+      + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。")
       + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
+      + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
       + '<p class="acct-msg" data-contact-msg></p>'
       + '<button type="button" class="btn" data-contact-send style="width:100%;justify-content:center">送信する</button>';
-    wirePills("target", function (v) { renderService(v); });
+    wirePills("target", function (v) { renderService(v, true); });
+    wireKindPills();
     wireSend("service", function () { return { target: current.target }; });
+  }
+
+  function kindPillsHtml(kind) {
+    return '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0" data-kindpills>'
+      + KINDS.map(function (k) {
+        return '<button type="button" class="cd-style-btn' + (k === kind ? " on" : "") + '" data-val="' + k + '" style="flex:1;min-width:100px">' + esc(KIND_LABEL[k]) + "</button>";
+      }).join("") + "</div>";
+  }
+
+  function wireKindPills() {
+    var wrap = boxBody.querySelector("[data-kindpills]");
+    if (!wrap) return;
+    wrap.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-val]");
+      if (!b) return;
+      current.kind = b.getAttribute("data-val");
+      wrap.querySelectorAll("button[data-val]").forEach(function (x) { x.classList.toggle("on", x === b); });
+    });
   }
 
   function renderMillidex(sel) {
@@ -168,8 +207,10 @@
     boxBody.innerHTML = '<h3 style="margin:0 0 4px">MilliDexへのお問い合わせ</h3>'
       + '<p class="acct-hint">有志マップの目撃情報・過去グッズの追加依頼はこちら。運営が確認後にサイトへ反映します。</p>'
       + pillRow("target", [{ v: "map", t: "有志マップ" }, { v: "goods", t: "過去グッズ申請" }], sel)
+      + '<p class="acct-hint" style="font-weight:800;margin:2px 0 0">送信先：' + esc(TARGET_LABEL[sel]) + '</p>'
       + '<div data-area="form"></div>'
       + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
+      + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
       + '<p class="acct-msg" data-contact-msg></p>'
       + '<button type="button" class="btn" data-contact-send style="width:100%;justify-content:center">送信する</button>';
     wirePills("target", function (v) { renderMillidex(v); });
@@ -216,6 +257,7 @@
     btn.addEventListener("click", function () {
       var d = collect();
       var t = getTarget();
+      if (entry === "service") d.kind = current.kind || "other";
       btn.disabled = true;
       showMsg("ok", "送信中…");
       pushContact(entry, t.target, d).then(function (r) {
@@ -231,7 +273,7 @@
     });
   }
 
-  function openService() { current = { entry: "service", target: "orbis" }; ensureOverlay(); renderService("orbis"); open(); }
+  function openService() { current = { entry: "service", target: "orbis", kind: "other" }; ensureOverlay(); renderService("orbis"); open(); }
   function openMillidex(preset) {
     current = { entry: "millidex", target: preset === "goods" ? "goods" : "map" };
     ensureOverlay(); renderMillidex(current.target); open();
@@ -293,5 +335,128 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", openFromUrl);
   else openFromUrl();
 
-  window.ContactHub = { openService: openService, openMillidex: openMillidex, push: pushContact, inject: inject };
+  /* ---------- 専用ページ用インライン描画 ---------- */
+  function renderPageForm(root, preset) {
+    if (!root) return;
+    var pg = { entry: "service", target: "orbis", kind: "other" };
+    try {
+      var q = new URLSearchParams(location.search);
+      if (q.get("entry") === "millidex") pg.entry = "millidex";
+      var qt = q.get("target");
+      if (qt === "map" || qt === "goods") { pg.entry = "millidex"; pg.target = qt; }
+      else if (qt === "orbis" || qt === "unishare" || qt === "games" || qt === "other") { pg.entry = "service"; pg.target = qt; }
+      if (preset) {
+        if (preset.entry === "service" || preset.entry === "millidex") pg.entry = preset.entry;
+        if (preset.target && TARGETS.indexOf(preset.target) >= 0) pg.target = preset.target;
+      }
+      if (pg.entry === "service" && (pg.target === "map" || pg.target === "goods")) pg.target = "orbis";
+      if (pg.entry === "millidex" && pg.target !== "map" && pg.target !== "goods") pg.target = "map";
+    } catch (e) {}
+    function pgTargets() {
+      return pg.entry === "service"
+        ? [{ v: "orbis", t: "Milli Orbis" }, { v: "unishare", t: "Milli Unishare" }, { v: "games", t: "Milli Games" }, { v: "other", t: "その他" }]
+        : [{ v: "map", t: "有志マップ" }, { v: "goods", t: "過去グッズ申請" }];
+    }
+    function pgFields() {
+      if (pg.entry === "millidex") {
+        if (pg.target === "map") {
+          return field("店舗名（必須）", input("shop", "例：アニメイト池袋本店"))
+            + field("都道府県（必須）", '<select data-f="pref" style="width:100%;box-sizing:border-box"><option value="">選択してください</option>'
+              + PREFS.map(function (p) { return '<option value="' + p + '">' + p + "</option>"; }).join("") + "</select>")
+            + field("目撃日（任意）", input("date", "例：2026-09-06", "", "date"))
+            + field("グッズ名（必須）", input("item", "例：レトロポップver. 缶バッジ"))
+            + field("タレント（任意）", '<select data-f="member" style="width:100%;box-sizing:border-box">' + memberOptions() + "</select>")
+            + field("補足・コメント", textarea("body", "在庫状況・売場の場所など", 3))
+            + field("連絡先（任意）", input("contact", "X IDやメール（返信が必要な場合のみ）"));
+        }
+        return field("グッズ名（必須）", input("item", "例：○○記念グッズ アクリルスタンド"))
+          + field("公式商品URL（任意）", input("url", "https://…", "", "url"))
+          + field("画像URL（任意）", input("image", "https://…", "", "url"))
+          + field("金額（任意）", input("price", "例：1800", "", "number"))
+          + field("販売時期（任意）", input("period", "例：2025年8月〜9月"))
+          + field("補足", textarea("body", "販売場所・受注期間など分かる範囲で", 3))
+          + field("連絡先（任意）", input("contact", "X IDやメール（返信が必要な場合のみ）"));
+      }
+      return (pg.target === "other" ? field("サイト名・サービス名", input("serviceNote", "例：○○（URLがあれば本文へ）")) : "")
+        + field("件名（任意）", input("subject", "例：誤字の報告"))
+        + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
+        + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。");
+    }
+    function snapshot() {
+      var o = {};
+      try { root.querySelectorAll("[data-f]").forEach(function (el) { o[el.getAttribute("data-f")] = el.value; }); } catch (e) {}
+      return o;
+    }
+    function restore(o) {
+      try {
+        root.querySelectorAll("[data-f]").forEach(function (el) {
+          var k = el.getAttribute("data-f");
+          if (o[k] != null && k !== "company") el.value = o[k];
+        });
+      } catch (e) {}
+    }
+    function pgMsg(kind, text) {
+      var el = root.querySelector("[data-pg-msg]");
+      if (el) { el.textContent = text; el.style.color = kind === "err" ? "#c0392b" : "var(--accent-deep)"; }
+    }
+    function draw() {
+      var keep = snapshot();
+      root.innerHTML = '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0">'
+        + [{ v: "service", t: "全サービス" }, { v: "millidex", t: "MilliDex（マップ・グッズ申請）" }].map(function (o) {
+          return '<button type="button" class="cd-style-btn' + (o.v === pg.entry ? " on" : "") + '" data-pg-entry="' + o.v + '" style="flex:1;min-width:140px">' + esc(o.t) + "</button>";
+        }).join("") + "</div>"
+        + '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0">'
+        + pgTargets().map(function (o) {
+          return '<button type="button" class="cd-style-btn' + (o.v === pg.target ? " on" : "") + '" data-pg-target="' + o.v + '" style="flex:1;min-width:100px">' + esc(o.t) + "</button>";
+        }).join("") + "</div>"
+        + '<p class="acct-hint" style="font-weight:800;font-size:1rem;margin:4px 0">送信先：' + esc(TARGET_LABEL[pg.target]) + '</p>'
+        + (pg.entry === "service" ? field("種別", kindPillsHtml(pg.kind)) : "")
+        + pgFields()
+        + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
+        + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
+        + '<p class="acct-msg" data-pg-msg></p>'
+        + '<button type="button" class="btn" data-pg-send style="width:100%;justify-content:center">送信する</button>';
+      restore(keep);
+      root.querySelectorAll("[data-pg-entry]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          pg.entry = b.getAttribute("data-pg-entry");
+          pg.target = pg.entry === "service" ? "orbis" : "map";
+          draw();
+        });
+      });
+      root.querySelectorAll("[data-pg-target]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          pg.target = b.getAttribute("data-pg-target");
+          draw();
+        });
+      });
+      var kw = root.querySelector("[data-kindpills]");
+      if (kw) kw.addEventListener("click", function (e) {
+        var b = e.target.closest("button[data-val]");
+        if (!b) return;
+        pg.kind = b.getAttribute("data-val");
+        kw.querySelectorAll("button[data-val]").forEach(function (x) { x.classList.toggle("on", x === b); });
+      });
+      var btn = root.querySelector("[data-pg-send]");
+      if (btn) btn.addEventListener("click", function () {
+        var d = {};
+        try { root.querySelectorAll("[data-f]").forEach(function (el) { d[el.getAttribute("data-f")] = el.value; }); } catch (e) {}
+        d.kind = pg.kind || "other";
+        btn.disabled = true;
+        pgMsg("ok", "送信中…");
+        pushContact(pg.entry, pg.target, d).then(function (r) {
+          btn.disabled = false;
+          if (r.ok) {
+            pgMsg("ok", "送信しました。内容を受け付けました。");
+            try { root.querySelectorAll("[data-f]").forEach(function (el) { if (el.getAttribute("data-f") !== "company") el.value = ""; }); } catch (e) {}
+          } else {
+            pgMsg("err", ERR_MSG[r.error] || ERR_MSG.db);
+          }
+        });
+      });
+    }
+    draw();
+  }
+
+  window.ContactHub = { openService: openService, openMillidex: openMillidex, push: pushContact, inject: inject, renderPageForm: renderPageForm };
 })();

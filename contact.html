@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お問い合わせ | Milli Orbis</title>
+<meta name="description" content="Milli Orbis・Milli Unishare・Milli Games・MilliDexへのお問い合わせ窓口です。バグ報告・追加依頼・削除依頼などを受け付けています。">
+<link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
+<link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#75b1c0">
+<script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Milli Orbis">
+<meta property="og:title" content="お問い合わせ | Milli Orbis">
+<meta property="og:description" content="Milli Orbis・Milli Unishare・Milli Games・MilliDexへのお問い合わせ窓口です。バグ報告・追加依頼・削除依頼などを受け付けています。">
+<meta property="og:url" content="https://milli-orbis-portal.onrender.com/contact.html">
+<meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<meta property="og:image:width" content="1729">
+<meta property="og:image:height" content="910">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="お問い合わせ | Milli Orbis">
+<meta name="twitter:description" content="Milli Orbis・Milli Unishare・Milli Games・MilliDexへのお問い合わせ窓口です。バグ報告・追加依頼・削除依頼などを受け付けています。">
+<meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-member="" data-oshi="">
+<header id="siteHeader">
+  <div class="header-inner">
+    <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+    <nav class="nav">
+      <a href="index.html#home">Home</a>
+      
+      <div class="nav-drop" id="memberDrop">
+        <button type="button" class="nav-drop-btn">Member Guide<span class="caret"></span></button>
+        <div class="nav-drop-menu">
+          <a class="drop-top" href="index.html#members" data-i18n="nav.memberAll">Member Guide 一覧へ</a>
+          <div class="drop-sep"></div>
+          <a href="konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+          <a href="nono.html" data-i18n-name="nono">音ノ乃のの</a>
+          <a href="akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+          <a href="koma.html" data-i18n-name="koma">小廻こま</a>
+          <a href="raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+          <a href="yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+          <a href="nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+          <a href="tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+          <a href="liz.html" data-i18n-name="liz">雨夜リズ</a>
+          <a href="rei.html" data-i18n-name="rei">夕霧レイ</a>
+          <a href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+          <div class="drop-sep"></div>
+          <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+          <a href="account.html" data-i18n="nav.account">マイページ</a>
+        </div>
+      </div>
+      <a href="goods/current.html">MilliDex</a>
+      <a href="index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
+      <a href="index.html#calendar">Event Calendar</a>
+      <a href="index.html#links">Official Links</a>
+      <a href="cursors.html">カーソル配布</a>
+    </nav>
+    
+    <div class="header-actions">
+      <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="Milli Orbisアカウント" data-i18n-aria="header.profile">
+        <span class="profile-icon" id="profile-header-icon">?</span>
+      </button>
+      <div class="oshi-cursor-wrap" id="oshiCursorWrap">
+        <button id="oshiCursorBtn" class="oshi-cursor-btn" aria-label="カーソルと推しを選択" aria-expanded="false" aria-haspopup="true">
+          <span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
+          <span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0;background-size:cover;background-position:center;"></span>
+          <span class="oshi-cursor-label">表示</span>
+        </button>
+        <div id="oshiCursorDropdown" class="oshi-cursor-dropdown" role="menu" aria-hidden="true"></div>
+      </div>
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi" style="display:none"></select>
+      <button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
+    
+      <div class="drawer-section-label">設定</div>
+      <div class="drawer-settings">
+        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
+      </div>
+      <div class="drawer-section-label">セクション</div>
+      <a href="index.html#home">Home</a>
+      <a href="index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+      <a href="index.html#members">Member Guide</a>
+      <a href="index.html#calendar">Event Calendar</a>
+      <a href="index.html#links">Official Links</a>
+      <div class="drawer-section-label">Member Guide</div>
+      <a class="mobile-sub" href="konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+      <a class="mobile-sub" href="nono.html" data-i18n-name="nono">音ノ乃のの</a>
+      <a class="mobile-sub" href="akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+      <a class="mobile-sub" href="koma.html" data-i18n-name="koma">小廻こま</a>
+      <a class="mobile-sub" href="raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+      <a class="mobile-sub" href="yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+      <a class="mobile-sub" href="nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+      <a class="mobile-sub" href="tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+      <a class="mobile-sub" href="liz.html" data-i18n-name="liz">雨夜リズ</a>
+      <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
+      <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+      <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+      <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <div class="drawer-section-label">MilliDex</div>
+      <a href="goods/current.html">現在販売中</a>
+      <a href="goods/shops.html" class="mobile-sub">販売箇所検索</a>
+      <a href="goods/map.html" class="mobile-sub">有志マップ</a>
+      <a href="goods/archive.html" class="mobile-sub">過去アーカイブ</a>
+      <a href="goods/mine.html" class="mobile-sub">マイグッズ</a>
+      <div class="drawer-section-label">コンテンツ</div>
+      <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
+      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
+      <a href="cursors.html">カーソル配布</a>
+      <a href="account.html" data-i18n="nav.account">マイページ</a>
+  </nav>
+</header>
+
+<main class="container">
+  <nav class="breadcrumb"><a href="index.html">Home</a><span>お問い合わせ</span></nav>
+
+  <section class="subpage-hero">
+    <h1>お問い合わせ</h1>
+    <p>全サービス・MilliDex（有志マップ・過去グッズ申請）へのお問い合わせ窓口です。送信先を選んで送信してください。内容は運営が確認します。</p>
+  </section>
+
+  <section class="section">
+    <div class="card" style="padding:20px 22px;margin-bottom:22px;">
+      <div id="contactPageRoot"><p class="acct-hint">読み込み中…</p></div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <p class="disclaimer" data-i18n="footer.disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
+  <p class="source-note"><span data-i18n="footer.source">ミリプロ（Million Production）公式サイト:</span> <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p>
+  <p class="source-note"><span data-i18n="footer.apiPre">YouTube Data API を利用しています（</span><a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a><span data-i18n="footer.apiPost">）</span></p>
+  <p class="source-note"><span data-i18n="footer.yt">本サイトは YouTube の利用規約に同意の上でご利用ください: </span><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">https://www.youtube.com/t/terms</a></p>
+  <p data-i18n="footer.copy">© 2026 Milli Orbis（非公式ファンサイト）</p>
+  <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
+</footer>
+
+
+<!-- Milli Unishare 参考: アカウント連携 4モーダル構成 -->
+<div id="acctModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="acctModal" aria-label="閉じる">×</button>
+    <h3><span style="background:linear-gradient(120deg,#4fc3f7,#b48cf2,#f78fc0);-webkit-background-clip:text;background-clip:text;color:transparent;">🔗</span> <span data-i18n="login.title">Milli Orbisアカウント連携</span></h3>
+    <div style="padding:0 22px 18px;overflow-y:auto;">
+      <p class="acct-hint" data-i18n-html="login.desc">Milli Orbisアカウントでログイン（または連携IDの設定）すると、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>未ログインでも本サイトの全機能は利用できます。</p>
+      <div id="mp-account-guest">
+        <p class="acct-hint" data-i18n="login.guestHint">Milli Orbisアカウントでログインすると、お気に入り・推し・応援履歴を全端末で共有できて便利です。</p>
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenLogin()" data-i18n="login.tabLogin">ログイン</button>
+          <button type="button" onclick="mpOpenSignup()" data-i18n="login.tabSignup">新規登録</button>
+        </div>
+        <p class="acct-hint" style="text-align:center;margin:8px 0;" data-i18n="login.or">— または 連携IDを入力 —</p>
+        <div id="mp-id-input">
+          <div class="acct-pw-wrap"><input id="mp-id" placeholder="連携ID（例: TEST001）" data-i18n-placeholder="login.linkIdPh" autocomplete="off"></div>
+          <button type="button" onclick="mpSetId()" style="width:100%" data-i18n="login.set">連携IDを保存</button>
+        </div>
+        <div class="acct-row" style="margin-top:10px;">
+          <button type="button" class="mp-oauth-btn mp-oauth-google" onclick="mpOAuthLogin('google')" aria-label="Googleでログイン" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border:1px solid #dadce0;border-radius:999px;background:#fff;color:#3c4043;font-weight:700;cursor:pointer;"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</button>
+          <button type="button" class="mp-oauth-btn mp-oauth-x" onclick="mpOAuthLogin('twitter')" aria-label="Xでログイン" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border-radius:999px;background:#000;color:#fff;font-weight:700;cursor:pointer;">𝕏 X</button>
+        </div>
+        <p id="mp-msg" class="acct-msg"></p>
+      </div>
+      <div id="mp-account-ok" style="display:none;">
+        <div class="acct-profile">
+          <div id="mp-profile-icon" class="acct-avatar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div>
+            <div id="mp-profile-name" style="font-size:15px;font-weight:800;"></div>
+            <div id="mp-profile-msg" style="font-size:12px;color:var(--muted);word-wrap:break-word;"></div>
+          </div>
+        </div>
+        <p style="word-wrap:break-word;font-size:13px;"><span data-i18n="login.linkId">連携ID:</span> <b id="mp-pid"></b></p>
+        <div class="acct-row">
+          <button type="button" onclick="mpCopyId()" data-i18n="login.copyId">コピー</button>
+          <button type="button" onclick="mpStartEdit()" data-i18n="login.editSep">編集</button>
+          <button type="button" onclick="mpLogout()" data-i18n="login.logout" style="background:#999;">ログアウト</button>
+        </div>
+        <div id="mp-link-providers" style="margin-top:12px;"></div>
+        <div id="mp-link-msg" class="acct-msg"></div>
+        <div class="acct-row" style="margin-top:8px;">
+          <button type="button" onclick="mpOpenMypage()" style="width:100%;" data-i18n="account.mine">マイページ（応援・お気に入り）</button>
+        </div>
+        <div id="mp-account-edit" style="display:none;margin-top:14px;padding-top:12px;border-top:2px dashed var(--border);">
+          <p class="acct-hint" data-i18n="login.editNote">⇒ 名前・アイコン・一言を保存（Firebase に反映）</p>
+          <!-- ニックネーム登録: Unishare と同機構 + ポータル独自の絵文字/画像選択 -->
+          <div class="acct-picon-row">
+            <div id="mp-picon-preview" class="acct-avatar" style="width:42px;height:42px;font-size:20px;">?</div>
+            <input id="mp-picon" placeholder="アイコン（文字 or 画像URL）" data-i18n-placeholder="login.iconPh" oninput="mpUpdatePiconPreview()" autocomplete="off">
+          </div>
+          <div style="display:flex;gap:8px;margin-bottom:8px;">
+            <label class="btn btn-ghost" style="font-size:12px;flex:none;" data-i18n="login.pickImg">画像を選ぶ<input type="file" id="mp-edit-icon-file" accept="image/*" hidden onchange="mpPickIconFile(this)"></label>
+            <span class="acct-hint" style="margin:0;align-self:center;" data-i18n="login.emojiHint">または絵文字:</span>
+          </div>
+          <div class="mp-emoji-grid" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
+            <button type="button" class="mp-emoji-btn" data-emoji="🐺" onclick="mpPickEmoji('🐺')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🐺</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🍫" onclick="mpPickEmoji('🍫')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🍫</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🎧" onclick="mpPickEmoji('🎧')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🎧</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="👿" onclick="mpPickEmoji('👿')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">👿</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🐾" onclick="mpPickEmoji('🐾')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🐾</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🦦" onclick="mpPickEmoji('🦦')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🦦</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🌙" onclick="mpPickEmoji('🌙')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🌙</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🧊" onclick="mpPickEmoji('🧊')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🧊</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🔧" onclick="mpPickEmoji('🔧')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🔧</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🧸" onclick="mpPickEmoji('🧸')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🧸</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🦭" onclick="mpPickEmoji('🦭')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🦭</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="✨" onclick="mpPickEmoji('✨')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">✨</button>
+          </div>
+          <input id="mp-pname" placeholder="表示名（ニックネーム）" data-i18n-placeholder="login.namePh" maxlength="20" autocomplete="off">
+          <input id="mp-pmsg" placeholder="一言（自己紹介）" data-i18n-placeholder="login.msgPh" autocomplete="off">
+          <!-- 互換: 旧ID mp-edit-name / mp-edit-icon-preview への同期用 hidden -->
+          <input id="mp-edit-name" style="display:none;">
+          <div class="acct-row" style="margin-top:8px;">
+            <button type="button" onclick="mpSaveProfile()" data-i18n="login.save">保存</button>
+            <button type="button" onclick="mpCancelEdit()" style="background:#999;" data-i18n="login.cancel">キャンセル</button>
+          </div>
+          <p id="mp-edit-note" class="acct-msg"></p>
+          <!-- 旧ID互換 -->
+          <span id="mp-edit-icon-preview" style="display:none;"></span>
+        </div>
+        <p id="mp-edit-locked" class="acct-hint" style="display:none;" data-i18n="login.locked">名前・アイコンの変更はログイン後に使えます。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="loginModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="loginModal" aria-label="閉じる">×</button>
+    <h3 data-i18n="login.tabLogin">Milli Orbisアカウントにログイン</h3>
+    <div style="padding:0 22px 18px;">
+      <div style="display:flex;gap:8px;margin-bottom:12px;">
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('google') : mpOAuthLogin('google')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border:1px solid #dadce0;border-radius:999px;background:#fff;color:#3c4043;font-weight:700;cursor:pointer;"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</button>
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('twitter') : mpOAuthLogin('twitter')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border-radius:999px;background:#000;color:#fff;font-weight:700;cursor:pointer;">𝕏 X</button>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin:8px 0;color:var(--muted);font-size:12px;"><span style="flex:1;height:1px;background:var(--border);"></span><span data-i18n="login.or">または</span><span style="flex:1;height:1px;background:var(--border);"></span></div>
+      <input id="mp-email" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
+      <div class="acct-pw-wrap">
+        <input id="mp-pass" type="password" placeholder="パスワード" data-i18n-placeholder="login.pass" autocomplete="current-password">
+        <button type="button" class="acct-pw-btn" data-pw="mp-pass" onclick="mpTogglePw('mp-pass')" aria-label="表示切替">👁</button>
+      </div>
+      <!-- 互換: 旧 mpToggle('mp-pass','mp-pass-eye') 呼び出し -->
+      <span id="mp-pass-eye" style="display:none;"></span>
+      <button type="button" onclick="mpSubmitLogin()" style="width:100%;" data-i18n="login.btnLogin">ログイン</button>
+      <p class="acct-msg" id="mp-msg-login"></p>
+      <p id="mp-msg" class="acct-msg" style="display:none;"></p>
+      <p class="acct-hint" style="text-align:center;"><span data-i18n="login.noAccount">Milli Orbisアカウントをお持ちでない場合は</span> <a href="javascript:mpOpenSignup()" data-i18n="login.tabSignup">新規登録</a></p>
+      <p style="text-align:center;margin-top:6px;"><button type="button" class="btn btn-ghost" onclick="mpOpenReset()" style="font-size:12px;padding:6px 12px;" data-i18n="login.forgot">パスワードをお忘れですか？</button></p>
+      <div style="margin-top:14px; padding-top:12px; border-top:2px dashed var(--border);">
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenSignup()" style="flex:1; background:#fff; color:var(--accent-deep); border:2px solid var(--accent); box-shadow:none;" data-i18n="login.goSignup">新規登録はこちら</button>
+          <button type="button" onclick="mpOpenLinkId()" style="flex:1; background:#fff; color:var(--ink); border:2px solid var(--border); box-shadow:none;" data-i18n="login.goLinkId">連携IDで続ける</button>
+        </div>
+        <p class="acct-hint" style="text-align:center; margin:6px 0 0;">連携IDはログインせずに使える簡易IDです</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="signupModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="signupModal" aria-label="閉じる">×</button>
+    <h3 data-i18n="login.tabSignup">Milli Orbisアカウントに新規登録</h3>
+    <div style="padding:0 22px 18px;">
+      <div style="display:flex;gap:8px;margin-bottom:12px;">
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('google') : mpOAuthLogin('google')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border:1px solid #dadce0;border-radius:999px;background:#fff;color:#3c4043;font-weight:700;cursor:pointer;"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</button>
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('twitter') : mpOAuthLogin('twitter')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border-radius:999px;background:#000;color:#fff;font-weight:700;cursor:pointer;">𝕏 X</button>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin:8px 0;color:var(--muted);font-size:12px;"><span style="flex:1;height:1px;background:var(--border);"></span><span data-i18n="login.or">または</span><span style="flex:1;height:1px;background:var(--border);"></span></div>
+      <input id="mp-semail" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
+      <!-- 互換: 旧 mp2-email -->
+      <input id="mp2-email" type="email" placeholder="メールアドレス" style="display:none;">
+      <div class="acct-pw-wrap">
+        <input id="mp-spass1" type="password" placeholder="パスワード（6文字以上）" data-i18n-placeholder="login.passPh" autocomplete="new-password">
+        <button type="button" class="acct-pw-btn" data-pw="mp-spass1" onclick="mpTogglePw('mp-spass1')" aria-label="表示切替">👁</button>
+      </div>
+      <div class="acct-pw-wrap">
+        <input id="mp-spass2" type="password" placeholder="パスワード（確認）" data-i18n-placeholder="login.passConfirm" autocomplete="new-password">
+        <button type="button" class="acct-pw-btn" data-pw="mp-spass2" onclick="mpTogglePw('mp-spass2')" aria-label="表示切替">👁</button>
+      </div>
+      <input id="mp2-pass" type="password" style="display:none;">
+      <input id="mp2-pass2" type="password" style="display:none;">
+      <span id="mp2-pass-eye" style="display:none;"></span>
+      <button type="button" onclick="mpSubmitSignup()" style="width:100%;" data-i18n="login.btnRegister">Milli Orbisアカウントを作成</button>
+      <p class="acct-msg" id="mp-msg-signup"></p>
+      <p id="mp2-msg" class="acct-msg" style="display:none;"></p>
+      <p class="acct-hint" style="text-align:center;"><span data-i18n="login.hasAccount">既にMilli Orbisアカウントをお持ちの場合は</span> <a href="javascript:mpOpenLogin()" data-i18n="login.tabLogin">ログイン</a></p>
+      <div style="margin-top:14px; padding-top:12px; border-top:2px dashed var(--border);">
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenLogin()" style="flex:1; background:#fff; color:var(--accent-deep); border:2px solid var(--accent); box-shadow:none;" data-i18n="login.goLogin">ログインはこちら</button>
+          <button type="button" onclick="mpOpenLinkId()" style="flex:1; background:#fff; color:var(--ink); border:2px solid var(--border); box-shadow:none;" data-i18n="login.goLinkId">連携IDで続ける</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="mypageModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="mypageModal" aria-label="閉じる">×</button>
+    <h3>🏷️ <span data-i18n="nav.account">マイページ</span></h3>
+    <div style="padding:0 22px 18px;">
+      <div id="mp-mypage-stats"><p class="acct-hint" data-i18n="account.loading">読み込み中…</p></div>
+      <div class="acct-row" style="margin-top:12px;">
+        <a href="account.html" class="btn" style="width:100%;justify-content:center;text-decoration:none;" data-i18n="account.openPage">マイページを開く</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="password-reset-dialog" class="acct-overlay hidden" aria-hidden="true" onclick="if(event.target===this)mpCloseReset()">
+  <div class="acct-box" style="max-width:400px;">
+    <button type="button" class="acct-close" data-close="password-reset-dialog" onclick="mpCloseReset()" aria-label="閉じる">×</button>
+    <h3 data-i18n="login.resetTitle">🔑 パスワードを再設定</h3>
+    <div style="padding:0 22px 18px;">
+      <p class="acct-hint" data-i18n="login.resetSub">登録したメールアドレスに再設定用のリンクを送信します。</p>
+      <input class="mp-input" id="reset-email" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
+      <button type="button" class="btn" style="width:100%;justify-content:center;" id="reset-send-btn" onclick="mpResetSubmit()" data-i18n="login.resetSend">メールを送信</button>
+      <p id="reset-msg" class="acct-msg"></p>
+    </div>
+  </div>
+</div>
+
+<!-- 旧 login-popup 互換レイヤー（非表示）: 旧JSからの参照を壊さないため残す -->
+<div id="login-popup" class="login-popup" style="display:none !important;" aria-hidden="true">
+  <div id="mp-popup-close" style="display:none;"></div>
+  <div id="mp-account-guest-dup" style="display:none;"></div>
+  <div id="mp-account-ok-dup" style="display:none;"></div>
+  <span id="mp-msg-dup" style="display:none;"></span>
+</div>
+
+<div class="float-actions">
+  <button type="button" class="share-x" id="shareXBtn" data-i18n="share.x">Xで共有</button>
+  <button type="button" class="to-top" id="toTopBtn" aria-label="ページ上部へ" data-i18n-aria="toTop.aria">▲</button>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="firebase-init.js"></script>
+<script src="data.js"></script>
+
+<script src="data/i18n.js"></script>
+<script src="scripts/i18n.js"></script>
+<script src="scripts/fav-store.js"></script>
+<script src="scripts/cursor.js"></script>
+<script src="scripts/contact.js?v=20260906"></script>
+<script src="script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    var root = document.getElementById("contactPageRoot");
+    if (root && window.ContactHub && window.ContactHub.renderPageForm) window.ContactHub.renderPageForm(root);
+    else if (root) root.innerHTML = '<p class="acct-hint">読み込みに失敗しました。開き直してお試しください。</p>';
+  } catch (e) {}
+});
+</script>
+</body>
+</html>
