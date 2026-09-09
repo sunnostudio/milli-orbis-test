@@ -714,6 +714,11 @@ window.SONGS = {
       "key": "ラグトレイン",
       "urls": [
         {
+          "id": "GLU0JIrSqn0",
+          "memberId": "nono",
+          "publishedAt": "2026-09-09"
+        },
+        {
           "id": "XogPaIFnJDo",
           "memberId": "tsukuri",
           "publishedAt": "2026-07-04"
