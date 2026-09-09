@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-09T15:24:37.391Z",
+  "updatedAt": "2026-09-09T18:53:50.569Z",
   "streams": [
-    {
-      "id": "9e_5QVOwxA4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-09T11:01:45Z",
-      "status": "live"
-    },
     {
       "id": "9d0t0z_cECo",
       "memberId": "raco",
@@ -208,6 +199,16 @@
   ],
   "videos": [
     {
+      "id": "9e_5QVOwxA4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault.jpg",
+      "publishedAt": "2026-09-09T18:23:44Z",
+      "live": false
+    },
+    {
       "id": "AxKbURZpmPU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -215,16 +216,6 @@
       "title": "【 しっぷぅ騎士団 】再集結⁉️二次会「めっちゃカメレオン」を遊び尽くす🤩【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault.jpg",
       "publishedAt": "2026-09-09T11:52:39Z",
-      "live": false
-    },
-    {
-      "id": "9e_5QVOwxA4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-09T11:01:45Z",
       "live": false
     },
     {
@@ -508,15 +499,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "9e_5QVOwxA4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-09T11:01:45Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
