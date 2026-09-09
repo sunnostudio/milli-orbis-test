@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-09T08:25:16.700Z",
+  "updatedAt": "2026-09-09T15:24:37.391Z",
   "streams": [
     {
-      "id": "AxKbURZpmPU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 しっぷぅ騎士団 】再集結⁉️二次会「めっちゃカメレオン」を遊び尽くす🤩【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-09T09:00:00Z",
-      "status": "upcoming"
+      "id": "9e_5QVOwxA4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-09T11:01:45Z",
+      "status": "live"
     },
     {
       "id": "9d0t0z_cECo",
@@ -72,6 +72,18 @@
       "thumb": "https://i.ytimg.com/vi/0PISw7uR4UU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-22T15:00:00Z",
       "status": "upcoming"
+    },
+    {
+      "id": "mZl7QBu4ZlM",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "🎤Million Production × カラオケBanBanグループ　コラボ開催！",
+      "thumb": "https://i.ytimg.com/vi/mZl7QBu4ZlM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-24T13:30:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "🎤Million Production x Karaoke BanBan Group collaboration!"
+      }
     },
     {
       "id": "_kaShsLH0O8",
@@ -196,13 +208,43 @@
   ],
   "videos": [
     {
+      "id": "AxKbURZpmPU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 しっぷぅ騎士団 】再集結⁉️二次会「めっちゃカメレオン」を遊び尽くす🤩【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault.jpg",
+      "publishedAt": "2026-09-09T11:52:39Z",
+      "live": false
+    },
+    {
+      "id": "9e_5QVOwxA4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault_live.jpg",
+      "publishedAt": "2026-09-09T11:01:45Z",
+      "live": false
+    },
+    {
       "id": "GLU0JIrSqn0",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
       "title": "ラグトレイン covered by 音ノ乃のの (Shorts ver.)",
       "thumb": "https://i.ytimg.com/vi/GLU0JIrSqn0/hqdefault.jpg",
-      "publishedAt": "2026-09-09T05:53:21Z",
+      "publishedAt": "2026-09-09T09:00:06Z",
+      "live": false
+    },
+    {
+      "id": "j0En6hmc0l0",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】マグマ2択チャレンジ！迫るマグマにパニック!?【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/j0En6hmc0l0/hqdefault.jpg",
+      "publishedAt": "2026-09-09T09:00:02Z",
       "live": false
     },
     {
@@ -253,16 +295,6 @@
       "title": "【 Night Shippers 】配達バイトのホラゲーらしい【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault.jpg",
       "publishedAt": "2026-09-08T15:10:02Z",
-      "live": false
-    },
-    {
-      "id": "AxKbURZpmPU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 しっぷぅ騎士団 】再集結⁉️二次会「めっちゃカメレオン」を遊び尽くす🤩【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault_live.jpg",
-      "publishedAt": "2026-09-08T11:51:13Z",
       "live": false
     },
     {
@@ -474,27 +506,17 @@
       "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault.jpg",
       "publishedAt": "2026-09-05T19:18:00Z",
       "live": false
-    },
-    {
-      "id": "1f-kSxfpmK4",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
-      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault.jpg",
-      "publishedAt": "2026-09-05T14:53:11Z",
-      "live": false
-    },
-    {
-      "id": "g_UNz60C8H4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【#PUBGLAND 2026】生まれたての小鹿です。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/g_UNz60C8H4/hqdefault.jpg",
-      "publishedAt": "2026-09-05T14:38:00Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "9e_5QVOwxA4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-09T11:01:45Z",
+      "status": "live"
+    }
+  ]
 }
