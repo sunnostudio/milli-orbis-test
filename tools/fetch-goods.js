@@ -27,8 +27,14 @@ const MEMBER_MAP = [
   { id: "milchan", names: ["ミリちゃん"] },
 ];
 
+function tagsText(p) {
+  // Shopify側が tags を文字列でなく配列で返す商品があるため正規化
+  if (Array.isArray(p.tags)) return p.tags.join(",");
+  return p.tags || "";
+}
+
 function guessMemberId(p) {
-  const hay = (p.handle || "") + " " + (p.title || "") + " " + (p.tags || "") + " " + (p.product_type || "");
+  const hay = (p.handle || "") + " " + (p.title || "") + " " + tagsText(p) + " " + (p.product_type || "");
   const low = hay.toLowerCase();
   // handle prefix like konomi_, koma_birthday
   for (const m of MEMBER_MAP) {
@@ -39,7 +45,7 @@ function guessMemberId(p) {
   }
   // tags first exact member name
   if (p.tags) {
-    const tags = p.tags.split(",").map(s => s.trim());
+    const tags = tagsText(p).split(",").map(s => s.trim());
     for (const t of tags) {
       for (const m of MEMBER_MAP) {
         if (m.names.includes(t)) return m.id;
@@ -64,7 +70,7 @@ const KIND_MAP = [
 ];
 
 function guessKind(p) {
-  const hay = (p.title || "") + " " + (p.product_type || "") + " " + (p.tags || "");
+  const hay = (p.title || "") + " " + (p.product_type || "") + " " + tagsText(p);
   for (const m of KIND_MAP) {
     for (const kw of m.kw) if (hay.includes(kw)) return m.kind;
   }
@@ -77,7 +83,7 @@ function guessKind(p) {
 }
 
 function guessCategory(p) {
-  const hay = (p.title || "") + " " + (p.tags || "");
+  const hay = (p.title || "") + " " + tagsText(p);
   if (hay.includes("誕生日")) return "誕生日記念";
   if (hay.includes("周年")) return "周年記念";
   if (hay.includes("加入")) return "加入記念";
@@ -168,7 +174,7 @@ function toGoods(p) {
   const handle = p.handle;
   const title = p.title;
   const product_type = p.product_type || "";
-  const tags = p.tags || "";
+  const tags = tagsText(p);
   const price = p.variants && p.variants[0] ? Math.round(parseFloat(p.variants[0].price)) : 0;
   const oldPrice = p.variants && p.variants[0] && p.variants[0].compare_at_price ? Math.round(parseFloat(p.variants[0].compare_at_price)) : null;
   const image = p.images && p.images[0] ? p.images[0].src : "";
@@ -238,7 +244,24 @@ async function main() {
   goods.sort((a,b) => new Date(b.published_at||0) - new Date(a.published_at||0));
 
   let js = fs.readFileSync(DATA_JS, "utf-8");
-  const newGoodsStr = "const GOODS = " + JSON.stringify(goods, null, 2).replace(/\n/g, "\n") + ";";
+  // 既存の手直し（担当メンバー表示）を維持：既知IDは memberId/memberLabel を引き継ぎ、新規のみ自動判定を使う
+  try {
+    const m = js.match(/const GOODS = \[[\s\S]*?\];/);
+    if (m) {
+      const prev = new Function(m[0] + ";return GOODS;")();
+      const prevMap = {};
+      for (const g of prev) prevMap[g.id] = g;
+      for (const g of goods) {
+        const p = prevMap[g.id];
+        if (p) {
+          if (p.memberId !== undefined) g.memberId = p.memberId;
+          g.memberLabel = p.memberLabel || "";
+        }
+      }
+    }
+  } catch (e) { console.error("keep existing memberId failed:", e.message); }
+  // 既存ファイルに合わせて1行1アイテムのコンパクト形式で出力（差分を小さく保つ）
+  const newGoodsStr = "const GOODS = [\n" + goods.map(g => "  " + JSON.stringify(g)).join(",\n") + "\n];";
   // replace existing GOODS block: from "const GOODS = [" to "];"
   const re = /const GOODS = \[[\s\S]*?\];/;
   if (!re.test(js)) {
