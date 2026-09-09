@@ -652,7 +652,7 @@ ${loginPopupHtml}
 ${i18nScriptTags}
 <script src="scripts/fav-store.js"></script>
 <script src="scripts/cursor.js"></script>
-<script src="scripts/contact.js?v=20260906"></script>
+<script src="scripts/contact.js?v=20260909"></script>
 <script src="script.js"></script>
 </body>
 </html>
@@ -738,7 +738,7 @@ ${loginPopupHtml}
 ${i18nScriptTags}
 <script src="scripts/fav-store.js"></script>
 <script src="scripts/cursor.js"></script>
-<script src="scripts/contact.js?v=20260906"></script>
+<script src="scripts/contact.js?v=20260909"></script>
 <script src="script.js"></script>
 ${o.scripts}
 </body>
