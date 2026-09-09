@@ -1881,7 +1881,7 @@ const HISTORY = [
   { date: "2026/8/16", title: "新グループ「ミリプロSONA」設立", desc: "音ノ乃のの・あくび・でもんすぺーど・鹿乃まほろの3名が所属", en: { title: "New group \"MilliPro SONA\" founded", desc: "Comprising Nono Nono, Akubi Demonspade, and Kano Mahoro" } },
   { date: "2026/8/22", title: "鹿乃まほろ デビュー（ミリプロSONA）", en: { title: "Kano Mahoro debuts (MilliPro SONA)" } },
   { date: "2026/8/29", title: "ミリプロリゾート 開催", desc: "秋葉原UDXにてPOP UP展示＆ファンミーティング（鹿乃まほろも参加）", en: { title: "MilliPro Resort held", desc: "POP UP exhibit & fan meeting at Akihabara UDX (feat. Kano Mahoro)" } },
-  { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
+  { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", image: "https://milli-orbis-portal.onrender.com/dist/announce/x-cursor-scatter-1600x900.png", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
   { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } }
 ];
 
