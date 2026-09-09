@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-09-08",
+  "generatedAt": "2026-09-09",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -713,6 +713,11 @@ window.SONGS = {
       "title": "ラグトレイン／眠雲ツクリ（cover）",
       "key": "ラグトレイン",
       "urls": [
+        {
+          "id": "GLU0JIrSqn0",
+          "memberId": "nono",
+          "publishedAt": "2026-09-09"
+        },
         {
           "id": "XogPaIFnJDo",
           "memberId": "tsukuri",

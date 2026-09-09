@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T22:04:58.217Z",
+  "updatedAt": "2026-09-09T08:25:16.700Z",
   "streams": [
     {
       "id": "AxKbURZpmPU",
@@ -72,18 +72,6 @@
       "thumb": "https://i.ytimg.com/vi/0PISw7uR4UU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-22T15:00:00Z",
       "status": "upcoming"
-    },
-    {
-      "id": "mZl7QBu4ZlM",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "🎤Million Production × カラオケBanBanグループ　コラボ開催！",
-      "thumb": "https://i.ytimg.com/vi/mZl7QBu4ZlM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T13:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "🎤Million Production x Karaoke BanBan Group collaboration!"
-      }
     },
     {
       "id": "_kaShsLH0O8",
@@ -207,6 +195,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "GLU0JIrSqn0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "ラグトレイン covered by 音ノ乃のの (Shorts ver.)",
+      "thumb": "https://i.ytimg.com/vi/GLU0JIrSqn0/hqdefault.jpg",
+      "publishedAt": "2026-09-09T05:53:21Z",
+      "live": false
+    },
     {
       "id": "CiFzk0xZYPo",
       "memberId": "tsukuri",
@@ -495,16 +493,6 @@
       "title": "【#PUBGLAND 2026】生まれたての小鹿です。┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/g_UNz60C8H4/hqdefault.jpg",
       "publishedAt": "2026-09-05T14:38:00Z",
-      "live": false
-    },
-    {
-      "id": "lSbndj8gieg",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "Surges / 音ノ瀬らこ＆夕霧レイ (cover)",
-      "thumb": "https://i.ytimg.com/vi/lSbndj8gieg/hqdefault.jpg",
-      "publishedAt": "2026-09-05T11:00:07Z",
       "live": false
     }
   ],
