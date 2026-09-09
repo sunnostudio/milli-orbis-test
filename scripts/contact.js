@@ -157,10 +157,10 @@
       + (hint ? '<p class="acct-hint" style="margin:2px 0 0">' + hint + "</p>" : "");
   }
   function input(name, ph, val, type) {
-    return '<input data-f="' + name + '" type="' + (type || "text") + '" placeholder="' + esc(ph || "") + '" value="' + esc(val || "") + '" style="width:100%;box-sizing:border-box">';
+    return '<input class="mo-field" data-f="' + name + '" type="' + (type || "text") + '" placeholder="' + esc(ph || "") + '" value="' + esc(val || "") + '">';
   }
   function textarea(name, ph, rows) {
-    return '<textarea data-f="' + name + '" placeholder="' + esc(ph || "") + '" rows="' + (rows || 4) + '" style="width:100%;box-sizing:border-box"></textarea>';
+    return '<textarea class="mo-field" data-f="' + name + '" placeholder="' + esc(ph || "") + '" rows="' + (rows || 4) + '"></textarea>';
   }
   function memberOptions() {
     var ms = (typeof MEMBERS !== "undefined" && MEMBERS.length) ? MEMBERS : (window.MEMBERS || []);
@@ -249,11 +249,11 @@
     if (!area) return;
     if (sel === "map") {
       area.innerHTML = field("店舗名（必須）", input("shop", "例：アニメイト池袋本店"))
-        + field("都道府県（必須）", '<select data-f="pref" style="width:100%;box-sizing:border-box"><option value="">選択してください</option>'
+        + field("都道府県（必須）", '<select class="mo-field" data-f="pref"><option value="">選択してください</option>'
           + PREFS.map(function (p) { return '<option value="' + p + '">' + p + "</option>"; }).join("") + "</select>")
         + field("目撃日（任意）", input("date", "例：2026-09-06", "", "date"))
         + field("グッズ名（必須）", input("item", "例：レトロポップver. 缶バッジ"))
-        + field("タレント（任意）", '<select data-f="member" style="width:100%;box-sizing:border-box">' + memberOptions() + "</select>")
+        + field("タレント（任意）", '<select class="mo-field" data-f="member">' + memberOptions() + "</select>")
         + field("補足・コメント", textarea("body", "在庫状況・売場の場所など", 3))
         + field("連絡先（任意）", input("contact", "X IDやメール（返信が必要な場合のみ）"));
     } else {
@@ -277,6 +277,26 @@
       onPick(current.target);
     });
   }
+  /* 送信完了ビュー（モーダル・ページ共通文面） */
+  function doneButtonsHtml(kind) {
+    if (kind === "modal") {
+      return '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">'
+        + '<button type="button" class="btn" data-done-close style="flex:1;min-width:140px;justify-content:center">閉じる</button>'
+        + '<button type="button" class="btn" data-done-again style="flex:1;min-width:140px;justify-content:center">続けて送る</button></div>';
+    }
+    return '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">'
+      + '<a href="index.html" class="btn" style="flex:1;min-width:140px;justify-content:center;text-decoration:none">ホームに戻る</a>'
+      + '<button type="button" class="btn" data-done-again style="flex:1;min-width:140px;justify-content:center">続けて送る</button></div>'
+      + '<div data-done-switch style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px"></div>';
+  }
+  function doneHtml(kind) {
+    return '<div style="text-align:center;padding:12px 4px">'
+      + '<div style="font-size:2.4rem" aria-hidden="true">📮</div>'
+      + '<h3 style="margin:8px 0 4px">送信しました</h3>'
+      + '<p class="acct-hint">ありがとうございます。いただいた情報はサイト改善に活用します。<br>内容によってはご連絡する場合がありますが、すべてには対応できないことをご了承ください。</p>'
+      + doneButtonsHtml(kind) + '</div>';
+  }
+
   function wireSend(entry, getTarget) {
     var btn = boxBody.querySelector("[data-contact-send]");
     if (!btn) return;
@@ -289,9 +309,15 @@
       pushContact(entry, t.target, d).then(function (r) {
         btn.disabled = false;
         if (r.ok) {
-          boxBody.innerHTML = '<h3 style="margin:0 0 8px">送信しました</h3>'
-            + '<p class="acct-hint">内容を受け付けました。運営が確認後にサイトへ反映します（返信が必要な場合のみ連絡先へご連絡します）。</p>'
-            + '<button type="button" class="btn" data-contact-close style="width:100%;justify-content:center">閉じる</button>';
+          var keepEntry = entry, keepTarget = t.target, keepKind = current.kind;
+          boxBody.innerHTML = doneHtml("modal");
+          var bc = boxBody.querySelector("[data-done-close]");
+          if (bc) bc.addEventListener("click", function () { close(); });
+          var ba = boxBody.querySelector("[data-done-again]");
+          if (ba) ba.addEventListener("click", function () {
+            if (keepEntry === "service") { current = { entry: "service", target: keepTarget, kind: keepKind || "other" }; renderService(keepTarget, true); }
+            else { current = { entry: "millidex", target: keepTarget }; renderMillidex(keepTarget); }
+          });
         } else {
           showMsg("err", ERR_MSG[r.error] || ERR_MSG.db);
         }
@@ -387,11 +413,11 @@
       if (pg.entry === "millidex") {
         if (pg.target === "map") {
           return field("店舗名（必須）", input("shop", "例：アニメイト池袋本店"))
-            + field("都道府県（必須）", '<select data-f="pref" style="width:100%;box-sizing:border-box"><option value="">選択してください</option>'
+            + field("都道府県（必須）", '<select class="mo-field" data-f="pref"><option value="">選択してください</option>'
               + PREFS.map(function (p) { return '<option value="' + p + '">' + p + "</option>"; }).join("") + "</select>")
             + field("目撃日（任意）", input("date", "例：2026-09-06", "", "date"))
             + field("グッズ名（必須）", input("item", "例：レトロポップver. 缶バッジ"))
-            + field("タレント（任意）", '<select data-f="member" style="width:100%;box-sizing:border-box">' + memberOptions() + "</select>")
+            + field("タレント（任意）", '<select class="mo-field" data-f="member">' + memberOptions() + "</select>")
             + field("補足・コメント", textarea("body", "在庫状況・売場の場所など", 3))
             + field("連絡先（任意）", input("contact", "X IDやメール（返信が必要な場合のみ）"));
         }
@@ -488,8 +514,29 @@
         pushContact(pg.entry, pg.target, d).then(function (r) {
           btn.disabled = false;
           if (r.ok) {
-            pgMsg("ok", "送信しました。内容を受け付けました。");
-            try { root.querySelectorAll("[data-f]").forEach(function (el) { if (el.getAttribute("data-f") !== "company") el.value = ""; }); } catch (e) {}
+            var keepEntry = pg.entry, keepTarget = pg.target, keepKind = pg.kind;
+            root.innerHTML = doneHtml("page");
+            var sw = root.querySelector("[data-done-switch]");
+            if (sw) {
+              sw.innerHTML = (keepEntry === "service"
+                ? '<button type="button" class="btn btn-ghost" data-done-goto="millidex-map" style="flex:1;min-width:140px;justify-content:center">有志マップを送る</button>'
+                  + '<button type="button" class="btn btn-ghost" data-done-goto="millidex-goods" style="flex:1;min-width:140px;justify-content:center">過去グッズを申請する</button>'
+                : '<button type="button" class="btn btn-ghost" data-done-goto="service" style="flex:1;min-width:140px;justify-content:center">全サービスにも送る</button>');
+              sw.querySelectorAll("[data-done-goto]").forEach(function (g) {
+                g.addEventListener("click", function () {
+                  var v = g.getAttribute("data-done-goto");
+                  if (v === "service") { pg.entry = "service"; pg.target = "orbis"; }
+                  else { pg.entry = "millidex"; pg.target = v === "millidex-goods" ? "goods" : "map"; }
+                  draw();
+                });
+              });
+            }
+            var ba = root.querySelector("[data-done-again]");
+            if (ba) ba.addEventListener("click", function () {
+              pg.entry = keepEntry; pg.target = keepTarget; pg.kind = keepKind || "other";
+              draw();
+            });
+            try { root.scrollIntoView({ behavior: "smooth", block: "start" }); } catch (e) {}
           } else {
             pgMsg("err", ERR_MSG[r.error] || ERR_MSG.db);
           }
