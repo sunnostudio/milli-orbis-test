@@ -1,17 +1,1 @@
-[
-  {
-    "id": "sample-001",
-    "place": "駿河屋 秋葉原店",
-    "prefecture": "東京都",
-    "lat": 35.6984,
-    "lng": 139.7713,
-    "item": "あくび・でもんすぺーど 50万人記念グッズ フルセット",
-    "memberId": "akubi",
-    "kind": "fullset",
-    "date": "2026-09-05",
-    "source": "sample",
-    "status": "approved",
-    "note": "サンプルデータ。Formからの投稿は status:pending で追加され、運営承認後に approved として表示されます。",
-    "gmapsUrl": "https://www.google.com/maps/search/駿河屋+秋葉原店"
-  }
-]
+[]
