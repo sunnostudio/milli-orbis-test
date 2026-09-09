@@ -9,6 +9,7 @@
   - ② MilliDexへのお問い合わせ：`有志マップ／過去グッズ申請`
 - 投稿は共有 Firebase（millipro-shared）の `contactQueue` に `status:pending` で蓄積。
   運営がコンソールで精査し、`data/sightings.json`・グッズデータへ手動反映する（既存PRレビュー運用と接続）。
+- ただし `target:map`（有志マップ目撃情報）は **承認なし即時反映**：公開ノード `sightingsLive` へ直接記録され、`goods/map.html` が購読して即表示する。連絡先・uid・UAは送らない。
 - 未ログイン投稿を許可（honeypot＋1分1件制限）。荒らし時はログイン必須へ切替可能な作り。
 
 ## 2. データ仕様 `contactQueue/{pushId}`
@@ -35,6 +36,23 @@
 - `target:goods`：`item`（グッズ名・必須）／`url`／`image`／`price`／`period`（販売時期・いずれも任意）
 - `target:orbis|unishare|games|other`：`fields:{}`（本文のみ）
 
+## 2b. データ仕様 `sightingsLive/{pushId}`（有志マップ即時反映・公開読取）
+
+| field | 型 | 必須 | 内容 |
+|---|---|---|---|
+| `entry` | string | ○ | `millidex` 固定 |
+| `target` | string | ○ | `map` 固定 |
+| `place` | string | ○ | 店舗名（1〜200字） |
+| `prefecture` | string | ○ | 都道府県（1〜10字） |
+| `date` | string/null | — | 目撃日 |
+| `item` | string | ○ | グッズ名（1〜200字） |
+| `memberId` | string/null | — | タレントID |
+| `body` | string | — | 補足（2000字以内） |
+| `lat`/`lng` | number | ○ | 緯度経度（送信時にジオコーディング、失敗時は県庁所在地。運営がコンソールで修正可） |
+| `createdAt` | number | ○ | `Date.now()` |
+
+※ `contact`／`email`／`uid` の保持をルールで禁止（公開ノードのため）。
+
 ## 3. 貼付用 Realtime Database ルール（コンソール作業）
 
 既存ルールに以下を**追記**して公開する。`contactQueue` 以外には触らないこと。
@@ -52,11 +70,23 @@
 ※ `.read:false` のため一覧閲覧・承認操作は Firebase コンソール（管理者権限）で行う。
 ※ 未ログイン許可のため `.write` は認証不問。荒らし発生時は `"auth != null &&"` を先頭に付与してログイン必須化する。
 
+```json
+"sightingsLive": {
+  "$id": {
+    ".read": true,
+    ".write": "!data.exists()",
+    ".validate": "newData.hasChildren(['entry','target','place','prefecture','item','lat','lng','createdAt']) && newData.child('entry').val() === 'millidex' && newData.child('target').val() === 'map' && newData.child('place').isString() && newData.child('place').val().length >= 1 && newData.child('place').val().length <= 200 && newData.child('prefecture').isString() && newData.child('prefecture').val().length >= 1 && newData.child('prefecture').val().length <= 10 && newData.child('item').isString() && newData.child('item').val().length >= 1 && newData.child('item').val().length <= 200 && newData.child('lat').isNumber() && newData.child('lat').val() >= -90 && newData.child('lat').val() <= 90 && newData.child('lng').isNumber() && newData.child('lng').val() >= -180 && newData.child('lng').val() <= 180 && newData.child('createdAt').isNumber() && (!newData.hasChild('body') || (newData.child('body').isString() && newData.child('body').val().length <= 2000)) && !newData.hasChild('contact') && !newData.hasChild('email') && !newData.hasChild('uid')"
+  }
+}
+```
+
+※ `sightingsLive` は公開読取のため `contact`／`email`／`uid` の保持を禁止している。
+
 ## 4. 運用手順
 
 1. Firebaseコンソール → Realtime Database → `contactQueue` で `status:pending` を確認
 2. 内容精査：
-   - `target:map` → 妥当なら `data/sightings.json` に `status:approved` で追記（緯度経度を補完）→ PR
+   - `target:map` → **即時反映済み**（`sightingsLive`）。ピンの位置ずれはコンソールで該当レコードの `lat`／`lng` を修正。不正投稿はレコードごと削除
    - `target:goods` → 妥当ならグッズデータへ追記 → PR
    - `target:orbis|unishare|games|other` → 対応（返信が必要なら `contact` 欄宛て）
 3. 対応済みレコードの `status` を `approved`／`rejected` に更新
@@ -71,6 +101,8 @@
 ## 6. 実装メモ（本リポジトリ）
 
 - `scripts/contact.js`：`pushContact(entry, target, data)`／honeypot（`company` 欄）／1分1件制限（localStorage `milli-contact-last`）／未設定・rules未適用時の画面案内
+- `target:map` は `sightingsLive` へ公開レコードをpush（送信時にNominatimでジオコーディング、失敗時は県庁所在地フォールバック）。連絡先欄なし
+- `goods/map.html`：`sightings.json`（既存承認分）＋`sightingsLive`（購読・即時反映）をマージ表示。全出力項目をエスケープ（XSS対策）
 - モーダルは `acct-overlay`／`acct-box` 意匠を流用し `scripts/contact.js` 内で生成（各頁HTMLは触らない）
 - 専用ページ `contact.html`：`ContactHub.renderPageForm()` でインライン描画（`?entry=`・`?target=` で初期選択可）。他画面からの導線は未設置
 - テスト用直リンク：`?contact=service`／`millidex-map`／`millidex-goods`（`openFromUrl` が自動オープン。UI導線は出さない）

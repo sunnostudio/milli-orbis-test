@@ -140,7 +140,7 @@
 <nav class="breadcrumb"><a href="../index.html">Home</a><span>MilliDex</span><span>有志マップ</span></nav>
 <section class="subpage-hero"><img src="../images/MilliDex-rogo.png" alt="MilliDex グッズ・情報データベース" class="millidex-hero-logo" width="594" height="191" loading="eager" decoding="async"><h1 style="font-family:var(--font-display);font-weight:900">有志マップ（キュレーション）</h1><p class="section-sub" style="padding-left:0">ファンからの匿名提供を運営が確認したもののみを表示。目撃時点の情報であり在庫を保証しません。</p></section>
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html" class="active">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
-<div class="legend">タイル: OpenStreetMap / 地理院地図（出典明記）。<button type="button" class="btn" data-ch="millidex-map" style="padding:6px 14px;font-size:.8rem">目撃情報を提供する</button> 運営が1日1回精査して反映（PRレビュー）。</div>
+<div class="legend">タイル: OpenStreetMap / 地理院地図（出典明記）。投稿は即時反映されます（承認不要の実証運用中）。ピンの位置は自動推定のためずれることがあります。 <button type="button" class="btn" data-ch="millidex-map" style="padding:6px 14px;font-size:.8rem">目撃情報を提供する</button></div>
 <div id="map"></div>
 <div id="list" style="margin-top:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px"></div>
 </main>
@@ -157,28 +157,66 @@
 <script src="../scripts/contact.js?v=20260909"></script><script src="../script.js"></script>
 <script>
 (function(){
+  function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+  function num(v){var n=parseFloat(v);return isFinite(n)?n:null;}
+  function norm(d){
+    if(!d)return null;
+    var la=num(d.lat),ln=num(d.lng);
+    if(la===null||ln===null)return null;
+    return {place:d.place||"",prefecture:d.prefecture||"",date:d.date||"",item:d.item||"",memberId:d.memberId||"",gmapsUrl:d.gmapsUrl||"",lat:la,lng:ln,createdAt:d.createdAt||0};
+  }
   var map=L.map('map', { minZoom:4, maxZoom:18 }).setView([36.2,138.0],5);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:'&copy; OpenStreetMap contributors / 地理院地図', maxZoom:18 }).addTo(map);
   setTimeout(function(){ map.invalidateSize(); }, 100);
   window.addEventListener("resize", function(){ map.invalidateSize(); });
   // optional GSI switch: L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {attribution:'地理院地図'} )
   var cluster=L.markerClusterGroup();
-  fetch('../data/sightings.json').then(function(r){return r.json()}).then(function(data){
-    var approved=data.filter(function(d){return d.status==="approved" && d.lat && d.lng;});
-    approved.forEach(function(d){
-      var m=d.memberId? MEMBERS.find(function(x){return x.id===d.memberId}):null;
-      var color=m? m.color : "#75b1c0";
-      var icon=L.divIcon({ html:'<span style="width:14px;height:14px;border-radius:50%;background:'+color+';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.3);display:block"></span>', className:'', iconSize:[14,14] });
-      var mk=L.marker([d.lat,d.lng], {icon:icon});
-      mk.bindPopup('<b>'+d.place+'</b><br>'+d.item+'<br><span style="font-size:.78rem;color:#6f6250">'+d.date+' / '+(d.prefecture||"")+'</span><br><a href="'+(d.gmapsUrl|| "https://www.google.com/maps/search/"+encodeURIComponent(d.place))+'" target="_blank">地図を開く</a> <a href="current.html" style="margin-left:6px">グッズを見る</a><br><span style="font-size:.68rem;color:#c0392b">目撃時点の情報。在庫は店舗へお問い合わせください。</span>');
-      cluster.addLayer(mk);
-    });
-    map.addLayer(cluster);
-    // list below map
+  map.addLayer(cluster);
+  var staticApproved=[];
+  var liveCache=[];
+  var fitted=false;
+  function colorFor(id){
+    try{
+      var m=id?MEMBERS.find(function(x){return x.id===id;}):null;
+      return m?m.color:"#75b1c0";
+    }catch(e){return "#75b1c0";}
+  }
+  function gmapsUrlFor(d){return d.gmapsUrl||("https://www.google.com/maps/search/"+encodeURIComponent(d.place||""));}
+  function markerFor(d){
+    var icon=L.divIcon({ html:'<span style="width:14px;height:14px;border-radius:50%;background:'+colorFor(d.memberId)+';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.3);display:block"></span>', className:'', iconSize:[14,14] });
+    var mk=L.marker([d.lat,d.lng], {icon:icon});
+    mk.bindPopup('<b>'+esc(d.place)+'</b><br>'+esc(d.item)+'<br><span style="font-size:.78rem;color:#6f6250">'+esc(d.date)+' / '+esc(d.prefecture)+'</span><br><a href="'+esc(gmapsUrlFor(d))+'" target="_blank" rel="noopener">地図を開く</a> <a href="current.html" style="margin-left:6px">グッズを見る</a><br><span style="font-size:.68rem;color:#c0392b">目撃時点の情報。在庫は店舗へお問い合わせください。</span>');
+    return mk;
+  }
+  function cardFor(d){
+    return '<div class="card" style="padding:10px"><b>'+esc(d.place)+'</b><div style="font-size:.78rem;color:var(--muted)">'+esc(d.prefecture)+'・'+esc(d.date)+'</div><div style="font-size:.82rem">'+esc(d.item)+'</div><a href="'+esc(gmapsUrlFor(d))+'" target="_blank" rel="noopener" class="btn btn-ghost" style="padding:4px 10px;font-size:.74rem;margin-top:6px">地図</a></div>';
+  }
+  function render(){
+    var all=staticApproved.concat(liveCache);
+    try{cluster.clearLayers();}catch(e){}
+    all.forEach(function(d){ try{cluster.addLayer(markerFor(d));}catch(e){} });
     var list=document.getElementById("list");
-    list.innerHTML=approved.map(function(d){ return '<div class="card" style="padding:10px"><b>'+d.place+'</b><div style="font-size:.78rem;color:var(--muted)">'+d.prefecture+'・'+d.date+'</div><div style="font-size:.82rem">'+d.item+'</div><a href="'+(d.gmapsUrl|| "https://www.google.com/maps/search/"+encodeURIComponent(d.place))+'" target="_blank" class="btn btn-ghost" style="padding:4px 10px;font-size:.74rem;margin-top:6px">地図</a></div>'; }).join("");
-    if(approved.length) map.fitBounds(cluster.getBounds().pad(0.2));
-  });
+    if(list)list.innerHTML=all.map(cardFor).join("");
+    if(all.length&&!fitted){fitted=true;try{map.fitBounds(cluster.getBounds().pad(0.2));}catch(e){}}
+  }
+  fetch('../data/sightings.json').then(function(r){return r.json();}).then(function(data){
+    staticApproved=(data||[]).map(norm).filter(Boolean).filter(function(d){return true;});
+    // 旧形式は status approved のみ（live側は承認不要）
+    render();
+  }).catch(function(){render();});
+  // 有志マップ即時反映：公開ノードを購読
+  try{
+    if(typeof initFirebase==="function")initFirebase();
+    if(typeof firebase!=="undefined"&&firebase.apps&&firebase.apps.length){
+      firebase.database().ref("sightingsLive").on("value",function(snap){
+        var v=snap.val()||{};
+        var arr=Object.keys(v).map(function(k){return norm(v[k]);}).filter(Boolean);
+        arr.sort(function(a,b){return (b.createdAt||0)-(a.createdAt||0);});
+        liveCache=arr;
+        render();
+      });
+    }
+  }catch(e){}
 })();
 </script>
 </body>
