@@ -78,7 +78,7 @@
       serviceNote: trimStr(d.serviceNote, 100) || null,
       subject: trimStr(d.subject, 100) || null,
       body: body, fields: fields,
-      contact: trimStr(d.contact, 200) || null,
+      contact: entry === "service" ? (trimStr(d.xAccount, 200) || null) : (trimStr(d.contact, 200) || null),
       uid: getUid(), status: "pending", createdAt: Date.now(),
     };
     try { rec.ua = String(navigator.userAgent || "").slice(0, 120); } catch (e) {}
@@ -197,6 +197,7 @@
       + field("件名（任意）", input("subject", "例：誤字の報告"))
       + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
       + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。")
+      + field("Xアカウント（任意）", input("xAccount", "例：@SunSunmachi"), "XのDMでの連絡を希望する方はご記入ください。")
       + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
       + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
       + '<p class="acct-msg" data-contact-msg></p>'
@@ -405,7 +406,8 @@
       return (pg.target === "other" ? field("サイト名・サービス名", input("serviceNote", "例：○○（URLがあれば本文へ）")) : "")
         + field("件名（任意）", input("subject", "例：誤字の報告"))
         + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
-        + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。");
+        + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。")
+        + field("Xアカウント（任意）", input("xAccount", "例：@SunSunmachi"), "XのDMでの連絡を希望する方はご記入ください。");
     }
     function snapshot() {
       var o = {};

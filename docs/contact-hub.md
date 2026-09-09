@@ -23,7 +23,7 @@
 | `subject` | string | △ | ①のみ件名（最大100字） |
 | `body` | string | ○ | 本文（最大2000字。②map/goodsでは補足・コメント欄） |
 | `fields` | object | ○ | 種別固有項目（下表。値は文字列・最大200字/項目） |
-| `contact` | string | — | 連絡先（任意・最大200字） |
+| `contact` | string | — | 連絡先（最大200字）。①ではXアカウント、②ではX IDやメール等の任意記入 |
 | `uid` | string/null | ○ | Firebase uid（未ログインは `null`。匿名表示の運用） |
 | `status` | string | ○ | `pending`（運営が `approved`／`rejected` に更新） |
 | `createdAt` | number | ○ | `Date.now()` |
