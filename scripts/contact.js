@@ -8,6 +8,7 @@
   "use strict";
 
   var QUEUE = "contactQueue";
+  var LIVE_QUEUE = "sightingsLive"; // 有志マップ即時反映用（公開読取・連絡先なし）
   var RATE_KEY = "milli-contact-last";
   var RATE_MS = 60000;
   var TARGETS = ["orbis", "unishare", "games", "other", "map", "goods"];
@@ -45,6 +46,51 @@
   }
   function markSent() { try { localStorage.setItem(RATE_KEY, String(Date.now())); } catch (e) {} }
 
+  /* 都道府県庁所在地（ジオコーディング失敗時のフォールバック） */
+  var PREF_CAP = {
+    "北海道": [43.06, 141.35], "青森県": [40.82, 140.74], "岩手県": [39.70, 141.15],
+    "宮城県": [38.27, 141.00], "秋田県": [39.72, 140.10], "山形県": [38.24, 140.36],
+    "福島県": [37.75, 140.47], "茨城県": [36.37, 140.47], "栃木県": [36.56, 139.88],
+    "群馬県": [36.39, 139.06], "埼玉県": [35.86, 139.65], "千葉県": [35.61, 140.12],
+    "東京都": [35.69, 139.69], "神奈川県": [35.45, 139.64], "新潟県": [37.92, 139.04],
+    "富山県": [36.70, 137.21], "石川県": [36.56, 136.66], "福井県": [36.06, 136.22],
+    "山梨県": [35.66, 138.57], "長野県": [36.65, 138.18], "岐阜県": [35.42, 136.76],
+    "静岡県": [34.98, 138.38], "愛知県": [35.18, 136.91], "三重県": [34.72, 136.51],
+    "滋賀県": [35.02, 135.87], "京都府": [35.01, 135.77], "大阪府": [34.69, 135.50],
+    "兵庫県": [34.69, 135.18], "奈良県": [34.69, 135.81], "和歌山県": [34.23, 135.17],
+    "鳥取県": [35.50, 134.24], "島根県": [35.47, 133.05], "岡山県": [34.66, 133.92],
+    "広島県": [34.39, 132.46], "山口県": [34.19, 131.47], "徳島県": [34.07, 134.56],
+    "香川県": [34.34, 134.04], "愛媛県": [33.84, 132.77], "高知県": [33.56, 133.53],
+    "福岡県": [33.61, 130.42], "佐賀県": [33.25, 130.30], "長崎県": [32.75, 129.88],
+    "熊本県": [32.80, 130.71], "大分県": [33.24, 131.61], "宮崎県": [31.91, 131.42],
+    "鹿児島県": [31.56, 130.56], "沖縄県": [26.21, 127.68]
+  };
+
+  /* 店舗名＋都道府県をジオコーディング。失敗時は県庁所在地、両方なければ null */
+  function geocodeShop(shop, pref) {
+    var cap = PREF_CAP[pref] ? { lat: PREF_CAP[pref][0], lng: PREF_CAP[pref][1] } : null;
+    try {
+      if (typeof fetch === "undefined") return Promise.resolve(cap);
+      var q = ((shop || "") + " " + (pref || "")).trim();
+      if (!q) return Promise.resolve(cap);
+      var url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=jp&q=" + encodeURIComponent(q);
+      var done = false, timer = null;
+      return new Promise(function (resolve) {
+        timer = setTimeout(function () { if (!done) { done = true; resolve(cap); } }, 8000);
+        fetch(url, { headers: { "Accept": "application/json" } }).then(function (r) {
+          if (done) return null;
+          return r.ok ? r.json() : null;
+        }).then(function (j) {
+          if (done) return;
+          done = true; clearTimeout(timer);
+          if (j && j[0] && isFinite(parseFloat(j[0].lat)) && isFinite(parseFloat(j[0].lon))) {
+            resolve({ lat: parseFloat(j[0].lat), lng: parseFloat(j[0].lon) });
+          } else resolve(cap);
+        }).catch(function () { if (!done) { done = true; clearTimeout(timer); resolve(cap); } });
+      });
+    } catch (e) { return Promise.resolve(cap); }
+  }
+
   /* 送信本体。成功時 {ok:true}、失敗時 {ok:false, error} を返す */
   function pushContact(entry, target, d) {
     d = d || {};
@@ -69,6 +115,27 @@
       return Promise.resolve({ ok: false, error: "required" });
     }
     if (target === "goods" && !fields.item) return Promise.resolve({ ok: false, error: "required" });
+    if (entry === "millidex" && target === "map") {
+      // 有志マップは承認なし即時反映：公開ノードへ（連絡先・uid・UAは送らない）
+      return geocodeShop(fields.shop, fields.pref).then(function (ll) {
+        if (!ll) return { ok: false, error: "db" };
+        var database2 = db();
+        if (!database2) return { ok: false, error: "unavailable" };
+        var rec2 = {
+          entry: "millidex", target: "map",
+          place: fields.shop, prefecture: fields.pref,
+          date: fields.date || null, item: fields.item,
+          memberId: fields.member || null, body: body,
+          lat: ll.lat, lng: ll.lng, createdAt: Date.now()
+        };
+        return database2.ref(LIVE_QUEUE).push(rec2).then(function () {
+          markSent();
+          return { ok: true };
+        }).catch(function () {
+          return { ok: false, error: "db" };
+        });
+      });
+    }
     var database = db();
     if (!database) return Promise.resolve({ ok: false, error: "unavailable" });
     var rec = {
@@ -229,7 +296,7 @@
   function renderMillidex(sel) {
     sel = sel || "map";
     boxBody.innerHTML = '<h3 style="margin:0 0 4px">MilliDexへのお問い合わせ</h3>'
-      + '<p class="acct-hint">有志マップの目撃情報・過去グッズの追加依頼はこちら。運営が確認後にサイトへ反映します。</p>'
+      + '<p class="acct-hint">有志マップの目撃情報は即時公開されます。過去グッズの追加依頼は運営が確認後にサイトへ反映します。</p>'
       + stepLabel(1, "送信先を選ぶ", "target")
       + pillRow("target", [{ v: "map", t: "有志マップ" }, { v: "goods", t: "過去グッズ申請" }], sel)
       + destBanner(TARGET_LABEL[sel])
@@ -255,7 +322,7 @@
         + field("グッズ名（必須）", input("item", "例：レトロポップver. 缶バッジ"))
         + field("タレント（任意）", '<select class="mo-field" data-f="member">' + memberOptions() + "</select>")
         + field("補足・コメント", textarea("body", "在庫状況・売場の場所など", 3))
-        + field("連絡先（任意）", input("contact", "X IDやメール（返信が必要な場合のみ）"));
+        + '<p class="acct-hint" style="margin:2px 0 0">投稿はそのまま公開されます。個人情報は書かないでください。</p>';
     } else {
       area.innerHTML = field("グッズ名（必須）", input("item", "例：○○記念グッズ アクリルスタンド"))
         + field("公式商品URL（任意）", input("url", "https://…", "", "url"))
@@ -419,7 +486,7 @@
             + field("グッズ名（必須）", input("item", "例：レトロポップver. 缶バッジ"))
             + field("タレント（任意）", '<select class="mo-field" data-f="member">' + memberOptions() + "</select>")
             + field("補足・コメント", textarea("body", "在庫状況・売場の場所など", 3))
-            + field("連絡先（任意）", input("contact", "X IDやメール（返信が必要な場合のみ）"));
+            + '<p class="acct-hint" style="margin:2px 0 0">投稿はそのまま公開されます。個人情報は書かないでください。</p>';
         }
         return field("グッズ名（必須）", input("item", "例：○○記念グッズ アクリルスタンド"))
           + field("公式商品URL（任意）", input("url", "https://…", "", "url"))
