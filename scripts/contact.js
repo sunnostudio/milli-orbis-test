@@ -46,6 +46,35 @@
   }
   function markSent() { try { localStorage.setItem(RATE_KEY, String(Date.now())); } catch (e) {} }
 
+  /* ---------- 下書き自動保存（誤操作の入力消失対策。送信成功で削除） ---------- */
+  function draftKey(entry) { return "milli-contact-draft-" + entry; }
+  function saveDraft(entry, obj) {
+    try { localStorage.setItem(draftKey(entry), JSON.stringify(obj || {})); } catch (e) {}
+  }
+  function loadDraft(entry) {
+    try { return JSON.parse(localStorage.getItem(draftKey(entry)) || "{}") || {}; } catch (e) { return {}; }
+  }
+  function clearDraft(entry) { try { localStorage.removeItem(draftKey(entry)); } catch (e) {} }
+  function collectFields(root) {
+    var o = {};
+    try {
+      root.querySelectorAll("[data-f]").forEach(function (el) {
+        var k = el.getAttribute("data-f");
+        if (k && k !== "company") o[k] = el.value;
+      });
+    } catch (e) {}
+    return o;
+  }
+  function restoreFields(root, vals) {
+    if (!vals) return;
+    try {
+      root.querySelectorAll("[data-f]").forEach(function (el) {
+        var k = el.getAttribute("data-f");
+        if (k && k !== "company" && vals[k] != null) el.value = vals[k];
+      });
+    } catch (e) {}
+  }
+
   /* 都道府県庁所在地（ジオコーディング失敗時のフォールバック） */
   var PREF_CAP = {
     "北海道": [43.06, 141.35], "青森県": [40.82, 140.74], "岩手県": [39.70, 141.15],
@@ -187,10 +216,44 @@
     overlay.addEventListener("click", function (e) {
       if (e.target === overlay || e.target.closest("[data-contact-close]")) close();
     });
+    // 入力のたびに下書き保存（再描画・誤クローズでの消失対策）
+    overlay.addEventListener("input", persistModalDraft);
+    overlay.addEventListener("change", persistModalDraft);
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") close(); });
   }
   function open() { ensureOverlay(); overlay.classList.add("open"); overlay.setAttribute("aria-hidden", "false"); }
   function close() { if (overlay) { overlay.classList.remove("open"); overlay.setAttribute("aria-hidden", "true"); } }
+
+  function persistModalDraft() {
+    try {
+      if (!current || !boxBody) return;
+      var d = collectFields(boxBody);
+      d._target = current.target;
+      d._kind = current.kind;
+      d._entry = current.entry;
+      d._at = Date.now();
+      saveDraft(current.entry, d);
+    } catch (e) {}
+  }
+
+  function validServiceTarget(t) { return t === "orbis" || t === "unishare" || t === "games" || t === "other"; }
+  function validKind(k) { return KINDS.indexOf(k) >= 0; }
+
+  function newerDraft() {
+    try {
+      var a = loadDraft("service"), b = loadDraft("millidex");
+      var cand = [];
+      if (a && (a._entry === "service" || a._entry === "millidex")) cand.push(a);
+      if (b && (b._entry === "service" || b._entry === "millidex")) cand.push(b);
+      cand.sort(function (x, y) { return (y._at || 0) - (x._at || 0); });
+      var t = cand[0];
+      if (!t) return null;
+      var e = t._entry, g = t._target;
+      if (e === "service" && !validServiceTarget(g)) g = "orbis";
+      if (e === "millidex" && g !== "map" && g !== "goods") g = "map";
+      return { entry: e, target: g, kind: validKind(t._kind) ? t._kind : "other" };
+    } catch (e) { return null; }
+  }
 
   function pillRow(name, opts, sel) {
     return '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0" data-pills="' + name + '">'
@@ -272,6 +335,7 @@
     wirePills("target", function (v) { renderService(v, true); scrollToStep(boxBody, "kind"); });
     wireKindPills();
     wireSend("service", function () { return { target: current.target }; });
+    restoreFields(boxBody, loadDraft("service"));
   }
 
   function kindPillsHtml(kind) {
@@ -309,6 +373,7 @@
     wirePills("target", function (v) { renderMillidex(v); scrollToStep(boxBody, "form"); });
     renderMillidexFields(sel);
     wireSend("millidex", function () { return { target: current.target }; });
+    restoreFields(boxBody, loadDraft("millidex"));
   }
 
   function renderMillidexFields(sel) {
@@ -376,6 +441,7 @@
       pushContact(entry, t.target, d).then(function (r) {
         btn.disabled = false;
         if (r.ok) {
+          clearDraft(entry);
           var keepEntry = entry, keepTarget = t.target, keepKind = current.kind;
           boxBody.innerHTML = doneHtml("modal");
           var bc = boxBody.querySelector("[data-done-close]");
@@ -392,7 +458,15 @@
     });
   }
 
-  function openService() { current = { entry: "service", target: "orbis", kind: "other" }; ensureOverlay(); renderService("orbis"); open(); }
+  function openService() {
+    current = { entry: "service", target: "orbis", kind: "other" };
+    try {
+      var dr = loadDraft("service");
+      if (validServiceTarget(dr._target)) current.target = dr._target;
+      if (validKind(dr._kind)) current.kind = dr._kind;
+    } catch (e) {}
+    ensureOverlay(); renderService(current.target, true); open();
+  }
   function openMillidex(preset) {
     current = { entry: "millidex", target: preset === "goods" ? "goods" : "map" };
     ensureOverlay(); renderMillidex(current.target); open();
@@ -458,19 +532,56 @@
   function renderPageForm(root, preset) {
     if (!root) return;
     var pg = { entry: "service", target: "orbis", kind: "other" };
+    var hasEntrySrc = false, hasTargetSrc = false;
     try {
       var q = new URLSearchParams(location.search);
-      if (q.get("entry") === "millidex") pg.entry = "millidex";
+      if (q.get("entry") === "service" || q.get("entry") === "millidex") { pg.entry = q.get("entry"); hasEntrySrc = true; }
       var qt = q.get("target");
-      if (qt === "map" || qt === "goods") { pg.entry = "millidex"; pg.target = qt; }
-      else if (qt === "orbis" || qt === "unishare" || qt === "games" || qt === "other") { pg.entry = "service"; pg.target = qt; }
+      if (qt === "map" || qt === "goods") { pg.entry = "millidex"; pg.target = qt; hasEntrySrc = true; hasTargetSrc = true; }
+      else if (qt === "orbis" || qt === "unishare" || qt === "games" || qt === "other") { pg.entry = "service"; pg.target = qt; hasEntrySrc = true; hasTargetSrc = true; }
       if (preset) {
-        if (preset.entry === "service" || preset.entry === "millidex") pg.entry = preset.entry;
-        if (preset.target && TARGETS.indexOf(preset.target) >= 0) pg.target = preset.target;
+        if (preset.entry === "service" || preset.entry === "millidex") { pg.entry = preset.entry; hasEntrySrc = true; }
+        if (preset.target && TARGETS.indexOf(preset.target) >= 0) { pg.target = preset.target; hasTargetSrc = true; }
+      }
+      if (!hasEntrySrc) {
+        var best = newerDraft();
+        if (best) {
+          pg.entry = best.entry; pg.kind = best.kind;
+          if (!hasTargetSrc) pg.target = best.target;
+        }
+      } else if (!hasTargetSrc) {
+        var d0 = loadDraft(pg.entry);
+        if (pg.entry === "service" && validServiceTarget(d0._target)) pg.target = d0._target;
+        if (pg.entry === "millidex" && (d0._target === "map" || d0._target === "goods")) pg.target = d0._target;
+        if (validKind(d0._kind)) pg.kind = d0._kind;
       }
       if (pg.entry === "service" && (pg.target === "map" || pg.target === "goods")) pg.target = "orbis";
       if (pg.entry === "millidex" && pg.target !== "map" && pg.target !== "goods") pg.target = "map";
     } catch (e) {}
+    function persistPageDraft() {
+      try {
+        var d = collectFields(root);
+        d._entry = pg.entry; d._target = pg.target; d._kind = pg.kind;
+        d._at = Date.now();
+        saveDraft(pg.entry, d);
+      } catch (e2) {}
+    }
+    try {
+      if (root.dataset && !root.dataset.chDraftBound) {
+        root.dataset.chDraftBound = "1";
+        root.addEventListener("input", persistPageDraft);
+        root.addEventListener("change", persistPageDraft);
+      }
+    } catch (e) {}
+    function mergeKeep(keep) {
+      try {
+        var d = loadDraft(pg.entry);
+        var out = {};
+        for (var k in d) if (k.charAt(0) !== "_" && d[k] != null) out[k] = d[k];
+        for (var k2 in keep) if (keep[k2] !== "" && keep[k2] != null) out[k2] = keep[k2];
+        return out;
+      } catch (e) { return keep; }
+    }
     function pgTargets() {
       return pg.entry === "service"
         ? [{ v: "orbis", t: "Milli Orbis" }, { v: "unishare", t: "Milli Unishare" }, { v: "games", t: "Milli Games" }, { v: "other", t: "その他" }]
@@ -547,7 +658,7 @@
         + '<p class="acct-hint" style="margin:8px 0 0">' + DISCLAIMER + '</p>'
         + '<p class="acct-msg" data-pg-msg></p>'
         + '<button type="button" class="btn" data-pg-send style="width:100%;justify-content:center">送信する</button>';
-      restore(keep);
+      restore(mergeKeep(keep));
       root.querySelectorAll("[data-pg-entry]").forEach(function (b) {
         b.addEventListener("click", function () {
           pg.entry = b.getAttribute("data-pg-entry");
@@ -581,6 +692,7 @@
         pushContact(pg.entry, pg.target, d).then(function (r) {
           btn.disabled = false;
           if (r.ok) {
+            clearDraft(pg.entry);
             var keepEntry = pg.entry, keepTarget = pg.target, keepKind = pg.kind;
             root.innerHTML = doneHtml("page");
             var sw = root.querySelector("[data-done-switch]");

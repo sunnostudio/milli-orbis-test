@@ -101,6 +101,7 @@
 ## 6. 実装メモ（本リポジトリ）
 
 - `scripts/contact.js`：`pushContact(entry, target, data)`／honeypot（`company` 欄）／1分1件制限（localStorage `milli-contact-last`）／未設定・rules未適用時の画面案内
+- 下書き自動保存：入力のたびに `milli-contact-draft-{service,millidex}` へ保存。再描画・誤クローズ・リロードでも復元、送信成功で削除
 - `target:map` は `sightingsLive` へ公開レコードをpush（送信時にNominatimでジオコーディング、失敗時は県庁所在地フォールバック）。連絡先欄なし
 - `goods/map.html`：`sightings.json`（既存承認分）＋`sightingsLive`（購読・即時反映）をマージ表示。全出力項目をエスケープ（XSS対策）
 - モーダルは `acct-overlay`／`acct-box` 意匠を流用し `scripts/contact.js` 内で生成（各頁HTMLは触らない）
