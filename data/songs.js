@@ -4,7 +4,7 @@ window.SONGS = {
   "official": [
     {
       "id": "MG3I1rUs5v8",
-      "title": "NET CHOOSE SHOW／雨夜リズ（official）",
+      "title": "NET CHOOSE SHOW - 雨夜リズ（official）",
       "publishedAt": "2026-08-31",
       "members": [
         "liz"
@@ -609,6 +609,11 @@ window.SONGS = {
           "id": "621K-5_WPVA",
           "memberId": "official",
           "publishedAt": "2026-08-21"
+        },
+        {
+          "id": "621K-5_WPVA",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-09-10"
         }
       ]
     },
