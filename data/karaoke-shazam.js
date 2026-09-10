@@ -50,8 +50,8 @@ window.KARAOKE_SHAZAM = {
   },
   "Hr_KWbYXJQM": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-09-10T02:17:24.460560+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-09-10T07:54:41.367394+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "qkj1pQjIl44": {
@@ -110,8 +110,8 @@ window.KARAOKE_SHAZAM = {
   },
   "8y2v7uLYRN4": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-09-10T02:17:14.959324+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-09-10T07:54:32.479964+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "VOXMc7Cg2w8": {
@@ -265,9 +265,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: 音声ストリームがありません / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> / https://pipedapi.really"
   },
   "UQi3DEDW90w": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-10T02:17:05.609510+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-10T07:54:23.584305+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "9uhChi7bPgY": {
