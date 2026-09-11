@@ -92,15 +92,15 @@ window.KARAOKE_SHAZAM = {
   },
   "tgutNmpSxac": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-09-11T15:08:44.845130+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-09-11T16:13:06.308276+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "i4rIuNwhmdk": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-09-04T15:39:55.670687+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error timed out> / https://pipedapi.reallyawe"
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-09-11T16:13:22.501544+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "Iy_Eh0FIlwU": {
     "status": "skip",
@@ -188,8 +188,8 @@ window.KARAOKE_SHAZAM = {
   },
   "81HDuQX-X9U": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-09-05T08:27:54.712019+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-09-11T16:13:36.833901+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "m9XsXa_2wsY": {
