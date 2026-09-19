@@ -104,8 +104,8 @@ window.KARAOKE_SHAZAM = {
   },
   "Iy_Eh0FIlwU": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-09-19T20:11:56.733226+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-09-19T21:07:22.609347+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "8y2v7uLYRN4": {
@@ -151,15 +151,15 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "E3i7WM4pe_s": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-19T20:12:06.627263+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-19T21:07:31.803199+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "lraoRS6DfxY": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-09-12T16:13:02.114202+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-09-19T21:07:41.146162+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "I76157BdfSE": {
