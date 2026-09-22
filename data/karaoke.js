@@ -1,6 +1,62 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "4wgmPPZhNGM",
+    "memberId": "raco",
+    "publishedAt": "2026-09-21",
+    "title": "【歌枠】低気圧を許すな【音ノ瀬らこ /ミリプロ】",
+    "duration": 9030,
+    "songs": []
+  },
+  {
+    "id": "rXuSYrvh3HU",
+    "memberId": "liz",
+    "publishedAt": "2026-09-17",
+    "title": "【歌枠＋雑談】告知あり！歌枠だよ【雨夜リズ/ミリプロ】",
+    "duration": 4244,
+    "songs": []
+  },
+  {
+    "id": "2xL3Hl_mLUw",
+    "memberId": "yura",
+    "publishedAt": "2026-09-14",
+    "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
+    "duration": 8568,
+    "songs": []
+  },
+  {
+    "id": "HRLfi6uwx6A",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-09-14",
+    "title": "〖 歌枠 〗たのしみ告知あり！のんびりうたうにょ～～ん〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 7655,
+    "songs": []
+  },
+  {
+    "id": "lpD3yTeGWzQ",
+    "memberId": "yura",
+    "publishedAt": "2026-09-13",
+    "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
+    "duration": 9685,
+    "songs": []
+  },
+  {
+    "id": "vQffqjWuMAc",
+    "memberId": "raco",
+    "publishedAt": "2026-09-11",
+    "title": "【歌枠】明日は3Dお披露目だー！！【音ノ瀬らこ /ミリプロ】",
+    "duration": 10475,
+    "songs": []
+  },
+  {
+    "id": "T5Q0uHZR4k8",
+    "memberId": "yura",
+    "publishedAt": "2026-09-11",
+    "title": "【歌枠】3Dお披露目前夜祭♪【ゆらぎゆら/ミリプロ】",
+    "duration": 4108,
+    "songs": []
+  },
+  {
     "id": "R4oRuHrYY4g",
     "memberId": "liz",
     "publishedAt": "2026-09-06",
@@ -68,16 +124,8 @@ window.KARAOKE = [
     "id": "YKE2uQ2XpX0",
     "memberId": "nono",
     "publishedAt": "2026-08-22",
-    "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
-    "duration": 0,
-    "songs": []
-  },
-  {
-    "id": "pKv7C5ZJTAw",
-    "memberId": "nono",
-    "publishedAt": "2026-08-22",
-    "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
-    "duration": 0,
+    "title": "【歌枠】病み上がり歌枠に変更┊︎#音ノ乃のの #ののん家",
+    "duration": 7532,
     "songs": []
   },
   {
@@ -3092,17 +3140,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "oswm56YnDM4",
-    "memberId": "raco",
-    "publishedAt": "2025-07-12",
-    "title": "【 縦型歌枠 】もうすぐ24万人だぁぁぁ！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 9104,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Almost 240,000 people! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "GZK8sQe4E-M",
     "memberId": "raco",
     "publishedAt": "2025-07-12",
@@ -3111,6 +3148,17 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] I woke up early so I spoke out loud [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "oswm56YnDM4",
+    "memberId": "raco",
+    "publishedAt": "2025-07-12",
+    "title": "【 縦型歌枠 】もうすぐ24万人だぁぁぁ！【 音ノ瀬らこ/ミリプロ 】",
+    "duration": 9104,
+    "songs": [],
+    "en": {
+      "title": "[Vertical song frame] Almost 240,000 people! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4104,17 +4152,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "pIdDW5S8BCw",
-    "memberId": "raco",
-    "publishedAt": "2025-03-28",
-    "title": "【 縦型歌枠 】もうすぐ登録者19万人！？【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 6257,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] 190,000 subscribers soon! ? [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "ml5N0SKI_Ps",
     "memberId": "raco",
     "publishedAt": "2025-03-28",
@@ -4123,6 +4160,17 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "Top batter! Let's keep it lively! ! [#Millipro 24-hour delivery relay]"
+    }
+  },
+  {
+    "id": "pIdDW5S8BCw",
+    "memberId": "raco",
+    "publishedAt": "2025-03-28",
+    "title": "【 縦型歌枠 】もうすぐ登録者19万人！？【 音ノ瀬らこ/ミリプロ 】",
+    "duration": 6257,
+    "songs": [],
+    "en": {
+      "title": "[Vertical song frame] 190,000 subscribers soon! ? [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4940,58 +4988,14 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "IGiHDCbAsko",
+    "id": "fwI7L2e74ys",
     "memberId": "raco",
     "publishedAt": "2024-08-12",
-    "title": "【初歌枠】やっと歌える！たくさん歌うよ～！！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 7468,
+    "title": "【歌枠】バラード＆ピアノ音源縛り！【音ノ瀬らこ /ミリプロ 】",
+    "duration": 7362,
     "songs": [],
     "en": {
-      "title": "[First song slot] I can finally sing! I'll sing a lot! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "_d1X8cCevS0",
-    "memberId": "raco",
-    "publishedAt": "2024-08-12",
-    "title": "【縦型歌枠】JPOPアニソン多め！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 5901,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Lots of JPOP anime songs! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "4E5cvHOxC4g",
-    "memberId": "raco",
-    "publishedAt": "2024-08-12",
-    "title": "【収益化歌枠】セトリを決めてきました！！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 6265,
-    "songs": [],
-    "en": {
-      "title": "[Monetized song frame] We have decided on the set list! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "uKN1IXgJ-Mc",
-    "memberId": "raco",
-    "publishedAt": "2024-08-12",
-    "title": "【歌枠】登録者８万人！？ありがとう！！！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 8249,
-    "songs": [],
-    "en": {
-      "title": "[Song Frame] 80,000 subscribers! ? thank you! ! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "iTl71YKVWKU",
-    "memberId": "raco",
-    "publishedAt": "2024-08-12",
-    "title": "【歌枠】懐かしいボカロ曲集めてきました！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 8572,
-    "songs": [],
-    "en": {
-      "title": "[Song Frame] We have collected nostalgic Vocaloid songs! [Rako Otonose/MilliPro]"
+      "title": "[Song frame] Ballad & piano sound source tied! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -5006,14 +5010,58 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "fwI7L2e74ys",
+    "id": "iTl71YKVWKU",
     "memberId": "raco",
     "publishedAt": "2024-08-12",
-    "title": "【歌枠】バラード＆ピアノ音源縛り！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 7362,
+    "title": "【歌枠】懐かしいボカロ曲集めてきました！【音ノ瀬らこ /ミリプロ 】",
+    "duration": 8572,
     "songs": [],
     "en": {
-      "title": "[Song frame] Ballad & piano sound source tied! [Rako Otonose/MilliPro]"
+      "title": "[Song Frame] We have collected nostalgic Vocaloid songs! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "uKN1IXgJ-Mc",
+    "memberId": "raco",
+    "publishedAt": "2024-08-12",
+    "title": "【歌枠】登録者８万人！？ありがとう！！！【音ノ瀬らこ /ミリプロ 】",
+    "duration": 8249,
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] 80,000 subscribers! ? thank you! ! ! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "4E5cvHOxC4g",
+    "memberId": "raco",
+    "publishedAt": "2024-08-12",
+    "title": "【収益化歌枠】セトリを決めてきました！！【音ノ瀬らこ /ミリプロ 】",
+    "duration": 6265,
+    "songs": [],
+    "en": {
+      "title": "[Monetized song frame] We have decided on the set list! ! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "_d1X8cCevS0",
+    "memberId": "raco",
+    "publishedAt": "2024-08-12",
+    "title": "【縦型歌枠】JPOPアニソン多め！【音ノ瀬らこ /ミリプロ 】",
+    "duration": 5901,
+    "songs": [],
+    "en": {
+      "title": "[Vertical song frame] Lots of JPOP anime songs! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "IGiHDCbAsko",
+    "memberId": "raco",
+    "publishedAt": "2024-08-12",
+    "title": "【初歌枠】やっと歌える！たくさん歌うよ～！！【音ノ瀬らこ /ミリプロ 】",
+    "duration": 7468,
+    "songs": [],
+    "en": {
+      "title": "[First song slot] I can finally sing! I'll sing a lot! ! [Rako Otonose/MilliPro]"
     }
   },
   {

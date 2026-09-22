@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-09-10",
+  "generatedAt": "2026-09-22",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -382,6 +382,39 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "高嶺の花子さん（back number） - 鹿乃まほろ cover.",
+      "key": "高嶺の花子さん-.",
+      "urls": [
+        {
+          "id": "FDzTaSc6haw",
+          "memberId": "mahoro",
+          "publishedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "title": "ミカヅキ/酸欠少女さユり",
+      "key": "ミカヅキ酸欠少女さユり",
+      "urls": [
+        {
+          "id": "oHL-kU7tOwU",
+          "memberId": "yura",
+          "publishedAt": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "title": "サウダージ",
+      "key": "サウダジ",
+      "urls": [
+        {
+          "id": "57JbDc9aefw",
+          "memberId": "akubi",
+          "publishedAt": "2026-09-14"
+        }
+      ]
+    },
+    {
       "title": "Surges",
       "key": "surges＆",
       "urls": [
@@ -585,11 +618,6 @@ window.SONGS = {
           "id": "g4qGSYgxHLU",
           "memberId": "raco",
           "publishedAt": "2026-08-16"
-        },
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {
@@ -1231,7 +1259,7 @@ window.SONGS = {
         {
           "id": "yynYqcLJYPk",
           "memberId": "yura",
-          "publishedAt": "2026-09-04"
+          "publishedAt": "2025-12-26"
         }
       ],
       "en": {
@@ -1718,11 +1746,6 @@ window.SONGS = {
           "id": "OH0g_7k-7aI",
           "memberId": "tsukuri",
           "publishedAt": "2025-08-02"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {
@@ -1848,11 +1871,6 @@ window.SONGS = {
           "id": "g5Y9wMxEwKw",
           "memberId": "raco",
           "publishedAt": "2025-06-03"
-        },
-        {
-          "id": "g5Y9wMxEwKw",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {
@@ -2165,11 +2183,6 @@ window.SONGS = {
           "id": "HEmqwBrP6gE",
           "memberId": "raco",
           "publishedAt": "2024-12-26"
-        },
-        {
-          "id": "HEmqwBrP6gE",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {
