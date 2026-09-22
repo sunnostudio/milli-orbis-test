@@ -9,14 +9,29 @@
 <meta property="og:site_name" content="Milli Orbis">
 <meta property="og:title" content="Milli Orbis | ミリプロ非公式ファンポータル">
 <meta property="og:description" content="ミリプロ（Million Production）のファンが運営する非公式ポータルサイト。配信予定・最新動画・誕生日カウントダウン・イベントカレンダー・公式リンクを集約。">
-<meta property="og:url" content="https://milli-orbis-portal.onrender.com/">
-<meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<meta property="og:url" content="https://milli-orbis-portal.pages.dev/">
+<meta property="og:image" content="https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png">
 <meta property="og:image:width" content="1729">
 <meta property="og:image:height" content="910">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Milli Orbis | ミリプロ非公式ファンポータル">
 <meta name="twitter:description" content="ミリプロ（Million Production）のファンが運営する非公式ポータルサイト。配信予定・最新動画・誕生日カウントダウン・イベントカレンダー・公式リンクを集約。">
-<meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<meta name="twitter:image" content="https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png">
+<link rel="canonical" href="https://milli-orbis-portal.pages.dev/">
+<!-- 旧Render URLから移行: https://milli-orbis-portal.onrender.com は本ファイルのJSで pages.dev へ301相当リダイレクト -->
+<script>
+(function(){
+  try {
+    var NEW_BASE = 'https://milli-orbis-portal.pages.dev';
+    var isOldHost = location.hostname.indexOf('onrender.com') !== -1;
+    var isCrawler = /Twitterbot|facebookexternalhit|Slackbot|Discordbot|LinkedInBot|LineBot|SkypeUriPreview/i.test(navigator.userAgent);
+    if (isOldHost && !isCrawler) {
+      var newUrl = NEW_BASE + location.pathname + location.search + location.hash;
+      location.replace(newUrl);
+    }
+  } catch(e){}
+})();
+</script>
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
@@ -29,6 +44,24 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-oshi="">
+<!-- Cloudflare移行: 旧RenderでJS無効/遅延時に表示するfallbackバナー -->
+<div id="oldHostBanner" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,0.08)">
+移行しました: 新サイトは <a href="https://milli-orbis-portal.pages.dev/" style="color:#0d6efd;font-weight:800">https://milli-orbis-portal.pages.dev/</a> です。自動で切り替わらない方はこちらをクリックしてください。
+</div>
+<script>
+(function(){
+  try{
+    if(location.hostname.indexOf('onrender.com')!==-1){
+      var b=document.getElementById('oldHostBanner');
+      if(b) b.style.display='block';
+      setTimeout(function(){
+        if(location.hostname.indexOf('onrender.com')!==-1 && b){ b.style.background='#ffe69c'; }
+      },3000);
+    }
+  }catch(e){}
+})();
+</script>
+<noscript><div style="background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;">移行しました: 新サイトは <a href="https://milli-orbis-portal.pages.dev/" style="color:#0d6efd;font-weight:800">https://milli-orbis-portal.pages.dev/</a> です。</div></noscript>
 <header id="siteHeader">
   <div class="header-inner">
     <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
@@ -50,6 +83,7 @@
           <a href="liz.html" data-i18n-name="liz">雨夜リズ</a>
           <a href="rei.html" data-i18n-name="rei">夕霧レイ</a>
           <a href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
           <a href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
@@ -109,6 +143,7 @@
     <a class="mobile-sub" href="liz.html" data-i18n-name="liz">雨夜リズ</a>
     <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
     <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+    <a class="mobile-sub" href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
     <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
     <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
     <div class="drawer-section-label">MilliDex</div>
@@ -237,7 +272,7 @@
 
   <section id="members" class="section container">
     <h2 class="section-title">Member Guide</h2>
-    <p class="section-sub" data-i18n="members.sub">ミリプロ所属タレント11名＋ミリちゃん。カードから詳細ページへどうぞ</p>
+    <p class="section-sub" data-i18n="members.sub">ミリプロ所属タレント12名＋ミリちゃん。カードから詳細ページへどうぞ</p>
     <div id="memberGrid" class="grid member-grid"></div>
   </section>
 
@@ -252,7 +287,7 @@
       <button id="calListBtn" type="button" class="cd-style-btn" data-i18n="cal.list">リスト</button>
       <button id="calGridBtn" type="button" class="cd-style-btn" data-i18n="cal.grid">カレンダー</button>
     </div>
-    <p class="cal-subscribe" data-i18n-html="cal.subscribe">📅 <a href="calendar.ics">カレンダーを購読（.ics）</a> — Googleカレンダー: 「他のカレンダー」→「URLで追加」に <code>https://milli-orbis-portal.onrender.com/calendar.ics</code> を貼り付け（4時間ごとに自動更新）</p>
+    <p class="cal-subscribe" data-i18n-html="cal.subscribe">📅 <a href="calendar.ics">カレンダーを購読（.ics）</a> — Googleカレンダー: 「他のカレンダー」→「URLで追加」に <code>https://milli-orbis-portal.pages.dev/calendar.ics</code> を貼り付け（4時間ごとに自動更新）</p>
     <div id="eventList" class="cal-list"></div>
     <div id="calendarGrid" class="cal-grid" style="display:none;"></div>
     <div class="cal-legend" data-i18n="cal.legend"><span><span class="dot"></span>イベントのある日は日付をクリックすると詳細が見られます</span></div>
@@ -526,5 +561,5 @@
 <script src="scripts/cursor.js"></script>
 <script src="scripts/contact.js?v=20260909"></script>
 <script src="script.js"></script>
-</body>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9c22b824d28449dfabe8d631a5682118"}'></script><!-- Cloudflare Pages Analytics --></body>
 </html>

@@ -1,0 +1,4 @@
+# Halloweenは未完成のため公開しない (直リンクも404にする)
+# Cloudflare Pagesは _redirects の404ルールをファイル配信より優先する
+/halloween/* /404.html 404
+/halloween /404.html 404

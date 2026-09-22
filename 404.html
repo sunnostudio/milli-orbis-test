@@ -9,14 +9,29 @@
 <meta property="og:site_name" content="Milli Orbis">
 <meta property="og:title" content="404 | Milli Orbis">
 <meta property="og:description" content="ページが見つかりません。Milli Orbisはミリプロ（Million Production）のファンが運営する非公式ポータルサイトです。">
-<meta property="og:url" content="https://milli-orbis-portal.onrender.com/">
-<meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<meta property="og:url" content="https://milli-orbis-portal.pages.dev/">
+<meta property="og:image" content="https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png">
 <meta property="og:image:width" content="1729">
 <meta property="og:image:height" content="910">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="404 | Milli Orbis">
 <meta name="twitter:description" content="ページが見つかりません。Milli Orbisはミリプロ（Million Production）のファンが運営する非公式ポータルサイトです。">
-<meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<meta name="twitter:image" content="https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png">
+<link rel="canonical" href="https://milli-orbis-portal.pages.dev/">
+<!-- 旧Render URLから移行: https://milli-orbis-portal.onrender.com は本ファイルのJSで pages.dev へ301相当リダイレクト -->
+<script>
+(function(){
+  try {
+    var NEW_BASE = 'https://milli-orbis-portal.pages.dev';
+    var isOldHost = location.hostname.indexOf('onrender.com') !== -1;
+    var isCrawler = /Twitterbot|facebookexternalhit|Slackbot|Discordbot|LinkedInBot|LineBot|SkypeUriPreview/i.test(navigator.userAgent);
+    if (isOldHost && !isCrawler) {
+      var newUrl = NEW_BASE + location.pathname + location.search + location.hash;
+      location.replace(newUrl);
+    }
+  } catch(e){}
+})();
+</script>
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
@@ -26,6 +41,24 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="page-404">
+<!-- Cloudflare移行: 旧RenderでJS無効/遅延時に表示するfallbackバナー -->
+<div id="oldHostBanner" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,0.08)">
+移行しました: 新サイトは <a href="https://milli-orbis-portal.pages.dev/" style="color:#0d6efd;font-weight:800">https://milli-orbis-portal.pages.dev/</a> です。自動で切り替わらない方はこちらをクリックしてください。
+</div>
+<script>
+(function(){
+  try{
+    if(location.hostname.indexOf('onrender.com')!==-1){
+      var b=document.getElementById('oldHostBanner');
+      if(b) b.style.display='block';
+      setTimeout(function(){
+        if(location.hostname.indexOf('onrender.com')!==-1 && b){ b.style.background='#ffe69c'; }
+      },3000);
+    }
+  }catch(e){}
+})();
+</script>
+<noscript><div style="background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;">移行しました: 新サイトは <a href="https://milli-orbis-portal.pages.dev/" style="color:#0d6efd;font-weight:800">https://milli-orbis-portal.pages.dev/</a> です。</div></noscript>
 <main class="nf-main">
   <p class="nf-mark"><img src="images/icon/millipro_profile.jpg" alt="ミリちゃん"></p>
   <h1 class="nf-title">404</h1>
@@ -39,5 +72,5 @@
 <script src="data.js"></script>
 <script src="data/i18n.js"></script>
 <script src="scripts/i18n.js"></script>
-</body>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9c22b824d28449dfabe8d631a5682118"}'></script><!-- Cloudflare Pages Analytics --></body>
 </html>

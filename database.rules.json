@@ -30,6 +30,12 @@
           }
         }
       },
+      "spookyKeys": {
+        "$playerId": {
+          ".write": true,
+          ".validate": "newData.hasChildren(['clearedAt']) && newData.child('clearedAt').isNumber() && (!newData.hasChild('guest') || newData.child('guest').isString()) && (!newData.hasChild('mask') || newData.child('mask').isString())"
+        }
+      },
       "rewards": {
         "$playerId": {
           "$kind": {

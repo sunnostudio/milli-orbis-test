@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>事前登録 | HOTEL GRAND MILLI</title>
+<meta name="description" content="HOTEL GRAND MILLI 事前登録。名前と仮面を選んで招待状を作り、Xにポストできます。非公式ファンメイドの実験ページです。">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#f3e8d2">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HOTEL GRAND MILLI">
+<meta property="og:title" content="事前登録 | HOTEL GRAND MILLI">
+<meta property="og:description" content="HOTEL GRAND MILLI 事前登録。名前と仮面を選んで招待状を作り、Xにポストできます。非公式ファンメイドの実験ページです。">
+<meta property="og:url" content="https://milli-orbis-portal.pages.dev/halloween/pre-register.html">
+<meta property="og:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-invite.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="事前登録 | HOTEL GRAND MILLI">
+<meta name="twitter:description" content="HOTEL GRAND MILLI 事前登録。名前と仮面を選んで招待状を作り、Xにポストできます。非公式ファンメイドの実験ページです。">
+<meta name="twitter:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-invite.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="spooky.css?v=3">
+<link rel="stylesheet" href="spooky-invite.css?v=3">
+</head>
+<body class="spooky-body pre-dark">
+<div class="spooky-wrap">
+
+  <p class="spooky-kicker en">HOTEL GRAND MILLI — PRE-REGISTER</p>
+  <h1 class="spooky-title"><span class="en">Pre-register</span><br>事前登録</h1>
+  <p class="spooky-sub">お名前とご案内役の仮面を選ぶと、あなた宛ての招待状が完成します。画像を保存してXにポストしてください（ホテル内フロアへの移動はありません）。</p>
+
+  <div class="spooky-note">ファンメイドの試作品です。ミリプロ公式とは関係ありません。<br>Xの投稿画面には画像が自動添付されないため、①保存 → ②画像を添えてポストの順でどうぞ。</div>
+
+  <div class="deco-divider" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <div class="guest-row">
+    <label for="shareNameInput">GUEST —</label>
+    <input id="shareNameInput" type="text" maxlength="14" placeholder="お名前をどうぞ" autocomplete="off">
+  </div>
+
+  <section class="spooky-floor" data-floor-section="1" data-floor="1">
+    <span class="spooky-tag en">MASK — ESCORT</span>
+    <h2>ご案内役の仮面<span class="en">Choose your escort</span></h2>
+    <div class="mask-grid" id="maskGrid"></div>
+  </section>
+
+  <div class="share-glow">
+    <div class="deco-frame">
+      <div class="share-card" aria-live="polite">
+        <img class="art" src="images/invite/invite-base.webp" alt="HOTEL GRAND MILLI の招待状">
+        <div class="share-name" id="shareNameOut">Guest</div>
+        <div class="share-mask is-empty" id="shareMaskOut"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="deco-divider" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <p class="invite-hint" id="shareHint"></p>
+  <div class="share-actions">
+    <button type="button" class="mask-btn" id="shareSave" disabled>① 画像を保存</button>
+    <button type="button" class="mask-btn" id="sharePost" disabled>② Xにポストする</button>
+  </div>
+  <p class="share-order">ポスト文に一言添えたい場合は、Xの画面で追記できます。</p>
+
+  <p style="margin-top:30px"><a href="../index.html" style="color:var(--spooky-gold-hi)">← ポータルトップへ</a></p>
+
+</div>
+<script src="spooky-share.js?v=3" defer></script>
+</body>
+</html>

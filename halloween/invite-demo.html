@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>招待状開封試作 | HOTEL GRAND MILLI 非公式ファンイベント試作</title>
+<meta name="description" content="Milli Orbis ハロウィーン企画 Spooky Masquerade の招待状開封演出試作品。非公式ファンメイドの実験ページです。">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#f3e8d2">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HOTEL GRAND MILLI">
+<meta property="og:title" content="招待状開封試作 | HOTEL GRAND MILLI 非公式ファンイベント試作">
+<meta property="og:description" content="Milli Orbis ハロウィーン企画 Spooky Masquerade の招待状開封演出試作品。非公式ファンメイドの実験ページです。">
+<meta property="og:url" content="https://milli-orbis-portal.pages.dev/halloween/invite-demo.html">
+<meta property="og:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-g.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="招待状開封試作 | HOTEL GRAND MILLI 非公式ファンイベント試作">
+<meta name="twitter:description" content="Milli Orbis ハロウィーン企画 Spooky Masquerade の招待状開封演出試作品。非公式ファンメイドの実験ページです。">
+<meta name="twitter:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-g.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="spooky.css">
+<link rel="stylesheet" href="spooky-invite.css">
+</head>
+<body class="spooky-body">
+<div class="spooky-wrap">
+
+  <p class="spooky-kicker en">HOTEL GRAND MILLI — PROTOTYPE 03</p>
+  <h1 class="spooky-title"><span class="en">Sealed Invitation</span><br>招待状開封・試作</h1>
+  <p class="spooky-sub">封蝋割り→開封→取出し→ガラケー開き（下ヒンジで上へパカッ）の4連演出です。招待状はすんすんさん作の画像を貼っています。裏面はコード製の外装です。名前を入れるとDear行に重ね書きされます（Escorted byの楕円枠は次の段階で推し仮面入れ予定）。</p>
+
+  <div class="spooky-note">ファンメイドの試作品です。ミリプロ公式とは関係ありません。<br>操作：封蝋タップ→各ステップボタン、または <b>▶自動再生</b>。<b>↺</b>で最初から。音は合成SEです（♪でON/OFF、エレベーターと共通）。</div>
+
+  <div class="guest-row">
+    <label for="guestNameInput">GUEST —</label>
+    <input id="guestNameInput" type="text" maxlength="14" placeholder="お名前をどうぞ" value="Guest" autocomplete="off">
+  </div>
+
+  <div class="invite-scene">
+    <div class="invite-stage">
+
+      <div class="card-zone">
+        <div class="card" id="inviteCard" aria-live="polite">
+          <div class="card-half card-bottom">
+            <div class="face b-outer face-outer"><span class="mono">GM</span><span class="sub">GRAND MILLI</span></div>
+            <div class="face b-inner face-img-bottom"></div>
+          </div>
+          <div class="card-half card-top">
+            <div class="face t-front face-img-top"><div class="guest-name" id="guestNameOut">Guest</div></div>
+            <div class="face t-back face-outer"><span class="mono">GM</span><span class="sub">GRAND MILLI</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="envelope" id="inviteEnvelope">
+        <div class="env-body"></div>
+        <div class="env-flap"><div class="flap-shape"></div></div>
+        <div class="env-pocket"></div>
+        <div class="wax" id="inviteWax" role="button" tabindex="0" aria-label="封蝋を割って開封する">
+          <svg class="wax-l" viewBox="0 0 120 120" aria-hidden="true">
+            <defs>
+              <radialGradient id="waxRed" cx="0.38" cy="0.32" r="0.9">
+                <stop offset="0" stop-color="#a82333"/><stop offset="0.55" stop-color="#7a1420"/><stop offset="1" stop-color="#3d060c"/>
+              </radialGradient>
+            </defs>
+            <path d="M60,8 C86,8 110,30 111,58 C112,86 88,112 60,112 C32,112 8,86 9,58 C10,30 34,8 60,8 Z" fill="url(#waxRed)"/>
+            <path d="M22,74 C30,70 28,60 38,58 C30,54 32,44 42,42" fill="none" stroke="#5c0d16" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="34" fill="none" stroke="#e9b8a0" stroke-width="2" opacity="0.55"/>
+            <circle cx="60" cy="60" r="29" fill="none" stroke="#3d060c" stroke-width="2" opacity="0.8"/>
+            <text x="60" y="76" text-anchor="middle" font-family="Playfair Display, serif" font-size="38" font-weight="700" fill="#f3c9a8" opacity="0.9">M</text>
+            <ellipse cx="44" cy="34" rx="18" ry="10" fill="#ffffff" opacity="0.18" transform="rotate(-24 44 34)"/>
+            <line class="crack-flash" x1="60" y1="6" x2="58" y2="114" stroke="#ffd9c4" stroke-width="3"/>
+          </svg>
+          <svg class="wax-r" viewBox="0 0 120 120" aria-hidden="true">
+            <path d="M60,8 C86,8 110,30 111,58 C112,86 88,112 60,112 C32,112 8,86 9,58 C10,30 34,8 60,8 Z" fill="url(#waxRed)"/>
+            <path d="M98,46 C90,50 92,60 82,62 C90,66 88,76 78,78" fill="none" stroke="#5c0d16" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="34" fill="none" stroke="#e9b8a0" stroke-width="2" opacity="0.55"/>
+            <circle cx="60" cy="60" r="29" fill="none" stroke="#3d060c" stroke-width="2" opacity="0.8"/>
+            <text x="60" y="76" text-anchor="middle" font-family="Playfair Display, serif" font-size="38" font-weight="700" fill="#f3c9a8" opacity="0.9">M</text>
+            <ellipse cx="44" cy="34" rx="18" ry="10" fill="#ffffff" opacity="0.18" transform="rotate(-24 44 34)"/>
+            <line class="crack-flash" x1="60" y1="6" x2="58" y2="114" stroke="#ffd9c4" stroke-width="3"/>
+          </svg>
+        </div>
+        <div class="wax-hint en">TAP TO BREAK</div>
+      </div>
+
+    </div>
+  </div>
+
+  <p class="invite-hint" id="inviteHint"></p>
+  <div class="invite-controls">
+    <button type="button" class="mask-btn" id="step1">① 封を切る</button>
+    <button type="button" class="mask-btn" id="step2">② 開封</button>
+    <button type="button" class="mask-btn" id="step3">③ 取り出す</button>
+    <button type="button" class="mask-btn" id="step4">④ 開く</button>
+  </div>
+  <div class="invite-controls">
+    <button type="button" class="mask-btn" id="inviteAuto">▶ 自動再生</button>
+    <button type="button" class="mask-btn" id="inviteReplay">↺ はじめから</button>
+    <button type="button" class="mask-btn" id="inviteSound" aria-pressed="true">♪ ON</button>
+  </div>
+
+  <p style="margin-top:30px"><a href="elevator-demo.html" style="color:var(--spooky-bronze)">← エレベーター試作へ</a></p>
+
+</div>
+<script src="spooky-invite.js" defer></script>
+</body>
+</html>

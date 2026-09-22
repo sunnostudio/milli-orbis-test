@@ -15,20 +15,55 @@
 <meta property="og:site_name" content="Milli Orbis">
 <meta property="og:title" content="鹿乃まほろ（Kano Mahoro）| Milli Orbis">
 <meta property="og:description" content="みんなの毎日を、まほろばに！ Virtual Artist 鹿乃まほろ">
-<meta property="og:url" content="https://milli-orbis-portal.onrender.com/mahoro.html">
-<meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<meta property="og:url" content="https://milli-orbis-portal.pages.dev/mahoro.html">
+<meta property="og:image" content="https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png">
 <meta property="og:image:width" content="1729">
 <meta property="og:image:height" content="910">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="鹿乃まほろ（Kano Mahoro）| Milli Orbis">
 <meta name="twitter:description" content="みんなの毎日を、まほろばに！ Virtual Artist 鹿乃まほろ">
-<meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
+<meta name="twitter:image" content="https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png">
+
+<link rel="canonical" href="https://milli-orbis-portal.pages.dev/mahoro.html">
+<!-- 旧Render URLから移行: https://milli-orbis-portal.onrender.com は本ファイルのJSで pages.dev へ301相当リダイレクト -->
+<script>
+(function(){
+  try {
+    var NEW_BASE = 'https://milli-orbis-portal.pages.dev';
+    var isOldHost = location.hostname.indexOf('onrender.com') !== -1;
+    var isCrawler = /Twitterbot|facebookexternalhit|Slackbot|Discordbot|LinkedInBot|LineBot|SkypeUriPreview/i.test(navigator.userAgent);
+    if (isOldHost && !isCrawler) {
+      var newUrl = NEW_BASE + location.pathname + location.search + location.hash;
+      location.replace(newUrl);
+    }
+  } catch(e){}
+})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-member="mahoro" data-oshi="">
+
+<!-- Cloudflare移行: 旧RenderでJS無効/遅延時に表示するfallbackバナー -->
+<div id="oldHostBanner" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,0.08)">
+移行しました: 新サイトは <a href="https://milli-orbis-portal.pages.dev/mahoro.html" style="color:#0d6efd;font-weight:800">https://milli-orbis-portal.pages.dev/mahoro.html</a> です。自動で切り替わらない方はこちらをクリックしてください。
+</div>
+<script>
+(function(){
+  try{
+    if(location.hostname.indexOf('onrender.com')!==-1){
+      var b=document.getElementById('oldHostBanner');
+      if(b) b.style.display='block';
+      setTimeout(function(){
+        if(location.hostname.indexOf('onrender.com')!==-1 && b){ b.style.background='#ffe69c'; }
+      },3000);
+    }
+  }catch(e){}
+})();
+</script>
+<noscript><div style="background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;">移行しました: 新サイトは <a href="https://milli-orbis-portal.pages.dev/mahoro.html" style="color:#0d6efd;font-weight:800">https://milli-orbis-portal.pages.dev/mahoro.html</a> です。</div></noscript>
 <div class="page-deco" aria-hidden="true"><span class="d-f" data-k="ribbon" style="left:8%;top:14%;width:56px;height:56px;--dur:15s"><svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><path d="M50,40 C38,24 12,28 14,46 C16,60 34,58 50,44 C66,58 84,60 86,46 C88,28 62,24 50,40 Z"/><path d="M50,44 C48,56 42,68 34,80 L44,82 C48,70 51,58 52,46 Z"/><path d="M50,44 C52,56 58,68 66,80 L56,82 C52,70 49,58 48,46 Z"/><rect x="44" y="33" width="12" height="21" rx="6"/></g></svg></span><span class="d-f" data-k="ichigo" style="left:88%;top:10%;width:68px;height:68px;--dur:13s"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="d-f" data-k="antler" style="left:13%;top:74%;width:52px;height:52px;--dur:14s"><svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M22,90 C26,66 28,48 36,30 C40,20 47,14 56,10"/><path d="M31,60 C24,54 18,52 12,48"/><path d="M33,44 C27,38 24,34 22,26"/><path d="M39,30 C45,24 49,20 54,16"/></g></svg></span><span class="d-f" data-k="note" style="left:82%;top:84%;width:48px;height:48px;--dur:12s"><svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M37,79 L37,20 L83,8 L83,60"/><circle cx="23" cy="80" r="12"/><circle cx="70" cy="70" r="12"/></g></svg></span><span class="d-f" data-k="ichigo" style="left:76%;top:42%;width:38px;height:38px;--dur:16s"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="d-f" data-k="heart" style="left:26%;top:38%;width:32px;height:32px;--dur:15s"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,88 C28,66 12,50 12,34 C12,22 21,12 32,12 C41,12 48,18 50,24 C52,18 59,12 68,12 C79,12 88,22 88,34 C88,50 72,66 50,88 Z"/></svg></span><span class="d-straw" style="left:50%;top:62%;transform:translateX(-50%)"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span></div>
 <header id="siteHeader">
   <div class="header-inner">
@@ -52,6 +87,7 @@
           <a href="liz.html" data-i18n-name="liz">雨夜リズ</a>
           <a href="rei.html" data-i18n-name="rei">夕霧レイ</a>
           <a href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
           <a href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
@@ -113,6 +149,7 @@
       <a class="mobile-sub" href="liz.html" data-i18n-name="liz">雨夜リズ</a>
       <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
       <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+      <a class="mobile-sub" href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
       <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <div class="drawer-section-label">MilliDex</div>
@@ -130,7 +167,7 @@
 </header>
 
 <nav class="talent-tabs" aria-label="タレント切り替え" data-i18n-aria="t.tabsAria">
-  <a class="t-tab" href="konomi.html" data-i18n-name="konomi"><img src="images/icon/konomi_profile.jpg" alt="" loading="lazy">甘狼このみ</a><a class="t-tab" href="nono.html" data-i18n-name="nono"><img src="images/icon/nono_profile.jpg" alt="" loading="lazy">音ノ乃のの</a><a class="t-tab" href="akubi.html" data-i18n-name="akubi"><img src="images/icon/akubi_profile.jpg" alt="" loading="lazy">あくび・でもんすぺーど</a><a class="t-tab" href="koma.html" data-i18n-name="koma"><img src="images/icon/koma_profile.jpg" alt="" loading="lazy">小廻こま</a><a class="t-tab" href="raco.html" data-i18n-name="raco"><img src="images/icon/rako_profile.jpg" alt="" loading="lazy">音ノ瀬らこ</a><a class="t-tab" href="yura.html" data-i18n-name="yura"><img src="images/icon/yura_profile.jpg" alt="" loading="lazy">ゆらぎゆら</a><a class="t-tab" href="nuhu.html" data-i18n-name="nuhu"><img src="images/icon/nuhu_profile.jpg" alt="" loading="lazy">虹深°ぬふ</a><a class="t-tab" href="tsukuri.html" data-i18n-name="tsukuri"><img src="images/icon/tukuri_profile.jpg" alt="" loading="lazy">眠雲ツクリ</a><a class="t-tab" href="liz.html" data-i18n-name="liz"><img src="images/icon/rizu_profile.jpg" alt="" loading="lazy">雨夜リズ</a><a class="t-tab" href="rei.html" data-i18n-name="rei"><img src="images/icon/rei_profile.jpg" alt="" loading="lazy">夕霧レイ</a><a class="t-tab active" href="mahoro.html" data-i18n-name="mahoro"><img src="images/icon/mahoro_profile.jpg" alt="" loading="lazy">鹿乃まほろ</a><a class="t-tab" href="milchan.html" data-i18n-name="milchan"><img src="images/icon/milli%20chan_profile.JPEG" alt="" loading="lazy">ミリちゃん</a>
+  <a class="t-tab" href="konomi.html" data-i18n-name="konomi"><img src="images/icon/konomi_profile.jpg" alt="" loading="lazy">甘狼このみ</a><a class="t-tab" href="nono.html" data-i18n-name="nono"><img src="images/icon/nono_profile.jpg" alt="" loading="lazy">音ノ乃のの</a><a class="t-tab" href="akubi.html" data-i18n-name="akubi"><img src="images/icon/akubi_profile.jpg" alt="" loading="lazy">あくび・でもんすぺーど</a><a class="t-tab" href="koma.html" data-i18n-name="koma"><img src="images/icon/koma_profile.jpg" alt="" loading="lazy">小廻こま</a><a class="t-tab" href="raco.html" data-i18n-name="raco"><img src="images/icon/rako_profile.jpg" alt="" loading="lazy">音ノ瀬らこ</a><a class="t-tab" href="yura.html" data-i18n-name="yura"><img src="images/icon/yura_profile.jpg" alt="" loading="lazy">ゆらぎゆら</a><a class="t-tab" href="nuhu.html" data-i18n-name="nuhu"><img src="images/icon/nuhu_profile.jpg" alt="" loading="lazy">虹深°ぬふ</a><a class="t-tab" href="tsukuri.html" data-i18n-name="tsukuri"><img src="images/icon/tukuri_profile.jpg" alt="" loading="lazy">眠雲ツクリ</a><a class="t-tab" href="liz.html" data-i18n-name="liz"><img src="images/icon/rizu_profile.jpg" alt="" loading="lazy">雨夜リズ</a><a class="t-tab" href="rei.html" data-i18n-name="rei"><img src="images/icon/rei_profile.jpg" alt="" loading="lazy">夕霧レイ</a><a class="t-tab active" href="mahoro.html" data-i18n-name="mahoro"><img src="images/icon/mahoro_profile.jpg" alt="" loading="lazy">鹿乃まほろ</a><a class="t-tab" href="aoi.html" data-i18n-name="aoi"><img src="images/icon/aoi_profile.jpg" alt="" loading="lazy">海琳あおい</a><a class="t-tab" href="milchan.html" data-i18n-name="milchan"><img src="images/icon/milli%20chan_profile.JPEG" alt="" loading="lazy">ミリちゃん</a>
 </nav>
 
 <main class="container">
@@ -393,5 +430,5 @@
 <script src="scripts/cursor.js"></script>
 <script src="scripts/contact.js?v=20260909"></script>
 <script src="script.js"></script>
-</body>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9c22b824d28449dfabe8d631a5682118"}'></script><!-- Cloudflare Pages Analytics --></body>
 </html>

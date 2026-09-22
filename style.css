@@ -269,6 +269,10 @@ body[data-member="rei"] .section h3::before {
   -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>') center/contain no-repeat;
   mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>') center/contain no-repeat;
 }
+body[data-member="aoi"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="%23000"><ellipse cx="48" cy="54" rx="25" ry="19"/><circle cx="76" cy="48" r="9"/><path d="M26,50 L10,40 L17,55 L9,62 L25,61 Z"/><path d="M30,66 L22,80 L35,72 Z"/><path d="M60,66 L56,82 L69,71 Z"/></g></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="%23000"><ellipse cx="48" cy="54" rx="25" ry="19"/><circle cx="76" cy="48" r="9"/><path d="M26,50 L10,40 L17,55 L9,62 L25,61 Z"/><path d="M30,66 L22,80 L35,72 Z"/><path d="M60,66 L56,82 L69,71 Z"/></g></svg>') center/contain no-repeat;
+}
 
 @media (max-width: 640px) {
   .page-deco .d-f { width: 36px !important; height: 36px !important; opacity: 0.4; }
@@ -2696,6 +2700,45 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
   0%, 100% { transform: translateY(0) rotate(-6deg); }
   50% { transform: translateY(-14px) rotate(6deg); }
 }
+/* --- あおい: カメ・海藻（ライトグリーン） --- */
+[data-member="aoi"] .intro-overlay {
+  background:
+    radial-gradient(circle at 50% 24%, rgba(255, 255, 255, 0.65) 0 190px, transparent 191px),
+    linear-gradient(180deg, #f4fbe6 0%, #d3efa8 45%, #93d162 100%);
+}
+[data-member="aoi"] .intro-ring { opacity: 0.4; }
+[data-member="aoi"] .intro-art { box-shadow: 0 16px 0 rgba(0, 0, 0, 0.08), 0 0 70px rgba(123, 192, 67, 0.55), 0 24px 48px rgba(0, 0, 0, 0.4); }
+.fx-turtle-in { position: absolute; top: 30%; right: -170px; width: 150px; color: rgba(255, 255, 255, 0.95); filter: drop-shadow(0 6px 12px rgba(60, 120, 40, 0.4)); opacity: 0; animation: fxTurtleIn 5.2s ease-out 1 forwards; }
+.fx-turtle-in svg { width: 100%; height: auto; display: block; animation: fxTurtleBob 2.2s ease-in-out infinite; }
+@keyframes fxTurtleIn {
+  0% { transform: translate(0, 6vh) scale(0.3); opacity: 0; }
+  12% { opacity: 0.95; }
+  55% { transform: translate(-45vw, -4vh) scale(0.9); opacity: 1; }
+  100% { transform: translate(-70vw, -14vh) scale(0.62); opacity: 0.9; }
+}
+@keyframes fxTurtleBob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-10px) rotate(5deg); } }
+.fx-kelp { position: absolute; bottom: -8px; width: 64px; height: 170px; color: rgba(255, 255, 255, 0.85); transform-origin: 50% 100%; animation: fxKelpSway 5s ease-in-out infinite; }
+.fx-kelp svg { width: 100%; height: 100%; display: block; filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.35)); }
+@keyframes fxKelpSway { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(6deg); } }
+.fx-aoiwash { position: absolute; inset: 0; opacity: 0; pointer-events: none; animation: fxAoiWash 3s ease-out 1 forwards; background: radial-gradient(30px 30px at 8% 82%, rgba(255, 255, 255, 0.9), transparent 70%), radial-gradient(46px 46px at 20% 68%, rgba(255, 255, 255, 0.85), transparent 70%), radial-gradient(26px 26px at 32% 80%, rgba(255, 255, 255, 0.9), transparent 70%), radial-gradient(52px 52px at 45% 66%, rgba(255, 255, 255, 0.85), transparent 70%), radial-gradient(30px 30px at 58% 79%, rgba(255, 255, 255, 0.9), transparent 70%), radial-gradient(56px 56px at 70% 64%, rgba(255, 255, 255, 0.85), transparent 70%), radial-gradient(34px 34px at 82% 77%, rgba(255, 255, 255, 0.9), transparent 70%), radial-gradient(44px 44px at 93% 66%, rgba(255, 255, 255, 0.85), transparent 70%), radial-gradient(36px 36px at 14% 44%, rgba(255, 255, 255, 0.8), transparent 70%), radial-gradient(48px 48px at 28% 34%, rgba(255, 255, 255, 0.8), transparent 70%), radial-gradient(30px 30px at 42% 46%, rgba(255, 255, 255, 0.8), transparent 70%), radial-gradient(54px 54px at 58% 32%, rgba(255, 255, 255, 0.8), transparent 70%), radial-gradient(34px 34px at 72% 44%, rgba(255, 255, 255, 0.8), transparent 70%), radial-gradient(46px 46px at 88% 32%, rgba(255, 255, 255, 0.8), transparent 70%), radial-gradient(28px 28px at 50% 55%, rgba(255, 255, 255, 0.85), transparent 70%), linear-gradient(180deg, rgba(225, 248, 205, 0.35), rgba(165, 218, 135, 0.45)); }
+@keyframes fxAoiWash { 0% { opacity: 0; } 18% { opacity: 1; } 70% { opacity: 0.85; } 100% { opacity: 0; } }
+.fx-aoirush { position: absolute; border-radius: 50%; opacity: 0; border: 4px solid rgba(255, 255, 255, 0.95); background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.95) 0 24%, rgba(215, 250, 185, 0.5) 55%, rgba(160, 215, 130, 0.18) 75%, transparent 78%); box-shadow: 0 0 14px rgba(255, 255, 255, 0.65), inset -4px -6px 10px rgba(120, 180, 90, 0.35); animation: fxAoiRush 3.6s ease-in 1 forwards; }
+@keyframes fxAoiRush {
+  0% { transform: translateY(0) translateX(0) scale(0.4); opacity: 0; }
+  12% { opacity: 0.95; }
+  80% { opacity: 0.9; }
+  100% { transform: translateY(-110vh) translateX(var(--drift, 20px)) scale(1.3); opacity: 0; }
+}
+.fx-aoray { position: absolute; top: -20%; width: 110px; height: 75vh; background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.06) 70%, transparent); clip-path: polygon(42% 0, 58% 0, 100% 100%, 0 100%); animation: fxAoiRay 6s ease-in-out infinite; }
+@keyframes fxAoiRay { 0%, 100% { opacity: 0.45; transform: rotate(2deg); } 50% { opacity: 0.8; transform: rotate(-3deg); } }
+.fx-aoifloor { position: absolute; left: 0; right: 0; bottom: 0; height: 70px; background: radial-gradient(120px 34px at 12% 70%, rgba(90, 140, 60, 0.35), transparent 70%), radial-gradient(160px 40px at 55% 80%, rgba(90, 140, 60, 0.3), transparent 70%), radial-gradient(130px 36px at 88% 65%, rgba(90, 140, 60, 0.35), transparent 70%), linear-gradient(180deg, transparent, rgba(110, 165, 70, 0.35)); }
+.fx-aoi .fx-flash { background: radial-gradient(circle at 50% 46%, rgba(240, 255, 225, 0.65), rgba(150, 210, 110, 0.35) 40%, transparent 65%); }
+/* あおいは泡ラッシュ→カメ登場の後に立ち絵・ボイスを出す（introDelay 6.5s） */
+[data-member="aoi"].intro-overlay.play .intro-logo { animation-delay: 6.65s; }
+[data-member="aoi"].intro-overlay.play .intro-art { animation-delay: 7.15s; }
+[data-member="aoi"].intro-overlay.play .intro-name { animation-delay: 7.85s; }
+[data-member="aoi"].intro-overlay.play .intro-catch .c-char { animation-delay: calc(var(--cd, 0s) + 6.5s); }
+[data-member="aoi"] .intro-voice-btn { animation-delay: 8.6s; }
 [data-member="mahoro"] .intro-overlay {
   background:
     radial-gradient(circle at 50% 26%, rgba(255, 255, 255, 0.6) 0 190px, transparent 191px),

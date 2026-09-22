@@ -1,0 +1,531 @@
+/* ============================================================
+   Milli Orbis: Spooky Masquerade 2026 — halloween/ 共通テーマ
+   方針: 本体の style.css に触らない。すべて .spooky- 接頭辞＋変数で隔離。
+   基調: アール・ヌーヴォー調の明るい館
+     アイボリー #faf5e9 × シャンパン #d9c48f × ブロンズ文字 #4a3a17
+     金の変数（--spooky-gold系）は暗部オブジェクト（ランプ・表示窓・
+     トースト等）の発光色として維持し、明るい紙面の文字には
+     --spooky-coffee / --spooky-bronze を使う。
+   ============================================================ */
+:root {
+  --spooky-bg: #f6efe0;
+  --spooky-bg-deep: #e9dcc0;
+  --spooky-bg-soft: #fffaf0;
+  --spooky-gold: #d4af37;
+  --spooky-gold-hi: #f6e27a;
+  --spooky-gold-pale: #f3e3b3;
+  --spooky-gold-deep: #8a6d1f;
+  --spooky-ink: #433826;
+  --spooky-muted: #7d6c54;
+  --spooky-coffee: #4a3a17;
+  --spooky-bronze: #7a5f14;
+  --spooky-panel-w: 158px;
+}
+
+/* ---------- デモページの土台（明るいヌーヴォー館） ---------- */
+.spooky-body {
+  margin: 0;
+  background:
+    radial-gradient(1000px 480px at 50% -8%, rgba(176, 141, 42, 0.20), transparent 60%),
+    radial-gradient(820px 480px at 88% 24%, rgba(127, 181, 168, 0.22), transparent 65%),
+    radial-gradient(780px 460px at 8% 30%, rgba(232, 180, 160, 0.24), transparent 65%),
+    radial-gradient(700px 500px at 50% 115%, rgba(184, 201, 163, 0.20), transparent 65%),
+    linear-gradient(180deg, #faf5e9 0%, #f3e8d2 45%, #e9dcc0 100%);
+  color: var(--spooky-ink);
+  font-family: "Zen Old Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  min-height: 100vh;
+}
+.spooky-body .en {
+  font-family: "Playfair Display", "Zen Old Mincho", serif;
+  letter-spacing: 0.14em;
+}
+.spooky-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 20px 120px;
+  padding-right: calc(20px + var(--spooky-panel-w));
+}
+@media (max-width: 700px) {
+  .spooky-wrap { padding-right: 20px; padding-bottom: 170px; }
+}
+.spooky-kicker {
+  color: var(--spooky-bronze);
+  font-size: 0.8rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+/* ヌーヴォー風の両側リーフ線 */
+.spooky-kicker::before,
+.spooky-kicker::after {
+  content: "";
+  height: 1px;
+  width: 44px;
+  background: linear-gradient(90deg, transparent, var(--spooky-bronze));
+}
+.spooky-kicker::after {
+  background: linear-gradient(90deg, var(--spooky-bronze), transparent);
+}
+/* イベントロゴ（Spooky Masquerade）用の受け口。
+   各ページのキッカー直前に
+   <p class="spooky-event-logo"><img src="images/logo/spooky-masquerade.png" alt="Spooky Masquerade"></p>
+   を置くだけで収まる。 */
+.spooky-event-logo {
+  margin: 0 0 14px;
+  text-align: center;
+}
+.spooky-event-logo img {
+  max-width: min(420px, 82%);
+  height: auto;
+  filter: drop-shadow(0 6px 18px rgba(122, 95, 20, 0.25));
+}
+.spooky-title {
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  margin: 0 0 8px;
+  color: var(--spooky-coffee);
+  text-shadow: 0 0 22px rgba(176, 141, 42, 0.30), 0 1px 0 rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+}
+.spooky-sub {
+  color: var(--spooky-muted);
+  margin: 0 0 28px;
+  line-height: 2;
+}
+.spooky-note {
+  border: 1px solid rgba(122, 95, 20, 0.45);
+  background: rgba(255, 252, 244, 0.72);
+  box-shadow: 0 6px 22px rgba(122, 95, 20, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 0.85rem;
+  line-height: 1.9;
+  color: var(--spooky-ink);
+}
+.spooky-note b { color: var(--spooky-bronze); }
+
+/* ---------- デモ用フロア（明るいサロンカード） ---------- */
+.spooky-floor {
+  margin: 26px 0;
+  border-radius: 18px;
+  padding: 34px 26px;
+  background:
+    linear-gradient(180deg, rgba(176, 141, 42, 0.14), transparent 30%),
+    rgba(255, 252, 244, 0.82);
+  border: 1px solid rgba(122, 95, 20, 0.45);
+  box-shadow: 0 14px 40px rgba(122, 95, 20, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  scroll-margin-top: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.spooky-floor::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(122, 95, 20, 0.16) 1px, transparent 1.4px);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(180deg, black, transparent 70%);
+}
+.spooky-floor h2 {
+  margin: 0 0 6px;
+  font-size: 1.4rem;
+  color: var(--spooky-coffee);
+  font-weight: 600;
+}
+.spooky-floor h2 .en { display: block; font-size: 0.8rem; color: var(--spooky-bronze); opacity: 0.95; }
+.spooky-floor p { margin: 8px 0 0; color: var(--spooky-muted); line-height: 2; font-size: 0.92rem; }
+.spooky-floor.is-active {
+  border-color: var(--spooky-bronze);
+  box-shadow: 0 0 0 1px rgba(122, 95, 20, 0.45), 0 0 34px rgba(176, 141, 42, 0.35), 0 14px 40px rgba(122, 95, 20, 0.18);
+}
+.spooky-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  color: #3a2d08;
+  background: linear-gradient(180deg, var(--spooky-gold-hi), var(--spooky-gold) 60%, var(--spooky-gold-deep));
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.spooky-tag.is-locked {
+  background: transparent;
+  color: var(--spooky-muted);
+  border: 1px dashed rgba(185, 168, 214, 0.6);
+}
+
+/* ============================================================
+   エレベーター：右端固定の真鍮パネル
+   質感の作り方：
+   - 真鍮＝ conic＋linear の多層グラデ（回転研磨＋縦ヘアライン）
+   - ねじ・縁＝ inset shadow で彫り込み
+   - 表示窓＝黒ガラス＋金の発光文字
+   - ボタン＝球面ボタン（ハイライト＋接地面の影＋押下で沈む）
+   ============================================================ */
+.spooky-elevator {
+  position: fixed;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: var(--spooky-panel-w);
+  max-height: 94vh;
+  overflow-y: auto;
+  z-index: 60;
+  border-radius: 22px;
+  padding: 14px 10px 12px;
+  /* 真鍮パネル本体 */
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 12%, rgba(0, 0, 0, 0.28) 50%, rgba(255, 255, 255, 0.12) 88%, rgba(255, 255, 255, 0) 100%),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0 2px, transparent 2px 4px),
+    conic-gradient(from 210deg at 50% 50%, #6b5316, #f6e27a 12%, #8a6d1f 25%, #e9cf6e 38%, #5c470f 50%, #f6e27a 62%, #7c611c 75%, #eed688 88%, #6b5316 100%),
+    linear-gradient(180deg, #3a2d08, #171004);
+  background-blend-mode: screen, overlay, normal, normal;
+  border: 1px solid rgba(246, 226, 122, 0.65);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.6),
+    0 0 0 4px rgba(18, 8, 31, 0.9),
+    0 0 0 5px rgba(212, 175, 55, 0.35),
+    0 0 34px rgba(212, 175, 55, 0.25),
+    inset 0 1px 1px rgba(255, 248, 220, 0.8),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.55);
+}
+.spooky-elevator::before,
+.spooky-elevator::after {
+  /* 上下のねじ */
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.7), transparent 40%),
+    conic-gradient(from 40deg, #9c8426, #3d3008 30%, #c8a83c 50%, #2c2306 70%, #9c8426);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.8), 0 1px 0 rgba(255,246,200,0.5);
+}
+.spooky-elevator::before { top: 5px; }
+.spooky-elevator::after { bottom: 5px; }
+.spooky-elevator .screw-slot {
+  position: absolute;
+  left: 50%;
+  width: 7px;
+  height: 1.6px;
+  background: rgba(10, 6, 0, 0.85);
+  border-radius: 2px;
+  transform: translateX(-50%) rotate(38deg);
+}
+.spooky-elevator .screw-slot.top { top: 9px; }
+.spooky-elevator .screw-slot.bottom { bottom: 9px; }
+
+/* 透かし装飾 */
+.spooky-filigree { display: block; width: 100%; height: 18px; opacity: 0.9; }
+
+/* 階数表示窓 */
+.spooky-indicator {
+  margin: 6px 4px 10px;
+  border-radius: 12px;
+  padding: 8px 4px 7px;
+  text-align: center;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(246, 226, 122, 0.14), transparent 55%),
+    linear-gradient(180deg, #050308, #120b22 60%, #050308);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  box-shadow:
+    inset 0 2px 10px rgba(0, 0, 0, 0.95),
+    inset 0 0 0 1px rgba(212, 175, 55, 0.35),
+    0 1px 0 rgba(255, 244, 200, 0.45);
+  position: relative;
+  overflow: hidden;
+}
+.spooky-indicator::after {
+  /* ガラスの反射 */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, rgba(255,255,255,0.16) 0%, transparent 28%);
+  pointer-events: none;
+}
+.spooky-indicator .floor {
+  font-family: "Playfair Display", serif;
+  font-size: 1.7rem;
+  line-height: 1;
+  color: var(--spooky-gold-hi);
+  text-shadow: 0 0 12px rgba(246, 226, 122, 0.9), 0 0 30px rgba(212, 175, 55, 0.5);
+}
+.spooky-indicator .label {
+  font-size: 0.6rem;
+  letter-spacing: 0.3em;
+  color: var(--spooky-gold);
+  opacity: 0.85;
+  margin-top: 3px;
+}
+.spooky-indicator.is-moving .floor { animation: spooky-flicker 0.5s linear 2; }
+@keyframes spooky-flicker {
+  0%, 100% { opacity: 1; }
+  25% { opacity: 0.25; }
+  50% { opacity: 1; }
+  75% { opacity: 0.4; }
+}
+
+/* プレート行（ボタン＋金プレート紹介文） */
+.spooky-floor-rows { display: flex; flex-direction: column; gap: 7px; }
+.spooky-floor-row { display: flex; align-items: center; gap: 8px; }
+.spooky-floor-row .spooky-floor-btn { --btn-d: 42px; flex: none; }
+.spooky-floor-row .spooky-floor-btn .f { font-size: 1rem; }
+.spooky-plate {
+  flex: 1;
+  min-width: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(20, 12, 0, 0.85);
+  background: linear-gradient(180deg, #2c2108, #120c02);
+  color: var(--spooky-gold-pale);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  padding: 5px 8px;
+  box-shadow: inset 0 1px 0 rgba(246, 226, 122, 0.35), 0 2px 5px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.spooky-plate small {
+  display: block;
+  font-size: 0.56rem;
+  color: var(--spooky-gold);
+  letter-spacing: 0.14em;
+}
+/* 客室ゾーン（6〜12・コンパクト） */
+.spooky-rooms { margin-top: 9px; }
+.spooky-rooms-label {
+  text-align: center;
+  font-size: 0.58rem;
+  letter-spacing: 0.24em;
+  color: var(--spooky-gold-pale);
+  margin: 0 0 6px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+}
+.spooky-rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+  justify-items: center;
+}
+.spooky-floor-btn.is-mini { --btn-d: 32px; }
+.spooky-floor-btn.is-mini .f { font-size: 0.8rem; }
+.spooky-floor-btn.is-mini small { display: none; }
+.spooky-floor-btn.is-mini::after { top: 4px; right: 6px; width: 5px; height: 5px; }
+.spooky-floor-btn {
+  --btn-d: 56px;
+  width: var(--btn-d);
+  height: var(--btn-d);
+  border-radius: 50%;
+  border: 1px solid rgba(20, 12, 0, 0.9);
+  cursor: pointer;
+  position: relative;
+  font-family: "Playfair Display", serif;
+  color: #2a1e04;
+  /* 球面真鍮ボタン */
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255, 252, 230, 0.95) 0%, rgba(255, 244, 190, 0.55) 12%, transparent 30%),
+    radial-gradient(circle at 50% 118%, rgba(0, 0, 0, 0.55) 0%, transparent 55%),
+    conic-gradient(from 200deg at 50% 50%, #7a611a, #f6e27a 14%, #97801f 28%, #ffe9a3 42%, #6b5316 55%, #f6e27a 70%, #7c611c 84%, #7a611a 100%);
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.6),
+    0 1px 0 rgba(255, 250, 220, 0.7),
+    inset 0 2px 3px rgba(255, 255, 240, 0.75),
+    inset 0 -5px 8px rgba(43, 30, 4, 0.55),
+    inset 0 0 0 3px rgba(255, 244, 200, 0.28);
+  transition: transform 0.12s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+.spooky-floor-btn small {
+  display: block;
+  font-family: "Zen Old Mincho", serif;
+  font-size: 0.52rem;
+  letter-spacing: 0.12em;
+  color: rgba(42, 30, 4, 0.8);
+  margin-top: 1px;
+}
+.spooky-floor-btn .f {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 1px 0 rgba(255, 250, 220, 0.7), 0 -1px 1px rgba(43, 30, 4, 0.5);
+}
+.spooky-floor-btn:hover { filter: brightness(1.08); }
+.spooky-floor-btn:active { transform: translateY(2px) scale(0.97); }
+.spooky-floor-btn:focus-visible {
+  outline: 2px solid var(--spooky-bronze);
+  outline-offset: 3px;
+}
+/* LED */
+.spooky-floor-btn::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fff8dc, #8a6d1f 70%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5), inset 0 -1px 1px rgba(0, 0, 0, 0.5);
+  opacity: 0.55;
+}
+/* 現在階＝点灯 */
+.spooky-floor-btn.is-current {
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.55),
+    0 0 18px rgba(246, 226, 122, 0.85),
+    inset 0 2px 3px rgba(255, 255, 240, 0.8),
+    inset 0 -5px 8px rgba(43, 30, 4, 0.5),
+    inset 0 0 0 3px rgba(255, 240, 180, 0.55);
+}
+.spooky-floor-btn.is-current::after {
+  opacity: 1;
+  background: radial-gradient(circle at 35% 35%, #fffbe8, #ffd94d 45%, #ff9d00 80%);
+  box-shadow: 0 0 8px 2px rgba(255, 200, 60, 0.9), 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+/* 施錠中（R階） */
+.spooky-floor-btn.is-locked {
+  cursor: not-allowed;
+  filter: grayscale(0.55) brightness(0.75);
+}
+.spooky-floor-btn.is-locked .f { text-shadow: none; }
+
+/* 音ON/OFF */
+.spooky-sound-toggle {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(20, 12, 0, 0.85);
+  background: linear-gradient(180deg, #241a06, #100a02);
+  color: var(--spooky-gold-pale);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  padding: 7px 0;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(246, 226, 122, 0.4), 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+.spooky-sound-toggle[aria-pressed="false"] { opacity: 0.6; }
+
+/* 到着トースト */
+.spooky-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 26px;
+  transform: translateX(-50%) translateY(20px);
+  background: rgba(10, 5, 20, 0.92);
+  border: 1px solid rgba(212, 175, 55, 0.6);
+  color: var(--spooky-gold-pale);
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 70;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.25);
+}
+.spooky-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* モバイル：下部シート化（プレートは隠し、ボタンの小書きで案内） */
+@media (max-width: 700px) {
+  .spooky-elevator {
+    right: 8px;
+    left: 8px;
+    top: auto;
+    bottom: 8px;
+    transform: none;
+    width: auto;
+    max-height: 46vh;
+    display: block;
+    padding: 10px 12px;
+    border-radius: 18px;
+  }
+  .spooky-filigree, .spooky-elevator::before, .spooky-elevator::after,
+  .spooky-elevator .screw-slot { display: none; }
+  .spooky-indicator { margin: 0 auto 8px; max-width: 130px; padding: 4px 8px; }
+  .spooky-indicator .floor { font-size: 1.1rem; }
+  .spooky-floor-rows {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 4px;
+  }
+  .spooky-floor-row { flex: none; }
+  .spooky-floor-row .spooky-floor-btn { --btn-d: 46px; }
+  .spooky-plate { display: none; }
+  .spooky-rooms { margin-top: 8px; }
+  .spooky-rooms-grid { grid-template-columns: repeat(7, 1fr); gap: 4px; }
+  .spooky-sound-toggle { width: 100%; margin-top: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spooky-floor-btn, .spooky-toast { transition: none; }
+  .spooky-indicator.is-moving .floor { animation: none; }
+  html { scroll-behavior: auto; }
+}
+html { scroll-behavior: smooth; }
+
+/* ============================================================
+   各フロアの仮背景（アール・ヌーヴォーのステンドグラス洗い）
+   本番の描画背景が来たらこのブロックごと差し替え。
+   body[data-door-floor] で切り替えるためHTML編集は不要。
+   ============================================================ */
+body.spooky-body[data-door-floor="G"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(176, 141, 42, 0.24), transparent 60%),
+    radial-gradient(760px 460px at 90% 26%, rgba(232, 180, 160, 0.30), transparent 65%),
+    radial-gradient(720px 440px at 8% 32%, rgba(127, 181, 168, 0.24), transparent 65%),
+    linear-gradient(180deg, #faf5e9 0%, #f3e8d2 50%, #e9dcc0 100%);
+}
+body.spooky-body[data-door-floor="1"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(201, 162, 39, 0.26), transparent 60%),
+    radial-gradient(760px 460px at 85% 30%, rgba(232, 201, 160, 0.32), transparent 65%),
+    linear-gradient(180deg, #fbf3e2 0%, #f4e7c9 55%, #e8d5ae 100%);
+}
+body.spooky-body[data-door-floor="2"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(212, 141, 168, 0.28), transparent 60%),
+    radial-gradient(760px 460px at 88% 28%, rgba(176, 141, 212, 0.20), transparent 65%),
+    radial-gradient(700px 440px at 10% 34%, rgba(232, 180, 160, 0.26), transparent 65%),
+    linear-gradient(180deg, #faf0ea 0%, #f3e2da 55%, #e6cfc2 100%);
+}
+body.spooky-body[data-door-floor="3"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(150, 60, 80, 0.20), transparent 60%),
+    radial-gradient(760px 460px at 86% 30%, rgba(201, 162, 39, 0.26), transparent 65%),
+    linear-gradient(180deg, #faf1e6 0%, #f0dfcc 55%, #e2c9a8 100%);
+}
+body.spooky-body[data-door-floor="4"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(127, 181, 168, 0.30), transparent 60%),
+    radial-gradient(760px 460px at 88% 28%, rgba(184, 201, 163, 0.30), transparent 65%),
+    linear-gradient(180deg, #f2f5e8 0%, #e6ecda 55%, #d3ddc2 100%);
+}
+body.spooky-body[data-door-floor="5"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(150, 60, 90, 0.24), transparent 60%),
+    radial-gradient(760px 460px at 86% 28%, rgba(201, 162, 39, 0.30), transparent 65%),
+    radial-gradient(700px 440px at 10% 32%, rgba(212, 141, 168, 0.24), transparent 65%),
+    linear-gradient(180deg, #faf0e8 0%, #f0dcc8 55%, #e0c2a4 100%);
+}
+body.spooky-body[data-door-floor="6"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(201, 140, 60, 0.26), transparent 60%),
+    radial-gradient(760px 460px at 85% 30%, rgba(232, 201, 160, 0.30), transparent 65%),
+    linear-gradient(180deg, #faf3e4 0%, #f2e4c8 55%, #e3cda2 100%);
+}
+body.spooky-body[data-door-floor="13"] {
+  background:
+    radial-gradient(900px 460px at 50% -8%, rgba(90, 70, 160, 0.30), transparent 60%),
+    radial-gradient(760px 460px at 86% 28%, rgba(201, 162, 39, 0.26), transparent 65%),
+    radial-gradient(700px 440px at 10% 34%, rgba(127, 181, 200, 0.24), transparent 65%),
+    linear-gradient(180deg, #eceaf4 0%, #d9d6e8 55%, #b9b4d4 100%);
+}

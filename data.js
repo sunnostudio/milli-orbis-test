@@ -1,6 +1,6 @@
 const SITE_CONFIG = {
   name: "Milli Orbis",
-  siteUrl: "https://milli-orbis-portal.onrender.com",
+  siteUrl: "https://milli-orbis-portal.pages.dev",
   ogImage: "/images/Milli-Orbis-OGP.png",
   tagline: "ここを開けば、今のミリプロのすべてにアクセスできる",
   disclaimer: "本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。",
@@ -28,7 +28,9 @@ const DECO_SVG = {
   ring: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>',
   ichigo: '<svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg>',
   ribbon: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><path d="M50,40 C38,24 12,28 14,46 C16,60 34,58 50,44 C66,58 84,60 86,46 C88,28 62,24 50,40 Z"/><path d="M50,44 C48,56 42,68 34,80 L44,82 C48,70 51,58 52,46 Z"/><path d="M50,44 C52,56 58,68 66,80 L56,82 C52,70 49,58 48,46 Z"/><rect x="44" y="33" width="12" height="21" rx="6"/></g></svg>',
-  antler: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M22,90 C26,66 28,48 36,30 C40,20 47,14 56,10"/><path d="M31,60 C24,54 18,52 12,48"/><path d="M33,44 C27,38 24,34 22,26"/><path d="M39,30 C45,24 49,20 54,16"/></g></svg>'
+  antler: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M22,90 C26,66 28,48 36,30 C40,20 47,14 56,10"/><path d="M31,60 C24,54 18,52 12,48"/><path d="M33,44 C27,38 24,34 22,26"/><path d="M39,30 C45,24 49,20 54,16"/></g></svg>',
+  turtle: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><ellipse cx="48" cy="54" rx="25" ry="19"/><circle cx="76" cy="48" r="9"/><path d="M26,50 L10,40 L17,55 L9,62 L25,61 Z"/><path d="M30,66 L22,80 L35,72 Z"/><path d="M60,66 L56,82 L69,71 Z"/><path d="M22,44 L10,42 L19,52 Z"/></g><g stroke="#fff" stroke-width="3" fill="none" opacity="0.9" stroke-linecap="round"><path d="M37,46 L43,62"/><path d="M49,42 L49,64"/><path d="M61,46 L55,62"/></g><circle cx="78" cy="46" r="1.8" fill="#fff"/></svg>',
+  seaweed: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"><path d="M30,96 C24,76 36,66 30,46 C26,33 32,23 30,13"/><path d="M52,96 C58,73 46,61 54,41 C58,29 52,19 56,9"/><path d="M74,96 C70,79 80,69 74,51 C70,41 76,31 74,21"/></g><g fill="currentColor"><ellipse cx="30" cy="12" rx="5" ry="7"/><ellipse cx="56" cy="8" rx="5" ry="7"/><ellipse cx="74" cy="20" rx="4" ry="6"/></g></svg>'
 };
 
 /* グッズジャンル別の手描きSVGアイコン（画像はShopify CDNへのホットリンクで表示、保存せず参照。onerrorでSVGフォールバック §9） */
@@ -1589,6 +1591,65 @@ const MEMBERS = [
     fx: "straw"
   },
   {
+    id: "aoi",
+    gen: "ミリプロNOVA",
+    name: "海琳あおい",
+    nameEn: "Mitama Aoi",
+    color: "#7BC043",
+    subColor: "#eaf6dc",
+    birthday: "",
+    debut: "",
+    catch: "ミリプロNOVAに加入決定！デビュー準備中",
+    fanName: "",
+    fanMark: "🐢🌱",
+    calls: "",
+    profile: "ミリプロNOVA所属。2026年9月12日に加入発表。デビュー前のため詳細は準備中。",
+    skills: "準備中",
+    phrases: [],
+    likes: "",
+    dislikes: "",
+    achievements: [
+      "2026/9/12 ミリプロNOVA加入発表（公式X @Mil_Pro_）"
+    ],
+    tags: { stream: "", clip: "", art: "" },
+    links: { yt: "https://www.youtube.com/@MitamaAoi", x: "https://x.com/MitamaAoi", tiktok: "" },
+    img: "images/talents/aoi.webp",
+    // TODO(aoi-logo): 現行logoは告知画像からの仮切り抜き。公式ロゴ素材が出たら差し替え (2026-09-16)
+    logo: "images/rogo/aoirogo.webp",
+    icon: "images/icon/aoi_profile.jpg",
+    catchphrase: "",
+    introVoice: "",
+    introDelay: 6.5,
+    fx: "aoi",
+    deco: {
+      label: "turtle",
+      floats: [
+        { k: "turtle", x: 8, y: 14, size: 64, dur: 13 },
+        { k: "seaweed", x: 88, y: 10, size: 58, dur: 12 },
+        { k: "seaweed", x: 12, y: 76, size: 48, dur: 14 },
+        { k: "turtle", x: 82, y: 82, size: 44, dur: 15 }
+      ]
+    },
+    featuredVideos: [],
+    voice: "",
+    intro: "",
+    en: {
+      gen: "MilliPro NOVA",
+      catch: "Joined MilliPro NOVA! Debut coming soon",
+      fanName: "",
+      calls: "",
+      profile: "Member of MilliPro NOVA. Announced on Sep 12, 2026. Details TBA (pre-debut).",
+      skills: "TBA",
+      phrases: [],
+      likes: "",
+      dislikes: "",
+      achievements: [
+        "Sep 12, 2026 Announced joining MilliPro NOVA (official X @Mil_Pro_)"
+      ],
+      catchphrase: ""
+    }
+  },
+  {
     id: "milchan",
     gen: "事務所スタッフ・マスコット",
     name: "ミリちゃん",
@@ -1675,7 +1736,8 @@ const GROUP_INFO = [
     members: [
       { id: "raco" },
       { id: "yura" },
-      { id: "nuhu" }
+      { id: "nuhu" },
+      { id: "aoi", note: "2026/9/12 加入発表・デビュー前" }
     ],
     en: {
       name: "MilliPro NOVA",
@@ -1728,11 +1790,29 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-09-12",
+    tag: "重大発表",
+    title: "海琳あおい ミリプロNOVA加入決定！",
+    desc: "ミリプロ公式Xにて「新たな仲間がミリプロに加わります🌟 海琳あおい（@MitamaAoi）ミリプロNOVAに加入決定！🐢🌱」と発表。デビュー前・公式タレントページ未公開のため詳細は準備中。",
+    image: "",
+    url: "https://milpr.com/news/aoi_debut",
+    en: { tag: "Major Announcement", title: "Mitama Aoi joins MilliPro NOVA!", desc: "Announced on official X. Pre-debut, details TBA. 🐢🌱" }
+  },
+  {
+    date: "2026-09-09",
+    tag: "重大発表",
+    title: "【お知らせ】ミリプロに、新しい星が加わります！",
+    desc: "ミリプロ公式Xにて「ミリプロに、新しい星が加わります。続報をお楽しみに🐢💨」と発表。続報に注目！",
+    image: "https://pbs.twimg.com/media/HRs0RCDbwAA1Qwm?format=jpg&name=large",
+    url: "https://x.com/Mil_Pro_/status/2097610970613117371",
+    en: { tag: "Major Announcement", title: "[Notice] A new star will join MilliPro!", desc: "Announced on official X: 'A new star will join MilliPro. Stay tuned!' 🐢💨" }
+  },
+  {
     date: "2026-09-06",
     tag: "サイト更新",
     title: "【サイト更新】「Milli Orbis」をアップデートしました！",
     desc: "「Milli Orbis」をアップデートしました！内容は以下のとおりです。詳細は別のポストでご紹介します。ぜひご活用ください！・新サービス「MilliDex」の追加・オリジナルカーソルの追加と配布・鹿乃まほろさんページ追加／詳細は管理者のXにて紹介しています。",
-    image: "https://milli-orbis-portal.onrender.com/images/MilliDex-ogp-v2.png",
+    image: "https://milli-orbis-portal.pages.dev/images/MilliDex-ogp-v2.png",
     url: "https://x.com/SunSunmachi",
     en: { tag: "Site Update", title: "[Update] Milli Orbis has been updated!", desc: "New service MilliDex, original cursor distribution, and Kano Mahoro's page added. Details on the admin's X. Enjoy!" }
   },
@@ -1741,7 +1821,7 @@ const NEWS = [
     tag: "サイト更新",
     title: "【サイト更新】オリジナルカーソル配布＆Milli Orbisアカウント強化",
     desc: "推しカーソル（Win/Mac/Chromebook 15種）を一括DLで配布開始。ヘッダーの「カーソル」からサイト内でも即時切り替えできます。",
-    image: "https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png",
+    image: "https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png",
     url: "cursors.html",
     en: { tag: "Site Update", title: "[Update] Original Cursors & Milli Orbis Account Upgrade", desc: "15-type cursors for Win/Mac/Chromebook now available. Switch instantly from the header." }
   },
@@ -1882,6 +1962,7 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
+  "https://x.com/Mil_Pro_/status/2097610970613117371",
   "https://x.com/Mil_Pro_/status/2095708467248214056",
   "https://x.com/Mil_Pro_/status/2094983904189178149",
   "https://x.com/Mil_Pro_/status/2088971545511444730",
@@ -1907,8 +1988,9 @@ const HISTORY = [
   { date: "2026/8/16", title: "新グループ「ミリプロSONA」設立", desc: "音ノ乃のの・あくび・でもんすぺーど・鹿乃まほろの3名が所属", en: { title: "New group \"MilliPro SONA\" founded", desc: "Comprising Nono Nono, Akubi Demonspade, and Kano Mahoro" } },
   { date: "2026/8/22", title: "鹿乃まほろ デビュー（ミリプロSONA）", en: { title: "Kano Mahoro debuts (MilliPro SONA)" } },
   { date: "2026/8/29", title: "ミリプロリゾート 開催", desc: "秋葉原UDXにてPOP UP展示＆ファンミーティング（鹿乃まほろも参加）", en: { title: "MilliPro Resort held", desc: "POP UP exhibit & fan meeting at Akihabara UDX (feat. Kano Mahoro)" } },
-  { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", image: "https://milli-orbis-portal.onrender.com/dist/announce/x-cursor-scatter-1600x900.png", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
-  { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } }
+  { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } },
+  { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", image: "https://milli-orbis-portal.pages.dev/dist/announce/x-cursor-scatter-1600x900.png", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
+  { date: "2026/9/12", title: "海琳あおい ミリプロNOVA加入発表（デビュー前）", desc: "公式Xにて発表。デビュー日・詳細は未公開のため本サイトも準備中表示", en: { title: "Mitama Aoi announced for MilliPro NOVA (pre-debut)", desc: "Announced on official X. Details TBA." } }
 ];
 
 const YOUTUBE = {

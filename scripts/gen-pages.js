@@ -217,6 +217,64 @@ function fxHtml(kind) {
       '<span class="fx-spark" style="left:84%;top:52%;animation-delay:1.5s"></span>' +
       '<span class="fx-antler" style="right:9%;top:12%"></span>' +
       '<span class="fx-antler" style="left:8%;bottom:16%;width:64px;height:64px;animation-delay:1.2s;animation-duration:7s;opacity:0.7"></span>' +
+      '<span class="fx-flash"></span>',
+    aoi:
+      '<span class="fx-aoray" style="left:14%;animation-delay:0s"></span>' +
+      '<span class="fx-aoray" style="left:64%;animation-delay:1.4s;animation-duration:7s"></span>' +
+      '<span class="fx-aoiwash"></span>' +
+      '<span class="fx-aoirush" style="left:2%;bottom:-40px;width:44px;height:44px;animation-delay:0s;animation-duration:3.4s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:6%;bottom:-50px;width:26px;height:26px;animation-delay:0.15s;animation-duration:3s;--drift:-20px"></span>' +
+      '<span class="fx-aoirush" style="left:10%;bottom:-40px;width:58px;height:58px;animation-delay:0.05s;animation-duration:3.9s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:14%;bottom:-55px;width:30px;height:30px;animation-delay:0.3s;animation-duration:3.2s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:18%;bottom:-40px;width:48px;height:48px;animation-delay:0.1s;animation-duration:3.7s;--drift:20px"></span>' +
+      '<span class="fx-aoirush" style="left:22%;bottom:-60px;width:22px;height:22px;animation-delay:0.45s;animation-duration:2.9s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:26%;bottom:-40px;width:62px;height:62px;animation-delay:0.2s;animation-duration:4s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:30%;bottom:-50px;width:34px;height:34px;animation-delay:0.55s;animation-duration:3.3s;--drift:-20px"></span>' +
+      '<span class="fx-aoirush" style="left:34%;bottom:-40px;width:52px;height:52px;animation-delay:0.35s;animation-duration:3.8s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:38%;bottom:-60px;width:24px;height:24px;animation-delay:0.65s;animation-duration:3s;--drift:-12px"></span>' +
+      '<span class="fx-aoirush" style="left:42%;bottom:-40px;width:56px;height:56px;animation-delay:0.4s;animation-duration:4.1s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:46%;bottom:-50px;width:28px;height:28px;animation-delay:0.75s;animation-duration:3.2s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:50%;bottom:-40px;width:64px;height:64px;animation-delay:0.5s;animation-duration:4.2s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:54%;bottom:-55px;width:32px;height:32px;animation-delay:0.85s;animation-duration:3.4s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:58%;bottom:-40px;width:46px;height:46px;animation-delay:0.6s;animation-duration:3.6s;--drift:20px"></span>' +
+      '<span class="fx-aoirush" style="left:62%;bottom:-60px;width:24px;height:24px;animation-delay:0.95s;animation-duration:3s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:66%;bottom:-40px;width:54px;height:54px;animation-delay:0.7s;animation-duration:3.9s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:70%;bottom:-50px;width:30px;height:30px;animation-delay:1.05s;animation-duration:3.3s;--drift:-20px"></span>' +
+      '<span class="fx-aoirush" style="left:74%;bottom:-40px;width:60px;height:60px;animation-delay:0.8s;animation-duration:4s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:78%;bottom:-55px;width:26px;height:26px;animation-delay:1.15s;animation-duration:3.1s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:82%;bottom:-40px;width:48px;height:48px;animation-delay:0.9s;animation-duration:3.7s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:86%;bottom:-50px;width:32px;height:32px;animation-delay:1.25s;animation-duration:3.4s;--drift:-12px"></span>' +
+      '<span class="fx-aoirush" style="left:90%;bottom:-40px;width:56px;height:56px;animation-delay:1s;animation-duration:3.8s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:94%;bottom:-55px;width:28px;height:28px;animation-delay:1.35s;animation-duration:3.2s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:97%;bottom:-45px;width:44px;height:44px;animation-delay:1.1s;animation-duration:3.6s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:12%;bottom:-65px;width:36px;height:36px;animation-delay:1.45s;animation-duration:3.3s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:44%;bottom:-60px;width:40px;height:40px;animation-delay:1.55s;animation-duration:3.5s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:68%;bottom:-65px;width:38px;height:38px;animation-delay:1.65s;animation-duration:3.4s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:28%;bottom:-60px;width:30px;height:30px;animation-delay:1.7s;animation-duration:3.2s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:84%;bottom:-65px;width:34px;height:34px;animation-delay:1.8s;animation-duration:3.3s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:4%;bottom:10%;width:40px;height:40px;animation-delay:0.2s;animation-duration:3.8s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:16%;bottom:25%;width:52px;height:52px;animation-delay:0.1s;animation-duration:4s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:24%;bottom:5%;width:36px;height:36px;animation-delay:0.6s;animation-duration:3.5s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:33%;bottom:30%;width:60px;height:60px;animation-delay:0.3s;animation-duration:4.1s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:40%;bottom:8%;width:34px;height:34px;animation-delay:0.8s;animation-duration:3.4s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:48%;bottom:28%;width:50px;height:50px;animation-delay:0.45s;animation-duration:3.9s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:56%;bottom:6%;width:38px;height:38px;animation-delay:1s;animation-duration:3.5s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:64%;bottom:32%;width:58px;height:58px;animation-delay:0.65s;animation-duration:4s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:72%;bottom:10%;width:36px;height:36px;animation-delay:1.2s;animation-duration:3.4s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:80%;bottom:26%;width:54px;height:54px;animation-delay:0.85s;animation-duration:3.8s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:88%;bottom:8%;width:40px;height:40px;animation-delay:1.4s;animation-duration:3.5s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:95%;bottom:30%;width:50px;height:50px;animation-delay:1.05s;animation-duration:3.7s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:8%;bottom:45%;width:34px;height:34px;animation-delay:0.15s;animation-duration:3s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:36%;bottom:50%;width:44px;height:44px;animation-delay:0.5s;animation-duration:3.2s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:60%;bottom:42%;width:38px;height:38px;animation-delay:0.9s;animation-duration:3s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:90%;bottom:48%;width:42px;height:42px;animation-delay:1.2s;animation-duration:3.1s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:52%;bottom:60%;width:30px;height:30px;animation-delay:0.7s;animation-duration:2.8s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:20%;bottom:55%;width:32px;height:32px;animation-delay:1.1s;animation-duration:2.9s;--drift:-12px"></span>' +
+      '<span class="fx-turtle-in" style="animation-delay:3s">' + DECO_SVG.turtle + "</span>" +
+      '<span class="fx-kelp" style="left:4%;animation-delay:0s">' + DECO_SVG.seaweed + "</span>" +
+      '<span class="fx-kelp" style="right:5%;animation-delay:1.6s;animation-duration:6s;height:150px">' + DECO_SVG.seaweed + "</span>" +
+      '<span class="fx-kelp" style="left:44%;animation-delay:0.8s;animation-duration:7.5s;height:110px;opacity:0.7">' + DECO_SVG.seaweed + "</span>" +
+      '<span class="fx-aoifloor"></span>' +
       '<span class="fx-flash"></span>'
   };
   var html = V[kind];
@@ -241,6 +299,7 @@ const navDrop = (home) => `
           <a href="liz.html" data-i18n-name="liz">雨夜リズ</a>
           <a href="rei.html" data-i18n-name="rei">夕霧レイ</a>
           <a href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
           <a href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
@@ -280,6 +339,7 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="liz.html" data-i18n-name="liz">雨夜リズ</a>
       <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
       <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+      <a class="mobile-sub" href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
       <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <div class="drawer-section-label">MilliDex</div>
@@ -524,6 +584,46 @@ const i18nScriptTags = `
 <script src="data/i18n.js"></script>
 <script src="scripts/i18n.js"></script>`;
 
+/* Cloudflare移行: 旧Render→pages.dev (JSリダイレクト+バナー+beacon。本番と同一) */
+const MIGRATION_HEAD = (canonical) => `
+<link rel="canonical" href="${canonical}">
+<!-- 旧Render URLから移行: https://milli-orbis-portal.onrender.com は本ファイルのJSで pages.dev へ301相当リダイレクト -->
+<script>
+(function(){
+  try {
+    var NEW_BASE = 'https://milli-orbis-portal.pages.dev';
+    var isOldHost = location.hostname.indexOf('onrender.com') !== -1;
+    var isCrawler = /Twitterbot|facebookexternalhit|Slackbot|Discordbot|LinkedInBot|LineBot|SkypeUriPreview/i.test(navigator.userAgent);
+    if (isOldHost && !isCrawler) {
+      var newUrl = NEW_BASE + location.pathname + location.search + location.hash;
+      location.replace(newUrl);
+    }
+  } catch(e){}
+})();
+</script>`;
+
+const MIGRATION_BANNER = (canonical) => `
+<!-- Cloudflare移行: 旧RenderでJS無効/遅延時に表示するfallbackバナー -->
+<div id="oldHostBanner" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,0.08)">
+移行しました: 新サイトは <a href="${canonical}" style="color:#0d6efd;font-weight:800">${canonical}</a> です。自動で切り替わらない方はこちらをクリックしてください。
+</div>
+<script>
+(function(){
+  try{
+    if(location.hostname.indexOf('onrender.com')!==-1){
+      var b=document.getElementById('oldHostBanner');
+      if(b) b.style.display='block';
+      setTimeout(function(){
+        if(location.hostname.indexOf('onrender.com')!==-1 && b){ b.style.background='#ffe69c'; }
+      },3000);
+    }
+  }catch(e){}
+})();
+</script>
+<noscript><div style="background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;">移行しました: 新サイトは <a href="${canonical}" style="color:#0d6efd;font-weight:800">${canonical}</a> です。</div></noscript>`;
+
+const BEACON_HTML = `<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9c22b824d28449dfabe8d631a5682118"}'></script><!-- Cloudflare Pages Analytics -->`;
+
 function decoHtml(m) {
   var d = m.deco;
   if (!d || !(d.floats || d.shape)) return "";
@@ -568,12 +668,14 @@ function page(m) {
 <meta name="twitter:title" content="${m.name}（${m.nameEn}）| Milli Orbis">
 <meta name="twitter:description" content="${esc(m.catch)}">
 <meta name="twitter:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
+${MIGRATION_HEAD(SITE_CONFIG.siteUrl + "/" + m.id + ".html")}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-member="${m.id}" data-oshi="">
+${MIGRATION_BANNER(SITE_CONFIG.siteUrl + "/" + m.id + ".html")}
 ${decoHtml(m)}
 <header id="siteHeader">
   <div class="header-inner">
@@ -654,7 +756,7 @@ ${i18nScriptTags}
 <script src="scripts/cursor.js"></script>
 <script src="scripts/contact.js?v=20260909"></script>
 <script src="script.js"></script>
-</body>
+${BEACON_HTML}</body>
 </html>
 `;
 }
@@ -688,12 +790,14 @@ function simplePage(o) {
 <meta name="twitter:title" content="${o.title} | Milli Orbis">
 <meta name="twitter:description" content="${esc(o.desc)}">
 <meta name="twitter:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
+${MIGRATION_HEAD(SITE_CONFIG.siteUrl + "/" + o.file)}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-member="" data-oshi="">
+${MIGRATION_BANNER(SITE_CONFIG.siteUrl + "/" + o.file)}
 <header id="siteHeader">
   <div class="header-inner">
     <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
@@ -741,7 +845,7 @@ ${i18nScriptTags}
 <script src="scripts/contact.js?v=20260909"></script>
 <script src="script.js"></script>
 ${o.scripts}
-</body>
+${BEACON_HTML}</body>
 </html>
 `;
 }

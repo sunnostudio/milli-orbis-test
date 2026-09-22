@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>エレベーター試作 | HOTEL GRAND MILLI 非公式ファンイベント試作</title>
+<meta name="description" content="Milli Orbis ハロウィーン企画 Spooky Masquerade のエレベーターUI試作品。非公式ファンメイドの実験ページです。">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#f3e8d2">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HOTEL GRAND MILLI">
+<meta property="og:title" content="エレベーター試作 | HOTEL GRAND MILLI 非公式ファンイベント試作">
+<meta property="og:description" content="Milli Orbis ハロウィーン企画 Spooky Masquerade のエレベーターUI試作品。非公式ファンメイドの実験ページです。">
+<meta property="og:url" content="https://milli-orbis-portal.pages.dev/halloween/elevator-demo.html">
+<meta property="og:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-g.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="エレベーター試作 | HOTEL GRAND MILLI 非公式ファンイベント試作">
+<meta name="twitter:description" content="Milli Orbis ハロウィーン企画 Spooky Masquerade のエレベーターUI試作品。非公式ファンメイドの実験ページです。">
+<meta name="twitter:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-g.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="spooky.css">
+</head>
+<body class="spooky-body">
+<div class="spooky-wrap">
+
+  <p class="spooky-kicker en">HOTEL GRAND MILLI — PROTOTYPE</p>
+  <h1 class="spooky-title"><span class="en">Elevator Panel</span><br>エレベーター試作・最大品質版</h1>
+  <p class="spooky-sub">右端に常駐する真鍮パネルです。階数ボタンを押すと到着音（ピン―ポン）とともに表示窓が点滅し、該当フロアへ滑らかに移動します。G〜5はボタンの隣の金プレートに行き先の案内、6〜12は客室（7〜12は宿泊客専用で押せません）、13Fは鍵を持つと出現します。画像素材は使わず、CSSグラデーション＋SVGだけで金属光沢・彫り込み・ガラス反射を作っています。</p>
+
+  <div class="spooky-note">ファンメイドの試作品です。ミリプロ公式とは関係ありません。<br>使い方：右のパネルの <b>5 / 4 / 3 / 2 / 1 / G / 6</b> を押してください。<b>7〜12</b> は宿泊客専用。<b>♪</b> で音ON/OFF（設定は保存されます）。スマホでは下部シートに変わります。</div>
+
+  <section class="spooky-floor" data-floor-section="G" data-floor="G">
+    <span class="spooky-tag en">GROUND — ENTRANCE</span>
+    <h2>正面玄関<span class="en">Grand Entrance</span></h2>
+    <p>重厚な両開きドアの前。ここから舞踏会の夜が始まる想定です。本番ではドア開閉演出とチェックインが入ります。</p>
+  </section>
+
+  <section class="spooky-floor" data-floor-section="1" data-floor="1">
+    <span class="spooky-tag en">FLOOR 1 — LOBBY</span>
+    <h2>1F グランド・ロビー<span class="en">Grand Lobby</span></h2>
+    <p>招待状ジェネレーターと芳名帳（ゲストブック）の予定地。ファンのメッセージが羽ペンフォントで浮かぶ想定です。</p>
+  </section>
+
+  <section class="spooky-floor" data-floor-section="2" data-floor="2">
+    <span class="spooky-tag en">FLOOR 2 — CLOSET</span>
+    <h2>2F クローゼット<span class="en">Closet</span></h2>
+    <p>ドット絵ハロウィンカーソルの試着室と壁紙配布の予定地。仮装アイテムでサイトのカーソルが切り替わる想定です。</p>
+  </section>
+
+  <section class="spooky-floor" data-floor-section="3" data-floor="3">
+    <span class="spooky-tag en">FLOOR 3 — THEATER</span>
+    <h2>3F ミリ・シアター<span class="en">Milli Theater</span></h2>
+    <p>金の額縁に入った配信アーカイブとグッズ図鑑の予定地。トレーディングカード風ホバー演出の想定です。</p>
+  </section>
+
+  <section class="spooky-floor" data-floor-section="4" data-floor="4">
+    <span class="spooky-tag en">FLOOR 4 — SALON</span>
+    <h2>4F ゲームサロン<span class="en">Game Salon</span></h2>
+    <p>謎解き『グランド・ミリ・ホテルの怪異』の予定地。背景＋透明クリックエリア＋フラグ管理の想定です。</p>
+  </section>
+
+  <section class="spooky-floor" data-floor-section="5" data-floor="5">
+    <span class="spooky-tag en">FLOOR 5 — BALLROOM</span>
+    <h2>5F グランド・ボールルーム<span class="en">Grand Ballroom</span></h2>
+    <p>仮面舞踏会の大会場の予定地。シャンデリアと円形ホールの想定です。</p>
+  </section>
+
+  <section class="spooky-floor" data-floor-section="6" data-floor="6">
+    <span class="spooky-tag en">FLOOR 6 — GUEST ROOM</span>
+    <h2>6F 客室<span class="en">Guest Room</span></h2>
+    <p>招待客（プレイヤー）の部屋と鍵クエストの入口の予定地です。</p>
+  </section>
+
+  <section class="spooky-floor" data-floor="X">
+    <span class="spooky-tag is-locked en">GUEST ROOMS — PRIVATE</span>
+    <h2>7〜12F 客室<span class="en">Private Rooms</span></h2>
+    <p>宿泊客専用のため、エレベーターのボタンは押せない演出にしています。13Fは鍵を持つとパネルに出現します（本番挙動・試作では省略）。</p>
+  </section>
+
+  <p style="margin-top:30px"><a href="invite-demo.html" style="color:var(--spooky-bronze)">招待状開封試作へ →</a></p>
+
+</div>
+
+<!-- ============ エレベーター本体 ============ -->
+<nav class="spooky-elevator" id="spookyElevator" aria-label="ホテル館内エレベーター">
+  <span class="screw-slot top"></span>
+  <svg class="spooky-filigree" viewBox="0 0 76 18" aria-hidden="true">
+    <g fill="none" stroke="#2c2306" stroke-width="1.4" opacity="0.9">
+      <path d="M4 9 C 14 2, 22 2, 30 9 S 46 16, 54 9 S 66 4, 72 9"/>
+      <circle cx="38" cy="9" r="2.4" fill="#2c2306" stroke="none"/>
+      <circle cx="12" cy="9" r="1.4"/><circle cx="64" cy="9" r="1.4"/>
+    </g>
+    <g fill="none" stroke="#fff6c8" stroke-width="0.7" opacity="0.7">
+      <path d="M4 10 C 14 3, 22 3, 30 10 S 46 17, 54 10 S 66 5, 72 10"/>
+    </g>
+  </svg>
+
+  <div class="spooky-indicator" id="spookyIndicator" aria-live="polite">
+    <div class="floor" id="spookyFloorNow">G</div>
+    <div class="label en">FLOOR</div>
+  </div>
+
+  <div class="spooky-floor-rows">
+    <div class="spooky-floor-row">
+      <button type="button" class="spooky-floor-btn" data-floor="5" aria-label="5階 グランド・ボールルームへ移動">
+        <span class="f">5</span><small>舞踏会</small>
+      </button>
+      <span class="spooky-plate">舞踏会<small>ボールルーム</small></span>
+    </div>
+    <div class="spooky-floor-row">
+      <button type="button" class="spooky-floor-btn" data-floor="4" aria-label="4階 ゲームサロンへ移動">
+        <span class="f">4</span><small>サロン</small>
+      </button>
+      <span class="spooky-plate">ミニゲーム<small>サロン</small></span>
+    </div>
+    <div class="spooky-floor-row">
+      <button type="button" class="spooky-floor-btn" data-floor="3" aria-label="3階 ミリ・シアターへ移動">
+        <span class="f">3</span><small>シアター</small>
+      </button>
+      <span class="spooky-plate">シアター<small>上映と図鑑</small></span>
+    </div>
+    <div class="spooky-floor-row">
+      <button type="button" class="spooky-floor-btn" data-floor="2" aria-label="2階 クローゼットへ移動">
+        <span class="f">2</span><small>更衣室</small>
+      </button>
+      <span class="spooky-plate">更衣室<small>仮装試着</small></span>
+    </div>
+    <div class="spooky-floor-row">
+      <button type="button" class="spooky-floor-btn" data-floor="1" aria-label="1階 グランド・ロビーへ移動">
+        <span class="f">1</span><small>ロビー</small>
+      </button>
+      <span class="spooky-plate">ロビー<small>受付・芳名帳</small></span>
+    </div>
+    <div class="spooky-floor-row">
+      <button type="button" class="spooky-floor-btn is-current" data-floor="G" aria-label="正面玄関へ移動" aria-current="true">
+        <span class="f">G</span><small>玄関</small>
+      </button>
+      <span class="spooky-plate">玄関<small>エントランス</small></span>
+    </div>
+  </div>
+
+  <div class="spooky-rooms">
+    <p class="spooky-rooms-label en">GUEST ROOMS 客室</p>
+    <div class="spooky-rooms-grid">
+      <button type="button" class="spooky-floor-btn is-mini" data-floor="6" aria-label="6階 客室へ移動">
+        <span class="f">6</span>
+      </button>
+      <button type="button" class="spooky-floor-btn is-mini is-locked" data-floor="7" aria-label="7階 客室（宿泊客専用）">
+        <span class="f">7</span>
+      </button>
+      <button type="button" class="spooky-floor-btn is-mini is-locked" data-floor="8" aria-label="8階 客室（宿泊客専用）">
+        <span class="f">8</span>
+      </button>
+      <button type="button" class="spooky-floor-btn is-mini is-locked" data-floor="9" aria-label="9階 客室（宿泊客専用）">
+        <span class="f">9</span>
+      </button>
+      <button type="button" class="spooky-floor-btn is-mini is-locked" data-floor="10" aria-label="10階 客室（宿泊客専用）">
+        <span class="f">10</span>
+      </button>
+      <button type="button" class="spooky-floor-btn is-mini is-locked" data-floor="11" aria-label="11階 客室（宿泊客専用）">
+        <span class="f">11</span>
+      </button>
+      <button type="button" class="spooky-floor-btn is-mini is-locked" data-floor="12" aria-label="12階 客室（宿泊客専用）">
+        <span class="f">12</span>
+      </button>
+    </div>
+  </div>
+
+  <svg class="spooky-filigree" viewBox="0 0 76 18" aria-hidden="true" style="transform:scaleY(-1)">>
+    <g fill="none" stroke="#2c2306" stroke-width="1.4" opacity="0.9">
+      <path d="M4 9 C 14 2, 22 2, 30 9 S 46 16, 54 9 S 66 4, 72 9"/>
+      <circle cx="38" cy="9" r="2.4" fill="#2c2306" stroke="none"/>
+      <circle cx="12" cy="9" r="1.4"/><circle cx="64" cy="9" r="1.4"/>
+    </g>
+    <g fill="none" stroke="#fff6c8" stroke-width="0.7" opacity="0.7">
+      <path d="M4 10 C 14 3, 22 3, 30 10 S 46 17, 54 10 S 66 5, 72 10"/>
+    </g>
+  </svg>
+
+  <button type="button" class="spooky-sound-toggle en" id="spookySoundToggle" aria-pressed="true">♪ ON</button>
+  <span class="screw-slot bottom"></span>
+</nav>
+
+<div class="spooky-toast" id="spookyToast" role="status"></div>
+
+<script src="spooky-elevator.js" defer></script>
+</body>
+</html>
