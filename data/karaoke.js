@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "pytWeCL4-v8",
+    "memberId": "raco",
+    "publishedAt": "2026-09-22",
+    "title": "【マイクラ肝試し】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "4wgmPPZhNGM",
     "memberId": "raco",
     "publishedAt": "2026-09-21",
