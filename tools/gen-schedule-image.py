@@ -215,7 +215,7 @@ def render(date, streams, collabs, members, theme, out_path):
     d = ImageDraw.Draw(img, "RGBA")
     d.text((70, 36), "本日の配信・イベント情報", font=f_title, fill=(255, 255, 255),
            stroke_width=1, stroke_fill=tdark)
-    datestr = f"{date.month}/{date.day}({WEEK_JP[date.weekday()]})"
+    datestr = f"{date.year}年{date.month}月{date.day}日({WEEK_JP[date.weekday()]})"
     tw = d.textlength(datestr, font=f_date)
     d.rounded_rectangle([70, 94, 70 + tw + 34, 128], radius=17, fill=(255, 255, 255, 235))
     d.text((87, 96), datestr, font=f_date, fill=tdark)
@@ -345,9 +345,13 @@ def render(date, streams, collabs, members, theme, out_path):
         star(d, W - 130, yy + 85, 20, (247, 143, 192, 200))
 
     # --- フッター ---
+    f_note = ImageFont.truetype(FONT_PATH, 20)
+    f_wm = ImageFont.truetype(FONT_PATH, 18)
+    note = "今朝6:00時点の情報です"
+    d.text((36, H - 48), note, font=f_note, fill=MUTED)
     wm = "※非公式ファンメイド | Milli Orbis"
-    ww = d.textlength(wm, font=f_small)
-    d.text((W - ww - 24, H - 46), wm, font=f_small, fill=WATERMARK)
+    ww = d.textlength(wm, font=f_wm)
+    d.text((W - ww - 24, H - 46), wm, font=f_wm, fill=WATERMARK)
 
     out = Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
