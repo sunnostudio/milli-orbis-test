@@ -116,6 +116,69 @@ def active_collabs(date):
     return out
 
 
+def load_launchers():
+    src = (ROOT / "data.js").read_text(encoding="utf-8")
+    m = re.search(r"const LAUNCHERS = \[(.*?)\];", src, re.S)
+    out = []
+    if not m:
+        return out
+    for e in re.finditer(
+        r'\{\s*icon:\s*"([^"]*)".*?name:\s*"([^"]+)".*?desc:\s*"([^"]+)".*?url:\s*"([^"]*)"',
+        m.group(1),
+    ):
+        icon, name, desc, url = e.groups()
+        if not url:
+            continue
+        out.append(
+            {"icon": urllib.parse.unquote(icon), "name": name, "desc": desc, "url": url}
+        )
+    return out
+
+
+def pick_promos(date, members):
+    """配信なし時の穴埋め: 自サイト宣伝1件 + 販売中グッズ1件(日付シードで決定的)。"""
+    rng = random.Random("promo" + date.isoformat())
+    promos = []
+    launchers = load_launchers()
+    if launchers:
+        l = rng.choice(launchers)
+        host = re.sub(r"^https?://", "", l["url"]).rstrip("/").split("/")[0]
+        promos.append(
+            {
+                "kind": "site",
+                "badge": "オススメ",
+                "title": l["name"],
+                "sub": l["desc"],
+                "meta": host,
+                "icon": l["icon"],
+                "shape": None,
+                "color": "#4FA3E0",
+            }
+        )
+    try:
+        goods = json.loads((ROOT / "data" / "goods-fetched.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        goods = []
+    goods = [g for g in goods if g.get("name") and g.get("price")]
+    if goods:
+        g = rng.choice(goods)
+        mname = members.get(g.get("memberId", ""), {}).get("name", "")
+        sub = f"¥{g['price']:,}" + (f"｜{mname}" if mname else "")
+        promos.append(
+            {
+                "kind": "goods",
+                "badge": "販売中",
+                "title": g["name"],
+                "sub": sub,
+                "meta": "shop.milpr.com",
+                "icon": "",
+                "shape": ("グ", ["#E8A03C", "#C97B2D"]),
+                "color": "#E8A03C",
+            }
+        )
+    return promos
+
+
 def star(draw, cx, cy, r, color):
     pts = []
     for i in range(10):
@@ -166,7 +229,7 @@ def section_label(d, y, text, accent, f_sec):
     d.text((58, y - 2), text, font=f_sec, fill=INK)
 
 
-def render(date, streams, collabs, members, theme, out_path):
+def render(date, streams, collabs, promos, members, theme, out_path):
     tcol = hex_to_rgb(theme.get("color", "#75b1c0"))
     tlight = lighten(tcol, 0.72)
     tpale = lighten(tcol, 0.88)
@@ -247,7 +310,13 @@ def render(date, streams, collabs, members, theme, out_path):
     rest_c = len(collabs) - len(shown_c)
 
     # --- コンテンツ全体を垂直中央寄せ ---
-    total_h = 34 + max(len(shown_s), 1) * 66
+    if shown_s:
+        stream_h = len(shown_s) * 66
+    elif promos:
+        stream_h = 32 + len(promos) * 66
+    else:
+        stream_h = 66
+    total_h = 34 + stream_h
     if collabs:
         total_h += 32 + len(shown_c) * 52
     if rest_s > 0 or rest_c > 0:
@@ -258,8 +327,42 @@ def render(date, streams, collabs, members, theme, out_path):
     section_label(d, y, "配信", tcol, f_sec)
     y += 34
     if not shown_s:
-        d.text((58, y + 8), "本日の配信予定はありません", font=f_body, fill=MUTED)
-        y += 66
+        if promos:
+            section_label(d, y, "ピックアップ", (79, 163, 224), f_sec)
+            y += 32
+            for p in promos:
+                pcol = hex_to_rgb(p.get("color", "#4FA3E0"))
+                d.rounded_rectangle([36, y, W - 36, y + 58], radius=18, fill=CARD,
+                                    outline=(235, 210, 195), width=2)
+                icon_file = (ROOT / p["icon"]) if p.get("icon") else None
+                if icon_file and icon_file.exists():
+                    try:
+                        badge = circle_icon(icon_file, 40, pcol)
+                        img.paste(badge, (48, y + 5), badge)
+                    except OSError:
+                        d.ellipse([50, y + 9, 98, y + 57], fill=pcol)
+                elif p.get("shape"):
+                    ch, _gr = p["shape"]
+                    d.ellipse([50, y + 9, 98, y + 57], fill=pcol)
+                    cw = d.textlength(ch, font=f_name)
+                    d.text((74 - cw / 2, y + 11), ch, font=f_name, fill=(255, 255, 255))
+                else:
+                    d.ellipse([50, y + 9, 98, y + 57], fill=pcol)
+                bw = int(d.textlength(p["badge"], font=f_body)) + 30
+                d.rounded_rectangle([112, y + 11, 112 + bw, y + 41], radius=15, fill=pcol)
+                d.text((112 + 15, y + 13), p["badge"], font=f_body, fill=(255, 255, 255))
+                nx = 112 + bw + 14
+                mw = d.textlength(p.get("meta", ""), font=f_small)
+                d.text((nx, y + 10), truncate(d, p["title"], f_name, W - 36 - nx - mw - 30),
+                       font=f_name, fill=INK)
+                d.text((nx, y + 36), truncate(d, p["sub"], f_small, W - 36 - nx - mw - 30),
+                       font=f_small, fill=MUTED)
+                if p.get("meta"):
+                    d.text((W - 36 - mw - 14, y + 36), p["meta"], font=f_small, fill=MUTED)
+                y += 66
+        else:
+            d.text((58, y + 8), "本日の配信予定はありません", font=f_body, fill=MUTED)
+            y += 66
     else:
         for st in shown_s:
             m = members.get(st["memberId"], {})
@@ -329,8 +432,8 @@ def render(date, streams, collabs, members, theme, out_path):
                             outline=ACCENT, width=2)
         d.text(((W - mw) / 2, y + 6), more, font=f_body, fill=(70, 130, 145))
 
-    # --- 配信ゼロ & イベントゼロ ---
-    if not shown_s and not collabs:
+    # --- 配信ゼロ & イベントゼロ & 宣伝ゼロ ---
+    if not shown_s and not collabs and not promos:
         yy = 250
         d.rounded_rectangle([36, yy, W - 36, yy + 170], radius=24, fill=CARD,
                             outline=(235, 210, 195), width=3)
@@ -373,7 +476,8 @@ def main():
     streams = today_streams(date)
     collabs = active_collabs(date)
     theme = pick_theme(date, members)
-    render(date, streams, collabs, members, theme, ROOT / args.out)
+    promos = pick_promos(date, members) if not streams else []
+    render(date, streams, collabs, promos, members, theme, ROOT / args.out)
 
 
 if __name__ == "__main__":
