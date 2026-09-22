@@ -948,7 +948,7 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
       <div id="smList"></div>
     </div>
   </section>`,
-  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="data/song-master.js"></script>\n<script src="data/karaoke.js"></script>\n<script src="data/karaoke-shazam.js"></script>\n<script src="scripts/song-data.js"></script>\n<script src="scripts/songs.js"></script>\n<script src="scripts/songs-master.js"></script>'
+  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="data/song-master.js"></script>\n<script src="data/karaoke.js"></script>\n<script src="scripts/song-data.js"></script>\n<script src="scripts/songs.js"></script>\n<script src="scripts/songs-master.js"></script>'
 }), "utf8");
 console.log("generated: songs.html");
 

@@ -11,7 +11,6 @@
   var meta = extra.meta || {};
   var master = (typeof SONG_MASTER !== "undefined" ? SONG_MASTER : (window.SONG_MASTER || {})).songs || {};
   var autoKaraoke = (typeof KARAOKE !== "undefined" ? KARAOKE : (window.KARAOKE || [])) || [];
-  var karaokeShazam = (typeof KARAOKE_SHAZAM !== "undefined" ? KARAOKE_SHAZAM : (window.KARAOKE_SHAZAM || {})) || {};
   var SD = window.SongData;
 
   function $(id) { return document.getElementById(id); }
@@ -313,20 +312,6 @@
   }
 
   /* ---- 歌枠: 配信単位カード（収録曲とタイムスタンプ） ---- */
-  function shazamRows(st) {
-    var rec = karaokeShazam[st.id];
-    if (!rec || !rec.runs || !rec.runs.length) return "";
-    return rec.runs.map(function (r, i) {
-      return '<div class="song-kitem song-shazam" role="button" tabindex="0" data-stream="' + st.id + '" data-start="' + (r.start || "") + '">' +
-        '<span class="song-kidx">' + (i + 1) + "</span>" +
-        '<span class="song-kname">' + esc(r.title) +
-        (r.artist ? ' <span class="song-shazam-artist">' + esc(r.artist) + "</span>" : "") + "</span>" +
-        '<span class="song-ts">' + (r.start != null ? SD.fmtTs(r.start) + "〜" + (r.end != null ? SD.fmtTs(r.end) : "") : "–") + "</span>" +
-        '<a class="song-kext" href="' + SD.videoUrl(st.id, r.start) + '" target="_blank" rel="noopener" aria-label="' + T("songs.openYt") + '">' + YT_SVG + "</a>" +
-        "</div>";
-    }).join("");
-  }
-
   function karaokeCards() {
     var list = karaokeStreams.slice();
     if (keyword) {
@@ -351,8 +336,7 @@
           '<a class="song-kext" href="' + SD.videoUrl(st.id, s.start) + '" target="_blank" rel="noopener" aria-label="' + T("songs.openYt") + '">' + YT_SVG + "</a>" +
           "</div>";
       }).join("");
-      var shz = shazamRows(st);
-      var setlist = songs + (songs && shz ? '<div class="song-shazam-divider">' + T("songs.shazamLabel") + "</div>" : "") + shz;
+      var setlist = songs;
       /* セットリスト折りたたみ: 最初の2行のみ表示、残りはトグルで展開 */
       var VISIBLE = 2;
       var rows = setlist.split("");
