@@ -492,6 +492,7 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
                             radius=17, fill=(255, 255, 255),
                             outline=tcol, width=2)
         d.text(((W - mw) / 2, y + 6), more, font=f_body, fill=tdark)
+        y += 42
 
     # --- 配信ゼロ & イベントゼロ & 宣伝ゼロ ---
     if not shown_s and not collabs and not promos:
