@@ -1,0 +1,20 @@
+[
+  {
+    "title": "イオン限定プリンセスグッズ",
+    "shop": "イオン",
+    "desc": "プリンセス衣装の限定グッズ(アクスタ・クリアファイル等)",
+    "start": "2026-09-18",
+    "end": "2026-12-31",
+    "url": "https://milpr.com/news/milipr_aeon",
+    "color": "#E85D9E"
+  },
+  {
+    "title": "レトロポップver.発売記念フェア",
+    "shop": "アニメイト",
+    "desc": "関連グッズ購入で特典ポストカード",
+    "start": "2026-11-06",
+    "end": "2026-11-29",
+    "url": "https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116143",
+    "color": "#4FA3E0"
+  }
+]
