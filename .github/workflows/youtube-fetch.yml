@@ -44,5 +44,7 @@ jobs:
           git config user.name "Milli Orbis Bot"
           git config user.email "bot@milliorbis.local"
           git add data/youtube.json data/youtube.backup.json calendar.ics data/songs.js data/karaoke.js data/song-master.js
-          git diff --cached --quiet || git commit -m "chore: update youtube data"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update youtube data"
+          git pull --rebase origin HEAD
           git push

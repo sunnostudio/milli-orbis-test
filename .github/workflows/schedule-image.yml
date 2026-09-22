@@ -31,5 +31,7 @@ jobs:
           git config user.name "Milli Orbis Bot"
           git config user.email "bot@milliorbis.local"
           git add images/x-schedule.png
-          git diff --cached --quiet || git commit -m "chore: update daily schedule image"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update daily schedule image"
+          git pull --rebase origin HEAD
           git push

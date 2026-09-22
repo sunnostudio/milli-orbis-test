@@ -23,5 +23,7 @@ jobs:
           git config user.name "Milli Orbis Bot"
           git config user.email "bot@milliorbis.local"
           git add data.js data/goods-fetched.json
-          git diff --cached --quiet || git commit -m "chore: update goods data"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update goods data"
+          git pull --rebase origin HEAD
           git push
