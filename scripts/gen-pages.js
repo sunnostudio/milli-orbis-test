@@ -908,11 +908,11 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
   di18n: "pageDesc.songs",
   desc: "ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。",
   cta: `
-      <a class="unishare-cta" href="https://milli-unishare.onrender.com/" target="_blank" rel="noopener">
+      <a class="unishare-cta" href="https://milli-unishare.pages.dev/" target="_blank" rel="noopener">
         <img src="images/icon/Milli%20Unishare-icon.PNG" alt="Milli Unishare" loading="lazy">
         <span data-i18n="songs.unishare">通常動画・ショート・ライブ配信のデータベースはこちら</span>
       </a>
-      <a class="millivibe-cta" href="https://milli-unishare.onrender.com/millivibe" target="_blank" rel="noopener">
+      <a class="millivibe-cta" href="https://milli-unishare.pages.dev/millivibe" target="_blank" rel="noopener">
         <span class="mv-badge" data-i18n="songs.millivibeBadge">新サービス</span>
         <img src="images/rogo/Millivibe-rogo.png" alt="Millivibe" loading="lazy">
         <span data-i18n="songs.millivibe">曲を聴けるサブスク風サイトはこちら</span>

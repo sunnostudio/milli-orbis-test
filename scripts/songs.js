@@ -104,7 +104,7 @@
   }
 
   function ytBtnHtml(id) {
-    return '<a class="btn btn-ghost song-ytbtn" href="https://milli-unishare.onrender.com/#watch=' + id + '" target="_blank" rel="noopener">' + UNI_SVG + " " + T("songs.uniWatch") + "</a>";
+    return '<a class="btn btn-ghost song-ytbtn" href="https://milli-unishare.pages.dev/#watch=' + id + '" target="_blank" rel="noopener">' + UNI_SVG + " " + T("songs.uniWatch") + "</a>";
   }
 
   /* メンバー検索対象: 名前・読み・ファンネーム・呼称・英語名 */

@@ -1914,7 +1914,7 @@ const NEWS = [
 ];
 
 const LAUNCHERS = [
-  { icon: "images/icon/Milli%20Unishare-icon.PNG", shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "https://milli-unishare.onrender.com/", en: { desc: "A fan service for sharing stream and video info" } },
+  { icon: "images/icon/Milli%20Unishare-icon.PNG", shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "https://milli-unishare.pages.dev/", en: { desc: "A fan service for sharing stream and video info" } },
   { icon: "images/icon/Millipro%20Chronicle-icon.jpeg", shape: { char: "C", grad: ["#f7cb0e", "#e6a700"] }, name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集（準備中）", url: "", en: { desc: "A fan archive recording MilliPro history (in preparation)" } },
   { icon: "images/icon/Milli%20Games-icon.png", shape: { char: "G", grad: ["#8575bf", "#5f4f9e"] }, name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "https://milli-games.onrender.com/index.html", en: { desc: "A collection of MilliPro fan games" } },
   { icon: "images/icon/Milli%20Kit-icon.png", shape: { char: "K", grad: ["#f78fc0", "#b48cf2"] }, name: "Milli Kit", desc: "推し活に便利なファン製ツール集", url: "https://milli-kit.pages.dev/", en: { desc: "Fan-made tools for oshi-katsu" } },

@@ -46,7 +46,7 @@
 
   function linkOf(entry) {
     if (entry.kind === "video") {
-      return { href: "https://milli-unishare.onrender.com/#watch=" + entry.vid + (entry.start ? "&t=" + entry.start : ""), label: T("songs.uniWatch"), external: true };
+      return { href: "https://milli-unishare.pages.dev/#watch=" + entry.vid + (entry.start ? "&t=" + entry.start : ""), label: T("songs.uniWatch"), external: true };
     }
     if (entry.kind === "song") {
       return { href: "songs.html", label: T("account.openSongs"), external: false };

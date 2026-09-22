@@ -19,19 +19,26 @@ import sys
 import urllib.parse
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
-FONT_PATH = "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"
+FONT_DIR = ROOT / "tools" / "fonts"
+FONT_FALLBACK = "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"
 
 W, H = 1200, 675
-INK = (58, 46, 38)
-MUTED = (140, 120, 105)
-CARD = (255, 255, 255)
-WATERMARK = (160, 140, 125)
-LIVE_RED = (225, 70, 80)
+INK = (45, 40, 38)
+MUTED = (135, 125, 118)
+WATERMARK = (165, 150, 140)
+LIVE_RED = (230, 70, 85)
 
 WEEK_JP = ["月", "火", "水", "木", "金", "土", "日"]
+
+
+def font(weight, size):
+    p = FONT_DIR / f"MPLUSRounded1c-{weight}.ttf"
+    if p.exists():
+        return ImageFont.truetype(str(p), size)
+    return ImageFont.truetype(FONT_FALLBACK, size)
 
 
 def load_members():
@@ -172,7 +179,7 @@ def pick_promos(date, members):
                 "sub": sub,
                 "meta": "shop.milpr.com",
                 "icon": "",
-                "shape": ("グ", ["#E8A03C", "#C97B2D"]),
+                "shape": ("グ", None),
                 "color": "#E8A03C",
             }
         )
@@ -188,21 +195,10 @@ def star(draw, cx, cy, r, color):
     draw.polygon(pts, fill=color)
 
 
-def heart(draw, cx, cy, s, color):
-    r = s / 2
-    draw.ellipse([cx - s, cy - r * 0.7, cx, cy + r * 0.7], fill=color)
-    draw.ellipse([cx, cy - r * 0.7, cx + s, cy + r * 0.7], fill=color)
-    draw.polygon(
-        [(cx - s + r * 0.35, cy + r * 0.25), (cx + s - r * 0.35, cy + r * 0.25),
-         (cx, cy + s * 0.95)],
-        fill=color,
-    )
-
-
-def truncate(draw, text, font, max_w):
-    if draw.textlength(text, font=font) <= max_w:
+def truncate(draw, text, fnt, max_w):
+    if draw.textlength(text, font=fnt) <= max_w:
         return text
-    while text and draw.textlength(text + "…", font=font) > max_w:
+    while text and draw.textlength(text + "…", font=fnt) > max_w:
         text = text[:-1]
     return text + "…"
 
@@ -224,80 +220,76 @@ def circle_icon(path, size, ring):
     return out
 
 
-def section_label(d, y, text, accent, f_sec):
-    d.rounded_rectangle([36, y, 48, y + 26], radius=6, fill=accent)
-    d.text((58, y - 2), text, font=f_sec, fill=INK)
+def soft_blob(base, cx, cy, r, color, alpha=60):
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=color + (alpha,))
+    layer = layer.filter(ImageFilter.GaussianBlur(r // 2))
+    base.alpha_composite(layer)
+
+
+def card(base, box, radius=24, fill=(255, 255, 255, 255)):
+    x0, y0, x1, y1 = box
+    sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle(
+        [x0, y0 + 5, x1, y1 + 5], radius=radius, fill=(70, 60, 55, 38)
+    )
+    sh = sh.filter(ImageFilter.GaussianBlur(7))
+    base.alpha_composite(sh)
+    ImageDraw.Draw(base).rounded_rectangle(box, radius=radius, fill=fill)
 
 
 def render(date, streams, collabs, promos, members, theme, out_path):
     tcol = hex_to_rgb(theme.get("color", "#75b1c0"))
-    tlight = lighten(tcol, 0.72)
-    tpale = lighten(tcol, 0.88)
-    tdark = darken(tcol, 0.35)
+    tsoft = lighten(tcol, 0.82)
+    tdark = darken(tcol, 0.38)
 
-    img = Image.new("RGB", (W, H), (255, 250, 242))
-    grad = Image.new("RGB", (1, H))
-    top, bottom = (255, 251, 243), tuple(int(c * 0.96) for c in tpale)
-    for yy in range(H):
-        t = yy / H
-        grad.putpixel((0, yy), tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3)))
-    img.paste(grad.resize((W, H)))
-    d = ImageDraw.Draw(img, "RGBA")
-    f_title = ImageFont.truetype(FONT_PATH, 44)
-    f_date = ImageFont.truetype(FONT_PATH, 28)
-    f_sec = ImageFont.truetype(FONT_PATH, 24)
-    f_time = ImageFont.truetype(FONT_PATH, 26)
-    f_name = ImageFont.truetype(FONT_PATH, 28)
-    f_body = ImageFont.truetype(FONT_PATH, 24)
-    f_small = ImageFont.truetype(FONT_PATH, 22)
+    img = Image.new("RGBA", (W, H), (250, 247, 243, 255))
+    # 背景: ドットグリッド + テーマ色ブロブ(別レイヤーで正しく合成)
+    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(ov)
+    for gx in range(28, W, 68):
+        for gy in range(20, H, 68):
+            d.ellipse([gx - 2, gy - 2, gx + 2, gy + 2], fill=(0, 0, 0, 10))
+    star(d, 1040, 200, 13, tcol + (110,))
+    star(d, 120, 600, 15, tcol + (110,))
+    star(d, 640, 40, 10, (240, 180, 90, 130))
+    img.alpha_composite(ov)
+    soft_blob(img, 150, 90, 190, tcol, 46)
+    soft_blob(img, 1060, 580, 210, tcol, 40)
+    soft_blob(img, 1080, 120, 120, (255, 190, 205), 50)
+    d = ImageDraw.Draw(img)
 
-    # --- 背景コンフェッティ(テーマ色混じり) ---
-    pastel = [tlight + (110,), (255, 225, 170, 110), (180, 220, 245, 110),
-              (200, 230, 185, 110), (220, 200, 240, 110)]
-    dots = [(60, 210), (110, 570), (450, 24), (760, 30), (1085, 110), (1150, 430),
-            (90, 440), (620, 648), (980, 630)]
-    for i, (x, y) in enumerate(dots):
-        c = pastel[i % len(pastel)]
-        d.ellipse([x - 13, y - 13, x + 13, y + 13], fill=c)
-    star(d, 200, 168, 14, tcol + (150,))
-    star(d, 1010, 545, 12, (247, 143, 192, 150))
-    star(d, 1120, 250, 11, (126, 200, 255, 150))
-    heart(d, 80, 625, 24, tlight + (140,))
-    heart(d, 1130, 80, 20, (255, 170, 185, 130))
+    f_title = font("ExtraBold", 46)
+    f_date = font("Bold", 27)
+    f_sec = font("Bold", 23)
+    f_time = font("Bold", 26)
+    f_name = font("Bold", 29)
+    f_body = font("Medium", 24)
+    f_small = font("Regular", 21)
+    f_note = font("Regular", 19)
 
-    # --- ヘッダー(日替わりテーマ帯) ---
-    hb = Image.new("RGB", (W - 72, 118), tcol)
-    for xx in range(W - 72):
-        t = xx / (W - 72)
-        c = tuple(int(tcol[i] + (tlight[i] - tcol[i]) * t * 0.55) for i in range(3))
-        for yy in range(118):
-            hb.putpixel((xx, yy), c)
-    mask = Image.new("L", (W - 72, 118), 0)
-    ImageDraw.Draw(mask).rounded_rectangle([0, 0, W - 72, 118], radius=28, fill=255)
-    img.paste(hb, (36, 24), mask)
-    d = ImageDraw.Draw(img, "RGBA")
-    d.text((70, 36), "本日の配信・イベント情報", font=f_title, fill=(255, 255, 255),
-           stroke_width=1, stroke_fill=tdark)
+    # --- ヘッダー ---
+    card(img, [36, 26, W - 36, 146], radius=30)
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([36, 26, 52, 146], radius=12, fill=tcol)
+    d.rectangle([44, 26, 52, 146], fill=tcol)
+    d.text((74, 40), "本日の配信・イベント情報", font=f_title, fill=INK)
     datestr = f"{date.year}年{date.month}月{date.day}日({WEEK_JP[date.weekday()]})"
     tw = d.textlength(datestr, font=f_date)
-    d.rounded_rectangle([70, 94, 70 + tw + 34, 128], radius=17, fill=(255, 255, 255, 235))
-    d.text((87, 96), datestr, font=f_date, fill=tdark)
+    d.rounded_rectangle([74, 96, 74 + tw + 34, 130], radius=17, fill=tcol)
+    d.text((91, 98), datestr, font=f_date, fill=(255, 255, 255))
     logo_path = ROOT / "images" / "rogo" / "Milli Orbis-rogo.png"
     if logo_path.exists():
         logo = Image.open(logo_path).convert("RGBA")
         lw, lh = logo.size
-        scale = 48 / lh
-        logo = logo.resize((int(lw * scale), 48))
-        white = Image.new("RGBA", (logo.width + 26, 70), (255, 255, 255, 235))
-        wmask = Image.new("L", white.size, 0)
-        ImageDraw.Draw(wmask).rounded_rectangle([0, 0, *white.size], radius=18, fill=255)
-        img.paste(white, (W - 36 - white.width - 10, 50), wmask)
-        img.paste(logo, (W - 36 - white.width - 10 + 13, 61), logo)
+        scale = 46 / lh
+        logo = logo.resize((int(lw * scale), 46))
+        img.paste(logo, (W - 36 - logo.width - 26, 66), logo)
 
-    y = 158
-    y_max = H - 66
+    y = 162
+    y_max = H - 62
 
-    # --- 表示件数の決定(上限内に収める) ---
     if collabs:
         n_s, n_c = 4, 2
     else:
@@ -309,72 +301,76 @@ def render(date, streams, collabs, promos, members, theme, out_path):
     rest_s = len(streams) - len(shown_s)
     rest_c = len(collabs) - len(shown_c)
 
-    # --- コンテンツ全体を垂直中央寄せ ---
     if shown_s:
-        stream_h = len(shown_s) * 66
+        stream_h = len(shown_s) * 68
     elif promos:
-        stream_h = 32 + len(promos) * 66
+        stream_h = 32 + len(promos) * 68
     else:
-        stream_h = 66
-    total_h = 34 + stream_h
+        stream_h = 68
+    total_h = 32 + stream_h
     if collabs:
-        total_h += 32 + len(shown_c) * 52
+        total_h += 30 + len(shown_c) * 52
     if rest_s > 0 or rest_c > 0:
-        total_h += 44
-    y = 158 + max(0, (y_max - 158 - total_h) // 2)
+        total_h += 42
+    y = 162 + max(0, (y_max - 162 - total_h) // 2)
+
+    def section(text, accent):
+        d.rounded_rectangle([36, y, 36 + 10, y + 26], radius=5, fill=accent)
+        d.text((52, y - 1), text, font=f_sec, fill=INK)
 
     # --- 配信セクション ---
-    section_label(d, y, "配信", tcol, f_sec)
-    y += 34
+    section("配信", tcol)
+    y += 32
     if not shown_s:
         if promos:
-            section_label(d, y, "ピックアップ", (79, 163, 224), f_sec)
-            y += 32
+            section("ピックアップ", (79, 163, 224))
+            y += 30
             for p in promos:
                 pcol = hex_to_rgb(p.get("color", "#4FA3E0"))
-                d.rounded_rectangle([36, y, W - 36, y + 58], radius=18, fill=CARD,
-                                    outline=(235, 210, 195), width=2)
+                card(img, [36, y, W - 36, y + 58], radius=20)
+                d = ImageDraw.Draw(img)
                 icon_file = (ROOT / p["icon"]) if p.get("icon") else None
                 if icon_file and icon_file.exists():
                     try:
                         badge = circle_icon(icon_file, 40, pcol)
                         img.paste(badge, (48, y + 5), badge)
+                        d = ImageDraw.Draw(img)
                     except OSError:
                         d.ellipse([50, y + 9, 98, y + 57], fill=pcol)
-                elif p.get("shape"):
-                    ch, _gr = p["shape"]
-                    d.ellipse([50, y + 9, 98, y + 57], fill=pcol)
-                    cw = d.textlength(ch, font=f_name)
-                    d.text((74 - cw / 2, y + 11), ch, font=f_name, fill=(255, 255, 255))
                 else:
                     d.ellipse([50, y + 9, 98, y + 57], fill=pcol)
+                    if p.get("shape"):
+                        ch, _ = p["shape"]
+                        cw = d.textlength(ch, font=f_name)
+                        d.text((74 - cw / 2, y + 11), ch, font=f_name, fill=(255, 255, 255))
                 bw = int(d.textlength(p["badge"], font=f_body)) + 30
-                d.rounded_rectangle([112, y + 11, 112 + bw, y + 41], radius=15, fill=pcol)
-                d.text((112 + 15, y + 13), p["badge"], font=f_body, fill=(255, 255, 255))
+                d.rounded_rectangle([112, y + 10, 112 + bw, y + 34], radius=12, fill=pcol)
+                d.text((112 + 15, y + 12), p["badge"], font=f_body, fill=(255, 255, 255))
                 nx = 112 + bw + 14
                 mw = d.textlength(p.get("meta", ""), font=f_small)
-                d.text((nx, y + 10), truncate(d, p["title"], f_name, W - 36 - nx - mw - 30),
+                d.text((nx, y + 8), truncate(d, p["title"], f_name, W - 36 - nx - mw - 30),
                        font=f_name, fill=INK)
                 d.text((nx, y + 36), truncate(d, p["sub"], f_small, W - 36 - nx - mw - 30),
                        font=f_small, fill=MUTED)
                 if p.get("meta"):
                     d.text((W - 36 - mw - 14, y + 36), p["meta"], font=f_small, fill=MUTED)
-                y += 66
+                y += 68
         else:
-            d.text((58, y + 8), "本日の配信予定はありません", font=f_body, fill=MUTED)
-            y += 66
+            d.text((52, y + 8), "本日の配信予定はありません", font=f_body, fill=MUTED)
+            y += 68
     else:
         for st in shown_s:
             m = members.get(st["memberId"], {})
             color = hex_to_rgb(m.get("color", "#75b1c0"))
             name = m.get("name") or st["member"] or st["memberId"]
-            d.rounded_rectangle([36, y, W - 36, y + 58], radius=18, fill=CARD,
-                                outline=(235, 210, 195), width=2)
+            card(img, [36, y, W - 36, y + 58], radius=20)
+            d = ImageDraw.Draw(img)
             icon_file = (ROOT / m.get("icon", "")) if m.get("icon") else None
             if icon_file and icon_file.exists():
                 try:
                     badge = circle_icon(icon_file, 40, color)
                     img.paste(badge, (48, y + 5), badge)
+                    d = ImageDraw.Draw(img)
                 except OSError:
                     d.ellipse([50, y + 9, 98, y + 57], fill=color)
             else:
@@ -386,26 +382,26 @@ def render(date, streams, collabs, promos, members, theme, out_path):
             tx = 112 + (pw - d.textlength(label, font=f_time)) / 2
             d.text((tx, y + 13), label, font=f_time, fill=(255, 255, 255))
             nx = 112 + pw + 14
-            d.text((nx, y + 12), truncate(d, name, f_name, 175), font=f_name, fill=INK)
-            d.text((nx + 190, y + 15), truncate(d, st["title"], f_body, W - 36 - (nx + 190) - 18),
-                   font=f_body, fill=(100, 85, 72))
-            y += 66
+            d.text((nx, y + 10), truncate(d, name, f_name, 172), font=f_name, fill=INK)
+            d.text((nx + 186, y + 14), truncate(d, st["title"], f_body, W - 36 - (nx + 186) - 18),
+                   font=f_body, fill=(95, 88, 82))
+            y += 68
 
     # --- イベント・コラボセクション ---
     if collabs:
-        section_label(d, y, "イベント・コラボ", (232, 160, 60), f_sec)
-        y += 32
+        section("イベント・コラボ", (232, 160, 60))
+        y += 30
         for c in shown_c:
             ccol = hex_to_rgb(c.get("color", "#E8A03C"))
-            d.rounded_rectangle([36, y, W - 36, y + 46], radius=16, fill=CARD,
-                                outline=(240, 220, 190), width=2)
-            d.rounded_rectangle([36, y, 50, y + 46], radius=8, fill=ccol)
-            d.rectangle([43, y, 50, y + 46], fill=ccol)
+            card(img, [36, y, W - 36, y + 44], radius=16)
+            d = ImageDraw.Draw(img)
+            d.rounded_rectangle([36, y, 50, y + 44], radius=8, fill=ccol)
+            d.rectangle([43, y, 50, y + 44], fill=ccol)
             pill = "コラボ"
-            pw2 = int(d.textlength(pill, font=f_body)) + 30
-            d.rounded_rectangle([64, y + 8, 64 + pw2, y + 38], radius=15, fill=ccol)
-            d.text((64 + 15, y + 10), pill, font=f_body, fill=(255, 255, 255))
-            tx0 = 64 + pw2 + 14
+            pw2 = int(d.textlength(pill, font=f_body)) + 28
+            d.rounded_rectangle([62, y + 8, 62 + pw2, y + 36], radius=14, fill=ccol)
+            d.text((62 + 14, y + 10), pill, font=f_body, fill=(255, 255, 255))
+            tx0 = 62 + pw2 + 12
             try:
                 e = datetime.date.fromisoformat(c["end"])
                 period = f"〜{e.month}/{e.day}まで"
@@ -413,9 +409,9 @@ def render(date, streams, collabs, promos, members, theme, out_path):
                 period = ""
             pw3 = d.textlength(period, font=f_small)
             title = truncate(d, f"{c.get('shop','')} {c.get('title','')}".strip(), f_body,
-                             W - 36 - tx0 - pw3 - 40)
+                             W - 36 - tx0 - pw3 - 36)
             d.text((tx0, y + 9), title, font=f_body, fill=INK)
-            d.text((W - 36 - pw3 - 14, y + 12), period, font=f_small, fill=MUTED)
+            d.text((W - 36 - pw3 - 12, y + 12), period, font=f_small, fill=MUTED)
             y += 52
 
     # --- 残り件数 ---
@@ -427,38 +423,37 @@ def render(date, streams, collabs, promos, members, theme, out_path):
     if notes:
         more = "・".join(notes) + "はサイトでチェック！"
         mw = d.textlength(more, font=f_body)
-        d.rounded_rectangle([W / 2 - mw / 2 - 22, y + 2, W / 2 + mw / 2 + 22, y + 38],
-                            radius=18, fill=(255, 255, 255, 220),
-                            outline=ACCENT, width=2)
-        d.text(((W - mw) / 2, y + 6), more, font=f_body, fill=(70, 130, 145))
+        d.rounded_rectangle([W / 2 - mw / 2 - 20, y + 2, W / 2 + mw / 2 + 20, y + 36],
+                            radius=17, fill=(255, 255, 255),
+                            outline=tcol, width=2)
+        d.text(((W - mw) / 2, y + 6), more, font=f_body, fill=tdark)
 
     # --- 配信ゼロ & イベントゼロ & 宣伝ゼロ ---
     if not shown_s and not collabs and not promos:
         yy = 250
-        d.rounded_rectangle([36, yy, W - 36, yy + 170], radius=24, fill=CARD,
-                            outline=(235, 210, 195), width=3)
+        card(img, [36, yy, W - 36, yy + 170], radius=26)
+        d = ImageDraw.Draw(img)
+        f_msg = font("Bold", 36)
         msg = "本日の配信・イベント情報はありません"
-        f_msg = ImageFont.truetype(FONT_PATH, 38)
         tw = d.textlength(msg, font=f_msg)
         d.text(((W - tw) / 2, yy + 48), msg, font=f_msg, fill=INK)
         sub = "見つけたらサイトでチェック！"
         sw = d.textlength(sub, font=f_body)
-        d.text(((W - sw) / 2, yy + 108), sub, font=f_body, fill=MUTED)
-        star(d, 130, yy + 85, 20, (247, 203, 14, 200))
-        star(d, W - 130, yy + 85, 20, (247, 143, 192, 200))
+        d.text(((W - sw) / 2, yy + 106), sub, font=f_body, fill=MUTED)
+        star(d, 130, yy + 85, 20, (247, 203, 14))
+        star(d, W - 130, yy + 85, 20, (247, 143, 192))
 
     # --- フッター ---
-    f_note = ImageFont.truetype(FONT_PATH, 20)
-    f_wm = ImageFont.truetype(FONT_PATH, 18)
-    note = "今朝6:00時点の情報です"
-    d.text((36, H - 48), note, font=f_note, fill=MUTED)
+    d = ImageDraw.Draw(img)
+    d.line([36, H - 52, W - 36, H - 52], fill=(215, 205, 195), width=2)
+    d.text((36, H - 44), "今朝6:00時点の情報です", font=f_note, fill=MUTED)
     wm = "※非公式ファンメイド | Milli Orbis"
-    ww = d.textlength(wm, font=f_wm)
-    d.text((W - ww - 24, H - 46), wm, font=f_wm, fill=WATERMARK)
+    ww = d.textlength(wm, font=f_note)
+    d.text((W - ww - 36, H - 44), wm, font=f_note, fill=WATERMARK)
 
     out = Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
-    img.save(out)
+    img.convert("RGB").save(out)
     print(f"saved: {out} ({len(shown_s)} streams, theme={theme.get('name')})")
 
 

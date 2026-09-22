@@ -168,7 +168,7 @@ streams.forEach(function (s) {
     ":" + icsDateTime(end),
     s.title,
     member ? "配信者: " + member.name : "",
-    "https://milli-unishare.onrender.com/#watch=" + s.id,
+    "https://milli-unishare.pages.dev/#watch=" + s.id,
     null
   );
 });

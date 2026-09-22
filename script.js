@@ -177,7 +177,7 @@
       var vc = e.target.closest(".fav-video");
       if (vc) {
         var fStart = parseInt(vc.dataset.start, 10);
-        window.open("https://milli-unishare.onrender.com/#watch=" + vc.dataset.vid + (fStart ? "&t=" + fStart : ""), "_blank");
+        window.open("https://milli-unishare.pages.dev/#watch=" + vc.dataset.vid + (fStart ? "&t=" + fStart : ""), "_blank");
       }
     });
   }
@@ -638,7 +638,7 @@
     renderTodayBox();
   }
 
-  function videoUrl(id) { return "https://milli-unishare.onrender.com/#watch=" + id; }
+  function videoUrl(id) { return "https://milli-unishare.pages.dev/#watch=" + id; }
 
   function thumbUrl(id) { return "https://i.ytimg.com/vi/" + id + "/hqdefault.jpg"; }
 
@@ -2190,7 +2190,7 @@
         }).join("")
         : '<span class="song-member-chip" style="--mc:#75b1c0">' + T("songs.officialLabel") + "</span>";
       if (p.memberIds.length > 3) chips += '<span class="song-member-more">+' + (p.memberIds.length - 3) + "</span>";
-      return '<a class="song-card card recommend-card" href="https://milli-unishare.onrender.com/#watch=' + p.id + '" target="_blank" rel="noopener">' +
+      return '<a class="song-card card recommend-card" href="https://milli-unishare.pages.dev/#watch=' + p.id + '" target="_blank" rel="noopener">' +
         '<img class="song-thumb" src="https://i.ytimg.com/vi/' + p.id + '/mqdefault.jpg" alt="" loading="lazy">' +
         '<div class="song-title">' + esc(tt(p)) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
