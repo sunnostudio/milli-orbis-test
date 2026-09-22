@@ -163,8 +163,8 @@
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="cursors.html">カーソル配布</a>
       <a href="account.html" data-i18n="nav.account">マイページ</a>
-      <div class="drawer-section-label">サイトについて</div>
-      <div class="drawer-legal"><a href="legal.html">利用規約</a><span class="sep">・</span><a href="privacy.html">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html">権利表記</a><br><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></div>
+      <div class="drawer-section-label" data-i18n="footer.about">サイトについて</div>
+      <div class="drawer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><br><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></div>
   </nav>
 </header>
 
@@ -218,7 +218,7 @@
   <p class="source-note"><span data-i18n="footer.yt">本サイトは YouTube の利用規約に同意の上でご利用ください: </span><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">https://www.youtube.com/t/terms</a></p>
   <p data-i18n="footer.copy">© 2026 Milli Orbis（非公式ファンサイト）</p>
   <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
-  <p class="footer-legal"><a href="legal.html">利用規約</a><span class="sep">・</span><a href="privacy.html">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html">権利表記</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
+  <p class="footer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
 </footer>
 
 <div id="introOverlay" class="intro-overlay" data-member="liz" aria-hidden="true"><button type="button" class="intro-skip" id="introSkip" data-i18n="t.skip">スキップ</button><span class="intro-ring r1"></span><span class="intro-ring r2"></span><span class="intro-ring r3"></span><span class="intro-ring r4"></span><span class="intro-ring r5"></span><div class="intro-fx fx-rain"><span class="fx-rain-s" style="left:8%;animation-delay:0s"></span><span class="fx-rain-s" style="left:22%;animation-delay:0.6s;animation-duration:1.9s"></span><span class="fx-rain-s" style="left:37%;animation-delay:1.3s"></span><span class="fx-rain-s" style="left:52%;animation-delay:0.3s;animation-duration:2.1s"></span><span class="fx-rain-s" style="left:66%;animation-delay:1.7s"></span><span class="fx-rain-s" style="left:80%;animation-delay:0.9s;animation-duration:1.7s"></span><span class="fx-rain-s" style="left:93%;animation-delay:2s"></span><span class="fx-rip" style="left:18%;bottom:6%;animation-delay:0s"></span><span class="fx-rip" style="left:55%;bottom:10%;animation-delay:1.2s"></span><span class="fx-rip" style="left:82%;bottom:6%;animation-delay:2.2s;animation-duration:3.8s"></span><span class="fx-puddle" style="left:30%;bottom:-6px"></span><span class="fx-puddle" style="left:70%;bottom:-2px;animation-delay:0.9s"></span><span class="fx-umbrella"><svg viewBox="0 0 120 110" aria-hidden="true"><path d="M14 58a46 46 0 0 1 92 0z" fill="#3d4a55"/><path d="M14 58a46 46 0 0 1 92 0" fill="none" stroke="#5a6a78" stroke-width="2.5"/><g stroke="#54626f" stroke-width="3" stroke-linecap="round"><path d="M34 59L60 92 86 59"/><path d="M60 92v12"/></g><path d="M53 104q7 11 14 0" fill="none" stroke="#ef8b8b" stroke-width="4" stroke-linecap="round"/></svg></span><span class="fx-bolt"><svg viewBox="0 0 120 260" aria-hidden="true"><polygon points="72,0 26,140 62,140 38,260 100,108 62,108 88,0" fill="#ffe9a8"/></svg></span><span class="fx-flash2"></span></div><div class="intro-stage"><img class="intro-logo" src="images/rogo/rizurogo.webp" alt=""><img class="intro-art" src="images/talents/rizu.webp" alt="雨夜リズ"><p class="intro-name" data-i18n-name="liz">雨夜リズ</p><p class="intro-catch" id="introCatch"></p><button type="button" class="intro-voice-btn" id="introVoiceBtn" data-i18n="t.playVoice">🔁 挨拶を再生</button></div><audio id="introAudio" src="assets/voices/雨夜リズ.mp3" preload="auto"></audio><button type="button" class="intro-start" id="introStartBtn" data-i18n="t.tapPlay">▶ タップで再生</button></div>
@@ -269,7 +269,7 @@
         </div>
         <div id="mp-account-edit" style="display:none;margin-top:14px;padding-top:12px;border-top:2px dashed var(--border);">
           <p class="acct-hint" data-i18n="login.editNote">⇒ 名前・アイコン・一言を保存（Firebase に反映）</p>
-          <p class="acct-hint" style="font-size:.74rem;color:#a33;">※ タレント本人や公式と誤解される画像・名前は使えません（ミリプロ公式ガイドライン適用。詳しくは<a href="legal.html">利用規約</a>）。</p>
+          <p class="acct-hint" style="font-size:.74rem;color:#a33;" data-i18n="login.iconNote" data-i18n-html data-i18n-var-url="legal.html">※ タレント本人や公式と誤解される画像・名前は使えません（ミリプロ公式ガイドライン適用。詳しくは<a href="legal.html" data-i18n="footer.terms">利用規約</a>）。</p>
           <!-- ニックネーム登録: Unishare と同機構 + ポータル独自の絵文字/画像選択 -->
           <div class="acct-picon-row">
             <div id="mp-picon-preview" class="acct-avatar" style="width:42px;height:42px;font-size:20px;">?</div>
