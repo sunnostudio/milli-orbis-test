@@ -203,6 +203,16 @@ def truncate(draw, text, fnt, max_w):
     return text + "…"
 
 
+def draw_pill(draw, x, y, text, fnt, fill, fg=(255, 255, 255), pad_x=15, h=None):
+    """文字を光学中央に収めたピルを描画し、幅を返す。"""
+    if h is None:
+        h = fnt.size + 14
+    tw = draw.textlength(text, font=fnt)
+    draw.rounded_rectangle([x, y, x + tw + pad_x * 2, y + h], radius=h // 2, fill=fill)
+    draw.text((x + pad_x, y + h / 2), text, font=fnt, fill=fg, anchor="lm")
+    return tw + pad_x * 2
+
+
 def circle_icon(path, size, ring):
     """正方形に切り抜いて丸アイコン化。ring色の縁付き。"""
     im = Image.open(path).convert("RGB")
@@ -343,9 +353,7 @@ def render(date, streams, collabs, promos, members, theme, out_path):
                         ch, _ = p["shape"]
                         cw = d.textlength(ch, font=f_name)
                         d.text((74 - cw / 2, y + 11), ch, font=f_name, fill=(255, 255, 255))
-                bw = int(d.textlength(p["badge"], font=f_body)) + 30
-                d.rounded_rectangle([112, y + 10, 112 + bw, y + 34], radius=12, fill=pcol)
-                d.text((112 + 15, y + 12), p["badge"], font=f_body, fill=(255, 255, 255))
+                bw = draw_pill(d, 112, y + 14, p["badge"], f_body, pcol)
                 nx = 112 + bw + 14
                 mw = d.textlength(p.get("meta", ""), font=f_small)
                 d.text((nx, y + 8), truncate(d, p["title"], f_name, W - 36 - nx - mw - 30),
@@ -377,10 +385,11 @@ def render(date, streams, collabs, promos, members, theme, out_path):
                 d.ellipse([50, y + 9, 98, y + 57], fill=color)
             pill_c = LIVE_RED if st["live"] else color
             label = ("LIVE " if st["live"] else "") + st["time"]
-            pw = max(108, int(d.textlength(label, font=f_time)) + 32)
+            tw_lab = d.textlength(label, font=f_time)
+            pw = max(108, tw_lab + 32)
             d.rounded_rectangle([112, y + 11, 112 + pw, y + 47], radius=18, fill=pill_c)
-            tx = 112 + (pw - d.textlength(label, font=f_time)) / 2
-            d.text((tx, y + 13), label, font=f_time, fill=(255, 255, 255))
+            d.text((112 + (pw - tw_lab) / 2, y + 29), label, font=f_time,
+                   fill=(255, 255, 255), anchor="lm")
             nx = 112 + pw + 14
             d.text((nx, y + 10), truncate(d, name, f_name, 172), font=f_name, fill=INK)
             d.text((nx + 186, y + 14), truncate(d, st["title"], f_body, W - 36 - (nx + 186) - 18),
@@ -398,9 +407,7 @@ def render(date, streams, collabs, promos, members, theme, out_path):
             d.rounded_rectangle([36, y, 50, y + 44], radius=8, fill=ccol)
             d.rectangle([43, y, 50, y + 44], fill=ccol)
             pill = "コラボ"
-            pw2 = int(d.textlength(pill, font=f_body)) + 28
-            d.rounded_rectangle([62, y + 8, 62 + pw2, y + 36], radius=14, fill=ccol)
-            d.text((62 + 14, y + 10), pill, font=f_body, fill=(255, 255, 255))
+            pw2 = draw_pill(d, 62, y + 7, pill, f_body, ccol)
             tx0 = 62 + pw2 + 12
             try:
                 e = datetime.date.fromisoformat(c["end"])
