@@ -50,10 +50,12 @@ def load_members():
     ):
         mid, name, color, icon = m.group(1), m.group(2), m.group(3), m.group(4)
         if mid not in info:
+            fan = re.search(r'fanName:\s*"([^"]*)"', m.group(0))
             info[mid] = {
                 "name": name,
                 "color": color,
                 "icon": urllib.parse.unquote(icon),
+                "fan": fan.group(1) if fan else "",
             }
     return info
 
@@ -140,6 +142,36 @@ def load_launchers():
             {"icon": urllib.parse.unquote(icon), "name": name, "desc": desc, "url": url}
         )
     return out
+
+
+def load_fortune():
+    try:
+        return json.loads((ROOT / "data" / "fortune.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {"millilis": None, "messages": {}}
+
+
+def pick_fortune(date, members, fdata):
+    """推し運勢1位: ファンネーム設定済み + ミリリスから日付シードで1枠抽選。"""
+    pool = []
+    for mid, m in members.items():
+        if m.get("fan"):
+            pool.append({"key": mid, "fan": m["fan"], "color": m.get("color", "#75b1c0")})
+    mili = fdata.get("millilis")
+    if mili:
+        pool.append({"key": "_millilis", "fan": mili.get("fan", "ミリリス"),
+                     "color": mili.get("color", "#75b1c0")})
+    if not pool:
+        return None
+    pool.sort(key=lambda p: p["key"])
+    win = random.Random("fortune" + date.isoformat()).choice(pool)
+    msgs = fdata.get("messages", {}).get(win["key"])
+    if win["key"] == "_millilis":
+        msgs = mili.get("messages", [])
+    if not msgs:
+        msgs = ["今日も推し活日和"]
+    msg = random.Random("fortunemsg" + date.isoformat() + win["key"]).choice(msgs)
+    return {"fan": win["fan"], "msg": msg, "color": win["color"]}
 
 
 def pick_promos(date, members):
@@ -249,7 +281,7 @@ def card(base, box, radius=24, fill=(255, 255, 255, 255)):
     ImageDraw.Draw(base).rounded_rectangle(box, radius=radius, fill=fill)
 
 
-def render(date, streams, collabs, promos, members, theme, out_path):
+def render(date, streams, collabs, promos, fortune, members, theme, out_path):
     tcol = hex_to_rgb(theme.get("color", "#75b1c0"))
     tsoft = lighten(tcol, 0.82)
     tdark = darken(tcol, 0.38)
@@ -319,7 +351,7 @@ def render(date, streams, collabs, promos, members, theme, out_path):
     y_max = H - 62
 
     if collabs:
-        n_s, n_c = 4, 2
+        n_s, n_c = 3, 2
     else:
         n_s, n_c = 5, 3
     if not streams:
@@ -340,6 +372,8 @@ def render(date, streams, collabs, promos, members, theme, out_path):
         total_h += 30 + len(shown_c) * 52
     if rest_s > 0 or rest_c > 0:
         total_h += 42
+    if fortune:
+        total_h += 48
     y = 162 + max(0, (y_max - 162 - total_h) // 2)
 
     f_sec_en = font("Bold", 15)
@@ -474,6 +508,20 @@ def render(date, streams, collabs, promos, members, theme, out_path):
         star(d, 130, yy + 85, 20, (247, 203, 14))
         star(d, W - 130, yy + 85, 20, (247, 143, 192))
 
+    # --- 推し運勢バナー ---
+    if fortune:
+        fcol = hex_to_rgb(fortune.get("color", "#E8B93C"))
+        card(img, [36, y, W - 36, y + 42], radius=15)
+        d = ImageDraw.Draw(img)
+        d.rounded_rectangle([36, y, 50, y + 42], radius=7, fill=fcol)
+        d.rectangle([43, y, 50, y + 42], fill=fcol)
+        bw = draw_pill(d, 62, y + 6, "運勢", f_body, fcol, h=30)
+        ftext = f"今日の1位：{fortune['fan']}！ {fortune['msg']}"
+        ftext = truncate(d, ftext, f_body, W - 36 - (62 + bw + 12) - 60)
+        d.text((62 + bw + 12, y + 8), ftext, font=f_body, fill=INK)
+        star(d, W - 66, y + 21, 13, fcol)
+        y += 48
+
     # --- フッター ---
     d = ImageDraw.Draw(img)
     d.line([36, H - 52, W - 36, H - 52], fill=tcol + (90,), width=3)
@@ -503,7 +551,8 @@ def main():
     collabs = active_collabs(date)
     theme = pick_theme(date, members)
     promos = pick_promos(date, members) if not streams else []
-    render(date, streams, collabs, promos, members, theme, ROOT / args.out)
+    fortune = pick_fortune(date, members, load_fortune())
+    render(date, streams, collabs, promos, fortune, members, theme, ROOT / args.out)
 
 
 if __name__ == "__main__":
