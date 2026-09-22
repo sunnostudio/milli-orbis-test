@@ -1618,6 +1618,34 @@ footer {
 }
 footer p { font-size: 0.78rem; color: var(--muted); margin: 4px 0; }
 footer .disclaimer { font-weight: 700; color: #8a6d3b; }
+.footer-legal { font-size: 0.72rem; color: var(--muted); margin-top: 10px; line-height: 2; }
+.footer-legal a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.footer-legal a:hover { color: var(--accent-deep); }
+.footer-legal .sep { margin: 0 6px; opacity: 0.6; }
+.drawer-legal { padding: 10px 6px 20px; font-size: 0.75rem; color: var(--muted); line-height: 2.1; }
+.drawer-legal a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.drawer-legal a:hover { color: var(--accent-deep); }
+.drawer-legal .sep { margin: 0 4px; opacity: 0.6; }
+/* ---------- 法務ページ ---------- */
+.legal-tabs { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin: 0 0 18px; }
+.legal-tabs a { padding: 8px 18px; border-radius: 999px; border: 2px solid var(--accent); background: #fff; font-weight: 800; font-size: 0.84rem; color: var(--accent-deep); font-family: var(--font-display); }
+.legal-tabs a:hover { background: var(--accent-soft); text-decoration: none; }
+.legal-tabs a.active { background: var(--accent-deep); border-color: var(--accent-deep); color: #fff; }
+.legal-body { padding: 26px 28px; text-align: left; }
+.legal-body h2 { font-family: var(--font-display); font-weight: 900; font-size: 1.08rem; margin: 26px 0 8px; color: var(--text); padding-left: 12px; border-left: 6px solid var(--accent); }
+.legal-body h2:first-of-type { margin-top: 6px; }
+.legal-body h3 { font-weight: 900; font-size: 0.95rem; margin: 14px 0 6px; color: var(--accent-deep); }
+.legal-body p, .legal-body li { font-size: 0.88rem; line-height: 1.9; }
+.legal-body ul, .legal-body ol { padding-left: 1.4em; margin: 6px 0 10px; }
+.legal-body li { margin: 3px 0; }
+.legal-lead { background: var(--accent-soft); border: 2px dashed var(--accent); border-radius: 14px; padding: 12px 16px; font-size: 0.86rem; font-weight: 700; }
+.legal-note { font-size: 0.78rem; color: var(--muted); background: rgba(0,0,0,0.03); border-radius: 12px; padding: 10px 14px; margin-top: 14px; }
+.legal-date { margin-top: 22px; padding-top: 12px; border-top: 2px dashed var(--border); font-size: 0.78rem; color: var(--muted); }
+.legal-only-ja { display: inline-block; font-size: 0.7rem; font-weight: 800; color: var(--accent-deep); background: var(--accent-soft); border-radius: 999px; padding: 2px 10px; margin-left: 8px; vertical-align: 2px; }
+@media (max-width: 600px) {
+  .legal-body { padding: 20px 16px; }
+  .footer-legal { font-size: 0.7rem; }
+}
 .credits-btn { cursor: pointer; }
 /* ============================================================
    タレントページ

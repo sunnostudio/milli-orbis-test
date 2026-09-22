@@ -1928,7 +1928,8 @@ const LINKS = [
   { name: "X（旧Twitter）", desc: "ミリプロ公式X", url: "https://x.com/Mil_Pro_", en: { name: "X (Twitter)", desc: "MilliPro official X" } },
   { name: "オンラインショップ", desc: "公式グッズショップ", url: "https://shop.milpr.com/", en: { name: "Online Shop", desc: "Official goods shop" } },
   { name: "二次創作ガイドライン", desc: "二次創作のルールを確認できます", url: "https://milpr.com/guideline", en: { name: "Fan Works Guidelines", desc: "Check the rules for fan works" } },
-  { name: "ミリ創作", desc: "二次創作コンテスト特設ページ", url: "https://milpr.com/sosaku", en: { name: "Milli Creation", desc: "Special page for the fan works contest" } }
+  { name: "ミリ創作", desc: "二次創作コンテスト特設ページ", url: "https://milpr.com/sosaku", en: { name: "Milli Creation", desc: "Special page for the fan works contest" } },
+  { name: "Milli Orbis 公式X", desc: "当サイトのお知らせ・更新情報", url: "https://x.com/milliorbis_info", en: { name: "Milli Orbis Official X", desc: "News and updates from this site" } }
 ];
 
 const EVENTS = [
