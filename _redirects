@@ -1,4 +1,6 @@
-# Halloweenは未完成のため公開しない (直リンクも404にする)
-# Cloudflare Pagesは _redirects の404ルールをファイル配信より優先する
-/halloween/* /404.html 404
-/halloween /404.html 404
+# Halloweenは未完成のため公開しない (直リンクも404ページへ転送)
+# 注意: Pagesの _redirects は404指定(リライト)未対応のため301で404ページへ送る
+# ファイル自体を上げたくない場合はダッシュボードのビルドコマンドに `rm -rf halloween` を設定
+/halloween /404.html 301
+/halloween/ /404.html 301
+/halloween/* /404.html 301
