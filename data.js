@@ -1790,6 +1790,15 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-09-22",
+    tag: "重大発表",
+    title: "海琳あおい チャンネル登録者数10万人突破！",
+    desc: "2026年9月13日に海琳あおいのYouTubeチャンネル登録者数が10万人を突破。本人からの感謝コメントや初のショート動画も公開。初配信にも注目！",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_e126aedf-b890-4bda-9fb8-c692fd8e4f70.png",
+    url: "https://milpr.com/news/aoi_10",
+    en: { tag: "Major Announcement", title: "Mitama Aoi surpasses 100K subscribers!", desc: "On Sep 13, 2026, Mitama Aoi's YouTube channel surpassed 100K subscribers, with a thank-you message and her first Short. Stay tuned for her first stream! 🐢🌱" }
+  },
+  {
     date: "2026-09-12",
     tag: "重大発表",
     title: "海琳あおい ミリプロNOVA加入決定！",
