@@ -382,6 +382,33 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "ラグトレイン",
+      "key": "ラグトレイン",
+      "urls": [
+        {
+          "id": "GLU0JIrSqn0",
+          "memberId": "nono",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "id": "XogPaIFnJDo",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "title": "おもかげ",
+      "key": "おもかげ",
+      "urls": [
+        {
+          "id": "QlaGDL69HjY",
+          "memberId": "nono",
+          "publishedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
       "title": "高嶺の花子さん（back number） - 鹿乃まほろ cover.",
       "key": "高嶺の花子さん-.",
       "urls": [
@@ -740,25 +767,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "MOTTAI/Komawarikoma (cover)"
-      }
-    },
-    {
-      "title": "ラグトレイン／眠雲ツクリ（cover）",
-      "key": "ラグトレイン",
-      "urls": [
-        {
-          "id": "GLU0JIrSqn0",
-          "memberId": "nono",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "id": "XogPaIFnJDo",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-07-04"
-        }
-      ],
-      "en": {
-        "title": "Rag Train/Nemugumo Tsukuri (cover)"
       }
     },
     {
@@ -2683,17 +2691,6 @@ window.SONGS = {
       "en": {
         "title": "I'm the cutest in the world"
       }
-    },
-    {
-      "title": "おもかげ",
-      "key": "おもかげ",
-      "urls": [
-        {
-          "id": "QlaGDL69HjY",
-          "memberId": "nono",
-          "publishedAt": "2026-09-02"
-        }
-      ]
     },
     {
       "title": "slash",
