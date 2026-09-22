@@ -4,8 +4,8 @@ window.KARAOKE = [
     "id": "pytWeCL4-v8",
     "memberId": "raco",
     "publishedAt": "2026-09-22",
-    "title": "【マイクラ肝試し】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-    "duration": 0,
+    "title": "【#マイクラ肝試し2026】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
+    "duration": 13336,
     "songs": []
   },
   {

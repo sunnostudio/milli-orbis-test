@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-09-22T12:14:48.374Z",
+  "updatedAt": "2026-09-22T16:11:57.537Z",
   "streams": [
-    {
-      "id": "p17ll5n_Wtc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】今日は3人で肝試しをしたい！👻【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/p17ll5n_Wtc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-22T11:00:03Z",
-      "status": "live"
-    },
-    {
-      "id": "8fLC9Uf7q5s",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】こまらこ元気っ子組と過去マップ探索へ出かける。の巻。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8fLC9Uf7q5s/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-22T11:00:09Z",
-      "status": "live"
-    },
-    {
-      "id": "pytWeCL4-v8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【マイクラ肝試し】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pytWeCL4-v8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-22T11:11:50Z",
-      "status": "live"
-    },
-    {
-      "id": "0PISw7uR4UU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【🌸グッズ情報】鹿乃まほろ加入記念グッズ🍓🦌",
-      "thumb": "https://i.ytimg.com/vi/0PISw7uR4UU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-22T15:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "mZl7QBu4ZlM",
       "memberId": "koma",
@@ -181,13 +145,23 @@
   ],
   "videos": [
     {
+      "id": "p17ll5n_Wtc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #マイクラ肝試し2026 】今日は3人で肝試しをしたい！👻【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/p17ll5n_Wtc/hqdefault.jpg",
+      "publishedAt": "2026-09-22T15:43:46Z",
+      "live": false
+    },
+    {
       "id": "pytWeCL4-v8",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【マイクラ肝試し】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pytWeCL4-v8/hqdefault_live.jpg",
-      "publishedAt": "2026-09-22T11:11:50Z",
+      "title": "【#マイクラ肝試し2026】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pytWeCL4-v8/hqdefault.jpg",
+      "publishedAt": "2026-09-22T15:07:40Z",
       "live": false
     },
     {
@@ -196,18 +170,8 @@
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "【#マイクラ肝試し2026】こまらこ元気っ子組と過去マップ探索へ出かける。の巻。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8fLC9Uf7q5s/hqdefault_live.jpg",
-      "publishedAt": "2026-09-22T11:00:09Z",
-      "live": false
-    },
-    {
-      "id": "p17ll5n_Wtc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】今日は3人で肝試しをしたい！👻【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/p17ll5n_Wtc/hqdefault_live.jpg",
-      "publishedAt": "2026-09-22T11:00:03Z",
+      "thumb": "https://i.ytimg.com/vi/8fLC9Uf7q5s/hqdefault.jpg",
+      "publishedAt": "2026-09-22T15:06:15Z",
       "live": false
     },
     {
@@ -481,33 +445,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "p17ll5n_Wtc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】今日は3人で肝試しをしたい！👻【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/p17ll5n_Wtc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-22T11:00:03Z",
-      "status": "live"
-    },
-    {
-      "id": "8fLC9Uf7q5s",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】こまらこ元気っ子組と過去マップ探索へ出かける。の巻。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8fLC9Uf7q5s/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-22T11:00:09Z",
-      "status": "live"
-    },
-    {
-      "id": "pytWeCL4-v8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【マイクラ肝試し】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pytWeCL4-v8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-22T11:11:50Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
