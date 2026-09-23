@@ -174,8 +174,42 @@ def pick_fortune(date, members, fdata):
     return {"fan": win["fan"], "msg": msg, "color": win["color"]}
 
 
+def is_goods_buyable(g, date):
+    """画像掲載用: 当日(date)に実際に購入可能なグッズのみTrue。
+
+    - status soldout / タグ販売終了は除外
+    - status onSaleのみ採用(upcoming等は除外)
+    - 受注期間(orderFrom〜orderTo)があればdateとの突合で除外
+      (fetch時のstatusは取得時点のnow基準なので、--date指定や取得ラグ対策の二重チェック)
+    - 在庫切れはfetch時にstatusへ反映済みのためここではavailableを直接見ない
+    """
+    if not g.get("name") or not g.get("price"):
+        return False
+    if g.get("status") == "soldout":
+        return False
+    if g.get("tag") == "販売終了":
+        return False
+    if g.get("status") != "onSale":
+        return False
+    per = g.get("period") or {}
+    try:
+        if per.get("orderFrom"):
+            of = datetime.date.fromisoformat(str(per["orderFrom"])[:10])
+            if of > date:
+                return False
+        if per.get("orderTo"):
+            ot = datetime.date.fromisoformat(str(per["orderTo"])[:10])
+            if ot < date:
+                return False
+    except ValueError:
+        pass
+    return True
+
+
 def pick_promos(date, members):
-    """配信なし時の穴埋め: 自サイト宣伝1件 + 販売中グッズ1件(日付シードで決定的)。"""
+    """配信なし時の穴埋め: 自サイト宣伝1件 + 販売中グッズ1件(日付シードで決定的)。
+    グッズは当日購入可能なもの(is_goods_buyable)に限定。該当なし時はサイト宣伝のみ。
+    """
     rng = random.Random("promo" + date.isoformat())
     promos = []
     launchers = load_launchers()
@@ -198,7 +232,7 @@ def pick_promos(date, members):
         goods = json.loads((ROOT / "data" / "goods-fetched.json").read_text(encoding="utf-8"))
     except (OSError, ValueError):
         goods = []
-    goods = [g for g in goods if g.get("name") and g.get("price")]
+    goods = [g for g in goods if is_goods_buyable(g, date)]
     if goods:
         g = rng.choice(goods)
         mname = members.get(g.get("memberId", ""), {}).get("name", "")

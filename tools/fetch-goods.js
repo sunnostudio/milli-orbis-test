@@ -183,7 +183,12 @@ function toGoods(p) {
   const kind = guessKind(p);
   const category = guessCategory(p);
   const period = parsePeriod(p.body_html || "");
-  // status logic: available===false -> soldout, else check orderTo < now
+  const variants = Array.isArray(p.variants) ? p.variants : [];
+  // Shopify products.json は商品トップレベルに available を持たず、
+  // 在庫状態は variants[].available にある。いずれかのバリエーションが
+  // 購入可能なら商品として購入可能とみなす。
+  const anyAvailable = variants.some((v) => v && v.available === true);
+  // status logic: all variants unavailable -> soldout, else check orderTo < now
   const now = new Date();
   let status = "onSale";
   let permanent = false;
@@ -192,7 +197,7 @@ function toGoods(p) {
   if (tagList.includes("常設商品") || title.includes("常設")) {
     permanent = true;
     status = "onSale";
-  } else if (p.available === false || tagList.includes("販売終了")) {
+  } else if (!anyAvailable || tagList.includes("販売終了")) {
     status = "soldout";
     tag = "販売終了";
   } else if (period.orderTo && new Date(period.orderTo) < now) {
@@ -232,7 +237,7 @@ function toGoods(p) {
     tag,
     tags: tagList,
     product_type,
-    available: !!p.available,
+    available: anyAvailable,
     published_at: p.published_at || null
   };
 }
