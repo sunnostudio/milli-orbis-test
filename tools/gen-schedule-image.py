@@ -107,6 +107,67 @@ def today_streams(date):
     return out
 
 
+# 当日配信済み(C): videos の publishedAt(JST)が当日で、配信アーカイブらしいもの。
+# streams(search live/upcoming)では終了済みが取れないため、早朝配信などが
+# 「予定なし」に見える問題の穴埋め用。公式企画・歌ってみた等は除外。
+_STREAM_INCLUDE = re.compile(
+    r"配信|ライブ|LIVE|雑談|歌枠|マイクラ|肝試し|あまかみらいぶ|初配信|3D|凸|耐久|コラボ|"
+    r"同時視聴|ゲーム|参加|デート|探索|街ぶら|迷宮|作業|集合|リレー|サイン入れ",
+    re.IGNORECASE,
+)
+_STREAM_EXCLUDE = re.compile(
+    r"歌ってみた|cover|covered|\bMV\b|アニメ|short|切り抜き|ランキング|メドレー|ファンテスト",
+    re.IGNORECASE,
+)
+
+
+def is_stream_archive(v):
+    """配信アーカイブらしいか。live=Trueは尊重、official・企画動画は除外。"""
+    if not v.get("title") or not v.get("publishedAt"):
+        return False
+    if v.get("memberId") == "official":
+        return False
+    if v.get("live") is True:
+        return True
+    title = v.get("title", "")
+    if _STREAM_EXCLUDE.search(title):
+        return False
+    return bool(_STREAM_INCLUDE.search(title))
+
+
+def today_finished(date):
+    """当日(JST)に公開された配信アーカイブをvideosから抽出。時刻昇順。"""
+    try:
+        data = json.loads((ROOT / "data" / "youtube.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    jst = datetime.timezone(datetime.timedelta(hours=9))
+    out = []
+    for v in data.get("videos", []):
+        ts = v.get("publishedAt", "")
+        try:
+            dt = datetime.datetime.fromisoformat(ts.replace("Z", "+00:00")).astimezone(jst)
+        except ValueError:
+            continue
+        if dt.date() != date:
+            continue
+        if not is_stream_archive(v):
+            continue
+        out.append(
+            {
+                "time": dt.strftime("%H:%M"),
+                "dt": dt,
+                "memberId": v.get("memberId", ""),
+                "member": v.get("member", ""),
+                "title": v.get("title", ""),
+                "live": False,
+                "finished": True,
+            }
+        )
+    out.sort(key=lambda s: s["dt"])
+    return out
+
+
 def active_collabs(date):
     try:
         data = json.loads((ROOT / "data" / "collabs.json").read_text(encoding="utf-8"))
@@ -315,7 +376,7 @@ def card(base, box, radius=24, fill=(255, 255, 255, 255)):
     ImageDraw.Draw(base).rounded_rectangle(box, radius=radius, fill=fill)
 
 
-def render(date, streams, collabs, promos, fortune, members, theme, out_path):
+def render(date, streams, finished, collabs, promos, fortune, members, theme, out_path):
     tcol = hex_to_rgb(theme.get("color", "#75b1c0"))
     tsoft = lighten(tcol, 0.82)
     tdark = darken(tcol, 0.38)
@@ -390,13 +451,19 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
         n_s, n_c = 5, 3
     if not streams:
         n_c = 3
+    # 配信済み(C): 予定が空の時のみ最大2件表示(予定あり時はレイアウト維持のため非表示)
+    n_f = 2
     shown_s = streams[:n_s]
+    shown_f = finished[:n_f] if not shown_s else []
     shown_c = collabs[:n_c]
     rest_s = len(streams) - len(shown_s)
+    rest_f = len(finished) - len(shown_f) if not shown_s else 0
     rest_c = len(collabs) - len(shown_c)
 
     if shown_s:
         stream_h = len(shown_s) * 68
+    elif shown_f:
+        stream_h = 30 + len(shown_f) * 68
     elif promos:
         stream_h = 32 + len(promos) * 68
     else:
@@ -404,7 +471,7 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
     total_h = 32 + stream_h
     if collabs:
         total_h += 30 + len(shown_c) * 52
-    if rest_s > 0 or rest_c > 0:
+    if rest_s > 0 or rest_f > 0 or rest_c > 0:
         total_h += 42
     if fortune:
         total_h += 48
@@ -422,7 +489,40 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
     section("配信", "STREAM", tcol)
     y += 32
     if not shown_s:
-        if promos:
+        if shown_f:
+            section("配信済み", "FINISHED", (135, 125, 118))
+            y += 30
+            for st in shown_f:
+                m = members.get(st["memberId"], {})
+                color = hex_to_rgb(m.get("color", "#75b1c0"))
+                name = m.get("name") or st["member"] or st["memberId"]
+                card(img, [36, y, W - 36, y + 58], radius=20)
+                d = ImageDraw.Draw(img)
+                d.rounded_rectangle([36, y, 46, y + 58], radius=5, fill=color)
+                d.rectangle([41, y, 46, y + 58], fill=color)
+                icon_file = (ROOT / m.get("icon", "")) if m.get("icon") else None
+                if icon_file and icon_file.exists():
+                    try:
+                        badge = circle_icon(icon_file, 40, color)
+                        img.paste(badge, (48, y + 5), badge)
+                        d = ImageDraw.Draw(img)
+                    except OSError:
+                        d.ellipse([50, y + 9, 98, y + 57], fill=color)
+                else:
+                    d.ellipse([50, y + 9, 98, y + 57], fill=color)
+                pill_c = (135, 125, 118)
+                label = "済 " + st["time"]
+                tw_lab = d.textlength(label, font=f_time)
+                pw = max(108, tw_lab + 32)
+                d.rounded_rectangle([112, y + 11, 112 + pw, y + 47], radius=18, fill=pill_c)
+                d.text((112 + (pw - tw_lab) / 2, y + 29), label, font=f_time,
+                       fill=(255, 255, 255), anchor="lm")
+                nx = 112 + pw + 14
+                d.text((nx, y + 10), truncate(d, name, f_name, 172), font=f_name, fill=INK)
+                d.text((nx + 186, y + 14), truncate(d, st["title"], f_body, W - 36 - (nx + 186) - 18),
+                       font=f_body, fill=(95, 88, 82))
+                y += 68
+        elif promos:
             section("ピックアップ", "PICKUP", (79, 163, 224))
             y += 30
             for p in promos:
@@ -517,6 +617,8 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
     notes = []
     if rest_s > 0:
         notes.append(f"配信他{rest_s}件")
+    if rest_f > 0:
+        notes.append(f"配信済み他{rest_f}件")
     if rest_c > 0:
         notes.append(f"イベント他{rest_c}件")
     if notes:
@@ -529,7 +631,7 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
         y += 42
 
     # --- 配信ゼロ & イベントゼロ & 宣伝ゼロ ---
-    if not shown_s and not collabs and not promos:
+    if not shown_s and not shown_f and not collabs and not promos:
         yy = 250
         card(img, [36, yy, W - 36, yy + 170], radius=26)
         d = ImageDraw.Draw(img)
@@ -560,7 +662,7 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
     # --- フッター ---
     d = ImageDraw.Draw(img)
     d.line([36, H - 52, W - 36, H - 52], fill=tcol + (90,), width=3)
-    d.text((36, H - 44), "今朝6:00時点の情報です", font=f_note, fill=MUTED)
+    d.text((36, H - 44), "今朝6:30時点の情報です", font=f_note, fill=MUTED)
     wm = "※非公式ファンメイド | Milli Orbis"
     ww = d.textlength(wm, font=f_note)
     d.text((W - ww - 36, H - 44), wm, font=f_note, fill=WATERMARK)
@@ -568,7 +670,7 @@ def render(date, streams, collabs, promos, fortune, members, theme, out_path):
     out = Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
     img.convert("RGB").save(out)
-    print(f"saved: {out} ({len(shown_s)} streams, theme={theme.get('name')})")
+    print(f"saved: {out} ({len(shown_s)} streams, {len(shown_f)} finished, theme={theme.get('name')})")
 
 
 def main():
@@ -583,11 +685,12 @@ def main():
         date = datetime.datetime.now(jst).date()
     members = load_members()
     streams = today_streams(date)
+    finished = today_finished(date)
     collabs = active_collabs(date)
     theme = pick_theme(date, members)
-    promos = pick_promos(date, members) if not streams else []
+    promos = pick_promos(date, members) if (not streams and not finished) else []
     fortune = pick_fortune(date, members, load_fortune())
-    render(date, streams, collabs, promos, fortune, members, theme, ROOT / args.out)
+    render(date, streams, finished, collabs, promos, fortune, members, theme, ROOT / args.out)
 
 
 if __name__ == "__main__":
