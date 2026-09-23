@@ -126,15 +126,45 @@
     })();
   }
 
+  /* 招待状カード上の名入れ：生成側と同一のDear線制約で縮小する
+     カード表の横幅は原画900pxに一致するので、基準 0.072*900=64.8px・最大432px */
+  var INV_BASE = 64.8;
+  var INV_MAXW = 432;
+  var _invCtx = null;
+  function invMeasure(name, size) {
+    try {
+      if (!_invCtx) _invCtx = document.createElement("canvas").getContext("2d");
+      _invCtx.font = 'italic 700 ' + size + 'px "Playfair Display", "Zen Old Mincho", serif';
+      return _invCtx.measureText(name).width;
+    } catch (e) {
+      return name.length * size * 0.6;
+    }
+  }
+  function invFit(name) {
+    var s = INV_BASE;
+    while (s > 22 && invMeasure(name, s) > INV_MAXW) s -= 2;
+    return s;
+  }
+  function paintGuest(out, name) {
+    out.textContent = name;
+    var s = invFit(name);
+    if (s < INV_BASE) out.style.fontSize = "calc(var(--inv-cw) * " + (0.072 * s / INV_BASE).toFixed(4) + ")";
+    else out.style.fontSize = "";
+  }
+
   function initGuest() {
     var input = $("guestNameInput"), out = $("guestNameOut");
     if (!input || !out) return;
     var saved = null;
     try { saved = localStorage.getItem(GUEST_KEY); } catch (e) {}
-    if (saved) { input.value = saved; out.textContent = saved; }
+    if (saved) {
+      input.value = saved;
+      var sv = saved.trim() || "Guest";
+      paintGuest(out, sv.length > 20 ? sv.slice(0, 20) : sv);
+    }
     input.addEventListener("input", function () {
       var v = input.value.trim() || "Guest";
-      out.textContent = v.length > 14 ? v.slice(0, 14) : v;
+      paintGuest(out, v.length > 20 ? v.slice(0, 20) : v);
       try { localStorage.setItem(GUEST_KEY, input.value); } catch (e) {}
     });
     /* 音声の自動再生制限：最初のタップでAudioContextを起こす */

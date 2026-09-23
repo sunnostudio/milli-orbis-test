@@ -1,6 +1,14 @@
-# Halloweenは未完成のため公開しない (直リンクも404ページへ転送)
+# Halloweenは準備中のため事前登録ページ以外は公開しない (直リンクも404ページへ転送)
 # 注意: Pagesの _redirects は404指定(リライト)未対応のため301で404ページへ送る
 # ファイル自体を上げたくない場合はダッシュボードのビルドコマンドに `rm -rf halloween` を設定
+# 事前登録のみ公開（ページ＋必要アセット。先勝ちのため転送より上に置く）
+/halloween/pre-register.html /halloween/pre-register.html 200
+/halloween/spooky.css /halloween/spooky.css 200
+/halloween/spooky-invite.css /halloween/spooky-invite.css 200
+/halloween/spooky-share.js /halloween/spooky-share.js 200
+/halloween/images/* /halloween/images/:splat 200
+/halloween/icons/* /halloween/icons/:splat 200
+/halloween/manifest.webmanifest /halloween/manifest.webmanifest 200
 /halloween /404.html 301
 /halloween/ /404.html 301
 /halloween/* /404.html 301
