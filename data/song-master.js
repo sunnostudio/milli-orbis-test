@@ -127,9 +127,9 @@ window.SONG_MASTER = {
     },
     "あぶく": {
       "title": "あぶく",
-      "artist": "ヨルシカ",
-      "album": "あぶく - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/89/90/6689908a-4489-a37b-13cc-cc578edd2329/26UMGIM33736.rgb.jpg/600x600bb.jpg",
+      "artist": "高城みよ",
+      "album": "Works 囁く言葉",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/be2ca02c8c13ebda2e8738d3641da1f1/500x500-000000-80-0-0.jpg",
       "en": {
         "title": "Bubbles"
       }
@@ -706,9 +706,9 @@ window.SONG_MASTER = {
     },
     "心做し": {
       "title": "心做し",
-      "artist": "majiko",
-      "album": "Contrast",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
+      "artist": "Sou",
+      "album": "深層から",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -1485,10 +1485,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/d9/17/f4d917db-8c8c-1823-e9c3-3704d7e61881/20UMGIM22068.rgb.jpg/600x600bb.jpg"
     },
     "猫猫的宇宙論.": {
-      "title": "ミッドナイトシアター",
-      "artist": "鹿乃 & 根本凪",
-      "album": "コンパスソング - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/00/de/f700deda-bedc-539d-f872-7b7012b6ffca/859756574767_cover.jpg/600x600bb.jpg"
+      "title": "シュガーソングとビターステップ",
+      "artist": "鹿乃",
+      "album": "アルストロメリア",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b4/61/dc/b461dc57-7509-22f1-2098-00ba3ab94777/1000701238_kano_Alstromeria_tsujo_Jkt.jpg/600x600bb.jpg"
     },
     "別の人の彼女になったよarrange.": {
       "title": "执笔江湖",
@@ -1539,13 +1539,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "hide and seek"
-      }
+      "title": "ヒロイン",
+      "artist": "back number",
+      "album": "ヒロイン - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1692,10 +1689,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
-      "title": "ドーナツホール (COVER)",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "シャルル",
+      "artist": "96猫",
+      "album": "O2O",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg"
     },
     "クエスチョン": {
       "title": "クエスチョン",
@@ -1971,13 +1968,10 @@ window.SONG_MASTER = {
       }
     },
     "恋のメガラバ": {
-      "title": "恋のメガラバ (feat. TAKANOR & Cobalt)",
-      "artist": "Hommarju",
-      "album": "ウマウマできるトランスを作ってみた6~どうしてこうなった!~",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f9/2a/66/f92a6671-87e7-8db1-89df-c86ff3ddec85/QWCE_00123_itunes.png/600x600bb.jpg",
-      "en": {
-        "title": "Mega Love of Love (feat. TAKANOR & Cobalt)"
-      }
+      "title": "恋のメガラバ (Cover)",
+      "artist": "ノートンビート",
+      "album": "恋のメガラバ (Cover) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/8c/ff/018cff56-966e-44ec-3cc2-e7405195fe7a/4550714572035_cover.png/600x600bb.jpg"
     },
     "栞": {
       "title": "栞",
