@@ -2,7 +2,9 @@
 # 注意: Pagesの _redirects は404指定(リライト)未対応のため301で404ページへ送る
 # ファイル自体を上げたくない場合はダッシュボードのビルドコマンドに `rm -rf halloween` を設定
 # 事前登録のみ公開（ページ＋必要アセット。先勝ちのため転送より上に置く）
+# Pagesは.htmlを拡張子なしに正規化(308)してから判定するため両方救済する
 /halloween/pre-register.html /halloween/pre-register.html 200
+/halloween/pre-register /halloween/pre-register.html 200
 /halloween/spooky.css /halloween/spooky.css 200
 /halloween/spooky-invite.css /halloween/spooky-invite.css 200
 /halloween/spooky-share.js /halloween/spooky-share.js 200

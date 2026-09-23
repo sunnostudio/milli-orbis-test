@@ -1795,7 +1795,7 @@ const NEWS = [
     title: "ハロウィーン企画「HOTEL GRAND MILLI」事前登録開始！",
     desc: "10/16〜11/15開催のハロウィーン企画に向けて事前登録を受付中。名前とご案内役の仮面を選ぶと招待状が完成し、Xにポストできます。",
     image: "https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-invite.png",
-    url: "halloween/pre-register.html",
+    url: "halloween/pre-register",
     en: { tag: "Event", title: "Halloween event HOTEL GRAND MILLI pre-registration open!", desc: "Pre-register for the Oct 16–Nov 15 Halloween event. Pick a name and escort mask to craft your invitation and post it on X." }
   },
   {
@@ -1937,7 +1937,7 @@ const LAUNCHERS = [
   { icon: "images/icon/Milli%20Games-icon.png", shape: { char: "G", grad: ["#8575bf", "#5f4f9e"] }, name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "https://milli-games.onrender.com/index.html", en: { desc: "A collection of MilliPro fan games" } },
   { icon: "images/icon/Milli%20Kit-icon.png", shape: { char: "K", grad: ["#f78fc0", "#b48cf2"] }, name: "Milli Kit", desc: "推し活に便利なファン製ツール集", url: "https://milli-kit.pages.dev/", en: { desc: "Fan-made tools for oshi-katsu" } },
   { icon: "", shape: { char: "L", grad: ["#4fc3f7", "#7e97b1"] }, name: "Milli Linker", desc: "推し・ファンネーム・神回を1枚の名刺にまとめてXで共有できるプロフィールサービス", url: "https://milli-kit.pages.dev/linker/", en: { desc: "Create a profile card with your oshi, fan name, and favorite videos to share on X" } },
-  { icon: "halloween/images/logo/spooky-masquerade.png", shape: { char: "H", grad: ["#d4af37", "#8a6d1f"] }, name: "HOTEL GRAND MILLI（事前登録）", desc: "ハロウィーン企画の事前登録。名前と仮面を選んで招待状を作ろう", url: "halloween/pre-register.html", en: { desc: "Halloween pre-registration: pick a name and mask to craft your invitation" } }
+  { icon: "halloween/images/logo/spooky-masquerade.png", shape: { char: "H", grad: ["#d4af37", "#8a6d1f"] }, name: "HOTEL GRAND MILLI（事前登録）", desc: "ハロウィーン企画の事前登録。名前と仮面を選んで招待状を作ろう", url: "halloween/pre-register", en: { desc: "Halloween pre-registration: pick a name and mask to craft your invitation" } }
 ];
 
 const LINKS = [
