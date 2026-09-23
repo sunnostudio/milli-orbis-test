@@ -122,6 +122,15 @@
     var sel = document.querySelector(".mask-pick.is-selected");
     return sel ? sel.dataset.mask : "";
   }
+  function isComplete() {
+    return !!currentName() && !!currentMask();
+  }
+  /* 事前チェックイン（spooky-checkin.js）との共有口 */
+  window.SpookyShare = {
+    currentName: currentName,
+    currentMask: currentMask,
+    isComplete: isComplete
+  };
 
   function render() {
     var name = currentName() || "Guest";

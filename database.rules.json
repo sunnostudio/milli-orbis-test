@@ -1,25 +1,25 @@
 {
-  "rules": {
-    ".read": false,
-    ".write": false,
-    "millipro": {
-      ".read": true,
-      "users": {
-        "$uid": {
-          ".read": "auth != null && auth.uid === $uid",
-          ".write": "auth != null && auth.uid === $uid"
-        }
-      },
-      "watchEvents": {
-        "$playerId": {
-          "$videoId": {
-            "$date": {
-              ".write": true,
-              ".validate": "newData.hasChildren(['watchedAt','durationSec']) && newData.child('watchedAt').isNumber() && newData.child('durationSec').isNumber()"
-            }
-          }
-        }
-      },
+ "rules": {
+   ".read": false,
+   ".write": false,
+   "millipro": {
+     ".read": true,
+     "users": {
+       "$uid": {
+         ".read": "auth != null && auth.uid === $uid",
+         ".write": "auth != null && auth.uid === $uid"
+       }
+     },
+     "watchEvents": {
+       "$playerId": {
+         "$videoId": {
+           "$date": {
+             ".write": true,
+             ".validate": "newData.hasChildren(['watchedAt','durationSec']) && newData.child('watchedAt').isNumber() && newData.child('durationSec').isNumber()"
+           }
+         }
+       }
+     },
       "gameEvents": {
         "$playerId": {
           "$gameId": {
@@ -30,71 +30,122 @@
           }
         }
       },
-      "spookyKeys": {
-        "$playerId": {
-          ".write": true,
-          ".validate": "newData.hasChildren(['clearedAt']) && newData.child('clearedAt').isNumber() && (!newData.hasChild('guest') || newData.child('guest').isString()) && (!newData.hasChild('mask') || newData.child('mask').isString())"
+      "spookyCheckin": {
+        "$uid": {
+          ".read": "auth != null && auth.uid === $uid",
+          ".write": "auth != null && auth.uid === $uid",
+          ".validate": "newData.hasChildren(['guest','mask','checkedInAt']) && newData.child('guest').isString() && newData.child('guest').val().length >= 1 && newData.child('guest').val().length <= 20 && newData.child('mask').isString() && newData.child('mask').val().length >= 1 && newData.child('mask').val().length <= 32 && newData.child('checkedInAt').isNumber()"
         }
       },
-      "rewards": {
-        "$playerId": {
-          "$kind": {
-            "$itemId": {
-              "$key": {
-                ".write": "auth != null",
-                ".validate": "newData.hasChildren(['grantedAt']) && newData.child('grantedAt').isNumber()"
-              }
-            }
-          }
-        }
-      },
-      "gallery": {
-        "$artId": {
-          ".write": "auth != null",
-          ".validate": "newData.hasChildren(['id','playerId','title','imageData','mode','createdAt','price']) && newData.child('id').isString() && newData.child('playerId').isString() && newData.child('title').isString() && newData.child('imageData').isString() && newData.child('mode').isString() && newData.child('createdAt').isNumber() && newData.child('price').isNumber()",
-          "reactions": {
-            "$pid": {
-              ".write": "auth != null",
-              ".validate": "newData.isNumber()"
-            }
-          }
-        }
-      },
-      "gallerySales": {
-        "$playerId": {
-          "$artId": {
-            ".write": "auth != null",
-            ".validate": "newData.hasChildren(['price','at']) && newData.child('price').isNumber() && newData.child('at').isNumber()"
-          }
-        }
-      }
-    },
-    "cursorStats": {
-      "$key": {
-        ".write": true,
-        ".validate": "newData.isNumber() && ((!data.exists() && newData.val() === 1) || (data.exists() && newData.val() === data.val() + 1))"
-      }
-    },
-    "cursorStatsDaily": {
-      "$date": {
-        "$key": {
-          ".write": true,
-          ".validate": "newData.isNumber() && ((!data.exists() && newData.val() === 1) || (data.exists() && newData.val() === data.val() + 1))"
-        }
-      }
-    },
-    "contactQueue": {
-      "$msg": {
-        ".write": "!data.exists()",
-        ".validate": "newData.hasChildren(['entry','target','body','status','createdAt']) && (newData.child('entry').val() === 'service' || newData.child('entry').val() === 'millidex') && (newData.child('target').val() === 'orbis' || newData.child('target').val() === 'unishare' || newData.child('target').val() === 'games' || newData.child('target').val() === 'other' || newData.child('target').val() === 'map' || newData.child('target').val() === 'goods') && newData.child('body').isString() && newData.child('body').val().length > 0 && newData.child('body').val().length <= 2000 && newData.child('status').val() === 'pending' && newData.child('createdAt').isNumber() && (!newData.hasChild('kind') || newData.child('kind').val() === 'request' || newData.child('kind').val() === 'bug' || newData.child('kind').val() === 'remove' || newData.child('kind').val() === 'other') && (newData.child('entry').val() !== 'service' || (newData.child('email').isString() && newData.child('email').val().length >= 5 && newData.child('email').val().length <= 200 && newData.child('email').val().matches(/^[^@]+@[^@]+[.][^@]+$/)))"
-      }
-    },
-    "sightingsLive": {
-      "$id": {
-        ".read": true,
-        ".write": "!data.exists()",
-        ".validate": "newData.hasChildren(['entry','target','place','prefecture','item','lat','lng','createdAt']) && newData.child('entry').val() === 'millidex' && newData.child('target').val() === 'map' && newData.child('place').isString() && newData.child('place').val().length >= 1 && newData.child('place').val().length <= 200 && newData.child('prefecture').isString() && newData.child('prefecture').val().length >= 1 && newData.child('prefecture').val().length <= 10 && newData.child('item').isString() && newData.child('item').val().length >= 1 && newData.child('item').val().length <= 200 && newData.child('lat').isNumber() && newData.child('lat').val() >= -90 && newData.child('lat').val() <= 90 && newData.child('lng').isNumber() && newData.child('lng').val() >= -180 && newData.child('lng').val() <= 180 && newData.child('createdAt').isNumber() && (!newData.hasChild('body') || (newData.child('body').isString() && newData.child('body').val().length <= 2000)) && !newData.hasChild('contact') && !newData.hasChild('email') && !newData.hasChild('uid')"
-      }
-    }
-  }
+     "rewards": {
+       "$playerId": {
+         "$kind": {
+           "$itemId": {
+             "$key": {
+               ".write": "auth != null",
+               ".validate": "newData.hasChildren(['grantedAt']) && newData.child('grantedAt').isNumber()"
+             }
+           }
+         }
+       }
+     },
+     "gallery": {
+       "$artId": {
+         ".write": "auth != null",
+         ".validate": "newData.hasChildren(['id','playerId','title','imageData','mode','createdAt','price']) && newData.child('id').isString() && newData.child('playerId').isString() && newData.child('title').isString() && newData.child('imageData').isString() && newData.child('mode').isString() && newData.child('createdAt').isNumber() && newData.child('price').isNumber()",
+         "reactions": {
+           "$pid": {
+             ".write": "auth != null",
+             ".validate": "newData.isNumber()"
+           }
+         }
+       }
+     },
+     "gallerySales": {
+       "$playerId": {
+         "$artId": {
+           ".write": "auth != null",
+           ".validate": "newData.hasChildren(['price','at']) && newData.child('price').isNumber() && newData.child('at').isNumber()"
+         }
+       }
+     },
+     "linker": {
+       "$uid": {
+         ".read": true,
+         ".write": "auth != null && auth.uid === $uid",
+         ".validate": "newData.hasChildren(['name', 'ultimate'])",
+         "name": {
+           ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 20"
+         },
+         "icon": {
+           ".validate": "newData.isString() && newData.val().length <= 2000000"
+         },
+         "ultimate": {
+           ".validate": "newData.isString()"
+         },
+         "kamiRows": {
+           ".validate": "!newData.exists() || newData.hasChildren()"
+         },
+         "songRows": {
+           ".validate": "!newData.exists() || newData.hasChildren()"
+         },
+         "free": {
+           ".validate": "!newData.exists() || newData.isString()"
+         },
+         "oshiHistory": {
+           ".validate": "!newData.exists() || newData.isString()"
+         },
+         "oshiMark": {
+           ".validate": "!newData.exists() || newData.isString()"
+         },
+         "sns": {
+           ".validate": "!newData.exists() || newData.hasChildren()"
+         },
+         "updatedAt": {
+           ".validate": "newData.isNumber()"
+         },
+         "$other": {
+           ".validate": true
+         }
+       }
+     }
+   },
+   "cursorStats": {
+     "$key": {
+       ".write": true,
+       ".validate": "newData.isNumber() && ((!data.exists() && newData.val() === 1) || (data.exists() && newData.val() === data.val() + 1))"
+     }
+   },
+   "cursorStatsDaily": {
+     "$date": {
+       "$key": {
+         ".write": true,
+         ".validate": "newData.isNumber() && ((!data.exists() && newData.val() === 1) || (data.exists() && newData.val() === data.val() + 1))"
+       }
+     }
+   },
+   "contactQueue": {
+     "$msg": {
+       ".write": "!data.exists()",
+       ".validate": "newData.hasChildren(['entry','target','body','status','createdAt']) && (newData.child('entry').val() === 'service' || newData.child('entry').val() === 'millidex') && (newData.child('target').val() === 'orbis' || newData.child('target').val() === 'unishare' || newData.child('target').val() === 'games' || newData.child('target').val() === 'other' || newData.child('target').val() === 'map' || newData.child('target').val() === 'goods') && newData.child('body').isString() && newData.child('body').val().length > 0 && newData.child('body').val().length <= 2000 && newData.child('status').val() === 'pending' && newData.child('createdAt').isNumber() && (!newData.hasChild('kind') || newData.child('kind').val() === 'request' || newData.child('kind').val() === 'bug' || newData.child('kind').val() === 'remove' || newData.child('kind').val() === 'other') && (newData.child('entry').val() !== 'service' || (newData.child('email').isString() && newData.child('email').val().length >= 5 && newData.child('email').val().length <= 200 && newData.child('email').val().matches(/^[^@]+@[^@]+[.][^@]+$/)))"
+     }
+   },
+   "sightingsLive": {
+     ".read": true,
+     "$id": {
+       ".read": true,
+       ".write": "!data.exists()",
+       ".validate": "newData.hasChildren(['entry','target','place','prefecture','item','lat','lng','createdAt']) && newData.child('entry').val() === 'millidex' && newData.child('target').val() === 'map' && newData.child('place').isString() && newData.child('place').val().length >= 1 && newData.child('place').val().length <= 200 && newData.child('prefecture').isString() && newData.child('prefecture').val().length >= 1 && newData.child('prefecture').val().length <= 10 && newData.child('item').isString() && newData.child('item').val().length >= 1 && newData.child('item').val().length <= 200 && newData.child('lat').isNumber() && newData.child('lat').val() >= -90 && newData.child('lat').val() <= 90 && newData.child('lng').isNumber() && newData.child('lng').val() >= -180 && newData.child('lng').val() <= 180 && newData.child('createdAt').isNumber() && (!newData.hasChild('body') || (newData.child('body').isString() && newData.child('body').val().length <= 2000)) && !newData.hasChild('contact') && !newData.hasChild('email') && !newData.hasChild('uid')"
+     }
+   },
+   "mapInbox": {
+     "$msg": {
+       ".write": "!data.exists()",
+       ".validate": "newData.hasChildren(['entry','target','fields','status','createdAt']) && newData.child('entry').val() === 'millidex' && newData.child('target').val() === 'map' && newData.child('status').val() === 'pending' && newData.child('createdAt').isNumber() && newData.child('fields/shop').isString() && newData.child('fields/shop').val().length >= 1 && newData.child('fields/shop').val().length <= 200 && newData.child('fields/pref').isString() && newData.child('fields/pref').val().length >= 1 && newData.child('fields/pref').val().length <= 10 && newData.child('fields/item').isString() && newData.child('fields/item').val().length >= 1 && newData.child('fields/item').val().length <= 200 && (!newData.hasChild('body') || (newData.child('body').isString() && newData.child('body').val().length <= 2000)) && (!newData.hasChild('uid') || newData.child('uid').isString())"
+     }
+   }
+ }
 }
+
+
+
