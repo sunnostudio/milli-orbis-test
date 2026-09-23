@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T16:11:57.537Z",
+  "updatedAt": "2026-09-22T20:11:31.020Z",
   "streams": [
     {
       "id": "mZl7QBu4ZlM",
@@ -144,6 +144,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "3ykCuRHPaXU",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【恐怖】絶対に怒らせてはいけないAI『Verity』とみんな居なくなった…",
+      "thumb": "https://i.ytimg.com/vi/3ykCuRHPaXU/hqdefault.jpg",
+      "publishedAt": "2026-09-22T17:04:51Z",
+      "live": false
+    },
     {
       "id": "p17ll5n_Wtc",
       "memberId": "koma",
@@ -432,16 +442,6 @@
       "title": "スイカを食べたのは誰！？ #minecraft",
       "thumb": "https://i.ytimg.com/vi/Mv9PuGt6KSg/hqdefault.jpg",
       "publishedAt": "2026-09-19T08:31:08Z",
-      "live": false
-    },
-    {
-      "id": "oGKCb4hQ5SM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 #マイクラ肝試し2026 】ののりずと肝試しに参加します！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/oGKCb4hQ5SM/hqdefault_live.jpg",
-      "publishedAt": "2026-09-19T05:40:13Z",
       "live": false
     }
   ],

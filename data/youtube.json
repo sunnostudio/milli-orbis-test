@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T20:11:31.020Z",
+  "updatedAt": "2026-09-23T00:15:26.342Z",
   "streams": [
     {
       "id": "mZl7QBu4ZlM",
@@ -23,20 +23,20 @@
       "status": "upcoming"
     },
     {
-      "id": "2GU-VrNT16I",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
-      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T07:00:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "oGKCb4hQ5SM",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "title": "【 #マイクラ肝試し2026 】ののりずと肝試しに参加します！【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/oGKCb4hQ5SM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T07:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "2GU-VrNT16I",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
+      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-25T07:00:00Z",
       "status": "upcoming"
     },
