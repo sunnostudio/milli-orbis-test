@@ -7,7 +7,7 @@
 
   /* A案（暫定・文面確定時にここだけ差し替え） */
   var SHARE_TEXT_TMPL = "怪しくも美しい仮面舞踏会へ、あなたをご招待します。当日は{name}がお迎えいたします #ミリプロ #SpookyMasquerade2026 #MilliOrbis";
-  var PAGE_URL = "https://milli-orbis-portal.pages.dev/halloween/pre-register.html";
+  var PAGE_URL = "https://milli-orbis-portal.pages.dev/halloween/pre-register";
   var FILE_NAME = "grand-milli-invitation.png";
 
   var GUEST_KEY = "milli-event-spooky-guest";

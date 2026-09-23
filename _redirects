@@ -1,16 +1,20 @@
-# Halloweenは準備中のため事前登録ページ以外は公開しない (直リンクも404ページへ転送)
-# 注意: Pagesの _redirects は404指定(リライト)未対応のため301で404ページへ送る
+# Halloweenは準備中のため事前登録ページ以外は公開しない (404ページへ転送)
+# 注意1: Pagesは.htmlを拡張子なしに正規化(308)してから判定するため、
+# _redirectsには拡張子なしで記述する。リライト(200)で.htmlを指定すると
+# 正規化と往復して無限ループになるため使わない。
+# 注意2: 事前登録にはルールを置かない。静的ファイル解決に任せると
+# /cursorsと同様に200で配信される。新規ページ追加時はここに301を追記すること。
 # ファイル自体を上げたくない場合はダッシュボードのビルドコマンドに `rm -rf halloween` を設定
-# 事前登録のみ公開（ページ＋必要アセット。先勝ちのため転送より上に置く）
-# Pagesは.htmlを拡張子なしに正規化(308)してから判定するため両方救済する
-/halloween/pre-register.html /halloween/pre-register.html 200
-/halloween/pre-register /halloween/pre-register.html 200
-/halloween/spooky.css /halloween/spooky.css 200
-/halloween/spooky-invite.css /halloween/spooky-invite.css 200
-/halloween/spooky-share.js /halloween/spooky-share.js 200
-/halloween/images/* /halloween/images/:splat 200
-/halloween/icons/* /halloween/icons/:splat 200
-/halloween/manifest.webmanifest /halloween/manifest.webmanifest 200
 /halloween /404.html 301
 /halloween/ /404.html 301
-/halloween/* /404.html 301
+/halloween/index /404.html 301
+/halloween/floor-1-lobby /404.html 301
+/halloween/floor-2-closet /404.html 301
+/halloween/floor-3-theater /404.html 301
+/halloween/floor-4-salon /404.html 301
+/halloween/floor-5-ballroom /404.html 301
+/halloween/floor-6-room /404.html 301
+/halloween/floor-13 /404.html 301
+/halloween/invite /404.html 301
+/halloween/elevator-demo /404.html 301
+/halloween/invite-demo /404.html 301
