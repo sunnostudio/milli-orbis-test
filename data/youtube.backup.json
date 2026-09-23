@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-23T12:15:05.100Z",
+  "updatedAt": "2026-09-23T16:12:24.791Z",
   "streams": [
-    {
-      "id": "xQq-zna-jAc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】今日はとても騒がしい二人と参ります🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/xQq-zna-jAc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-23T09:02:55Z",
-      "status": "live"
-    },
-    {
-      "id": "-KzVJh8KHAo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 #マイクラ肝試し2026 】連れまわしてもらい隊 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-KzVJh8KHAo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-23T09:18:42Z",
-      "status": "live"
-    },
-    {
-      "id": "-8B1LyFNFxU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 NTE 】新キャラ・新コンテンツにわくわくなのだ～！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-8B1LyFNFxU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-23T11:59:03Z",
-      "status": "live"
-    },
     {
       "id": "mZl7QBu4ZlM",
       "memberId": "koma",
@@ -172,24 +145,44 @@
   ],
   "videos": [
     {
-      "id": "4nl4Cpg1HQ0",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】サインかきながらぺちゃくちゃしゃべる┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/4nl4Cpg1HQ0/hqdefault_live.jpg",
-      "publishedAt": "2026-09-23T12:05:11Z",
-      "live": true
-    },
-    {
       "id": "-8B1LyFNFxU",
       "memberId": "koma",
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 NTE 】新キャラ・新コンテンツにわくわくなのだ～！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-8B1LyFNFxU/hqdefault_live.jpg",
-      "publishedAt": "2026-09-23T11:59:03Z",
+      "thumb": "https://i.ytimg.com/vi/-8B1LyFNFxU/hqdefault.jpg",
+      "publishedAt": "2026-09-23T13:37:02Z",
       "live": false
+    },
+    {
+      "id": "xQq-zna-jAc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【#マイクラ肝試し2026】今日はとても騒がしい二人と参ります🔥【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/xQq-zna-jAc/hqdefault.jpg",
+      "publishedAt": "2026-09-23T12:59:10Z",
+      "live": false
+    },
+    {
+      "id": "-KzVJh8KHAo",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 #マイクラ肝試し2026 】連れまわしてもらい隊 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/-KzVJh8KHAo/hqdefault.jpg",
+      "publishedAt": "2026-09-23T12:59:07Z",
+      "live": false
+    },
+    {
+      "id": "4nl4Cpg1HQ0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【雑談】サインかきながらぺちゃくちゃしゃべる┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/4nl4Cpg1HQ0/hqdefault.jpg",
+      "publishedAt": "2026-09-23T12:21:46Z",
+      "live": true
     },
     {
       "id": "MpiBj_5kQuE",
@@ -209,26 +202,6 @@
       "title": "【恐怖】絶対に怒らせてはいけないAI『Verity』とみんな居なくなった…",
       "thumb": "https://i.ytimg.com/vi/3ykCuRHPaXU/hqdefault.jpg",
       "publishedAt": "2026-09-23T10:00:07Z",
-      "live": false
-    },
-    {
-      "id": "-KzVJh8KHAo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 #マイクラ肝試し2026 】連れまわしてもらい隊 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-KzVJh8KHAo/hqdefault_live.jpg",
-      "publishedAt": "2026-09-23T09:18:42Z",
-      "live": false
-    },
-    {
-      "id": "xQq-zna-jAc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#マイクラ肝試し2026】今日はとても騒がしい二人と参ります🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/xQq-zna-jAc/hqdefault_live.jpg",
-      "publishedAt": "2026-09-23T09:02:55Z",
       "live": false
     },
     {
@@ -472,33 +445,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "xQq-zna-jAc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】今日はとても騒がしい二人と参ります🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/xQq-zna-jAc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-23T09:02:55Z",
-      "status": "live"
-    },
-    {
-      "id": "-KzVJh8KHAo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 #マイクラ肝試し2026 】連れまわしてもらい隊 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-KzVJh8KHAo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-23T09:18:42Z",
-      "status": "live"
-    },
-    {
-      "id": "-8B1LyFNFxU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 NTE 】新キャラ・新コンテンツにわくわくなのだ～！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-8B1LyFNFxU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-23T11:59:03Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
