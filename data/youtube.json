@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-09-24T08:13:21.875Z",
+  "updatedAt": "2026-09-24T12:14:48.828Z",
   "streams": [
+    {
+      "id": "pkUe__xvHx4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-24T11:01:36Z",
+      "status": "live"
+    },
     {
       "id": "MrCLJCrIZ_8",
       "memberId": "liz",
       "member": "雨夜リズ",
       "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T11:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-24T11:04:11Z",
+      "status": "live"
     },
     {
       "id": "mZl7QBu4ZlM",
@@ -154,13 +163,23 @@
   ],
   "videos": [
     {
-      "id": "z0GPIelevxU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "引きこもりVTuberが、ディズニーシーで大興奮しました。【マイクラ】",
-      "thumb": "https://i.ytimg.com/vi/z0GPIelevxU/hqdefault.jpg",
-      "publishedAt": "2026-09-24T05:48:43Z",
+      "id": "MrCLJCrIZ_8",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
+      "publishedAt": "2026-09-24T11:04:11Z",
+      "live": false
+    },
+    {
+      "id": "pkUe__xvHx4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
+      "publishedAt": "2026-09-24T11:01:36Z",
       "live": false
     },
     {
@@ -170,17 +189,27 @@
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "引きこもりVTuberが、ディズニーランドに遊びに行く方法。【マイクラ】",
       "thumb": "https://i.ytimg.com/vi/BoQQ83uhttE/hqdefault.jpg",
-      "publishedAt": "2026-09-24T05:23:33Z",
+      "publishedAt": "2026-09-24T10:00:11Z",
       "live": false
     },
     {
-      "id": "MrCLJCrIZ_8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
-      "publishedAt": "2026-09-24T02:13:08Z",
+      "id": "wAWXlt9_oL4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【絶体絶命】迫りくるマグマから2択だけで逃げ切れるのか！？【マイクラ】",
+      "thumb": "https://i.ytimg.com/vi/wAWXlt9_oL4/hqdefault.jpg",
+      "publishedAt": "2026-09-24T09:00:04Z",
+      "live": false
+    },
+    {
+      "id": "z0GPIelevxU",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "引きこもりVTuberが、ディズニーシーで大興奮しました。【マイクラ】",
+      "thumb": "https://i.ytimg.com/vi/z0GPIelevxU/hqdefault.jpg",
+      "publishedAt": "2026-09-24T05:48:43Z",
       "live": false
     },
     {
@@ -424,16 +453,6 @@
       "live": false
     },
     {
-      "id": "OZgLlveyW8Y",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【大暴走】どっぷり泥酔したVTuberの中で1人だけ“酔ったフリ”してる人狼がいます!!",
-      "thumb": "https://i.ytimg.com/vi/OZgLlveyW8Y/hqdefault.jpg",
-      "publishedAt": "2026-09-20T10:00:07Z",
-      "live": false
-    },
-    {
       "id": "xGiQh0NlrDg",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -442,17 +461,26 @@
       "thumb": "https://i.ytimg.com/vi/xGiQh0NlrDg/hqdefault.jpg",
       "publishedAt": "2026-09-20T09:00:11Z",
       "live": false
-    },
-    {
-      "id": "4dW3ypO05g0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 コラボ歌枠 〗NEROさんと最高な歌をお届け〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/4dW3ypO05g0/hqdefault.jpg",
-      "publishedAt": "2026-09-19T13:24:55Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "pkUe__xvHx4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-24T11:01:36Z",
+      "status": "live"
+    },
+    {
+      "id": "MrCLJCrIZ_8",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-24T11:04:11Z",
+      "status": "live"
+    }
+  ]
 }
