@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T12:14:48.828Z",
+  "updatedAt": "2026-09-24T16:12:34.991Z",
   "streams": [
     {
       "id": "pkUe__xvHx4",
@@ -9,36 +9,6 @@
       "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-24T11:01:36Z",
       "status": "live"
-    },
-    {
-      "id": "MrCLJCrIZ_8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T11:04:11Z",
-      "status": "live"
-    },
-    {
-      "id": "mZl7QBu4ZlM",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "🎤Million Production × カラオケBanBanグループ　コラボ開催！",
-      "thumb": "https://i.ytimg.com/vi/mZl7QBu4ZlM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T13:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "🎤Million Production x Karaoke BanBan Group collaboration!"
-      }
-    },
-    {
-      "id": "_kaShsLH0O8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢お知らせ】Million Production × カラオケBanBanグループ",
-      "thumb": "https://i.ytimg.com/vi/_kaShsLH0O8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T14:45:00Z",
-      "status": "upcoming"
     },
     {
       "id": "2GU-VrNT16I",
@@ -168,8 +138,8 @@
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
-      "publishedAt": "2026-09-24T11:04:11Z",
+      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault.jpg",
+      "publishedAt": "2026-09-24T13:06:59Z",
       "live": false
     },
     {
@@ -471,15 +441,6 @@
       "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-24T11:01:36Z",
-      "status": "live"
-    },
-    {
-      "id": "MrCLJCrIZ_8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T11:04:11Z",
       "status": "live"
     }
   ]

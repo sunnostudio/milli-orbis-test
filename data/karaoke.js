@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "liz",
     "publishedAt": "2026-09-24",
     "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
-    "duration": 0,
+    "duration": 6302,
     "songs": []
   },
   {
