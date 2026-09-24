@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "MrCLJCrIZ_8",
+    "memberId": "liz",
+    "publishedAt": "2026-09-24",
+    "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "pytWeCL4-v8",
     "memberId": "raco",
     "publishedAt": "2026-09-22",
@@ -14,14 +22,6 @@ window.KARAOKE = [
     "publishedAt": "2026-09-21",
     "title": "【歌枠】低気圧を許すな【音ノ瀬らこ /ミリプロ】",
     "duration": 9030,
-    "songs": []
-  },
-  {
-    "id": "rXuSYrvh3HU",
-    "memberId": "liz",
-    "publishedAt": "2026-09-17",
-    "title": "【歌枠＋雑談】告知あり！歌枠だよ【雨夜リズ/ミリプロ】",
-    "duration": 4244,
     "songs": []
   },
   {
@@ -62,14 +62,6 @@ window.KARAOKE = [
     "publishedAt": "2026-09-11",
     "title": "【歌枠】3Dお披露目前夜祭♪【ゆらぎゆら/ミリプロ】",
     "duration": 4108,
-    "songs": []
-  },
-  {
-    "id": "R4oRuHrYY4g",
-    "memberId": "liz",
-    "publishedAt": "2026-09-06",
-    "title": "【歌枠】かなりちるのうた【雨夜リズ/ミリプロ】",
-    "duration": 6215,
     "songs": []
   },
   {
