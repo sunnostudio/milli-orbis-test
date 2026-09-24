@@ -1,31 +1,13 @@
 {
-  "updatedAt": "2026-09-24T16:12:34.991Z",
+  "updatedAt": "2026-09-24T20:12:43.469Z",
   "streams": [
-    {
-      "id": "pkUe__xvHx4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T11:01:36Z",
-      "status": "live"
-    },
     {
       "id": "2GU-VrNT16I",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
       "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T07:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "oGKCb4hQ5SM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 #マイクラ肝試し2026 】ののりずと肝試しに参加します！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/oGKCb4hQ5SM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T07:00:00Z",
+      "scheduledStartTime": "2026-09-25T06:00:00Z",
       "status": "upcoming"
     },
     {
@@ -133,6 +115,16 @@
   ],
   "videos": [
     {
+      "id": "pkUe__xvHx4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault.jpg",
+      "publishedAt": "2026-09-24T18:12:30Z",
+      "live": false
+    },
+    {
       "id": "MrCLJCrIZ_8",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -140,16 +132,6 @@
       "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault.jpg",
       "publishedAt": "2026-09-24T13:06:59Z",
-      "live": false
-    },
-    {
-      "id": "pkUe__xvHx4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-24T11:01:36Z",
       "live": false
     },
     {
@@ -433,15 +415,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "pkUe__xvHx4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗冬、いつもと違う景色...#7〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/pkUe__xvHx4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T11:01:36Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
