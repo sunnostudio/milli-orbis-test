@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T00:15:31.049Z",
+  "updatedAt": "2026-09-24T04:11:46.975Z",
   "streams": [
     {
       "id": "mZl7QBu4ZlM",
@@ -23,20 +23,20 @@
       "status": "upcoming"
     },
     {
-      "id": "oGKCb4hQ5SM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 #マイクラ肝試し2026 】ののりずと肝試しに参加します！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/oGKCb4hQ5SM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T07:00:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "2GU-VrNT16I",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
       "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T07:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "oGKCb4hQ5SM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 #マイクラ肝試し2026 】ののりずと肝試しに参加します！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/oGKCb4hQ5SM/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-25T07:00:00Z",
       "status": "upcoming"
     },
@@ -144,6 +144,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "MrCLJCrIZ_8",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MrCLJCrIZ_8/hqdefault_live.jpg",
+      "publishedAt": "2026-09-24T02:13:08Z",
+      "live": false
+    },
     {
       "id": "-8B1LyFNFxU",
       "memberId": "koma",
@@ -432,16 +442,6 @@
       "title": "〖 コラボ歌枠 〗NEROさんと最高な歌をお届け〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/4dW3ypO05g0/hqdefault.jpg",
       "publishedAt": "2026-09-19T13:24:55Z",
-      "live": false
-    },
-    {
-      "id": "x6BuWOYAyeo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【どこまで知ってる？】狂気的なボカロ曲ファンテスト！ #歌ってみた 【 #海琳あおい / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/x6BuWOYAyeo/hqdefault.jpg",
-      "publishedAt": "2026-09-19T09:01:14Z",
       "live": false
     }
   ],
