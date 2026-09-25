@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-25T12:15:01.505Z",
+  "updatedAt": "2026-09-25T16:12:27.234Z",
   "streams": [
-    {
-      "id": "xVpRapqd4JY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T10:30:49Z",
-      "status": "live"
-    },
-    {
-      "id": "QLvwXn9raZI",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】こわ～～～い御山があるんだとさ・・・・・【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/QLvwXn9raZI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T11:00:46Z",
-      "status": "live"
-    },
-    {
-      "id": "VFjJFumKf_k",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T11:02:18Z",
-      "status": "live"
-    },
     {
       "id": "t_VMOsim60o",
       "memberId": "koma",
@@ -142,13 +115,13 @@
   ],
   "videos": [
     {
-      "id": "VFjJFumKf_k",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault_live.jpg",
-      "publishedAt": "2026-09-25T11:02:18Z",
+      "id": "xVpRapqd4JY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault.jpg",
+      "publishedAt": "2026-09-25T14:24:55Z",
       "live": false
     },
     {
@@ -157,8 +130,28 @@
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "【#マイクラ肝試し2026】こわ～～～い御山があるんだとさ・・・・・【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/QLvwXn9raZI/hqdefault_live.jpg",
-      "publishedAt": "2026-09-25T11:00:46Z",
+      "thumb": "https://i.ytimg.com/vi/QLvwXn9raZI/hqdefault.jpg",
+      "publishedAt": "2026-09-25T14:06:35Z",
+      "live": false
+    },
+    {
+      "id": "VFjJFumKf_k",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault.jpg",
+      "publishedAt": "2026-09-25T14:00:33Z",
+      "live": false
+    },
+    {
+      "id": "Uvz0tf2tGIE",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "狂乱 Hey Kids!! / 夕霧レイ(cover)",
+      "thumb": "https://i.ytimg.com/vi/Uvz0tf2tGIE/hqdefault.jpg",
+      "publishedAt": "2026-09-25T12:30:09Z",
       "live": false
     },
     {
@@ -170,16 +163,6 @@
       "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault.jpg",
       "publishedAt": "2026-09-25T10:50:50Z",
       "live": true
-    },
-    {
-      "id": "xVpRapqd4JY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault_live.jpg",
-      "publishedAt": "2026-09-25T10:30:49Z",
-      "live": false
     },
     {
       "id": "3IsFnWRGfhA",
@@ -430,45 +413,7 @@
       "thumb": "https://i.ytimg.com/vi/W7gi6mpCqBQ/hqdefault.jpg",
       "publishedAt": "2026-09-21T14:08:23Z",
       "live": false
-    },
-    {
-      "id": "MDuWbEigLss",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗こまつくりーず歌みたリレーを聴く！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/MDuWbEigLss/hqdefault.jpg",
-      "publishedAt": "2026-09-21T13:35:27Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "xVpRapqd4JY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T10:30:49Z",
-      "status": "live"
-    },
-    {
-      "id": "QLvwXn9raZI",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】こわ～～～い御山があるんだとさ・・・・・【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/QLvwXn9raZI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T11:00:46Z",
-      "status": "live"
-    },
-    {
-      "id": "VFjJFumKf_k",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T11:02:18Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
