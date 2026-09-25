@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "qD6JZQPGTt4",
+    "memberId": "raco",
+    "publishedAt": "2026-09-25",
+    "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "MrCLJCrIZ_8",
     "memberId": "liz",
     "publishedAt": "2026-09-24",
