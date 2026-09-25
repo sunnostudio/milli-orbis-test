@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T04:11:52.327Z",
+  "updatedAt": "2026-09-25T08:12:15.970Z",
   "streams": [
     {
       "id": "2GU-VrNT16I",
@@ -7,7 +7,34 @@
       "member": "音ノ乃のの",
       "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
       "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T06:00:00Z",
+      "scheduledStartTime": "2026-09-25T06:31:41Z",
+      "status": "live"
+    },
+    {
+      "id": "qD6JZQPGTt4",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qD6JZQPGTt4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T06:32:33Z",
+      "status": "live"
+    },
+    {
+      "id": "3IsFnWRGfhA",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【MInecraft】マイクラ肝試し２０２６楽しむぞー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T06:44:37Z",
+      "status": "live"
+    },
+    {
+      "id": "8wAnB-DKmp8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 雑談 】あしたは3Dお披露目！どきどきだ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T09:00:00Z",
       "status": "upcoming"
     },
     {
@@ -44,6 +71,15 @@
       "title": "【📢出演告知】暴力的にカワイイ in お台場 “PSYQUI feat.音ノ乃のの” として出演❕",
       "thumb": "https://i.ytimg.com/vi/6Q0MOxYQjYk/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-27T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "tUZw65HEVPc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【📢グッズ情報】甘狼このみ 新衣装記念グッズ 2026 発売中！",
+      "thumb": "https://i.ytimg.com/vi/tUZw65HEVPc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-28T14:30:00Z",
       "status": "upcoming"
     },
     {
@@ -114,6 +150,46 @@
     }
   ],
   "videos": [
+    {
+      "id": "8wAnB-DKmp8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 雑談 】あしたは3Dお披露目！どきどきだ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault_live.jpg",
+      "publishedAt": "2026-09-25T07:40:15Z",
+      "live": true
+    },
+    {
+      "id": "3IsFnWRGfhA",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【MInecraft】マイクラ肝試し２０２６楽しむぞー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault_live.jpg",
+      "publishedAt": "2026-09-25T06:44:37Z",
+      "live": false
+    },
+    {
+      "id": "qD6JZQPGTt4",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qD6JZQPGTt4/hqdefault_live.jpg",
+      "publishedAt": "2026-09-25T06:32:33Z",
+      "live": false
+    },
+    {
+      "id": "2GU-VrNT16I",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
+      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
+      "publishedAt": "2026-09-25T06:31:41Z",
+      "live": false
+    },
     {
       "id": "pkUe__xvHx4",
       "memberId": "tsukuri",
@@ -315,16 +391,6 @@
       "live": false
     },
     {
-      "id": "JDREgFjpAMM",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】おれのﾏｯﾏと探索デートだ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JDREgFjpAMM/hqdefault.jpg",
-      "publishedAt": "2026-09-21T16:50:36Z",
-      "live": false
-    },
-    {
       "id": "W7gi6mpCqBQ",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -383,37 +449,35 @@
       "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault.jpg",
       "publishedAt": "2026-09-20T14:20:41Z",
       "live": false
-    },
-    {
-      "id": "qbalFQbmNpk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】今週もおつかれさまでした！サイン入れしていきますよヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qbalFQbmNpk/hqdefault.jpg",
-      "publishedAt": "2026-09-20T13:06:14Z",
-      "live": true
-    },
-    {
-      "id": "oHL-kU7tOwU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "ミカヅキ/酸欠少女さユり covered by ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/oHL-kU7tOwU/hqdefault.jpg",
-      "publishedAt": "2026-09-20T12:00:06Z",
-      "live": false
-    },
-    {
-      "id": "xGiQh0NlrDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "通販オタクVTuberによるまじで嫌いな口コミ5選！",
-      "thumb": "https://i.ytimg.com/vi/xGiQh0NlrDg/hqdefault.jpg",
-      "publishedAt": "2026-09-20T09:00:11Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "2GU-VrNT16I",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
+      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T06:31:41Z",
+      "status": "live"
+    },
+    {
+      "id": "qD6JZQPGTt4",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qD6JZQPGTt4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T06:32:33Z",
+      "status": "live"
+    },
+    {
+      "id": "3IsFnWRGfhA",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【MInecraft】マイクラ肝試し２０２６楽しむぞー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T06:44:37Z",
+      "status": "live"
+    }
+  ]
 }
