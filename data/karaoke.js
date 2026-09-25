@@ -13,7 +13,7 @@ window.KARAOKE = [
     "memberId": "rei",
     "publishedAt": "2026-09-25",
     "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
-    "duration": 0,
+    "duration": 6892,
     "songs": []
   },
   {
