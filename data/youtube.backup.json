@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T16:12:27.234Z",
+  "updatedAt": "2026-09-25T20:10:45.715Z",
   "streams": [
     {
       "id": "t_VMOsim60o",
@@ -92,6 +92,15 @@
       "title": "【📢出演告知】音ノ乃のの渡韓します！",
       "thumb": "https://i.ytimg.com/vi/mABBk-9aZbw/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-10T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "WEI1si3sFaA",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "「ミリプロ」×「100時間カレー」コラボ！🍛🍴",
+      "thumb": "https://i.ytimg.com/vi/WEI1si3sFaA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-31T13:30:00Z",
       "status": "upcoming"
     },
     {
