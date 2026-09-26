@@ -1,40 +1,22 @@
 {
-  "updatedAt": "2026-09-26T08:12:38.606Z",
+  "updatedAt": "2026-09-26T16:11:39.169Z",
   "streams": [
     {
-      "id": "j9hT8ovlfWY",
+      "id": "lDer-rtZywg",
       "memberId": "konomi",
       "member": "甘狼このみ",
-      "title": "【お絵描き】リスナーさんのラフを完成させてみよう【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/j9hT8ovlfWY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-26T05:00:17Z",
-      "status": "live"
-    },
-    {
-      "id": "t_VMOsim60o",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【#小廻こま3Dお披露目】よってらっしゃい見てらっしゃい！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/t_VMOsim60o/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-26T10:00:00Z",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/lDer-rtZywg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T04:00:00Z",
       "status": "upcoming"
     },
     {
-      "id": "WjtcVv76D4s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 #眠雲ツクリ3Dお披露目 〗これからも、思い出たくさんつくってあげる！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-26T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "BzfDRA8S67w",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【 #雨夜リズ3Dお披露目 】これで一緒に雨宿りできるね【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BzfDRA8S67w/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-26T12:00:00Z",
+      "id": "XtUynAmn8HA",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -133,13 +115,73 @@
   ],
   "videos": [
     {
-      "id": "j9hT8ovlfWY",
+      "id": "BzfDRA8S67w",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【 #雨夜リズ3Dお披露目 】これで一緒に雨宿りできるね【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BzfDRA8S67w/hqdefault.jpg",
+      "publishedAt": "2026-09-26T13:31:46Z",
+      "live": false
+    },
+    {
+      "id": "XtUynAmn8HA",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】リスナーさんのラフを完成させてみよう【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/j9hT8ovlfWY/hqdefault_live.jpg",
-      "publishedAt": "2026-09-26T05:00:17Z",
+      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
+      "publishedAt": "2026-09-26T12:55:50Z",
+      "live": true
+    },
+    {
+      "id": "WjtcVv76D4s",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 #眠雲ツクリ3Dお披露目 〗これからも、思い出たくさんつくってあげる！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault.jpg",
+      "publishedAt": "2026-09-26T12:44:58Z",
+      "live": false
+    },
+    {
+      "id": "lDer-rtZywg",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/lDer-rtZywg/hqdefault_live.jpg",
+      "publishedAt": "2026-09-26T12:42:10Z",
+      "live": false
+    },
+    {
+      "id": "-Z3JcUR8p-o",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【大混乱】有名キャラの目元だけ見て絵を完成させられる!?うろ覚えで描いたらヤバすぎたｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/-Z3JcUR8p-o/hqdefault.jpg",
+      "publishedAt": "2026-09-26T11:58:53Z",
+      "live": false
+    },
+    {
+      "id": "t_VMOsim60o",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【#小廻こま3Dお披露目】よってらっしゃい見てらっしゃい！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/t_VMOsim60o/hqdefault.jpg",
+      "publishedAt": "2026-09-26T11:19:20Z",
+      "live": false
+    },
+    {
+      "id": "SgUj_4_ELLs",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】バレずに逃げ切れ！ブロックに変身してかくれんぼ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/SgUj_4_ELLs/hqdefault.jpg",
+      "publishedAt": "2026-09-26T09:00:35Z",
       "live": false
     },
     {
@@ -313,16 +355,6 @@
       "live": false
     },
     {
-      "id": "xQq-zna-jAc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#マイクラ肝試し2026】今日はとても騒がしい二人と参ります🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/xQq-zna-jAc/hqdefault.jpg",
-      "publishedAt": "2026-09-23T12:59:10Z",
-      "live": false
-    },
-    {
       "id": "-KzVJh8KHAo",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -363,26 +395,6 @@
       "live": false
     },
     {
-      "id": "mtU3NoU_WYQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mtU3NoU_WYQ/hqdefault.jpg",
-      "publishedAt": "2026-09-23T09:00:25Z",
-      "live": false
-    },
-    {
-      "id": "p17ll5n_Wtc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】今日は3人で肝試しをしたい！👻【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/p17ll5n_Wtc/hqdefault.jpg",
-      "publishedAt": "2026-09-22T15:43:46Z",
-      "live": false
-    },
-    {
       "id": "pytWeCL4-v8",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -401,47 +413,7 @@
       "thumb": "https://i.ytimg.com/vi/MKml75E1xtg/hqdefault.jpg",
       "publishedAt": "2026-09-22T09:06:47Z",
       "live": false
-    },
-    {
-      "id": "tAd5s6VaNTg",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】お気楽スーパースター#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/tAd5s6VaNTg/hqdefault.jpg",
-      "publishedAt": "2026-09-22T09:00:33Z",
-      "live": false
-    },
-    {
-      "id": "4wgmPPZhNGM",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】低気圧を許すな【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/4wgmPPZhNGM/hqdefault.jpg",
-      "publishedAt": "2026-09-21T16:55:41Z",
-      "live": false
-    },
-    {
-      "id": "W7gi6mpCqBQ",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【BOMBANANA!】どっからどう見てもサイヤ人です【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/W7gi6mpCqBQ/hqdefault.jpg",
-      "publishedAt": "2026-09-21T14:08:23Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "j9hT8ovlfWY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】リスナーさんのラフを完成させてみよう【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/j9hT8ovlfWY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-26T05:00:17Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

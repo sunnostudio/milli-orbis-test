@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T16:11:39.169Z",
+  "updatedAt": "2026-09-26T20:10:36.162Z",
   "streams": [
     {
       "id": "lDer-rtZywg",
@@ -11,12 +11,30 @@
       "status": "upcoming"
     },
     {
+      "id": "x0Avn4-e-jI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T07:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "XtUynAmn8HA",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-27T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fESLeDOor5I",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T11:30:00Z",
       "status": "upcoming"
     },
     {
@@ -114,6 +132,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "fESLeDOor5I",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
+      "publishedAt": "2026-09-26T17:05:25Z",
+      "live": false
+    },
+    {
+      "id": "x0Avn4-e-jI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
+      "publishedAt": "2026-09-26T16:53:42Z",
+      "live": false
+    },
     {
       "id": "BzfDRA8S67w",
       "memberId": "liz",
@@ -392,26 +430,6 @@
       "title": "【恐怖】絶対に怒らせてはいけないAI『Verity』とみんな居なくなった…",
       "thumb": "https://i.ytimg.com/vi/3ykCuRHPaXU/hqdefault.jpg",
       "publishedAt": "2026-09-23T10:00:07Z",
-      "live": false
-    },
-    {
-      "id": "pytWeCL4-v8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【#マイクラ肝試し2026】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pytWeCL4-v8/hqdefault.jpg",
-      "publishedAt": "2026-09-22T15:07:40Z",
-      "live": false
-    },
-    {
-      "id": "MKml75E1xtg",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【全部知ってるかな？】テトミク人気曲メドレー  #歌ってみた 【 #海琳あおい / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MKml75E1xtg/hqdefault.jpg",
-      "publishedAt": "2026-09-22T09:06:47Z",
       "live": false
     }
   ],
