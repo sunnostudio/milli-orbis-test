@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-26T04:11:27.874Z",
+  "updatedAt": "2026-09-26T08:12:38.606Z",
   "streams": [
+    {
+      "id": "j9hT8ovlfWY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【お絵描き】リスナーさんのラフを完成させてみよう【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/j9hT8ovlfWY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-26T05:00:17Z",
+      "status": "live"
+    },
     {
       "id": "t_VMOsim60o",
       "memberId": "koma",
@@ -123,6 +132,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "j9hT8ovlfWY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【お絵描き】リスナーさんのラフを完成させてみよう【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/j9hT8ovlfWY/hqdefault_live.jpg",
+      "publishedAt": "2026-09-26T05:00:17Z",
+      "live": false
+    },
     {
       "id": "xVpRapqd4JY",
       "memberId": "rei",
@@ -374,16 +393,6 @@
       "live": false
     },
     {
-      "id": "8fLC9Uf7q5s",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#マイクラ肝試し2026】こまらこ元気っ子組と過去マップ探索へ出かける。の巻。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8fLC9Uf7q5s/hqdefault.jpg",
-      "publishedAt": "2026-09-22T15:06:15Z",
-      "live": false
-    },
-    {
       "id": "MKml75E1xtg",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -424,5 +433,15 @@
       "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "j9hT8ovlfWY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【お絵描き】リスナーさんのラフを完成させてみよう【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/j9hT8ovlfWY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-26T05:00:17Z",
+      "status": "live"
+    }
+  ]
 }

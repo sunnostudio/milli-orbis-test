@@ -165,13 +165,10 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ",
-      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
-      "album": "ほろはにヶ丘高校 -Covers-",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
-      "en": {
-        "title": "Sis x Love"
-      }
+      "title": "シス×ラブ (feat. Hanon & Kotoha)",
+      "artist": "HoneyWorks",
+      "album": "水声少女 (feat. Hanon & Kotoha)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -189,13 +186,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Pointillist song"
-      }
+      "title": "点描の唄 (feat. 井上苑子)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "青と夏 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "花女花譜": {
       "title": "花女",
@@ -525,10 +519,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "蝶々結び",
+      "artist": "Aimer",
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -558,10 +552,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "うっせぇわ",
-      "artist": "Ado",
-      "album": "うっせぇわ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/82/41/cb8241a3-5324-bbaa-8da2-33c5b29b1c7d/20UMGIM76771.rgb.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -697,9 +694,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1338,7 +1335,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1350,10 +1347,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "Lemon",
+      "title": "IRIS OUT",
       "artist": "米津玄師",
-      "album": "STRAY SHEEP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
+      "album": "IRIS OUT - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
