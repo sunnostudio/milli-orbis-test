@@ -1,5 +1,277 @@
 [
   {
+    "id": "3d_debut_260926_clearfile",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 クリアファイル",
+    "handle": "3d_debut_260926_clearfile",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "clearfile",
+    "category": "生活雑貨・小物",
+    "price": 800,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_aa012ef2-99fe-4b66-8aeb-28d1aadd7bab.png?v=1790423266",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_clearfile",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2027-04-01",
+      "shipTo": "2027-04-28",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2027年4月下旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "生活雑貨・小物",
+    "available": true,
+    "published_at": "2026-09-26T19:21:24+09:00"
+  },
+  {
+    "id": "3d_debut_260926_random_clearpostcard",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 ランダムクリアポストカード全4種",
+    "handle": "3d_debut_260926_random_clearpostcard",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "card",
+    "category": "ブロマイド・カード",
+    "price": 1500,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_b42e9d86-fb6a-475a-823a-c47765bb0bbd.png?v=1790422725",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_random_clearpostcard",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2027-04-01",
+      "shipTo": "2027-04-28",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2027年4月下旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "ブロマイド・カード",
+    "available": true,
+    "published_at": "2026-09-26T19:21:23+09:00"
+  },
+  {
+    "id": "3d_debut_260926_random_kanbadge",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 ランダム缶バッジ全6種",
+    "handle": "3d_debut_260926_random_kanbadge",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "badge",
+    "category": "バッジ・ピンバッジ",
+    "price": 500,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_706ee605-05e7-4204-b267-c018bbcfe379.png?v=1790422749",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_random_kanbadge",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2027-04-01",
+      "shipTo": "2027-04-28",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2027年4月下旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "バッジ・ピンバッジ",
+    "available": true,
+    "published_at": "2026-09-26T19:21:22+09:00"
+  },
+  {
+    "id": "3d_debut_260926_random_card",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 ランダムチェキ風ブロマイド全6種",
+    "handle": "3d_debut_260926_random_card",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "card",
+    "category": "ブロマイド・カード",
+    "price": 500,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_180c95e0-e72f-48ad-9356-d6f22cb1a3de.png?v=1790422772",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_random_card",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2027-04-01",
+      "shipTo": "2027-04-28",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2027年4月下旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "ブロマイド・カード",
+    "available": true,
+    "published_at": "2026-09-26T19:21:21+09:00"
+  },
+  {
+    "id": "3d_debut_260926_talentset",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 タレントセット",
+    "handle": "3d_debut_260926_talentset",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "fullset",
+    "category": "フルセット",
+    "price": 10800,
+    "oldPrice": 11100,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_d8d04301-841e-4784-a4ce-7c072d3171c5.png?v=1790422857",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_talentset",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2026-09-26T00:00:00",
+      "shipTo": "2026-10-26T23:59:00",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2026年9月26日 〜 2026年10月26日"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "フルセット",
+    "available": true,
+    "published_at": "2026-09-26T19:21:20+09:00"
+  },
+  {
+    "id": "3d_debut_260926_fanname_key",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 ファンネームキーホルダー",
+    "handle": "3d_debut_260926_fanname_key",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "stand",
+    "category": "アクリルキーホルダー",
+    "price": 1800,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_ca4692dd-dcdd-4474-becb-d4c42d2a348a.png?v=1790422930",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_fanname_key",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2027-04-01",
+      "shipTo": "2027-04-28",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2027年4月下旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "アクリルキーホルダー",
+    "available": true,
+    "published_at": "2026-09-26T19:21:19+09:00"
+  },
+  {
+    "id": "3d_debut_260926_3layer_acrylicboard",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 三層アクリルボード",
+    "handle": "3d_debut_260926_3layer_acrylicboard",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "stand",
+    "category": "アクリルグッズ",
+    "price": 4200,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_90cae0e1-38c0-4f81-a280-5702fe016ebb.png?v=1790423090",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_3layer_acrylicboard",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2027-04-01",
+      "shipTo": "2027-04-28",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2027年4月下旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "アクリルグッズ",
+    "available": true,
+    "published_at": "2026-09-26T19:21:19+09:00"
+  },
+  {
+    "id": "3d_debut_260926_3d_acrylicstand",
+    "name": "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念 アクリルスタンド",
+    "handle": "3d_debut_260926_3d_acrylicstand",
+    "memberId": "koma",
+    "memberLabel": "",
+    "kind": "stand",
+    "category": "アクリルグッズ",
+    "price": 1800,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_c9c591ac-ad60-4262-9b02-21109a738eb0.png?v=1790423152",
+    "url": "https://shop.milpr.com/products/3d_debut_260926_3d_acrylicstand",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-09-26T00:00:00",
+      "orderTo": "2026-10-26T23:59:00",
+      "shipFrom": "2027-04-01",
+      "shipTo": "2027-04-28",
+      "rawOrder": "2026年9月26日 〜 2026年10月26日",
+      "rawShip": "2027年4月下旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "小廻こま",
+      "眠雲ツクリ",
+      "雨夜リズ"
+    ],
+    "product_type": "アクリルグッズ",
+    "available": true,
+    "published_at": "2026-09-26T19:21:17+09:00"
+  },
+  {
     "id": "oyasumi_voice2026_voice",
     "name": "ミリプロ おやすみボイスコレクション シチュエーションボイス",
     "handle": "oyasumi_voice2026_voice",
@@ -1364,8 +1636,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "眠雲ツクリ"
     ],
     "product_type": "アクリルグッズ",
@@ -1396,8 +1669,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "眠雲ツクリ"
     ],
     "product_type": "バッジ・ピンバッジ",
@@ -1428,8 +1702,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "デジタルグッズ",
       "眠雲ツクリ"
     ],
@@ -1461,8 +1736,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "デジタルグッズ",
       "眠雲ツクリ"
     ],
@@ -1494,8 +1770,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "眠雲ツクリ"
     ],
     "product_type": "生活雑貨・小物",
@@ -1526,8 +1803,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "眠雲ツクリ"
     ],
     "product_type": "ブロマイド・カード",
@@ -1558,8 +1836,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "眠雲ツクリ"
     ],
     "product_type": "ファッション雑貨・アパレル",
@@ -1590,8 +1869,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "眠雲ツクリ"
     ],
     "product_type": "アクリルグッズ",
