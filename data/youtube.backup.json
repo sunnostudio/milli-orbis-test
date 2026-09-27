@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-09-27T12:14:37.383Z",
+  "updatedAt": "2026-09-27T16:11:45.088Z",
   "streams": [
-    {
-      "id": "XtUynAmn8HA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:01:27Z",
-      "status": "live"
-    },
-    {
-      "id": "sBJk5o0zugg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:13:26Z",
-      "status": "live"
-    },
-    {
-      "id": "fESLeDOor5I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:33:01Z",
-      "status": "live"
-    },
-    {
-      "id": "6Q0MOxYQjYk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢出演告知】暴力的にカワイイ in お台場 “PSYQUI feat.音ノ乃のの” として出演❕",
-      "thumb": "https://i.ytimg.com/vi/6Q0MOxYQjYk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T14:59:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "tUZw65HEVPc",
       "memberId": "konomi",
@@ -124,13 +88,13 @@
   ],
   "videos": [
     {
-      "id": "AC7i7JGKRnE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "これから / 眠雲ツクリ 【#眠雲ツクリ3Dお披露目】",
-      "thumb": "https://i.ytimg.com/vi/AC7i7JGKRnE/hqdefault.jpg",
-      "publishedAt": "2026-09-27T12:00:11Z",
+      "id": "sBJk5o0zugg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault.jpg",
+      "publishedAt": "2026-09-27T15:38:30Z",
       "live": false
     },
     {
@@ -139,18 +103,8 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
-      "publishedAt": "2026-09-27T11:33:01Z",
-      "live": false
-    },
-    {
-      "id": "sBJk5o0zugg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault_live.jpg",
-      "publishedAt": "2026-09-27T11:13:26Z",
+      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault.jpg",
+      "publishedAt": "2026-09-27T14:59:49Z",
       "live": false
     },
     {
@@ -159,9 +113,19 @@
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
-      "publishedAt": "2026-09-27T11:01:27Z",
+      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault.jpg",
+      "publishedAt": "2026-09-27T14:20:26Z",
       "live": true
+    },
+    {
+      "id": "AC7i7JGKRnE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "これから / 眠雲ツクリ 【#眠雲ツクリ3Dお披露目】",
+      "thumb": "https://i.ytimg.com/vi/AC7i7JGKRnE/hqdefault.jpg",
+      "publishedAt": "2026-09-27T12:00:11Z",
+      "live": false
     },
     {
       "id": "-Z3JcUR8p-o",
@@ -424,33 +388,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "XtUynAmn8HA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:01:27Z",
-      "status": "live"
-    },
-    {
-      "id": "sBJk5o0zugg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:13:26Z",
-      "status": "live"
-    },
-    {
-      "id": "fESLeDOor5I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:33:01Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
