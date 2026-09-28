@@ -176,7 +176,7 @@
     "memberId": "koma",
     "memberLabel": "",
     "kind": "stand",
-    "category": "アクリルキーホルダー",
+    "category": "アクリルグッズ",
     "price": 1800,
     "oldPrice": null,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_ca4692dd-dcdd-4474-becb-d4c42d2a348a.png?v=1790422930",
@@ -199,7 +199,7 @@
       "眠雲ツクリ",
       "雨夜リズ"
     ],
-    "product_type": "アクリルキーホルダー",
+    "product_type": "アクリルグッズ",
     "available": true,
     "published_at": "2026-09-26T19:21:19+09:00"
   },
@@ -440,7 +440,7 @@
     "memberId": "raco",
     "memberLabel": "",
     "kind": "stand",
-    "category": "アクリルキーホルダー",
+    "category": "アクリルグッズ",
     "price": 1800,
     "oldPrice": null,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_c4c28329-80f9-4283-9f86-d20d68175bd1.png?v=1789214930",
@@ -463,7 +463,7 @@
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
-    "product_type": "アクリルキーホルダー",
+    "product_type": "アクリルグッズ",
     "available": true,
     "published_at": "2026-09-12T19:24:26+09:00"
   },
@@ -1364,8 +1364,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1398,8 +1399,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1432,8 +1434,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1466,8 +1469,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1500,8 +1504,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1534,8 +1539,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1568,8 +1574,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1602,8 +1609,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1900,15 +1908,15 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": "2026年12月下旬〜2027年3月中旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "甘狼このみ"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:08+09:00"
   },
   {
@@ -1933,15 +1941,15 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": "2026年12月下旬〜2027年3月中旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "甘狼このみ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:08+09:00"
   },
   {
@@ -1966,15 +1974,15 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": "2026年12月下旬〜2027年3月中旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "甘狼このみ"
     ],
     "product_type": "バッジ・ピンバッジ",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:07+09:00"
   },
   {
@@ -1999,15 +2007,15 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": "2026年12月下旬〜2027年3月中旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "甘狼このみ"
     ],
     "product_type": "ブロマイド・カード",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:06+09:00"
   },
   {
@@ -2032,15 +2040,15 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": "2026年12月下旬〜2027年3月中旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "甘狼このみ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:06+09:00"
   },
   {
@@ -2065,16 +2073,16 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": null
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "デジタルグッズ",
       "甘狼このみ"
     ],
     "product_type": "ボイス",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:05+09:00"
   },
   {
@@ -2099,15 +2107,15 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": "2026年12月下旬〜2027年3月中旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "甘狼このみ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:04+09:00"
   },
   {
@@ -2132,16 +2140,16 @@
       "rawOrder": "2026年8月28日 〜 2026年9月28日",
       "rawShip": "2026年8月28日 〜 2026年9月28日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "デジタルグッズ",
       "甘狼このみ"
     ],
     "product_type": "フルセット",
-    "available": true,
+    "available": false,
     "published_at": "2026-08-28T20:09:03+09:00"
   },
   {
@@ -12791,7 +12799,7 @@
     "memberId": "koma",
     "memberLabel": "",
     "kind": "stand",
-    "category": "アクリルキーホルダー",
+    "category": "アクリルグッズ",
     "price": 880,
     "oldPrice": null,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20251016_koma20mannin_touka-4.png?v=1762449838",
@@ -12812,7 +12820,7 @@
     "tags": [
       "小廻こま"
     ],
-    "product_type": "アクリルキーホルダー",
+    "product_type": "アクリルグッズ",
     "available": false,
     "published_at": "2025-11-25T21:22:51+09:00"
   },
