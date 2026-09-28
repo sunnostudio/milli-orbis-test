@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-27",
+  "generatedAt": "2026-09-28",
   "songs": {
     "ラグトレイン": {
       "title": "ラグトレイン",
@@ -697,9 +697,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "P丸様。",
-      "album": "Sunny!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
+      "artist": "かいりきベア",
+      "album": "バグエフェクト",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -756,10 +756,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "ザ・コーリング",
+      "album": "Before The World Turns To Dust",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/04/11/c60411cc-e857-2a41-f642-6b959d7fc1dc/823375436591_Cover.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1015,9 +1015,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1623,10 +1623,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
-      "title": "助演男優賞",
-      "artist": "Creepy Nuts",
-      "album": "助演男優賞 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
+      "title": "Goodbye",
+      "artist": "SEKAI NO OWARI",
+      "album": "Lip",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",
@@ -1644,10 +1644,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "ロマンティックいか焼き",
-      "artist": "乃木坂46",
-      "album": "君の名は希望 TypeA - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",

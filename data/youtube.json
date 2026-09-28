@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T20:11:06.019Z",
+  "updatedAt": "2026-09-28T00:17:48.777Z",
   "streams": [
     {
       "id": "tUZw65HEVPc",
@@ -87,6 +87,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "vUEQrpry9E4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault.jpg",
+      "publishedAt": "2026-09-27T23:46:26Z",
+      "live": false
+    },
     {
       "id": "sBJk5o0zugg",
       "memberId": "mahoro",
@@ -375,16 +385,6 @@
       "title": "【絶体絶命】迫りくるマグマから2択だけで逃げ切れるのか！？【マイクラ】",
       "thumb": "https://i.ytimg.com/vi/wAWXlt9_oL4/hqdefault.jpg",
       "publishedAt": "2026-09-24T09:00:04Z",
-      "live": false
-    },
-    {
-      "id": "-8B1LyFNFxU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 NTE 】新キャラ・新コンテンツにわくわくなのだ～！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-8B1LyFNFxU/hqdefault.jpg",
-      "publishedAt": "2026-09-23T13:37:02Z",
       "live": false
     }
   ],
