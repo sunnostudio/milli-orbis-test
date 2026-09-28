@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T16:13:33.583Z",
+  "updatedAt": "2026-09-28T20:10:54.121Z",
   "streams": [
     {
       "id": "M_IG20Hhx2M",
@@ -47,6 +47,15 @@
       "status": "upcoming"
     },
     {
+      "id": "nElUBc_Ji-Y",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【📢グッズ情報】3Dお披露目記念グッズ受注開始！",
+      "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-12T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -84,6 +93,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "qei_BlNv1kU",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "デビットビット / 音ノ瀬らこ (cover)",
+      "thumb": "https://i.ytimg.com/vi/qei_BlNv1kU/hqdefault.jpg",
+      "publishedAt": "2026-09-28T15:42:43Z",
+      "live": false
+    },
     {
       "id": "FtROdoYN3qQ",
       "memberId": "akubi",
@@ -373,16 +392,6 @@
       "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault.jpg",
       "publishedAt": "2026-09-25T10:50:50Z",
       "live": true
-    },
-    {
-      "id": "3IsFnWRGfhA",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【MInecraft】マイクラ肝試し２０２６楽しむぞー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault.jpg",
-      "publishedAt": "2026-09-25T10:08:05Z",
-      "live": false
     }
   ],
   "live": []

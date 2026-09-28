@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-28T12:15:54.625Z",
+  "updatedAt": "2026-09-28T16:13:33.583Z",
   "streams": [
-    {
-      "id": "B5txXANsio0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T11:02:01Z",
-      "status": "live"
-    },
-    {
-      "id": "Qzn4vUZk32c",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Qzn4vUZk32c/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T12:01:31Z",
-      "status": "live"
-    },
-    {
-      "id": "tUZw65HEVPc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢グッズ情報】甘狼このみ 新衣装記念グッズ 2026 発売中！",
-      "thumb": "https://i.ytimg.com/vi/tUZw65HEVPc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T14:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "M_IG20Hhx2M",
       "memberId": "konomi",
@@ -112,13 +85,33 @@
   ],
   "videos": [
     {
-      "id": "Qzn4vUZk32c",
+      "id": "FtROdoYN3qQ",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "声で妹を操れるゲームがあるらしい【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/FtROdoYN3qQ/hqdefault.jpg",
+      "publishedAt": "2026-09-28T15:40:21Z",
+      "live": false
+    },
+    {
+      "id": "B5txXANsio0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault.jpg",
+      "publishedAt": "2026-09-28T14:22:19Z",
+      "live": false
+    },
+    {
+      "id": "5WMqEhlPUpw",
       "memberId": "rei",
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Qzn4vUZk32c/hqdefault_live.jpg",
-      "publishedAt": "2026-09-28T12:01:31Z",
+      "thumb": "https://i.ytimg.com/vi/5WMqEhlPUpw/hqdefault.jpg",
+      "publishedAt": "2026-09-28T14:02:37Z",
       "live": false
     },
     {
@@ -129,16 +122,6 @@
       "title": "実家に顔出さないのにね〜笑┊︎#デビットビット #音ノ乃のの #歌ってみた #shorts",
       "thumb": "https://i.ytimg.com/vi/Kqq5vpku-o0/hqdefault.jpg",
       "publishedAt": "2026-09-28T11:35:07Z",
-      "live": false
-    },
-    {
-      "id": "B5txXANsio0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault_live.jpg",
-      "publishedAt": "2026-09-28T11:02:01Z",
       "live": false
     },
     {
@@ -400,36 +383,7 @@
       "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault.jpg",
       "publishedAt": "2026-09-25T10:08:05Z",
       "live": false
-    },
-    {
-      "id": "qD6JZQPGTt4",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qD6JZQPGTt4/hqdefault.jpg",
-      "publishedAt": "2026-09-25T09:03:06Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "B5txXANsio0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T11:02:01Z",
-      "status": "live"
-    },
-    {
-      "id": "Qzn4vUZk32c",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Qzn4vUZk32c/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T12:01:31Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
