@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-09-29",
   "songs": {
     "ラグトレイン": {
       "title": "ラグトレイン",
@@ -229,9 +229,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "カグラナナ",
-      "album": "Astrolabe",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
+      "artist": "Lamu",
+      "album": "New Beginning - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -700,18 +700,18 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
     },
     "心做し": {
       "title": "心做し",
-      "artist": "Sou",
-      "album": "深層から",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
+      "artist": "majiko",
+      "album": "Contrast",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -1185,10 +1185,10 @@ window.SONG_MASTER = {
       }
     },
     "雨き声残響acoustic.": {
-      "title": "セトリ (feat. Gang Boy)",
-      "artist": "フジハラタク",
-      "album": "hello good day",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg"
+      "title": "六月は雨上がりの街を書く",
+      "artist": "ヨルシカ",
+      "album": "だから僕は音楽を辞めた",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg"
     },
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
@@ -1353,10 +1353,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "IRIS OUT",
+      "title": "Lemon",
       "artist": "米津玄師",
-      "album": "IRIS OUT - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
+      "album": "STRAY SHEEP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1458,10 +1458,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Es (feat. 初音ミク)",
-      "artist": "PALZ",
-      "album": "Es (feat. 初音ミク) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
+      "title": "Give me a brains",
+      "artist": "RAXISS",
+      "album": "俺の城 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
