@@ -229,9 +229,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "Lamu",
-      "album": "New Beginning - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
+      "artist": "カグラナナ",
+      "album": "Astrolabe",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -498,13 +498,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Let's dance"
-      }
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -546,10 +543,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "-error-niki": {
-      "title": "-ERROR (feat. Kradness)",
-      "artist": "niki",
-      "album": "KRAD MATRiX",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/36/9e/2e/369e2e3a-b602-54e5-bd4a-8f4342e18a63/QWCE_00425_itunes.png/600x600bb.jpg"
+      "title": "ERROR",
+      "artist": "niki & リリィ",
+      "album": "ERROR",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b5/a1/da/b5a1da2c-b4f4-993b-29bd-c9b5d4d8db08/4511820-95893.jpg/600x600bb.jpg"
     },
     "チェリポップ": {
       "title": "チェリーポップ",
@@ -558,13 +555,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1185,10 +1179,10 @@ window.SONG_MASTER = {
       }
     },
     "雨き声残響acoustic.": {
-      "title": "六月は雨上がりの街を書く",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg"
+      "title": "セトリ (feat. Gang Boy)",
+      "artist": "フジハラタク",
+      "album": "hello good day",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg"
     },
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
@@ -1353,10 +1347,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "Lemon",
+      "title": "IRIS OUT",
       "artist": "米津玄師",
-      "album": "STRAY SHEEP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
+      "album": "IRIS OUT - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1488,10 +1482,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/d9/17/f4d917db-8c8c-1823-e9c3-3704d7e61881/20UMGIM22068.rgb.jpg/600x600bb.jpg"
     },
     "猫猫的宇宙論.": {
-      "title": "シュガーソングとビターステップ",
-      "artist": "鹿乃",
-      "album": "アルストロメリア",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b4/61/dc/b461dc57-7509-22f1-2098-00ba3ab94777/1000701238_kano_Alstromeria_tsujo_Jkt.jpg/600x600bb.jpg"
+      "title": "ミッドナイトシアター",
+      "artist": "鹿乃 & 根本凪",
+      "album": "コンパスソング - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/00/de/f700deda-bedc-539d-f872-7b7012b6ffca/859756574767_cover.jpg/600x600bb.jpg"
     },
     "別の人の彼女になったよarrange.": {
       "title": "执笔江湖",
@@ -1721,8 +1715,8 @@ window.SONG_MASTER = {
     "ウタカタララバイ": {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "album": "ウタの歌 ONE PIECE FILM RED",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/42/a3/cc/42a3cc35-fdb7-2ae7-02f3-e5a90f32eb8e/22UMGIM74128.rgb.jpg/600x600bb.jpg",
+      "album": "Adoのベストアドバム",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/be/c3/a6bec30f-8698-b206-73ad-a559e3f3edc6/25UMGIM35010.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Utakatararabai"
       }
