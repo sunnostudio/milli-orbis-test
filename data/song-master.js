@@ -171,10 +171,13 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ (feat. Hanon & Kotoha)",
-      "artist": "HoneyWorks",
-      "album": "水声少女 (feat. Hanon & Kotoha)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
+      "en": {
+        "title": "Sis x Love"
+      }
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -561,10 +564,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "うっせぇわ",
-      "artist": "Ado",
-      "album": "うっせぇわ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/82/41/cb8241a3-5324-bbaa-8da2-33c5b29b1c7d/20UMGIM76771.rgb.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1185,10 +1188,10 @@ window.SONG_MASTER = {
       }
     },
     "雨き声残響acoustic.": {
-      "title": "六月は雨上がりの街を書く",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg"
+      "title": "セトリ (feat. Gang Boy)",
+      "artist": "フジハラタク",
+      "album": "hello good day",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg"
     },
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
@@ -1647,10 +1650,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
