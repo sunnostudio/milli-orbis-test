@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-29T16:13:43.127Z",
+  "updatedAt": "2026-09-29T20:13:12.201Z",
   "streams": [
+    {
+      "id": "rn5EKqLrLU4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-30T10:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "M_IG20Hhx2M",
       "memberId": "konomi",
@@ -93,6 +102,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "rn5EKqLrLU4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
+      "publishedAt": "2026-09-29T17:00:46Z",
+      "live": true
+    },
     {
       "id": "qei_BlNv1kU",
       "memberId": "raco",
@@ -381,16 +400,6 @@
       "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault.jpg",
       "publishedAt": "2026-09-25T14:00:33Z",
-      "live": false
-    },
-    {
-      "id": "Uvz0tf2tGIE",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "狂乱 Hey Kids!! / 夕霧レイ(cover)",
-      "thumb": "https://i.ytimg.com/vi/Uvz0tf2tGIE/hqdefault.jpg",
-      "publishedAt": "2026-09-25T12:30:09Z",
       "live": false
     }
   ],
