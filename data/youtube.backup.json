@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-30T12:16:23.866Z",
+  "updatedAt": "2026-09-30T16:14:18.400Z",
   "streams": [
-    {
-      "id": "rn5EKqLrLU4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T10:01:09Z",
-      "status": "live"
-    },
-    {
-      "id": "geTeaF60R4o",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T11:01:41Z",
-      "status": "live"
-    },
-    {
-      "id": "M_IG20Hhx2M",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』発売中！",
-      "thumb": "https://i.ytimg.com/vi/M_IG20Hhx2M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T14:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "3mwnuXT6UNU",
       "memberId": "akubi",
@@ -121,23 +94,23 @@
   ],
   "videos": [
     {
+      "id": "rn5EKqLrLU4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault.jpg",
+      "publishedAt": "2026-09-30T13:37:37Z",
+      "live": true
+    },
+    {
       "id": "geTeaF60R4o",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
-      "publishedAt": "2026-09-30T11:01:41Z",
-      "live": true
-    },
-    {
-      "id": "rn5EKqLrLU4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-30T10:01:09Z",
+      "publishedAt": "2026-09-30T12:54:09Z",
       "live": true
     },
     {
@@ -421,24 +394,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "rn5EKqLrLU4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T10:01:09Z",
-      "status": "live"
-    },
-    {
-      "id": "geTeaF60R4o",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T11:01:41Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
