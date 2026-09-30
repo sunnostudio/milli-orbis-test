@@ -382,6 +382,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "デビットビット",
+      "key": "デビットビット",
+      "urls": [
+        {
+          "id": "qei_BlNv1kU",
+          "memberId": "raco",
+          "publishedAt": "2026-09-30"
+        }
+      ]
+    },
+    {
       "title": "ラグトレイン",
       "key": "ラグトレイン",
       "urls": [
