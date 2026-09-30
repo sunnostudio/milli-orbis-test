@@ -6,32 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Milli Orbis イベントカレンダー
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:milli-orbis-3e4e000f@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
-DTSTART:20260930T100100Z
-DTEND:20260930T120100Z
-SUMMARY:【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】
-URL:https://milli-unishare.pages.dev/#watch=rn5EKqLrLU4
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-39c0964d@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
-DTSTART:20260930T110100Z
-DTEND:20260930T130100Z
-SUMMARY:【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】
-URL:https://milli-unishare.pages.dev/#watch=geTeaF60R4o
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-912963cb@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
-DTSTART:20260930T143000Z
-DTEND:20260930T163000Z
-SUMMARY:【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』発売中！
-URL:https://milli-unishare.pages.dev/#watch=M_IG20Hhx2M
-END:VEVENT
-BEGIN:VEVENT
 UID:milli-orbis-ae4010fa@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261002T120000Z
 DTEND:20261002T140000Z
 SUMMARY:【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】
@@ -39,7 +15,7 @@ URL:https://milli-unishare.pages.dev/#watch=3mwnuXT6UNU
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-4bc26d6b@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261003T145900Z
 DTEND:20261003T165900Z
 SUMMARY:☁眠雲ツクリ 誕生日記念グッズ 2026受注受付中！🔧
@@ -47,7 +23,7 @@ URL:https://milli-unishare.pages.dev/#watch=RjOQyuyucgc
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-4a54b7d0@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261005T140000Z
 DTEND:20261005T160000Z
 SUMMARY:【📢グッズ情報】NOVA水族館コレクション2026受注開始！
@@ -55,7 +31,7 @@ URL:https://milli-unishare.pages.dev/#watch=8XDNCdSicJ8
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-3c17c7af@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261005T142500Z
 DTEND:20261005T162500Z
 SUMMARY:【📢イラスト技法書発売決定】現在予約販売中です！✨
@@ -63,7 +39,7 @@ URL:https://milli-unishare.pages.dev/#watch=sNJXQzJShuA
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1277183d@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261010T145900Z
 DTEND:20261010T165900Z
 SUMMARY:【📢出演告知】音ノ乃のの渡韓します！
@@ -71,7 +47,7 @@ URL:https://milli-unishare.pages.dev/#watch=mABBk-9aZbw
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-79d17f37@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261012T140000Z
 DTEND:20261012T160000Z
 SUMMARY:【📢グッズ情報】3Dお披露目記念グッズ受注開始！
@@ -79,7 +55,7 @@ URL:https://milli-unishare.pages.dev/#watch=nElUBc_Ji-Y
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-b48fc018@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261031T090000Z
 DTEND:20261031T110000Z
 SUMMARY:【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨
@@ -87,7 +63,7 @@ URL:https://milli-unishare.pages.dev/#watch=Np7iIJhRB50
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1f161f66@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261031T133000Z
 DTEND:20261031T153000Z
 SUMMARY:「ミリプロ」×「100時間カレー」コラボ！🍛🍴
@@ -95,7 +71,7 @@ URL:https://milli-unishare.pages.dev/#watch=WEI1si3sFaA
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1352df82@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261101T145900Z
 DTEND:20261101T165900Z
 SUMMARY:【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！
@@ -103,7 +79,7 @@ URL:https://milli-unishare.pages.dev/#watch=h9nYQNJBBts
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-288abf7c@milli-orbis-portal.onrender.com
-DTSTAMP:20260930T121800Z
+DTSTAMP:20260930T161600Z
 DTSTART:20261231T145900Z
 DTEND:20261231T165900Z
 SUMMARY:【📢お知らせ】音ノ乃のの×タイクレコラボレーション！🤍

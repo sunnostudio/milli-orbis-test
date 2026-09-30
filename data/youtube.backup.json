@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T08:14:12.515Z",
+  "updatedAt": "2026-09-30T12:16:23.866Z",
   "streams": [
     {
       "id": "rn5EKqLrLU4",
@@ -7,8 +7,17 @@
       "member": "鹿乃まほろ",
       "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T10:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-30T10:01:09Z",
+      "status": "live"
+    },
+    {
+      "id": "geTeaF60R4o",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-30T11:01:41Z",
+      "status": "live"
     },
     {
       "id": "M_IG20Hhx2M",
@@ -17,6 +26,15 @@
       "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』発売中！",
       "thumb": "https://i.ytimg.com/vi/M_IG20Hhx2M/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-30T14:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "3mwnuXT6UNU",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -103,14 +121,54 @@
   ],
   "videos": [
     {
+      "id": "geTeaF60R4o",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
+      "publishedAt": "2026-09-30T11:01:41Z",
+      "live": true
+    },
+    {
       "id": "rn5EKqLrLU4",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-29T17:00:46Z",
+      "publishedAt": "2026-09-30T10:01:09Z",
       "live": true
+    },
+    {
+      "id": "RZIUvnhskEY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【道連れ】雨夜リズのオリ曲歌ってみた！【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/RZIUvnhskEY/hqdefault.jpg",
+      "publishedAt": "2026-09-30T09:00:24Z",
+      "live": false
+    },
+    {
+      "id": "yTSgzaHn1N8",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【わちゃごな】小廻こまのオリ曲歌ってみた🌂【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/yTSgzaHn1N8/hqdefault.jpg",
+      "publishedAt": "2026-09-30T09:00:10Z",
+      "live": false
+    },
+    {
+      "id": "wOy2pj8Cwks",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/wOy2pj8Cwks/hqdefault.jpg",
+      "publishedAt": "2026-09-30T09:00:06Z",
+      "live": false
     },
     {
       "id": "qei_BlNv1kU",
@@ -361,47 +419,26 @@
       "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault.jpg",
       "publishedAt": "2026-09-26T12:44:58Z",
       "live": false
-    },
-    {
-      "id": "t_VMOsim60o",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【#小廻こま3Dお披露目】よってらっしゃい見てらっしゃい！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/t_VMOsim60o/hqdefault.jpg",
-      "publishedAt": "2026-09-26T11:19:20Z",
-      "live": false
-    },
-    {
-      "id": "SgUj_4_ELLs",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】バレずに逃げ切れ！ブロックに変身してかくれんぼ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/SgUj_4_ELLs/hqdefault.jpg",
-      "publishedAt": "2026-09-26T09:00:35Z",
-      "live": false
-    },
-    {
-      "id": "xVpRapqd4JY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault.jpg",
-      "publishedAt": "2026-09-25T14:24:55Z",
-      "live": false
-    },
-    {
-      "id": "VFjJFumKf_k",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault.jpg",
-      "publishedAt": "2026-09-25T14:00:33Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "rn5EKqLrLU4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-30T10:01:09Z",
+      "status": "live"
+    },
+    {
+      "id": "geTeaF60R4o",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-30T11:01:41Z",
+      "status": "live"
+    }
+  ]
 }
