@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-01T12:17:00.348Z",
+  "updatedAt": "2026-10-01T16:12:30.647Z",
   "streams": [
-    {
-      "id": "5DjwnyOXSM8",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗#眠雲ツクリ3Dお披露目 、みた？〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5DjwnyOXSM8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-01T11:02:58Z",
-      "status": "live"
-    },
-    {
-      "id": "oI0TjxQUEjs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 WARDOGS 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-01T12:00:33Z",
-      "status": "live"
-    },
-    {
-      "id": "kpRiqzzWHtY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-01T12:00:49Z",
-      "status": "live"
-    },
     {
       "id": "3mwnuXT6UNU",
       "memberId": "akubi",
@@ -130,24 +103,34 @@
   ],
   "videos": [
     {
-      "id": "kpRiqzzWHtY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Wardogs】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault_live.jpg",
-      "publishedAt": "2026-10-01T12:00:49Z",
-      "live": false
-    },
-    {
       "id": "oI0TjxQUEjs",
       "memberId": "rei",
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 WARDOGS 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault_live.jpg",
-      "publishedAt": "2026-10-01T12:00:33Z",
+      "title": "【 VALORANT 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault.jpg",
+      "publishedAt": "2026-10-01T15:44:40Z",
       "live": false
+    },
+    {
+      "id": "kpRiqzzWHtY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs→VALORANT】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault.jpg",
+      "publishedAt": "2026-10-01T15:41:45Z",
+      "live": false
+    },
+    {
+      "id": "5DjwnyOXSM8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗#眠雲ツクリ3Dお披露目 、みた？〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5DjwnyOXSM8/hqdefault.jpg",
+      "publishedAt": "2026-10-01T13:31:38Z",
+      "live": true
     },
     {
       "id": "Yp3SlvOWdZI",
@@ -158,16 +141,6 @@
       "thumb": "https://i.ytimg.com/vi/Yp3SlvOWdZI/hqdefault.jpg",
       "publishedAt": "2026-10-01T11:18:17Z",
       "live": false
-    },
-    {
-      "id": "5DjwnyOXSM8",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗#眠雲ツクリ3Dお披露目 、みた？〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5DjwnyOXSM8/hqdefault_live.jpg",
-      "publishedAt": "2026-10-01T11:02:58Z",
-      "live": true
     },
     {
       "id": "mbjEZttNGBU",
@@ -430,33 +403,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "5DjwnyOXSM8",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗#眠雲ツクリ3Dお披露目 、みた？〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5DjwnyOXSM8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-01T11:02:58Z",
-      "status": "live"
-    },
-    {
-      "id": "oI0TjxQUEjs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 WARDOGS 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-01T12:00:33Z",
-      "status": "live"
-    },
-    {
-      "id": "kpRiqzzWHtY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-01T12:00:49Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
