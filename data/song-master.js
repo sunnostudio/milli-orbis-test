@@ -171,12 +171,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
-      "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
       "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+        "title": "Sis x Love"
       }
     },
     "プラネテス": {
@@ -528,10 +528,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "蝶々結び",
+      "artist": "Aimer",
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -1650,10 +1650,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
-      "title": "from the edge (feat. LiSA)",
-      "artist": "FictionJunction",
-      "album": "from the edge (feat. LiSA) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/8c/50/fb8c5074-9f14-0149-4fe9-158269743006/jacket_VVXX00465B00Z_550.jpg/600x600bb.jpg"
+      "title": "ギリギリchop",
+      "artist": "B'z",
+      "album": "ギリギリchop - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/9d/9e/769d9e95-0ccb-397c-c0c5-767c8c0c7d95/BMDR-2018.jpg/600x600bb.jpg"
     },
     "二次元ドリムフィバいました": {
       "title": "We are All Stars!",
