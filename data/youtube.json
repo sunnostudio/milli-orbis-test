@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T00:18:21.098Z",
+  "updatedAt": "2026-10-01T04:13:07.835Z",
   "streams": [
     {
       "id": "3mwnuXT6UNU",
@@ -94,6 +94,16 @@
   ],
   "videos": [
     {
+      "id": "geTeaF60R4o",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault.jpg",
+      "publishedAt": "2026-10-01T01:02:10Z",
+      "live": true
+    },
+    {
       "id": "rn5EKqLrLU4",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -101,16 +111,6 @@
       "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault.jpg",
       "publishedAt": "2026-09-30T13:37:37Z",
-      "live": true
-    },
-    {
-      "id": "geTeaF60R4o",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
-      "publishedAt": "2026-09-30T12:54:09Z",
       "live": true
     },
     {

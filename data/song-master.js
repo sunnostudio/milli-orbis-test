@@ -1214,12 +1214,6 @@ window.SONG_MASTER = {
         "title": "Cryer"
       }
     },
-    "p.h..": {
-      "title": "ハロ/ハワユ(カバー) feat.鹿乃",
-      "artist": "ナノウ(ほえほえP)",
-      "album": "EXIT TUNES PRESENTS 神曲を歌ってみた 3",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/e5/8f/99/e58f9960-afd0-8caa-9b09-b3f0c0243df3/QWCE_00175_itunes.png/600x600bb.jpg"
-    },
     "心拍数#0822acoustic.": {
       "title": "心拍数#0822 (feat. 初音ミク)",
       "artist": "蝶々P",
