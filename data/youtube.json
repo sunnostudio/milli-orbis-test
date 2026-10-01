@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-01T04:13:07.835Z",
+  "updatedAt": "2026-10-01T08:14:16.925Z",
   "streams": [
+    {
+      "id": "kpRiqzzWHtY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Wardogs】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-01T12:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "3mwnuXT6UNU",
       "memberId": "akubi",
@@ -8,6 +17,15 @@
       "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-02T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "2pBSFcTxYrg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【ダレカレ】誰かにとってあなたもわたしも大切なひと【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2pBSFcTxYrg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -93,6 +111,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "2pBSFcTxYrg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【ダレカレ】誰かにとってあなたもわたしも大切なひと【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2pBSFcTxYrg/hqdefault_live.jpg",
+      "publishedAt": "2026-10-01T06:56:20Z",
+      "live": false
+    },
+    {
+      "id": "kpRiqzzWHtY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault_live.jpg",
+      "publishedAt": "2026-10-01T06:12:54Z",
+      "live": false
+    },
     {
       "id": "geTeaF60R4o",
       "memberId": "liz",
@@ -371,26 +409,6 @@
       "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/lDer-rtZywg/hqdefault.jpg",
       "publishedAt": "2026-09-27T07:17:47Z",
-      "live": false
-    },
-    {
-      "id": "BzfDRA8S67w",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【 #雨夜リズ3Dお披露目 】これで一緒に雨宿りできるね【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BzfDRA8S67w/hqdefault.jpg",
-      "publishedAt": "2026-09-26T13:31:46Z",
-      "live": false
-    },
-    {
-      "id": "WjtcVv76D4s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 #眠雲ツクリ3Dお披露目 〗これからも、思い出たくさんつくってあげる！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault.jpg",
-      "publishedAt": "2026-09-26T12:44:58Z",
       "live": false
     }
   ],
