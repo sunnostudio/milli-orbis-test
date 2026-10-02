@@ -171,12 +171,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
-      "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
       "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+        "title": "Sis x Love"
       }
     },
     "プラネテス": {
@@ -240,6 +240,15 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
+      }
+    },
+    "daybreakfrontline": {
+      "title": "DAYBREAK FRONTLINE (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & Hatsune Miku)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM vol.2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/1a/19/881a1906-be30-d547-7651-b0518a6bb446/4511820-60049.jpg/600x600bb.jpg",
+      "en": {
+        "title": "DAYBREAK FRONTLINE (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Toya Aoyagi & Hatsune Miku)"
       }
     },
     "フィナレ。": {
@@ -746,8 +755,8 @@ window.SONG_MASTER = {
     "花の塔さユり": {
       "title": "花の塔",
       "artist": "さユり",
-      "album": "酸欠少女",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/12/a3/fd/12a3fdf5-e49c-4a91-f888-ee9910358b97/4547366578379.jpg/600x600bb.jpg",
+      "album": "花の塔 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/c0/14/c9c014de-4689-087a-35b5-f481e34ea5be/4547366570861.jpg/600x600bb.jpg",
       "en": {
         "title": "flower tower"
       }
@@ -1341,10 +1350,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "IRIS OUT",
+      "title": "Lemon",
       "artist": "米津玄師",
-      "album": "IRIS OUT - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
+      "album": "STRAY SHEEP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1446,10 +1455,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Es (feat. 初音ミク)",
-      "artist": "PALZ",
-      "album": "Es (feat. 初音ミク) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
+      "title": "Give me a brains",
+      "artist": "RAXISS",
+      "album": "俺の城 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1641,10 +1650,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
-      "title": "from the edge (feat. LiSA)",
-      "artist": "FictionJunction",
-      "album": "from the edge (feat. LiSA) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/8c/50/fb8c5074-9f14-0149-4fe9-158269743006/jacket_VVXX00465B00Z_550.jpg/600x600bb.jpg"
+      "title": "ギリギリchop",
+      "artist": "B'z",
+      "album": "ギリギリchop - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/9d/9e/769d9e95-0ccb-397c-c0c5-767c8c0c7d95/BMDR-2018.jpg/600x600bb.jpg"
     },
     "二次元ドリムフィバいました": {
       "title": "We are All Stars!",
