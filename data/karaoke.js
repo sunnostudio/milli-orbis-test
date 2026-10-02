@@ -3164,28 +3164,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "GZK8sQe4E-M",
-    "memberId": "raco",
-    "publishedAt": "2025-07-12",
-    "title": "【 縦型歌枠 】珍しく早く起きたので声出し【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 10283,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I woke up early so I spoke out loud [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "oswm56YnDM4",
-    "memberId": "raco",
-    "publishedAt": "2025-07-12",
-    "title": "【 縦型歌枠 】もうすぐ24万人だぁぁぁ！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 9104,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Almost 240,000 people! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "sZrGuETYpWY",
     "memberId": "tsukuri",
     "publishedAt": "2025-07-12",
@@ -3194,17 +3172,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song Frame] Bacchan said, “Ride the waves you can ride.” [Nemugumo Tsukuri / MilliPro]"
-    }
-  },
-  {
-    "id": "fkeP3O7qe4Y",
-    "memberId": "raco",
-    "publishedAt": "2025-07-11",
-    "title": "【 縦型歌枠 】うおおお華金だぁ！！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 11935,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Oooh, it's kakin! ! ! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -3219,17 +3186,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "OvChq4SIX-U",
-    "memberId": "raco",
-    "publishedAt": "2025-07-10",
-    "title": "【#ドラマソング歌枠リレー】歌で元気をおすそ分け！！【音ノ瀬らこ /ミリプロNova】",
-    "duration": 1822,
-    "songs": [],
-    "en": {
-      "title": "[#Drama Song Singing Relay] Share your energy with songs! ! [Rako Otonose/MilliPro Nova]"
-    }
-  },
-  {
     "id": "AW24meUhkqQ",
     "memberId": "nono",
     "publishedAt": "2025-07-08",
@@ -3238,17 +3194,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] Endurance for 500,000 people! please! [Otononono]"
-    }
-  },
-  {
-    "id": "n7ZTCpZtsK0",
-    "memberId": "raco",
-    "publishedAt": "2025-07-06",
-    "title": "【 縦型歌枠 】歌枠お待たせぇ！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 7381,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Thank you for waiting for the song frame! ! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -3293,17 +3238,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] Gerilla, Gerilla, Gerilla [Nemugumo Tsukuri / Millipro]"
-    }
-  },
-  {
-    "id": "thd6HrG3nIY",
-    "memberId": "raco",
-    "publishedAt": "2025-06-27",
-    "title": "【 縦型歌枠 】歌う歌う歌う！！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 9744,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Sing, sing, sing! ! ! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -3483,17 +3417,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "BfF2H54eQd0",
-    "memberId": "raco",
-    "publishedAt": "2025-06-07",
-    "title": "【  #音ノ瀬らこ1周年  】歌だ！お披露目だ！！告知だァ！！！【 音ノ瀬らこ / ミリプロNova 】",
-    "duration": 10135,
-    "songs": [],
-    "en": {
-      "title": "[#Otonose Rako 1st Anniversary] It’s a song! It's the unveiling! ! Announcement! ! ! [Rako Otonose / Millipro Nova]"
-    }
-  },
-  {
     "id": "u4xILjkPxsk",
     "memberId": "tsukuri",
     "publishedAt": "2025-06-06",
@@ -3502,17 +3425,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] It's over until we reach 50,000 subscribers 5 [Nemugumo Tsukuri / MilliPro]"
-    }
-  },
-  {
-    "id": "6fEdITRecTQ",
-    "memberId": "raco",
-    "publishedAt": "2025-06-04",
-    "title": "【 縦型歌枠 】もうすぐ登録者22万人！？歌うぞ！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 8450,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] 220,000 subscribers soon! ? Let's sing! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -3571,17 +3483,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "p3R4xkZG37o",
-    "memberId": "raco",
-    "publishedAt": "2025-05-28",
-    "title": "【 縦型歌枠 】うたいたいいいいいい【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 8412,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Utai ii ii ii [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "7JPbFiSss6Q",
     "memberId": "yura",
     "publishedAt": "2025-05-28",
@@ -3590,17 +3491,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] Almost 120,000 people! ! Let's sing! ! [Yuragiyura / Millipro]"
-    }
-  },
-  {
-    "id": "MNbs6eKqtmg",
-    "memberId": "raco",
-    "publishedAt": "2025-05-20",
-    "title": "【 縦型歌枠 】高評価5000耐久になっちゃった！？【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 14139,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Highly rated 5000 endurance! ? [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -3626,17 +3516,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "poNvkSP6qR0",
-    "memberId": "raco",
-    "publishedAt": "2025-05-14",
-    "title": "【 縦型歌枠 】深夜にこっそり【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 6860,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Secretly late at night [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "YPEQlV9ixNQ",
     "memberId": "yura",
     "publishedAt": "2025-05-14",
@@ -3648,17 +3527,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "Jyam8_PI1Xc",
-    "memberId": "raco",
-    "publishedAt": "2025-05-10",
-    "title": "【 縦型歌枠 】歌うのだ！！！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 7051,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Sing! ! ! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "sFkasFhTaoc",
     "memberId": "yura",
     "publishedAt": "2025-05-08",
@@ -3667,17 +3535,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] Those who want to be healed, come! I'll just sing a little! [Yuragiyura / Millipro]"
-    }
-  },
-  {
-    "id": "mxg8sLosqSo",
-    "memberId": "raco",
-    "publishedAt": "2025-05-05",
-    "title": "【 縦型歌枠 】GWが…終わるね…【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 14709,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] GW... is over... [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -3714,17 +3571,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "_0Y0i4KpBlk",
-    "memberId": "raco",
-    "publishedAt": "2025-04-25",
-    "title": "【 縦型歌枠 】今週もお疲れ様！歌うど～！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 1168,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Thank you for your hard work this week! Let's sing! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "YuEIJoD1a68",
     "memberId": "yura",
     "publishedAt": "2025-04-25",
@@ -3733,17 +3579,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] I just want to sing a little! ! [Yuragiyura / Millipro]"
-    }
-  },
-  {
-    "id": "r-TrHn7uado",
-    "memberId": "raco",
-    "publishedAt": "2025-04-24",
-    "title": "【 縦型歌枠 】うたううううううう！！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 11379,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Singing! ! ! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -3777,17 +3612,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "110,000 people! ! ! ! ! ! ! [Yuragiyura / Millipro]"
-    }
-  },
-  {
-    "id": "DaEGkvQ3jiE",
-    "memberId": "raco",
-    "publishedAt": "2025-04-13",
-    "title": "【 縦型歌枠 】20万人達成後お知らせあり！？【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 6059,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] We will notify you after reaching 200,000 people! ? [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4165,61 +3989,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "RSmba17quK8",
-    "memberId": "raco",
-    "publishedAt": "2025-04-01",
-    "title": "あの7人で歌枠リレー⁉【音ノ瀬らこ /ミリプロ 】",
-    "duration": 6305,
-    "songs": [],
-    "en": {
-      "title": "Singing relay with those 7 people⁉ [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "ml5N0SKI_Ps",
-    "memberId": "raco",
-    "publishedAt": "2025-03-28",
-    "title": "トップバッター！元気に盛り上げていくぞ！！【#ミリプロ24時間配信リレー】",
-    "duration": 2310,
-    "songs": [],
-    "en": {
-      "title": "Top batter! Let's keep it lively! ! [#Millipro 24-hour delivery relay]"
-    }
-  },
-  {
-    "id": "pIdDW5S8BCw",
-    "memberId": "raco",
-    "publishedAt": "2025-03-28",
-    "title": "【 縦型歌枠 】もうすぐ登録者19万人！？【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 6257,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] 190,000 subscribers soon! ? [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "Xo-7TNHviQw",
-    "memberId": "raco",
-    "publishedAt": "2025-03-26",
-    "title": "【 縦型歌枠 】高評価3000行かないと告知できません！？【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 9922,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] We can't announce unless we get 3000 high ratings! ? [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "rEzV9wJQsAI",
-    "memberId": "raco",
-    "publishedAt": "2025-03-24",
-    "title": "【 縦型歌枠 】歌いたい歌いたい歌いたい【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 8731,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I want to sing, I want to sing, I want to sing [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "h84ubzeU1mI",
     "memberId": "yura",
     "publishedAt": "2025-03-24",
@@ -4253,17 +4022,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "HqHNfU1eY1Q",
-    "memberId": "raco",
-    "publishedAt": "2025-03-12",
-    "title": "【 縦型歌枠 】高評価2000で歌みたサムネ公開！？【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 8919,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Thumbnails of songs with high ratings of 2000 are released! ? [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "iLDmZ0I4KVk",
     "memberId": "yura",
     "publishedAt": "2025-03-09",
@@ -4272,17 +4030,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] Just a little bit! ! ! ! ! [Yuragiyura / Millipro]"
-    }
-  },
-  {
-    "id": "LMptlVQABFU",
-    "memberId": "raco",
-    "publishedAt": "2025-03-04",
-    "title": "【 縦型歌枠 】ミリプロ加入から1年たったらしい！？【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 6947,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Apparently one year has passed since joining MilliPro! ? [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4308,17 +4055,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "UV8zl_YOfc0",
-    "memberId": "raco",
-    "publishedAt": "2025-03-01",
-    "title": "【 縦型歌枠 】18万人耐久！！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 3842,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Endurance for 180,000 people! ! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "z8kBiLDnQhA",
     "memberId": "raco",
     "publishedAt": "2025-02-28",
@@ -4338,17 +4074,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Morning activity / song frame] Good morning, good morning [Yuragiyura / Millipro]"
-    }
-  },
-  {
-    "id": "RO9tWLscY9w",
-    "memberId": "raco",
-    "publishedAt": "2025-02-23",
-    "title": "【 縦型歌枠 】ちょっと歌うらしい【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 5464,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] It seems to be singing a little [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4374,17 +4099,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "dwweQTn97nI",
-    "memberId": "raco",
-    "publishedAt": "2025-02-19",
-    "title": "【歌枠】アカペラバラード縛り！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 9511,
-    "songs": [],
-    "en": {
-      "title": "[Song frame] Acapella ballad binding! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "82zAawQ2yeo",
     "memberId": "yura",
     "publishedAt": "2025-02-19",
@@ -4393,28 +4107,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] Main piano sound source of a relaxing night (lots of nostalgic melodies) [Yuragi Yura / MilliPro]"
-    }
-  },
-  {
-    "id": "PupiVsy54u0",
-    "memberId": "raco",
-    "publishedAt": "2025-02-18",
-    "title": "【 縦型歌枠 】 ゲリラァ！！！！ 【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 5549,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Guerrilla! ! ! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "PcDMRqRCEIE",
-    "memberId": "raco",
-    "publishedAt": "2025-02-13",
-    "title": "【 #海色VTuber歌枠リレー 】ラッコと手繋いでいきません？元気に歌います！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 1801,
-    "songs": [],
-    "en": {
-      "title": "[#Umiiro VTuber singing frame relay] Would you like to hold hands with the sea otter? I'll sing cheerfully! ! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4440,17 +4132,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "53MBoTG4Kn4",
-    "memberId": "raco",
-    "publishedAt": "2025-02-10",
-    "title": "【 縦型歌枠 】 歌う歌う歌う歌う歌う歌う 【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 5085,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Sing, sing, sing, sing, sing [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "Jl3w5HoSiSs",
     "memberId": "yura",
     "publishedAt": "2025-02-07",
@@ -4459,28 +4140,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song quota] 90,000 people endurance singing quota! ! ! ! ! ! Singing Stream [Yuragiyura / MilliPro] #YuranoYasuragi"
-    }
-  },
-  {
-    "id": "7BrbOnEyFYo",
-    "memberId": "raco",
-    "publishedAt": "2025-02-04",
-    "title": "【 縦型歌枠 】 ちょっと歌いたい！ と言いつつ17万人耐久に【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 9514,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I want to sing! While saying that, 170,000 people endured [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "4DMolqxHLcg",
-    "memberId": "raco",
-    "publishedAt": "2025-02-01",
-    "title": "【 縦型歌枠 】 久しぶりに歌うよ～～！ 【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 8397,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I'll be singing for the first time in a while! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4517,28 +4176,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "wic0Kap5uKY",
-    "memberId": "raco",
-    "publishedAt": "2025-01-17",
-    "title": "【歌枠】ボカロ老人会！懐かしさに浸ろうじゃないか【音ノ瀬らこ /ミリプロ 】",
-    "duration": 8954,
-    "songs": [],
-    "en": {
-      "title": "[Song frame] Vocaloid senior citizen's party! Let's soak in the nostalgia [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "t_4byfbF408",
-    "memberId": "raco",
-    "publishedAt": "2025-01-15",
-    "title": "【縦型歌枠】ちょっと歌いたいな～って【音ノ瀬らこ/ミリプロ】",
-    "duration": 4926,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I want to sing a little [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "8WDjtdil5js",
     "memberId": "yura",
     "publishedAt": "2025-01-11",
@@ -4572,50 +4209,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "aszSiGUVsh4",
-    "memberId": "raco",
-    "publishedAt": "2024-12-31",
-    "title": "【縦型歌枠】登録者15万人耐久！今年最後の歌枠【音ノ瀬らこ/ミリプロ】",
-    "duration": 7106,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Endurance for 150,000 subscribers! Last song slot of the year [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "qLKHO4Vc8jg",
-    "memberId": "raco",
-    "publishedAt": "2024-12-30",
-    "title": "【検証歌枠】Shortsの企画を生歌で！？【音ノ瀬らこ/ミリプロ】",
-    "duration": 7711,
-    "songs": [],
-    "en": {
-      "title": "[Verification song frame] Shorts project with live singing! ? [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "rwXtuyaAPGs",
-    "memberId": "raco",
-    "publishedAt": "2024-12-29",
-    "title": "【縦型歌枠】ちょっと歌うよん【音ノ瀬らこ/ミリプロ】",
-    "duration": 9084,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Let's sing a little [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "8Hl8QSEJquw",
-    "memberId": "raco",
-    "publishedAt": "2024-12-23",
-    "title": "【縦型歌枠】登録者14万人耐久！！【音ノ瀬らこ/ミリプロ】",
-    "duration": 8266,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Endurance for 140,000 subscribers! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "AcmJLg68z58",
     "memberId": "yura",
     "publishedAt": "2024-12-22",
@@ -4635,17 +4228,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] I just want to sing a little [Yuragi Yura / MilliPro]"
-    }
-  },
-  {
-    "id": "owbAYc94a5E",
-    "memberId": "raco",
-    "publishedAt": "2024-12-15",
-    "title": "【縦型歌枠】13万人達成はやすぎてびっくり【音ノ瀬らこ/ミリプロ】",
-    "duration": 4674,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I was surprised that we reached 130,000 people so quickly [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -4693,50 +4275,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "7pjbB7jviLs",
-    "memberId": "raco",
-    "publishedAt": "2024-12-09",
-    "title": "【 ＃輝く歌姫Vsinger歌枠リレー 】君に元気をおすそ分け！トップバッターいくぞぉおお！！！【 音ノ瀬らこ/ミリプロ 】",
-    "duration": 2769,
-    "songs": [],
-    "en": {
-      "title": "[#Shining Diva Vsinger Singing Relay] I'll share my energy with you! Let's go to the top batter! ! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "Zcel6SAD8KE",
-    "memberId": "raco",
-    "publishedAt": "2024-12-06",
-    "title": "【半年記念歌枠】お披露目があったりするらしい！？【音ノ瀬らこ /ミリプロ 】",
-    "duration": 4719,
-    "songs": [],
-    "en": {
-      "title": "[Semi-annual commemorative song slot] Apparently there will be a performance! ? [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "SEyFiR6yW7I",
-    "memberId": "raco",
-    "publishedAt": "2024-11-26",
-    "title": "【縦型歌枠】12万人耐久！！(また改めてやります)【音ノ瀬らこ/ミリプロ】",
-    "duration": 6962,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Endurance for 120,000 people! ! (I'll do it again) [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "x_X97U3nvWw",
-    "memberId": "raco",
-    "publishedAt": "2024-11-18",
-    "title": "【縦型歌枠】歌いたくなっちゃったんだ【音ノ瀬らこ/ミリプロ】",
-    "duration": 4640,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I wanted to sing [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "Qble6v62ayM",
     "memberId": "nono",
     "publishedAt": "2024-11-12",
@@ -4759,17 +4297,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "8F6CbwVGeu8",
-    "memberId": "raco",
-    "publishedAt": "2024-11-05",
-    "title": "【縦型歌枠】うたいたーーーーーい！！！【音ノ瀬らこ/ミリプロ】",
-    "duration": 3458,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] I sing! ! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
     "id": "9AysJihG3Kk",
     "memberId": "raco",
     "publishedAt": "2024-11-01",
@@ -4778,50 +4305,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[#Uneven VTuber singing frame relay] Top batter! Get excited! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "KrVnobugG5w",
-    "memberId": "raco",
-    "publishedAt": "2024-10-25",
-    "title": "【歌枠】告知あり‼️セトリ決めてきました！【音ノ瀬らこ /ミリプロ 】",
-    "duration": 5150,
-    "songs": [],
-    "en": {
-      "title": "[Song frame] Announcement available!! ️ I have decided on a set! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "sgWwVr4cY8U",
-    "memberId": "raco",
-    "publishedAt": "2024-10-20",
-    "title": "【縦型歌枠】歌ううううううう！！！【音ノ瀬らこ/ミリプロ】",
-    "duration": 4924,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Sing! ! ! [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "zGpmi8VZOtY",
-    "memberId": "raco",
-    "publishedAt": "2024-10-20",
-    "title": "【縦型歌枠】もうすぐ登録者11万人⁉【音ノ瀬らこ/ミリプロ】",
-    "duration": 6932,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] 110,000 subscribers soon⁉ [Rako Otonose/MilliPro]"
-    }
-  },
-  {
-    "id": "8VH7jkGVXyg",
-    "memberId": "raco",
-    "publishedAt": "2024-10-20",
-    "title": "【縦型歌枠】初配信から4か月経つらしい【音ノ瀬らこ/ミリプロ】",
-    "duration": 7369,
-    "songs": [],
-    "en": {
-      "title": "[Vertical song frame] Apparently 4 months have passed since the first distribution [Rako Otonose/MilliPro]"
     }
   },
   {
