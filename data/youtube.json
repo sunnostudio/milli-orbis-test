@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-10-02T00:17:29.221Z",
+  "updatedAt": "2026-10-02T12:15:23.220Z",
   "streams": [
     {
-      "id": "3mwnuXT6UNU",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-02T12:00:00Z",
-      "status": "upcoming"
+      "id": "ubWa583I6W4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 おうち3D 】ついにおうち3Dマスターしたぞ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T10:58:37Z",
+      "status": "live"
+    },
+    {
+      "id": "LCoON5HWckw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T11:00:49Z",
+      "status": "live"
+    },
+    {
+      "id": "5XOfbzrBqr0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 雑談 〗サイン入れ屋さん、開店〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5XOfbzrBqr0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T11:02:50Z",
+      "status": "live"
     },
     {
       "id": "2pBSFcTxYrg",
@@ -99,9 +117,68 @@
       "thumb": "https://i.ytimg.com/vi/gjos7ccWkac/hqdefault_live.jpg",
       "scheduledStartTime": "2026-12-31T14:59:00Z",
       "status": "upcoming"
+    },
+    {
+      "id": "_Qz5P1BthrE",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜おやすみボイスコレクション受注受付中🛏️⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-01-30T06:00:00Z",
+      "status": "upcoming"
     }
   ],
   "videos": [
+    {
+      "id": "3mwnuXT6UNU",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault_live.jpg",
+      "publishedAt": "2026-10-02T12:00:45Z",
+      "live": false
+    },
+    {
+      "id": "5XOfbzrBqr0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗サイン入れ屋さん、開店〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5XOfbzrBqr0/hqdefault_live.jpg",
+      "publishedAt": "2026-10-02T11:02:50Z",
+      "live": true
+    },
+    {
+      "id": "LCoON5HWckw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault_live.jpg",
+      "publishedAt": "2026-10-02T11:00:49Z",
+      "live": false
+    },
+    {
+      "id": "ubWa583I6W4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 おうち3D 】ついにおうち3Dマスターしたぞ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault_live.jpg",
+      "publishedAt": "2026-10-02T10:58:37Z",
+      "live": false
+    },
+    {
+      "id": "1RD7edfyfYs",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】バレずに顔を出せ！息継ぎが必要なかくれんぼ！",
+      "thumb": "https://i.ytimg.com/vi/1RD7edfyfYs/hqdefault.jpg",
+      "publishedAt": "2026-10-02T09:00:30Z",
+      "live": false
+    },
     {
       "id": "oI0TjxQUEjs",
       "memberId": "rei",
@@ -351,57 +428,35 @@
       "thumb": "https://i.ytimg.com/vi/DaZDk_nTY-Y/hqdefault.jpg",
       "publishedAt": "2026-09-28T09:00:08Z",
       "live": false
-    },
-    {
-      "id": "vUEQrpry9E4",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault.jpg",
-      "publishedAt": "2026-09-27T23:46:26Z",
-      "live": false
-    },
-    {
-      "id": "sBJk5o0zugg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault.jpg",
-      "publishedAt": "2026-09-27T15:38:30Z",
-      "live": false
-    },
-    {
-      "id": "fESLeDOor5I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault.jpg",
-      "publishedAt": "2026-09-27T14:59:49Z",
-      "live": false
-    },
-    {
-      "id": "XtUynAmn8HA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault.jpg",
-      "publishedAt": "2026-09-27T14:20:26Z",
-      "live": true
-    },
-    {
-      "id": "AC7i7JGKRnE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "これから / 眠雲ツクリ 【#眠雲ツクリ3Dお披露目】",
-      "thumb": "https://i.ytimg.com/vi/AC7i7JGKRnE/hqdefault.jpg",
-      "publishedAt": "2026-09-27T12:00:11Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "ubWa583I6W4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 おうち3D 】ついにおうち3Dマスターしたぞ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T10:58:37Z",
+      "status": "live"
+    },
+    {
+      "id": "LCoON5HWckw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T11:00:49Z",
+      "status": "live"
+    },
+    {
+      "id": "5XOfbzrBqr0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 雑談 〗サイン入れ屋さん、開店〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5XOfbzrBqr0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T11:02:50Z",
+      "status": "live"
+    }
+  ]
 }
