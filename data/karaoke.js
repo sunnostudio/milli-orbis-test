@@ -298,7 +298,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-08-04",
     "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 9825,
     "songs": [],
     "en": {
       "title": "Wednesday Yurayura song slot | Summer songs, love songs, etc. [Yuragiyura / Millipro]"
@@ -353,7 +353,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-07-29",
     "title": "水曜ゆらゆら歌枠(仮)｜やっぱちょっと昔の曲って良いよね。【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 5820,
     "songs": [],
     "en": {
       "title": "Wednesday Yurayura song slot (tentative) | It's nice to have songs from the past. [Yuragiyura / Millipro]"
@@ -430,7 +430,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-07-14",
     "title": "水曜ゆらゆら歌枠｜歌を歌う！うろ覚え老人会歌枠も開催中♪【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 9281,
     "songs": [],
     "en": {
       "title": "Wednesday swaying song slot | Sing a song! We are also holding a singing section for the Elderly People's Association ♪ [Yuragiyura / Millipro]"
@@ -463,7 +463,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-07-01",
     "title": "水曜ゆらゆら歌枠｜7月最初の歌枠💓元気にレッツゴー！【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 9222,
     "songs": [],
     "en": {
       "title": "Wednesday Yurayura song slot | First song slot in July 💓 Let's go energetically! [Yuragiyura / Millipro]"
@@ -850,7 +850,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-05-30",
     "title": "朝活ゆらゆら歌枠｜早起きしたので歌ってみた【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 6988,
     "songs": [],
     "en": {
       "title": "Morning activity Yurayura song frame | I woke up early so I tried singing [Yuragiyura / MilliPro]"
@@ -894,7 +894,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-05-27",
     "title": "水曜ゆらゆら歌枠｜今日は少しだけたくさん歌います【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 5013,
     "songs": [],
     "en": {
       "title": "Wednesday Yurayura song slot | Today I will sing a little bit more [Yuragi Yura / MilliPro]"
@@ -960,7 +960,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-05-19",
     "title": "水曜ゆらゆら歌枠｜おつかれ水曜日！【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 9256,
     "songs": [],
     "en": {
       "title": "Wednesday Yurayura song slot | Otsukare Wednesday! [Yuragiyura / Millipro]"
@@ -1268,7 +1268,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-03-31",
     "title": "【歌枠】ミリプロNOVA設立2周年記念🩵歌うぞ～！！！！【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 3243,
     "songs": [],
     "en": {
       "title": "[Song Frame] 2nd Anniversary of Millipro NOVA 🩵 Let's sing! ! ! ! [Yuragiyura / Millipro]"
@@ -1301,7 +1301,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-03-25",
     "title": "【歌枠】一曲だけでも聴いてください♡【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 6797,
     "songs": [],
     "en": {
       "title": "[Song frame] Please listen to even just one song♡ [Yuragi Yura / MilliPro]"
@@ -1941,7 +1941,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-03-11",
     "title": "【歌枠】アニソン縛り🎤懐メロ沢山歌います！【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 11432,
     "songs": [],
     "en": {
       "title": "[Song frame] Anime song binding 🎤 I will sing a lot of old melodies! [Yuragiyura / Millipro]"
@@ -1985,7 +1985,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-03-01",
     "title": "【 歌枠 】3月初めの縦型歌枠♪バラード多めかも！【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 8628,
     "songs": [],
     "en": {
       "title": "[Song slot] Vertical song slot at the beginning of March ♪ There may be a lot of ballads! [Yuragiyura / Millipro]"
@@ -2007,7 +2007,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-02-23",
     "title": "200高評価で歌う曲が増える歌枠！終わるか増えるかは君たち次第。【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 11131,
     "songs": [],
     "en": {
       "title": "A song slot where you can sing more songs with 200 high ratings! Whether it ends or increases is up to you. [Yuragiyura / Millipro]"
@@ -2018,7 +2018,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-02-23",
     "title": "【歌枠】猫の日は昨日でしたね【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 5375,
     "songs": [],
     "en": {
       "title": "[Song frame] Cat Day was yesterday [Yuragi Yura / MilliPro]"
@@ -2051,7 +2051,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-02-18",
     "title": "【 歌枠 】 ただいま！そして20万人ありがとう！ ※告知あり【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 12318,
     "songs": [],
     "en": {
       "title": "[Song frame] I'm home! And thank you 200,000 people! *Notice available [Yuragi Yura / MilliPro]"
@@ -2084,7 +2084,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-02-04",
     "title": "【歌枠】今日も無理しない歌枠♪【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 10210,
     "songs": [],
     "en": {
       "title": "[Song frame] A song frame that won't force you today♪ [Yuragi Yura / Millipro]"
@@ -2161,7 +2161,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-01-17",
     "title": "【縦型歌枠】懐かしい曲を中心に、ゆったり歌います❤️‍🔥【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 8782,
     "songs": [],
     "en": {
       "title": "[Vertical song frame] Sing slowly, focusing on nostalgic songs ❤️‍🔥 [Yuragi Yura / MilliPro]"
@@ -2469,7 +2469,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2025-11-17",
     "title": "【 歌枠 】歌えば儚いミズクラゲのVtuberです。【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 9477,
     "songs": [],
     "en": {
       "title": "[Song Frame] I'm a Vtuber who is a moon jellyfish whose singing is fleeting. [Yuragiyura / Millipro]"
@@ -2513,7 +2513,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2025-11-13",
     "title": "【 縦型歌枠 】高評価3000→4000耐久！久しぶりにやるぞ✊❤️‍🔥【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 8922,
     "songs": [],
     "en": {
       "title": "[Vertical song frame] Highly rated 3000 → 4000 durability! It’s been a while since I’ve done it ✊❤️‍🔥 [Yuragi Yura / MilliPro]"
@@ -2546,7 +2546,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2025-11-02",
     "title": "【 縦型歌枠 】ちょっとだけ歌うなど【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 7183,
     "songs": [],
     "en": {
       "title": "[Vertical song frame] Sing a little bit [Yuragi Yura / MilliPro]"
@@ -2832,7 +2832,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2025-08-24",
     "title": "【 歌枠 】チル歌枠。歌い足りないので歌います【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 7421,
     "songs": [],
     "en": {
       "title": "[Song frame] Chill song frame. I don’t sing enough, so I’ll sing it [Yuragi Yura / MilliPro]"
@@ -4236,6 +4236,28 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "h84ubzeU1mI",
+    "memberId": "yura",
+    "publishedAt": "2025-03-24",
+    "title": "【 歌枠 】音響見てもらったのでお試し歌枠！【 ゆらぎゆら / ミリプロ 】 #ゆらのやすらぎ",
+    "duration": 7614,
+    "songs": [],
+    "en": {
+      "title": "[Singing slot] I asked them to check out the acoustics, so I decided to try out the singing slot! [Yuragiyura / MilliPro] #YuranoYasuragi"
+    }
+  },
+  {
+    "id": "2lZ33PazPSs",
+    "memberId": "yura",
+    "publishedAt": "2025-03-20",
+    "title": "【 歌枠 】10万人耐久！！！プチお披露目あり！！！【 ゆらぎゆら / ミリプロ 】 #ゆらのやすらぎ",
+    "duration": 8796,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Endurance for 100,000 people! ! ! There will be a small unveiling! ! ! [Yuragiyura / MilliPro] #YuranoYasuragi"
+    }
+  },
+  {
     "id": "ZAIZt53I0Ao",
     "memberId": "yura",
     "publishedAt": "2025-03-17",
@@ -4258,6 +4280,17 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "iLDmZ0I4KVk",
+    "memberId": "yura",
+    "publishedAt": "2025-03-09",
+    "title": "【 歌枠 】ちょっとだけね！！！！！【ゆらぎゆら / ミリプロ】",
+    "duration": 7359,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Just a little bit! ! ! ! ! [Yuragiyura / Millipro]"
+    }
+  },
+  {
     "id": "LMptlVQABFU",
     "memberId": "raco",
     "publishedAt": "2025-03-04",
@@ -4266,6 +4299,28 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] Apparently one year has passed since joining MilliPro! ? [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "rYYpuUw2Oa4",
+    "memberId": "yura",
+    "publishedAt": "2025-03-04",
+    "title": "【 歌枠 】寝る前に一曲どうですか？睡眠導入歌枠【 ゆらぎゆら / ミリプロ 】 #ゆらのやすらぎ",
+    "duration": 5709,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] How about a song before going to bed? Sleep introduction song frame [Yuragiyura / MilliPro] #YuranoYasuragi"
+    }
+  },
+  {
+    "id": "Aq1eH_eLb40",
+    "memberId": "yura",
+    "publishedAt": "2025-03-03",
+    "title": "【 歌枠 】１時間だけよ【ゆらぎゆら / ミリプロ】",
+    "duration": 3776,
+    "songs": [],
+    "en": {
+      "title": "[Song time] Only 1 hour [Yuragi Yura / MilliPro]"
     }
   },
   {
@@ -4291,6 +4346,17 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "W2p1Yo7tmic",
+    "memberId": "yura",
+    "publishedAt": "2025-02-28",
+    "title": "【 朝活 / 歌枠 】おはようおはよう【ゆらぎゆら / ミリプロ】",
+    "duration": 6189,
+    "songs": [],
+    "en": {
+      "title": "[Morning activity / song frame] Good morning, good morning [Yuragiyura / Millipro]"
+    }
+  },
+  {
     "id": "RO9tWLscY9w",
     "memberId": "raco",
     "publishedAt": "2025-02-23",
@@ -4313,6 +4379,17 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "l71vW6TU2f0",
+    "memberId": "yura",
+    "publishedAt": "2025-02-22",
+    "title": "【 歌枠 】ちょっと歌いたくなった【ゆらぎゆら / ミリプロ】",
+    "duration": 5000,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] I just wanted to sing [Yuragi Yura / MilliPro]"
+    }
+  },
+  {
     "id": "dwweQTn97nI",
     "memberId": "raco",
     "publishedAt": "2025-02-19",
@@ -4321,6 +4398,17 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] Acapella ballad binding! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "82zAawQ2yeo",
+    "memberId": "yura",
+    "publishedAt": "2025-02-19",
+    "title": "【 歌枠 】安らぐ夜のピアノ音源メイン ( 懐メロ多め )【ゆらぎゆら / ミリプロ】",
+    "duration": 7645,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Main piano sound source of a relaxing night (lots of nostalgic melodies) [Yuragi Yura / MilliPro]"
     }
   },
   {
@@ -4346,6 +4434,28 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "I4uQR7jABh0",
+    "memberId": "yura",
+    "publishedAt": "2025-02-12",
+    "title": "【 歌枠 】高評価２０００目指す！Singing Stream 【 ゆらぎゆら / ミリプロ 】 #ゆらのやすらぎ",
+    "duration": 10077,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Aiming for a high rating of 2000! Singing Stream [Yuragiyura / MilliPro] #YuranoYasuragi"
+    }
+  },
+  {
+    "id": "sm75cDUsACo",
+    "memberId": "yura",
+    "publishedAt": "2025-02-11",
+    "title": "【 縦型歌枠 】ちょっとだけ歌いたい！！！！！！【ゆらぎゆら / ミリプロ】",
+    "duration": 7388,
+    "songs": [],
+    "en": {
+      "title": "[Vertical song frame] I just want to sing a little! ! ! ! ! ! [Yuragiyura / Millipro]"
+    }
+  },
+  {
     "id": "53MBoTG4Kn4",
     "memberId": "raco",
     "publishedAt": "2025-02-10",
@@ -4354,6 +4464,17 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] Sing, sing, sing, sing, sing [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "Jl3w5HoSiSs",
+    "memberId": "yura",
+    "publishedAt": "2025-02-07",
+    "title": "【 歌枠 】9万人耐久歌枠！！！！！！Singing Stream 【 ゆらぎゆら / ミリプロ 】 #ゆらのやすらぎ",
+    "duration": 23546,
+    "songs": [],
+    "en": {
+      "title": "[Song quota] 90,000 people endurance singing quota! ! ! ! ! ! Singing Stream [Yuragiyura / MilliPro] #YuranoYasuragi"
     }
   },
   {
@@ -4376,6 +4497,28 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] I'll be singing for the first time in a while! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "HRw8X131CSo",
+    "memberId": "yura",
+    "publishedAt": "2025-02-01",
+    "title": "【 歌枠 】作業BGMにどうぞ。【ゆらぎゆら / ミリプロ】",
+    "duration": 12141,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Please use as work BGM. [Yuragiyura / Millipro]"
+    }
+  },
+  {
+    "id": "YVlDXjzMVXY",
+    "memberId": "yura",
+    "publishedAt": "2025-01-31",
+    "title": "【 歌枠 】大好きなさユりちゃんの歌を歌うよ。 【 ゆらぎゆら / ミリプロ 】 #ゆらのやすらぎ",
+    "duration": 10479,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] I will sing a song by my beloved Sayuri-chan. [Yuragiyura / MilliPro] #YuranoYasuragi"
     }
   },
   {
@@ -4409,6 +4552,17 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Vertical song frame] I want to sing a little [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "8WDjtdil5js",
+    "memberId": "yura",
+    "publishedAt": "2025-01-11",
+    "title": "【歌枠】今日は起きてる歌枠【ゆらぎゆら / ミリプロ】",
+    "duration": 5381,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Today is the song frame that is happening [Yuragi Yura / Millipro]"
     }
   },
   {
@@ -5171,6 +5325,17 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "p9M1Nx4FibA",
+    "memberId": "nono",
+    "publishedAt": "2024-02-28",
+    "title": "【歌枠 / Singing Stream】 突然の声だし【音ノ乃のの】",
+    "duration": 5417,
+    "songs": [],
+    "en": {
+      "title": "[Song frame / Singing Stream] Sudden voice [Otononono]"
+    }
+  },
+  {
     "id": "RivzBILyYKI",
     "memberId": "nono",
     "publishedAt": "2024-02-28",
@@ -5204,6 +5369,28 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "qImPC3vIPXw",
+    "memberId": "nono",
+    "publishedAt": "2024-02-24",
+    "title": "【歌枠 / Singing Stream】息抜き【音ノ乃のの】",
+    "duration": 3897,
+    "songs": [],
+    "en": {
+      "title": "[Song frame / Singing Stream] Breather [Otononono]"
+    }
+  },
+  {
+    "id": "Q0PwThG-ywQ",
+    "memberId": "nono",
+    "publishedAt": "2024-02-19",
+    "title": "【歌枠 / Singing Stream】うたうます【音ノ乃のの】",
+    "duration": 7034,
+    "songs": [],
+    "en": {
+      "title": "[Song frame / Singing Stream] Singing [Otononono]"
+    }
+  },
+  {
     "id": "Ox2bBcnQmEA",
     "memberId": "konomi",
     "publishedAt": "2024-02-13",
@@ -5215,6 +5402,28 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "Lzol8Tmk_eQ",
+    "memberId": "nono",
+    "publishedAt": "2024-01-23",
+    "title": "【作業 / 雑談】録音しますよって【音ノ乃のの】",
+    "duration": 4247,
+    "songs": [],
+    "en": {
+      "title": "[Work/Chat] I'll record it [Otononono]"
+    }
+  },
+  {
+    "id": "CMbbj0j2Mjs",
+    "memberId": "nono",
+    "publishedAt": "2024-01-20",
+    "title": "【歌枠 / Singing Stream】今日はのんびり歌います【音ノ乃のの】",
+    "duration": 6960,
+    "songs": [],
+    "en": {
+      "title": "[Song Frame / Singing Stream] Today I will sing leisurely [Otononono]"
+    }
+  },
+  {
     "id": "jaIGbtP-5BE",
     "memberId": "nono",
     "publishedAt": "2024-01-10",
@@ -5223,6 +5432,28 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] It won't end until we reach 2,000 people. [Otononono]"
+    }
+  },
+  {
+    "id": "fSgPf7hA1cs",
+    "memberId": "nono",
+    "publishedAt": "2024-01-06",
+    "title": "【作業 / 雑談】録音しますよって【音ノ乃のの】",
+    "duration": 7459,
+    "songs": [],
+    "en": {
+      "title": "[Work/Chat] I'll record it [Otononono]"
+    }
+  },
+  {
+    "id": "q7URvTzczco",
+    "memberId": "nono",
+    "publishedAt": "2023-12-29",
+    "title": "【歌枠 / Singing Stream】 寝起き声だし！【音ノ乃のの/ミリプロ】",
+    "duration": 6155,
+    "songs": [],
+    "en": {
+      "title": "[Song frame / Singing Stream] It's a voice that wakes up! [Otononono/MilliPro]"
     }
   },
   {
@@ -5248,6 +5479,28 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "AJcBf0vawMw",
+    "memberId": "nono",
+    "publishedAt": "2023-12-13",
+    "title": "【歌枠】Virtual Medley in 2023 Winter / 全力で届けます。よろしくおねがいします！【音ノ乃のの】",
+    "duration": 1803,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Virtual Medley in 2023 Winter / We will deliver it with all our might. Thank you for your support! [Otononono]"
+    }
+  },
+  {
+    "id": "B57d_gqyYE0",
+    "memberId": "nono",
+    "publishedAt": "2023-12-10",
+    "title": "【歌枠 / Singing stream 】のんびりすぎる歌配信【音ノ乃のの / ミリプロ】",
+    "duration": 7481,
+    "songs": [],
+    "en": {
+      "title": "[Song frame / Singing stream] Too relaxing song distribution [Otononono / MilliPro]"
+    }
+  },
+  {
     "id": "8UWmfiZ2TDs",
     "memberId": "nono",
     "publishedAt": "2023-12-08",
@@ -5270,6 +5523,83 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "bKCShkoPmpo",
+    "memberId": "nono",
+    "publishedAt": "2023-12-02",
+    "title": "【#輝け最強歌うまVリレー 】音ノ乃ののです。歌います【音ノ乃のの / ミリプロ】",
+    "duration": 2894,
+    "songs": [],
+    "en": {
+      "title": "[#Shining Strongest Singing V Relay] This is Otonono. I’ll sing [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "ca7n2jc2VsA",
+    "memberId": "nono",
+    "publishedAt": "2023-12-02",
+    "title": "【歌枠 / ライブ 】半年記念だ！感謝を込めて歌います。【音ノ乃のの / ミリプロ】",
+    "duration": 5838,
+    "songs": [],
+    "en": {
+      "title": "[Song frame/Live] It’s a half-year anniversary! I sing with gratitude. [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "dJHOfNCrJ0M",
+    "memberId": "nono",
+    "publishedAt": "2023-11-24",
+    "title": "【歌枠 / Singing stream 】21時告知あり！歌う！【音ノ乃のの / ミリプロ】",
+    "duration": 6955,
+    "songs": [],
+    "en": {
+      "title": "[Singing stream] Announcement at 9pm! sing! [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "JQK0IWJkj_s",
+    "memberId": "nono",
+    "publishedAt": "2023-11-19",
+    "title": "【歌枠 / Singing stream 】歌うんだってさ～！！！【音ノ乃のの / ミリプロ】",
+    "duration": 7519,
+    "songs": [],
+    "en": {
+      "title": "[Singing stream] Singing! ! ! [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "oqUnn8QdkpQ",
+    "memberId": "nono",
+    "publishedAt": "2023-11-16",
+    "title": "【歌枠 / Singing stream  】メンバーシップ解禁記念で歌わせていただきます！【音ノ乃のの / ミリプロ】",
+    "duration": 5929,
+    "songs": [],
+    "en": {
+      "title": "[Singing frame / Singing stream] I will be singing to commemorate the opening of membership! [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "Q_GAy4W2Oy8",
+    "memberId": "nono",
+    "publishedAt": "2023-11-07",
+    "title": "【歌枠 / Singing stream  】嚙んだら即終了です。頑張るらしいです【音ノ乃のの / ミリプロ】",
+    "duration": 3223,
+    "songs": [],
+    "en": {
+      "title": "[Singing stream] As soon as you swallow it, it ends immediately. It seems like I'll do my best [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "_i-AFUTNjHM",
+    "memberId": "nono",
+    "publishedAt": "2023-11-04",
+    "title": "【歌枠 / Singing stream  】歌ったりするらしいです【音ノ乃のの / ミリプロ】",
+    "duration": 7810,
+    "songs": [],
+    "en": {
+      "title": "[Singing stream] Apparently he sings [Otononono / MilliPro]"
+    }
+  },
+  {
     "id": "mELtBVINzE0",
     "memberId": "konomi",
     "publishedAt": "2023-10-31",
@@ -5278,6 +5608,28 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Men only] I want to chat about work for the first time (?)!"
+    }
+  },
+  {
+    "id": "048PFEHtD8E",
+    "memberId": "nono",
+    "publishedAt": "2023-10-27",
+    "title": "【歌枠 / Singing stream  】はい！歌います！【音ノ乃のの / ミリプロ】",
+    "duration": 7562,
+    "songs": [],
+    "en": {
+      "title": "[Singing stream] Yes! I'll sing! [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "uvwNv0U0JcY",
+    "memberId": "nono",
+    "publishedAt": "2023-10-19",
+    "title": "【歌枠 / Singing  】歌いますよって【音ノ乃のの / ミリプロ】",
+    "duration": 5667,
+    "songs": [],
+    "en": {
+      "title": "[Song frame / Singing] I'll sing [Otononono / MilliPro]"
     }
   },
   {
@@ -5292,6 +5644,39 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "IyyXQjKqsG8",
+    "memberId": "nono",
+    "publishedAt": "2023-10-13",
+    "title": "【歌枠】歌うぞおおおおおおお【音ノ乃のの / ミリプロ】",
+    "duration": 6397,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Let's sing ooooooooo [Otononono/MilliPro]"
+    }
+  },
+  {
+    "id": "_EiaMWZ2hao",
+    "memberId": "nono",
+    "publishedAt": "2023-10-07",
+    "title": "【収益化記念歌枠】歌います。皆様いつも本当にありがとうございます！【音ノ乃のの 】",
+    "duration": 7550,
+    "songs": [],
+    "en": {
+      "title": "[Monetization commemorative song frame] Sing. Thank you so much everyone! [Otononono]"
+    }
+  },
+  {
+    "id": "9MY7D4zYytc",
+    "memberId": "nono",
+    "publishedAt": "2023-10-04",
+    "title": "【歌枠】ひさしぶりに歌います！！！【Singing Stream】【音ノ乃のの / ミリプロ】",
+    "duration": 5542,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Singing for the first time in a while! ! ! [Singing Stream] [Otononono / MilliPro]"
+    }
+  },
+  {
     "id": "buNEEcePkbw",
     "memberId": "konomi",
     "publishedAt": "2023-09-27",
@@ -5300,6 +5685,127 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Men limited song frame] Let's sing together [Temporary thumbnail]"
+    }
+  },
+  {
+    "id": "Q6wXl_KxX14",
+    "memberId": "nono",
+    "publishedAt": "2023-09-18",
+    "title": "【歌枠】歌いますよ～！【Singing Stream】【音ノ乃のの / ミリプロ】",
+    "duration": 6213,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Let's sing! [Singing Stream] [Otononono / MilliPro]"
+    }
+  },
+  {
+    "id": "4u2fds5BoYQ",
+    "memberId": "nono",
+    "publishedAt": "2023-09-11",
+    "title": "【歌枠】デビューして100日が経ちました。感謝を込めて歌います！【音ノ乃のの】【告知あり】",
+    "duration": 5588,
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] 100 days have passed since our debut. I will sing with gratitude! [Otononono] [With announcement]"
+    }
+  },
+  {
+    "id": "92UvPCLc8_k",
+    "memberId": "nono",
+    "publishedAt": "2023-09-10",
+    "title": "【歌枠】歌いたいです【音ノ乃のの】【Vsinger】",
+    "duration": 7573,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] I want to sing [Otononono] [Vsinger]"
+    }
+  },
+  {
+    "id": "QnLoicdpq7E",
+    "memberId": "nono",
+    "publishedAt": "2023-09-07",
+    "title": "【歌枠】同接１１１１人目指して歌います！【音ノ乃のの】",
+    "duration": 7107,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] I will sing with the aim of 1111 people! [Otononono]"
+    }
+  },
+  {
+    "id": "n2at_FpQedY",
+    "memberId": "nono",
+    "publishedAt": "2023-09-02",
+    "title": "【のの歌枠】エコー(リバーブ)禁止歌枠リベンジ！！🎧🤍",
+    "duration": 7364,
+    "songs": [],
+    "en": {
+      "title": "[Nono song frame] Echo (reverb) prohibited song frame revenge! ! 🎧🤍"
+    }
+  },
+  {
+    "id": "reXIUx1NdoI",
+    "memberId": "nono",
+    "publishedAt": "2023-08-24",
+    "title": "【のの歌枠】エコー(リバーブ)禁止歌枠配信！！🎧🤍",
+    "duration": 4616,
+    "songs": [],
+    "en": {
+      "title": "[Nono song frame] Echo (reverb) prohibited song frame distribution! ! 🎧🤍"
+    }
+  },
+  {
+    "id": "9fdiiKLJNpM",
+    "memberId": "nono",
+    "publishedAt": "2023-08-20",
+    "title": "【歌枠】高評価で歌う曲が増える歌枠♪たくさん歌わせてください！！！【音ノ乃のの】",
+    "duration": 7152,
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] Song frame that will increase the number of songs that are sung with high ratings ♪ Please let me sing a lot! ! ! [Otononono]"
+    }
+  },
+  {
+    "id": "BbvoTEVofAc",
+    "memberId": "nono",
+    "publishedAt": "2023-08-12",
+    "title": "【音割れしたら即終了！？】最後に告知もあり歌枠配信！！🎧🤍",
+    "duration": 7624,
+    "songs": [],
+    "en": {
+      "title": "[If the sound breaks, it will end immediately! ? ] There is also an announcement at the end and the song slot will be distributed! ! 🎧🤍"
+    }
+  },
+  {
+    "id": "itRyIVd7VRg",
+    "memberId": "nono",
+    "publishedAt": "2023-08-03",
+    "title": "【今日も歌います。】デビューしてから2ヶ月経ちました！発表もあり！【2ヶ月記念】",
+    "duration": 6175,
+    "songs": [],
+    "en": {
+      "title": "[I'll sing again today. ] Two months have passed since our debut! There will also be an announcement! [2 months anniversary]"
+    }
+  },
+  {
+    "id": "PMXYFe5t780",
+    "memberId": "nono",
+    "publishedAt": "2023-07-30",
+    "title": "【のの歌枠】ゆるゆるお歌練習配信！！",
+    "duration": 7500,
+    "songs": [],
+    "en": {
+      "title": "[Nono song frame] Yuru Yuru singing practice distribution! !"
+    }
+  },
+  {
+    "id": "yNZ4gyFC5PI",
+    "memberId": "nono",
+    "publishedAt": "2023-07-27",
+    "title": "【のの歌枠】チャンネル登録してください！！！",
+    "duration": 7476,
+    "songs": [],
+    "en": {
+      "title": "[Nono song frame] Please subscribe to the channel! ! !"
     }
   },
   {
@@ -5314,6 +5820,17 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "5FgbEgqEfg0",
+    "memberId": "nono",
+    "publishedAt": "2023-07-17",
+    "title": "【のの歌枠】夏っぽい曲縛りで歌枠！！🎐🫧",
+    "duration": 7341,
+    "songs": [],
+    "en": {
+      "title": "[Nono song frame] A song frame with summery songs! ! 🎐🫧"
+    }
+  },
+  {
     "id": "Du9rS8pOjZQ",
     "memberId": "nono",
     "publishedAt": "2023-07-12",
@@ -5322,6 +5839,50 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Nono Song Frame] Nonono Otono, aim for 1500 people! ! ! 🎧🤍"
+    }
+  },
+  {
+    "id": "p8vA0MvU7PQ",
+    "memberId": "nono",
+    "publishedAt": "2023-07-09",
+    "title": "【のの10万人記念】音ノ乃のの、10万人記念歌枠配信！！！ご報告あり！？🎧🤍",
+    "duration": 7153,
+    "songs": [],
+    "en": {
+      "title": "[Nono 100,000 people commemoration] Otono Nono's 100,000 people commemorative song slot will be distributed! ! ! We have a report! ? 🎧🤍"
+    }
+  },
+  {
+    "id": "wCx0yP9mDdQ",
+    "memberId": "nono",
+    "publishedAt": "2023-07-09",
+    "title": "【のの１ヶ月記念】音ノ乃のの、デビューしてから1ヶ月経ちました！！！",
+    "duration": 5475,
+    "songs": [],
+    "en": {
+      "title": "[Nono 1 month anniversary] One month has passed since Otono Nono's debut! ! !"
+    }
+  },
+  {
+    "id": "71_WaNHR6vs",
+    "memberId": "nono",
+    "publishedAt": "2023-07-06",
+    "title": "【のの歌枠】音ノ乃のの、のんびり歌枠配信！！",
+    "duration": 7380,
+    "songs": [],
+    "en": {
+      "title": "[Nono's song frame] Nonono Otono's leisurely song frame is distributed! !"
+    }
+  },
+  {
+    "id": "zVKcO4HfHdQ",
+    "memberId": "nono",
+    "publishedAt": "2023-06-24",
+    "title": "【歌枠】ピアノ伴奏縛り歌枠配信！【音ノ乃のの】",
+    "duration": 6352,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Piano accompaniment tied song frame distribution! [Otononono]"
     }
   },
   {
@@ -5344,6 +5905,17 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[250,000 people endurance singing quota] Drawing Vtuber sings for the first time in 3 months! [#Konomi Sweet Wolf / #Millipro]"
+    }
+  },
+  {
+    "id": "AbF8I9GDRoQ",
+    "memberId": "nono",
+    "publishedAt": "2023-06-15",
+    "title": "【歌枠】同接1,800人チャレンジ！本気の歌を届けます。【音ノ乃のの】",
+    "duration": 6911,
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] 1,800 people challenge! I will deliver a serious song. [Otononono]"
     }
   },
   {
