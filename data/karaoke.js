@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "rei",
     "publishedAt": "2026-10-02",
     "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
-    "duration": 5753,
+    "duration": 5751,
     "songs": []
   },
   {

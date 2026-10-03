@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:16:36.546Z",
+  "updatedAt": "2026-10-03T04:14:18.591Z",
   "streams": [
     {
       "id": "RjOQyuyucgc",
@@ -94,6 +94,16 @@
   ],
   "videos": [
     {
+      "id": "LCoON5HWckw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault.jpg",
+      "publishedAt": "2026-10-03T00:57:44Z",
+      "live": false
+    },
+    {
       "id": "ubWa583I6W4",
       "memberId": "koma",
       "member": "小廻こま",
@@ -111,16 +121,6 @@
       "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault.jpg",
       "publishedAt": "2026-10-02T13:29:26Z",
-      "live": false
-    },
-    {
-      "id": "LCoON5HWckw",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault_live.jpg",
-      "publishedAt": "2026-10-02T12:36:43Z",
       "live": false
     },
     {

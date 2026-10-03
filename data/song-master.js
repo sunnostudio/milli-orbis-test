@@ -242,6 +242,15 @@ window.SONG_MASTER = {
         "title": "Black★Rock Shooter (Cover)"
       }
     },
+    "daybreakfrontline": {
+      "title": "DAYBREAK FRONTLINE (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & Hatsune Miku)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM vol.2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/1a/19/881a1906-be30-d547-7651-b0518a6bb446/4511820-60049.jpg/600x600bb.jpg",
+      "en": {
+        "title": "DAYBREAK FRONTLINE (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Toya Aoyagi & Hatsune Miku)"
+      }
+    },
     "フィナレ。": {
       "title": "フィナーレ。",
       "artist": "eill",
@@ -1322,8 +1331,8 @@ window.SONG_MASTER = {
     "カタオモイ-aimer": {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "daydream",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
+      "album": "BEST SELECTION \"blanc\"",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "願い〜あの頃のキミへ〜",
