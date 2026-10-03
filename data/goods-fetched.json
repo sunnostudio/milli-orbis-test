@@ -1,5 +1,327 @@
 [
   {
+    "id": "magicalgirl2026_voice",
+    "name": "ミリプロ 魔法少女コレクション 2026 シチュエーションボイス",
+    "handle": "magicalgirl2026_voice",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "voice",
+    "category": "ボイス",
+    "price": 1000,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-16.png?v=1790954351",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_voice",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2026-10-03T00:00:00",
+      "shipTo": "2026-11-03T23:59:00",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2026年10月3日 〜 2026年11月3日"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "ゆらぎゆら",
+      "夕霧レイ",
+      "小廻こま",
+      "甘狼このみ",
+      "眠雲ツクリ",
+      "虹深°ぬふ",
+      "雨夜リズ",
+      "音ノ乃のの",
+      "音ノ瀬らこ",
+      "鹿乃まほろ"
+    ],
+    "product_type": "ボイス",
+    "available": true,
+    "published_at": "2026-10-03T19:00:18+09:00"
+  },
+  {
+    "id": "magicalgirl2026_grimoire_binder",
+    "name": "ミリプロ 魔法少女コレクション 2026 魔導書風バインダー",
+    "handle": "magicalgirl2026_grimoire_binder",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "clearfile",
+    "category": "生活雑貨・小物",
+    "price": 4500,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix__touka-10.png?v=1791018932",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_grimoire_binder",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2027-05-01",
+      "shipTo": "2027-05-28",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2027年5月上旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "生活雑貨・小物",
+    "available": true,
+    "published_at": "2026-10-03T19:00:18+09:00"
+  },
+  {
+    "id": "magicalgirl2026_clearfile",
+    "name": "ミリプロ 魔法少女コレクション 2026 クリアファイル",
+    "handle": "magicalgirl2026_clearfile",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "clearfile",
+    "category": "生活雑貨・小物",
+    "price": 800,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-9.png?v=1790954258",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_clearfile",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2027-05-01",
+      "shipTo": "2027-05-28",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2027年5月上旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "生活雑貨・小物",
+    "available": true,
+    "published_at": "2026-10-03T19:00:17+09:00"
+  },
+  {
+    "id": "magicalgirl2026_acrylicboard",
+    "name": "ミリプロ 魔法少女コレクション 2026 アクリルボード",
+    "handle": "magicalgirl2026_acrylicboard",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "stand",
+    "category": "アクリルグッズ",
+    "price": 4000,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix__touka-8.png?v=1791025437",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_acrylicboard",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2027-05-01",
+      "shipTo": "2027-05-28",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2027年5月上旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "アクリルグッズ",
+    "available": true,
+    "published_at": "2026-10-03T19:00:16+09:00"
+  },
+  {
+    "id": "magicalgirl2026_random_tarotcard",
+    "name": "ミリプロ 魔法少女コレクション 2026 ランダムタロット風カード 全8種",
+    "handle": "magicalgirl2026_random_tarotcard",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "card",
+    "category": "ブロマイド・カード",
+    "price": 500,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-6.png?v=1790954169",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_random_tarotcard",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2026-10-03T00:00:00",
+      "shipTo": "2026-11-03T23:59:00",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2026年10月3日 〜 2026年11月3日"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "ブロマイド・カード",
+    "available": true,
+    "published_at": "2026-10-03T19:00:15+09:00"
+  },
+  {
+    "id": "magicalgirl2026_random_kanbadge",
+    "name": "ミリプロ 魔法少女コレクション 2026 ランダム缶バッジ 全8種",
+    "handle": "magicalgirl2026_random_kanbadge",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "badge",
+    "category": "バッジ・ピンバッジ",
+    "price": 500,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-7.png?v=1790954133",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_random_kanbadge",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2026-10-03T00:00:00",
+      "shipTo": "2026-11-03T23:59:00",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2026年10月3日 〜 2026年11月3日"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "バッジ・ピンバッジ",
+    "available": true,
+    "published_at": "2026-10-03T19:00:14+09:00"
+  },
+  {
+    "id": "magicalgirl2026_glitter_acrylickey",
+    "name": "ミリプロ 魔法少女コレクション 2026 グリッターオイル入りアクリルキーホルダー",
+    "handle": "magicalgirl2026_glitter_acrylickey",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "stand",
+    "category": "アクリルグッズ",
+    "price": 2400,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-11.png?v=1790954035",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_glitter_acrylickey",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2027-05-01",
+      "shipTo": "2027-05-28",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2027年5月上旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "アクリルグッズ",
+    "available": true,
+    "published_at": "2026-10-03T19:00:13+09:00"
+  },
+  {
+    "id": "magicalgirl2026_acrylicstand",
+    "name": "ミリプロ 魔法少女コレクション 2026 アクリルスタンド",
+    "handle": "magicalgirl2026_acrylicstand",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "stand",
+    "category": "アクリルグッズ",
+    "price": 1800,
+    "oldPrice": null,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-1.png?v=1790953908",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_acrylicstand",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2027-05-01",
+      "shipTo": "2027-05-28",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2027年5月上旬頃まで"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "アクリルグッズ",
+    "available": true,
+    "published_at": "2026-10-03T19:00:12+09:00"
+  },
+  {
+    "id": "magicalgirl2026_talentset",
+    "name": "ミリプロ 魔法少女コレクション 2026 タレントセット",
+    "handle": "magicalgirl2026_talentset",
+    "memberId": "konomi",
+    "memberLabel": "",
+    "kind": "fullset",
+    "category": "フルセット",
+    "price": 15200,
+    "oldPrice": 15500,
+    "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-28.png?v=1790953652",
+    "url": "https://shop.milpr.com/products/magicalgirl2026_talentset",
+    "shop": "official",
+    "place": "ミリプロオフィシャルショップ",
+    "period": {
+      "orderFrom": "2026-10-03T00:00:00",
+      "orderTo": "2026-11-03T23:59:00",
+      "shipFrom": "2026-10-03T00:00:00",
+      "shipTo": "2026-11-03T23:59:00",
+      "rawOrder": "2026年10月3日 〜 2026年11月3日",
+      "rawShip": "2026年10月3日 〜 2026年11月3日"
+    },
+    "status": "onSale",
+    "permanent": false,
+    "tag": null,
+    "tags": [
+      "あくび・でもんすぺーど",
+      "小廻こま",
+      "甘狼このみ",
+      "音ノ乃のの"
+    ],
+    "product_type": "フルセット",
+    "available": true,
+    "published_at": "2026-10-03T19:00:11+09:00"
+  },
+  {
     "id": "mahoro_welcome_voice",
     "name": "ミリプロ ウェルカムボイス 鹿乃まほろ",
     "handle": "mahoro_welcome_voice",
@@ -1676,15 +1998,15 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "眠雲ツクリ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:26+09:00"
   },
   {
@@ -1709,15 +2031,15 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "眠雲ツクリ"
     ],
     "product_type": "バッジ・ピンバッジ",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:26+09:00"
   },
   {
@@ -1742,16 +2064,16 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": null
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "デジタルグッズ",
       "眠雲ツクリ"
     ],
     "product_type": "ボイス",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:26+09:00"
   },
   {
@@ -1776,16 +2098,16 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": "2026年9月3日〜10月3日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "デジタルグッズ",
       "眠雲ツクリ"
     ],
     "product_type": "フルセット",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:26+09:00"
   },
   {
@@ -1810,15 +2132,15 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "眠雲ツクリ"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:25+09:00"
   },
   {
@@ -1843,15 +2165,15 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "眠雲ツクリ"
     ],
     "product_type": "ブロマイド・カード",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:25+09:00"
   },
   {
@@ -1876,15 +2198,15 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "眠雲ツクリ"
     ],
     "product_type": "ファッション雑貨・アパレル",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:25+09:00"
   },
   {
@@ -1909,15 +2231,15 @@
       "rawOrder": "2026年9月3日〜10月3日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "眠雲ツクリ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-03T20:09:25+09:00"
   },
   {
