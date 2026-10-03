@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-03T04:14:18.591Z",
+  "updatedAt": "2026-10-03T08:12:49.667Z",
   "streams": [
+    {
+      "id": "oHkmplaDosw",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-03T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
@@ -93,6 +102,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "oHkmplaDosw",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault_live.jpg",
+      "publishedAt": "2026-10-03T05:26:30Z",
+      "live": false
+    },
     {
       "id": "LCoON5HWckw",
       "memberId": "rei",
@@ -381,16 +400,6 @@
       "title": "【マイクラ】バレずに顔を出せ！息継ぎが必要なかくれんぼ！",
       "thumb": "https://i.ytimg.com/vi/DaZDk_nTY-Y/hqdefault.jpg",
       "publishedAt": "2026-09-28T09:00:08Z",
-      "live": false
-    },
-    {
-      "id": "vUEQrpry9E4",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault.jpg",
-      "publishedAt": "2026-09-27T23:46:26Z",
       "live": false
     }
   ],
