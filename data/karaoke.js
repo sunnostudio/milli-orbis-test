@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "oHkmplaDosw",
+    "memberId": "liz",
+    "publishedAt": "2026-10-03",
+    "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "LCoON5HWckw",
     "memberId": "rei",
     "publishedAt": "2026-10-02",
