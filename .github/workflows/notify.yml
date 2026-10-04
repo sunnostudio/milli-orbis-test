@@ -28,6 +28,10 @@ on:
         description: "ダイジェスト対象日 YYYY-MM-DD (空=JST今日)"
         required: false
         default: ""
+      test_filter:
+        description: "テスト投稿: 商品名に含む文字列(例:魔法少女コレクション)。空=通常動作"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -57,11 +61,13 @@ jobs:
           DRY=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then DRY="--dry-run"; fi
           echo "--- goods ---"
+          TESTARG=""
+          if [ -n "${{ github.event.inputs.test_filter }}" ]; then TESTARG="--test-filter ${{ github.event.inputs.test_filter }}"; fi
           if [ -z "$DISCORD_WEBHOOK_GOODS" ]; then
             echo "GOODS webhook not set, init state only."
             node tools/notify-goods.js --init $DRY || true
           else
-            node tools/notify-goods.js $DRY || true
+            node tools/notify-goods.js $DRY $TESTARG || true
           fi
           echo "--- events ---"
           if [ -z "$DISCORD_WEBHOOK_EVENTS" ]; then

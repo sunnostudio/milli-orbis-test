@@ -62,6 +62,7 @@ async function main() {
   const initMode = hasArgs("--init");
   const force = hasArgs("--force");
   const limit = parseInt(argValue("--limit", "50"), 10);
+  const testFilter = argValue("--test-filter", null);
 
   const webhook = process.env.DISCORD_WEBHOOK_GOODS || "";
   if (!webhook && !dryRun && !initMode) {
@@ -72,6 +73,27 @@ async function main() {
   const official = loadOfficial();
   const collab = loadCollab();
   console.log(`official: ${official.length}, collab: ${collab.length}`);
+
+  // テスト投稿: 商品名にフィルタ文字列を含む括りをstate無視で送信 (stateは更新しない)
+  if (testFilter) {
+    const all = official.concat(collab).filter((g) => g && g.id && String(g.name || "").includes(testFilter));
+    console.log(`test-filter "${testFilter}": ${all.length} items`);
+    if (!all.length) {
+      console.log("no items matched, skip.");
+      return;
+    }
+    const groups = groupGoods(all.filter((g) => g.status !== "soldout"));
+    if (!groups.length) {
+      console.log("all matched items are soldout, skip.");
+      return;
+    }
+    console.log(`test groups: ${groups.length}`);
+    const embeds = groups.flatMap((grp) => groupToEmbeds(grp, {}));
+    const url = webhook || "https://discord.com/api/webhooks/dry-run";
+    await sendEmbeds(url, `🧪 **テスト投稿 ${groups.length}括り・${all.length}点** (stateは更新されません)`, embeds, { dryRun });
+    console.log("test post done (state untouched).");
+    return;
+  }
 
   const state = loadState();
   const isFirstRun = Object.keys(state.goodsNotified || {}).length === 0;

@@ -57,6 +57,8 @@ node tools/notify-goods.js --dry-run
 node tools/notify-events.js --dry-run
 node tools/notify-digest.js --dry-run
 node tools/notify-digest.js --dry-run --date 2026-10-12  # 締切日指定テスト
+# 指定括りのテスト投稿 (例: 魔法少女コレクション。stateは更新されない)
+node tools/notify-goods.js --dry-run --test-filter 魔法少女コレクション
 
 # state初期化 (初回・Secrets未設定時)
 node tools/notify-goods.js --init
