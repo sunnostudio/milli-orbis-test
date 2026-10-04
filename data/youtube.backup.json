@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-04T03:09:14.186Z",
+  "updatedAt": "2026-10-04T15:26:38.015Z",
   "streams": [
     {
-      "id": "UzMRo2dyKk4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 パワプロ2026 】#5 果たして起きれるのか. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UzMRo2dyKk4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-04T04:00:00Z",
-      "status": "upcoming"
+      "id": "bcqT7XkGAS0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 #マイクラ肝試し2026 】らすとちる観光するだ～【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-04T11:33:58Z",
+      "status": "live"
     },
     {
       "id": "8XDNCdSicJ8",
@@ -103,13 +103,73 @@
   ],
   "videos": [
     {
+      "id": "bcqT7XkGAS0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #マイクラ肝試し2026 】らすとちる観光するだ～【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault_live.jpg",
+      "publishedAt": "2026-10-04T11:33:58Z",
+      "live": false
+    },
+    {
       "id": "UzMRo2dyKk4",
       "memberId": "rei",
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 パワプロ2026 】#5 果たして起きれるのか. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UzMRo2dyKk4/hqdefault_live.jpg",
-      "publishedAt": "2026-10-03T17:06:43Z",
+      "thumb": "https://i.ytimg.com/vi/UzMRo2dyKk4/hqdefault.jpg",
+      "publishedAt": "2026-10-04T10:25:28Z",
+      "live": false
+    },
+    {
+      "id": "KFtWZx6c-_U",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】ダイヤ100万個集めるまで終われません!?集めるほど効率がぶっ壊れていく世界がヤバすぎたｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/KFtWZx6c-_U/hqdefault.jpg",
+      "publishedAt": "2026-10-04T10:00:09Z",
+      "live": false
+    },
+    {
+      "id": "I7KqYG7dwk0",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【だんだん病んでく】病みカワ曲メドレー歌ってみた！ 【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/I7KqYG7dwk0/hqdefault.jpg",
+      "publishedAt": "2026-10-04T09:01:26Z",
+      "live": false
+    },
+    {
+      "id": "8X-pqYAtaW0",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『狂乱 Hey Kids!!』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8X-pqYAtaW0/hqdefault.jpg",
+      "publishedAt": "2026-10-04T09:00:33Z",
+      "live": false
+    },
+    {
+      "id": "0WjwIjz4sZc",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【眠雲ツクリと】NG歌詞ゲーム歌ってみた#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0WjwIjz4sZc/hqdefault.jpg",
+      "publishedAt": "2026-10-04T09:00:12Z",
+      "live": false
+    },
+    {
+      "id": "_xla0gudxcI",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_xla0gudxcI/hqdefault.jpg",
+      "publishedAt": "2026-10-04T09:00:08Z",
       "live": false
     },
     {
@@ -130,16 +190,6 @@
       "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault.jpg",
       "publishedAt": "2026-10-03T13:54:48Z",
-      "live": false
-    },
-    {
-      "id": "KFtWZx6c-_U",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】ダイヤ100万個集めるまで終われません!?集めるほど効率がぶっ壊れていく世界がヤバすぎたｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/KFtWZx6c-_U/hqdefault.jpg",
-      "publishedAt": "2026-10-03T13:44:21Z",
       "live": false
     },
     {
@@ -323,16 +373,6 @@
       "live": false
     },
     {
-      "id": "wOy2pj8Cwks",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/wOy2pj8Cwks/hqdefault.jpg",
-      "publishedAt": "2026-09-30T09:00:06Z",
-      "live": false
-    },
-    {
       "id": "qei_BlNv1kU",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -361,47 +401,17 @@
       "thumb": "https://i.ytimg.com/vi/FtROdoYN3qQ/hqdefault.jpg",
       "publishedAt": "2026-09-28T15:40:21Z",
       "live": false
-    },
-    {
-      "id": "B5txXANsio0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault.jpg",
-      "publishedAt": "2026-09-28T14:22:19Z",
-      "live": false
-    },
-    {
-      "id": "5WMqEhlPUpw",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/5WMqEhlPUpw/hqdefault.jpg",
-      "publishedAt": "2026-09-28T14:02:37Z",
-      "live": false
-    },
-    {
-      "id": "Kqq5vpku-o0",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "実家に顔出さないのにね〜笑┊︎#デビットビット #音ノ乃のの #歌ってみた #shorts",
-      "thumb": "https://i.ytimg.com/vi/Kqq5vpku-o0/hqdefault.jpg",
-      "publishedAt": "2026-09-28T11:35:07Z",
-      "live": false
-    },
-    {
-      "id": "zWscAyHNIOs",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "もしもポケモンたちが\"美少女\"だったら？妄想を絵にしてみたらヤバすぎたｗ【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/zWscAyHNIOs/hqdefault.jpg",
-      "publishedAt": "2026-09-28T10:00:07Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "bcqT7XkGAS0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 #マイクラ肝試し2026 】らすとちる観光するだ～【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-04T11:33:58Z",
+      "status": "live"
+    }
+  ]
 }
