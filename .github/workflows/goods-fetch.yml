@@ -24,11 +24,21 @@ jobs:
           node-version: 20
       - name: Fetch goods from shop.milpr.com
         run: node tools/fetch-goods.js
+      - name: Notify Discord for new goods
+        env:
+          DISCORD_WEBHOOK_GOODS: ${{ secrets.DISCORD_WEBHOOK_GOODS }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_GOODS" ]; then
+            echo "DISCORD_WEBHOOK_GOODS not set, updating state without notifying."
+            node tools/notify-goods.js --init
+          else
+            node tools/notify-goods.js
+          fi
       - name: Commit and push if changed
         run: |
           git config user.name "Milli Orbis Bot"
           git config user.email "bot@milliorbis.local"
-          git add data.js data/goods-fetched.json
+          git add data.js data/goods-fetched.json data/notify-state.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: update goods data"
           n=0

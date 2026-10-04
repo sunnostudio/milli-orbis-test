@@ -1,0 +1,99 @@
+name: Discord Notify (goods/events)
+
+# 即時通知(push差分) + 当日ダイジェスト(毎朝08:00 JST)。
+# cronサボり対策: workflow_dispatch 併用。60日無操作でのschedule無効化は
+# schedule-image.yml が毎日commitするため回避できる想定。それでも遅延・欠落に
+# 備えて docs/discord-notify.md の cron-job.org バックアップ手順を参照。
+
+on:
+  push:
+    paths:
+      - "data.js"
+      - "data/collabs.json"
+      - "data/goods-collab.js"
+      - "data/goods-fetched.json"
+  schedule:
+    - cron: "0 23 * * *" # JST 08:00 (当日締切・当日イベント)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "digest=当日分のみ / immediate=新着のみ / all=両方"
+        required: false
+        default: "all"
+      dry_run:
+        description: "trueでDiscordに投げずログ出力のみ"
+        required: false
+        default: "false"
+      target_date:
+        description: "ダイジェスト対象日 YYYY-MM-DD (空=JST今日)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot-data-push
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Immediate notify (new goods/events)
+        if: github.event_name == 'push' || github.event.inputs.mode == 'immediate' || github.event.inputs.mode == 'all' || github.event.inputs.mode == ''
+        env:
+          DISCORD_WEBHOOK_GOODS: ${{ secrets.DISCORD_WEBHOOK_GOODS }}
+          DISCORD_WEBHOOK_EVENTS: ${{ secrets.DISCORD_WEBHOOK_EVENTS }}
+        run: |
+          DRY=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then DRY="--dry-run"; fi
+          echo "--- goods ---"
+          if [ -z "$DISCORD_WEBHOOK_GOODS" ]; then
+            echo "GOODS webhook not set, init state only."
+            node tools/notify-goods.js --init $DRY || true
+          else
+            node tools/notify-goods.js $DRY || true
+          fi
+          echo "--- events ---"
+          if [ -z "$DISCORD_WEBHOOK_EVENTS" ]; then
+            echo "EVENTS webhook not set, init state only."
+            node tools/notify-events.js --init $DRY || true
+          else
+            node tools/notify-events.js $DRY || true
+          fi
+
+      - name: Daily digest (due today / events today)
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'digest' || github.event.inputs.mode == 'all' || github.event.inputs.mode == ''
+        env:
+          DISCORD_WEBHOOK_GOODS: ${{ secrets.DISCORD_WEBHOOK_GOODS }}
+          DISCORD_WEBHOOK_EVENTS: ${{ secrets.DISCORD_WEBHOOK_EVENTS }}
+        run: |
+          DRY=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then DRY="--dry-run"; fi
+          DATEARG=""
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then DATEARG="--date ${{ github.event.inputs.target_date }}"; fi
+          node tools/notify-digest.js $DRY $DATEARG || true
+
+      - name: Commit state if changed
+        run: |
+          git config user.name "Milli Orbis Bot"
+          git config user.email "bot@milliorbis.local"
+          git add data/notify-state.json
+          git diff --cached --quiet && echo "no state change" && exit 0
+          git commit -m "chore: update notify state"
+          n=0
+          until git pull --rebase origin HEAD && git push; do
+            git rebase --abort 2>/dev/null || true
+            n=$((n+1))
+            if [ "$n" -ge 5 ]; then echo "push failed after retries"; exit 1; fi
+            sleep 20
+          done
