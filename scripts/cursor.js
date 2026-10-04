@@ -406,13 +406,17 @@
                 MEMBERS.forEach(function(m){
                   var b=document.createElement("button");
                   b.type="button"; b.className="oshi-option";
-                  b.innerHTML=(m.icon?'<span class="oshi-mark"><img src="'+m.icon+'" alt=""></span>':'<span class="oshi-mark">'+m.fanMark+'</span>')+m.name;
+                  b.innerHTML=(m.icon?'<span class="oshi-mark"><img src="'+m.icon+'" alt="" loading="lazy" decoding="async"></span>':'<span class="oshi-mark">'+m.fanMark+'</span>')+m.name;
                   b.style.setProperty("--mc", m.color);
                   b.addEventListener("click", function(){
-                    try { if (typeof setOshi==="function") setOshi(m.id); else localStorage.setItem("milli-oshi", m.id); } catch(e){}
-                    try { if (typeof applyOshi==="function") applyOshi(m.id); } catch(e){}
                     modal.classList.remove("open");
-                    try { renderCombined(); } catch(e){}
+                    var apply=function(){
+                      try { if (typeof setOshi==="function") setOshi(m.id); else localStorage.setItem("milli-oshi", m.id); } catch(e){}
+                      try { if (typeof applyOshi==="function") applyOshi(m.id); } catch(e){}
+                      try { renderCombined(); } catch(e){}
+                    };
+                    if (typeof requestAnimationFrame==="function") requestAnimationFrame(apply);
+                    else apply();
                   });
                   list.appendChild(b);
                 });

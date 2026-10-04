@@ -22,8 +22,8 @@ function introOverlay(m) {
     '<span class="intro-ring r5"></span>' +
     (m.fx ? fxHtml(m.fx) : "") +
     '<div class="intro-stage">' +
-    (m.logo ? '<img class="intro-logo" src="' + m.logo + '" alt="">' : "") +
-    (m.img ? '<img class="intro-art" src="' + m.img + '" alt="' + m.name + '">' : "") +
+    (m.logo ? '<img class="intro-logo" src="' + m.logo + '" alt="" loading="lazy" decoding="async">' : "") +
+    (m.img ? '<img class="intro-art" src="' + m.img + '" alt="' + m.name + '" loading="lazy" decoding="async">' : "") +
     '<p class="intro-name" data-i18n-name="' + m.id + '">' + m.name + "</p>" +
     '<p class="intro-catch" id="introCatch"></p>' +
     (m.introVoice || m.voice ? '<button type="button" class="intro-voice-btn" id="introVoiceBtn" data-i18n="t.playVoice">🔁 挨拶を再生</button>' : "") +
@@ -675,6 +675,7 @@ function page(m) {
 ${MIGRATION_HEAD(SITE_CONFIG.siteUrl + "/" + m.id + ".html")}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="${m.img}" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -683,7 +684,7 @@ ${MIGRATION_BANNER(SITE_CONFIG.siteUrl + "/" + m.id + ".html")}
 ${decoHtml(m)}
 <header id="siteHeader">
   <div class="header-inner">
-    <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+    <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis" width="1774" height="430" decoding="async"></a>
     <nav class="nav">
       <a href="index.html#home">Home</a>
       ${navDrop("index.html")}
@@ -706,8 +707,8 @@ ${decoHtml(m)}
   <section id="talentHero" class="talent-hero">
     <div class="heroSweep"></div>
     <div class="talent-hero-inner">
-      ${m.logo ? '<img class="talent-hero-logo" src="' + m.logo + '" alt="">' : ""}
-      ${m.img ? '<img class="talent-hero-art" src="' + m.img + '" alt="' + m.name + '">' : ""}
+      ${m.logo ? '<img class="talent-hero-logo" src="' + m.logo + '" alt="" decoding="async">' : ""}
+      ${m.img ? '<img class="talent-hero-art" src="' + m.img + '" alt="' + m.name + '" fetchpriority="high" decoding="async">' : ""}
       <h1 data-i18n-name="${m.id}">${m.name}</h1>
       <p class="talent-name-en">${m.nameEn}</p>
       <p class="talent-catch" id="tCatch"></p>

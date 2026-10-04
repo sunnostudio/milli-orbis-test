@@ -42,13 +42,21 @@
   var keyword = "";
   var memberFilter = "";
 
-  /* モード切替: 歌動画 ⇔ 曲まとめ */
+  /* モード切替: 歌動画 ⇔ 曲まとめ (INP対策: 先にactive反映→rAFで表示切替) */
   function setMode(m) {
     mode = m;
-    if (videosSection) videosSection.style.display = m === "videos" ? "" : "none";
-    if (masterSection) masterSection.style.display = m === "master" ? "" : "none";
     if (modeVideos) modeVideos.classList.toggle("active", m === "videos");
     if (modeMaster) modeMaster.classList.toggle("active", m === "master");
+    var apply = function () {
+      if (videosSection) videosSection.style.display = m === "videos" ? "" : "none";
+      if (masterSection) masterSection.style.display = m === "master" ? "" : "none";
+      /* 曲まとめは初回表示時に遅延レンダリング (songs-master.js側で待機) */
+      if (m === "master" && typeof window.__smLazyRender === "function") {
+        try { window.__smLazyRender(); } catch (e) {}
+      }
+    };
+    if (typeof requestAnimationFrame === "function") requestAnimationFrame(apply);
+    else apply();
   }
   if (modeVideos) modeVideos.addEventListener("click", function () { setMode("videos"); });
   if (modeMaster) modeMaster.addEventListener("click", function () { setMode("master"); });
@@ -429,8 +437,11 @@
   if (tabKaraoke) tabKaraoke.addEventListener("click", function () { setView("karaoke"); });
 
   if (search) search.addEventListener("input", function () {
-    keyword = normKana(search.value.trim());
-    render();
+    if (search._t) clearTimeout(search._t);
+    search._t = setTimeout(function () {
+      keyword = normKana(search.value.trim());
+      render();
+    }, 150);
   });
 
   /* サムネ・再生ボタン → iframe再生 / 歌枠セトリ行 → タイムスタンプ付きで再生 / リンク系は既定動作 */

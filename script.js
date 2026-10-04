@@ -428,13 +428,17 @@
       b.type = "button";
       b.className = "oshi-option";
       b.innerHTML = (m.icon
-        ? '<span class="oshi-mark"><img src="' + m.icon + '" alt=""></span>'
+        ? '<span class="oshi-mark"><img src="' + m.icon + '" alt="" loading="lazy" decoding="async"></span>'
         : '<span class="oshi-mark">' + m.fanMark + "</span>") + mName(m);
       b.style.setProperty("--mc", m.color);
       b.addEventListener("click", function () {
-        setOshi(m.id);
         closeModal();
-        $(".birthday-banner") && checkBirthday();
+        var apply = function () {
+          setOshi(m.id);
+          $(".birthday-banner") && checkBirthday();
+        };
+        if (typeof requestAnimationFrame === "function") requestAnimationFrame(apply);
+        else apply();
       });
       list.appendChild(b);
     });
@@ -1187,7 +1191,7 @@
         ' data-bm-kind="news" data-bm-date="' + n.date + '" data-bm-tag="' + esc(loc(n, "tag")) + '"' +
         ' data-bm-title="' + esc(loc(n, "title")) + '" data-bm-desc="' + esc(loc(n, "desc") || "") + '"' +
         ' data-bm-url="' + esc(n.url || "") + '"');
-      var thumb = n.image ? '<a class="news-thumb-wrap wide" href="' + esc(n.url || "#") + '" target="_blank" rel="noopener"><img class="news-thumb" src="' + esc(n.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'.news-thumb-wrap\').style.display=\'none\'"></a>' : "";
+      var thumb = n.image ? '<a class="news-thumb-wrap wide" href="' + esc(n.url || "#") + '" target="_blank" rel="noopener"><img class="news-thumb" src="' + esc(n.image) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest(\'.news-thumb-wrap\').style.display=\'none\'"></a>' : "";
       var head = '<div class="news-head"><span class="news-tag">' + esc(loc(n, "tag")) + "</span>" +
         '<span class="news-date">' + fmtDate(new Date(n.date)) + "</span>" + bm + "</div>";
       var textBody = '<div class="news-text"><div class="news-title">' + esc(loc(n, "title")) + "</div>" +

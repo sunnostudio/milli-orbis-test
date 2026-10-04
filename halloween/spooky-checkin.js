@@ -193,7 +193,10 @@
       }
     } catch (e) {}
     var input = $("shareNameInput");
-    if (input) input.addEventListener("input", refresh);
+    if (input) input.addEventListener("input", function () {
+      if (input._t) clearTimeout(input._t);
+      input._t = setTimeout(refresh, 150);
+    });
     var grid = $("maskGrid");
     if (grid) grid.addEventListener("click", function () { setTimeout(refresh, 0); });
     var btn = $("checkinBtn");

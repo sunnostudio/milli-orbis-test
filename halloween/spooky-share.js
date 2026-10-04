@@ -363,8 +363,11 @@
         if (saved) input.value = saved;
       } catch (e) {}
       input.addEventListener("input", function () {
-        try { localStorage.setItem(GUEST_KEY, input.value); } catch (e) {}
-        render();
+        if (input._t) clearTimeout(input._t);
+        input._t = setTimeout(function () {
+          try { localStorage.setItem(GUEST_KEY, input.value); } catch (e) {}
+          render();
+        }, 150);
       });
     }
     buildGrid();

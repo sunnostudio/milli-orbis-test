@@ -220,8 +220,11 @@
   }
 
   if (search) search.addEventListener("input", function () {
-    keyword = SD.normKana(search.value.trim());
-    render();
+    if (search._t) clearTimeout(search._t);
+    search._t = setTimeout(function () {
+      keyword = SD.normKana(search.value.trim());
+      render();
+    }, 150);
   });
 
   /* バージョンの再生ボタン → カード内にタイムスタンプ付きプレイヤー展開 / リンク部分は除外して展開 */
@@ -241,5 +244,24 @@
     if (!wasOpen) card.classList.add("open");
   });
 
-  render();
+  /* 初回は遅延レンダリング: 曲まとめタブ初回表示まで待機 (INP 816ms対策) */
+  var rendered = false;
+  function lazyRender() {
+    if (rendered) return;
+    rendered = true;
+    var run = function () { render(); };
+    if ("requestIdleCallback" in window) requestIdleCallback(run, { timeout: 800 });
+    else if (typeof requestAnimationFrame === "function") requestAnimationFrame(run);
+    else run();
+  }
+  window.__smLazyRender = lazyRender;
+  (function initLazy() {
+    var sec = document.getElementById("masterSection");
+    var hidden = sec && sec.style.display === "none";
+    if (!hidden) {
+      lazyRender();
+    } else {
+      listBox.innerHTML = '<div class="placeholder">' + T("sm.none") + "</div>";
+    }
+  })();
 })();
