@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-03T14:57:03.906Z",
+  "updatedAt": "2026-10-03T20:04:38.603Z",
   "streams": [
     {
-      "id": "RjOQyuyucgc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁眠雲ツクリ 誕生日記念グッズ 2026受注受付中！🔧",
-      "thumb": "https://i.ytimg.com/vi/RjOQyuyucgc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-03T14:59:00Z",
+      "id": "UzMRo2dyKk4",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 パワプロ2026 】#5 果たして起きれるのか. ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UzMRo2dyKk4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-04T04:00:00Z",
       "status": "upcoming"
     },
     {
@@ -90,17 +90,36 @@
       "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault_live.jpg",
       "scheduledStartTime": "2027-01-30T06:00:00Z",
       "status": "upcoming"
+    },
+    {
+      "id": "FQUAaVHIEEo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁イオンオリジナルグッズ発売決定 🔧",
+      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-01-31T14:59:00Z",
+      "status": "upcoming"
     }
   ],
   "videos": [
+    {
+      "id": "UzMRo2dyKk4",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 パワプロ2026 】#5 果たして起きれるのか. ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UzMRo2dyKk4/hqdefault_live.jpg",
+      "publishedAt": "2026-10-03T17:06:43Z",
+      "live": false
+    },
     {
       "id": "yDIzArdzjhU",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
       "title": "しごとおわりん、のんびりはなす",
-      "thumb": "https://i.ytimg.com/vi/yDIzArdzjhU/hqdefault_live.jpg",
-      "publishedAt": "2026-10-03T14:50:26Z",
+      "thumb": "https://i.ytimg.com/vi/yDIzArdzjhU/hqdefault.jpg",
+      "publishedAt": "2026-10-03T15:34:19Z",
       "live": false
     },
     {
@@ -111,6 +130,16 @@
       "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault.jpg",
       "publishedAt": "2026-10-03T13:54:48Z",
+      "live": false
+    },
+    {
+      "id": "KFtWZx6c-_U",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】ダイヤ100万個集めるまで終われません!?集めるほど効率がぶっ壊れていく世界がヤバすぎたｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/KFtWZx6c-_U/hqdefault.jpg",
+      "publishedAt": "2026-10-03T13:44:21Z",
       "live": false
     },
     {
@@ -324,16 +353,6 @@
       "live": false
     },
     {
-      "id": "XXYUw_nudlI",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】お母さんあるある #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/XXYUw_nudlI/hqdefault.jpg",
-      "publishedAt": "2026-09-29T09:00:06Z",
-      "live": false
-    },
-    {
       "id": "FtROdoYN3qQ",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -381,16 +400,6 @@
       "title": "もしもポケモンたちが\"美少女\"だったら？妄想を絵にしてみたらヤバすぎたｗ【甘狼このみ】",
       "thumb": "https://i.ytimg.com/vi/zWscAyHNIOs/hqdefault.jpg",
       "publishedAt": "2026-09-28T10:00:07Z",
-      "live": false
-    },
-    {
-      "id": "Np7iIJhRB50",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨",
-      "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault_live.jpg",
-      "publishedAt": "2026-09-28T09:30:34Z",
       "live": false
     }
   ],
