@@ -1808,6 +1808,51 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-10-03",
+    tag: "グッズ",
+    title: "魔法少女コレクション 2026 受注開始！",
+    desc: "ミリプロオフィシャルショップにて『魔法少女コレクション 2026』が受注スタート。受注期間10/3〜11/3。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_18297131-c732-4124-ade4-6de9ae041d17.png",
+    url: "https://milpr.com/news/magicalgirl2026",
+    en: { tag: "Goods", title: "Magical Girl Collection 2026 Now Available!", desc: "The Magical Girl Collection 2026 is now on sale at the official shop. Order period Oct 3 – Nov 3." }
+  },
+  {
+    date: "2026-10-01",
+    tag: "グッズ",
+    title: "ミリプロTCG カードリストを公開！",
+    desc: "販売中のミリプロTCG「Million Production OFFICIAL CARD GAME」のカードリストを公開。購入は公式ショップの常設販売から。",
+    image: "https://storage.googleapis.com/studio-cms-assets/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_52637022-ab74-4e99-9c0c-4d77567bf5e0.png",
+    url: "https://milpr.com/news/tcg_cardlist",
+    en: { tag: "Goods", title: "MilliPro TCG Card List Published!", desc: "The card list for the on-sale MilliPro TCG is now public. Available via the official shop." }
+  },
+  {
+    date: "2026-09-28",
+    tag: "グッズ",
+    title: "甘狼このみがアートブック『VISIONS 2027』に掲載！",
+    desc: "現在発売中のアートブック『VISIONS 2027』に甘狼このみが掲載。イラスト・Live2Dのセルフ受肉作家としての特集。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_32dcc5be-3dfd-40a8-b601-420cfb84f4c7.png",
+    url: "https://milpr.com/news/VISIONS_2027Konomi",
+    en: { tag: "Goods", title: "Amakami Konomi Featured in Art Book VISIONS 2027!", desc: "Amakami Konomi is featured in the now-on-sale art book VISIONS 2027, spotlighting her self-made illustration & Live2D work." }
+  },
+  {
+    date: "2026-09-26",
+    tag: "グッズ",
+    title: "小廻こま・眠雲ツクリ・雨夜リズ 3Dお披露目記念グッズ 受注開始！",
+    desc: "ミリプロオフィシャルショップにて3Dお披露目記念グッズの受注を開始。フルセットやアクリルスタンドなど。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_05ac6c20-ab4f-4fb6-b84c-f0b15e8b9b37.png",
+    url: "https://milpr.com/news/qMCz0n_m",
+    en: { tag: "Goods", title: "Koma, Tsukuri & Liz 3D Debut Goods Now Available!", desc: "3D debut memorial goods for Komawari Koma, Nemukumo Tsukuri and Amayo Liz now on sale at the official shop." }
+  },
+  {
+    date: "2026-09-23",
+    tag: "グッズ",
+    title: "ミリプロ カプセルトイ発売決定！",
+    desc: "ミリプロ初のカプセルトイ「モチーフぬい付きアクリルキーホルダー」が登場。2027年1月よりカプセルトイ売場に順次展開。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1200x675_v-fms_webp_14389ee5-5478-4282-a30d-eebe24a276b3.jpg",
+    url: "https://milpr.com/news/-9zPoSjo",
+    en: { tag: "Goods", title: "MilliPro Capsule Toys Announced!", desc: "MilliPro's first capsule toys (acrylic keyholders with motif plushies) arrive at capsule vendors from January 2027." }
+  },
+  {
     date: "2026-09-23",
     tag: "イベント",
     title: "ハロウィーン企画「HOTEL GRAND MILLI」事前登録開始！",
@@ -1824,6 +1869,24 @@ const NEWS = [
     image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_e126aedf-b890-4bda-9fb8-c692fd8e4f70.png",
     url: "https://milpr.com/news/aoi_10",
     en: { tag: "Major Announcement", title: "Mitama Aoi surpasses 100K subscribers!", desc: "On Sep 13, 2026, Mitama Aoi's YouTube channel surpassed 100K subscribers, with a thank-you message and her first Short. Stay tuned for her first stream! 🐢🌱" }
+  },
+  {
+    date: "2026-09-20",
+    tag: "グッズ",
+    title: "ミリプロ おやすみボイスコレクション受注開始！",
+    desc: "ミリプロオフィシャルショップにて『おやすみボイスコレクション』が受注スタート。シチュエーションボイスやタレントセットなど。受注期間9/20〜10/20。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-4000x2250_v-frms_webp_4864215c-1a22-4e08-ae4e-76e33849f419.png",
+    url: "https://milpr.com/news/u9WJ7Ffk",
+    en: { tag: "Goods", title: "Good-Night Voice Collection Now Available!", desc: "The Good-Night Voice Collection is now on sale at the official shop. Order period Sep 20 – Oct 20." }
+  },
+  {
+    date: "2026-09-17",
+    tag: "イベント",
+    title: "ミリプロ × 100時間カレーコラボ決定！",
+    desc: "小廻こま＆虹深°ぬふが100時間カレーの制服姿で登場するコラボイベント開催決定。期間10/1〜10/31。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_5f0e356a-a673-42c2-b6a2-90cc2c16274f.jpg",
+    url: "https://milpr.com/news/milipr_100hourscurry",
+    en: { tag: "Event", title: "MilliPro × 100-Hour Curry Collab Announced!", desc: "A collab event with 100-Hour Curry featuring Komawari Koma and Nijipuka Nuhu. Oct 1–31." }
   },
   {
     date: "2026-09-12",
@@ -1972,7 +2035,6 @@ const LINKS = [
 const EVENTS = [
   { type: "event", date: "2026-08-11", title: "ミリプロサマー2026 夏曲歌枠リレー", desc: "総勢10名による夏曲歌枠リレー（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer 2026 Summer-Song Karaoke Relay", desc: "A relay of summer-song karaoke streams by all 10 talents (on each member's channel)" } },
   { type: "event", date: "2026-08-16", title: "ミリプロ夏祭り in ナイトプール", desc: "ミリプロマイクラサーバーで開催（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer Festival in the Night Pool", desc: "Held on the MilliPro Minecraft server (on each member's channel)" } },
-  { type: "event", date: "2026-08-16", title: "ミリプロプレゼンツ 超重大発表配信", desc: "ミリ創作コンテスト結果発表＆重大告知（ミリプロ公式YouTube）", url: "https://youtu.be/4lba9sduOzI", en: { title: "MilliPro Presents Super Major Announcement Stream", desc: "Milli Creation contest results & major announcement (MilliPro official YouTube)" } },
   { type: "event", date: "2026-08-22", title: "鹿乃まほろ 初配信", desc: "ミリプロSONA加入後初の配信（20:00〜・鹿乃まほろチャンネル）", url: "https://youtu.be/YzfwW0zTSpE", en: { title: "Kano Mahoro's Debut Stream", desc: "Her first stream after joining MilliPro SONA (8 PM JST, on her own channel)" } },
   { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXギャラリーにて開催（POP UP展示＆グッズ販売）", url: "https://milpr.com/news/milpr_resort", en: { title: "MilliPro Resort", desc: "Held at the Akihabara UDX gallery (POP UP exhibit & goods sales)" } },
   { type: "event", date: "2026-08-29", title: "ミリプロTCG サマーカップ 2026", desc: "ミリプロリゾート内で開催（ミリプロTCG初の公式大会）", url: "https://milpr.com/millipro_resort", en: { title: "MilliPro TCG Summer Cup 2026", desc: "Held inside MilliPro Resort (the first official MilliPro TCG tournament)" } },

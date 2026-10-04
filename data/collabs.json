@@ -20,10 +20,20 @@
   {
     "title": "ミリプロコラボ",
     "shop": "100時間カレー",
-    "desc": "",
+    "desc": "小廻こま＆虹深°ぬふが制服姿で登場",
     "start": "2026-10-01",
     "end": "2026-10-31",
     "url": "https://milpr.com/news/milipr_100hourscurry",
     "color": "#C97B2D"
+  },
+  {
+    "title": "ミリプロ カプセルトイ",
+    "shop": "全国カプセルトイ売場",
+    "desc": "モチーフぬい付きアクリルキーホルダー(ミリプロ初カプセルトイ)",
+    "start": "2027-01-01",
+    "end": null,
+    "url": "https://milpr.com/news/-9zPoSjo",
+    "image": "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1200x675_v-fms_webp_14389ee5-5478-4282-a30d-eebe24a276b3.jpg",
+    "color": "#8E44AD"
   }
 ]
