@@ -21,9 +21,9 @@ on:
         required: false
         default: "all"
       dry_run:
-        description: "trueでDiscordに投げずログ出力のみ"
+        description: "falseでDiscordに本番投稿(既定true=ログのみ)"
         required: false
-        default: "false"
+        default: "true"
       target_date:
         description: "ダイジェスト対象日 YYYY-MM-DD (空=JST今日)"
         required: false

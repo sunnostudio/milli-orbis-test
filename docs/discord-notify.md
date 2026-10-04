@@ -16,15 +16,16 @@
 2. GitHubリポジトリ → Settings → Secrets and variables → Actions → New repository secret:
    - `DISCORD_WEBHOOK_GOODS`
    - `DISCORD_WEBHOOK_EVENTS`
-3. Actions → "Discord Notify" → Run workflow → `mode: all, dry_run: true` でログ確認 → 本番は `dry_run: false` で1回実行 (初回はstate初期化のみで投稿されない)。
+3. Actions → "Discord Notify" → Run workflow でログ確認 (既定 `dry_run: true` = 投稿なし) → 本番は `dry_run: false` で実行。
+   ⚠️ ワークフロー画面の「再実行 (Re-run)」は**元のコミットにピン留め**され、古いコード・古いstateで再送されるため二重投稿になる。流し直しは必ず Run workflow で**新規実行**すること。
 
 ## 動作
 
 - **即時**: `data.js` / `data/collabs.json` / `data/goods-collab.js` / `data/goods-fetched.json` へのpushで起動。新規ID/ハッシュのみ投稿。
   - 公式グッズは `goods-fetch.yml` (毎夜03:00 JST) 内でも直接通知 → push契機の二重投稿は `data/notify-state.json` で抑止 (冪等)。
-- **グッズは括りまとめ** (`tools/goods-group.js`): 「○○誕生日記念グッズ」等の同時発売単位で1通にまとめる。
+- **グッズは括りまとめ** (`tools/goods-group.js`): 「○○誕生日記念グッズ」等の同時発売単位で**Embed1個**にまとめる (縦長防止のため商品別画像Embedはなし)。
   - 括りキー = タイトル共通部 + 発売日 + 締切日 (別企画の同日被りは分離)。
-  - 本文にタレント**全員**・受注期間・価格帯・商品別リンク一覧。画像はキービジュ (フルセット系優先) + 商品画像を最大4枚まで添付。
+  - 本文にタレント**全員**・受注期間・価格帯。商品は inline 3列グリッド (商品名・価格・リンク)。画像はキービジュ (フルセット系優先) 1枚のみ。
 - **イベントは画像付き**: 記事画像 ＞ メンバー顔写真 (`images/talents/`) ＞ サイトロゴ の順で必ず画像を添付。
   - 誕生日/記念日・カウントダウン (`xxx.html` からメンバー特定) は顔写真。`collabs.json` はロゴ (将来 `image` フィールド追加で差し替え可)。
 - **定期**: 毎日08:00 JST (`cron: 0 23 * * *`) に当日分のみ:

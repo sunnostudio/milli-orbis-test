@@ -106,10 +106,9 @@ function pickKeyVisual(items) {
   return setLike || byDate[0];
 }
 
-const MAX_ITEM_IMAGES = 4;
-
 /**
- * 1括り → Embed配列 (先頭が代表Embed、続いて商品画像Embed最大4件)
+ * 1括り → Embed 1個に集約 (縦長防止)。
+ * 画像はキービジュ1枚のみ。商品は inline フィールドの3列グリッドで並べる。
  * opts: { titlePrefix } 例: "🛍️" / "⏰ 本日締切:"
  */
 function groupToEmbeds(group, opts = {}) {
@@ -137,50 +136,39 @@ function groupToEmbeds(group, opts = {}) {
   if (raws.length) lines.push(`🗓️ ${raws[0]}` + (raws.length > 1 ? " ほか" : ""));
   if (ships.length) lines.push(`📦 ${ships[0]}` + (ships.length > 1 ? " ほか" : ""));
   lines.push(`💴 ${priceRange}` + (cats.length ? ` ｜ ${cats.join(" / ")}` : ""));
-  if (items.length === 1) {
-    // 単品括りは商品名の繰り返しを避け、リンク1行のみ
-    const g = items[0];
-    lines.push(`🔗 [商品ページ](${g.url})`);
-  } else {
-    lines.push("");
-    const MAX_LIST = 10;
-    items.slice(0, MAX_LIST).forEach((g) => {
-      const sn = shortName(String(g.name || g.id), cpre).slice(0, 60);
-      const pr = g.price != null ? ` ${fmtPrice(g.price)}` : "";
-      lines.push(`・[${sn}](${g.url})${pr}`);
-    });
-    if (items.length > MAX_LIST) lines.push(`・ほか${items.length - MAX_LIST}点はショップでチェック`);
-  }
   lines.push(`🗂️ [Milli Orbisグッズ一覧](https://milli-orbis-portal.pages.dev/goods/current.html)`);
 
   const kv = pickKeyVisual(items);
   const isCollab = items.some((g) => g.shop !== "official");
+  const color = prefix.includes("締切") ? 0xe74c3c : isCollab ? 0x9b59b6 : 0xe85d9e;
   const main = {
     title: `${prefix} ${title}`.slice(0, 250),
     description: lines.join("\n").slice(0, 4000),
-    color: prefix.includes("締切") ? 0xe74c3c : isCollab ? 0x9b59b6 : 0xe85d9e,
+    color,
     footer: { text: `${isCollab ? "コラボ/プライズ・書籍含む" : "公式ショップ"} ｜ ${DISCLAIMER}`.slice(0, 200) },
   };
   if (kv) main.image = { url: kv.image };
 
-  const embeds = [main];
-  // 商品画像 (キービジュと同一画像は重複させない)
-  const rest = items.filter((g) => g !== kv && g.image && /^https?:\/\//.test(g.image) && g.image !== (kv && kv.image));
-  for (const g of rest.slice(0, MAX_ITEM_IMAGES)) {
-    embeds.push({
-      title: shortName(String(g.name || g.id), cpre).slice(0, 250),
-      url: /^https?:\/\//.test(g.url || "") ? g.url : undefined,
-      image: { url: g.image },
-      color: main.color,
+  if (items.length === 1) {
+    // 単品括りは商品名の繰り返しを避け、リンク1行のみ
+    main.url = /^https?:\/\//.test(items[0].url || "") ? items[0].url : undefined;
+  } else {
+    // 商品グリッド (inline 3列。個別画像Embedは作らず縦長化を防ぐ)
+    const MAX_FIELDS = 24;
+    main.fields = items.slice(0, MAX_FIELDS).map((g) => {
+      const sn = shortName(String(g.name || g.id), cpre).slice(0, 50) || "商品";
+      const pr = g.price != null ? fmtPrice(g.price) : "価格未定";
+      return { name: sn, value: `${pr}\n[開く](${g.url})`, inline: true };
     });
+    if (items.length > MAX_FIELDS) {
+      main.fields.push({
+        name: `ほか${items.length - MAX_FIELDS}点`,
+        value: "[ショップで見る](https://shop.milpr.com/)",
+        inline: true,
+      });
+    }
   }
-  if (rest.length > MAX_ITEM_IMAGES) {
-    embeds.push({
-      description: `ほか${rest.length - MAX_ITEM_IMAGES}点の画像はショップでチェック 👀\n${rest.slice(MAX_ITEM_IMAGES, MAX_ITEM_IMAGES + 5).map((g) => `・[${shortName(String(g.name || g.id), cpre).slice(0, 40)}](${g.url})`).join("\n")}`.slice(0, 4000),
-      color: main.color,
-    });
-  }
-  return embeds;
+  return [main];
 }
 
 /** items → group配列 (公開日昇順・グループ内も公開日昇順) */
@@ -203,7 +191,6 @@ function groupGoods(items) {
 module.exports = {
   MEMBER_JA,
   MEMBER_ORDER,
-  MAX_ITEM_IMAGES,
   goodsMembers,
   collectionBase,
   groupKey,
