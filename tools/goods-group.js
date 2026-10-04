@@ -107,8 +107,9 @@ function pickKeyVisual(items) {
 }
 
 /**
- * 1括り → Embed 1個に集約 (縦長防止)。
- * 画像はキービジュ1枚のみ。商品は inline フィールドの3列グリッドで並べる。
+ * 1括り → Embed最大2個 (キービジュ先行＋詳細)。
+ * DiscordのEmbedは画像が必ず本文の下に出るため、目線順のために
+ * キービジュ専用Embedを先頭に分離する。商品は inline フィールドの3列グリッド。
  * opts: { titlePrefix } 例: "🛍️" / "⏰ 本日締切:"
  */
 function groupToEmbeds(group, opts = {}) {
@@ -141,13 +142,24 @@ function groupToEmbeds(group, opts = {}) {
   const kv = pickKeyVisual(items);
   const isCollab = items.some((g) => g.shop !== "official");
   const color = prefix.includes("締切") ? 0xe74c3c : isCollab ? 0x9b59b6 : 0xe85d9e;
+  const fullTitle = `${prefix} ${title}`.slice(0, 250);
+  const embeds = [];
+  if (kv) {
+    // キービジュ先行Embed (タイトル＋画像のみ。詳細より先に目に入る)
+    embeds.push({
+      title: fullTitle,
+      url: /^https?:\/\//.test(kv.url || "") ? kv.url : undefined,
+      image: { url: kv.image },
+      color,
+    });
+  }
   const main = {
-    title: `${prefix} ${title}`.slice(0, 250),
+    // キービジュありの場合は詳細Embedのタイトルを省略 (重複見出し防止)
+    title: kv ? undefined : fullTitle,
     description: lines.join("\n").slice(0, 4000),
     color,
     footer: { text: `${isCollab ? "コラボ/プライズ・書籍含む" : "公式ショップ"} ｜ ${DISCLAIMER}`.slice(0, 200) },
   };
-  if (kv) main.image = { url: kv.image };
 
   if (items.length === 1) {
     // 単品括りは商品名の繰り返しを避け、リンク1行のみ
@@ -168,7 +180,8 @@ function groupToEmbeds(group, opts = {}) {
       });
     }
   }
-  return [main];
+  embeds.push(main);
+  return embeds;
 }
 
 /** items → group配列 (公開日昇順・グループ内も公開日昇順) */
