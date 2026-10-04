@@ -73,7 +73,8 @@ function chunkEmbeds(embeds, maxPerMsg = 10) {
 async function postWebhook(webhookUrl, payload, opts = {}) {
   const dryRun = !!opts.dryRun;
   if (dryRun) {
-    console.log("[dry-run] POST " + webhookUrl.slice(0, 60) + "...");
+    // Webhookトークンをログに残さない (Actionsログはリポジトリ閲覧者が見られるため)
+    console.log("[dry-run] POST <webhook-url-masked>");
     console.log(JSON.stringify(payload, null, 2).slice(0, 4000));
     return { dryRun: true };
   }
