@@ -998,7 +998,25 @@
     "collab-bellhouse-022": "2026-09-07T00:00:00",
     "collab-bellhouse-023": "2026-09-07T00:00:00",
     "collab-bellhouse-024": "2026-09-07T00:00:00",
-    "collab-bellhouse-025": "2026-09-07T00:00:00"
+    "collab-bellhouse-025": "2026-09-07T00:00:00",
+    "3d_debut_260926_3d_acrylicstand": "2026-09-26T19:21:17+09:00",
+    "3d_debut_260926_fanname_key": "2026-09-26T19:21:19+09:00",
+    "3d_debut_260926_3layer_acrylicboard": "2026-09-26T19:21:19+09:00",
+    "3d_debut_260926_talentset": "2026-09-26T19:21:20+09:00",
+    "3d_debut_260926_random_card": "2026-09-26T19:21:21+09:00",
+    "3d_debut_260926_random_kanbadge": "2026-09-26T19:21:22+09:00",
+    "3d_debut_260926_random_clearpostcard": "2026-09-26T19:21:23+09:00",
+    "3d_debut_260926_clearfile": "2026-09-26T19:21:24+09:00",
+    "mahoro_welcome_voice": "2026-10-01T19:01:23+09:00",
+    "magicalgirl2026_talentset": "2026-10-03T19:00:11+09:00",
+    "magicalgirl2026_acrylicstand": "2026-10-03T19:00:12+09:00",
+    "magicalgirl2026_glitter_acrylickey": "2026-10-03T19:00:13+09:00",
+    "magicalgirl2026_random_kanbadge": "2026-10-03T19:00:14+09:00",
+    "magicalgirl2026_random_tarotcard": "2026-10-03T19:00:15+09:00",
+    "magicalgirl2026_acrylicboard": "2026-10-03T19:00:16+09:00",
+    "magicalgirl2026_clearfile": "2026-10-03T19:00:17+09:00",
+    "magicalgirl2026_voice": "2026-10-03T19:00:18+09:00",
+    "magicalgirl2026_grimoire_binder": "2026-10-03T19:00:18+09:00"
   },
   "eventsNotified": {
     "news:nqakzu": 1,
@@ -1056,5 +1074,8 @@
     "collab:s9bn5g": 1,
     "collab:16m9b6i": 1
   },
-  "digests": {}
+  "digests": {
+    "2026-10-04-goods-deadline": 0,
+    "2026-10-04-events-today": 2
+  }
 }
