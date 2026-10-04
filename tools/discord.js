@@ -122,6 +122,74 @@ async function sendEmbeds(webhookUrl, content, embeds, opts = {}) {
   return { sent };
 }
 
+const SITE_URL = "https://milli-orbis-portal.pages.dev";
+const OGP_URL = SITE_URL + "/images/Milli-Orbis-OGP.png";
+
+/** data.js の const配列ブロックをブラケットカウントで堅牢に抽出 */
+function extractConstBlock(js, name) {
+  const anchor = `const ${name} = [`;
+  const start = js.indexOf(anchor);
+  if (start < 0) return null;
+  let i = js.indexOf("[", start);
+  let depth = 0;
+  let inStr = null;
+  for (; i < js.length; i++) {
+    const ch = js[i];
+    if (inStr) {
+      if (ch === "\\") { i++; continue; }
+      if (ch === inStr) inStr = null;
+      continue;
+    }
+    if (ch === '"' || ch === "'" || ch === "`") { inStr = ch; continue; }
+    if (ch === "[") depth++;
+    else if (ch === "]") {
+      depth--;
+      if (depth === 0) return js.slice(start, i + 1) + ";";
+    }
+  }
+  return null;
+}
+
+/** data.js の MEMBERS を [{id, name, img}] 形式で読む */
+function loadMembers() {
+  try {
+    const js = fs.readFileSync(path.join(__dirname, "..", "data.js"), "utf-8");
+    const src = extractConstBlock(js, "MEMBERS");
+    if (!src) return [];
+    const list = new Function(src + "return MEMBERS;")();
+    return Array.isArray(list) ? list : [];
+  } catch (e) {
+    console.error("loadMembers failed:", e.message);
+    return [];
+  }
+}
+
+let _memberCache = null;
+function memberById(id) {
+  if (!_memberCache) {
+    _memberCache = new Map(loadMembers().map((m) => [m.id, m]));
+  }
+  return _memberCache.get(id) || null;
+}
+
+/** メンバー肖像の絶対URL。見つからなければOGPロゴ */
+function portraitUrl(memberId) {
+  const m = memberById(memberId);
+  if (m && m.img) {
+    if (/^https?:\/\//.test(m.img)) return m.img;
+    return SITE_URL + "/" + String(m.img).replace(/^\//, "");
+  }
+  return OGP_URL;
+}
+
+/** COUNTDOWNのurl ("tsukuri.html") からメンバーIDを推測 */
+function countdownMemberId(c) {
+  const u = String((c && c.url) || "");
+  const m = /^([a-z0-9]+)\.html$/i.exec(u);
+  if (m && memberById(m[1].toLowerCase())) return m[1].toLowerCase();
+  return null;
+}
+
 function hasArgs(flag) {
   return process.argv.includes(flag);
 }
@@ -137,6 +205,12 @@ function argValue(name, def = null) {
 module.exports = {
   STATE_FILE,
   DISCLAIMER,
+  SITE_URL,
+  OGP_URL,
+  loadMembers,
+  memberById,
+  portraitUrl,
+  countdownMemberId,
   jstToday,
   jstDateOf,
   loadState,

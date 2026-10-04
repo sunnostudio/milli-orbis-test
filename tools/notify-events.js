@@ -15,10 +15,13 @@ const fs = require("fs");
 const path = require("path");
 const {
   DISCLAIMER,
+  OGP_URL,
   loadState,
   saveState,
   sendEmbeds,
   shortHash,
+  portraitUrl,
+  countdownMemberId,
   hasArgs,
   argValue,
 } = require("./discord");
@@ -81,7 +84,7 @@ function newsEmbed(n) {
     const abs = /^https?:\/\//.test(n.url) ? n.url : `https://milli-orbis-portal.pages.dev/${n.url}`;
     embed.url = abs;
   }
-  if (n.image && /^https?:\/\//.test(n.image)) embed.image = { url: n.image };
+  embed.image = { url: (n.image && /^https?:\/\//.test(n.image)) ? n.image : OGP_URL };
   return embed;
 }
 
@@ -100,6 +103,7 @@ function eventEmbed(e) {
     description: lines.join("\n").slice(0, 4000),
     color: e.type === "birthday" ? 0xef6a8d : e.type === "anniversary" ? 0xf2a93b : 0x6a9ef0,
     footer: { text: `カレンダー ｜ ${DISCLAIMER}`.slice(0, 200) },
+    image: { url: e.member ? portraitUrl(e.member) : OGP_URL },
   };
   if (e.url && /^https?:\/\//.test(e.url)) embed.url = e.url;
   return embed;
@@ -113,12 +117,14 @@ function cdEmbed(c) {
     const abs = /^https?:\/\//.test(c.url) ? c.url : `https://milli-orbis-portal.pages.dev/${c.url}`;
     lines.push(`🔗 [詳細](${abs})`);
   }
+  const mid = countdownMemberId(c);
   return {
     title: ("⏳ " + String(c.label || c.id).slice(0, 250)),
     description: lines.join("\n").slice(0, 4000),
     color: 0xf39c12,
     url: c.url && /^https?:\/\//.test(c.url) ? c.url : undefined,
     footer: { text: `カウントダウン ｜ ${DISCLAIMER}`.slice(0, 200) },
+    image: { url: mid ? portraitUrl(mid) : OGP_URL },
   };
 }
 
@@ -134,6 +140,8 @@ function collabEmbed(c) {
     description: lines.join("\n").slice(0, 4000),
     color: 0x9b59b6,
     footer: { text: `コラボ ｜ ${DISCLAIMER}`.slice(0, 200) },
+    // collabs.json に image があれば使い、なければサイトロゴ
+    image: { url: (c.image && /^https?:\/\//.test(c.image)) ? c.image : OGP_URL },
   };
 }
 

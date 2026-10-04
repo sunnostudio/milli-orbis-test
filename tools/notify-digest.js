@@ -13,14 +13,18 @@ const fs = require("fs");
 const path = require("path");
 const {
   DISCLAIMER,
+  OGP_URL,
   loadState,
   saveState,
   sendEmbeds,
   jstToday,
   jstDateOf,
+  portraitUrl,
+  countdownMemberId,
   hasArgs,
   argValue,
 } = require("./discord");
+const { groupGoods, groupToEmbeds } = require("./goods-group");
 
 const ROOT = path.join(__dirname, "..");
 
@@ -116,24 +120,11 @@ async function main() {
     });
     console.log(`goods due today: ${due.length}`);
     if (due.length && (goodsWebhook || dryRun)) {
-      const embeds = due.slice(0, 10).map((g) => {
-        const lines = [
-          `💴 ${g.price != null ? "¥" + Number(g.price).toLocaleString("ja-JP") : "価格未定"} ｜ ${g.category || g.product_type || ""}`,
-          g.period && g.period.rawOrder ? `🗓️ ${g.period.rawOrder}` : null,
-          `🔗 [商品ページ](${g.url})`,
-        ].filter(Boolean);
-        const em = {
-          title: ("⏰ 本日締切: " + String(g.name || g.id)).slice(0, 250),
-          url: g.url,
-          description: lines.join("\n").slice(0, 4000),
-          color: 0xe74c3c,
-          footer: { text: DISCLAIMER.slice(0, 200) },
-        };
-        if (g.image && /^https?:\/\//.test(g.image)) em.image = { url: g.image };
-        return em;
-      });
+      const groups = groupGoods(due);
+      console.log(`due groups: ${groups.length}`);
+      const embeds = groups.flatMap((grp) => groupToEmbeds(grp, { titlePrefix: "⏰ 本日締切:" }));
       const url = goodsWebhook || "https://discord.com/api/webhooks/dry-run";
-      await sendEmbeds(url, `⏰ **本日受注締切 ${due.length}件 (${today})** お忘れなく！`, embeds, { dryRun });
+      await sendEmbeds(url, `⏰ **本日受注締切 ${groups.length}括り・${due.length}点 (${today})** お忘れなく！`, embeds, { dryRun });
       if (!dryRun) state.digests[goodsKey] = due.length;
     } else if (!due.length) {
       console.log("no goods due today, skip (no empty post).");
@@ -166,6 +157,7 @@ async function main() {
           color: e.type === "birthday" ? 0xef6a8d : e.type === "anniversary" ? 0xf2a93b : 0x6a9ef0,
           url: e.url && /^https?:\/\//.test(e.url) ? e.url : undefined,
           footer: { text: DISCLAIMER.slice(0, 200) },
+          image: { url: e.member ? portraitUrl(e.member) : OGP_URL },
         });
       }
       for (const c of cds.slice(0, 3)) {
@@ -174,6 +166,7 @@ async function main() {
           description: [c.note || null, c.url ? `🔗 [詳細](${c.url})` : null].filter(Boolean).join("\n").slice(0, 1000) || "本日です！",
           color: 0xf39c12,
           footer: { text: DISCLAIMER.slice(0, 200) },
+          image: { url: countdownMemberId(c) ? portraitUrl(countdownMemberId(c)) : OGP_URL },
         });
       }
       for (const c of collabToday.slice(0, 5)) {
@@ -184,6 +177,7 @@ async function main() {
           color: 0x9b59b6,
           url: /^https?:\/\//.test(c.url || "") ? c.url : undefined,
           footer: { text: DISCLAIMER.slice(0, 200) },
+          image: { url: (c.image && /^https?:\/\//.test(c.image)) ? c.image : OGP_URL },
         });
       }
       const url = eventsWebhook || "https://discord.com/api/webhooks/dry-run";
