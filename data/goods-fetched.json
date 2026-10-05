@@ -813,8 +813,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -847,8 +848,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -881,8 +883,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -915,8 +918,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -949,8 +953,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -983,8 +988,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1017,8 +1023,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1051,8 +1058,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
@@ -1718,17 +1726,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2026年9月5日 〜 2026年10月5日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "フルセット",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:12+09:00"
   },
   {
@@ -1753,17 +1761,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:11+09:00"
   },
   {
@@ -1788,17 +1796,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:10+09:00"
   },
   {
@@ -1823,17 +1831,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:10+09:00"
   },
   {
@@ -1858,17 +1866,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:09+09:00"
   },
   {
@@ -1893,17 +1901,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2027年1月上旬〜2027年3月下旬"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:09+09:00"
   },
   {
@@ -1928,17 +1936,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2026年9月5日 〜 2026年10月5日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "ブロマイド・カード",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:08+09:00"
   },
   {
@@ -1963,17 +1971,17 @@
       "rawOrder": "2026年9月5日 〜 2026年10月5日",
       "rawShip": "2026年9月5日 〜 2026年10月5日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "ゆらぎゆら",
       "虹深°ぬふ",
       "音ノ瀬らこ"
     ],
     "product_type": "バッジ・ピンバッジ",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-05T19:00:07+09:00"
   },
   {
