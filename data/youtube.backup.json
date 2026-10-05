@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-04T15:26:38.015Z",
+  "updatedAt": "2026-10-04T20:57:36.259Z",
   "streams": [
-    {
-      "id": "bcqT7XkGAS0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】らすとちる観光するだ～【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-04T11:33:58Z",
-      "status": "live"
-    },
     {
       "id": "8XDNCdSicJ8",
       "memberId": "raco",
@@ -108,8 +99,8 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 #マイクラ肝試し2026 】らすとちる観光するだ～【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault_live.jpg",
-      "publishedAt": "2026-10-04T11:33:58Z",
+      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault.jpg",
+      "publishedAt": "2026-10-04T16:30:08Z",
       "live": false
     },
     {
@@ -403,15 +394,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "bcqT7XkGAS0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】らすとちる観光するだ～【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-04T11:33:58Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
