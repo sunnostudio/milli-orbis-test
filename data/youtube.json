@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-05T12:16:47.890Z",
+  "updatedAt": "2026-10-05T16:12:49.796Z",
   "streams": [
-    {
-      "id": "gurvRZQLswc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-05T11:31:11Z",
-      "status": "live"
-    },
     {
       "id": "P7UFMPSyUJE",
       "memberId": "tsukuri",
@@ -18,24 +9,6 @@
       "thumb": "https://i.ytimg.com/vi/P7UFMPSyUJE/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-05T11:33:16Z",
       "status": "live"
-    },
-    {
-      "id": "8XDNCdSicJ8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【📢グッズ情報】NOVA水族館コレクション2026受注開始！",
-      "thumb": "https://i.ytimg.com/vi/8XDNCdSicJ8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-05T14:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "sNJXQzJShuA",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【📢イラスト技法書発売決定】現在予約販売中です！✨",
-      "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-05T14:25:00Z",
-      "status": "upcoming"
     },
     {
       "id": "NBbE-zXEEmo",
@@ -101,6 +74,15 @@
       "status": "upcoming"
     },
     {
+      "id": "sNJXQzJShuA",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【📢イラスト技法書発売決定】現在販売中です！✨",
+      "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-01-15T14:25:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "_Qz5P1BthrE",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -121,6 +103,16 @@
   ],
   "videos": [
     {
+      "id": "gurvRZQLswc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault.jpg",
+      "publishedAt": "2026-10-05T14:31:50Z",
+      "live": false
+    },
+    {
       "id": "NBbE-zXEEmo",
       "memberId": "koma",
       "member": "小廻こま",
@@ -138,16 +130,6 @@
       "title": "〖 ほの暮しの庭 〗１年が終わる！！！冬後半戦！#8〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/P7UFMPSyUJE/hqdefault_live.jpg",
       "publishedAt": "2026-10-05T11:33:16Z",
-      "live": false
-    },
-    {
-      "id": "gurvRZQLswc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault_live.jpg",
-      "publishedAt": "2026-10-05T11:31:11Z",
       "live": false
     },
     {
@@ -422,15 +404,6 @@
     }
   ],
   "live": [
-    {
-      "id": "gurvRZQLswc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-05T11:31:11Z",
-      "status": "live"
-    },
     {
       "id": "P7UFMPSyUJE",
       "memberId": "tsukuri",

@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-05T08:15:57.503Z",
+  "updatedAt": "2026-10-05T12:16:47.890Z",
   "streams": [
+    {
+      "id": "gurvRZQLswc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-05T11:31:11Z",
+      "status": "live"
+    },
+    {
+      "id": "P7UFMPSyUJE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗１年が終わる！！！冬後半戦！#8〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/P7UFMPSyUJE/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-05T11:33:16Z",
+      "status": "live"
+    },
     {
       "id": "8XDNCdSicJ8",
       "memberId": "raco",
@@ -17,6 +35,15 @@
       "title": "【📢イラスト技法書発売決定】現在予約販売中です！✨",
       "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-05T14:25:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "NBbE-zXEEmo",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 Pratfall 】なんか強そうなメンツでここ掘れわんわん！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NBbE-zXEEmo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-07T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -93,6 +120,46 @@
     }
   ],
   "videos": [
+    {
+      "id": "NBbE-zXEEmo",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Pratfall 】なんか強そうなメンツでここ掘れわんわん！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NBbE-zXEEmo/hqdefault_live.jpg",
+      "publishedAt": "2026-10-05T11:55:58Z",
+      "live": false
+    },
+    {
+      "id": "P7UFMPSyUJE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗１年が終わる！！！冬後半戦！#8〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/P7UFMPSyUJE/hqdefault_live.jpg",
+      "publishedAt": "2026-10-05T11:33:16Z",
+      "live": false
+    },
+    {
+      "id": "gurvRZQLswc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault_live.jpg",
+      "publishedAt": "2026-10-05T11:31:11Z",
+      "live": false
+    },
+    {
+      "id": "1SRUs1r0lco",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "数字当てゲームで甘々セリフを読むのは誰だ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/1SRUs1r0lco/hqdefault.jpg",
+      "publishedAt": "2026-10-05T09:00:01Z",
+      "live": false
+    },
     {
       "id": "bcqT7XkGAS0",
       "memberId": "koma",
@@ -304,16 +371,6 @@
       "live": false
     },
     {
-      "id": "oARzKumpJlU",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "年下の子と付き合うのはあり？なし？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oARzKumpJlU/hqdefault.jpg",
-      "publishedAt": "2026-10-01T09:00:33Z",
-      "live": false
-    },
-    {
       "id": "DJiN3wJo7UU",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -344,16 +401,6 @@
       "live": true
     },
     {
-      "id": "RZIUvnhskEY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【道連れ】雨夜リズのオリ曲歌ってみた！【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/RZIUvnhskEY/hqdefault.jpg",
-      "publishedAt": "2026-09-30T09:00:24Z",
-      "live": false
-    },
-    {
       "id": "yTSgzaHn1N8",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -372,27 +419,26 @@
       "thumb": "https://i.ytimg.com/vi/qQGJV431vVI/hqdefault.jpg",
       "publishedAt": "2026-09-30T03:28:24Z",
       "live": false
-    },
-    {
-      "id": "qei_BlNv1kU",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "デビットビット / 音ノ瀬らこ (cover)",
-      "thumb": "https://i.ytimg.com/vi/qei_BlNv1kU/hqdefault.jpg",
-      "publishedAt": "2026-09-29T11:00:09Z",
-      "live": false
-    },
-    {
-      "id": "Ycbmrjlgi4w",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【謝罪】ずっとShortsをサボっていてすみませんでした・・・・・【#甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/Ycbmrjlgi4w/hqdefault.jpg",
-      "publishedAt": "2026-09-29T09:00:21Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "gurvRZQLswc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-05T11:31:11Z",
+      "status": "live"
+    },
+    {
+      "id": "P7UFMPSyUJE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗１年が終わる！！！冬後半戦！#8〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/P7UFMPSyUJE/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-05T11:33:16Z",
+      "status": "live"
+    }
+  ]
 }
