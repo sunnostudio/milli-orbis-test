@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T04:14:50.865Z",
+  "updatedAt": "2026-10-05T08:15:57.503Z",
   "streams": [
     {
       "id": "8XDNCdSicJ8",
@@ -364,6 +364,16 @@
       "live": false
     },
     {
+      "id": "qQGJV431vVI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "??? / 音ノ瀬らこ (cover)",
+      "thumb": "https://i.ytimg.com/vi/qQGJV431vVI/hqdefault.jpg",
+      "publishedAt": "2026-09-30T03:28:24Z",
+      "live": false
+    },
+    {
       "id": "qei_BlNv1kU",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -381,16 +391,6 @@
       "title": "【謝罪】ずっとShortsをサボっていてすみませんでした・・・・・【#甘狼このみ】",
       "thumb": "https://i.ytimg.com/vi/Ycbmrjlgi4w/hqdefault.jpg",
       "publishedAt": "2026-09-29T09:00:21Z",
-      "live": false
-    },
-    {
-      "id": "FtROdoYN3qQ",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "声で妹を操れるゲームがあるらしい【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/FtROdoYN3qQ/hqdefault.jpg",
-      "publishedAt": "2026-09-28T15:40:21Z",
       "live": false
     }
   ],
