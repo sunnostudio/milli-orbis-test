@@ -175,14 +175,25 @@ def active_collabs(date):
         return []
     out = []
     for c in data:
+        # start/end が None・欠損・空文字でも落ちないよう防御。
+        # end 未定(None/空)は終了日なし(無期限)として扱う。
         try:
-            s = datetime.date.fromisoformat(c.get("start", ""))
-            e = datetime.date.fromisoformat(c.get("end", ""))
-        except ValueError:
+            s_raw = c.get("start", "")
+            e_raw = c.get("end", "")
+            if not isinstance(s_raw, str) or not s_raw:
+                continue
+            s = datetime.date.fromisoformat(s_raw)
+            if isinstance(e_raw, str) and e_raw:
+                e = datetime.date.fromisoformat(e_raw)
+            elif e_raw is None or e_raw == "":
+                e = None
+            else:
+                continue
+        except (ValueError, TypeError):
             continue
-        if s <= date <= e:
+        if s <= date and (e is None or date <= e):
             out.append(c)
-    out.sort(key=lambda c: c.get("end", ""))
+    out.sort(key=lambda c: (c.get("end") or "9999-12-31") if isinstance(c.get("end"), str) else "9999-12-31")
     return out
 
 
@@ -602,9 +613,17 @@ def render(date, streams, finished, collabs, promos, fortune, members, theme, ou
             pw2 = draw_pill(d, 62, y + 7, pill, f_body, ccol)
             tx0 = 62 + pw2 + 12
             try:
-                e = datetime.date.fromisoformat(c["end"])
-                period = f"〜{e.month}/{e.day}まで"
-            except (ValueError, KeyError):
+                e_raw = c.get("end", "")
+                s_raw = c.get("start", "")
+                if isinstance(e_raw, str) and e_raw:
+                    e = datetime.date.fromisoformat(e_raw)
+                    period = f"〜{e.month}/{e.day}まで"
+                elif isinstance(s_raw, str) and s_raw:
+                    s = datetime.date.fromisoformat(s_raw)
+                    period = f"{s.month}/{s.day}〜"
+                else:
+                    period = "開催中"
+            except (ValueError, KeyError, TypeError):
                 period = ""
             pw3 = d.textlength(period, font=f_small)
             title = truncate(d, f"{c.get('shop','')} {c.get('title','')}".strip(), f_body,
