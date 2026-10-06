@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T12:15:02.290Z",
+  "updatedAt": "2026-10-06T16:13:59.469Z",
   "streams": [
     {
       "id": "NBbE-zXEEmo",
@@ -89,6 +89,15 @@
       "title": "☁イオンオリジナルグッズ発売決定 🔧",
       "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
       "scheduledStartTime": "2027-01-31T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "OCDhtDgFVUU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜  イオン限定！『ミリプロ』オリジナルグッズが販売中👑  ⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-02-03T14:30:00Z",
       "status": "upcoming"
     }
   ],
