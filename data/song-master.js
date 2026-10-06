@@ -40,9 +40,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "96猫 & 天月-あまつき-",
-      "album": "WALK(初回盤)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/b6/64/a1b6641b-96d5-d90d-0eff-8f8d97ed9241/PA00221348_1_252926_jacket.jpg/600x600bb.jpg"
+      "artist": "m",
+      "album": "Surges - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -171,12 +171,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
-      "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
       "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+        "title": "Sis x Love"
       }
     },
     "プラネテス": {
@@ -534,10 +534,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "地球儀 (with Vaundy)",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Walpurgis",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -906,10 +906,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "名モ無キ休日 (feat. HaiM-BerG) [Remix]",
+      "artist": "KC",
+      "album": "名モ無キ休日 (feat. HaiM-BerG) [Remix] - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/3e/fa/703efa90-f68b-976d-0998-ddb7f492fe9d/4550755311822_cover.png/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",
@@ -1132,6 +1132,12 @@ window.SONG_MASTER = {
       "en": {
         "title": "A faint flower"
       }
+    },
+    "henceforth": {
+      "title": "Henceforth",
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",

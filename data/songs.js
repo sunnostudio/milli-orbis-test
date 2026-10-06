@@ -2740,6 +2740,17 @@ window.SONGS = {
       }
     },
     {
+      "title": "Henceforth",
+      "key": "henceforth",
+      "urls": [
+        {
+          "id": "qQGJV431vVI",
+          "memberId": "raco",
+          "publishedAt": "2026-10-06"
+        }
+      ]
+    },
+    {
       "title": "恋するフォーチュンクッキー",
       "key": "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし",
       "urls": [
