@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "hPVQ7VRgBv0",
+    "memberId": "raco",
+    "publishedAt": "2026-10-05",
+    "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "oHkmplaDosw",
     "memberId": "liz",
     "publishedAt": "2026-10-03",
