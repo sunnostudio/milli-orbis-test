@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "raco",
     "publishedAt": "2026-10-05",
     "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
-    "duration": 0,
+    "duration": 7184,
     "songs": []
   },
   {
