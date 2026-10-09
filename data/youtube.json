@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-09T12:15:26.632Z",
+  "updatedAt": "2026-10-09T16:13:37.569Z",
   "streams": [
-    {
-      "id": "CwnbIUUELnc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【VALORANT】てとちゃん&amp;レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-09T10:01:35Z",
-      "status": "live"
-    },
-    {
-      "id": "uoB6oBS8nnk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-09T10:12:57Z",
-      "status": "live"
-    },
-    {
-      "id": "LA0RBwsRQzY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LA0RBwsRQzY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-09T11:27:17Z",
-      "status": "live"
-    },
     {
       "id": "mABBk-9aZbw",
       "memberId": "nono",
@@ -44,6 +17,15 @@
       "title": "【📢グッズ情報】3Dお披露目記念グッズ受注開始！",
       "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-12T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "1ZQ5sanS8C8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-24T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -121,43 +103,13 @@
   ],
   "videos": [
     {
-      "id": "WZS8Wf6Ur6c",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WZS8Wf6Ur6c/hqdefault.jpg",
-      "publishedAt": "2026-10-09T11:33:28Z",
-      "live": false
-    },
-    {
-      "id": "LA0RBwsRQzY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LA0RBwsRQzY/hqdefault_live.jpg",
-      "publishedAt": "2026-10-09T11:27:17Z",
-      "live": true
-    },
-    {
       "id": "uoB6oBS8nnk",
       "memberId": "rei",
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault_live.jpg",
-      "publishedAt": "2026-10-09T10:12:57Z",
-      "live": false
-    },
-    {
-      "id": "S08lBqdUDXA",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/S08lBqdUDXA/hqdefault.jpg",
-      "publishedAt": "2026-10-09T10:12:35Z",
+      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault.jpg",
+      "publishedAt": "2026-10-09T13:47:38Z",
       "live": false
     },
     {
@@ -166,8 +118,28 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【VALORANT】てとちゃん&レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
-      "publishedAt": "2026-10-09T10:01:35Z",
+      "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault.jpg",
+      "publishedAt": "2026-10-09T13:46:37Z",
+      "live": false
+    },
+    {
+      "id": "LA0RBwsRQzY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LA0RBwsRQzY/hqdefault.jpg",
+      "publishedAt": "2026-10-09T13:23:00Z",
+      "live": true
+    },
+    {
+      "id": "1ZQ5sanS8C8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault_live.jpg",
+      "publishedAt": "2026-10-09T12:41:25Z",
       "live": false
     },
     {
@@ -391,6 +363,16 @@
       "live": false
     },
     {
+      "id": "8X-pqYAtaW0",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『狂乱 Hey Kids!!』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8X-pqYAtaW0/hqdefault.jpg",
+      "publishedAt": "2026-10-04T09:00:33Z",
+      "live": false
+    },
+    {
       "id": "0WjwIjz4sZc",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -421,33 +403,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "CwnbIUUELnc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【VALORANT】てとちゃん&amp;レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-09T10:01:35Z",
-      "status": "live"
-    },
-    {
-      "id": "uoB6oBS8nnk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-09T10:12:57Z",
-      "status": "live"
-    },
-    {
-      "id": "LA0RBwsRQzY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LA0RBwsRQzY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-09T11:27:17Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
