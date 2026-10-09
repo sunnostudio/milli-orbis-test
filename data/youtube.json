@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-09T04:13:34.395Z",
+  "updatedAt": "2026-10-09T08:14:06.995Z",
   "streams": [
+    {
+      "id": "CwnbIUUELnc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【VALORANT】てとちゃん&amp;レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-09T10:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "mABBk-9aZbw",
       "memberId": "nono",
@@ -324,16 +333,6 @@
       "live": false
     },
     {
-      "id": "_xla0gudxcI",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_xla0gudxcI/hqdefault.jpg",
-      "publishedAt": "2026-10-04T09:00:08Z",
-      "live": false
-    },
-    {
       "id": "yDIzArdzjhU",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -364,16 +363,6 @@
       "live": false
     },
     {
-      "id": "AnFDleVxNxo",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】はい、チーズ！！#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/AnFDleVxNxo/hqdefault.jpg",
-      "publishedAt": "2026-10-03T09:00:11Z",
-      "live": false
-    },
-    {
       "id": "LCoON5HWckw",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -392,6 +381,26 @@
       "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault.jpg",
       "publishedAt": "2026-10-02T13:43:19Z",
       "live": false
+    },
+    {
+      "id": "3mwnuXT6UNU",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault.jpg",
+      "publishedAt": "2026-10-02T13:29:26Z",
+      "live": false
+    },
+    {
+      "id": "5XOfbzrBqr0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗サイン入れ屋さん、開店〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5XOfbzrBqr0/hqdefault.jpg",
+      "publishedAt": "2026-10-02T12:29:34Z",
+      "live": true
     }
   ],
   "live": []

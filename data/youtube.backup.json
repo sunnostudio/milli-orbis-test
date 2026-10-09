@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T00:20:31.403Z",
+  "updatedAt": "2026-10-09T04:13:34.395Z",
   "streams": [
     {
       "id": "mABBk-9aZbw",
@@ -93,6 +93,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "CwnbIUUELnc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【VALORANT】てとちゃん&レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
+      "publishedAt": "2026-10-09T00:33:56Z",
+      "live": false
+    },
     {
       "id": "nykhhZOxCts",
       "memberId": "mahoro",
@@ -381,16 +391,6 @@
       "title": "【 おうち3D 】ついにおうち3Dマスターしたぞ【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault.jpg",
       "publishedAt": "2026-10-02T13:43:19Z",
-      "live": false
-    },
-    {
-      "id": "3mwnuXT6UNU",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault.jpg",
-      "publishedAt": "2026-10-02T13:29:26Z",
       "live": false
     }
   ],
