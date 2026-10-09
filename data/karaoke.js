@@ -1,6 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "WZS8Wf6Ur6c",
+    "memberId": "liz",
+    "publishedAt": "2026-10-09",
+    "title": "【歌枠】重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
+    "duration": 994,
+    "songs": []
+  },
+  {
+    "id": "LA0RBwsRQzY",
+    "memberId": "liz",
+    "publishedAt": "2026-10-09",
+    "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "s-ZdfJ-vMNA",
     "memberId": "tsukuri",
     "publishedAt": "2026-10-08",

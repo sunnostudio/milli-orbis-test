@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T08:14:06.995Z",
+  "updatedAt": "2026-10-09T12:15:26.632Z",
   "streams": [
     {
       "id": "CwnbIUUELnc",
@@ -7,8 +7,26 @@
       "member": "鹿乃まほろ",
       "title": "【VALORANT】てとちゃん&amp;レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-09T10:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-10-09T10:01:35Z",
+      "status": "live"
+    },
+    {
+      "id": "uoB6oBS8nnk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-09T10:12:57Z",
+      "status": "live"
+    },
+    {
+      "id": "LA0RBwsRQzY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LA0RBwsRQzY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-09T11:27:17Z",
+      "status": "live"
     },
     {
       "id": "mABBk-9aZbw",
@@ -103,13 +121,83 @@
   ],
   "videos": [
     {
+      "id": "WZS8Wf6Ur6c",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/WZS8Wf6Ur6c/hqdefault.jpg",
+      "publishedAt": "2026-10-09T11:33:28Z",
+      "live": false
+    },
+    {
+      "id": "LA0RBwsRQzY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LA0RBwsRQzY/hqdefault_live.jpg",
+      "publishedAt": "2026-10-09T11:27:17Z",
+      "live": true
+    },
+    {
+      "id": "uoB6oBS8nnk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault_live.jpg",
+      "publishedAt": "2026-10-09T10:12:57Z",
+      "live": false
+    },
+    {
+      "id": "S08lBqdUDXA",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/S08lBqdUDXA/hqdefault.jpg",
+      "publishedAt": "2026-10-09T10:12:35Z",
+      "live": false
+    },
+    {
       "id": "CwnbIUUELnc",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【VALORANT】てとちゃん&レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
-      "publishedAt": "2026-10-09T00:33:56Z",
+      "publishedAt": "2026-10-09T10:01:35Z",
+      "live": false
+    },
+    {
+      "id": "qtdLZU8NNN0",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【VTuberの月収いくら！？】デビットビット歌ってみた！ 【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qtdLZU8NNN0/hqdefault.jpg",
+      "publishedAt": "2026-10-09T09:01:26Z",
+      "live": false
+    },
+    {
+      "id": "4iRtSQRucyw",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】なんかカッコよくない？ #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/4iRtSQRucyw/hqdefault.jpg",
+      "publishedAt": "2026-10-09T09:00:20Z",
+      "live": false
+    },
+    {
+      "id": "XYPJW47p2hE",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "レイぴょんと「NG歌詞ゲーム」やってみた！ 「ゆらぎゆら/ミリプロ」",
+      "thumb": "https://i.ytimg.com/vi/XYPJW47p2hE/hqdefault.jpg",
+      "publishedAt": "2026-10-09T09:00:13Z",
       "live": false
     },
     {
@@ -293,16 +381,6 @@
       "live": false
     },
     {
-      "id": "KFtWZx6c-_U",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】ダイヤ100万個集めるまで終われません!?集めるほど効率がぶっ壊れていく世界がヤバすぎたｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/KFtWZx6c-_U/hqdefault.jpg",
-      "publishedAt": "2026-10-04T10:00:09Z",
-      "live": false
-    },
-    {
       "id": "I7KqYG7dwk0",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -310,16 +388,6 @@
       "title": "【だんだん病んでく】病みカワ曲メドレー歌ってみた！ 【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/I7KqYG7dwk0/hqdefault.jpg",
       "publishedAt": "2026-10-04T09:01:26Z",
-      "live": false
-    },
-    {
-      "id": "8X-pqYAtaW0",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "『狂乱 Hey Kids!!』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8X-pqYAtaW0/hqdefault.jpg",
-      "publishedAt": "2026-10-04T09:00:33Z",
       "live": false
     },
     {
@@ -351,57 +419,35 @@
       "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault.jpg",
       "publishedAt": "2026-10-03T13:54:48Z",
       "live": false
-    },
-    {
-      "id": "eYdVumMwsyk",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【あくび・でもんすぺーどと】NG歌詞ゲーム歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/eYdVumMwsyk/hqdefault.jpg",
-      "publishedAt": "2026-10-03T09:20:37Z",
-      "live": false
-    },
-    {
-      "id": "LCoON5HWckw",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault.jpg",
-      "publishedAt": "2026-10-03T00:57:44Z",
-      "live": false
-    },
-    {
-      "id": "ubWa583I6W4",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 おうち3D 】ついにおうち3Dマスターしたぞ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault.jpg",
-      "publishedAt": "2026-10-02T13:43:19Z",
-      "live": false
-    },
-    {
-      "id": "3mwnuXT6UNU",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault.jpg",
-      "publishedAt": "2026-10-02T13:29:26Z",
-      "live": false
-    },
-    {
-      "id": "5XOfbzrBqr0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗サイン入れ屋さん、開店〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5XOfbzrBqr0/hqdefault.jpg",
-      "publishedAt": "2026-10-02T12:29:34Z",
-      "live": true
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "CwnbIUUELnc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【VALORANT】てとちゃん&amp;レイちゃんとコンペする(⊙ω⊙)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/CwnbIUUELnc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-09T10:01:35Z",
+      "status": "live"
+    },
+    {
+      "id": "uoB6oBS8nnk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-09T10:12:57Z",
+      "status": "live"
+    },
+    {
+      "id": "LA0RBwsRQzY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LA0RBwsRQzY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-09T11:27:17Z",
+      "status": "live"
+    }
+  ]
 }
