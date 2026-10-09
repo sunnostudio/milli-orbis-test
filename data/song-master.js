@@ -536,8 +536,8 @@ window.SONG_MASTER = {
     "青空のラプソディ": {
       "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "daydream",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -1149,13 +1149,10 @@ window.SONG_MASTER = {
       }
     },
     "絶対敵対メチャキライヤ": {
-      "title": "絶対敵対メチャキライヤー",
-      "artist": "メドミア",
-      "album": "絶対敵対メチャキライヤー - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3d/1f/56/3d1f568c-b444-f685-ebee-bab077d1f558/859758145125_cover.png/600x600bb.jpg",
-      "en": {
-        "title": "Absolutely hostile Mechakilier"
-      }
+      "title": "絶対敵対メチャキライヤー covered by RUNA",
+      "artist": "Imgramox Music & RUNA",
+      "album": "絶対敵対メチャキライヤー covered by RUNA - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/cc/90/b3cc9055-9c02-f813-b53b-96b9f72b8aae/cover.jpg/600x600bb.jpg"
     },
     "私のこと好きでしょ？": {
       "title": "私のこと好きでしょ?",
@@ -1518,10 +1515,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/29/9d/d2299deb-aca4-2229-de3b-d976635c6bb6/3617053072846.jpg/600x600bb.jpg"
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "ここから、かなたから~bambi-no cover~",
-      "artist": "鹿乃",
-      "album": "Stella-rium - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
+      "title": "アトノマツリ",
+      "artist": "乃木坂46",
+      "album": "ここにはないもの (Special Edition)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/91/ae/cb91ae8f-24d7-16b6-374f-322a704cc5cb/4547366595635.jpg/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1548,10 +1545,13 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "ピーターパン",
+      "title": "かくれんぼ",
       "artist": "優里",
-      "album": "ピーターパン - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/93/ab/93/93ab93a9-0845-77d7-5d1e-666ffb0692e9/jacket_BVXX01352B00Z_550.jpg/600x600bb.jpg"
+      "album": "かくれんぼ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "en": {
+        "title": "hide and seek"
+      }
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
