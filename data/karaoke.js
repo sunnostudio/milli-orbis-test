@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "s-ZdfJ-vMNA",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-10-08",
+    "title": "〖 歌枠 〗おうち3Dで秋を楽しむお歌の会〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 8282,
+    "songs": []
+  },
+  {
     "id": "hPVQ7VRgBv0",
     "memberId": "raco",
     "publishedAt": "2026-10-05",
