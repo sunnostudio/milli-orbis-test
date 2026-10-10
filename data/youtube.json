@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T00:18:43.224Z",
+  "updatedAt": "2026-10-10T04:12:07.318Z",
   "streams": [
     {
       "id": "mABBk-9aZbw",
@@ -102,6 +102,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "uKblURWBBQE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【お絵描き】ミリプロメンバーの衣装交換をするの巻。【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/uKblURWBBQE/hqdefault_live.jpg",
+      "publishedAt": "2026-10-10T01:02:48Z",
+      "live": false
+    },
     {
       "id": "uoB6oBS8nnk",
       "memberId": "rei",
@@ -390,16 +400,6 @@
       "title": "しごとおわりん、のんびりはなす",
       "thumb": "https://i.ytimg.com/vi/yDIzArdzjhU/hqdefault.jpg",
       "publishedAt": "2026-10-03T15:34:19Z",
-      "live": false
-    },
-    {
-      "id": "oHkmplaDosw",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault.jpg",
-      "publishedAt": "2026-10-03T13:54:48Z",
       "live": false
     }
   ],
