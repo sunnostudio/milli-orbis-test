@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-10T04:12:07.318Z",
+  "updatedAt": "2026-10-10T08:11:33.360Z",
   "streams": [
+    {
+      "id": "V28L2Oc1mFc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 BOMBANANA! 〗全員言わざるでいいのでは？ w/ミリプロUNI〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/V28L2Oc1mFc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-10T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "NL0SS2p9y84",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 BOMBANANA! 】ミリプロUNIで爆弾解除…？！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/NL0SS2p9y84/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-10T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "mABBk-9aZbw",
       "memberId": "nono",
@@ -103,13 +121,43 @@
   ],
   "videos": [
     {
-      "id": "uKblURWBBQE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】ミリプロメンバーの衣装交換をするの巻。【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/uKblURWBBQE/hqdefault_live.jpg",
-      "publishedAt": "2026-10-10T01:02:48Z",
+      "id": "Gzviamtxnyk",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Gzviamtxnyk/hqdefault.jpg",
+      "publishedAt": "2026-10-10T07:18:11Z",
+      "live": false
+    },
+    {
+      "id": "NL0SS2p9y84",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 BOMBANANA! 】ミリプロUNIで爆弾解除…？！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/NL0SS2p9y84/hqdefault_live.jpg",
+      "publishedAt": "2026-10-10T06:58:14Z",
+      "live": false
+    },
+    {
+      "id": "Tiuhl4vjT5g",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Tiuhl4vjT5g/hqdefault.jpg",
+      "publishedAt": "2026-10-10T06:57:13Z",
+      "live": false
+    },
+    {
+      "id": "V28L2Oc1mFc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 BOMBANANA! 〗全員言わざるでいいのでは？ w/ミリプロUNI〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/V28L2Oc1mFc/hqdefault_live.jpg",
+      "publishedAt": "2026-10-10T06:16:06Z",
       "live": false
     },
     {
@@ -370,36 +418,6 @@
       "title": "【だんだん病んでく】病みカワ曲メドレー歌ってみた！ 【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/I7KqYG7dwk0/hqdefault.jpg",
       "publishedAt": "2026-10-04T09:01:26Z",
-      "live": false
-    },
-    {
-      "id": "8X-pqYAtaW0",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "『狂乱 Hey Kids!!』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8X-pqYAtaW0/hqdefault.jpg",
-      "publishedAt": "2026-10-04T09:00:33Z",
-      "live": false
-    },
-    {
-      "id": "0WjwIjz4sZc",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【眠雲ツクリと】NG歌詞ゲーム歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0WjwIjz4sZc/hqdefault.jpg",
-      "publishedAt": "2026-10-04T09:00:12Z",
-      "live": false
-    },
-    {
-      "id": "yDIzArdzjhU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "しごとおわりん、のんびりはなす",
-      "thumb": "https://i.ytimg.com/vi/yDIzArdzjhU/hqdefault.jpg",
-      "publishedAt": "2026-10-03T15:34:19Z",
       "live": false
     }
   ],

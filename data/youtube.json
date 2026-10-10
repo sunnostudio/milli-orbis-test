@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-10T08:11:33.360Z",
+  "updatedAt": "2026-10-10T19:50:07.670Z",
   "streams": [
-    {
-      "id": "V28L2Oc1mFc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 BOMBANANA! 〗全員言わざるでいいのでは？ w/ミリプロUNI〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/V28L2Oc1mFc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-10T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "NL0SS2p9y84",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 BOMBANANA! 】ミリプロUNIで爆弾解除…？！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/NL0SS2p9y84/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-10T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "mABBk-9aZbw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢出演告知】音ノ乃のの渡韓します！",
-      "thumb": "https://i.ytimg.com/vi/mABBk-9aZbw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-10T14:59:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "nElUBc_Ji-Y",
       "memberId": "raco",
@@ -35,6 +8,15 @@
       "title": "【📢グッズ情報】3Dお披露目記念グッズ受注開始！",
       "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-12T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "4QLgCAymgI0",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【 #海琳あおい初配信 】みんなへ幸をお届け！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/4QLgCAymgI0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-17T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -121,13 +103,43 @@
   ],
   "videos": [
     {
-      "id": "Gzviamtxnyk",
+      "id": "FqlEzoFPE_o",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "ののらこ酔いスマホ配信 in🇰🇷",
+      "thumb": "https://i.ytimg.com/vi/FqlEzoFPE_o/hqdefault.jpg",
+      "publishedAt": "2026-10-10T16:47:12Z",
+      "live": true
+    },
+    {
+      "id": "4yfyjzqDOhs",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【ブチギレ】何になりきっているか見破れ！怒りだけで正体を当てるゲームがカオスすぎたｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/4yfyjzqDOhs/hqdefault.jpg",
+      "publishedAt": "2026-10-10T15:03:47Z",
+      "live": false
+    },
+    {
+      "id": "-cQ6qHNRL30",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Gzviamtxnyk/hqdefault.jpg",
-      "publishedAt": "2026-10-10T07:18:11Z",
+      "title": "【 BOMBANANA! 】雨夜さんたちに任せなさい？【眠雲ツクリ/夕霧レイ/雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/-cQ6qHNRL30/hqdefault.jpg",
+      "publishedAt": "2026-10-10T14:20:37Z",
+      "live": false
+    },
+    {
+      "id": "V28L2Oc1mFc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 BOMBANANA! 〗全員言わざるでいいのでは？ w/ミリプロUNI〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/V28L2Oc1mFc/hqdefault.jpg",
+      "publishedAt": "2026-10-10T13:15:14Z",
       "live": false
     },
     {
@@ -137,27 +149,47 @@
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 BOMBANANA! 】ミリプロUNIで爆弾解除…？！ ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/NL0SS2p9y84/hqdefault_live.jpg",
-      "publishedAt": "2026-10-10T06:58:14Z",
+      "publishedAt": "2026-10-10T13:00:35Z",
       "live": false
     },
     {
-      "id": "Tiuhl4vjT5g",
+      "id": "MsBd6ceNpfE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【メン限体験版】はなしたいはなしたいはなしたいはなしたいはなしたいはなしたいはなしたいはなしたいはなしたいはなしたい",
+      "thumb": "https://i.ytimg.com/vi/MsBd6ceNpfE/hqdefault.jpg",
+      "publishedAt": "2026-10-10T11:08:42Z",
+      "live": false
+    },
+    {
+      "id": "sefLHenf1Cc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【らこちといっしょに】NG歌詞ゲームやってみた！【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sefLHenf1Cc/hqdefault.jpg",
+      "publishedAt": "2026-10-10T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "-a0VoN-lgDU",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/-a0VoN-lgDU/hqdefault.jpg",
+      "publishedAt": "2026-10-10T09:00:27Z",
+      "live": false
+    },
+    {
+      "id": "NHwdIntutXE",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Tiuhl4vjT5g/hqdefault.jpg",
-      "publishedAt": "2026-10-10T06:57:13Z",
-      "live": false
-    },
-    {
-      "id": "V28L2Oc1mFc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 BOMBANANA! 〗全員言わざるでいいのでは？ w/ミリプロUNI〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/V28L2Oc1mFc/hqdefault_live.jpg",
-      "publishedAt": "2026-10-10T06:16:06Z",
+      "title": "【ゆらぎゆらと】NG歌詞ゲーム歌ってみた【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NHwdIntutXE/hqdefault.jpg",
+      "publishedAt": "2026-10-10T09:00:23Z",
       "live": false
     },
     {
@@ -341,16 +373,6 @@
       "live": false
     },
     {
-      "id": "PsuRUBkf_A4",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】プロトディスコ #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/PsuRUBkf_A4/hqdefault.jpg",
-      "publishedAt": "2026-10-06T09:00:12Z",
-      "live": false
-    },
-    {
       "id": "dWPORdi8zUw",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -378,46 +400,6 @@
       "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault.jpg",
       "publishedAt": "2026-10-05T14:31:50Z",
-      "live": false
-    },
-    {
-      "id": "1SRUs1r0lco",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "数字当てゲームで甘々セリフを読むのは誰だ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/1SRUs1r0lco/hqdefault.jpg",
-      "publishedAt": "2026-10-05T09:00:01Z",
-      "live": false
-    },
-    {
-      "id": "bcqT7XkGAS0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】らすとちる観光するだ～【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bcqT7XkGAS0/hqdefault.jpg",
-      "publishedAt": "2026-10-04T16:30:08Z",
-      "live": false
-    },
-    {
-      "id": "UzMRo2dyKk4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 パワプロ2026 】#5 果たして起きれるのか. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UzMRo2dyKk4/hqdefault.jpg",
-      "publishedAt": "2026-10-04T10:25:28Z",
-      "live": false
-    },
-    {
-      "id": "I7KqYG7dwk0",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【だんだん病んでく】病みカワ曲メドレー歌ってみた！ 【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/I7KqYG7dwk0/hqdefault.jpg",
-      "publishedAt": "2026-10-04T09:01:26Z",
       "live": false
     }
   ],

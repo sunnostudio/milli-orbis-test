@@ -1,22 +1,6 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
-    "id": "Tiuhl4vjT5g",
-    "memberId": "liz",
-    "publishedAt": "2026-10-10",
-    "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
-    "duration": 809,
-    "songs": []
-  },
-  {
-    "id": "Gzviamtxnyk",
-    "memberId": "liz",
-    "publishedAt": "2026-10-10",
-    "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
-    "duration": 429,
-    "songs": []
-  },
-  {
     "id": "LA0RBwsRQzY",
     "memberId": "liz",
     "publishedAt": "2026-10-09",
