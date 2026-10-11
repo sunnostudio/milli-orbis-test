@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-10T23:17:52.187Z",
+  "updatedAt": "2026-10-11T04:25:26.106Z",
   "streams": [
+    {
+      "id": "eCgna7vPZ6E",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/eCgna7vPZ6E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-11T04:02:17Z",
+      "status": "live"
+    },
     {
       "id": "nElUBc_Ji-Y",
       "memberId": "raco",
@@ -103,6 +112,36 @@
   ],
   "videos": [
     {
+      "id": "eCgna7vPZ6E",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/eCgna7vPZ6E/hqdefault_live.jpg",
+      "publishedAt": "2026-10-11T04:02:17Z",
+      "live": false
+    },
+    {
+      "id": "4KPuSXFG9PM",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【タンポポは耐える】生きてるかぎり戦い続ける【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/4KPuSXFG9PM/hqdefault_live.jpg",
+      "publishedAt": "2026-10-11T02:33:26Z",
+      "live": false
+    },
+    {
+      "id": "NL0SS2p9y84",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 BOMBANANA! 】ミリプロUNIで爆弾解除…？！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/NL0SS2p9y84/hqdefault.jpg",
+      "publishedAt": "2026-10-11T02:28:33Z",
+      "live": false
+    },
+    {
       "id": "FqlEzoFPE_o",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -140,16 +179,6 @@
       "title": "〖 BOMBANANA! 〗全員言わざるでいいのでは？ w/ミリプロUNI〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/V28L2Oc1mFc/hqdefault.jpg",
       "publishedAt": "2026-10-10T13:15:14Z",
-      "live": false
-    },
-    {
-      "id": "NL0SS2p9y84",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 BOMBANANA! 】ミリプロUNIで爆弾解除…？！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/NL0SS2p9y84/hqdefault_live.jpg",
-      "publishedAt": "2026-10-10T13:00:35Z",
       "live": false
     },
     {
@@ -381,27 +410,17 @@
       "thumb": "https://i.ytimg.com/vi/dWPORdi8zUw/hqdefault.jpg",
       "publishedAt": "2026-10-06T09:00:03Z",
       "live": false
-    },
-    {
-      "id": "P7UFMPSyUJE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗１年が終わる！！！冬後半戦！#8〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/P7UFMPSyUJE/hqdefault.jpg",
-      "publishedAt": "2026-10-05T18:25:18Z",
-      "live": false
-    },
-    {
-      "id": "gurvRZQLswc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault.jpg",
-      "publishedAt": "2026-10-05T14:31:50Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "eCgna7vPZ6E",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/eCgna7vPZ6E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-11T04:02:17Z",
+      "status": "live"
+    }
+  ]
 }
