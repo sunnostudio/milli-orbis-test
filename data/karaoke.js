@@ -49,14 +49,6 @@ window.KARAOKE = [
     "songs": []
   },
   {
-    "id": "qD6JZQPGTt4",
-    "memberId": "raco",
-    "publishedAt": "2026-09-25",
-    "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
-    "duration": 8508,
-    "songs": []
-  },
-  {
     "id": "xVpRapqd4JY",
     "memberId": "rei",
     "publishedAt": "2026-09-25",
@@ -70,14 +62,6 @@ window.KARAOKE = [
     "publishedAt": "2026-09-24",
     "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
     "duration": 6302,
-    "songs": []
-  },
-  {
-    "id": "pytWeCL4-v8",
-    "memberId": "raco",
-    "publishedAt": "2026-09-22",
-    "title": "【#マイクラ肝試し2026】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-    "duration": 13336,
     "songs": []
   },
   {
