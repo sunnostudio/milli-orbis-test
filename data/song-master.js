@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-10-12",
   "songs": {
     "デビットビット": {
       "title": "デビットビット",
@@ -171,12 +171,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ",
-      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
-      "album": "ほろはにヶ丘高校 -Covers-",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
+      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
+      "artist": "HoneyWorks",
+      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
       "en": {
-        "title": "Sis x Love"
+        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
       }
     },
     "プラネテス": {
@@ -195,13 +195,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Pointillist song"
-      }
+      "title": "点描の唄 (feat. 井上苑子)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "青と夏 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "花女花譜": {
       "title": "花女",
@@ -349,6 +346,12 @@ window.SONG_MASTER = {
       "en": {
         "title": "proposal"
       }
+    },
+    "snooze": {
+      "title": "聴けば自然と眠くなる睡眠導入BGM ヒーリングピアノ (睡眠と集中のためのバイノーラルビート)",
+      "artist": "SLEEPY NUTS",
+      "album": "すぐに眠れる音楽 ストレス解消で心が落ち着くリラクゼーション",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/7f/10/597f1044-fa78-fa94-d173-e5d074792d9e/4550795001264_cover.jpg/600x600bb.jpg"
     },
     "ワルドイズマイン": {
       "title": "ワールドイズマイン",
@@ -567,10 +570,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -765,10 +771,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "Zedd & アレッシア・カーラ",
+      "album": "Stay - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -906,10 +912,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "名モ無キ休日 (feat. HaiM-BerG) [Remix]",
-      "artist": "KC",
-      "album": "名モ無キ休日 (feat. HaiM-BerG) [Remix] - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/3e/fa/703efa90-f68b-976d-0998-ddb7f492fe9d/4550755311822_cover.png/600x600bb.jpg"
+      "title": "MANIHEKE",
+      "artist": "アイリフドーパ",
+      "album": "GENTEN - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",
@@ -1149,10 +1155,13 @@ window.SONG_MASTER = {
       }
     },
     "絶対敵対メチャキライヤ": {
-      "title": "絶対敵対メチャキライヤー covered by RUNA",
-      "artist": "Imgramox Music & RUNA",
-      "album": "絶対敵対メチャキライヤー covered by RUNA - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/cc/90/b3cc9055-9c02-f813-b53b-96b9f72b8aae/cover.jpg/600x600bb.jpg"
+      "title": "絶対敵対メチャキライヤー",
+      "artist": "メドミア",
+      "album": "絶対敵対メチャキライヤー - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3d/1f/56/3d1f568c-b444-f685-ebee-bab077d1f558/859758145125_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "Absolutely hostile Mechakilier"
+      }
     },
     "私のこと好きでしょ？": {
       "title": "私のこと好きでしょ?",
@@ -1212,12 +1221,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/41/89/394189a4-f84a-0384-ac8b-35020bc218da/GHOST_shokai_Jacket3000.jpg/600x600bb.jpg"
     },
     "アイロニacoustic.": {
-      "title": "クライヤ",
+      "title": "ハロ/ハワユ",
       "artist": "鹿乃",
-      "album": "クライヤ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/d0/ed/11/d0ed111f-596d-4e42-d654-47c51f37bbb6/4571192987258.jpg/600x600bb.jpg",
+      "album": "rye",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
       "en": {
-        "title": "Cryer"
+        "title": "halo/hawayu"
       }
     },
     "心拍数#0822acoustic.": {
@@ -1227,10 +1236,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c6/f9/e6/c6f9e687-9fd0-5e42-dea9-e99f47389896/KRHS-37260_Pfeat_GloriousWo.jpg/600x600bb.jpg"
     },
     "チェリポップ.": {
-      "title": "メランコリーキッチン",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "365日",
+      "artist": "Mr.Children",
+      "album": "Mr.Children 2005 - 2010 <macro>",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/f5/31/e2f531ef-3d22-44f2-2f3c-7170725eec29/dj.mxqqwpdb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1473,10 +1482,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/96/49/b8/9649b86f-4487-c635-0f68-4f7659a41285/PCCA_06172_A.jpg/600x600bb.jpg"
     },
     "嘘つきは恋のはじまりarrangever.40mp": {
-      "title": "バンド",
-      "artist": "back number",
-      "album": "もしも生まれ変わったならそっとこんな声になって",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/23/a7/1023a79c-dc39-dd88-2d4e-6e259455b76f/24UMGIM90423.rgb.jpg/600x600bb.jpg"
+      "title": "クスシキ",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "クスシキ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/13/a2/f213a26f-355f-95da-c119-a0571d28cdd1/25UMGIM46524.rgb.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
       "title": "输入法记得你",
@@ -1545,13 +1554,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
+      "title": "シャッター",
       "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "hide and seek"
-      }
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",

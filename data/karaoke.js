@@ -1,6 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "LA0RBwsRQzY",
+    "memberId": "liz",
+    "publishedAt": "2026-10-09",
+    "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
+    "duration": 4485,
+    "songs": []
+  },
+  {
+    "id": "s-ZdfJ-vMNA",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-10-08",
+    "title": "〖 歌枠 〗おうち3Dで秋を楽しむお歌の会〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 8282,
+    "songs": []
+  },
+  {
     "id": "hPVQ7VRgBv0",
     "memberId": "raco",
     "publishedAt": "2026-10-05",
@@ -33,14 +49,6 @@ window.KARAOKE = [
     "songs": []
   },
   {
-    "id": "qD6JZQPGTt4",
-    "memberId": "raco",
-    "publishedAt": "2026-09-25",
-    "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
-    "duration": 8508,
-    "songs": []
-  },
-  {
     "id": "xVpRapqd4JY",
     "memberId": "rei",
     "publishedAt": "2026-09-25",
@@ -54,14 +62,6 @@ window.KARAOKE = [
     "publishedAt": "2026-09-24",
     "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
     "duration": 6302,
-    "songs": []
-  },
-  {
-    "id": "pytWeCL4-v8",
-    "memberId": "raco",
-    "publishedAt": "2026-09-22",
-    "title": "【#マイクラ肝試し2026】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-    "duration": 13336,
     "songs": []
   },
   {
