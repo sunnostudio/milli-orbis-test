@@ -8,6 +8,10 @@ generate-cursor-packs.py — Windowsカーソル配布用 zip生成
 """
 import os, pathlib, zipfile, textwrap, shutil, re, json, struct, argparse, plistlib
 
+import sys as _sys
+_sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from cur_util import load_cur_rgba  # 24bpp+ANDマスク形式の透過対応
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CURSORS_ROOT = ROOT / "images" / "cursors"
 DIST_ROOT = ROOT / "dist" / "cursors"
@@ -25,6 +29,7 @@ TALENTS = [
     ("rizu", "Rizu", "雨夜リズ"),  # portal liz -> cur rizu
     ("rei", "Rei", "夕霧レイ"),
     ("mahoro", "Mahoro", "鹿乃まほろ"),
+    ("aoi", "Aoi", "海琳あおい"),
     ("milli-chan", "MilliChan", "ミリちゃん"),
 ]
 
@@ -41,6 +46,7 @@ CUR_FOLDER = {
     "rizu": "rizu",
     "rei": "rei",
     "mahoro": "mahoro",
+    "aoi": "aoi",
     "milli-chan": "milli-chan",
 }
 # For website portal id liz -> rizu
@@ -56,6 +62,7 @@ PORTAL_ID = {
     "rizu": "liz",
     "rei": "rei",
     "mahoro": "mahoro",
+    "aoi": "aoi",
     "milli-chan": "milchan",
 }
 
@@ -462,7 +469,7 @@ def main():
                 png_name = fname.replace(".cur", ".png")
                 dst_png = png_dir / png_name
                 try:
-                    im = Image.open(cur_path)
+                    im = load_cur_rgba(cur_path)
                     im.save(dst_png, "PNG")
                     hotspot[png_name] = _extract_hotspots(cur_path)
                 except Exception as e:

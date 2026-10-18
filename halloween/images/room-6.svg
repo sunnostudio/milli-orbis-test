@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <title>HOTEL GRAND MILLI — 6F 客室</title>
+  <defs>
+    <linearGradient id="r6-ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe6f2"/>
+      <stop offset="1" stop-color="#d5c6de"/>
+    </linearGradient>
+    <linearGradient id="r6-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d86b8"/>
+      <stop offset="0.7" stop-color="#5f669a"/>
+      <stop offset="1" stop-color="#464c78"/>
+    </linearGradient>
+    <linearGradient id="r6-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e27a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="r6-night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b24"/>
+      <stop offset="0.6" stop-color="#141c48"/>
+      <stop offset="1" stop-color="#2c3a72"/>
+    </linearGradient>
+    <linearGradient id="r6-quilt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e2432"/>
+      <stop offset="1" stop-color="#5f1620"/>
+    </linearGradient>
+    <linearGradient id="r6-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="r6-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4426"/>
+      <stop offset="1" stop-color="#3c2412"/>
+    </linearGradient>
+    <linearGradient id="r6-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3620"/>
+      <stop offset="1" stop-color="#331d0f"/>
+    </linearGradient>
+    <radialGradient id="r6-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#f6c453" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r6-lampglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r6-vig" cx="0.5" cy="0.46" r="0.75">
+      <stop offset="0.55" stop-color="#060410" stop-opacity="0"/>
+      <stop offset="1" stop-color="#060410" stop-opacity="0.55"/>
+    </radialGradient>
+    <pattern id="r6-damask" width="120" height="120" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#d4af37" stroke-width="2" opacity="0.3">
+        <circle cx="60" cy="60" r="24"/>
+        <circle cx="60" cy="60" r="12"/>
+        <circle cx="0" cy="60" r="6"/>
+        <circle cx="120" cy="60" r="6"/>
+      </g>
+    </pattern>
+    <filter id="r6-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="r6-glassClip">
+      <path d="M1230,480 L1230,300 A70,70 0 0 1 1370,300 L1370,480 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- 天井 -->
+  <rect x="0" y="0" width="1600" height="120" fill="url(#r6-ceil)"/>
+  <g stroke="#a89372" stroke-width="3">
+    <rect x="60" y="14" width="440" height="90" fill="#f4ecf6"/>
+    <rect x="520" y="14" width="560" height="90" fill="#f4ecf6"/>
+    <rect x="1100" y="14" width="440" height="90" fill="#f4ecf6"/>
+  </g>
+  <rect x="0" y="114" width="1600" height="12" fill="url(#r6-gold)"/>
+
+  <!-- 壁 -->
+  <rect x="0" y="126" width="1600" height="354" fill="url(#r6-wall)"/>
+  <rect x="0" y="126" width="1600" height="354" fill="url(#r6-damask)"/>
+
+  <!-- 柱（両端のみ） -->
+  <g id="r6-pil">
+    <rect x="0" y="150" width="60" height="490" fill="#e6d6c8" stroke="#a98f52" stroke-width="2"/>
+    <path d="M-8,150 L68,150 L56,178 L4,178 Z" fill="url(#r6-gold)"/>
+    <path d="M-8,640 L68,640 L56,612 L4,612 Z" fill="url(#r6-gold)"/>
+  </g>
+  <use href="#r6-pil" x="70" y="0"/>
+  <use href="#r6-pil" x="1470" y="0"/>
+
+  <!-- 腰壁 -->
+  <rect x="0" y="480" width="1600" height="16" fill="url(#r6-gold)"/>
+  <rect x="0" y="496" width="1600" height="144" fill="#e6d6c8"/>
+  <g fill="none" stroke="#a9852f" stroke-width="3" opacity="0.9">
+    <rect x="24" y="512" width="152" height="112"/>
+    <rect x="200" y="512" width="152" height="112"/>
+    <rect x="376" y="512" width="152" height="112"/>
+    <rect x="552" y="512" width="152" height="112"/>
+    <rect x="728" y="512" width="152" height="112"/>
+    <rect x="904" y="512" width="152" height="112"/>
+    <rect x="1080" y="512" width="152" height="112"/>
+    <rect x="1256" y="512" width="152" height="112"/>
+    <rect x="1432" y="512" width="152" height="112"/>
+  </g>
+  <rect x="0" y="640" width="1600" height="20" fill="#241a30"/>
+
+  <!-- ペンダント灯 -->
+  <g>
+    <line x1="800" y1="0" x2="800" y2="150" stroke="#3a2d08" stroke-width="6"/>
+    <path d="M760,190 L840,190 L822,140 L778,140 Z" fill="#f2dfae" stroke="#8a6d1f" stroke-width="3"/>
+    <ellipse cx="800" cy="200" rx="10" ry="12" fill="#ffd98a"/>
+    <ellipse cx="800" cy="210" rx="150" ry="120" fill="url(#r6-lampglow)" filter="url(#r6-blur)"/>
+  </g>
+
+  <!-- 左：天蓋ベッド -->
+  <g>
+    <g fill="url(#r6-wood)" stroke="#241408" stroke-width="3">
+      <rect x="130" y="180" width="26" height="430"/>
+      <rect x="444" y="180" width="26" height="430"/>
+    </g>
+    <circle cx="143" cy="172" r="14" fill="url(#r6-gold)"/>
+    <circle cx="457" cy="172" r="14" fill="url(#r6-gold)"/>
+    <rect x="130" y="180" width="340" height="26" fill="url(#r6-wood)" stroke="#241408" stroke-width="2"/>
+    <!-- 天蓋ドレープ -->
+    <path d="M130,206 C 200,240 260,240 300,206 L300,330 C 260,300 200,300 130,330 Z" fill="#7c1f2c" opacity="0.92"/>
+    <path d="M300,206 C 340,240 400,240 470,206 L470,330 C 400,300 340,300 300,330 Z" fill="#8e2432" opacity="0.92"/>
+    <!-- 枕・掛布 -->
+    <rect x="170" y="440" width="260" height="170" rx="14" fill="url(#r6-quilt)" stroke="#3d0d13" stroke-width="3"/>
+    <rect x="190" y="410" width="100" height="52" rx="16" fill="#f7efdc" stroke="#c9bda6" stroke-width="2"/>
+    <rect x="310" y="410" width="100" height="52" rx="16" fill="#f7efdc" stroke="#c9bda6" stroke-width="2"/>
+    <path d="M170,500 L430,500" stroke="#d4af37" stroke-width="4" opacity="0.7"/>
+    <path d="M170,540 L430,540" stroke="#d4af37" stroke-width="4" opacity="0.5"/>
+    <rect x="150" y="600" width="300" height="26" fill="url(#r6-wood)" stroke="#241408" stroke-width="2"/>
+    <!-- トランク -->
+    <g>
+      <rect x="200" y="640" width="200" height="80" rx="10" fill="#6b4426" stroke="#2a1709" stroke-width="3"/>
+      <line x1="260" y1="640" x2="260" y2="720" stroke="#2a1709" stroke-width="8"/>
+      <line x1="340" y1="640" x2="340" y2="720" stroke="#2a1709" stroke-width="8"/>
+      <rect x="285" y="668" width="30" height="24" rx="4" fill="url(#r6-gold)"/>
+    </g>
+  </g>
+
+  <!-- ナイトスタンド＋ランプ -->
+  <g>
+    <rect x="500" y="540" width="90" height="90" rx="6" fill="url(#r6-wood)" stroke="#241408" stroke-width="2"/>
+    <circle cx="545" cy="585" r="7" fill="url(#r6-gold)"/>
+    <rect x="532" y="486" width="14" height="54" fill="url(#r6-gold)"/>
+    <path d="M512,486 L578,486 L566,444 L524,444 Z" fill="#f2dfae" stroke="#8a6d1f" stroke-width="2"/>
+    <ellipse cx="545" cy="470" rx="8" ry="10" fill="#ffd98a"/>
+    <ellipse cx="545" cy="480" rx="70" ry="80" fill="url(#r6-lampglow)" filter="url(#r6-blur)"/>
+  </g>
+
+  <!-- 中央奥：微開きの扉（鍵クエストの布石） -->
+  <g>
+    <rect x="700" y="220" width="200" height="400" rx="6" fill="#241408"/>
+    <!-- 隙間の光 -->
+    <polygon points="786,240 814,240 806,600 778,600" fill="url(#r6-light)"/>
+    <polygon points="770,600 822,600 900,660 690,660" fill="url(#r6-light)" opacity="0.55"/>
+    <!-- 少し開いた扉 -->
+    <polygon points="700,240 786,256 778,600 700,600" fill="#4a2c16" stroke="url(#r6-gold)" stroke-width="3"/>
+    <g fill="none" stroke="#8a6d1f" stroke-width="2" opacity="0.8">
+      <polygon points="714,300 772,310 768,420 710,410"/>
+      <polygon points="710,440 766,448 764,560 708,552"/>
+    </g>
+    <circle cx="768" cy="430" r="7" fill="url(#r6-gold)"/>
+    <!-- 鍵穴の輝き -->
+    <g transform="translate(845,430)">
+      <circle cx="0" cy="0" r="12" fill="none" stroke="#ffe9a3" stroke-width="3"/>
+      <circle cx="0" cy="-3" r="4" fill="#ffe9a3"/>
+      <rect x="-2.5" y="0" width="5" height="9" fill="#ffe9a3"/>
+      <circle cx="0" cy="0" r="24" fill="url(#r6-glow)" opacity="0.9"/>
+    </g>
+  </g>
+
+  <!-- 右：窓 -->
+  <g>
+    <path d="M1210,510 L1210,300 A90,90 0 0 1 1390,300 L1390,510 Z" fill="#e8dcc2" stroke="#a98f52" stroke-width="3"/>
+    <path d="M1230,480 L1230,300 A70,70 0 0 1 1370,300 L1370,480 Z" fill="url(#r6-night)"/>
+    <g clip-path="url(#r6-glassClip)">
+      <circle cx="1330" cy="350" r="22" fill="#f4ead0"/>
+      <g fill="#ffffff">
+        <circle cx="1260" cy="330" r="1.8"/><circle cx="1290" cy="400" r="1.6"/>
+        <circle cx="1340" cy="420" r="1.5"/><circle cx="1250" cy="430" r="1.5"/>
+      </g>
+    </g>
+    <g stroke="#e3d3a8" stroke-width="6">
+      <line x1="1300" y1="236" x2="1300" y2="480"/>
+      <line x1="1230" y1="380" x2="1370" y2="380"/>
+    </g>
+    <rect x="1196" y="510" width="208" height="18" rx="4" fill="#e8dcc2" stroke="#a98f52" stroke-width="2"/>
+    <!-- 小さなカーテン -->
+    <path d="M1196,200 C1188,300 1190,400 1210,510 L1246,510 C1232,400 1230,300 1234,200 Z" fill="#7c1f2c"/>
+    <path d="M1404,200 C1412,300 1410,400 1390,510 L1354,510 C1368,400 1370,300 1366,200 Z" fill="#7c1f2c"/>
+  </g>
+
+  <!-- 床＋楕円ラグ -->
+  <rect x="0" y="660" width="1600" height="240" fill="url(#r6-floor)"/>
+  <ellipse cx="800" cy="800" rx="260" ry="66" fill="#5f669a"/>
+  <ellipse cx="800" cy="800" rx="232" ry="56" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <ellipse cx="800" cy="800" rx="190" ry="44" fill="#7d86b8"/>
+  <rect x="0" y="880" width="1600" height="20" fill="#000000" opacity="0.4"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#r6-vig)"/>
+</svg>

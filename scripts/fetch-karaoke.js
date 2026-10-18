@@ -39,6 +39,7 @@ const EXCLUDE_VIDEO_IDS = new Set([
 const retry = (fn, n = 3) =>
   fn().catch((err) => {
     if (n <= 1) throw err;
+    if (/HTTP 403/.test(err.message || "")) throw err;
     return new Promise((res) => setTimeout(res, 1500)).then(() => retry(fn, n - 1));
   });
 
@@ -162,6 +163,12 @@ async function main() {
 }
 
 main().catch((e) => {
+  // quota切れ時は既存データを残して正常終了し、workflow全体を失敗させない
+  // （fetch-data.js の成果まで破棄されるのを防ぐ）
+  if (/HTTP 403/.test(e.message || "")) {
+    console.warn("quota exceeded? keeping previous data:", e.message);
+    process.exit(0);
+  }
   console.error(e);
   process.exit(1);
 });

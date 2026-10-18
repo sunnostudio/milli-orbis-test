@@ -47,6 +47,8 @@ async function fetchJson(url, tries = 3) {
       return await res.json();
     } catch (e) {
       lastErr = e;
+      // quota切れのリトライは無意味（quotaを消費するだけ）のため即時失敗させる
+      if (/quotaExceeded/i.test(e.message)) throw e;
       if (i < tries - 1) await new Promise((r) => setTimeout(r, 1500 * (i + 1)));
     }
   }
@@ -79,14 +81,16 @@ async function main() {
   const errors = [];
   const failedIds = new Set();
 
+  // channels.list は1回にまとめる（part=contentDetails,id）。streams取得時はここで得た
+  // channelIdを再利用し、2回目のchannels.list呼び出しを省略してquotaを節約する
   const channelResults = await Promise.all(
     sources.map(async (s) => {
       try {
         const j = await fetchJson(
-          `${API}/channels?part=contentDetails&forHandle=${encodeURIComponent(s.handle)}&key=${API_KEY}`
+          `${API}/channels?part=contentDetails,id&forHandle=${encodeURIComponent(s.handle)}&key=${API_KEY}`
         );
         const ch = j.items && j.items[0];
-        return ch ? { src: s, playlistId: ch.contentDetails.relatedPlaylists.uploads } : null;
+        return ch ? { src: s, playlistId: ch.contentDetails.relatedPlaylists.uploads, channelId: ch.id } : null;
       } catch (e) {
         failedIds.add(s.id);
         errors.push(`${s.id}: ${e.message}`);
@@ -133,12 +137,8 @@ async function main() {
 
   const streams = (
     await Promise.all(
-      withPlaylist.map(async ({ src }) => {
+      withPlaylist.map(async ({ src, channelId }) => {
         try {
-          const j = await fetchJson(
-            `${API}/channels?part=id&forHandle=${encodeURIComponent(src.handle)}&key=${API_KEY}`
-          );
-          const channelId = j.items && j.items[0] && j.items[0].id;
           if (!channelId) return [];
           const out = [];
           for (const eventType of ["live", "upcoming"]) {

@@ -9,7 +9,7 @@ const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 function tabs(m) {
   return MEMBERS.map((x) =>
     '<a class="t-tab' + (x.id === m.id ? " active" : "") + '" href="' + x.id + '.html" data-i18n-name="' + x.id + '">' +
-    (x.icon ? '<img src="' + x.icon + '" alt="" loading="lazy">' : "") +
+    (x.icon ? '<img src="' + x.icon + '" alt="" loading="lazy" decoding="async">' : "") +
     x.name + "</a>"
   ).join("");
 }

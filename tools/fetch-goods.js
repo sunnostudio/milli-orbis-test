@@ -24,6 +24,7 @@ const MEMBER_MAP = [
   { id: "liz", names: ["雨夜リズ", "リズ"] },
   { id: "rei", names: ["夕霧レイ", "レイ"] },
   { id: "mahoro", names: ["鹿乃まほろ", "まほろ"] },
+  { id: "aoi", names: ["海琳あおい", "あおい", "mitama aoi"] },
   { id: "milchan", names: ["ミリちゃん"] },
 ];
 

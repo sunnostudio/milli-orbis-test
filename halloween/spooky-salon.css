@@ -1,0 +1,529 @@
+/* Spooky Masquerade — 4F ゲームサロン診断＋キャッチUI（Phase C1/C2）
+   方針: halloween/ 内に隔離。.salon- / .catch- 接頭辞のみ。spooky.css の変数を流用。
+   4Fは全画面スクロールなしが約束：導入文は読み上げ専用に畳み、ハブは中央配置、
+   各ゲーム画面は全画面オーバーレイ（エレベーター呼びタブ z150・扉 z200 より下、
+   トースト z70 より下の z40）で viewport に収める。 */
+
+/* ---------- 4Fページ土台：ホテルの一室・スクロールなし・ハブ中央 ---------- */
+body[data-door-floor="4"] {
+  overflow: hidden;
+  background:
+    url("images/salon-room.svg") center / cover no-repeat fixed,
+    radial-gradient(900px 460px at 50% -8%, rgba(127, 181, 168, 0.30), transparent 60%),
+    linear-gradient(180deg, #f2f5e8 0%, #e6ecda 55%, #d3ddc2 100%);
+  background-color: #20342a;
+}
+/* 室内を透かすアイボリーのヴェール（単層で燭光を通す。本文は象牙カード上、見出し類は光ハロー付き） */
+body[data-door-floor="4"] .spooky-floor {
+  background: linear-gradient(180deg, rgba(250, 245, 233, 0.52), rgba(243, 232, 210, 0.48));
+  border-color: rgba(122, 95, 20, 0.6);
+  box-shadow: 0 14px 40px rgba(20, 12, 4, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+body[data-door-floor="4"] .spooky-floor h2,
+body[data-door-floor="4"] .spooky-floor .salon-lead,
+body[data-door-floor="4"] .spooky-floor .salon-count,
+body[data-door-floor="4"] .spooky-floor .salon-scene,
+body[data-door-floor="4"] .spooky-floor .salon-desc,
+body[data-door-floor="4"] .spooky-floor .salon-last,
+body[data-door-floor="4"] .spooky-floor .salon-fanfare,
+body[data-door-floor="4"] .spooky-floor .catch-msg,
+body[data-door-floor="4"] .spooky-floor .catch-hint {
+  text-shadow: 0 1px 0 rgba(255, 252, 244, 0.9), 0 0 14px rgba(255, 252, 244, 0.85);
+}
+/* 燭の塵：室内に漂う光の粒 */
+.salon-dust {
+  position: fixed;
+  inset: 0;
+  z-index: 41;
+  pointer-events: none;
+  overflow: hidden;
+}
+.salon-dust i {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 240, 190, 0.9), rgba(255, 240, 190, 0) 70%);
+  animation: salon-dust-float linear infinite;
+}
+.salon-dust i:nth-child(1) { left: 12%; top: 70%; width: 7px; height: 7px; animation-duration: 17s; }
+.salon-dust i:nth-child(2) { left: 28%; top: 82%; width: 5px; height: 5px; animation-duration: 23s; animation-delay: -6s; }
+.salon-dust i:nth-child(3) { left: 45%; top: 75%; width: 8px; height: 8px; animation-duration: 19s; animation-delay: -11s; }
+.salon-dust i:nth-child(4) { left: 60%; top: 85%; width: 5px; height: 5px; animation-duration: 26s; animation-delay: -3s; }
+.salon-dust i:nth-child(5) { left: 74%; top: 72%; width: 7px; height: 7px; animation-duration: 21s; animation-delay: -14s; }
+.salon-dust i:nth-child(6) { left: 88%; top: 80%; width: 5px; height: 5px; animation-duration: 24s; animation-delay: -9s; }
+.salon-dust i:nth-child(7) { left: 36%; top: 88%; width: 4px; height: 4px; animation-duration: 28s; animation-delay: -17s; }
+.salon-dust i:nth-child(8) { left: 66%; top: 90%; width: 6px; height: 6px; animation-duration: 20s; animation-delay: -5s; }
+@keyframes salon-dust-float {
+  0% { transform: translate3d(0, 0, 0); opacity: 0; }
+  12% { opacity: 0.75; }
+  50% { transform: translate3d(26px, -46vh, 0); opacity: 0.5; }
+  88% { opacity: 0.6; }
+  100% { transform: translate3d(-14px, -92vh, 0); opacity: 0; }
+}
+body[data-door-floor="4"] .spooky-wrap {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+/* 導入ブロックは構造として残し、見た目は畳む（h1は読み上げ可能） */
+body[data-door-floor="4"] .spooky-wrap > .spooky-kicker,
+body[data-door-floor="4"] .spooky-wrap > .spooky-title,
+body[data-door-floor="4"] .spooky-wrap > .spooky-sub,
+body[data-door-floor="4"] .spooky-wrap > .spooky-note {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+body[data-door-floor="4"] #salonHubSection { margin: 0; }
+
+/* ---------- ゲーム画面：全画面オーバーレイ ---------- */
+body[data-door-floor="4"] #salonDiagSection:not([hidden]),
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  margin: 0;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: max(10px, env(safe-area-inset-top)) 16px max(10px, env(safe-area-inset-bottom));
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) > *,
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) > * {
+  flex: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) > * + *,
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) > * + * {
+  margin-top: clamp(4px, 1vh, 10px);
+}
+
+.salon-lead { margin: 6px 0 14px; }
+.salon-divider {
+  text-align: center;
+  color: var(--spooky-bronze);
+  letter-spacing: 0.6em;
+  margin: 10px 0 14px;
+  font-size: 0.85rem;
+}
+.salon-scene {
+  margin: 0 0 8px;
+  padding-left: 12px;
+  border-left: 3px dashed rgba(122, 95, 20, 0.55);
+  color: var(--spooky-muted);
+  font-style: italic;
+  font-size: 0.88rem;
+  line-height: 1.9;
+}
+.salon-scene:empty { display: none; }
+.salon-fanfare {
+  text-align: center;
+  color: var(--spooky-bronze);
+  letter-spacing: 0.2em;
+  font-size: 0.85rem;
+  margin: 4px 0 10px;
+}
+.salon-desc {
+  margin: 0 0 8px;
+  line-height: 2.1;
+  font-size: 0.95rem;
+  color: var(--spooky-ink);
+}
+.salon-desc:empty { display: none; }
+.salon-treat {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(122, 95, 20, 0.55);
+  background: linear-gradient(180deg, rgba(246, 226, 122, 0.35), rgba(212, 175, 55, 0.18));
+  font-size: 0.85rem;
+  color: var(--spooky-coffee);
+}
+.salon-treat:empty { display: none; }
+.salon-count {
+  font-size: 0.78rem;
+  letter-spacing: 0.25em;
+  color: var(--spooky-bronze);
+  margin: 0 0 6px;
+}
+.salon-dots { display: flex; gap: 6px; margin: 0 0 12px; }
+.salon-dot {
+  width: 22px; height: 6px; border-radius: 999px;
+  background: rgba(122, 95, 20, 0.22);
+  border: 1px solid rgba(122, 95, 20, 0.35);
+}
+.salon-dot.is-done { background: var(--spooky-gold); }
+.salon-dot.is-now { box-shadow: 0 0 0 1px var(--spooky-bronze), 0 0 12px rgba(176, 141, 42, 0.5); }
+.salon-q {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+  color: var(--spooky-coffee);
+  line-height: 1.8;
+}
+.salon-choices { display: grid; gap: 8px; margin: 0 0 6px; }
+.salon-choice {
+  text-align: left;
+  border-radius: 12px;
+  border: 1px solid rgba(122, 95, 20, 0.5);
+  border-left: 6px solid var(--spooky-gold-deep, #8a6d1f);
+  background: rgba(255, 252, 244, 0.92);
+  box-shadow: 0 4px 16px rgba(122, 95, 20, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  color: var(--spooky-ink);
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  cursor: pointer;
+  font-family: inherit;
+}
+.salon-choice:hover { background: rgba(176, 141, 42, 0.16); }
+.salon-choice:focus-visible {
+  outline: 2px solid var(--spooky-bronze);
+  outline-offset: 2px;
+}
+.salon-start, .salon-btn {
+  border-radius: 999px;
+  border: 1px solid rgba(122, 95, 20, 0.6);
+  background: linear-gradient(180deg, var(--spooky-gold-hi), var(--spooky-gold) 60%, var(--spooky-gold-deep));
+  color: #3a2d08;
+  padding: 10px 22px;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-weight: 700;
+}
+.salon-btn.is-ghost {
+  background: rgba(255, 252, 244, 0.85);
+  color: var(--spooky-coffee);
+  font-weight: 400;
+}
+.salon-last { font-size: 0.8rem; color: var(--spooky-muted); margin: 10px 0 0; min-height: 1.4em; }
+/* 結果カード（金枠・二重線の豪華版） */
+.salon-result-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 16px;
+  align-items: center;
+  margin: 14px 0;
+  padding: 18px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(122, 95, 20, 0.65);
+  outline: 1px solid rgba(212, 175, 55, 0.5);
+  outline-offset: 4px;
+  background:
+    linear-gradient(180deg, rgba(246, 226, 122, 0.22), transparent 34%),
+    rgba(255, 252, 244, 0.94);
+  box-shadow: 0 14px 40px rgba(122, 95, 20, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+.salon-mask-halo {
+  border-radius: 14px;
+  padding: 6px;
+  background: linear-gradient(160deg, var(--spooky-gold-hi), var(--spooky-gold) 45%, var(--spooky-gold-deep));
+  box-shadow: 0 0 24px rgba(212, 175, 55, 0.55);
+  animation: salon-float 3.2s ease-in-out infinite;
+}
+.salon-mask-halo img {
+  width: 100%; aspect-ratio: 1 / 1; object-fit: contain;
+  border-radius: 10px;
+  background: radial-gradient(circle at 50% 45%, #2b2044 0%, #12081f 75%);
+  display: block;
+}
+@keyframes salon-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+.salon-name {
+  margin: 0 0 6px;
+  font-size: 1.45rem;
+  font-weight: 700;
+  background: linear-gradient(120deg, #8a6d1f, #b08d2a 40%, #6b5316 70%, #a8873a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--spooky-coffee);
+}
+@supports ((-webkit-background-clip: text) and (-webkit-text-fill-color: transparent)) {
+  .salon-name { color: transparent; -webkit-text-fill-color: transparent; }
+}
+.salon-line { margin: 0 0 6px; font-size: 0.95rem; color: var(--spooky-ink); line-height: 1.9; }
+.salon-trait { margin: 0; font-size: 0.82rem; color: var(--spooky-muted); }
+.salon-hint {
+  border: 1px dashed rgba(122, 95, 20, 0.6);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  line-height: 1.9;
+  margin: 0 0 12px;
+}
+.salon-actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+.salon-links { font-size: 0.85rem; margin: 10px 0 0; line-height: 2; }
+.salon-links a { color: var(--spooky-bronze); }
+@media (max-width: 560px) {
+  .salon-result-card { grid-template-columns: 1fr; text-align: center; }
+  .salon-result-card img { margin: 0 auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .salon-choice, .salon-start, .salon-btn { transition: none; }
+  .salon-mask-halo { animation: none; }
+  .salon-dust, .salon-dust i { display: none; }
+  .salon-game-card { transition: none; }
+  .salon-game-card:hover { transform: none; }
+}
+
+/* ---------- オーバーレイ内の詰め表示（全端末フィット） ---------- */
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .spooky-tag,
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .spooky-tag {
+  margin-bottom: 0;
+  font-size: 0.65rem;
+  padding: 3px 10px;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) h2,
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) h2 {
+  font-size: clamp(1.05rem, 3.4vh, 1.4rem);
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) h2 .en,
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) h2 .en {
+  font-size: 0.68rem;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-lead,
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .salon-lead {
+  font-size: clamp(0.78rem, 2.2vh, 0.9rem);
+  margin: 0;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-divider,
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .salon-divider {
+  margin: 0;
+  font-size: 0.75rem;
+}
+/* 診断クイズの詰め */
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-count { margin: 0; }
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-dots { margin: 0; }
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-scene {
+  font-size: clamp(0.75rem, 2vh, 0.85rem);
+  margin: 0;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-q {
+  font-size: clamp(0.95rem, 2.8vh, 1.15rem);
+  margin: 0;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-choices { margin: 0; gap: clamp(5px, 1.2vh, 8px); }
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-choice {
+  font-size: clamp(0.8rem, 2.3vh, 0.95rem);
+  padding: clamp(7px, 1.5vh, 12px) 14px;
+  line-height: 1.5;
+}
+/* 結果カードの詰め */
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-fanfare { margin: 0; font-size: 0.78rem; }
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-result-card {
+  margin: 0;
+  padding: clamp(8px, 1.8vh, 14px);
+  gap: 12px;
+  grid-template-columns: clamp(72px, 14vh, 120px) 1fr;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-name {
+  font-size: clamp(1rem, 3vh, 1.3rem);
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-line {
+  font-size: clamp(0.8rem, 2.2vh, 0.92rem);
+  line-height: 1.7;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-trait { font-size: 0.75rem; }
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-desc {
+  font-size: clamp(0.78rem, 2.1vh, 0.9rem);
+  line-height: 1.9;
+  margin: 0;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-treat {
+  font-size: 0.76rem;
+  margin: 0;
+  padding: 4px 12px;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-hint {
+  font-size: 0.78rem;
+  margin: 0;
+  padding: 6px 10px;
+  line-height: 1.7;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-actions { margin: 0; }
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-start,
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-btn {
+  padding: clamp(7px, 1.5vh, 10px) 18px;
+  font-size: 0.85rem;
+}
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-links { font-size: 0.78rem; line-height: 1.8; margin: 0; }
+body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-last { margin: 0; min-height: 0; }
+/* 背が低い画面では結果の導線リンクを畳む（ハブにも同導線あり） */
+@media (max-height: 640px) {
+  body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-links { display: none; }
+  body[data-door-floor="4"] #salonCatchSection:not([hidden]) .catch-hint { display: none; }
+}
+/* 横長・低丈（横向きスマホ等）：選択肢を3列に */
+@media (max-height: 500px) {
+  body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-choices {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-scene { display: none; }
+  body[data-door-floor="4"] #salonDiagSection:not([hidden]) .salon-desc { display: none; }
+}
+
+/* ---------- ハブ：ゲーム選択カード ---------- */
+.salon-game-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 12px 0 6px;
+}
+.salon-game-card {
+  display: grid;
+  gap: 6px;
+  text-align: left;
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--spooky-ink);
+  border-radius: 16px;
+  padding: 18px 16px;
+  border: 1px solid rgba(122, 95, 20, 0.6);
+  outline: 1px solid rgba(212, 175, 55, 0.4);
+  outline-offset: 3px;
+  background:
+    linear-gradient(180deg, rgba(246, 226, 122, 0.28), transparent 42%),
+    rgba(255, 252, 244, 0.94);
+  box-shadow: 0 10px 30px rgba(122, 95, 20, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.salon-game-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 38px rgba(122, 95, 20, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+.salon-game-card:focus-visible {
+  outline: 2px solid var(--spooky-bronze);
+  outline-offset: 4px;
+}
+.salon-game-no { font-size: 0.72rem; letter-spacing: 0.3em; color: var(--spooky-bronze); }
+.salon-game-title { font-size: 1.15rem; font-weight: 700; color: var(--spooky-coffee); line-height: 1.6; }
+.salon-game-sub { font-size: 0.72rem; letter-spacing: 0.12em; color: var(--spooky-bronze); }
+.salon-game-desc { font-size: 0.85rem; line-height: 2; color: var(--spooky-muted); }
+.salon-game-go { font-weight: 700; font-size: 0.9rem; color: var(--spooky-bronze); margin-top: 4px; }
+.salon-back {
+  background: none;
+  border: none;
+  padding: 4px 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--spooky-bronze);
+  cursor: pointer;
+  font-family: inherit;
+}
+.salon-back:hover { text-decoration: underline; }
+@media (max-width: 560px) {
+  .salon-game-cards { grid-template-columns: 1fr; }
+}
+
+/* ---------- お菓子キャッチ（C2） ---------- */
+.catch-hud {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  color: #f3e3b3;
+  background: linear-gradient(180deg, rgba(20, 12, 30, 0.72), rgba(10, 6, 18, 0.72));
+  border: 1px solid rgba(212, 175, 55, 0.55);
+  border-radius: 12px;
+  padding: 7px 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(246, 226, 122, 0.25);
+}
+.catch-hud b { color: var(--spooky-gold-hi, #f6e27a); font-size: 1.1rem; }
+.catch-best { margin-left: auto; font-size: 0.8rem; opacity: 0.9; }
+.catch-board {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(122, 95, 20, 0.6);
+  outline: 1px solid rgba(212, 175, 55, 0.45);
+  outline-offset: 4px;
+  background:
+    radial-gradient(420px 200px at 50% -40px, rgba(246, 226, 122, 0.5), transparent 65%),
+    linear-gradient(180deg, #2b2044 0%, #1a1030 55%, #12081f 100%);
+  box-shadow: 0 14px 40px rgba(18, 8, 31, 0.35);
+}
+#catchCanvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none;
+  cursor: ew-resize;
+}
+.catch-veil {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  background: rgba(18, 8, 31, 0.72);
+  color: #f3e3b3;
+}
+.catch-veil[hidden] { display: none; }
+.catch-veil-title {
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  color: var(--spooky-gold-hi, #f6e27a);
+}
+.catch-veil-text {
+  margin: 0 0 8px;
+  max-width: 34em;
+  line-height: 2;
+  font-size: 0.9rem;
+}
+.catch-msg { min-height: 1.8em; font-size: 0.9rem; color: var(--spooky-coffee); }
+.catch-msg:empty { display: none; }
+.catch-hint { font-size: 0.8rem; color: var(--spooky-muted); }
+/* オーバーレイ内：盤面が残り高さいっぱいに収まる（canvasは縦横比維持でレターボックス） */
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .catch-hud { margin: 0; font-size: 0.82rem; }
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .catch-hud b { font-size: 1rem; }
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .catch-board {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) #catchCanvas {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .catch-msg { margin: 0; min-height: 0; font-size: 0.82rem; }
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .salon-actions { margin: 0; }
+body[data-door-floor="4"] #salonCatchSection:not([hidden]) .catch-hint { margin: 0; }
+@media (max-height: 700px) {
+  body[data-door-floor="4"] #salonCatchSection:not([hidden]) .salon-lead { display: none; }
+}
+/* ハブ：背の低い画面では2列・説明文なしで収める */
+@media (max-height: 500px) {
+  body[data-door-floor="4"] #salonHubSection .salon-lead,
+  body[data-door-floor="4"] #salonHubSection .salon-last { display: none; }
+  body[data-door-floor="4"] #salonHubSection .salon-game-cards { grid-template-columns: 1fr 1fr; }
+  body[data-door-floor="4"] #salonHubSection .salon-game-card { padding: 10px 12px; }
+  body[data-door-floor="4"] #salonHubSection .salon-game-desc,
+  body[data-door-floor="4"] #salonHubSection .salon-game-sub { display: none; }
+  body[data-door-floor="4"] #salonHubSection .salon-game-title { font-size: 0.95rem; }
+}

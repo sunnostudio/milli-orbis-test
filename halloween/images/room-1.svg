@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <title>HOTEL GRAND MILLI — 1F グランド・ロビー</title>
+  <defs>
+    <linearGradient id="r1-ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f0dd"/>
+      <stop offset="1" stop-color="#e6d3ab"/>
+    </linearGradient>
+    <linearGradient id="r1-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9c96a"/>
+      <stop offset="0.7" stop-color="#d9ae4e"/>
+      <stop offset="1" stop-color="#b8893a"/>
+    </linearGradient>
+    <linearGradient id="r1-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e27a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="r1-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3620"/>
+      <stop offset="1" stop-color="#331d0f"/>
+    </linearGradient>
+    <linearGradient id="r1-desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4e2c"/>
+      <stop offset="1" stop-color="#4a2c16"/>
+    </linearGradient>
+    <linearGradient id="r1-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4426"/>
+      <stop offset="1" stop-color="#3c2412"/>
+    </linearGradient>
+    <radialGradient id="r1-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#f6c453" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r1-ambient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe9a3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r1-vig" cx="0.5" cy="0.46" r="0.75">
+      <stop offset="0.55" stop-color="#080502" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080502" stop-opacity="0.5"/>
+    </radialGradient>
+    <pattern id="r1-damask" width="120" height="120" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#8a6d1f" stroke-width="2" opacity="0.35">
+        <path d="M60 14 C 74 30, 74 48, 60 62 C 46 48, 46 30, 60 14 Z"/>
+        <circle cx="20" cy="80" r="4"/>
+        <circle cx="100" cy="80" r="4"/>
+        <path d="M0 60 Q 30 52, 60 60 Q 90 68, 120 60"/>
+      </g>
+    </pattern>
+    <pattern id="r1-carpet" width="56" height="56" patternUnits="userSpaceOnUse">
+      <g fill="#d4af37" opacity="0.5">
+        <rect x="26" y="26" width="8" height="8" transform="rotate(45 30 30)"/>
+      </g>
+    </pattern>
+    <filter id="r1-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="r1-big" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+
+  <!-- 天井 -->
+  <rect x="0" y="0" width="1600" height="132" fill="url(#r1-ceil)"/>
+  <g stroke="#b89b5e" stroke-width="3">
+    <rect x="60" y="16" width="330" height="98" fill="#f7efdc"/>
+    <rect x="410" y="16" width="330" height="98" fill="#f7efdc"/>
+    <rect x="860" y="16" width="330" height="98" fill="#f7efdc"/>
+    <rect x="1210" y="16" width="330" height="98" fill="#f7efdc"/>
+  </g>
+  <rect x="0" y="126" width="1600" height="12" fill="url(#r1-gold)"/>
+  <circle cx="800" cy="64" r="46" fill="url(#r1-gold)"/>
+  <circle cx="800" cy="64" r="34" fill="#f7efdc"/>
+  <circle cx="800" cy="64" r="20" fill="url(#r1-gold)"/>
+
+  <!-- 壁 -->
+  <rect x="0" y="138" width="1600" height="344" fill="url(#r1-wall)"/>
+  <rect x="0" y="138" width="1600" height="344" fill="url(#r1-damask)"/>
+
+  <!-- 柱 -->
+  <g id="r1-pil">
+    <rect x="0" y="150" width="60" height="490" fill="#efe0bd" stroke="#a98f52" stroke-width="2"/>
+    <g stroke="#c9b183" stroke-width="2">
+      <line x1="14" y1="200" x2="14" y2="590"/>
+      <line x1="30" y1="200" x2="30" y2="590"/>
+      <line x1="46" y1="200" x2="46" y2="590"/>
+    </g>
+    <path d="M-8,150 L68,150 L56,178 L4,178 Z" fill="url(#r1-gold)"/>
+    <path d="M-8,640 L68,640 L56,612 L4,612 Z" fill="url(#r1-gold)"/>
+  </g>
+  <use href="#r1-pil" x="70" y="0"/>
+  <use href="#r1-pil" x="500" y="0"/>
+  <use href="#r1-pil" x="1040" y="0"/>
+  <use href="#r1-pil" x="1470" y="0"/>
+
+  <!-- 腰壁 -->
+  <rect x="0" y="480" width="1600" height="16" fill="url(#r1-gold)"/>
+  <rect x="0" y="496" width="1600" height="144" fill="url(#r1-wood)"/>
+  <g fill="none" stroke="url(#r1-gold)" stroke-width="3" opacity="0.9">
+    <rect x="24" y="512" width="152" height="112"/>
+    <rect x="200" y="512" width="152" height="112"/>
+    <rect x="376" y="512" width="152" height="112"/>
+    <rect x="552" y="512" width="152" height="112"/>
+    <rect x="728" y="512" width="152" height="112"/>
+    <rect x="904" y="512" width="152" height="112"/>
+    <rect x="1080" y="512" width="152" height="112"/>
+    <rect x="1256" y="512" width="152" height="112"/>
+    <rect x="1432" y="512" width="152" height="112"/>
+  </g>
+  <rect x="0" y="640" width="1600" height="20" fill="#1f1208"/>
+
+  <!-- 中央：鍵棚（ルームキーの壁） -->
+  <g>
+    <rect x="560" y="150" width="480" height="300" rx="8" fill="#2a1a0e" stroke="url(#r1-gold)" stroke-width="5"/>
+    <rect x="576" y="166" width="448" height="268" fill="none" stroke="#8a6d1f" stroke-width="2"/>
+    <text x="800" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="26" letter-spacing="8" fill="#d4af37">ROOM KEYS</text>
+    <g>
+      <g id="r1-hookrow">
+        <g fill="none" stroke="#8a6d1f" stroke-width="2">
+          <rect x="0" y="0" width="56" height="44"/>
+        </g>
+        <circle cx="28" cy="14" r="4" fill="#d4af37"/>
+        <rect x="22" y="18" width="12" height="18" rx="3" fill="url(#r1-gold)"/>
+      </g>
+      <use href="#r1-hookrow" x="610" y="222"/>
+      <use href="#r1-hookrow" x="690" y="222"/>
+      <use href="#r1-hookrow" x="770" y="222"/>
+      <use href="#r1-hookrow" x="850" y="222"/>
+      <use href="#r1-hookrow" x="930" y="222"/>
+      <use href="#r1-hookrow" x="610" y="292"/>
+      <use href="#r1-hookrow" x="690" y="292"/>
+      <use href="#r1-hookrow" x="770" y="292"/>
+      <use href="#r1-hookrow" x="850" y="292"/>
+      <use href="#r1-hookrow" x="930" y="292"/>
+      <use href="#r1-hookrow" x="650" y="362"/>
+      <use href="#r1-hookrow" x="730" y="362"/>
+      <use href="#r1-hookrow" x="810" y="362"/>
+      <use href="#r1-hookrow" x="890" y="362"/>
+    </g>
+    <!-- 13の鍵だけ金に光る（隠し階の噂） -->
+    <rect x="888" y="380" width="12" height="18" rx="3" fill="#ffe9a3"/>
+    <circle cx="894" cy="398" r="20" fill="url(#r1-glow)"/>
+  </g>
+
+  <!-- カウンター -->
+  <g>
+    <rect x="520" y="470" width="560" height="150" rx="8" fill="url(#r1-desk)" stroke="#2a1709" stroke-width="3"/>
+    <rect x="520" y="470" width="560" height="22" rx="8" fill="url(#r1-gold)"/>
+    <g fill="none" stroke="url(#r1-gold)" stroke-width="3" opacity="0.85">
+      <rect x="548" y="510" width="120" height="92"/>
+      <rect x="692" y="510" width="120" height="92"/>
+      <rect x="836" y="510" width="120" height="92"/>
+    </g>
+    <!-- ベル -->
+    <ellipse cx="660" cy="466" rx="26" ry="8" fill="#6b5316"/>
+    <path d="M634,466 C 634,440 646,428 660,428 C 674,428 686,440 686,466 Z" fill="url(#r1-gold)"/>
+    <circle cx="660" cy="424" r="5" fill="url(#r1-gold)"/>
+    <!-- ランプ -->
+    <rect x="916" y="420" width="12" height="50" fill="url(#r1-gold)"/>
+    <path d="M898,420 L950,420 L938,384 L910,384 Z" fill="#f2dfae" stroke="#8a6d1f" stroke-width="2"/>
+    <ellipse cx="924" cy="406" rx="7" ry="9" fill="#ffd98a"/>
+    <ellipse cx="924" cy="406" rx="30" ry="34" fill="url(#r1-glow)" filter="url(#r1-blur)"/>
+  </g>
+
+  <!-- 左：ソファ -->
+  <g>
+    <ellipse cx="300" cy="630" rx="170" ry="26" fill="#000000" opacity="0.35"/>
+    <rect x="150" y="500" width="300" height="110" rx="30" fill="#3f5a4a" stroke="#22332a" stroke-width="3"/>
+    <rect x="130" y="460" width="56" height="150" rx="26" fill="#4c6b58" stroke="#22332a" stroke-width="3"/>
+    <rect x="414" y="460" width="56" height="150" rx="26" fill="#4c6b58" stroke="#22332a" stroke-width="3"/>
+    <rect x="196" y="470" width="70" height="60" rx="12" fill="#d4af37" opacity="0.85"/>
+    <rect x="286" y="470" width="70" height="60" rx="12" fill="#b48cc8" opacity="0.85"/>
+    <rect x="180" y="610" width="16" height="40" fill="#2a1709"/>
+    <rect x="404" y="610" width="16" height="40" fill="#2a1709"/>
+    <!-- サイドテーブル＋ランプ -->
+    <rect x="60" y="560" width="60" height="12" fill="url(#r1-wood)"/>
+    <rect x="82" y="572" width="12" height="70" fill="#2a1709"/>
+    <rect x="74" y="540" width="10" height="22" fill="url(#r1-gold)"/>
+    <path d="M60,540 L104,540 L96,512 L68,512 Z" fill="#f2dfae" stroke="#8a6d1f" stroke-width="2"/>
+  </g>
+
+  <!-- 右：芳名帳の記帳台 -->
+  <g>
+    <ellipse cx="1300" cy="646" rx="110" ry="18" fill="#000000" opacity="0.35"/>
+    <rect x="1270" y="520" width="60" height="120" fill="url(#r1-wood)" stroke="#241408" stroke-width="2"/>
+    <path d="M1240,520 L1360,520 L1340,470 L1260,470 Z" fill="url(#r1-desk)" stroke="#241408" stroke-width="2"/>
+    <!-- 開いた芳名帳 -->
+    <path d="M1258,468 L1300,458 L1300,410 L1258,418 Z" fill="#faf5e9" stroke="#8a8272" stroke-width="2"/>
+    <path d="M1342,468 L1300,458 L1300,410 L1342,418 Z" fill="#f2ecdd" stroke="#8a8272" stroke-width="2"/>
+    <g stroke="#b9b2a2" stroke-width="2">
+      <line x1="1266" y1="430" x2="1294" y2="425"/>
+      <line x1="1266" y1="442" x2="1294" y2="437"/>
+      <line x1="1306" y1="425" x2="1334" y2="430"/>
+      <line x1="1306" y1="437" x2="1334" y2="442"/>
+    </g>
+    <!-- 羽ペン -->
+    <path d="M1352,420 C 1366,396 1382,384 1400,380 C 1392,396 1378,410 1360,420 Z" fill="#f7efdc" stroke="#8a8272" stroke-width="1.5"/>
+    <line x1="1352" y1="420" x2="1344" y2="442" stroke="#6b5a3a" stroke-width="3"/>
+  </g>
+
+  <!-- シャンデリア -->
+  <ellipse cx="800" cy="270" rx="300" ry="170" fill="url(#r1-ambient)" filter="url(#r1-big)"/>
+  <g>
+    <rect x="795" y="64" width="10" height="66" fill="#6b5316"/>
+    <circle cx="800" cy="150" r="12" fill="url(#r1-gold)"/>
+    <ellipse cx="800" cy="272" rx="190" ry="38" fill="none" stroke="url(#r1-gold)" stroke-width="11"/>
+    <ellipse cx="800" cy="338" rx="110" ry="24" fill="none" stroke="url(#r1-gold)" stroke-width="9"/>
+    <g id="r1-cnd">
+      <rect x="-6" y="-40" width="12" height="40" rx="3" fill="#f7efdc"/>
+      <ellipse cx="0" cy="-46" rx="6" ry="10" fill="#ffd98a"/>
+      <circle cx="0" cy="-46" r="24" fill="url(#r1-glow)"/>
+    </g>
+    <use href="#r1-cnd" x="622" y="264"/>
+    <use href="#r1-cnd" x="681" y="280"/>
+    <use href="#r1-cnd" x="740" y="290"/>
+    <use href="#r1-cnd" x="800" y="294"/>
+    <use href="#r1-cnd" x="860" y="290"/>
+    <use href="#r1-cnd" x="919" y="280"/>
+    <use href="#r1-cnd" x="978" y="264"/>
+    <use href="#r1-cnd" x="736" y="334"/>
+    <use href="#r1-cnd" x="800" y="348"/>
+    <use href="#r1-cnd" x="864" y="334"/>
+  </g>
+
+  <!-- 床＋円形絨毯 -->
+  <rect x="0" y="660" width="1600" height="240" fill="url(#r1-floor)"/>
+  <ellipse cx="800" cy="800" rx="330" ry="86" fill="#7e222b"/>
+  <ellipse cx="800" cy="800" rx="300" ry="76" fill="none" stroke="#d4af37" stroke-width="8"/>
+  <ellipse cx="800" cy="800" rx="262" ry="64" fill="none" stroke="#232c4e" stroke-width="18"/>
+  <ellipse cx="800" cy="800" rx="262" ry="64" fill="url(#r1-carpet)" opacity="0.5"/>
+  <ellipse cx="800" cy="800" rx="120" ry="30" fill="none" stroke="#d4af37" stroke-width="5"/>
+  <rect x="0" y="880" width="1600" height="20" fill="#000000" opacity="0.35"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#r1-vig)"/>
+</svg>

@@ -1613,29 +1613,31 @@ const MEMBERS = [
     gen: "ミリプロNOVA",
     name: "海琳あおい",
     nameEn: "Mitama Aoi",
-    color: "#7BC043",
+    color: "#aed056",
     subColor: "#eaf6dc",
-    birthday: "",
-    debut: "",
-    catch: "ミリプロNOVAに加入決定！デビュー準備中",
-    fanName: "",
+    birthday: "04-21",
+    debut: "2026-10-17",
+    catch: "みんなへ幸をお届け！マイペースなウミガメVTuber、海琳あおい",
+    fanName: "かめっこ",
     fanMark: "🐢🌱",
-    calls: "",
-    profile: "ミリプロNOVA所属。2026年9月12日に加入発表。デビュー前のため詳細は準備中。",
-    skills: "準備中",
-    phrases: [],
-    likes: "",
-    dislikes: "",
+    calls: "あおいちゃん",
+    profile: "マイペースなウミガメVTuber。2026年9月12日にミリプロNOVAへの加入を発表、同年10月17日に初配信。身長155cm（あほ毛なし）。特技は打楽器(なんでも)と裏拍をとること。",
+    skills: "打楽器(なんでも)・裏拍をとること",
+    phrases: ["みんなへ幸をお届け！", "今日もまったりやっていきましょ～！"],
+    likes: "非公開",
+    dislikes: "—",
     achievements: [
-      "2026/9/12 ミリプロNOVA加入発表（公式X @Mil_Pro_）"
+      "2026/9/12 ミリプロNOVA加入発表（公式X @Mil_Pro_）",
+      "2026/9/13 チャンネル登録者数10万人突破",
+      "2026/10/17 初配信（YouTube @MitamaAoi）"
     ],
-    tags: { stream: "", clip: "", art: "" },
-    links: { yt: "https://www.youtube.com/@MitamaAoi", x: "https://x.com/MitamaAoi", tiktok: "" },
+    tags: { stream: "#おーいあおいさん", clip: "#切り抜きたまえあおい", art: "#見たまえあおい" },
+    links: { yt: "https://www.youtube.com/@MitamaAoi", x: "https://x.com/MitamaAoi", tiktok: "https://www.tiktok.com/@mitama_aoi" },
     img: "images/talents/aoi.webp",
     // TODO(aoi-logo): 現行logoは告知画像からの仮切り抜き。公式ロゴ素材が出たら差し替え (2026-09-16)
     logo: "images/rogo/aoirogo.webp",
     icon: "images/icon/aoi_profile.jpg",
-    catchphrase: "",
+    catchphrase: "幸をお届け！",
     introVoice: "",
     introDelay: 6.5,
     fx: "aoi",
@@ -1648,23 +1650,25 @@ const MEMBERS = [
         { k: "turtle", x: 82, y: 82, size: 44, dur: 15 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["N1Kq4eA-LEc", "I7KqYG7dwk0", "mbjEZttNGBU"],
     voice: "",
-    intro: "",
+    intro: "今日もまったりやっていきましょ～！",
     en: {
       gen: "MilliPro NOVA",
-      catch: "Joined MilliPro NOVA! Debut coming soon",
-      fanName: "",
-      calls: "",
-      profile: "Member of MilliPro NOVA. Announced on Sep 12, 2026. Details TBA (pre-debut).",
-      skills: "TBA",
-      phrases: [],
-      likes: "",
-      dislikes: "",
+      catch: "Bringing happiness to everyone! Easygoing turtle VTuber, Mitama Aoi",
+      fanName: "Kamekko",
+      calls: "Aoi-chan",
+      profile: "Easygoing turtle VTuber. Announced joining MilliPro NOVA on Sep 12, 2026, and debuted on Oct 17, 2026. Height: 155cm (without ahoge). Skilled at percussion (anything) and keeping the offbeat.",
+      skills: "Percussion (anything), keeping the offbeat",
+      phrases: ["Bringing happiness to everyone!", "Let's take it easy again today!"],
+      likes: "Not disclosed",
+      dislikes: "—",
       achievements: [
-        "Sep 12, 2026 Announced joining MilliPro NOVA (official X @Mil_Pro_)"
+        "Sep 12, 2026 Announced joining MilliPro NOVA (official X @Mil_Pro_)",
+        "Sep 13, 2026 Surpassed 100K subscribers",
+        "Oct 17, 2026 Debut stream (YouTube @MitamaAoi)"
       ],
-      catchphrase: ""
+      catchphrase: "Bringing happiness to everyone!"
     }
   },
   {
@@ -1755,7 +1759,7 @@ const GROUP_INFO = [
       { id: "raco" },
       { id: "yura" },
       { id: "nuhu" },
-      { id: "aoi", note: "2026/9/12 加入発表・デビュー前" }
+      { id: "aoi", note: "2026/10/17 初配信" }
     ],
     en: {
       name: "MilliPro NOVA",
@@ -1803,10 +1807,29 @@ const COUNTDOWN = [
   { id: "akubi-birthday", label: "あくび・でもんすぺーど 誕生日", date: "2026-10-31T00:00:00", note: "びぃの一族、お祝いだ！", url: "akubi.html", en: { label: "Akubi Demonspade's Birthday", note: "Congratulations, Bii Clan!" } },
   { id: "yura-birthday", label: "ゆらぎゆら 誕生日", date: "2026-11-03T00:00:00", note: "ゆらふぃら、お祝いだ！", url: "yura.html", en: { label: "Yuragi Yura's Birthday", note: "Congratulations, Yurafira!" } },
   { id: "nuhu-birthday", label: "虹深°ぬふ 誕生日", date: "2026-11-30T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html", en: { label: "Nijipuka Nuhu's Birthday", note: "Congratulations, Pukanu Family!" } },
-  { id: "mahoro-birthday", label: "鹿乃まほろ 誕生日", date: "2026-12-24T00:00:00", note: "鹿友、お祝いだ！", url: "mahoro.html", en: { label: "Kano Mahoro's Birthday", note: "Happy Birthday, Shikayu!" } }
+  { id: "mahoro-birthday", label: "鹿乃まほろ 誕生日", date: "2026-12-24T00:00:00", note: "鹿友、お祝いだ！", url: "mahoro.html", en: { label: "Kano Mahoro's Birthday", note: "Happy Birthday, Shikayu!" } },
+  { id: "aoi-birthday", label: "海琳あおい 誕生日", date: "2027-04-21T00:00:00", note: "かめっこ、お祝いだ！", url: "aoi.html", en: { label: "Mitama Aoi's Birthday", note: "Happy Birthday, Kamekko!" } }
 ];
 
 const NEWS = [
+  {
+    date: "2026-10-18",
+    tag: "サイト更新",
+    title: "海琳あおい オリジナルカーソル配布開始！",
+    desc: "海琳あおいのオリジナルカーソル（Win/Mac/Chromebook 全15種）の配布を開始しました。カーソルページからダウンロード、ヘッダーの「カーソル」からサイト内でも即時切り替えできます。かめっこへ贈る15種をお楽しみください！",
+    image: "dist/announce/x-cursor-aoi-1600x900.png",
+    url: "cursors.html",
+    en: { tag: "Site Update", title: "Mitama Aoi's Original Cursors Now Available!", desc: "15-type cursors for Win/Mac/Chromebook are now available. Download from the cursors page, or switch instantly from the header. A gift of 15 cursors for the Kamekko!" }
+  },
+  {
+    date: "2026-10-17",
+    tag: "重大発表",
+    title: "海琳あおい 初配信おめでとう！",
+    desc: "2026年10月17日、海琳あおいの初配信が実施されました！プロフィール・語録・人気動画・誕生日などをサイトに反映済み。かめっこのみんなもお祝いを！",
+    image: "",
+    url: "aoi.html",
+    en: { tag: "Major Announcement", title: "Happy Debut to Mitama Aoi!", desc: "Mitama Aoi's debut stream took place on Oct 17, 2026! Her profile, phrases, featured videos and more are now live on the site. 🐢🌱" }
+  },
   {
     date: "2026-10-03",
     tag: "グッズ",
@@ -2039,6 +2062,7 @@ const EVENTS = [
   { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXギャラリーにて開催（POP UP展示＆グッズ販売）", url: "https://milpr.com/news/milpr_resort", en: { title: "MilliPro Resort", desc: "Held at the Akihabara UDX gallery (POP UP exhibit & goods sales)" } },
   { type: "event", date: "2026-08-29", title: "ミリプロTCG サマーカップ 2026", desc: "ミリプロリゾート内で開催（ミリプロTCG初の公式大会）", url: "https://milpr.com/millipro_resort", en: { title: "MilliPro TCG Summer Cup 2026", desc: "Held inside MilliPro Resort (the first official MilliPro TCG tournament)" } },
   { type: "event", date: "2026-08-30", title: "ミリプロサマー2026 閉会式", desc: "公式YouTubeチャンネルにて", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer 2026 Closing Ceremony", desc: "On the official YouTube channel" } },
+  { type: "event", date: "2026-10-17", title: "海琳あおい 初配信", desc: "ミリプロNOVA加入後初の配信（海琳あおいチャンネル）", url: "https://www.youtube.com/@MitamaAoi", en: { title: "Mitama Aoi's Debut Stream", desc: "Her first stream after joining MilliPro NOVA (on her own channel)" } },
   { type: "birthday", member: "koma", title: "小廻こま 誕生日", url: "koma.html", en: { title: "Komawari Koma's Birthday" } },
   { type: "birthday", member: "nono", title: "音ノ乃のの 誕生日", url: "nono.html", en: { title: "Nono Nono's Birthday" } },
   { type: "birthday", member: "raco", title: "音ノ瀬らこ 誕生日", url: "raco.html", en: { title: "Otonose Raco's Birthday" } },
@@ -2060,7 +2084,9 @@ const EVENTS = [
   { type: "anniversary", member: "liz", title: "雨夜リズ デビュー記念日", url: "liz.html", en: { title: "Amayo Liz's Debut Anniversary" } },
   { type: "anniversary", member: "rei", title: "夕霧レイ デビュー記念日", url: "rei.html", en: { title: "Yugiri Ray's Debut Anniversary" } },
   { type: "anniversary", member: "mahoro", title: "鹿乃まほろ デビュー記念日", url: "mahoro.html", en: { title: "Kano Mahoro's Debut Anniversary" } },
-  { type: "birthday", member: "mahoro", title: "鹿乃まほろ 誕生日", url: "mahoro.html", en: { title: "Kano Mahoro's Birthday" } }
+  { type: "birthday", member: "mahoro", title: "鹿乃まほろ 誕生日", url: "mahoro.html", en: { title: "Kano Mahoro's Birthday" } },
+  { type: "anniversary", member: "aoi", title: "海琳あおい デビュー記念日", url: "aoi.html", en: { title: "Mitama Aoi's Debut Anniversary" } },
+  { type: "birthday", member: "aoi", title: "海琳あおい 誕生日", url: "aoi.html", en: { title: "Mitama Aoi's Birthday" } }
 ];
 
 const X_POSTS = [
@@ -2092,7 +2118,10 @@ const HISTORY = [
   { date: "2026/8/29", title: "ミリプロリゾート 開催", desc: "秋葉原UDXにてPOP UP展示＆ファンミーティング（鹿乃まほろも参加）", en: { title: "MilliPro Resort held", desc: "POP UP exhibit & fan meeting at Akihabara UDX (feat. Kano Mahoro)" } },
   { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } },
   { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", image: "https://milli-orbis-portal.pages.dev/dist/announce/x-cursor-scatter-1600x900.png", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
-  { date: "2026/9/12", title: "海琳あおい ミリプロNOVA加入発表（デビュー前）", desc: "公式Xにて発表。デビュー日・詳細は未公開のため本サイトも準備中表示", en: { title: "Mitama Aoi announced for MilliPro NOVA (pre-debut)", desc: "Announced on official X. Details TBA." } }
+  { date: "2026/9/12", title: "海琳あおい ミリプロNOVA加入発表（デビュー前）", desc: "公式Xにて発表。デビュー日・詳細は未公開のため本サイトも準備中表示", en: { title: "Mitama Aoi announced for MilliPro NOVA (pre-debut)", desc: "Announced on official X. Details TBA." } },
+  { date: "2026/9/13", title: "海琳あおい、チャンネル登録者数10万人突破", desc: "デビュー前の段階で登録者数10万人を突破。本人からの感謝コメントや初のショート動画も公開", en: { title: "Mitama Aoi surpasses 100K subscribers", desc: "Reached 100K before her debut, with a thank-you message and her first Short" } },
+  { date: "2026/10/17", title: "海琳あおい 初配信（ミリプロNOVA）", en: { title: "Mitama Aoi debuts (MilliPro NOVA)" } },
+  { date: "2026/10/18", title: "本サイト 海琳あおい対応＆オリジナルカーソル配布開始", desc: "海琳あおいのプロフィール反映（デビュー済み化）とオリジナルカーソル（Win/Mac/Chromebook 15種）配布開始", image: "dist/announce/x-cursor-aoi-1600x900.png", en: { title: "Mitama Aoi page update & original cursor release", desc: "Aoi's profile updated (post-debut) and her 15-type cursors released for Win/Mac/Chromebook" } }
 ];
 
 const YOUTUBE = {

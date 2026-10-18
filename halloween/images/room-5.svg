@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <title>HOTEL GRAND MILLI — 5F グランド・ボールルーム</title>
+  <defs>
+    <linearGradient id="r5-ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf2df"/>
+      <stop offset="1" stop-color="#e9d5a8"/>
+    </linearGradient>
+    <linearGradient id="r5-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e3c2"/>
+      <stop offset="0.7" stop-color="#e3c795"/>
+      <stop offset="1" stop-color="#c8a06a"/>
+    </linearGradient>
+    <linearGradient id="r5-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e27a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="r5-night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b24"/>
+      <stop offset="0.6" stop-color="#141c48"/>
+      <stop offset="1" stop-color="#2c3a72"/>
+    </linearGradient>
+    <linearGradient id="r5-curt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5f1620"/>
+      <stop offset="0.4" stop-color="#a12c3c"/>
+      <stop offset="1" stop-color="#4c1019"/>
+    </linearGradient>
+    <linearGradient id="r5-parquet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c89a5e"/>
+      <stop offset="1" stop-color="#8a6234"/>
+    </linearGradient>
+    <linearGradient id="r5-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4426"/>
+      <stop offset="1" stop-color="#3c2412"/>
+    </linearGradient>
+    <radialGradient id="r5-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#f6c453" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r5-ambient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffe9a3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r5-sheen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7dd" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff7dd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r5-vig" cx="0.5" cy="0.46" r="0.75">
+      <stop offset="0.55" stop-color="#080502" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080502" stop-opacity="0.5"/>
+    </radialGradient>
+    <pattern id="r5-damask" width="120" height="120" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#a9852f" stroke-width="2" opacity="0.4">
+        <path d="M60 14 C 74 30, 74 48, 60 62 C 46 48, 46 30, 60 14 Z"/>
+        <circle cx="20" cy="90" r="3"/>
+        <circle cx="100" cy="90" r="3"/>
+      </g>
+    </pattern>
+    <filter id="r5-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="r5-big" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <clipPath id="r5-glassL">
+      <path d="M170,470 L170,300 A90,90 0 0 1 350,300 L350,470 Z"/>
+    </clipPath>
+    <clipPath id="r5-glassR">
+      <path d="M1250,470 L1250,300 A90,90 0 0 1 1430,300 L1430,470 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- 天井 -->
+  <rect x="0" y="0" width="1600" height="120" fill="url(#r5-ceil)"/>
+  <g stroke="#b89b5e" stroke-width="3">
+    <rect x="60" y="14" width="380" height="90" fill="#f7efdc"/>
+    <rect x="460" y="14" width="260" height="90" fill="#f7efdc"/>
+    <rect x="880" y="14" width="260" height="90" fill="#f7efdc"/>
+    <rect x="1160" y="14" width="380" height="90" fill="#f7efdc"/>
+  </g>
+  <rect x="0" y="114" width="1600" height="12" fill="url(#r5-gold)"/>
+
+  <!-- 壁 -->
+  <rect x="0" y="126" width="1600" height="354" fill="url(#r5-wall)"/>
+  <rect x="0" y="126" width="1600" height="354" fill="url(#r5-damask)"/>
+
+  <!-- 左右の窓 -->
+  <g id="r5-winL">
+    <path d="M150,500 L150,300 A110,110 0 0 1 370,300 L370,500 Z" fill="#e8dcc2" stroke="#a98f52" stroke-width="3"/>
+    <path d="M170,470 L170,300 A90,90 0 0 1 350,300 L350,470 Z" fill="url(#r5-night)"/>
+    <g clip-path="url(#r5-glassL)">
+      <circle cx="300" cy="250" r="24" fill="#f4ead0"/>
+      <circle cx="300" cy="250" r="48" fill="url(#r5-glow)" opacity="0.5"/>
+      <g fill="#ffffff">
+        <circle cx="210" cy="240" r="2"/><circle cx="250" cy="300" r="1.7"/>
+        <circle cx="290" cy="350" r="1.6"/><circle cx="330" cy="280" r="1.8"/>
+        <circle cx="230" cy="380" r="1.5"/>
+      </g>
+      <path d="M170,470 L170,430 L210,430 L210,412 L250,412 L250,432 L300,432 L300,470 Z" fill="#05070f"/>
+      <g fill="#ffd873"><rect x="222" y="438" width="6" height="8"/><rect x="312" y="438" width="6" height="8"/></g>
+    </g>
+    <g stroke="#e3d3a8" stroke-width="7">
+      <line x1="260" y1="216" x2="260" y2="470"/>
+      <line x1="170" y1="360" x2="350" y2="360"/>
+    </g>
+    <path d="M128,470 C118,360 122,260 140,180 L186,180 C172,260 170,360 178,470 Z" fill="url(#r5-curt)"/>
+    <path d="M392,470 C400,360 396,260 378,180 L334,180 C348,260 350,360 342,470 Z" fill="url(#r5-curt)"/>
+    <rect x="120" y="470" width="280" height="18" rx="4" fill="#e8dcc2" stroke="#a98f52" stroke-width="2"/>
+  </g>
+  <use href="#r5-winL" transform="translate(1600,0) scale(-1,1)"/>
+
+  <!-- 中央奥：楽壇の幕 -->
+  <g>
+    <rect x="620" y="150" width="360" height="330" rx="8" fill="#e8dcc2" stroke="#a98f52" stroke-width="3"/>
+    <rect x="646" y="176" width="308" height="278" fill="url(#r5-curt)"/>
+    <g opacity="0.45">
+      <rect x="680" y="176" width="26" height="278" fill="#3d0d13"/>
+      <rect x="740" y="176" width="20" height="278" fill="#3d0d13"/>
+      <rect x="840" y="176" width="20" height="278" fill="#3d0d13"/>
+      <rect x="894" y="176" width="26" height="278" fill="#3d0d13"/>
+    </g>
+    <rect x="600" y="130" width="400" height="40" rx="8" fill="url(#r5-gold)"/>
+    <rect x="620" y="454" width="360" height="26" fill="url(#r5-gold)"/>
+  </g>
+
+  <!-- 柱 -->
+  <g id="r5-pil">
+    <rect x="0" y="150" width="56" height="470" fill="#efe0bd" stroke="#a98f52" stroke-width="2"/>
+    <path d="M-8,150 L64,150 L52,178 L4,178 Z" fill="url(#r5-gold)"/>
+    <path d="M-8,620 L64,620 L52,592 L4,592 Z" fill="url(#r5-gold)"/>
+  </g>
+  <use href="#r5-pil" x="444" y="0"/>
+  <use href="#r5-pil" x="1100" y="0"/>
+
+  <!-- 腰壁 -->
+  <rect x="0" y="480" width="1600" height="16" fill="url(#r5-gold)"/>
+  <rect x="0" y="496" width="1600" height="144" fill="#5a3620"/>
+  <g fill="none" stroke="url(#r5-gold)" stroke-width="3" opacity="0.9">
+    <rect x="24" y="512" width="152" height="112"/>
+    <rect x="200" y="512" width="152" height="112"/>
+    <rect x="1248" y="512" width="152" height="112"/>
+    <rect x="1424" y="512" width="152" height="112"/>
+  </g>
+  <rect x="0" y="640" width="1600" height="20" fill="#1f1208"/>
+
+  <!-- 双シャンデリア -->
+  <g id="r5-chand">
+    <rect x="-5" y="-160" width="10" height="140" fill="#6b5316"/>
+    <circle cx="0" cy="-24" r="9" fill="url(#r5-gold)"/>
+    <ellipse cx="0" cy="0" rx="200" ry="120" fill="url(#r5-ambient)" filter="url(#r5-big)"/>
+    <g id="r5-cnd">
+      <rect x="-6" y="-40" width="12" height="40" rx="3" fill="#f7efdc"/>
+      <ellipse cx="0" cy="-46" rx="6" ry="10" fill="#ffd98a"/>
+      <circle cx="0" cy="-46" r="24" fill="url(#r5-glow)"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="130" ry="28" fill="none" stroke="url(#r5-gold)" stroke-width="10"/>
+    <use href="#r5-cnd" x="-100" y="-8"/>
+    <use href="#r5-cnd" x="-50" y="4"/>
+    <use href="#r5-cnd" x="0" y="8"/>
+    <use href="#r5-cnd" x="50" y="4"/>
+    <use href="#r5-cnd" x="100" y="-8"/>
+  </g>
+  <g>
+    <rect x="445" y="0" width="10" height="120" fill="#6b5316"/>
+    <use href="#r5-chand" x="450" y="200"/>
+    <rect x="1145" y="0" width="10" height="120" fill="#6b5316"/>
+    <use href="#r5-chand" x="1150" y="200"/>
+  </g>
+
+  <!-- ダンスフロア（寄木＋光沢＋花びら） -->
+  <g>
+    <polygon points="560,660 1040,660 1240,900 360,900" fill="url(#r5-parquet)"/>
+    <g stroke="#6b4a26" stroke-width="2" opacity="0.6">
+      <line x1="620" y1="660" x2="480" y2="900"/>
+      <line x1="700" y1="660" x2="620" y2="900"/>
+      <line x1="780" y1="660" x2="760" y2="900"/>
+      <line x1="860" y1="660" x2="900" y2="900"/>
+      <line x1="940" y1="660" x2="1040" y2="900"/>
+    </g>
+    <polygon points="560,660 1040,660 1240,900 360,900" fill="none" stroke="url(#r5-gold)" stroke-width="8"/>
+    <ellipse cx="800" cy="780" rx="220" ry="60" fill="url(#r5-sheen)"/>
+    <g fill="#e8a0b4" opacity="0.9">
+      <ellipse cx="700" cy="760" rx="9" ry="6" transform="rotate(-20 700 760)"/>
+      <ellipse cx="760" cy="820" rx="9" ry="6" transform="rotate(15 760 820)"/>
+      <ellipse cx="850" cy="740" rx="9" ry="6" transform="rotate(30 850 740)"/>
+      <ellipse cx="900" cy="830" rx="9" ry="6" transform="rotate(-30 900 830)"/>
+      <ellipse cx="640" cy="830" rx="9" ry="6" transform="rotate(10 640 830)"/>
+      <ellipse cx="950" cy="780" rx="9" ry="6" transform="rotate(-10 950 780)"/>
+      <ellipse cx="740" cy="700" rx="8" ry="5" transform="rotate(40 740 700)"/>
+      <ellipse cx="880" cy="700" rx="8" ry="5" transform="rotate(-40 880 700)"/>
+    </g>
+  </g>
+  <rect x="0" y="660" width="1600" height="240" fill="url(#r5-floor)" opacity="0.25"/>
+  <rect x="0" y="880" width="1600" height="20" fill="#000000" opacity="0.35"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#r5-vig)" opacity="0.9"/>
+</svg>

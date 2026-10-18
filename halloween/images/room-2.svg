@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <title>HOTEL GRAND MILLI — 2F クローゼット</title>
+  <defs>
+    <linearGradient id="r2-ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf0ea"/>
+      <stop offset="1" stop-color="#ecd2c6"/>
+    </linearGradient>
+    <linearGradient id="r2-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eec9c2"/>
+      <stop offset="0.7" stop-color="#dfa9a2"/>
+      <stop offset="1" stop-color="#c48a86"/>
+    </linearGradient>
+    <linearGradient id="r2-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e27a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="r2-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e4d2"/>
+      <stop offset="1" stop-color="#d3bda4"/>
+    </linearGradient>
+    <linearGradient id="r2-darkwood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3620"/>
+      <stop offset="1" stop-color="#331d0f"/>
+    </linearGradient>
+    <linearGradient id="r2-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4426"/>
+      <stop offset="1" stop-color="#3c2412"/>
+    </linearGradient>
+    <linearGradient id="r2-mirror" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fa3c8"/>
+      <stop offset="0.5" stop-color="#4a5a88"/>
+      <stop offset="1" stop-color="#2a3558"/>
+    </linearGradient>
+    <radialGradient id="r2-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#f6c453" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r2-ambient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffe9a3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r2-vig" cx="0.5" cy="0.46" r="0.75">
+      <stop offset="0.55" stop-color="#080502" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080502" stop-opacity="0.45"/>
+    </radialGradient>
+    <pattern id="r2-damask" width="120" height="120" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#b48c3a" stroke-width="2" opacity="0.4">
+        <circle cx="60" cy="60" r="26"/>
+        <circle cx="60" cy="60" r="14"/>
+        <circle cx="0" cy="0" r="8"/>
+        <circle cx="120" cy="0" r="8"/>
+        <circle cx="0" cy="120" r="8"/>
+        <circle cx="120" cy="120" r="8"/>
+      </g>
+    </pattern>
+    <filter id="r2-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="r2-big" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <clipPath id="r2-mclip">
+      <rect x="196" y="220" width="150" height="220"/>
+    </clipPath>
+  </defs>
+
+  <!-- 天井 -->
+  <rect x="0" y="0" width="1600" height="132" fill="url(#r2-ceil)"/>
+  <g stroke="#c9a37e" stroke-width="3">
+    <rect x="60" y="16" width="330" height="98" fill="#fdf6ec"/>
+    <rect x="410" y="16" width="330" height="98" fill="#fdf6ec"/>
+    <rect x="860" y="16" width="330" height="98" fill="#fdf6ec"/>
+    <rect x="1210" y="16" width="330" height="98" fill="#fdf6ec"/>
+  </g>
+  <rect x="0" y="126" width="1600" height="12" fill="url(#r2-gold)"/>
+  <circle cx="800" cy="64" r="46" fill="url(#r2-gold)"/>
+  <circle cx="800" cy="64" r="34" fill="#fdf6ec"/>
+  <circle cx="800" cy="64" r="20" fill="url(#r2-gold)"/>
+
+  <!-- 壁（バラ色） -->
+  <rect x="0" y="138" width="1600" height="344" fill="url(#r2-wall)"/>
+  <rect x="0" y="138" width="1600" height="344" fill="url(#r2-damask)"/>
+
+  <!-- 柱 -->
+  <g id="r2-pil">
+    <rect x="0" y="150" width="60" height="490" fill="#f6e8da" stroke="#b98d5e" stroke-width="2"/>
+    <g stroke="#d3bda4" stroke-width="2">
+      <line x1="14" y1="200" x2="14" y2="590"/>
+      <line x1="30" y1="200" x2="30" y2="590"/>
+      <line x1="46" y1="200" x2="46" y2="590"/>
+    </g>
+    <path d="M-8,150 L68,150 L56,178 L4,178 Z" fill="url(#r2-gold)"/>
+    <path d="M-8,640 L68,640 L56,612 L4,612 Z" fill="url(#r2-gold)"/>
+  </g>
+  <use href="#r2-pil" x="70" y="0"/>
+  <use href="#r2-pil" x="500" y="0"/>
+  <use href="#r2-pil" x="1040" y="0"/>
+  <use href="#r2-pil" x="1470" y="0"/>
+
+  <!-- 腰壁（白木） -->
+  <rect x="0" y="480" width="1600" height="16" fill="url(#r2-gold)"/>
+  <rect x="0" y="496" width="1600" height="144" fill="url(#r2-wood)"/>
+  <g fill="none" stroke="#a9852f" stroke-width="3" opacity="0.9">
+    <rect x="24" y="512" width="152" height="112"/>
+    <rect x="200" y="512" width="152" height="112"/>
+    <rect x="376" y="512" width="152" height="112"/>
+    <rect x="552" y="512" width="152" height="112"/>
+    <rect x="728" y="512" width="152" height="112"/>
+    <rect x="904" y="512" width="152" height="112"/>
+    <rect x="1080" y="512" width="152" height="112"/>
+    <rect x="1256" y="512" width="152" height="112"/>
+    <rect x="1432" y="512" width="152" height="112"/>
+  </g>
+  <rect x="0" y="640" width="1600" height="20" fill="#4a3a30"/>
+
+  <!-- 左：女優鏡の鏡台 -->
+  <g>
+    <rect x="150" y="440" width="240" height="18" rx="4" fill="url(#r2-darkwood)"/>
+    <rect x="170" y="458" width="14" height="120" fill="#2a1709"/>
+    <rect x="356" y="458" width="14" height="120" fill="#2a1709"/>
+    <rect x="180" y="200" width="180" height="240" rx="90" fill="url(#r2-gold)"/>
+    <rect x="196" y="220" width="150" height="220" rx="75" fill="url(#r2-mirror)"/>
+    <g clip-path="url(#r2-mclip)">
+      <rect x="220" y="240" width="40" height="160" fill="#ffffff" opacity="0.18" transform="rotate(12 240 320)"/>
+      <ellipse cx="270" cy="300" rx="46" ry="60" fill="url(#r2-glow)" opacity="0.55" filter="url(#r2-blur)"/>
+    </g>
+    <!-- 電球 -->
+    <g fill="#ffe9a3">
+      <circle cx="188" cy="232" r="8"/><circle cx="188" cy="290" r="8"/><circle cx="188" cy="348" r="8"/><circle cx="188" cy="406" r="8"/>
+      <circle cx="354" cy="232" r="8"/><circle cx="354" cy="290" r="8"/><circle cx="354" cy="348" r="8"/><circle cx="354" cy="406" r="8"/>
+      <circle cx="226" cy="200" r="8"/><circle cx="270" cy="192" r="8"/><circle cx="314" cy="200" r="8"/>
+    </g>
+    <g fill="url(#r2-glow)" opacity="0.7">
+      <circle cx="188" cy="290" r="20"/><circle cx="354" cy="290" r="20"/>
+      <circle cx="188" cy="348" r="20"/><circle cx="354" cy="348" r="20"/>
+      <circle cx="270" cy="192" r="20"/>
+    </g>
+    <!-- 化粧瓶 -->
+    <rect x="220" y="412" width="18" height="28" rx="4" fill="#b48cc8"/>
+    <rect x="246" y="418" width="14" height="22" rx="4" fill="#e8a0b4"/>
+    <rect x="300" y="412" width="18" height="28" rx="4" fill="#7fb5b2"/>
+    <!-- スツール -->
+    <ellipse cx="270" cy="620" rx="52" ry="20" fill="#a12c3c" stroke="#5f1620" stroke-width="2"/>
+    <rect x="258" y="630" width="10" height="40" fill="#2a1709"/>
+    <rect x="272" y="630" width="10" height="40" fill="#2a1709"/>
+  </g>
+
+  <!-- 中央：衣装ワードローブ -->
+  <g>
+    <rect x="580" y="170" width="440" height="440" rx="10" fill="url(#r2-darkwood)" stroke="#241408" stroke-width="4"/>
+    <rect x="600" y="190" width="400" height="26" fill="#241408"/>
+    <!-- 開いた扉 -->
+    <path d="M600,216 L540,240 L540,600 L600,610 Z" fill="#4a2c16" stroke="url(#r2-gold)" stroke-width="3"/>
+    <path d="M1000,216 L1060,240 L1060,600 L1000,610 Z" fill="#4a2c16" stroke="#8a6d1f" stroke-width="3"/>
+    <rect x="616" y="216" width="368" height="394" fill="#1f1208"/>
+    <line x1="616" y1="250" x2="984" y2="250" stroke="url(#r2-gold)" stroke-width="6"/>
+    <!-- 吊るされた衣装3着 -->
+    <g>
+      <!-- 青ドレス -->
+      <line x1="700" y1="250" x2="700" y2="292" stroke="#d4af37" stroke-width="4"/>
+      <path d="M682,292 L718,292 L712,340 L688,340 Z" fill="#2c3a72"/>
+      <path d="M688,340 L712,340 L736,470 L664,470 Z" fill="#3b4c9a"/>
+      <path d="M688,340 L712,340 L736,470 L664,470 Z" fill="none" stroke="#d4af37" stroke-width="2" opacity="0.6"/>
+      <!-- 赤ドレス -->
+      <line x1="800" y1="250" x2="800" y2="292" stroke="#d4af37" stroke-width="4"/>
+      <path d="M782,292 L818,292 L812,340 L788,340 Z" fill="#7e1f2c"/>
+      <path d="M788,340 L812,340 L838,474 L762,474 Z" fill="#a12c3c"/>
+      <circle cx="800" cy="352" r="6" fill="#ffe9a3"/>
+      <!-- 金ドレス -->
+      <line x1="900" y1="250" x2="900" y2="292" stroke="#d4af37" stroke-width="4"/>
+      <path d="M882,292 L918,292 L912,340 L888,340 Z" fill="#8a6d1f"/>
+      <path d="M888,340 L912,340 L936,470 L864,470 Z" fill="#d4af37"/>
+    </g>
+    <!-- 上棚の帽子 -->
+    <ellipse cx="700" cy="222" rx="34" ry="10" fill="#5f1620"/>
+    <rect x="686" y="198" width="28" height="24" rx="4" fill="#7c1f2c"/>
+    <ellipse cx="880" cy="222" rx="30" ry="9" fill="#2c3a72"/>
+    <rect x="868" y="200" width="24" height="22" rx="4" fill="#3b4c9a"/>
+    <!-- 下の靴 -->
+    <g fill="#3c2412">
+      <path d="M660,580 L700,580 L700,596 L656,596 Z"/>
+      <path d="M720,580 L760,580 L760,596 L716,596 Z"/>
+      <path d="M840,580 L880,580 L880,596 L836,596 Z"/>
+    </g>
+    <g fill="#a12c3c">
+      <circle cx="680" cy="586" r="4"/><circle cx="740" cy="586" r="4"/><circle cx="860" cy="586" r="4"/>
+    </g>
+  </g>
+
+  <!-- 右：全身鏡＋仮面掛け -->
+  <g>
+    <rect x="1180" y="210" width="220" height="400" rx="100" fill="url(#r2-gold)"/>
+    <rect x="1196" y="226" width="188" height="368" rx="88" fill="url(#r2-mirror)"/>
+    <rect x="1220" y="250" width="36" height="300" fill="#ffffff" opacity="0.15" transform="rotate(10 1238 400)"/>
+    <ellipse cx="1290" cy="380" rx="50" ry="120" fill="url(#r2-glow)" opacity="0.35" filter="url(#r2-blur)"/>
+    <!-- 仮面掛けフック -->
+    <circle cx="1150" cy="300" r="6" fill="url(#r2-gold)"/>
+    <ellipse cx="1150" cy="326" rx="26" ry="16" fill="#2c3a72" stroke="#d4af37" stroke-width="2"/>
+    <circle cx="1150" cy="500" r="6" fill="url(#r2-gold)"/>
+    <ellipse cx="1150" cy="526" rx="26" ry="16" fill="#7e1f2c" stroke="#d4af37" stroke-width="2"/>
+  </g>
+
+  <!-- シャンデリア（小ぶり） -->
+  <ellipse cx="800" cy="270" rx="260" ry="150" fill="url(#r2-ambient)" filter="url(#r2-big)"/>
+  <g transform="translate(800 210) scale(0.62) translate(-800 -270)">
+    <rect x="795" y="-60" width="10" height="190" fill="#6b5316"/>
+    <circle cx="800" cy="150" r="12" fill="url(#r2-gold)"/>
+    <ellipse cx="800" cy="272" rx="190" ry="38" fill="none" stroke="url(#r2-gold)" stroke-width="11"/>
+    <ellipse cx="800" cy="338" rx="110" ry="24" fill="none" stroke="url(#r2-gold)" stroke-width="9"/>
+    <g id="r2-cnd">
+      <rect x="-6" y="-40" width="12" height="40" rx="3" fill="#f7efdc"/>
+      <ellipse cx="0" cy="-46" rx="6" ry="10" fill="#ffd98a"/>
+      <circle cx="0" cy="-46" r="24" fill="url(#r2-glow)"/>
+    </g>
+    <use href="#r2-cnd" x="622" y="264"/>
+    <use href="#r2-cnd" x="700" y="286"/>
+    <use href="#r2-cnd" x="800" y="294"/>
+    <use href="#r2-cnd" x="900" y="286"/>
+    <use href="#r2-cnd" x="978" y="264"/>
+    <use href="#r2-cnd" x="750" y="340"/>
+    <use href="#r2-cnd" x="850" y="340"/>
+  </g>
+
+  <!-- 床＋丸絨毯＋プフ -->
+  <rect x="0" y="660" width="1600" height="240" fill="url(#r2-floor)"/>
+  <ellipse cx="800" cy="800" rx="300" ry="80" fill="#c48a86"/>
+  <ellipse cx="800" cy="800" rx="272" ry="70" fill="none" stroke="#d4af37" stroke-width="7"/>
+  <ellipse cx="800" cy="800" rx="230" ry="58" fill="#e9c3bc"/>
+  <ellipse cx="800" cy="800" rx="110" ry="28" fill="none" stroke="#a12c3c" stroke-width="4"/>
+  <ellipse cx="640" cy="700" rx="52" ry="30" fill="#a12c3c" stroke="#5f1620" stroke-width="2"/>
+  <ellipse cx="640" cy="688" rx="52" ry="16" fill="#c45464"/>
+  <circle cx="640" cy="688" r="7" fill="url(#r2-gold)"/>
+  <rect x="0" y="880" width="1600" height="20" fill="#000000" opacity="0.35"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#r2-vig)"/>
+</svg>

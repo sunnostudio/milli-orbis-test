@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <title>HOTEL GRAND MILLI — 3F ミリ・シアター</title>
+  <defs>
+    <linearGradient id="r3-ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2030"/>
+      <stop offset="1" stop-color="#241423"/>
+    </linearGradient>
+    <linearGradient id="r3-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c1f2e"/>
+      <stop offset="0.7" stop-color="#471624"/>
+      <stop offset="1" stop-color="#331019"/>
+    </linearGradient>
+    <linearGradient id="r3-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e27a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="r3-curt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4c1019"/>
+      <stop offset="0.35" stop-color="#8e2432"/>
+      <stop offset="0.6" stop-color="#6b1826"/>
+      <stop offset="1" stop-color="#3d0d13"/>
+    </linearGradient>
+    <linearGradient id="r3-screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1030"/>
+      <stop offset="0.6" stop-color="#1a2456"/>
+      <stop offset="1" stop-color="#2c3a72"/>
+    </linearGradient>
+    <linearGradient id="r3-beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff3c4" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="r3-seat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e2432"/>
+      <stop offset="1" stop-color="#4c1019"/>
+    </linearGradient>
+    <linearGradient id="r3-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a2c1c"/>
+      <stop offset="1" stop-color="#241408"/>
+    </linearGradient>
+    <radialGradient id="r3-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#f6c453" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r3-ambient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffe9a3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r3-vig" cx="0.5" cy="0.46" r="0.75">
+      <stop offset="0.55" stop-color="#050308" stop-opacity="0"/>
+      <stop offset="1" stop-color="#050308" stop-opacity="0.55"/>
+    </radialGradient>
+    <pattern id="r3-damask" width="120" height="120" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#d4af37" stroke-width="2" opacity="0.3">
+        <path d="M60 20 L80 60 L60 100 L40 60 Z"/>
+        <circle cx="60" cy="60" r="5"/>
+      </g>
+    </pattern>
+    <filter id="r3-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="r3-big" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <!-- 天井（暗め） -->
+  <rect x="0" y="0" width="1600" height="120" fill="url(#r3-ceil)"/>
+  <g stroke="#8a6d1f" stroke-width="2.5">
+    <rect x="60" y="14" width="330" height="90" fill="#2e1a28"/>
+    <rect x="410" y="14" width="330" height="90" fill="#2e1a28"/>
+    <rect x="860" y="14" width="330" height="90" fill="#2e1a28"/>
+    <rect x="1210" y="14" width="330" height="90" fill="#2e1a28"/>
+  </g>
+  <rect x="0" y="114" width="1600" height="12" fill="url(#r3-gold)"/>
+
+  <!-- 壁 -->
+  <rect x="0" y="126" width="1600" height="360" fill="url(#r3-wall)"/>
+  <rect x="0" y="126" width="1600" height="360" fill="url(#r3-damask)"/>
+
+  <!-- 柱 -->
+  <g id="r3-pil">
+    <rect x="0" y="140" width="60" height="440" fill="#6b2230" stroke="url(#r3-gold)" stroke-width="2"/>
+    <g stroke="#a12c3c" stroke-width="2">
+      <line x1="14" y1="190" x2="14" y2="530"/>
+      <line x1="30" y1="190" x2="30" y2="530"/>
+      <line x1="46" y1="190" x2="46" y2="530"/>
+    </g>
+    <path d="M-8,140 L68,140 L56,168 L4,168 Z" fill="url(#r3-gold)"/>
+    <path d="M-8,580 L68,580 L56,552 L4,552 Z" fill="url(#r3-gold)"/>
+  </g>
+  <use href="#r3-pil" x="70" y="0"/>
+  <use href="#r3-pil" x="1470" y="0"/>
+
+  <!-- 舞台：プロセニアム -->
+  <g>
+    <rect x="420" y="120" width="760" height="60" rx="8" fill="url(#r3-gold)"/>
+    <circle cx="800" cy="150" r="22" fill="#5c1f2e" stroke="#fff3c4" stroke-width="3"/>
+    <ellipse cx="800" cy="150" rx="9" ry="12" fill="#ffe9a3"/>
+    <rect x="400" y="170" width="54" height="400" fill="url(#r3-gold)" stroke="#6b5316" stroke-width="2"/>
+    <rect x="1146" y="170" width="54" height="400" fill="url(#r3-gold)" stroke="#6b5316" stroke-width="2"/>
+    <!-- 上幕＋フリンジ -->
+    <rect x="454" y="180" width="692" height="86" rx="10" fill="url(#r3-curt)" stroke="#3d0d13" stroke-width="2"/>
+    <g fill="url(#r3-gold)">
+      <path d="M460,266 l11,18 11,-18 Z"/><path d="M494,266 l11,18 11,-18 Z"/>
+      <path d="M528,266 l11,18 11,-18 Z"/><path d="M562,266 l11,18 11,-18 Z"/>
+      <path d="M596,266 l11,18 11,-18 Z"/><path d="M630,266 l11,18 11,-18 Z"/>
+      <path d="M664,266 l11,18 11,-18 Z"/><path d="M698,266 l11,18 11,-18 Z"/>
+      <path d="M732,266 l11,18 11,-18 Z"/><path d="M766,266 l11,18 11,-18 Z"/>
+      <path d="M800,266 l11,18 11,-18 Z"/><path d="M834,266 l11,18 11,-18 Z"/>
+      <path d="M868,266 l11,18 11,-18 Z"/><path d="M902,266 l11,18 11,-18 Z"/>
+      <path d="M936,266 l11,18 11,-18 Z"/><path d="M970,266 l11,18 11,-18 Z"/>
+      <path d="M1004,266 l11,18 11,-18 Z"/><path d="M1038,266 l11,18 11,-18 Z"/>
+      <path d="M1072,266 l11,18 11,-18 Z"/><path d="M1106,266 l11,18 11,-18 Z"/>
+    </g>
+    <!-- スクリーン（上映中） -->
+    <rect x="500" y="270" width="600" height="280" fill="#0a0a0a"/>
+    <rect x="514" y="284" width="572" height="252" fill="url(#r3-screen)"/>
+    <circle cx="980" cy="350" r="40" fill="#f4ead0" opacity="0.95"/>
+    <circle cx="980" cy="350" r="70" fill="url(#r3-glow)" opacity="0.5"/>
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="600" cy="330" r="2.5"/><circle cx="660" cy="380" r="2"/>
+      <circle cx="720" cy="320" r="2.5"/><circle cx="780" cy="420" r="2"/>
+      <circle cx="840" cy="330" r="2.5"/><circle cx="900" cy="430" r="2"/>
+      <circle cx="640" cy="450" r="2"/><circle cx="740" cy="470" r="2"/>
+    </g>
+    <path d="M514,536 L514,470 L580,470 L580,440 L620,440 L620,470 L700,470 L700,450 L760,450 L760,470 L860,470 L860,438 L900,438 L900,470 L980,470 L980,452 L1030,452 L1030,470 L1086,470 L1086,536 Z" fill="#05070f"/>
+    <g fill="#ffd873" opacity="0.95">
+      <rect x="600" y="478" width="8" height="10"/><rect x="648" y="478" width="8" height="10"/>
+      <rect x="720" y="478" width="8" height="10"/><rect x="790" y="478" width="8" height="10"/>
+      <rect x="880" y="476" width="8" height="10"/><rect x="950" y="478" width="8" height="10"/>
+      <rect x="1010" y="478" width="8" height="10"/>
+    </g>
+    <!-- 開いた袖幕 -->
+    <path d="M454,180 L540,180 L520,550 L454,550 Z" fill="url(#r3-curt)" stroke="#3d0d13" stroke-width="2"/>
+    <path d="M1146,180 L1060,180 L1080,550 L1146,550 Z" fill="url(#r3-curt)" stroke="#3d0d13" stroke-width="2"/>
+    <rect x="470" y="400" width="60" height="20" rx="10" fill="url(#r3-gold)" transform="rotate(-12 500 410)"/>
+    <rect x="1070" y="400" width="60" height="20" rx="10" fill="url(#r3-gold)" transform="rotate(12 1100 410)"/>
+    <!-- フットライト -->
+    <rect x="430" y="560" width="740" height="18" rx="6" fill="#1f1208"/>
+    <g>
+      <g id="r3-foot">
+        <ellipse cx="0" cy="0" rx="13" ry="9" fill="#ffe9a3"/>
+        <ellipse cx="0" cy="0" rx="26" ry="20" fill="url(#r3-glow)" filter="url(#r3-blur)"/>
+      </g>
+      <use href="#r3-foot" x="480" y="556"/>
+      <use href="#r3-foot" x="580" y="556"/>
+      <use href="#r3-foot" x="680" y="556"/>
+      <use href="#r3-foot" x="780" y="556"/>
+      <use href="#r3-foot" x="880" y="556"/>
+      <use href="#r3-foot" x="980" y="556"/>
+      <use href="#r3-foot" x="1080" y="556"/>
+    </g>
+  </g>
+
+  <!-- 映写光（客席後方から） -->
+  <polygon points="1600,900 1086,536 514,536 1600,700" fill="url(#r3-beam)" opacity="0.55"/>
+
+  <!-- 映写機（右後方） -->
+  <g>
+    <rect x="1400" y="640" width="90" height="70" rx="8" fill="#2a2a34" stroke="#101016" stroke-width="3"/>
+    <circle cx="1422" cy="668" r="14" fill="none" stroke="#8a8a9a" stroke-width="5"/>
+    <circle cx="1468" cy="668" r="14" fill="none" stroke="#8a8a9a" stroke-width="5"/>
+    <circle cx="1445" cy="692" r="7" fill="#ffe9a3"/>
+    <circle cx="1445" cy="692" r="18" fill="url(#r3-glow)"/>
+    <rect x="1435" y="710" width="20" height="60" fill="#1a1a20"/>
+  </g>
+
+  <!-- 客席（前ボケ） -->
+  <g fill="url(#r3-seat)" stroke="#2a0d12" stroke-width="3">
+    <rect x="60" y="700" width="220" height="200" rx="60"/>
+    <rect x="340" y="700" width="220" height="200" rx="60"/>
+    <rect x="620" y="700" width="220" height="200" rx="60"/>
+    <rect x="900" y="700" width="220" height="200" rx="60"/>
+    <rect x="1180" y="700" width="220" height="200" rx="60"/>
+    <rect x="200" y="640" width="200" height="140" rx="55"/>
+    <rect x="480" y="640" width="200" height="140" rx="55"/>
+    <rect x="760" y="640" width="200" height="140" rx="55"/>
+    <rect x="1040" y="640" width="200" height="140" rx="55"/>
+  </g>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#r3-vig)"/>
+</svg>

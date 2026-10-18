@@ -12,8 +12,8 @@
     return m.name;
   }
   // portal -> cur file mapping (liz->rizu, raco->rako, tsukuri->tsukuri)
-  var CUR_MAP = { liz: "rizu", raco: "rako", tsukuri: "tsukuri", konomi:"konomi", nono:"nono", akubi:"akubi", koma:"koma", yura:"yura", nuhu:"nuhu", rei:"rei", mahoro:"mahoro" };
-  var EN_MAP = { konomi:"Konomi", nono:"Nono", akubi:"Akubi", koma:"Koma", rako:"Rako", yura:"Yura", nuhu:"Nuhu", tsukuri:"Tsukuri", rizu:"Rizu", rei:"Rei", mahoro:"Mahoro", "milli-chan":"MilliChan" };
+  var CUR_MAP = { liz: "rizu", raco: "rako", tsukuri: "tsukuri", konomi:"konomi", nono:"nono", akubi:"akubi", koma:"koma", yura:"yura", nuhu:"nuhu", rei:"rei", mahoro:"mahoro", aoi:"aoi" };
+  var EN_MAP = { konomi:"Konomi", nono:"Nono", akubi:"Akubi", koma:"Koma", rako:"Rako", yura:"Yura", nuhu:"Nuhu", tsukuri:"Tsukuri", rizu:"Rizu", rei:"Rei", mahoro:"Mahoro", aoi:"Aoi", "milli-chan":"MilliChan" };
   function curId(portalId) {
     if (portalId === "milchan") return "milli-chan";
     return CUR_MAP[portalId] || portalId;

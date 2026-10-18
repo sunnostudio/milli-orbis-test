@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>4F ゲームサロン | HOTEL GRAND MILLI</title>
-<meta name="description" content="HOTEL GRAND MILLI 4F ゲームサロン。謎解きのフロア（枠作り段階）。非公式ファンメイドの実験ページです。">
+<meta name="description" content="HOTEL GRAND MILLI 4F ゲームサロン。今宵のダンス相手診断とお菓子キャッチで遊べます。非公式ファンメイドの実験ページです。">
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="icons/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -13,35 +13,128 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="HOTEL GRAND MILLI">
 <meta property="og:title" content="4F ゲームサロン | HOTEL GRAND MILLI">
-<meta property="og:description" content="HOTEL GRAND MILLI 4F ゲームサロン。謎解きのフロア（枠作り段階）。非公式ファンメイドの実験ページです。">
+<meta property="og:description" content="HOTEL GRAND MILLI 4F ゲームサロン。今宵のダンス相手診断とお菓子キャッチで遊べます。非公式ファンメイドの実験ページです。">
 <meta property="og:url" content="https://milli-orbis-portal.pages.dev/halloween/floor-4-salon.html">
 <meta property="og:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-4.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="4F ゲームサロン | HOTEL GRAND MILLI">
-<meta name="twitter:description" content="HOTEL GRAND MILLI 4F ゲームサロン。謎解きのフロア（枠作り段階）。非公式ファンメイドの実験ページです。">
+<meta name="twitter:description" content="HOTEL GRAND MILLI 4F ゲームサロン。今宵のダンス相手診断とお菓子キャッチで遊べます。非公式ファンメイドの実験ページです。">
 <meta name="twitter:image" content="https://milli-orbis-portal.pages.dev/halloween/images/ogp/ogp-4.png">
 <script>try{if(sessionStorage.getItem("milli-event-spooky-door"))document.documentElement.classList.add("is-shut");}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="spooky.css">
+<link rel="stylesheet" href="spooky.css?v=4">
 <link rel="stylesheet" href="spooky-door.css">
+<link rel="stylesheet" href="spooky-salon.css?v=2">
 </head>
 <body class="spooky-body" data-door-floor="4">
 <div class="spooky-wrap">
 
   <p class="spooky-kicker en">HOTEL GRAND MILLI — FLOOR 4</p>
   <h1 class="spooky-title"><span class="en">Game Salon</span><br>4F ゲームサロン</h1>
-  <p class="spooky-sub">謎解き『グランド・ミリ・ホテルの怪異』のフロアになる予定です。枠作り段階のため中身は空です。</p>
+  <p class="spooky-sub">シャンデリア瞬く舞踏会の前座として、運命の一曲を占う館の診断サロン。5つの質問に答えれば、今宵あなたをエスコートするダンス相手が、仮面とともに明らかになります。診断のあとは、下の「お菓子キャッチ」で舞踏会の腕ならしもどうぞ。</p>
 
   <div class="spooky-note">ファンメイドの試作品です。ミリプロ公式とは関係ありません。</div>
 
-  <section class="spooky-floor" data-floor-section="4" data-floor="4">
-    <span class="spooky-tag en">FLOOR 4 — SALON</span>
-    <h2>4F ゲームサロン<span class="en">Game Salon</span></h2>
-    <p>（枠）謎解きをここに作ります。</p>
+  <section class="spooky-floor" id="salonHubSection" data-floor-section="4" data-floor="4" aria-labelledby="salonHubTitle">
+    <span class="spooky-tag en">FLOOR 4 — GAME SALON</span>
+    <h2 id="salonHubTitle">どちらで遊ぶ？<span class="en">Choose your game</span></h2>
+    <p class="salon-lead">今宵のサロンは二つの催しをご用意しました。お好きな方からどうぞ。どちらもログイン不要・記録はあなたの端末にのみ保存されます。</p>
+    <div class="salon-divider" aria-hidden="true">✦ ✦ ✦</div>
+    <div class="salon-game-cards">
+      <button type="button" class="salon-game-card" data-screen="diagnosis">
+        <span class="salon-game-no en">No.1</span>
+        <span class="salon-game-title">今宵のダンス相手診断</span>
+        <span class="salon-game-sub en">Who will dance with you?</span>
+        <span class="salon-game-desc">5つの質問に答えて、今宵あなたをエスコートする相手（13人＋仮面）を占います。所要時間は約1分。</span>
+        <span class="salon-game-go">診断をはじめる →</span>
+      </button>
+      <button type="button" class="salon-game-card" data-screen="catch">
+        <span class="salon-game-no en">No.2</span>
+        <span class="salon-game-title">舞踏会のお菓子キャッチ</span>
+        <span class="salon-game-sub en">Catch the sweets!</span>
+        <span class="salon-game-desc">金の盆で45秒間お菓子を受け止める。お化けとドクロは避けて！ハート3つ。</span>
+        <span class="salon-game-go">ゲームをはじめる →</span>
+      </button>
+    </div>
+    <p class="salon-last" id="salonHubLast" aria-live="polite"></p>
+    <p class="salon-links">
+      <a data-door-href="pre-register.html" data-door-floor="1" href="pre-register.html">✦ 事前登録で仮面の招待状を作る →</a><br>
+      <a data-door-href="floor-6-room.html" data-door-floor="6" href="floor-6-room.html">6F 客室（鍵クエストの入口・準備中）へ →</a>
+    </p>
+  </section>
+
+  <section class="spooky-floor" id="salonDiagSection" data-floor-section="4" data-floor="4" aria-labelledby="salonTitle" hidden>
+    <p><button type="button" class="salon-back" data-screen="hub">← 選び直す</button></p>
+    <span class="spooky-tag en">FLOOR 4 — SALON DIAGNOSIS</span>
+    <h2 id="salonTitle">今宵のダンス相手診断<span class="en">Who will dance with you?</span></h2>
+    <p class="salon-lead">仮面舞踏会の夜、誰と踊る？所要時間は約1分、全5問。ログイン不要・結果はあなたの端末にのみ保存されます。</p>
+    <div class="salon-divider" aria-hidden="true">✦ ✦ ✦</div>
+    <p><button type="button" class="salon-start" id="salonStart">✦ 診断をはじめる ✦</button></p>
+    <p class="salon-last" id="salonLast" aria-live="polite"></p>
+
+    <div id="salonQuiz" hidden>
+      <p class="salon-count" id="salonCount">Q1 / 5</p>
+      <div class="salon-dots" id="salonDots" aria-hidden="true"></div>
+      <p class="salon-scene" id="salonScene" aria-live="polite"></p>
+      <h3 class="salon-q" id="salonQ" tabindex="-1" aria-live="polite"></h3>
+      <div class="salon-choices" id="salonChoices"></div>
+    </div>
+
+    <div id="salonResult" hidden aria-live="polite">
+      <div class="salon-fanfare" aria-hidden="true">―― 今宵の相手が決まりました ――</div>
+      <div class="salon-result-card">
+        <div class="salon-mask-halo"><img id="salonMask" src="images/masks/milchan.webp" alt="ダンス相手の仮面"></div>
+        <div>
+          <p class="spooky-kicker en" style="margin-bottom:4px">YOUR DANCE PARTNER</p>
+          <h3 class="salon-name" id="salonName"></h3>
+          <p class="salon-line" id="salonLine"></p>
+          <p class="salon-trait" id="salonTrait"></p>
+        </div>
+      </div>
+      <p class="salon-desc" id="salonDesc"></p>
+      <p class="salon-treat" id="salonTreat"></p>
+      <p class="salon-hint" id="salonHint" hidden></p>
+      <div class="salon-actions">
+        <button type="button" class="salon-btn" id="salonShare">Xで共有する</button>
+        <button type="button" class="salon-btn is-ghost" id="salonRetry">もう一度診断する</button>
+      </div>
+      <p class="salon-links">
+        <a data-door-href="pre-register.html" data-door-floor="1" href="pre-register.html">✦ 事前登録で仮面の招待状を作る →</a><br>
+        <a data-door-href="floor-6-room.html" data-door-floor="6" href="floor-6-room.html">6F 客室（鍵クエストの入口・準備中）へ →</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="spooky-floor" id="salonCatchSection" data-floor-section="4" data-floor="4" aria-labelledby="catchTitle" hidden>
+    <p><button type="button" class="salon-back" data-screen="hub">← 選び直す</button></p>
+    <span class="spooky-tag en">FLOOR 4 — SWEETS CATCH</span>
+    <h2 id="catchTitle">舞踏会のお菓子キャッチ<span class="en">Catch the sweets!</span></h2>
+    <p class="salon-lead">天井のシャンデリアから降ってくるお菓子を、金の盆で受け止めて！お化けやドクロは避けてね。制限時間45秒・ハート3つ。<span id="catchPartner"></span></p>
+    <div class="salon-divider" aria-hidden="true">✦ ✦ ✦</div>
+    <div class="catch-hud" aria-live="polite">
+      <span>スコア <b id="catchScore">0</b></span>
+      <span>残り <b id="catchTime">45</b>秒</span>
+      <span>ハート <b id="catchHearts">♥♥♥</b></span>
+      <span class="catch-best">ベスト <b id="catchBest">0</b></span>
+    </div>
+    <div class="catch-board" id="catchBoard">
+      <canvas id="catchCanvas" width="480" height="560" aria-label="お菓子キャッチの盤面。左右キーまたはタッチで盆を動かします"></canvas>
+      <div class="catch-veil" id="catchVeil">
+        <p class="catch-veil-title" id="catchVeilTitle">お菓子キャッチ</p>
+        <p class="catch-veil-text" id="catchVeilText">金の盆を左右に動かして、お菓子を受け止めよう。🍬+10・⭐+30、👻と💀は避けて！</p>
+        <button type="button" class="salon-start" id="catchStart">✦ ゲームスタート ✦</button>
+      </div>
+    </div>
+    <p class="catch-msg" id="catchMsg" aria-live="polite"></p>
+    <div class="salon-actions">
+      <button type="button" class="salon-btn" id="catchShare" hidden>Xで記録を共有する</button>
+      <button type="button" class="salon-btn is-ghost" id="catchRetry" hidden>もう一度遊ぶ</button>
+    </div>
+    <p class="catch-hint">操作：←→キー / A・Dキー / マウス / タッチ。診断の相手が見守っています。</p>
   </section>
 
 </div>
@@ -152,9 +245,62 @@
   <span class="screw-slot bottom"></span>
 </nav>
 
+<div class="salon-dust" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
 <div class="spooky-toast" id="spookyToast" role="status"></div>
 
 <script src="spooky-elevator.js" defer></script>
 <script src="spooky-door.js" defer></script>
+<script src="spooky-salon.js?v=2" defer></script>
+<script src="spooky-catch.js?v=2" defer></script>
+<script>
+/* 4Fハブ：選び直し可能な3画面切替（hub / diagnosis / catch）。#diagnosis・#catchで深リンク可 */
+(function () {
+  var SCREENS = { hub: "salonHubSection", diagnosis: "salonDiagSection", catch: "salonCatchSection" };
+  function hubLine() {
+    var el = document.getElementById("salonHubLast");
+    if (!el) return;
+    var parts = [];
+    try {
+      if (window.__salonLastName) parts.push("前回のダンス相手：" + window.__salonLastName);
+      var b = parseInt(localStorage.getItem("milli-event-spooky-catch-best") || "0", 10) || 0;
+      if (b > 0) parts.push("キャッチベスト：" + b + "点");
+    } catch (e) {}
+    el.textContent = parts.join(" ／ ");
+  }
+  function show(name, push) {
+    if (!SCREENS[name]) name = "hub";
+    Object.keys(SCREENS).forEach(function (k) {
+      var el = document.getElementById(SCREENS[k]);
+      if (el) el.hidden = (k !== name);
+    });
+    if (push !== false) {
+      try {
+        var base = location.pathname + location.search;
+        history.replaceState(null, "", name === "hub" ? base : base + "#" + name);
+      } catch (e) {}
+    }
+    hubLine();
+    /* 4Fはスクロールなし設計のためスクロール操作はしない。見出しへフォーカスだけ移す */
+    var sec = document.getElementById(SCREENS[name]);
+    if (sec) {
+      var h2 = sec.querySelector("h2");
+      if (h2) {
+        h2.setAttribute("tabindex", "-1");
+        try { h2.focus({ preventScroll: true }); } catch (e) {}
+      }
+    }
+  }
+  document.addEventListener("click", function (e) {
+    var b = e.target && e.target.closest ? e.target.closest("[data-screen]") : null;
+    if (!b) return;
+    show(b.getAttribute("data-screen"));
+  });
+  window.addEventListener("DOMContentLoaded", function () {
+    var h = (location.hash || "").replace("#", "");
+    show(SCREENS[h] ? h : "hub", false);
+  });
+})();
+</script>
 </body>
 </html>

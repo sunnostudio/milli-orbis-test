@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <title>HOTEL GRAND MILLI — 13F 秘密のパーティ会場</title>
+  <defs>
+    <linearGradient id="r13-ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2a55"/>
+      <stop offset="1" stop-color="#241a3a"/>
+    </linearGradient>
+    <linearGradient id="r13-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3670"/>
+      <stop offset="0.7" stop-color="#382658"/>
+      <stop offset="1" stop-color="#281a44"/>
+    </linearGradient>
+    <linearGradient id="r13-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e27a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="r13-cloth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf5e9"/>
+      <stop offset="1" stop-color="#d9cdb4"/>
+    </linearGradient>
+    <linearGradient id="r13-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3421"/>
+      <stop offset="1" stop-color="#241708"/>
+    </linearGradient>
+    <radialGradient id="r13-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#f6c453" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r13-ambient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8a0e8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#e8a0e8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r13-vig" cx="0.5" cy="0.46" r="0.75">
+      <stop offset="0.55" stop-color="#060410" stop-opacity="0"/>
+      <stop offset="1" stop-color="#060410" stop-opacity="0.6"/>
+    </radialGradient>
+    <pattern id="r13-stars" width="140" height="140" patternUnits="userSpaceOnUse">
+      <g fill="#ffe9a3" opacity="0.5">
+        <circle cx="30" cy="40" r="2.5"/>
+        <circle cx="90" cy="20" r="2"/>
+        <circle cx="110" cy="90" r="2.5"/>
+        <circle cx="50" cy="110" r="2"/>
+        <path d="M20,100 l4,10 4,-10 -4,-10 Z"/>
+      </g>
+    </pattern>
+    <filter id="r13-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="r13-big" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <!-- 天井 -->
+  <rect x="0" y="0" width="1600" height="120" fill="url(#r13-ceil)"/>
+  <g stroke="#8a6d1f" stroke-width="2.5">
+    <rect x="60" y="14" width="330" height="90" fill="#2e2148"/>
+    <rect x="410" y="14" width="330" height="90" fill="#2e2148"/>
+    <rect x="860" y="14" width="330" height="90" fill="#2e2148"/>
+    <rect x="1210" y="14" width="330" height="90" fill="#2e2148"/>
+  </g>
+  <rect x="0" y="114" width="1600" height="12" fill="url(#r13-gold)"/>
+
+  <!-- 壁（夜紫＋星） -->
+  <rect x="0" y="126" width="1600" height="354" fill="url(#r13-wall)"/>
+  <rect x="0" y="126" width="1600" height="354" fill="url(#r13-stars)"/>
+
+  <!-- 電飾ガーランド -->
+  <g>
+    <path d="M-20,150 C 300,260 600,260 800,190 C 1000,260 1300,260 1620,150" fill="none" stroke="#8a6d1f" stroke-width="4"/>
+    <g>
+      <g id="r13-bulb">
+        <circle cx="0" cy="0" r="9" fill="#ffe9a3"/>
+        <circle cx="0" cy="0" r="22" fill="url(#r13-glow)"/>
+      </g>
+      <use href="#r13-bulb" x="120" y="190"/><use href="#r13-bulb" x="260" y="214"/>
+      <use href="#r13-bulb" x="400" y="226"/><use href="#r13-bulb" x="540" y="222"/>
+      <use href="#r13-bulb" x="680" y="204"/><use href="#r13-bulb" x="800" y="190"/>
+      <use href="#r13-bulb" x="920" y="204"/><use href="#r13-bulb" x="1060" y="222"/>
+      <use href="#r13-bulb" x="1200" y="226"/><use href="#r13-bulb" x="1340" y="214"/>
+      <use href="#r13-bulb" x="1480" y="190"/>
+    </g>
+    <!-- 三角旗 -->
+    <path d="M-20,300 C 350,380 650,380 800,320 C 950,380 1250,380 1620,300" fill="none" stroke="#d4af37" stroke-width="3"/>
+    <g>
+      <g id="r13-flag">
+        <path d="M-14,0 L14,0 L0,30 Z"/>
+      </g>
+      <use href="#r13-flag" x="150" y="336" fill="#a12c3c"/>
+      <use href="#r13-flag" x="300" y="352" fill="#d4af37"/>
+      <use href="#r13-flag" x="450" y="360" fill="#3b4c9a"/>
+      <use href="#r13-flag" x="600" y="358" fill="#3f7d7a"/>
+      <use href="#r13-flag" x="740" y="340" fill="#b48cc8"/>
+      <use href="#r13-flag" x="880" y="340" fill="#a12c3c"/>
+      <use href="#r13-flag" x="1020" y="358" fill="#d4af37"/>
+      <use href="#r13-flag" x="1170" y="360" fill="#3f7d7a"/>
+      <use href="#r13-flag" x="1320" y="352" fill="#3b4c9a"/>
+      <use href="#r13-flag" x="1470" y="336" fill="#b48cc8"/>
+    </g>
+  </g>
+
+  <!-- 誕生日バナー -->
+  <g>
+    <rect x="560" y="238" width="480" height="70" rx="35" fill="#2b1a33" stroke="url(#r13-gold)" stroke-width="4"/>
+    <text x="800" y="285" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" letter-spacing="6" fill="#f6e27a">HAPPY BIRTHDAY</text>
+  </g>
+
+  <!-- 腰壁 -->
+  <rect x="0" y="480" width="1600" height="16" fill="url(#r13-gold)"/>
+  <rect x="0" y="496" width="1600" height="144" fill="#3a2a1a"/>
+  <g fill="none" stroke="url(#r13-gold)" stroke-width="3" opacity="0.85">
+    <rect x="24" y="512" width="152" height="112"/>
+    <rect x="200" y="512" width="152" height="112"/>
+    <rect x="1248" y="512" width="152" height="112"/>
+    <rect x="1424" y="512" width="152" height="112"/>
+  </g>
+  <rect x="0" y="640" width="1600" height="20" fill="#140d04"/>
+
+  <!-- 床 -->
+  <rect x="0" y="660" width="1600" height="240" fill="url(#r13-floor)"/>
+  <ellipse cx="800" cy="810" rx="330" ry="80" fill="#5c1f2e"/>
+  <ellipse cx="800" cy="810" rx="300" ry="70" fill="none" stroke="#d4af37" stroke-width="7"/>
+  <rect x="0" y="880" width="1600" height="20" fill="#000000" opacity="0.4"/>
+
+  <!-- 左：風船束 -->
+  <g id="r13-bunch">
+    <g>
+      <ellipse cx="-46" cy="-120" rx="34" ry="44" fill="#a12c3c"/>
+      <ellipse cx="0" cy="-140" rx="34" ry="44" fill="#d4af37"/>
+      <ellipse cx="46" cy="-120" rx="34" ry="44" fill="#3b4c9a"/>
+      <ellipse cx="-23" cy="-80" rx="30" ry="40" fill="#3f7d7a"/>
+      <ellipse cx="23" cy="-80" rx="30" ry="40" fill="#b48cc8"/>
+    </g>
+    <g stroke="#e8dcc2" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M-46,-76 C -50,-40 -30,-20 -10,0"/>
+      <path d="M0,-96 C 0,-50 0,-20 -5,0"/>
+      <path d="M46,-76 C 50,-40 30,-20 10,0"/>
+      <path d="M-23,-40 C -25,-20 -15,-8 -8,0"/>
+      <path d="M23,-40 C 25,-20 15,-8 8,0"/>
+    </g>
+    <rect x="-22" y="0" width="44" height="26" rx="6" fill="#8a6d1f"/>
+  </g>
+  <use href="#r13-bunch" x="240" y="640"/>
+  <use href="#r13-bunch" x="1360" y="640"/>
+
+  <!-- プレゼント -->
+  <g>
+    <g id="r13-gift">
+      <rect x="-45" y="-40" width="90" height="40" rx="4"/>
+      <rect x="-8" y="-40" width="16" height="40"/>
+      <rect x="-45" y="-52" width="90" height="14" rx="4"/>
+      <circle cx="0" cy="-56" r="8" fill="none" stroke-width="4"/>
+    </g>
+    <g>
+      <rect x="375" y="620" width="90" height="40" rx="4" fill="#3b4c9a"/>
+      <rect x="412" y="620" width="16" height="40" fill="#d4af37"/>
+      <rect x="375" y="608" width="90" height="14" rx="4" fill="#43548e"/>
+      <circle cx="420" cy="604" r="8" fill="none" stroke="#d4af37" stroke-width="4"/>
+    </g>
+    <g>
+      <rect x="375" y="620" width="90" height="40" rx="4" fill="#3b4c9a"/>
+      <rect x="412" y="620" width="16" height="40" fill="#d4af37"/>
+      <rect x="375" y="608" width="90" height="14" rx="4" fill="#43548e"/>
+      <circle cx="420" cy="604" r="8" fill="none" stroke="#d4af37" stroke-width="4"/>
+      <rect x="1125" y="620" width="90" height="40" rx="4" fill="#a12c3c"/>
+      <rect x="1162" y="620" width="16" height="40" fill="#ffe9a3"/>
+      <rect x="1125" y="608" width="90" height="14" rx="4" fill="#b53a48"/>
+      <circle cx="1170" cy="604" r="8" fill="none" stroke="#ffe9a3" stroke-width="4"/>
+      <rect x="1150" y="560" width="70" height="34" rx="4" fill="#3f7d7a"/>
+      <rect x="1180" y="560" width="14" height="34" fill="#ffe9a3"/>
+    </g>
+  </g>
+
+  <!-- 中央：ケーキテーブル -->
+  <g>
+    <ellipse cx="800" cy="700" rx="220" ry="30" fill="#000000" opacity="0.4"/>
+    <path d="M600,560 L1000,560 L960,700 L640,700 Z" fill="url(#r13-cloth)" stroke="#b9a67e" stroke-width="2"/>
+    <g stroke="#c9bda6" stroke-width="2" opacity="0.7">
+      <line x1="680" y1="560" x2="660" y2="700"/>
+      <line x1="760" y1="560" x2="750" y2="700"/>
+      <line x1="840" y1="560" x2="850" y2="700"/>
+      <line x1="920" y1="560" x2="940" y2="700"/>
+    </g>
+    <ellipse cx="800" cy="560" rx="200" ry="22" fill="#faf5e9" stroke="#b9a67e" stroke-width="2"/>
+    <!-- 三段ケーキ -->
+    <rect x="700" y="500" width="200" height="58" rx="10" fill="#e8a0b4" stroke="#a14a62" stroke-width="2"/>
+    <rect x="720" y="452" width="160" height="50" rx="10" fill="#faf5e9" stroke="#c9bda6" stroke-width="2"/>
+    <rect x="744" y="410" width="112" height="44" rx="10" fill="#e8a0b4" stroke="#a14a62" stroke-width="2"/>
+    <g fill="#d4af37">
+      <circle cx="740" cy="529" r="5"/><circle cx="790" cy="529" r="5"/><circle cx="840" cy="529" r="5"/>
+      <circle cx="762" cy="477" r="4"/><circle cx="810" cy="477" r="4"/><circle cx="848" cy="477" r="4"/>
+    </g>
+    <!-- ろうそく5本 -->
+    <g>
+      <g id="r13-cndl">
+        <rect x="-5" y="-34" width="10" height="34" rx="3" fill="#faf5e9" stroke="#c9bda6" stroke-width="1.5"/>
+        <ellipse cx="0" cy="-40" rx="6" ry="9" fill="#ffd98a"/>
+        <ellipse cx="0" cy="-38" rx="3" ry="5" fill="#fff7dd"/>
+        <circle cx="0" cy="-40" r="24" fill="url(#r13-glow)"/>
+      </g>
+      <use href="#r13-cndl" x="748" y="410"/>
+      <use href="#r13-cndl" x="774" y="410"/>
+      <use href="#r13-cndl" x="800" y="410"/>
+      <use href="#r13-cndl" x="826" y="410"/>
+      <use href="#r13-cndl" x="852" y="410"/>
+    </g>
+    <ellipse cx="800" cy="420" rx="150" ry="90" fill="url(#r13-ambient)" filter="url(#r13-big)"/>
+  </g>
+
+  <!-- 紙吹雪 -->
+  <g opacity="0.9">
+    <g fill="#f6e27a"><rect x="500" y="620" width="10" height="6" transform="rotate(24 505 623)"/><rect x="1080" y="600" width="10" height="6" transform="rotate(-18 1085 603)"/><rect x="700" y="700" width="10" height="6" transform="rotate(40 705 703)"/></g>
+    <g fill="#e8a0b4"><rect x="560" y="660" width="10" height="6" transform="rotate(-30 565 663)"/><rect x="1020" y="680" width="10" height="6" transform="rotate(12 1025 683)"/><rect x="880" y="730" width="10" height="6" transform="rotate(60 885 733)"/></g>
+    <g fill="#7fb5b2"><rect x="620" y="740" width="10" height="6" transform="rotate(8 625 743)"/><rect x="960" y="740" width="10" height="6" transform="rotate(-45 965 743)"/><rect x="400" y="700" width="10" height="6" transform="rotate(70 405 703)"/></g>
+    <g fill="#faf5e9"><circle cx="540" cy="580" r="3"/><circle cx="1060" cy="560" r="3"/><circle cx="760" cy="640" r="3"/><circle cx="920" cy="620" r="3"/></g>
+  </g>
+
+  <rect x="0" y="0" width="1600" height="900" fill="url(#r13-vig)"/>
+</svg>

@@ -479,29 +479,37 @@ html { scroll-behavior: smooth; }
    ============================================================ */
 body.spooky-body[data-door-floor="G"] {
   background:
+    url("images/room-g.svg") center / cover no-repeat fixed,
     radial-gradient(900px 460px at 50% -8%, rgba(176, 141, 42, 0.24), transparent 60%),
     radial-gradient(760px 460px at 90% 26%, rgba(232, 180, 160, 0.30), transparent 65%),
     radial-gradient(720px 440px at 8% 32%, rgba(127, 181, 168, 0.24), transparent 65%),
     linear-gradient(180deg, #faf5e9 0%, #f3e8d2 50%, #e9dcc0 100%);
+  background-color: #3a2d1a;
 }
 body.spooky-body[data-door-floor="1"] {
   background:
+    url("images/room-1.svg") center / cover no-repeat fixed,
     radial-gradient(900px 460px at 50% -8%, rgba(201, 162, 39, 0.26), transparent 60%),
     radial-gradient(760px 460px at 85% 30%, rgba(232, 201, 160, 0.32), transparent 65%),
     linear-gradient(180deg, #fbf3e2 0%, #f4e7c9 55%, #e8d5ae 100%);
+  background-color: #4a3418;
 }
 body.spooky-body[data-door-floor="2"] {
   background:
+    url("images/room-2.svg") center / cover no-repeat fixed,
     radial-gradient(900px 460px at 50% -8%, rgba(212, 141, 168, 0.28), transparent 60%),
     radial-gradient(760px 460px at 88% 28%, rgba(176, 141, 212, 0.20), transparent 65%),
     radial-gradient(700px 440px at 10% 34%, rgba(232, 180, 160, 0.26), transparent 65%),
     linear-gradient(180deg, #faf0ea 0%, #f3e2da 55%, #e6cfc2 100%);
+  background-color: #4a2c2c;
 }
 body.spooky-body[data-door-floor="3"] {
   background:
+    url("images/room-3.svg") center / cover no-repeat fixed,
     radial-gradient(900px 460px at 50% -8%, rgba(150, 60, 80, 0.20), transparent 60%),
     radial-gradient(760px 460px at 86% 30%, rgba(201, 162, 39, 0.26), transparent 65%),
     linear-gradient(180deg, #faf1e6 0%, #f0dfcc 55%, #e2c9a8 100%);
+  background-color: #2a0d12;
 }
 body.spooky-body[data-door-floor="4"] {
   background:
@@ -511,21 +519,27 @@ body.spooky-body[data-door-floor="4"] {
 }
 body.spooky-body[data-door-floor="5"] {
   background:
+    url("images/room-5.svg") center / cover no-repeat fixed,
     radial-gradient(900px 460px at 50% -8%, rgba(150, 60, 90, 0.24), transparent 60%),
     radial-gradient(760px 460px at 86% 28%, rgba(201, 162, 39, 0.30), transparent 65%),
     radial-gradient(700px 440px at 10% 32%, rgba(212, 141, 168, 0.24), transparent 65%),
     linear-gradient(180deg, #faf0e8 0%, #f0dcc8 55%, #e0c2a4 100%);
+  background-color: #3a2a18;
 }
 body.spooky-body[data-door-floor="6"] {
   background:
+    url("images/room-6.svg") center / cover no-repeat fixed,
     radial-gradient(900px 460px at 50% -8%, rgba(201, 140, 60, 0.26), transparent 60%),
     radial-gradient(760px 460px at 85% 30%, rgba(232, 201, 160, 0.30), transparent 65%),
     linear-gradient(180deg, #faf3e4 0%, #f2e4c8 55%, #e3cda2 100%);
+  background-color: #232338;
 }
 body.spooky-body[data-door-floor="13"] {
   background:
+    url("images/room-13.svg") center / cover no-repeat fixed,
     radial-gradient(900px 460px at 50% -8%, rgba(90, 70, 160, 0.30), transparent 60%),
     radial-gradient(760px 460px at 86% 28%, rgba(201, 162, 39, 0.26), transparent 65%),
     radial-gradient(700px 440px at 10% 34%, rgba(127, 181, 200, 0.24), transparent 65%),
     linear-gradient(180deg, #eceaf4 0%, #d9d6e8 55%, #b9b4d4 100%);
+  background-color: #1a1030;
 }

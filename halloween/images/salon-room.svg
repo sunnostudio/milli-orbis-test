@@ -1,0 +1,431 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <title>HOTEL GRAND MILLI — 4F ゲームサロンの一室</title>
+  <defs>
+    <linearGradient id="ceilGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7efdc"/>
+      <stop offset="1" stop-color="#e7d7b4"/>
+    </linearGradient>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#33583f"/>
+      <stop offset="0.7" stop-color="#274832"/>
+      <stop offset="1" stop-color="#1d3a28"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e27a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6d1f"/>
+      <stop offset="0.3" stop-color="#f6e27a"/>
+      <stop offset="0.55" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#6b5316"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3620"/>
+      <stop offset="1" stop-color="#331d0f"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4426"/>
+      <stop offset="1" stop-color="#3c2412"/>
+    </linearGradient>
+    <linearGradient id="nightGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b24"/>
+      <stop offset="0.6" stop-color="#141c48"/>
+      <stop offset="1" stop-color="#2c3a72"/>
+    </linearGradient>
+    <linearGradient id="marbleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0e8d6"/>
+      <stop offset="1" stop-color="#cfc2a6"/>
+    </linearGradient>
+    <linearGradient id="mirrorGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b4c78"/>
+      <stop offset="0.45" stop-color="#182444"/>
+      <stop offset="0.55" stop-color="#27386a"/>
+      <stop offset="1" stop-color="#0d1530"/>
+    </linearGradient>
+    <linearGradient id="curtainGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5f1620"/>
+      <stop offset="0.35" stop-color="#a12c3c"/>
+      <stop offset="0.6" stop-color="#7c1f2c"/>
+      <stop offset="1" stop-color="#4c1019"/>
+    </linearGradient>
+    <linearGradient id="carpetShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.45"/>
+      <stop offset="0.4" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#f6c453" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowFire" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#f07f2a" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f07f2a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ambientGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe9a3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdf6dd" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#e8ddb0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e8ddb0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.46" r="0.75">
+      <stop offset="0.55" stop-color="#080502" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080502" stop-opacity="0.52"/>
+    </radialGradient>
+    <pattern id="damask" width="120" height="120" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#d4af37" stroke-width="2" opacity="0.34">
+        <path d="M60 14 C 74 30, 74 48, 60 62 C 46 48, 46 30, 60 14 Z"/>
+        <path d="M60 58 C 74 74, 74 92, 60 106 C 46 92, 46 74, 60 58 Z"/>
+        <circle cx="20" cy="20" r="3"/>
+        <circle cx="100" cy="20" r="3"/>
+        <circle cx="20" cy="100" r="3"/>
+        <circle cx="100" cy="100" r="3"/>
+        <path d="M0 60 Q 30 52, 60 60 Q 90 68, 120 60"/>
+      </g>
+    </pattern>
+    <pattern id="carpetDots" width="56" height="56" patternUnits="userSpaceOnUse">
+      <g fill="#d4af37" opacity="0.5">
+        <rect x="26" y="26" width="8" height="8" transform="rotate(45 30 30)"/>
+        <circle cx="6" cy="6" r="2"/>
+        <circle cx="50" cy="50" r="2"/>
+      </g>
+    </pattern>
+    <filter id="fSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="fGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="fBig" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <clipPath id="glassClip">
+      <path d="M624,490 L624,336 A176,176 0 0 1 976,336 L976,490 Z"/>
+    </clipPath>
+    <clipPath id="curtainLClip">
+      <path d="M566,150 C548,280 566,400 622,492 L700,492 C668,400 660,280 668,150 Z"/>
+    </clipPath>
+    <clipPath id="mirrorClip">
+      <rect x="1184" y="344" width="232" height="252"/>
+    </clipPath>
+  </defs>
+
+  <!-- ===== 天井 ===== -->
+  <rect x="0" y="0" width="1600" height="132" fill="url(#ceilGrad)"/>
+  <g stroke="#b89b5e" stroke-width="3">
+    <rect x="60" y="16" width="330" height="98" fill="#f4ead4"/>
+    <rect x="410" y="16" width="330" height="98" fill="#f4ead4"/>
+    <rect x="860" y="16" width="330" height="98" fill="#f4ead4"/>
+    <rect x="1210" y="16" width="330" height="98" fill="#f4ead4"/>
+  </g>
+  <g fill="none" stroke="#d9c48f" stroke-width="1.5">
+    <rect x="72" y="28" width="306" height="74"/>
+    <rect x="422" y="28" width="306" height="74"/>
+    <rect x="872" y="28" width="306" height="74"/>
+    <rect x="1222" y="28" width="306" height="74"/>
+  </g>
+  <rect x="0" y="126" width="1600" height="12" fill="url(#goldGrad)"/>
+  <circle cx="800" cy="64" r="46" fill="url(#goldGrad)"/>
+  <circle cx="800" cy="64" r="34" fill="#f4ead4"/>
+  <circle cx="800" cy="64" r="20" fill="url(#goldGrad)"/>
+
+  <!-- ===== 壁（上・ダマスク） ===== -->
+  <rect x="0" y="138" width="1600" height="344" fill="url(#wallGrad)"/>
+  <rect x="0" y="138" width="1600" height="344" fill="url(#damask)"/>
+
+  <!-- ===== 中央の窓（夜景） ===== -->
+  <g>
+    <path d="M594,516 L594,336 A206,206 0 0 1 1006,336 L1006,516 Z" fill="url(#marbleGrad)" stroke="#a98f52" stroke-width="3"/>
+    <path d="M624,490 L624,336 A176,176 0 0 1 976,336 L976,490 Z" fill="url(#nightGrad)"/>
+    <g clip-path="url(#glassClip)">
+      <circle cx="880" cy="238" r="62" fill="url(#moonGlow)"/>
+      <circle cx="880" cy="238" r="32" fill="#f4ead0"/>
+      <circle cx="870" cy="230" r="6" fill="#ddd0a8" opacity="0.8"/>
+      <circle cx="890" cy="248" r="4" fill="#ddd0a8" opacity="0.8"/>
+      <g fill="#ffffff">
+        <circle cx="660" cy="200" r="2.4" opacity="0.9"/><circle cx="700" cy="250" r="1.8" opacity="0.7"/>
+        <circle cx="740" cy="190" r="2.2" opacity="0.9"/><circle cx="770" cy="290" r="1.6" opacity="0.6"/>
+        <circle cx="800" cy="210" r="2.6" opacity="0.95"/><circle cx="830" cy="300" r="1.7" opacity="0.7"/>
+        <circle cx="850" cy="180" r="2" opacity="0.85"/><circle cx="920" cy="200" r="2.4" opacity="0.9"/>
+        <circle cx="945" cy="280" r="1.8" opacity="0.7"/><circle cx="940" cy="350" r="1.6" opacity="0.6"/>
+        <circle cx="680" cy="330" r="1.7" opacity="0.7"/><circle cx="730" cy="360" r="1.5" opacity="0.6"/>
+        <circle cx="790" cy="250" r="1.5" opacity="0.65"/><circle cx="910" cy="320" r="2" opacity="0.8"/>
+        <circle cx="650" cy="280" r="1.6" opacity="0.65"/><circle cx="760" cy="160" r="1.8" opacity="0.8"/>
+        <circle cx="835" cy="150" r="1.6" opacity="0.7"/><circle cx="700" cy="160" r="1.4" opacity="0.6"/>
+        <circle cx="955" cy="230" r="1.5" opacity="0.65"/><circle cx="670" cy="390" r="1.5" opacity="0.6"/>
+        <circle cx="900" cy="390" r="1.6" opacity="0.65"/><circle cx="750" cy="420" r="1.4" opacity="0.55"/>
+      </g>
+      <!-- 対岸の街 -->
+      <path d="M624,490 L624,452 L660,452 L660,436 L700,436 L700,458 L742,458 L742,428 L762,428 L762,444 L800,420 L838,444 L838,430 L862,430 L862,458 L900,458 L900,440 L940,440 L940,456 L976,456 L976,490 Z" fill="#05070f"/>
+      <g fill="#ffd873" opacity="0.95">
+        <rect x="668" y="442" width="7" height="9"/><rect x="690" y="442" width="7" height="9"/>
+        <rect x="750" y="440" width="7" height="9"/><rect x="806" y="436" width="7" height="9"/>
+        <rect x="824" y="450" width="7" height="9"/><rect x="870" y="444" width="7" height="9"/>
+        <rect x="908" y="446" width="7" height="9"/><rect x="948" y="448" width="7" height="9"/>
+        <rect x="640" y="460" width="7" height="9"/><rect x="770" y="460" width="7" height="9"/>
+      </g>
+      <rect x="624" y="470" width="352" height="20" fill="#05070f" opacity="0.55"/>
+    </g>
+    <!-- 桟 -->
+    <g stroke="#e3d3a8" stroke-width="9">
+      <line x1="712" y1="336" x2="712" y2="490"/>
+      <line x1="800" y1="170" x2="800" y2="490"/>
+      <line x1="888" y1="336" x2="888" y2="490"/>
+      <line x1="624" y1="410" x2="976" y2="410"/>
+    </g>
+    <g stroke="#e3d3a8" stroke-width="7">
+      <line x1="800" y1="336" x2="688" y2="224"/>
+      <line x1="800" y1="336" x2="912" y2="224"/>
+    </g>
+    <rect x="584" y="516" width="432" height="26" rx="4" fill="url(#marbleGrad)" stroke="#a98f52" stroke-width="2"/>
+    <!-- カーテン -->
+    <rect x="560" y="106" width="480" height="58" rx="10" fill="url(#curtainGrad)" stroke="#d4af37" stroke-width="2"/>
+    <g fill="url(#goldGrad)">
+      <path d="M566,164 l10,16 10,-16 Z"/><path d="M596,164 l10,16 10,-16 Z"/>
+      <path d="M626,164 l10,16 10,-16 Z"/><path d="M656,164 l10,16 10,-16 Z"/>
+      <path d="M686,164 l10,16 10,-16 Z"/><path d="M716,164 l10,16 10,-16 Z"/>
+      <path d="M746,164 l10,16 10,-16 Z"/><path d="M776,164 l10,16 10,-16 Z"/>
+      <path d="M806,164 l10,16 10,-16 Z"/><path d="M836,164 l10,16 10,-16 Z"/>
+      <path d="M866,164 l10,16 10,-16 Z"/><path d="M896,164 l10,16 10,-16 Z"/>
+      <path d="M926,164 l10,16 10,-16 Z"/><path d="M956,164 l10,16 10,-16 Z"/>
+      <path d="M986,164 l10,16 10,-16 Z"/>
+    </g>
+    <g id="curtainL">
+      <path d="M566,150 C548,280 566,400 622,492 L700,492 C668,400 660,280 668,150 Z" fill="url(#curtainGrad)" stroke="#3d0d13" stroke-width="2"/>
+      <g clip-path="url(#curtainLClip)" opacity="0.5">
+        <rect x="590" y="150" width="22" height="342" fill="#3d0d13"/>
+        <rect x="628" y="150" width="16" height="342" fill="#3d0d13"/>
+      </g>
+      <circle cx="636" cy="378" r="13" fill="url(#goldGrad)" stroke="#6b5316" stroke-width="2"/>
+      <circle cx="636" cy="378" r="5" fill="#7c1f2c"/>
+    </g>
+    <use href="#curtainL" transform="translate(1600,0) scale(-1,1)"/>
+  </g>
+
+  <!-- ===== シャンデリア（室内手前に吊る） ===== -->
+  <ellipse cx="800" cy="270" rx="330" ry="190" fill="url(#ambientGold)" filter="url(#fBig)"/>
+  <g>
+    <rect x="795" y="64" width="10" height="66" fill="#6b5316"/>
+    <circle cx="800" cy="150" r="12" fill="url(#goldGrad)"/>
+    <path d="M800,162 C 800,190 788,205 770,214 L830,214 C 812,205 800,190 800,162 Z" fill="url(#goldGrad)"/>
+    <ellipse cx="800" cy="272" rx="212" ry="42" fill="none" stroke="url(#goldGrad)" stroke-width="11"/>
+    <ellipse cx="800" cy="342" rx="122" ry="26" fill="none" stroke="url(#goldGrad)" stroke-width="9"/>
+    <circle cx="800" cy="300" r="16" fill="url(#goldGrad)"/>
+    <path d="M800,316 L800,342" stroke="#6b5316" stroke-width="8"/>
+    <!-- キャンドル13本 -->
+    <g>
+      <g id="cnd">
+        <rect x="-6" y="-40" width="12" height="40" rx="3" fill="#f7efdc"/>
+        <ellipse cx="0" cy="-46" rx="6" ry="10" fill="#ffd98a"/>
+        <ellipse cx="0" cy="-44" rx="3" ry="6" fill="#fff7dd"/>
+        <circle cx="0" cy="-46" r="26" fill="url(#glowGold)"/>
+      </g>
+      <use href="#cnd" x="600" y="262"/>
+      <use href="#cnd" x="657" y="278"/>
+      <use href="#cnd" x="714" y="288"/>
+      <use href="#cnd" x="771" y="292"/>
+      <use href="#cnd" x="829" y="292"/>
+      <use href="#cnd" x="886" y="288"/>
+      <use href="#cnd" x="943" y="278"/>
+      <use href="#cnd" x="1000" y="262"/>
+      <use href="#cnd" x="706" y="338"/>
+      <use href="#cnd" x="753" y="348"/>
+      <use href="#cnd" x="800" y="352"/>
+      <use href="#cnd" x="847" y="348"/>
+      <use href="#cnd" x="894" y="338"/>
+    </g>
+    <!-- クリスタル -->
+    <g stroke="#ffffff" stroke-width="1.5">
+      <line x1="640" y1="282" x2="640" y2="330"/>
+      <line x1="960" y1="282" x2="960" y2="330"/>
+      <line x1="730" y1="356" x2="730" y2="392"/>
+      <line x1="870" y1="356" x2="870" y2="392"/>
+      <line x1="800" y1="368" x2="800" y2="408"/>
+    </g>
+    <g fill="#dff0ff" opacity="0.9">
+      <path d="M640,330 l7,10 -7,10 -7,-10 Z"/>
+      <path d="M960,330 l7,10 -7,10 -7,-10 Z"/>
+      <path d="M730,392 l6,9 -6,9 -6,-9 Z"/>
+      <path d="M870,392 l6,9 -6,9 -6,-9 Z"/>
+      <path d="M800,408 l7,11 -7,11 -7,-11 Z"/>
+    </g>
+    <g stroke="#fff7dd" stroke-width="2.5" opacity="0.9">
+      <path d="M668,216 l0,22 M660,227 h16"/>
+      <path d="M932,216 l0,22 M924,227 h16"/>
+      <path d="M800,180 l0,18 M793,189 h14"/>
+    </g>
+  </g>
+
+  <!-- ===== 柱 ===== -->
+  <g id="pilaster">
+    <rect x="0" y="150" width="60" height="490" fill="#e6d6ae" stroke="#a98f52" stroke-width="2"/>
+    <g stroke="#c9b183" stroke-width="2">
+      <line x1="14" y1="200" x2="14" y2="590"/>
+      <line x1="30" y1="200" x2="30" y2="590"/>
+      <line x1="46" y1="200" x2="46" y2="590"/>
+    </g>
+    <path d="M-8,150 L68,150 L56,178 L4,178 Z" fill="url(#goldGrad)"/>
+    <path d="M-8,640 L68,640 L56,612 L4,612 Z" fill="url(#goldGrad)"/>
+  </g>
+  <use href="#pilaster" x="70" y="0"/>
+  <use href="#pilaster" x="500" y="0"/>
+  <use href="#pilaster" x="1040" y="0"/>
+  <use href="#pilaster" x="1470" y="0"/>
+
+  <!-- ===== 腰壁・巾木 ===== -->
+  <rect x="0" y="480" width="1600" height="16" fill="url(#goldGrad)"/>
+  <rect x="0" y="482" width="1600" height="3" fill="#fff3c4" opacity="0.8"/>
+  <rect x="0" y="496" width="1600" height="144" fill="url(#woodGrad)"/>
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="3" opacity="0.9">
+    <rect x="24" y="512" width="152" height="112"/>
+    <rect x="200" y="512" width="152" height="112"/>
+    <rect x="376" y="512" width="152" height="112"/>
+    <rect x="552" y="512" width="152" height="112"/>
+    <rect x="728" y="512" width="152" height="112"/>
+    <rect x="904" y="512" width="152" height="112"/>
+    <rect x="1080" y="512" width="152" height="112"/>
+    <rect x="1256" y="512" width="152" height="112"/>
+    <rect x="1432" y="512" width="152" height="112"/>
+  </g>
+  <rect x="0" y="640" width="1600" height="20" fill="#1f1208"/>
+
+  <!-- ===== 壁燭（左右対称） ===== -->
+  <g id="sconce">
+    <rect x="-8" y="-40" width="16" height="80" rx="6" fill="url(#goldGrad)"/>
+    <path d="M0,40 C -34,44 -52,56 -58,72" fill="none" stroke="url(#goldGrad)" stroke-width="9"/>
+    <rect x="-66" y="30" width="16" height="42" rx="3" fill="#f7efdc"/>
+    <path d="M-74,30 L-50,30 L-56,2 L-68,2 Z" fill="#f2dfae" stroke="#8a6d1f" stroke-width="2"/>
+    <ellipse cx="-58" cy="72" rx="7" ry="11" fill="#ffd98a"/>
+    <ellipse cx="-58" cy="72" rx="34" ry="40" fill="url(#glowGold)" filter="url(#fGlow)"/>
+  </g>
+  <use href="#sconce" x="545" y="360"/>
+  <use href="#sconce" x="1055" y="360"/>
+
+  <!-- ===== 暖炉（左） ===== -->
+  <g>
+    <rect x="150" y="330" width="300" height="280" rx="6" fill="url(#marbleGrad)" stroke="#a98f52" stroke-width="3"/>
+    <g stroke="#b9a67e" stroke-width="1.5" opacity="0.6">
+      <path d="M170,360 C 220,380 260,370 300,390"/>
+      <path d="M180,560 C 240,540 320,560 420,540"/>
+    </g>
+    <rect x="210" y="430" width="180" height="180" fill="#0d0805"/>
+    <ellipse cx="300" cy="580" rx="115" ry="62" fill="url(#glowFire)" filter="url(#fGlow)"/>
+    <g>
+      <rect x="232" y="556" width="130" height="20" rx="10" fill="#5a3620" transform="rotate(-8 297 566)"/>
+      <rect x="240" y="576" width="120" height="18" rx="9" fill="#3c2412" transform="rotate(6 300 585)"/>
+      <path d="M300,600 C 272,560 282,528 300,500 C 318,528 328,560 300,600 Z" fill="#e2691e" opacity="0.9"/>
+      <path d="M300,600 C 284,570 290,544 300,524 C 310,544 316,570 300,600 Z" fill="#f2a93b"/>
+      <path d="M300,600 C 292,578 294,560 300,546 C 306,560 308,578 300,600 Z" fill="#ffe9a8"/>
+    </g>
+    <rect x="135" y="308" width="330" height="24" rx="4" fill="url(#woodGrad)" stroke="url(#goldGrad)" stroke-width="2"/>
+    <!-- マントルピースの小物 -->
+    <g>
+      <rect x="172" y="262" width="10" height="46" fill="url(#goldGrad)"/>
+      <rect x="180" y="232" width="12" height="32" rx="3" fill="#f7efdc"/>
+      <ellipse cx="186" cy="226" rx="6" ry="9" fill="#ffd98a"/>
+      <circle cx="186" cy="226" r="22" fill="url(#glowGold)"/>
+      <rect x="408" y="262" width="10" height="46" fill="url(#goldGrad)"/>
+      <rect x="404" y="232" width="12" height="32" rx="3" fill="#f7efdc"/>
+      <ellipse cx="410" cy="226" rx="6" ry="9" fill="#ffd98a"/>
+      <circle cx="410" cy="226" r="22" fill="url(#glowGold)"/>
+      <rect x="272" y="266" width="56" height="42" rx="6" fill="url(#goldGrad)"/>
+      <circle cx="300" cy="287" r="14" fill="#f7efdc" stroke="#6b5316" stroke-width="2"/>
+      <line x1="300" y1="287" x2="300" y2="277" stroke="#6b5316" stroke-width="2"/>
+      <line x1="300" y1="287" x2="307" y2="290" stroke="#6b5316" stroke-width="2"/>
+    </g>
+    <rect x="130" y="610" width="340" height="26" rx="4" fill="url(#marbleGrad)" stroke="#a98f52" stroke-width="2"/>
+    <!-- 仮面の絵画 -->
+    <rect x="175" y="150" width="250" height="140" rx="4" fill="url(#goldGrad)"/>
+    <rect x="187" y="162" width="226" height="116" fill="#241423"/>
+    <ellipse cx="300" cy="218" rx="52" ry="30" fill="url(#goldGrad)"/>
+    <ellipse cx="282" cy="218" rx="10" ry="13" fill="#241423"/>
+    <ellipse cx="318" cy="218" rx="10" ry="13" fill="#241423"/>
+    <path d="M258,200 C 240,180 232,160 236,146 C 248,160 258,178 262,196 Z" fill="#7c2c4e"/>
+    <path d="M342,200 C 360,180 368,160 364,146 C 352,160 342,178 338,196 Z" fill="#7c2c4e"/>
+    <g fill="#ffe9a3" opacity="0.9">
+      <circle cx="230" cy="180" r="2.5"/><circle cx="370" cy="190" r="2.5"/>
+      <circle cx="250" cy="250" r="2"/><circle cx="350" cy="250" r="2"/>
+    </g>
+  </g>
+
+  <!-- ===== 鏡とコンソール（右） ===== -->
+  <g>
+    <rect x="1170" y="330" width="260" height="280" rx="6" fill="url(#goldGrad)"/>
+    <rect x="1184" y="344" width="232" height="252" fill="url(#mirrorGrad)"/>
+    <g clip-path="url(#mirrorClip)">
+      <rect x="1210" y="360" width="60" height="220" fill="#ffffff" opacity="0.14" transform="rotate(18 1240 470)"/>
+      <rect x="1300" y="360" width="34" height="220" fill="#ffffff" opacity="0.1" transform="rotate(18 1317 470)"/>
+      <ellipse cx="1300" cy="440" rx="70" ry="46" fill="url(#glowGold)" opacity="0.7" filter="url(#fGlow)"/>
+      <g fill="#ffe9a3" opacity="0.9">
+        <circle cx="1260" cy="420" r="3"/><circle cx="1300" cy="405" r="3.4"/>
+        <circle cx="1340" cy="425" r="3"/><circle cx="1280" cy="450" r="2.4"/>
+        <circle cx="1320" cy="455" r="2.4"/>
+      </g>
+    </g>
+    <rect x="1150" y="616" width="300" height="20" rx="4" fill="url(#woodGrad)" stroke="url(#goldGrad)" stroke-width="2"/>
+    <rect x="1170" y="636" width="12" height="66" fill="#2a1709"/>
+    <rect x="1418" y="636" width="12" height="66" fill="#2a1709"/>
+    <path d="M1300,616 C 1280,588 1280,562 1300,542 C 1320,562 1320,588 1300,616 Z" fill="#3f7d7a" stroke="#2a5a58" stroke-width="2"/>
+    <ellipse cx="1300" cy="580" rx="7" ry="16" fill="#7fb5b2" opacity="0.7"/>
+    <g stroke="#2a5a58" stroke-width="3" fill="none">
+      <path d="M1300,546 C 1296,528 1290,514 1282,504"/>
+      <path d="M1300,546 C 1300,526 1300,512 1300,500"/>
+      <path d="M1300,546 C 1304,528 1310,514 1318,504"/>
+    </g>
+    <g>
+      <ellipse cx="1282" cy="500" rx="7" ry="12" fill="#e8c8d8"/>
+      <ellipse cx="1300" cy="494" rx="7" ry="13" fill="#f4ead4"/>
+      <ellipse cx="1318" cy="500" rx="7" ry="12" fill="#d4af37"/>
+    </g>
+    <g>
+      <rect x="1192" y="584" width="8" height="32" fill="url(#goldGrad)"/>
+      <rect x="1190" y="560" width="12" height="26" rx="3" fill="#f7efdc"/>
+      <ellipse cx="1196" cy="555" rx="5" ry="8" fill="#ffd98a"/>
+      <rect x="1400" y="584" width="8" height="32" fill="url(#goldGrad)"/>
+      <rect x="1398" y="560" width="12" height="26" rx="3" fill="#f7efdc"/>
+      <ellipse cx="1404" cy="555" rx="5" ry="8" fill="#ffd98a"/>
+    </g>
+  </g>
+
+  <!-- ===== 床 ===== -->
+  <rect x="0" y="660" width="1600" height="240" fill="url(#floorGrad)"/>
+  <g stroke="#2a1709" stroke-width="3" opacity="0.7">
+    <line x1="0" y1="700" x2="430" y2="672"/>
+    <line x1="0" y1="760" x2="380" y2="700"/>
+    <line x1="0" y1="830" x2="330" y2="730"/>
+    <line x1="1600" y1="700" x2="1170" y2="672"/>
+    <line x1="1600" y1="760" x2="1220" y2="700"/>
+    <line x1="1600" y1="830" x2="1270" y2="730"/>
+  </g>
+  <!-- 絨毯 -->
+  <g>
+    <polygon points="480,660 1120,660 1420,900 180,900" fill="#7e222b"/>
+    <polygon points="508,668 1092,668 1378,892 222,892" fill="none" stroke="#d4af37" stroke-width="10"/>
+    <polygon points="536,678 1064,678 1336,884 264,884" fill="none" stroke="#232c4e" stroke-width="26"/>
+    <polygon points="536,678 1064,678 1336,884 264,884" fill="none" stroke="#d4af37" stroke-width="3"/>
+    <polygon points="480,660 1120,660 1420,900 180,900" fill="url(#carpetDots)" opacity="0.55"/>
+    <g>
+      <ellipse cx="800" cy="796" rx="150" ry="66" fill="none" stroke="#d4af37" stroke-width="7"/>
+      <ellipse cx="800" cy="796" rx="118" ry="50" fill="#232c4e"/>
+      <ellipse cx="800" cy="796" rx="88" ry="36" fill="none" stroke="#d4af37" stroke-width="4"/>
+      <ellipse cx="800" cy="796" rx="46" ry="18" fill="#d4af37" opacity="0.85"/>
+      <ellipse cx="800" cy="796" rx="22" ry="8" fill="#7e222b"/>
+    </g>
+    <g fill="#d4af37" opacity="0.8">
+      <circle cx="420" cy="830" r="14"/>
+      <circle cx="1180" cy="830" r="14"/>
+      <circle cx="560" cy="700" r="9"/>
+      <circle cx="1040" cy="700" r="9"/>
+    </g>
+    <polygon points="480,660 1120,660 1420,900 180,900" fill="url(#carpetShade)"/>
+  </g>
+  <rect x="0" y="880" width="1600" height="20" fill="#000000" opacity="0.35"/>
+
+  <!-- ===== 仕上げ：ビネット ===== -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#vignette)"/>
+</svg>
