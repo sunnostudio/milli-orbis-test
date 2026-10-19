@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-12T04:41:17.780Z",
+  "updatedAt": "2026-10-18T21:13:06.649Z",
   "streams": [
-    {
-      "id": "nElUBc_Ji-Y",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【📢グッズ情報】3Dお披露目記念グッズ受注開始！",
-      "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-12T14:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "4QLgCAymgI0",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【 #海琳あおい初配信 】みんなへ幸をお届け！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/4QLgCAymgI0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-17T10:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "pnSTro7MCbQ",
       "memberId": "yura",
@@ -111,6 +93,96 @@
     }
   ],
   "videos": [
+    {
+      "id": "rbZanAOtVuM",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【 APEX 】何が起きるかわからない、それがAPEX【カグラナナ/十神仁/雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rbZanAOtVuM/hqdefault.jpg",
+      "publishedAt": "2026-10-18T18:09:36Z",
+      "live": false
+    },
+    {
+      "id": "kqfOSLrTTII",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 PEAK 】温泉メンバーと山登り！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/kqfOSLrTTII/hqdefault.jpg",
+      "publishedAt": "2026-10-18T13:18:36Z",
+      "live": false
+    },
+    {
+      "id": "b8a0imaV3ao",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "ぬふの夢って何ですか？🤔  #shorts #illustration",
+      "thumb": "https://i.ytimg.com/vi/b8a0imaV3ao/hqdefault.jpg",
+      "publishedAt": "2026-10-18T09:00:01Z",
+      "live": false
+    },
+    {
+      "id": "WDxWrWrfSD0",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【お料理雑談】マミー、ハッピーバースデイ🎂【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/WDxWrWrfSD0/hqdefault.jpg",
+      "publishedAt": "2026-10-18T08:36:48Z",
+      "live": true
+    },
+    {
+      "id": "o4lDXd4i38s",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/o4lDXd4i38s/hqdefault.jpg",
+      "publishedAt": "2026-10-17T09:44:56Z",
+      "live": false
+    },
+    {
+      "id": "aGA5TRzlZpM",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "VTuberが朝起きるまでのリアル",
+      "thumb": "https://i.ytimg.com/vi/aGA5TRzlZpM/hqdefault.jpg",
+      "publishedAt": "2026-10-17T09:00:25Z",
+      "live": false
+    },
+    {
+      "id": "LDMdVrQbg5Q",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 雑談 】帰省を楽しんだらしい ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/LDMdVrQbg5Q/hqdefault.jpg",
+      "publishedAt": "2026-10-16T15:29:40Z",
+      "live": true
+    },
+    {
+      "id": "nBrPd7aOS-Y",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【ただいま】リフレッシュして戻ってきたぞ～！【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/nBrPd7aOS-Y/hqdefault.jpg",
+      "publishedAt": "2026-10-15T14:26:43Z",
+      "live": false
+    },
+    {
+      "id": "oEm12Jg92Rg",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "あのさ、私…もうすぐ引っ越すんだよね。",
+      "thumb": "https://i.ytimg.com/vi/oEm12Jg92Rg/hqdefault.jpg",
+      "publishedAt": "2026-10-15T11:54:01Z",
+      "live": false
+    },
     {
       "id": "4KPuSXFG9PM",
       "memberId": "mahoro",
@@ -242,16 +314,6 @@
       "live": false
     },
     {
-      "id": "uoB6oBS8nnk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 VALORANT 】まほろさんとてとちとトリオ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/uoB6oBS8nnk/hqdefault.jpg",
-      "publishedAt": "2026-10-09T13:47:38Z",
-      "live": false
-    },
-    {
       "id": "CwnbIUUELnc",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -329,86 +391,6 @@
       "title": "〖 歌枠 〗おうち3Dで秋を楽しむお歌の会〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/s-ZdfJ-vMNA/hqdefault.jpg",
       "publishedAt": "2026-10-08T14:36:25Z",
-      "live": false
-    },
-    {
-      "id": "AW9k7fWiohQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【メドレー】全部知ってたらポケモンマスター！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AW9k7fWiohQ/hqdefault.jpg",
-      "publishedAt": "2026-10-08T09:00:27Z",
-      "live": false
-    },
-    {
-      "id": "DKfHF0pQ0FI",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】当てはまったら降りるゲーム！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/DKfHF0pQ0FI/hqdefault.jpg",
-      "publishedAt": "2026-10-08T09:00:05Z",
-      "live": false
-    },
-    {
-      "id": "NBbE-zXEEmo",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Pratfall 】なんか強そうなメンツでここ掘れわんわん！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NBbE-zXEEmo/hqdefault.jpg",
-      "publishedAt": "2026-10-07T14:24:45Z",
-      "live": false
-    },
-    {
-      "id": "R30RxQnLTcI",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ついにモデル公開！】アスノヨゾラ哨戒班 歌ってみた 【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R30RxQnLTcI/hqdefault.jpg",
-      "publishedAt": "2026-10-07T09:01:09Z",
-      "live": false
-    },
-    {
-      "id": "OxRpWSk8Z_U",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "『ルミナス』歌ってみた！【眠雲ツクリ/ミリプロ】#VTuber #ルミナス  #歌ってみた",
-      "thumb": "https://i.ytimg.com/vi/OxRpWSk8Z_U/hqdefault.jpg",
-      "publishedAt": "2026-10-07T09:00:39Z",
-      "live": false
-    },
-    {
-      "id": "DYIMeD8TX_Y",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "一人二役で『トイレイキタイ』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/DYIMeD8TX_Y/hqdefault.jpg",
-      "publishedAt": "2026-10-07T09:00:06Z",
-      "live": false
-    },
-    {
-      "id": "hPVQ7VRgBv0",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault.jpg",
-      "publishedAt": "2026-10-06T11:08:39Z",
-      "live": false
-    },
-    {
-      "id": "qQGJV431vVI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "Henceforth / 音ノ瀬らこ (cover)",
-      "thumb": "https://i.ytimg.com/vi/qQGJV431vVI/hqdefault.jpg",
-      "publishedAt": "2026-10-06T11:00:08Z",
       "live": false
     }
   ],

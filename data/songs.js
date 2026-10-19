@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-12",
+  "generatedAt": "2026-10-19",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -8,7 +8,10 @@ window.SONGS = {
       "publishedAt": "2026-08-31",
       "members": [
         "liz"
-      ]
+      ],
+      "en": {
+        "title": "NET CHOOSE SHOW - Ameya Liz (official)"
+      }
     },
     {
       "id": "1UdnoJ6qgPs",
@@ -66,7 +69,10 @@ window.SONGS = {
       "publishedAt": "2025-11-22",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[Collapse 3rd] Fairy Winking - Kano [Elysia Image Song]"
+      }
     },
     {
       "id": "Xb9MKKcVTK8",
@@ -85,7 +91,10 @@ window.SONGS = {
       "publishedAt": "2025-09-25",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[Narushio] Pale moonlight - Kano"
+      }
     },
     {
       "id": "d-IGBfIo3lM",
@@ -101,7 +110,10 @@ window.SONGS = {
       "publishedAt": "2025-07-03",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Hiraeth” Music Video"
+      }
     },
     {
       "id": "On5N72vpDFU",
@@ -120,7 +132,10 @@ window.SONGS = {
       "publishedAt": "2025-02-10",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Doppel original picture and reproduction Gengar” Music Video"
+      }
     },
     {
       "id": "YiABCz7hPQE",
@@ -128,7 +143,10 @@ window.SONGS = {
       "publishedAt": "2025-01-02",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[Collapse: Star Rail] To the Moon / Kano [HoYoFair]"
+      }
     },
     {
       "id": "uUX8zLoK3TI",
@@ -147,7 +165,10 @@ window.SONGS = {
       "publishedAt": "2024-10-23",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Love and Sorrow” Music Video"
+      }
     },
     {
       "id": "AayVsZmozVs",
@@ -166,7 +187,10 @@ window.SONGS = {
       "publishedAt": "2024-08-28",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Metome” Music Video"
+      }
     },
     {
       "id": "Hy4aFw7NHiw",
@@ -185,7 +209,10 @@ window.SONGS = {
       "publishedAt": "2024-04-19",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Stereophonic” Music Video"
+      }
     },
     {
       "id": "DTF5L6NHBDA",
@@ -193,7 +220,10 @@ window.SONGS = {
       "publishedAt": "2023-11-03",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[Snow Break: Forbidden Region Image Song] Aim! Descending to the sea [Kano]"
+      }
     },
     {
       "id": "cJ-eRHxhE6A",
@@ -201,7 +231,10 @@ window.SONGS = {
       "publishedAt": "2023-01-03",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[Genshin MV - Yoimiya] Tonight Dance ~ Fireworks [Kano]"
+      }
     },
     {
       "id": "bSibPLEYTY8",
@@ -209,7 +242,10 @@ window.SONGS = {
       "publishedAt": "2022-10-07",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Ichigo Ichie Celebration” [OFFICIAL] “Uzaki-chan wants to play! ω” OP"
+      }
     },
     {
       "id": "X0QIH_tp4Hg",
@@ -217,7 +253,10 @@ window.SONGS = {
       "publishedAt": "2021-03-22",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Dear Brave” (short ver.) [OFFICIAL]"
+      }
     },
     {
       "id": "yvtyw-HAyHA",
@@ -225,7 +264,10 @@ window.SONGS = {
       "publishedAt": "2021-03-22",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “HOPE” (short ver.) [OFFICIAL]"
+      }
     },
     {
       "id": "GNkPJvVEm0s",
@@ -233,7 +275,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Stella-rium” [OFFICIAL]"
+      }
     },
     {
       "id": "UstE6yTlwcU",
@@ -241,7 +286,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Dear Brave” [OFFICIAL]"
+      }
     },
     {
       "id": "6BXKh4f6Vhw",
@@ -249,7 +297,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Primastella” [OFFICIAL]"
+      }
     },
     {
       "id": "im2tTHtR5YU",
@@ -257,7 +308,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “nameless” [OFFICIAL]"
+      }
     },
     {
       "id": "l4Rp9GNXhU4",
@@ -265,7 +319,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “RERE” [OFFICIAL]"
+      }
     },
     {
       "id": "z7EkuWkEyPc",
@@ -273,7 +330,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Sanctuary [Kano]"
+      }
     },
     {
       "id": "A8jUgcSgcQg",
@@ -281,7 +341,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “day by day” (short ver.) [OFFICIAL]"
+      }
     },
     {
       "id": "vDaBppdt5rw",
@@ -289,7 +352,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “29-Q” (short ver.) [OFFICIAL]"
+      }
     },
     {
       "id": "DdedCMxUBl8",
@@ -297,7 +363,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Daisy Blue” [OFFICIAL]"
+      }
     },
     {
       "id": "Fppdf8foYoA",
@@ -305,7 +374,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Ivy” [OFFICIAL]"
+      }
     },
     {
       "id": "-J4PaiGgEPA",
@@ -313,7 +385,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Fall in Spring” [OFFICIAL]"
+      }
     },
     {
       "id": "XXOEO_i8tMk",
@@ -321,7 +396,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Q” & “A” [OFFICIAL]"
+      }
     },
     {
       "id": "QqSDGg_MlTw",
@@ -329,7 +407,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “HOPE” [OFFICIAL]"
+      }
     },
     {
       "id": "GPo-g6tHH_4",
@@ -337,7 +418,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Luka Luka☆Night Fever” [OFFICIAL]"
+      }
     },
     {
       "id": "LS61xdsolis",
@@ -345,7 +429,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “The helpless god at midnight” [OFFICIAL]"
+      }
     },
     {
       "id": "34nCX5AEXWY",
@@ -353,7 +440,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Nadamesukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
+      }
     },
     {
       "id": "dioEcz621Jg",
@@ -361,7 +451,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "KANO 2020remix"
+      }
     },
     {
       "id": "ZkDEkUf6jlg",
@@ -369,7 +462,10 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "It must have been summer/Kano"
+      }
     },
     {
       "id": "UX8_xSOZfUc",
@@ -377,10 +473,41 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Compass Song” [OFFICIAL] “Armor Musume Senki” ED"
+      }
     }
   ],
   "covers": [
+    {
+      "title": "天ノ弱",
+      "key": "天ノ弱",
+      "urls": [
+        {
+          "id": "N1Kq4eA-LEc",
+          "memberId": "aoi",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "en": {
+        "title": "Ten no Weak"
+      }
+    },
+    {
+      "title": "狂乱 Hey Kids!!",
+      "key": "狂乱heykids!!",
+      "urls": [
+        {
+          "id": "Uvz0tf2tGIE",
+          "memberId": "rei",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "en": {
+        "title": "Frenzy Hey Kids!!"
+      }
+    },
     {
       "title": "デビットビット",
       "key": "デビットビット",
@@ -390,23 +517,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2026-09-30"
         }
-      ]
-    },
-    {
-      "title": "ラグトレイン",
-      "key": "ラグトレイン",
-      "urls": [
-        {
-          "id": "GLU0JIrSqn0",
-          "memberId": "nono",
-          "publishedAt": "2026-09-22"
-        },
-        {
-          "id": "XogPaIFnJDo",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-07-04"
-        }
-      ]
+      ],
+      "en": {
+        "title": "debit bit"
+      }
     },
     {
       "title": "おもかげ",
@@ -417,7 +531,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2026-09-22"
         }
-      ]
+      ],
+      "en": {
+        "title": "Omokage"
+      }
     },
     {
       "title": "高嶺の花子さん（back number） - 鹿乃まほろ cover.",
@@ -428,7 +545,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-09-21"
         }
-      ]
+      ],
+      "en": {
+        "title": "Takamine Hanako-san (back number) - Mahoro Kano cover."
+      }
     },
     {
       "title": "ミカヅキ/酸欠少女さユり",
@@ -439,7 +559,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-09-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "Mikazuki/Sayuri the Oxygen-Deficient Girl"
+      }
     },
     {
       "title": "サウダージ",
@@ -450,7 +573,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-09-14"
         }
-      ]
+      ],
+      "en": {
+        "title": "saudade"
+      }
     },
     {
       "title": "Surges",
@@ -477,7 +603,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2026-09-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "Help me, ERINNNNNN!!/Komawarikoma (cover)"
+      }
     },
     {
       "title": "III",
@@ -504,7 +633,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-09-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "That summer is saturated. /Kanzaki Iori"
+      }
     },
     {
       "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
@@ -515,7 +647,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-09-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "World Lampshade / Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "八月の夜",
@@ -526,7 +661,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-08-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "August night"
+      }
     },
     {
       "title": "ハッピーシンセサイザ",
@@ -537,7 +675,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2026-08-28"
         }
-      ]
+      ],
+      "en": {
+        "title": "happy synthesizer"
+      }
     },
     {
       "title": "スパークル",
@@ -548,7 +689,10 @@ window.SONGS = {
           "memberId": "rei",
           "publishedAt": "2026-08-26"
         }
-      ]
+      ],
+      "en": {
+        "title": "sparkle"
+      }
     },
     {
       "title": "ライラック",
@@ -583,7 +727,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-08-23"
         }
-      ]
+      ],
+      "en": {
+        "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
+      }
     },
     {
       "title": "Ready Steady - Giga",
@@ -625,7 +772,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-08-23"
         }
-      ]
+      ],
+      "en": {
+        "title": "Femme Fatale/Komai Koma × Nemugumo Tsukuri × Ameya Liz (cover)"
+      }
     },
     {
       "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
@@ -636,7 +786,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-08-22"
         }
-      ]
+      ],
+      "en": {
+        "title": "Hello/Hawayu - Mahoro Kano cover."
+      }
     },
     {
       "title": "夏色えがおで1,2,Jump!",
@@ -681,7 +834,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-09-10"
         }
-      ]
+      ],
+      "en": {
+        "title": "naughty sun"
+      }
     },
     {
       "title": "カゲロウデイズ",
@@ -736,7 +892,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-08-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "monster with no name"
+      }
     },
     {
       "title": "Surges／眠雲ツクリ（cover）",
@@ -778,6 +937,25 @@ window.SONGS = {
       ],
       "en": {
         "title": "MOTTAI/Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "ラグトレイン／眠雲ツクリ（cover）",
+      "key": "ラグトレイン",
+      "urls": [
+        {
+          "id": "GLU0JIrSqn0",
+          "memberId": "nono",
+          "publishedAt": "2026-09-09"
+        },
+        {
+          "id": "XogPaIFnJDo",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-04"
+        }
+      ],
+      "en": {
+        "title": "Rag Train/Nemugumo Tsukuri (cover)"
       }
     },
     {
@@ -918,7 +1096,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-10-16"
         }
-      ]
+      ],
+      "en": {
+        "title": "romeo and cinderella"
+      }
     },
     {
       "title": "ブラック★ロックシューター - ryo（supercell）",
@@ -971,7 +1152,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-05-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "Goodnight cry, goodbye diva"
+      }
     },
     {
       "title": "愛言葉Ⅳ",
@@ -1242,6 +1426,11 @@ window.SONGS = {
         },
         {
           "id": "yynYqcLJYPk",
+          "memberId": "aoi",
+          "publishedAt": "2025-12-26"
+        },
+        {
+          "id": "yynYqcLJYPk",
           "memberId": "koma",
           "publishedAt": "2026-07-05"
         },
@@ -1333,7 +1522,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2025-12-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "samurai heart"
+      }
     },
     {
       "title": "Catch You Catch Me",
@@ -1611,7 +1803,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-08-10"
         }
-      ]
+      ],
+      "en": {
+        "title": "cherry pop"
+      }
     },
     {
       "title": "男の子の目的は何？／小廻こま（cover）",
@@ -2837,7 +3032,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-07-26"
         }
-      ]
+      ],
+      "en": {
+        "title": "DAYBREAK FRONTLINE (Orangestar)/acoustic cover. Kano"
+      }
     },
     {
       "title": "ドライフラワー（優里）/ acoustic cover. 鹿乃",
@@ -2848,7 +3046,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-07-19"
         }
-      ]
+      ],
+      "en": {
+        "title": "Dried flower (Yuri) / acoustic cover. Kano"
+      }
     },
     {
       "title": "雨き声残響（Orangestar）/ acoustic cover. 鹿乃",
@@ -2859,7 +3060,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-07-12"
         }
-      ]
+      ],
+      "en": {
+        "title": "Rain Voice Reverberation (Orangestar) / acoustic cover. Kano"
+      }
     },
     {
       "title": "春を告げる（yama）/ acoustic cover. 鹿乃",
@@ -2870,7 +3074,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-05-02"
         }
-      ]
+      ],
+      "en": {
+        "title": "Announcement of spring (yama)/acoustic cover. Kano"
+      }
     },
     {
       "title": "妄想感傷代償連盟（DECO*27）/ acoustic cover. 鹿乃",
@@ -2881,7 +3088,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-04-11"
         }
-      ]
+      ],
+      "en": {
+        "title": "Delusional Sentiment Compensation Federation (DECO*27)/acoustic cover. Kano"
+      }
     },
     {
       "title": "ライラック（Mrs. GREEN APPLE）/ acoustic cover. 鹿乃",
@@ -2892,7 +3102,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-03-29"
         }
-      ]
+      ],
+      "en": {
+        "title": "Lilac (Mrs. GREEN APPLE) / acoustic cover. Kano"
+      }
     },
     {
       "title": "アイロニ（すこっぷ）/ acoustic cover. 鹿乃",
@@ -2903,7 +3116,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-12-28"
         }
-      ]
+      ],
+      "en": {
+        "title": "Ironi (Scop)/acoustic cover. Kano"
+      }
     },
     {
       "title": "p.h.  / 鹿乃 cover.",
@@ -2914,7 +3130,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-10-11"
         }
-      ]
+      ],
+      "en": {
+        "title": "p.h. / Kano cover."
+      }
     },
     {
       "title": "プロポーズ（なとり）/ 鹿乃 cover.",
@@ -2930,7 +3149,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-08-30"
         }
-      ]
+      ],
+      "en": {
+        "title": "Proposal (Natori)/Kano cover."
+      }
     },
     {
       "title": "心拍数#0822（一之瀬ユウ）/ acoustic cover. 鹿乃",
@@ -2941,7 +3163,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-08-21"
         }
-      ]
+      ],
+      "en": {
+        "title": "Heart rate #0822 (Yu Ichinose) / acoustic cover. Kano"
+      }
     },
     {
       "title": "チェリーポップ （DECO*27） / 鹿乃 cover.",
@@ -2952,7 +3177,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-08-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "Cherry Pop (DECO*27) / Kano cover."
+      }
     },
     {
       "title": "glow（keeno） / acoustic cover. 鹿乃",
@@ -2963,7 +3191,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-08-06"
         }
-      ]
+      ],
+      "en": {
+        "title": "glow (keeno) / acoustic cover. Kano"
+      }
     },
     {
       "title": "コノハの世界事情 cover. 鹿乃",
@@ -2974,7 +3205,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-07-23"
         }
-      ]
+      ],
+      "en": {
+        "title": "Konoha's world affairs cover. Kano"
+      }
     },
     {
       "title": "ワールズエンド・ダンスホール (World's End Dancehall)  鹿乃cover.",
@@ -2985,7 +3219,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-07-18"
         }
-      ]
+      ],
+      "en": {
+        "title": "World's End Dancehall (World's End Dancehall) Kano cover."
+      }
     },
     {
       "title": "失恋ソング沢山聴いて 泣いてばかりの私はもう。/ cover. 鹿乃",
@@ -2996,7 +3233,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-07-18"
         }
-      ]
+      ],
+      "en": {
+        "title": "I listen to so many heartbreak songs and just cry. / cover. Kano"
+      }
     },
     {
       "title": "テトリス / 鹿乃 cover.",
@@ -3007,7 +3247,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-02-06"
         }
-      ]
+      ],
+      "en": {
+        "title": "Tetris / Kano cover."
+      }
     },
     {
       "title": "モニタリング - DECO*27 / 鹿乃 cover",
@@ -3018,7 +3261,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-02-02"
         }
-      ]
+      ],
+      "en": {
+        "title": "Monitoring - DECO*27 / Kano cover"
+      }
     },
     {
       "title": "みむかｩわナイストライ - Mimukauwa Nice Try / 鹿乃 cover.",
@@ -3029,7 +3275,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2025-01-25"
         }
-      ]
+      ],
+      "en": {
+        "title": "Mimukauwa Nice Try - Mimukauwa Nice Try / Kano cover."
+      }
     },
     {
       "title": "モエチャッカファイア（弌誠）/ 鹿乃 cover.",
@@ -3040,7 +3289,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2024-12-13"
         }
-      ]
+      ],
+      "en": {
+        "title": "Moe Chakka Fire (Masei) / Kano cover."
+      }
     },
     {
       "title": "ずうっといっしょ！（キタニタツヤ ）/ 鹿乃 cover.- ALWAYS BE WITH YOU XD",
@@ -3051,7 +3303,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2024-11-23"
         }
-      ]
+      ],
+      "en": {
+        "title": "Together forever! (Tatsuya Kitani) / Kano cover.- ALWAYS BE WITH YOU XD"
+      }
     },
     {
       "title": "お呪い - なきそ / 鹿乃 cover",
@@ -3062,7 +3317,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2024-06-14"
         }
-      ]
+      ],
+      "en": {
+        "title": "Curse - Nakiso / Kano cover"
+      }
     },
     {
       "title": "うぉんちゅーばっど - jon-YAKITORY / 鹿乃 cover（Want You Bad）",
@@ -3073,7 +3331,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2024-05-16"
         }
-      ]
+      ],
+      "en": {
+        "title": "Watch Bad - jon-YAKITORY / Kano cover (Want You Bad)"
+      }
     },
     {
       "title": "ラビットホール - DECO*27/ 鹿乃 cover（Rabbit Hole）",
@@ -3084,7 +3345,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2024-05-06"
         }
-      ]
+      ],
+      "en": {
+        "title": "Rabbit Hole - DECO*27/ Kano cover (Rabbit Hole)"
+      }
     },
     {
       "title": "ド屑 - なきそ / 鹿乃 cover",
@@ -3095,7 +3359,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2024-04-27"
         }
-      ]
+      ],
+      "en": {
+        "title": "Dokuzu - Nakiso / Kano cover"
+      }
     },
     {
       "title": "寝起きヤシの木 - Yukopi / 鹿乃 cover",
@@ -3106,7 +3373,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2023-08-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "Waking up palm tree - Yukopi / Kano cover"
+      }
     },
     {
       "title": "INTERNET OVERDOSE / 鹿乃 cover",
@@ -3117,7 +3387,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2023-08-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "INTERNET OVERDOSE / Kano cover"
+      }
     },
     {
       "title": "アイドル - YOASOBI / 鹿乃 cover（推しの子OP）",
@@ -3128,7 +3401,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2023-06-29"
         }
-      ]
+      ],
+      "en": {
+        "title": "Idol - YOASOBI / Kano cover (Oshinoko OP)"
+      }
     },
     {
       "title": "強風オールバック / 鹿乃 cover",
@@ -3139,7 +3415,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2023-06-10"
         }
-      ]
+      ],
+      "en": {
+        "title": "Strong wind all back / Kano cover"
+      }
     },
     {
       "title": "Beat Eater - ポリスピカデリー",
@@ -3192,7 +3471,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2023-01-22"
         }
-      ]
+      ],
+      "en": {
+        "title": "Tsk, diversity. covered by Kano (Chainsaw Man ED)"
+      }
     },
     {
       "title": "Trust On Me -Theme Of E.T.E-",
@@ -3214,7 +3496,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-07-16"
         }
-      ]
+      ],
+      "en": {
+        "title": "Masterpiece (Greatest Works of Art) cover. Kano"
+      }
     },
     {
       "title": "シンデレラボーイ cover. 鹿乃",
@@ -3225,7 +3510,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-06-11"
         }
-      ]
+      ],
+      "en": {
+        "title": "Cinderella Boy cover. Kano"
+      }
     },
     {
       "title": "「Sincerely」acoustic arrange cover. 鹿乃（ヴァイオレット・エヴァーガーデンOP）",
@@ -3236,7 +3524,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-05-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "“Sincerely” acoustic arrange cover. Kano (Violet Evergarden OP)"
+      }
     },
     {
       "title": "僕が死のうと思ったのは cover. 鹿乃",
@@ -3247,7 +3538,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-04-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "The thing that made me want to die was cover. Kano"
+      }
     },
     {
       "title": "無理に笑わなくて良いよ cover. 鹿乃",
@@ -3258,7 +3552,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-04-01"
         }
-      ]
+      ],
+      "en": {
+        "title": "You don't have to force yourself to smile cover. Kano"
+      }
     },
     {
       "title": "「Oz./yama」covered by 鹿乃（王様ランキングED）",
@@ -3269,7 +3566,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2021-11-25"
         }
-      ]
+      ],
+      "en": {
+        "title": "“Oz./yama” covered by Kano (King Ranking ED)"
+      }
     },
     {
       "title": "CHO-DARI-",
@@ -3319,7 +3619,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2021-08-28"
         }
-      ]
+      ],
+      "en": {
+        "title": "Mercury Covered by Kano"
+      }
     },
     {
       "title": "てねてね / 悒うつぼ",
@@ -3444,7 +3747,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2021-02-10"
         }
-      ]
+      ],
+      "en": {
+        "title": "SAKURA/Ikimonogakari acoustic arrange cover Kano"
+      }
     },
     {
       "title": "どりーみんチュチュ / Dreamin Chuchu cover.鹿乃",
@@ -3455,7 +3761,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-12-13"
         }
-      ]
+      ],
+      "en": {
+        "title": "Dreamin Chuchu cover.Kano"
+      }
     },
     {
       "title": "嘘つきは恋のはじまり arrange ver. /鹿乃×40mP",
@@ -3466,7 +3775,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-10-29"
         }
-      ]
+      ],
+      "en": {
+        "title": "Liar is the beginning of love arrange ver. / Kano × 40mP"
+      }
     },
     {
       "title": "会いたい《想见你想见你想见你》/ cover 鹿乃",
@@ -3477,7 +3789,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-06-27"
         }
-      ]
+      ],
+      "en": {
+        "title": "I want to meet you《thinking about you》/cover Kano"
+      }
     },
     {
       "title": "花に亡霊 - ヨルシカ/cover 鹿乃",
@@ -3488,7 +3803,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Ghost in the Flower - Yorushika/cover Kano"
+      }
     },
     {
       "title": "猫猫的宇宙論 cover.鹿乃",
@@ -3499,7 +3817,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Cat and cat cosmology cover.Kano"
+      }
     },
     {
       "title": "別の人の彼女になったよ arrange cover.鹿乃",
@@ -3510,7 +3831,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I became someone else's girlfriend arrange cover.Kano"
+      }
     },
     {
       "title": "この世界を愛したい cover.鹿乃",
@@ -3521,7 +3845,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I want to love this world cover.Kano"
+      }
     },
     {
       "title": "灰色と青 cover.鹿乃",
@@ -3532,7 +3859,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Gray and blue cover.Kano"
+      }
     },
     {
       "title": "愛にできることはまだあるかい acoustic cover.鹿乃",
@@ -3543,7 +3873,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Is there anything more that love can do?acoustic cover.Kano"
+      }
     },
     {
       "title": "地球最後の告白を acoustic cover.鹿乃",
@@ -3554,7 +3887,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Earth's last confession acoustic cover.Kano"
+      }
     },
     {
       "title": "乙女解剖 歌いました",
@@ -3565,7 +3901,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Maiden Anatomy sang"
+      }
     },
     {
       "title": "それがあなたの幸せとしても acoustic cover.鹿乃",
@@ -3576,7 +3915,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Even if it's your happiness, acoustic cover.Kano"
+      }
     },
     {
       "title": "君がいる世界へ 一花依世界 日本語版",
@@ -3587,7 +3929,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "To the world where you are Ichikayori world Japanese version"
+      }
     },
     {
       "title": "メルティランドナイトメア 　cover　鹿乃",
@@ -3598,7 +3943,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Melty Land Nightmare cover Kano"
+      }
     },
     {
       "title": "ハイタ 歌ってみた",
@@ -3609,7 +3957,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Haita I tried singing"
+      }
     },
     {
       "title": "打上花火　歌ってみた",
@@ -3620,7 +3971,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Fireworks - I tried singing"
+      }
     },
     {
       "title": "おねがいダーリン　歌ってみた",
@@ -3631,7 +3985,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Onegai darling, I tried singing it"
+      }
     },
     {
       "title": "ドリームレス・ドリームス　歌ってみた",
@@ -3642,7 +3999,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I tried singing Dreamless Dreams"
+      }
     },
     {
       "title": "メリュー　歌いました",
@@ -3653,7 +4013,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Meryu sang"
+      }
     },
     {
       "title": "放課後のプレアデス　歌いました",
@@ -3664,7 +4027,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I sang Pleiades after school."
+      }
     },
     {
       "title": "さようなら、花泥棒さん　歌いました",
@@ -3675,7 +4041,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Goodbye, flower thief, I sang"
+      }
     },
     {
       "title": "マッシュルームマザー　歌いました",
@@ -3686,7 +4055,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Mushroom Mother sang"
+      }
     },
     {
       "title": "東京レトロ　歌いました",
@@ -3697,7 +4069,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Tokyo Retro Sang"
+      }
     },
     {
       "title": "繰り返し一粒　歌いました",
@@ -3708,7 +4083,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I sang one song over and over again"
+      }
     },
     {
       "title": "小夜子　歌いました",
@@ -3719,7 +4097,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Sayoko sang"
+      }
     },
     {
       "title": "刹那プラス　歌いました",
@@ -3730,7 +4111,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Setsuna Plus sang"
+      }
     },
     {
       "title": "クライヤ　歌いました",
@@ -3741,7 +4125,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Cryer sang"
+      }
     },
     {
       "title": "アイロニ　歌いました",
@@ -3752,7 +4139,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I sang Irony"
+      }
     },
     {
       "title": "サディスティック・ラブ　歌いました",
@@ -3763,7 +4153,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Sadistic Love Sang"
+      }
     },
     {
       "title": "ワールド・コーリング　歌いました",
@@ -3774,7 +4167,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "World Calling Sang"
+      }
     },
     {
       "title": "二次元ドリームフィーバー　歌いました",
@@ -3785,7 +4181,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "2D Dream Fever sang"
+      }
     },
     {
       "title": "放課後ストライド　歌いました",
@@ -3796,7 +4195,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "After School Stride Sang"
+      }
     },
     {
       "title": "有頂天ビバーチェ　歌いました",
@@ -3807,7 +4209,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I sang Uchoten Vivace"
+      }
     },
     {
       "title": "メリーメリー　歌いました",
@@ -3818,7 +4223,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Merry Merry sang"
+      }
     },
     {
       "title": "センチメンタルな愛慕心　歌いました",
@@ -3829,7 +4237,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "I sang a sentimental love"
+      }
     },
     {
       "title": "ケッペキショウ　歌いました",
@@ -3840,7 +4251,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Keppekisho sang"
+      }
     },
     {
       "title": "ハロ/ハワユ 歌いました",
@@ -3851,7 +4265,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Hello/Hawayu sang"
+      }
     }
   ]
 };
