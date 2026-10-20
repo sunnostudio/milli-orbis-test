@@ -1383,10 +1383,10 @@ window.SONG_MASTER = {
       }
     },
     "お呪い-なきそ": {
-      "title": "POP SONG",
+      "title": "MAD HEAD LOVE",
       "artist": "米津玄師",
-      "album": "POP SONG - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/6a/a2/836aa298-4442-2178-cbf7-03fed785d53f/4547366551730.jpg/600x600bb.jpg"
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "うぉんちゅばっど-jon-yakitory": {
       "title": "うぉんちゅーばっど",
