@@ -25,7 +25,6 @@
     "permanent": true,
     "tag": null,
     "tags": [
-      "デジタル商品",
       "常設商品",
       "海琳あおい"
     ],
@@ -380,6 +379,7 @@
     "tag": null,
     "tags": [
       "デジタルグッズ",
+      "常設同梱不可",
       "海琳あおい"
     ],
     "product_type": "フルセット",
@@ -649,7 +649,7 @@
     "memberId": "liz",
     "memberLabel": "",
     "kind": "fullset",
-    "category": "フルセット",
+    "category": "常設",
     "price": 14600,
     "oldPrice": 14900,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/9c74bf31c5071d96193da59ddcec0f3d_de6ada52-4542-4d63-9f29-74674ebcc4ac.png?v=1791541395",
@@ -668,6 +668,7 @@
     "permanent": false,
     "tag": null,
     "tags": [
+      "常設同梱不可",
       "雨夜リズ"
     ],
     "product_type": "フルセット",
@@ -968,7 +969,7 @@
     "memberId": "konomi",
     "memberLabel": "",
     "kind": "fullset",
-    "category": "フルセット",
+    "category": "常設",
     "price": 15200,
     "oldPrice": 15500,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260909_mahousyoujyo_goods_square_fix_touka-28.png?v=1790953652",
@@ -989,6 +990,7 @@
     "tags": [
       "あくび・でもんすぺーど",
       "小廻こま",
+      "常設同梱不可",
       "甘狼このみ",
       "音ノ乃のの"
     ],
@@ -1177,7 +1179,7 @@
     "memberId": "koma",
     "memberLabel": "",
     "kind": "fullset",
-    "category": "フルセット",
+    "category": "常設",
     "price": 10800,
     "oldPrice": 11100,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/01_d8d04301-841e-4784-a4ce-7c072d3171c5.png?v=1790422857",
@@ -1198,6 +1200,7 @@
     "tags": [
       "まもなく終了",
       "小廻こま",
+      "常設同梱不可",
       "眠雲ツクリ",
       "雨夜リズ"
     ],
@@ -1332,14 +1335,13 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": null
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
+      "inventory-policy-denied",
       "あくび・でもんすぺーど",
-      "まもなく終了",
       "ゆらぎゆら",
-      "デジタル商品",
       "夕霧レイ",
       "小廻こま",
       "甘狼このみ",
@@ -1351,7 +1353,7 @@
       "鹿乃まほろ"
     ],
     "product_type": "ボイス",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-20T19:00:28+09:00"
   },
   {
@@ -1361,7 +1363,7 @@
     "memberId": "konomi",
     "memberLabel": "",
     "kind": "fullset",
-    "category": "フルセット",
+    "category": "常設",
     "price": 6700,
     "oldPrice": 7000,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260903_oyasumivoicecollection_square17.png?v=1789645475",
@@ -1376,16 +1378,16 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
+      "inventory-policy-denied",
       "あくび・でもんすぺーど",
-      "まもなく終了",
       "ゆらぎゆら",
-      "デジタル商品",
       "夕霧レイ",
       "小廻こま",
+      "常設同梱不可",
       "甘狼このみ",
       "眠雲ツクリ",
       "虹深°ぬふ",
@@ -1395,7 +1397,7 @@
       "鹿乃まほろ"
     ],
     "product_type": "フルセット",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-20T19:00:27+09:00"
   },
   {
@@ -1420,16 +1422,16 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
+      "inventory-policy-denied",
       "あくび・でもんすぺーど",
-      "まもなく終了",
       "ゆらぎゆら"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-20T19:00:26+09:00"
   },
   {
@@ -1439,7 +1441,7 @@
     "memberId": "konomi",
     "memberLabel": "",
     "kind": "fullset",
-    "category": "フルセット",
+    "category": "常設",
     "price": 16700,
     "oldPrice": 17000,
     "image": "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260903_oyasumivoicecollection_square_fix_touka-16.png?v=1789703835",
@@ -1454,16 +1456,16 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
+      "inventory-policy-denied",
       "あくび・でもんすぺーど",
-      "まもなく終了",
       "ゆらぎゆら",
-      "デジタル商品",
       "夕霧レイ",
       "小廻こま",
+      "常設同梱不可",
       "甘狼このみ",
       "眠雲ツクリ",
       "虹深°ぬふ",
@@ -1473,7 +1475,7 @@
       "鹿乃まほろ"
     ],
     "product_type": "フルセット",
-    "available": true,
+    "available": false,
     "published_at": "2026-09-20T19:00:25+09:00"
   },
   {
