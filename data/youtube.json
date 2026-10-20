@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-19T22:45:18.581Z",
+  "updatedAt": "2026-10-20T12:28:37.417Z",
   "streams": [
     {
-      "id": "YH-WDfhQbwc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #秋を奏でる歌枠リレー 】秋だーいすき！オシャレに歌うぞ🍂【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YH-WDfhQbwc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-20T08:00:00Z",
-      "status": "upcoming",
+      "id": "f1Wh-HtWJtA",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】ちるちるできなかった┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/f1Wh-HtWJtA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-20T09:10:58Z",
+      "status": "live",
       "en": {
-        "title": "[#Autumn Song Relay] I love autumn! Let's sing in style 🍂 [Komakoma/MilliPro]"
+        "title": "[Song frame] Chiru Chiru was not possible ┊︎ #Otononono #Nononya"
       }
     },
     {
@@ -160,6 +160,71 @@
   ],
   "videos": [
     {
+      "id": "JUWeiPu6xqY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【歌枠】歌で繋がる秋の夜！歌います！【鹿乃まほろ/ミリプロ】 #秋を奏でる歌枠リレー",
+      "thumb": "https://i.ytimg.com/vi/JUWeiPu6xqY/hqdefault.jpg",
+      "publishedAt": "2026-10-20T11:52:33Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Autumn nights connected through song! I'll sing! [Mahoro Kano/MilliPro] #Song relay that plays in autumn"
+      }
+    },
+    {
+      "id": "mMQtqnfVoKE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "リスナーさんからラフ募集して続き描いてみたら神絵が生まれてしまいました。【甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/mMQtqnfVoKE/hqdefault.jpg",
+      "publishedAt": "2026-10-20T10:00:11Z",
+      "live": false,
+      "en": {
+        "title": "I solicited rough sketches from listeners, and when I continued to draw them, a divine drawing was born. [Konomi Sweet Wolf]"
+      }
+    },
+    {
+      "id": "f1Wh-HtWJtA",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】ちるちるできなかった┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/f1Wh-HtWJtA/hqdefault_live.jpg",
+      "publishedAt": "2026-10-20T09:10:58Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Chiru Chiru was not possible ┊︎ #Otononono #Nononya"
+      }
+    },
+    {
+      "id": "O9N3xpMKd3I",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】花火の約束 #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/O9N3xpMKd3I/hqdefault.jpg",
+      "publishedAt": "2026-10-20T09:00:03Z",
+      "live": false,
+      "en": {
+        "title": "[Anime] Promise of Fireworks #MilliPro #anime"
+      }
+    },
+    {
+      "id": "YH-WDfhQbwc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #秋を奏でる歌枠リレー 】秋だーいすき！オシャレに歌うぞ🍂【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YH-WDfhQbwc/hqdefault.jpg",
+      "publishedAt": "2026-10-20T08:31:36Z",
+      "live": false,
+      "en": {
+        "title": "[#Autumn Song Relay] I love autumn! Let's sing in style 🍂 [Komakoma/MilliPro]"
+      }
+    },
+    {
       "id": "i9igSuaWcE4",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -167,7 +232,10 @@
       "title": "【歌枠】音ずれの訪れですか？？？？？はい。┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/i9igSuaWcE4/hqdefault.jpg",
       "publishedAt": "2026-10-19T17:13:27Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Song frame] Is the sound shift coming? ? ? ? ? yes. ┊︎#Otononono#Nononoya"
+      }
     },
     {
       "id": "1mQz6ho_a4A",
@@ -190,7 +258,10 @@
       "title": "【歌枠】音ズレの訪れ┊#音ノ乃のの #歌うまスンギ歌枠リレー",
       "thumb": "https://i.ytimg.com/vi/Gv52cL0bmTk/hqdefault.jpg",
       "publishedAt": "2026-10-19T16:00:44Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Song frame] The arrival of the sound gap ┊ #Otononono #UtamaSeungi Song frame relay"
+      }
     },
     {
       "id": "vf5JEsMigRI",
@@ -242,19 +313,6 @@
       "live": false,
       "en": {
         "title": "A no-no game with words written by each other [#Millipro]"
-      }
-    },
-    {
-      "id": "YH-WDfhQbwc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #秋を奏でる歌枠リレー 】秋だーいすき！オシャレに歌うぞ🍂【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YH-WDfhQbwc/hqdefault_live.jpg",
-      "publishedAt": "2026-10-19T07:10:03Z",
-      "live": false,
-      "en": {
-        "title": "[#Autumn Song Relay] I love autumn! Let's sing in style 🍂 [Komakoma/MilliPro]"
       }
     },
     {
@@ -476,19 +534,6 @@
       }
     },
     {
-      "id": "fuHFGV8x9-k",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】瞬発力テスト #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/fuHFGV8x9-k/hqdefault.jpg",
-      "publishedAt": "2026-10-17T09:00:14Z",
-      "live": false,
-      "en": {
-        "title": "[Anime] Explosive power test #MilliPro #anime"
-      }
-    },
-    {
       "id": "0VCdPBsK8hM",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -500,46 +545,20 @@
       "en": {
         "title": "〖 Heartwarming Garden 〗Finally the end...? Get to the bottom of the truth while enjoying spring! #10〖 Sleeping Cloud Tsukuri / Millipro〗"
       }
-    },
-    {
-      "id": "LDMdVrQbg5Q",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】帰省を楽しんだらしい ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/LDMdVrQbg5Q/hqdefault.jpg",
-      "publishedAt": "2026-10-16T15:29:40Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Looks like he enjoyed his return home ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "vzUEvVtJtnY",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 復活配信 】お久しぶりです！リハビリ兼ねて少しだけ雑談♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vzUEvVtJtnY/hqdefault.jpg",
-      "publishedAt": "2026-10-16T15:29:36Z",
-      "live": true,
-      "en": {
-        "title": "[Revival delivery] It's been a while! A little chat for rehabilitation♪ [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "2SRkFHpAqDA",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Don't Drop The Cake】命懸けのケーキ運びホラー！絶叫注意（ガチ）【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2SRkFHpAqDA/hqdefault.jpg",
-      "publishedAt": "2026-10-16T12:50:13Z",
-      "live": false,
-      "en": {
-        "title": "[Don't Drop The Cake] Life-threatening cake carrying horror! Be careful of screaming (seriously) [Mahoro Kano/MilliPro]"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "f1Wh-HtWJtA",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】ちるちるできなかった┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/f1Wh-HtWJtA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-20T09:10:58Z",
+      "status": "live",
+      "en": {
+        "title": "[Song frame] Chiru Chiru was not possible ┊︎ #Otononono #Nononya"
+      }
+    }
+  ]
 }

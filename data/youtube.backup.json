@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-10-19T14:15:27.202Z",
+  "updatedAt": "2026-10-19T22:45:18.581Z",
   "streams": [
-    {
-      "id": "vf5JEsMigRI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-19T12:03:05Z",
-      "status": "live",
-      "en": {
-        "title": "[Dressmaker] If you don't have the dress you want to wear, why not make one? [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "1mQz6ho_a4A",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 VALORANT 〗ひさびさにしっかり練習をするのだ〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1mQz6ho_a4A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-19T13:06:18Z",
-      "status": "live",
-      "en": {
-        "title": "〖 VALORANT〗Practice well in the solitude〖 Nemugumo Tsukuri / MilliPro〗"
-      }
-    },
     {
       "id": "YH-WDfhQbwc",
       "memberId": "koma",
@@ -184,16 +160,49 @@
   ],
   "videos": [
     {
+      "id": "i9igSuaWcE4",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】音ずれの訪れですか？？？？？はい。┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/i9igSuaWcE4/hqdefault.jpg",
+      "publishedAt": "2026-10-19T17:13:27Z",
+      "live": false
+    },
+    {
+      "id": "1mQz6ho_a4A",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 VALORANT 〗ひさびさにしっかり練習をするのだ〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/1mQz6ho_a4A/hqdefault.jpg",
+      "publishedAt": "2026-10-19T16:25:19Z",
+      "live": false,
+      "en": {
+        "title": "〖 VALORANT〗Practice well in the solitude〖 Nemugumo Tsukuri / MilliPro〗"
+      }
+    },
+    {
       "id": "Gv52cL0bmTk",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】主催、ド、緊張の模様┊#音ノ乃のの #歌うまスンギ歌枠リレー",
-      "thumb": "https://i.ytimg.com/vi/Gv52cL0bmTk/hqdefault_live.jpg",
-      "publishedAt": "2026-10-19T14:06:47Z",
+      "title": "【歌枠】音ズレの訪れ┊#音ノ乃のの #歌うまスンギ歌枠リレー",
+      "thumb": "https://i.ytimg.com/vi/Gv52cL0bmTk/hqdefault.jpg",
+      "publishedAt": "2026-10-19T16:00:44Z",
+      "live": false
+    },
+    {
+      "id": "vf5JEsMigRI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault.jpg",
+      "publishedAt": "2026-10-19T15:14:36Z",
       "live": false,
       "en": {
-        "title": "[Singing slot] Sponsored by Do, nervous ┊ #Otononono #Utauma Seungi singing slot relay"
+        "title": "[Dressmaker] If you don't have the dress you want to wear, why not make one? [Yuragiyura/Millipro]"
       }
     },
     {
@@ -202,37 +211,11 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 タンポポは耐える。 】夕霧も耐える。…絶える？ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/6Ao_iBni9ks/hqdefault_live.jpg",
-      "publishedAt": "2026-10-19T13:20:18Z",
+      "thumb": "https://i.ytimg.com/vi/6Ao_iBni9ks/hqdefault.jpg",
+      "publishedAt": "2026-10-19T14:30:37Z",
       "live": false,
       "en": {
         "title": "[Dandelions endure. ] Even Yugiri can withstand it. ...Will it die out? ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "1mQz6ho_a4A",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 VALORANT 〗ひさびさにしっかり練習をするのだ〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1mQz6ho_a4A/hqdefault_live.jpg",
-      "publishedAt": "2026-10-19T13:06:18Z",
-      "live": false,
-      "en": {
-        "title": "〖 VALORANT〗Practice well in the solitude〖 Nemugumo Tsukuri / MilliPro〗"
-      }
-    },
-    {
-      "id": "vf5JEsMigRI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault_live.jpg",
-      "publishedAt": "2026-10-19T12:03:05Z",
-      "live": false,
-      "en": {
-        "title": "[Dressmaker] If you don't have the dress you want to wear, why not make one? [Yuragiyura/Millipro]"
       }
     },
     {
@@ -556,45 +539,7 @@
       "en": {
         "title": "[Don't Drop The Cake] Life-threatening cake carrying horror! Be careful of screaming (seriously) [Mahoro Kano/MilliPro]"
       }
-    },
-    {
-      "id": "8eaeXfiJZMw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【WARDOGS】ワイプダッシュ！戦場のプロ天使（衛生兵）目指しますଘ(੭*ˊᵕˋ)੭♡【鹿乃まほろ/ミリプロ】with 碧依さくら・カワセ・しろまんた・Middleee",
-      "thumb": "https://i.ytimg.com/vi/8eaeXfiJZMw/hqdefault.jpg",
-      "publishedAt": "2026-10-15T14:55:48Z",
-      "live": false,
-      "en": {
-        "title": "[WARDOGS] Wipe Dash! Aiming to be a professional angel (medic) on the battlefield ଘ(੭*ˊᵕˋ)੭♡ [Mahoro Kano/MilliPro] with Sakura Aoi, Kawase, Shiromanta, Middleee"
-      }
     }
   ],
-  "live": [
-    {
-      "id": "vf5JEsMigRI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-19T12:03:05Z",
-      "status": "live",
-      "en": {
-        "title": "[Dressmaker] If you don't have the dress you want to wear, why not make one? [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "1mQz6ho_a4A",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 VALORANT 〗ひさびさにしっかり練習をするのだ〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1mQz6ho_a4A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-19T13:06:18Z",
-      "status": "live",
-      "en": {
-        "title": "〖 VALORANT〗Practice well in the solitude〖 Nemugumo Tsukuri / MilliPro〗"
-      }
-    }
-  ]
+  "live": []
 }
