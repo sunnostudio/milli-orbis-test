@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T22:00:23.629Z",
+  "updatedAt": "2026-10-21T12:38:57.575Z",
   "streams": [
     {
       "id": "1ZQ5sanS8C8",
@@ -135,6 +135,71 @@
     }
   ],
   "videos": [
+    {
+      "id": "r8UtsxOSY3I",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ゲリラ歌枠 】では、歌いましょう。 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/r8UtsxOSY3I/hqdefault.jpg",
+      "publishedAt": "2026-10-21T11:56:23Z",
+      "live": false,
+      "en": {
+        "title": "[Guerrilla singing frame] Now, let's sing. ⟡.· [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "coE9MrT51Jc",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【ボカロ難読歌詞クイズ】読み方むずすぎ？！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/coE9MrT51Jc/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:01:14Z",
+      "live": false,
+      "en": {
+        "title": "[Vocaloid difficult to read lyrics quiz] Is it too difficult to read? ! ! [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "2-ZmSaRVC5Y",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【夕霧レイと】『クリームソーダとシャンデリア』歌ってみた【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2-ZmSaRVC5Y/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:00:38Z",
+      "live": false,
+      "en": {
+        "title": "[With Rei Yugiri] I tried singing “Cream Soda and Chandelier” [Riz Ameya/MilliPro]"
+      }
+    },
+    {
+      "id": "T7e0pJ3Oyqs",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】絶対に間違った答えを言え！あくび編【 #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/T7e0pJ3Oyqs/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:00:36Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Give the wrong answer! Yawn Edition [#MilliPro]"
+      }
+    },
+    {
+      "id": "FWttMZu4JXw",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "ミリプロメンバーの水着をデザインしてみた結果・・・・【甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/FWttMZu4JXw/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:00:07Z",
+      "live": false,
+      "en": {
+        "title": "The result of designing swimsuits for Millipro members... [Konomi Amaro]"
+      }
+    },
     {
       "id": "f1Wh-HtWJtA",
       "memberId": "nono",
@@ -283,12 +348,12 @@
       "memberId": "official",
       "member": "ミリプロ公式",
       "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "お互いの書いた言葉でイヤイヤヨゲーム【#ミリプロ】",
+      "title": "お互いの書いた言葉でイヤイヤヨゲームしたら衝撃解答が爆誕⁉︎【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ttD6Aec5xwI/hqdefault.jpg",
       "publishedAt": "2026-10-19T09:00:16Z",
       "live": false,
       "en": {
-        "title": "A no-no game with words written by each other [#Millipro]"
+        "title": "If you play a game with words written by each other, a shocking answer will come out⁉︎ [#MilliPro]"
       }
     },
     {
@@ -396,19 +461,6 @@
       }
     },
     {
-      "id": "aEvNmGp9-5w",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】絶対に間違った答えを言え！海琳あおい編【 #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/aEvNmGp9-5w/hqdefault.jpg",
-      "publishedAt": "2026-10-18T09:00:14Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Give the wrong answer! Kairin Aoi edition [#MilliPro]"
-      }
-    },
-    {
       "id": "b8a0imaV3ao",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -469,58 +521,6 @@
       "thumb": "https://i.ytimg.com/vi/26ipTrlIk8o/hqdefault_live.jpg",
       "publishedAt": "2026-10-17T11:19:16Z",
       "live": false
-    },
-    {
-      "id": "4QLgCAymgI0",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【 #海琳あおい初配信 】みんなへ幸をお届け！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/4QLgCAymgI0/hqdefault.jpg",
-      "publishedAt": "2026-10-17T11:14:12Z",
-      "live": true,
-      "en": {
-        "title": "[#Aoi Kairin's first broadcast] Delivering happiness to everyone! [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "o4lDXd4i38s",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/o4lDXd4i38s/hqdefault.jpg",
-      "publishedAt": "2026-10-17T09:44:56Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Revenge song frame, important announcement ~ 3D song frame! [Ameya Liz/MilliPro]"
-      }
-    },
-    {
-      "id": "aGA5TRzlZpM",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "VTuberが朝起きるまでのリアル",
-      "thumb": "https://i.ytimg.com/vi/aGA5TRzlZpM/hqdefault.jpg",
-      "publishedAt": "2026-10-17T09:00:25Z",
-      "live": false,
-      "en": {
-        "title": "Real life before VTuber wakes up in the morning"
-      }
-    },
-    {
-      "id": "0VCdPBsK8hM",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗ついに終盤...？春を満喫しつつ真相に迫る！#10〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/0VCdPBsK8hM/hqdefault.jpg",
-      "publishedAt": "2026-10-16T20:24:58Z",
-      "live": false,
-      "en": {
-        "title": "〖 Heartwarming Garden 〗Finally the end...? Get to the bottom of the truth while enjoying spring! #10〖 Sleeping Cloud Tsukuri / Millipro〗"
-      }
     }
   ],
   "live": []
