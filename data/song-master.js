@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-22",
   "songs": {
     "天ノ弱": {
       "title": "天ノ弱",
@@ -67,9 +67,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
-      "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "artist": "96猫 & 天月-あまつき-",
+      "album": "WALK(初回盤)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/b6/64/a1b6641b-96d5-d90d-0eff-8f8d97ed9241/PA00221348_1_252926_jacket.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -249,12 +249,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄 (feat. 井上苑子)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "青と夏 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg",
+      "title": "点描の唄",
+      "artist": "石崎ひゅーい",
+      "album": "night milk",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
       "en": {
-        "title": "Pointillist Song (feat. Sonoko Inoue)"
+        "title": "Pointillist song"
       }
     },
     "花女花譜": {
@@ -295,9 +295,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "カグラナナ",
-      "album": "Astrolabe",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
+      "artist": "Lamu",
+      "album": "New Beginning - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -312,12 +312,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
       "en": {
-        "title": "Finale."
+        "title": "finale"
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -459,10 +459,10 @@ window.SONG_MASTER = {
       }
     },
     "thecute!!!": {
-      "title": "The Cute!!!",
-      "artist": "初星学園 & 藤田ことね",
-      "album": "The Cute!!! - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/40/8e/22408efb-2c66-5577-be51-f1be16f3b4c7/PA00185233_0_221289_jacket.jpg/600x600bb.jpg"
+      "title": "The Cute",
+      "artist": "Cute",
+      "album": "Cute",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/ef/76/3cef7679-0a26-3db6-88bb-21ad14c501d4/3850245001921.jpg/600x600bb.jpg"
     },
     "完全感覚dreamer": {
       "title": "完全感覚Dreamer",
@@ -636,12 +636,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
       "en": {
-        "title": "Swallow (feat. Midleys)"
+        "title": "Feels good"
       }
     },
     "1000年生きてる": {
@@ -805,9 +805,9 @@ window.SONG_MASTER = {
     },
     "undead": {
       "title": "UNDEAD",
-      "artist": "YOASOBI",
-      "album": "UNDEAD - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/b3/fb/4fb3fb99-7c8b-f028-8683-6128f3e20caf/198588375464.jpg/600x600bb.jpg"
+      "artist": "SUNGHANBIN",
+      "album": "DEAD:ALIVE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/02/18/8a021835-9d4e-07e7-5cf4-4eec2d8f76cc/191953585369.jpg/600x600bb.jpg"
     },
     "ロキ": {
       "title": "ロキ",
@@ -1168,9 +1168,9 @@ window.SONG_MASTER = {
     },
     "可愛くてごめん": {
       "title": "可愛くてごめん",
-      "artist": "Ado",
-      "album": "Adoの歌ってみたアルバム",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/e9/42/fae942a7-dca5-6cc0-9e49-4a4f2da6b81e/23UM1IM45777.rgb.jpg/600x600bb.jpg",
+      "artist": "アーリャ（CV：上坂すみれ）",
+      "album": "可愛くてごめん（TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」エンディングテーマ）",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8c2150da4b6bd9e86665f516e9da7733/500x500-000000-80-0-0.jpg",
       "en": {
         "title": "Sorry for being cute"
       }
@@ -1253,6 +1253,12 @@ window.SONG_MASTER = {
         "title": "Bonapeite♡S (Cover)"
       }
     },
+    "ギタと孤独と蒼い惑星": {
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
+    },
     "tiger-hana": {
       "title": "Tiger – HANA with HONEYs Ver.",
       "artist": "HANA",
@@ -1260,12 +1266,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "ドライフラワー",
-      "artist": "Uru",
-      "album": "ファーストラヴ",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
+      "title": "オーケストラ - From THE FIRST TAKE",
+      "artist": "アイナ・ジ・エンド",
+      "album": "オーケストラ - From THE FIRST TAKE - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/73/fa/69/73fa6945-c13b-e32e-b41d-0730d48a6943/ANTCD-A0000003752.jpg/600x600bb.jpg",
       "en": {
-        "title": "dried flowers"
+        "title": "Orchestra - From THE FIRST TAKE"
       }
     },
     "雨き声残響acoustic.": {
@@ -1476,13 +1482,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Blue Ambience (feat. asmi)"
-      }
+      "title": "YOKAZE",
+      "artist": "変態紳士クラブ",
+      "album": "HERO - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8c/62/4d/8c624de0-718a-9f05-4ca8-6b2d25f29b68/TFDS-00585WW.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1614,13 +1617,10 @@ window.SONG_MASTER = {
       }
     },
     "嘘つきは恋のはじまりarrangever.40mp": {
-      "title": "バンド",
-      "artist": "back number",
-      "album": "もしも生まれ変わったならそっとこんな声になって",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/23/a7/1023a79c-dc39-dd88-2d4e-6e259455b76f/24UMGIM90423.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "band"
-      }
+      "title": "Sharon",
+      "artist": "Official髭男dism",
+      "album": "Rejoice",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
       "title": "输入法记得你",
@@ -1818,13 +1818,10 @@ window.SONG_MASTER = {
       }
     },
     "刹那プラスいました": {
-      "title": "助演男優賞",
-      "artist": "Creepy Nuts",
-      "album": "助演男優賞 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Best Supporting Actor Award"
-      }
+      "title": "Goodbye",
+      "artist": "SEKAI NO OWARI",
+      "album": "Lip",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",

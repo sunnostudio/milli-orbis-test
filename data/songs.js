@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-22",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -3010,6 +3010,20 @@ window.SONGS = {
       ],
       "en": {
         "title": "Bonapeite♡S / Blend A"
+      }
+    },
+    {
+      "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
+      "key": "ギタと孤独と蒼い惑星",
+      "urls": [
+        {
+          "id": "eIjDFsmLw4s",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "en": {
+        "title": "Guitar, Solitude, and Blue Planet / Nemugumo Tsukuri (cover)"
       }
     },
     {
