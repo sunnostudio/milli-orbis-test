@@ -1,29 +1,14 @@
 {
-  "updatedAt": "2026-10-22T12:43:21.806Z",
+  "updatedAt": "2026-10-22T22:02:19.180Z",
   "streams": [
     {
-      "id": "rDpjOTbIiFE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗告知アリ！あたしの好きなバンド、教えてあげる〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rDpjOTbIiFE/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-22T11:02:25Z",
-      "status": "live",
-      "en": {
-        "title": "[Song frame] Announcement ant! I'll tell you my favorite band〖 Negumo Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "oURTKz6jl50",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 雑談 】話題の浮気判定シート💘やってみる♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oURTKz6jl50/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-22T12:09:33Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] Popular cheating test sheet💘Try it♪ [Yuragi Yura/MilliPro]"
-      }
+      "id": "afCMVcBnGhU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】ウ　タ　ウ　ヨ【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/afCMVcBnGhU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-23T09:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "wk2cf7lobDQ",
@@ -172,26 +157,13 @@
   ],
   "videos": [
     {
-      "id": "GI8nM0jEKWQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】本日は静止画でお送りさせていただきます【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/GI8nM0jEKWQ/hqdefault.jpg?v=6ad9def0",
-      "publishedAt": "2026-10-22T12:42:00Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Today I will send you a still image [Rainbow ° Nufu/MilliPro]"
-      }
-    },
-    {
       "id": "oURTKz6jl50",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 雑談 】話題の浮気判定シート💘やってみる♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oURTKz6jl50/hqdefault.jpg?v=6ad9c97c",
-      "publishedAt": "2026-10-22T12:09:33Z",
+      "thumb": "https://i.ytimg.com/vi/oURTKz6jl50/hqdefault.jpg",
+      "publishedAt": "2026-10-22T14:24:37Z",
       "live": true,
       "en": {
         "title": "[Chat] Popular cheating test sheet💘Try it♪ [Yuragi Yura/MilliPro]"
@@ -203,12 +175,35 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 歌枠 〗告知アリ！あたしの好きなバンド、教えてあげる〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rDpjOTbIiFE/hqdefault.jpg?v=6ad8d1a6",
-      "publishedAt": "2026-10-22T11:02:25Z",
+      "thumb": "https://i.ytimg.com/vi/rDpjOTbIiFE/hqdefault.jpg",
+      "publishedAt": "2026-10-22T13:12:46Z",
       "live": false,
       "en": {
         "title": "[Song frame] Announcement ant! I'll tell you my favorite band〖 Negumo Tsukuri / Millipro〗"
       }
+    },
+    {
+      "id": "GI8nM0jEKWQ",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】本日は静止画でお送りさせていただきます【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/GI8nM0jEKWQ/hqdefault.jpg",
+      "publishedAt": "2026-10-22T13:10:33Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Today I will send you a still image [Rainbow ° Nufu/MilliPro]"
+      }
+    },
+    {
+      "id": "afCMVcBnGhU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】ウ　タ　ウ　ヨ【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/afCMVcBnGhU/hqdefault.jpg?v=6ad9f5f2",
+      "publishedAt": "2026-10-22T11:39:28Z",
+      "live": false
     },
     {
       "id": "NWCZtAxmvWc",
@@ -547,45 +542,7 @@
       "en": {
         "title": "I tried singing “Amano Weak” [#Aoi Kairin/MilliPro]"
       }
-    },
-    {
-      "id": "KEizk2-ZDDM",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "ハロ/ハワユ 歌ってみた【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KEizk2-ZDDM/hqdefault.jpg",
-      "publishedAt": "2026-10-18T09:00:33Z",
-      "live": false,
-      "en": {
-        "title": "Hello/Hawayu I tried singing [Kano Mahoro/MilliPro]"
-      }
     }
   ],
-  "live": [
-    {
-      "id": "rDpjOTbIiFE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗告知アリ！あたしの好きなバンド、教えてあげる〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rDpjOTbIiFE/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-22T11:02:25Z",
-      "status": "live",
-      "en": {
-        "title": "[Song frame] Announcement ant! I'll tell you my favorite band〖 Negumo Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "oURTKz6jl50",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 雑談 】話題の浮気判定シート💘やってみる♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oURTKz6jl50/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-22T12:09:33Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] Popular cheating test sheet💘Try it♪ [Yuragi Yura/MilliPro]"
-      }
-    }
-  ]
+  "live": []
 }

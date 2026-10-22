@@ -636,12 +636,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
       "en": {
-        "title": "Feels good"
+        "title": "Swallow (feat. Midleys)"
       }
     },
     "1000年生きてる": {
@@ -1168,9 +1168,9 @@ window.SONG_MASTER = {
     },
     "可愛くてごめん": {
       "title": "可愛くてごめん",
-      "artist": "アーリャ（CV：上坂すみれ）",
-      "album": "可愛くてごめん（TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」エンディングテーマ）",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/8c2150da4b6bd9e86665f516e9da7733/500x500-000000-80-0-0.jpg",
+      "artist": "Ado",
+      "album": "Adoの歌ってみたアルバム",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/e9/42/fae942a7-dca5-6cc0-9e49-4a4f2da6b81e/23UM1IM45777.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Sorry for being cute"
       }
