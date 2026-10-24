@@ -1037,7 +1037,17 @@
     "aoi_join_bottle": "2026-10-17T19:36:44+09:00",
     "aoi_join_umbrellamarker": "2026-10-17T19:36:46+09:00",
     "aoi_join_acrylicstand_b": "2026-10-17T19:40:20+09:00",
-    "aoi_welcome_voice": "2026-10-17T20:00:48+09:00"
+    "aoi_welcome_voice": "2026-10-17T20:00:48+09:00",
+    "halloween_collection2026_full": "2026-10-24T19:00:06+09:00",
+    "halloween_collection2026_voice": "2026-10-24T19:00:07+09:00",
+    "halloween_collection2026_acrylicstand": "2026-10-24T19:00:08+09:00",
+    "halloween_collection2026_random_kanbadge": "2026-10-24T19:00:09+09:00",
+    "halloween_collection2026_random_card": "2026-10-24T19:00:10+09:00",
+    "halloween_collection2026_clearfile": "2026-10-24T19:00:11+09:00",
+    "halloween_collection2026_acrylicboard": "2026-10-24T19:00:12+09:00",
+    "halloween_collection2026_a3_clearposter": "2026-10-24T19:00:13+09:00",
+    "halloween_collection2026_ballpen": "2026-10-24T19:00:14+09:00",
+    "halloween_collection2026_pencase": "2026-10-24T19:00:14+09:00"
   },
   "eventsNotified": {
     "news:nqakzu": 1,
