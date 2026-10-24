@@ -1,26 +1,53 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
-    "id": "XPZN-1lbr-M",
+    "id": "2nFCvxTjr-Q",
+    "memberId": "nono",
+    "publishedAt": "2026-10-24",
+    "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
+    "duration": 0,
+    "songs": []
+  },
+  {
+    "id": "rflF7bDpbrk",
     "memberId": "raco",
-    "publishedAt": "2026-10-18",
-    "title": "【雑談】久しぶりにゆるりとお話【音ノ瀬らこ /ミリプロ】",
-    "duration": 4387,
+    "publishedAt": "2026-10-23",
+    "title": "【歌枠】歌うぞ！歌うぞ！歌うぞ！【音ノ瀬らこ /ミリプロ】",
+    "duration": 8708,
     "songs": [],
     "en": {
-      "title": "[Chat] It’s been a while since we had a relaxing chat [Rako Otonose/MilliPro]"
+      "title": "[Song frame] Let's sing! Let's sing! Let's sing! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "rDpjOTbIiFE",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-10-21",
+    "title": "〖 歌枠 〗告知アリ！あたしの好きなバンド、教えてあげる〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 7090,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Announcement ant! I'll tell you my favorite band〖 Negumo Tsukuri / Millipro〗"
+    }
+  },
+  {
+    "id": "r8UtsxOSY3I",
+    "memberId": "rei",
+    "publishedAt": "2026-10-21",
+    "title": "【 ゲリラ歌枠 】では、歌いましょう。 ⟡.· 【 夕霧レイ/ミリプロ 】",
+    "duration": 5858,
+    "songs": [],
+    "en": {
+      "title": "[Guerrilla singing frame] Now, let's sing. ⟡.· [Rei Yugiri/MilliPro]"
     }
   },
   {
     "id": "o4lDXd4i38s",
     "memberId": "liz",
     "publishedAt": "2026-10-17",
-    "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
+    "title": "【歌枠+3Dお披露目スパチャ読み】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
     "duration": 6246,
-    "songs": [],
-    "en": {
-      "title": "[Song frame] Revenge song frame, important announcement ~ 3D song frame! [Ameya Liz/MilliPro]"
-    }
+    "songs": []
   },
   {
     "id": "s-ZdfJ-vMNA",

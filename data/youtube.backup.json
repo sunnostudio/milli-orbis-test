@@ -1,35 +1,17 @@
 {
-  "updatedAt": "2026-10-23T12:20:34.688Z",
+  "updatedAt": "2026-10-23T21:48:00.832Z",
   "streams": [
     {
-      "id": "mr5SqswSds8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "浮気判定チェックシートをやる！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-23T10:10:46Z",
-      "status": "live"
-    },
-    {
-      "id": "wk2cf7lobDQ",
+      "id": "zyez_zYXbWk",
       "memberId": "konomi",
       "member": "甘狼このみ",
-      "title": "【妹に運転を教える】運転を教えたい妹が、いるんだよね",
-      "thumb": "https://i.ytimg.com/vi/wk2cf7lobDQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-23T11:00:52Z",
-      "status": "live",
+      "title": "リスナーさんが描いてくれたこののFAをたくさん見るのだ！！【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/zyez_zYXbWk/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T04:00:00Z",
+      "status": "upcoming",
       "en": {
-        "title": "[Teaching my younger sister to drive] I have a younger sister who wants to teach me how to drive."
+        "title": "I look at a lot of FAs drawn by listeners! ! [#Amakamirive]"
       }
-    },
-    {
-      "id": "xwuzA-4xS_E",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Dressmaker 】ミリプロメンバーのドレス勝手に考える！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xwuzA-4xS_E/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-23T12:13:31Z",
-      "status": "live"
     },
     {
       "id": "1ZQ5sanS8C8",
@@ -44,13 +26,28 @@
       }
     },
     {
+      "id": "6kkUuO04VaU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
+      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T12:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[BOMBANANA] Bomb defusing game with Koma-chan and Meme-chan! [Mahoro Kano/MilliPro] with Komaekoma Memento Vanitas"
+      }
+    },
+    {
       "id": "qc_zkIoureo",
       "memberId": "aoi",
       "member": "海琳あおい",
       "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
       "scheduledStartTime": "2026-10-25T11:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
+      }
     },
     {
       "id": "Np7iIJhRB50",
@@ -180,9 +177,90 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 Dressmaker 】ミリプロメンバーのドレス勝手に考える！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xwuzA-4xS_E/hqdefault.jpg?v=6adb2d6b",
-      "publishedAt": "2026-10-23T12:13:31Z",
-      "live": false
+      "thumb": "https://i.ytimg.com/vi/xwuzA-4xS_E/hqdefault.jpg",
+      "publishedAt": "2026-10-23T18:33:41Z",
+      "live": false,
+      "en": {
+        "title": "[Dressmaker] Think about Millipro members' dresses! [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "6kkUuO04VaU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
+      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg?v=6adb9906",
+      "publishedAt": "2026-10-23T17:27:32Z",
+      "live": false,
+      "en": {
+        "title": "[BOMBANANA] Bomb defusing game with Koma-chan and Meme-chan! [Mahoro Kano/MilliPro] with Komaekoma Memento Vanitas"
+      }
+    },
+    {
+      "id": "rflF7bDpbrk",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】歌うぞ！歌うぞ！歌うぞ！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rflF7bDpbrk/hqdefault.jpg",
+      "publishedAt": "2026-10-23T15:35:22Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Let's sing! Let's sing! Let's sing! [Rako Otonose/MilliPro]"
+      }
+    },
+    {
+      "id": "zyez_zYXbWk",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "リスナーさんが描いてくれたこののFAをたくさん見るのだ！！【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/zyez_zYXbWk/hqdefault.jpg?v=6adb70c2",
+      "publishedAt": "2026-10-23T14:35:44Z",
+      "live": false,
+      "en": {
+        "title": "I look at a lot of FAs drawn by listeners! ! [#Amakamirive]"
+      }
+    },
+    {
+      "id": "wk2cf7lobDQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【妹に運転を教える】運転を教えたい妹が、いるんだよね",
+      "thumb": "https://i.ytimg.com/vi/wk2cf7lobDQ/hqdefault.jpg",
+      "publishedAt": "2026-10-23T14:15:38Z",
+      "live": false,
+      "en": {
+        "title": "[Teaching my younger sister to drive] I have a younger sister who wants to teach me how to drive."
+      }
+    },
+    {
+      "id": "afCMVcBnGhU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】ウ　タ　ウ　ヨ【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/afCMVcBnGhU/hqdefault.jpg",
+      "publishedAt": "2026-10-23T12:48:41Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Uta Uyo [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "mr5SqswSds8",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "浮気判定チェックシートをやる！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg",
+      "publishedAt": "2026-10-23T12:33:19Z",
+      "live": false,
+      "en": {
+        "title": "Do the cheating judgment check sheet! ! [Rako Otonose/MilliPro]"
+      }
     },
     {
       "id": "qc_zkIoureo",
@@ -192,29 +270,9 @@
       "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg?v=6adb470b",
       "publishedAt": "2026-10-23T11:37:45Z",
-      "live": true
-    },
-    {
-      "id": "afCMVcBnGhU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】ウ　タ　ウ　ヨ【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/afCMVcBnGhU/hqdefault.jpg?v=6ad9f5f2",
-      "publishedAt": "2026-10-23T11:24:03Z",
-      "live": false
-    },
-    {
-      "id": "wk2cf7lobDQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【妹に運転を教える】運転を教えたい妹が、いるんだよね",
-      "thumb": "https://i.ytimg.com/vi/wk2cf7lobDQ/hqdefault.jpg?v=6ad9ae7a",
-      "publishedAt": "2026-10-23T11:00:52Z",
-      "live": false,
+      "live": true,
       "en": {
-        "title": "[Teaching my younger sister to drive] I have a younger sister who wants to teach me how to drive."
+        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
       }
     },
     {
@@ -231,16 +289,6 @@
       }
     },
     {
-      "id": "mr5SqswSds8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "浮気判定チェックシートをやる！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg?v=6adb2e1e",
-      "publishedAt": "2026-10-23T10:10:46Z",
-      "live": false
-    },
-    {
       "id": "LAq7GXQX4QI",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -248,7 +296,10 @@
       "title": "【雑談】お う ち ３D┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/LAq7GXQX4QI/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:23:34Z",
-      "live": true
+      "live": true,
+      "en": {
+        "title": "[Chat] Home 3D┊︎#Otononono#Nononya"
+      }
     },
     {
       "id": "8IFwsGcU74c",
@@ -258,7 +309,10 @@
       "title": "【声真似】映画ちいかわの『島のうた』歌ってみた【音ノ瀬らこ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/8IFwsGcU74c/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:37Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Voice imitation] I tried singing “Island Song” from the movie Chiikawa [Rako Otonose/MilliPro]"
+      }
     },
     {
       "id": "rTUyRzF18Kc",
@@ -268,7 +322,10 @@
       "title": "【shortオリジナル曲】LET ME OUTSIDE！ 😛#shorts 【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/rTUyRzF18Kc/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:34Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[short original song] LET ME OUTSIDE! 😛#shorts [Ameya Liz/MilliPro]"
+      }
     },
     {
       "id": "-SZ1nerCiqM",
@@ -278,7 +335,10 @@
       "title": "【マイクラ】甘狼このみ危機一髪に挑戦！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/-SZ1nerCiqM/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:27Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Sweet Wolf Konomi takes on the close call challenge! [#MilliPro]"
+      }
     },
     {
       "id": "g4onBV6snfc",
@@ -288,7 +348,10 @@
       "title": "メロ声合唱で『島のうた』歌ってみた【夕霧レイ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/g4onBV6snfc/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:25Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "I tried singing “Island Song” with a melodic chorus [Rei Yugiri/MilliPro]"
+      }
     },
     {
       "id": "onJ2sqs909o",
@@ -298,7 +361,10 @@
       "title": "ちょっとしたお手伝いのはずが… #マイクラ",
       "thumb": "https://i.ytimg.com/vi/onJ2sqs909o/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:22Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "It was supposed to be a little help... #Minecraft"
+      }
     },
     {
       "id": "Tkit48gvqoM",
@@ -308,7 +374,10 @@
       "title": "高嶺の花子さん 歌ってみた【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/Tkit48gvqoM/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:19Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "I tried singing Hanako-san from Takamine [Mahoro Kano/MilliPro]"
+      }
     },
     {
       "id": "1LVXb__vHjo",
@@ -318,7 +387,10 @@
       "title": "？？？？？？？？？？？ / あくび・でもんすぺーど - cover",
       "thumb": "https://i.ytimg.com/vi/1LVXb__vHjo/hqdefault.jpg",
       "publishedAt": "2026-10-23T06:10:38Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "? ? ? ? ? ? ? ? ? ? ? / Yawn/Demon Speed - cover"
+      }
     },
     {
       "id": "oURTKz6jl50",
@@ -477,19 +549,6 @@
       }
     },
     {
-      "id": "mMQtqnfVoKE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "リスナーさんからラフ募集して続き描いてみたら神絵が生まれてしまいました。【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/mMQtqnfVoKE/hqdefault.jpg",
-      "publishedAt": "2026-10-20T10:00:11Z",
-      "live": false,
-      "en": {
-        "title": "I solicited rough sketches from listeners, and when I continued to draw them, a divine drawing was born. [Konomi Sweet Wolf]"
-      }
-    },
-    {
       "id": "O9N3xpMKd3I",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -501,64 +560,7 @@
       "en": {
         "title": "[Anime] Promise of Fireworks #MilliPro #anime"
       }
-    },
-    {
-      "id": "YH-WDfhQbwc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #秋を奏でる歌枠リレー 】秋だーいすき！オシャレに歌うぞ🍂【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YH-WDfhQbwc/hqdefault.jpg",
-      "publishedAt": "2026-10-20T08:31:36Z",
-      "live": false,
-      "en": {
-        "title": "[#Autumn Song Relay] I love autumn! Let's sing in style 🍂 [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "i9igSuaWcE4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】音ずれの訪れですか？？？？？はい。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/i9igSuaWcE4/hqdefault.jpg",
-      "publishedAt": "2026-10-19T17:13:27Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Is the sound shift coming? ? ? ? ? yes. ┊︎#Otononono#Nononoya"
-      }
     }
   ],
-  "live": [
-    {
-      "id": "mr5SqswSds8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "浮気判定チェックシートをやる！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-23T10:10:46Z",
-      "status": "live"
-    },
-    {
-      "id": "wk2cf7lobDQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【妹に運転を教える】運転を教えたい妹が、いるんだよね",
-      "thumb": "https://i.ytimg.com/vi/wk2cf7lobDQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-23T11:00:52Z",
-      "status": "live",
-      "en": {
-        "title": "[Teaching my younger sister to drive] I have a younger sister who wants to teach me how to drive."
-      }
-    },
-    {
-      "id": "xwuzA-4xS_E",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Dressmaker 】ミリプロメンバーのドレス勝手に考える！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xwuzA-4xS_E/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-23T12:13:31Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

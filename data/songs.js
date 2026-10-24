@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -480,6 +480,20 @@ window.SONGS = {
     }
   ],
   "covers": [
+    {
+      "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
+      "key": "ギタと孤独と蒼い惑星",
+      "urls": [
+        {
+          "id": "eIjDFsmLw4s",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "en": {
+        "title": "Guitar, Solitude, and Blue Planet / Nemugumo Tsukuri (cover)"
+      }
+    },
     {
       "title": "天ノ弱",
       "key": "天ノ弱",
@@ -3013,20 +3027,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
-      "key": "ギタと孤独と蒼い惑星",
-      "urls": [
-        {
-          "id": "eIjDFsmLw4s",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-10-22"
-        }
-      ],
-      "en": {
-        "title": "Guitar, Solitude, and Blue Planet / Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
       "title": "Tiger  -  HANA",
       "key": "tiger-hana",
       "urls": [
@@ -3034,6 +3034,17 @@ window.SONGS = {
           "id": "8GrmzSxxJkI",
           "memberId": "liz",
           "publishedAt": "2026-06-27"
+        }
+      ]
+    },
+    {
+      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
+      "key": "奏-.",
+      "urls": [
+        {
+          "id": "e6acfMolexU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-10-24"
         }
       ]
     },

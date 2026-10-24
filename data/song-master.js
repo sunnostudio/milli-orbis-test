@@ -1,7 +1,13 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "songs": {
+    "ギタと孤独と蒼い惑星": {
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
+    },
     "天ノ弱": {
       "title": "天ノ弱",
       "artist": "ウォルピスカーター",
@@ -67,9 +73,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "Orangestar",
+      "artist": "m",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -1098,13 +1104,10 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "marshall maximizer"
-      }
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
     },
     "祝福": {
       "title": "祝福",
@@ -1256,17 +1259,17 @@ window.SONG_MASTER = {
         "title": "Bonapeite♡S (Cover)"
       }
     },
-    "ギタと孤独と蒼い惑星": {
-      "title": "In the Morning",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Mrs. GREEN APPLE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
-    },
     "tiger-hana": {
       "title": "Tiger – HANA with HONEYs Ver.",
       "artist": "HANA",
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
+    },
+    "奏-.": {
+      "title": "CANDY",
+      "artist": "Mr.Children",
+      "album": "I ♥ U",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
       "title": "ドライフラワー",
@@ -1343,8 +1346,8 @@ window.SONG_MASTER = {
     "glowacoustic.": {
       "title": "春に落ちて",
       "artist": "鹿乃",
-      "album": "鹿乃BEST",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/02/8a/a2/028aa2e9-04ea-2039-997b-9d7af6ee187a/4562250649522_cover.jpg/600x600bb.jpg",
+      "album": "rye",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
       "en": {
         "title": "fall in spring"
       }
@@ -1665,10 +1668,13 @@ window.SONG_MASTER = {
       }
     },
     "この世界を愛したい.": {
-      "title": "Stella-rium",
+      "title": "優しさの記憶",
       "artist": "鹿乃",
-      "album": "Stella-rium - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
+      "album": "ブルーアーカイブ「優しさの記憶」 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/09/52/8d095267-fb87-3177-f063-24f36b79bdb8/PA00120146_0_167826_jacket.jpg/600x600bb.jpg",
+      "en": {
+        "title": "memory of kindness"
+      }
     },
     "灰色と青.": {
       "title": "星之回响",
@@ -1680,13 +1686,10 @@ window.SONG_MASTER = {
       }
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "ここから、かなたから~bambi-no cover~",
-      "artist": "鹿乃",
-      "album": "Stella-rium - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg",
-      "en": {
-        "title": "From here, from far away~bambi-no cover~"
-      }
+      "title": "数え切れないくらいの",
+      "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
+      "album": "メメントモリ Lament Collection Vol.4",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1905,10 +1908,13 @@ window.SONG_MASTER = {
       }
     },
     "ハロハワユいました": {
-      "title": "シャルル",
-      "artist": "96猫",
-      "album": "O2O",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg"
+      "title": "ドーナツホール (COVER)",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Donut hole (COVER)"
+      }
     },
     "クエスチョン": {
       "title": "クエスチョン",
