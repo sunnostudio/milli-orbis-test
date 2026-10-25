@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-25",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -3046,7 +3046,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2026-10-24"
         }
-      ]
+      ],
+      "en": {
+        "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
+      }
     },
     {
       "title": "DAYBREAK FRONTLINE（Orangestar）/ acoustic cover. 鹿乃",

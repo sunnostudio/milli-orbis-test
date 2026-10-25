@@ -1,23 +1,29 @@
 {
-  "updatedAt": "2026-10-24T21:23:03.422Z",
+  "updatedAt": "2026-10-25T12:16:51.247Z",
   "streams": [
     {
-      "id": "ii_wtzZ-6Fw",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T21:01:05Z",
-      "status": "live"
+      "id": "O62Whdk29mc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-25T11:00:34Z",
+      "status": "live",
+      "en": {
+        "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
+      }
     },
     {
-      "id": "OFNccogcP44",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T02:00:00Z",
-      "status": "upcoming"
+      "id": "hzjK6I1bLZM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-25T11:01:35Z",
+      "status": "live",
+      "en": {
+        "title": "[Chat] The ultimate two choices for love! ? Let's all say love💓 [Yuragi Yura/MilliPro]"
+      }
     },
     {
       "id": "qc_zkIoureo",
@@ -25,8 +31,8 @@
       "member": "海琳あおい",
       "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-10-25T11:02:44Z",
+      "status": "live",
       "en": {
         "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
       }
@@ -154,14 +160,121 @@
   ],
   "videos": [
     {
+      "id": "9o6oRDN7iog",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9o6oRDN7iog/hqdefault.jpg?v=6addee6f",
+      "publishedAt": "2026-10-25T11:56:28Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] 2 80,000 people Endurance〖 Nemugumo Tsukuri / MilliPro〗"
+      }
+    },
+    {
+      "id": "qc_zkIoureo",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg?v=6adb470b",
+      "publishedAt": "2026-10-25T11:02:44Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "hzjK6I1bLZM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg?v=6add86c6",
+      "publishedAt": "2026-10-25T11:01:35Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] The ultimate two choices for love! ? Let's all say love💓 [Yuragi Yura/MilliPro]"
+      }
+    },
+    {
+      "id": "O62Whdk29mc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg?v=6addda76",
+      "publishedAt": "2026-10-25T11:00:34Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "ff7pBHIEfEQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
+      "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
+      "publishedAt": "2026-10-25T10:00:08Z",
+      "live": false,
+      "en": {
+        "title": "[Coordination showdown] Produce Konomi Amaro! ? Who understands your preferences the most? ? [Halloween]"
+      }
+    },
+    {
+      "id": "OFNccogcP44",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg?v=6adc6f25",
+      "publishedAt": "2026-10-25T09:59:48Z",
+      "live": false,
+      "en": {
+        "title": "[Supermarket Chaos] I, who love cleaning, will save the dirty world ට⩊ටಇ [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
+      "id": "GGkpzxoCX-c",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】ワニに噛まれず生き残れ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/GGkpzxoCX-c/hqdefault.jpg",
+      "publishedAt": "2026-10-25T09:00:13Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Survive without being bitten by a crocodile! [#MilliPro]"
+      }
+    },
+    {
+      "id": "XRI5cFo_ZXc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/XRI5cFo_ZXc/hqdefault.jpg",
+      "publishedAt": "2026-10-25T07:27:33Z",
+      "live": false,
+      "en": {
+        "title": "Weekend homework, work that needs to be done, people piling up, forced gatherings. [#Amakamirive]"
+      }
+    },
+    {
       "id": "ii_wtzZ-6Fw",
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg?v=6add1af2",
-      "publishedAt": "2026-10-24T21:01:05Z",
-      "live": true
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
+      "publishedAt": "2026-10-24T23:19:04Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Morning activity! Let's go again today! [Aoi Kairin/MilliPro]"
+      }
     },
     {
       "id": "2nFCvxTjr-Q",
@@ -171,7 +284,10 @@
       "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
       "publishedAt": "2026-10-24T17:20:45Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Song frame] Sing in 3D┊︎#Otononono#Nononya"
+      }
     },
     {
       "id": "OnDjSzXKSWg",
@@ -181,7 +297,10 @@
       "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/OnDjSzXKSWg/hqdefault.jpg",
       "publishedAt": "2026-10-24T14:57:52Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Song frame] Singing during a recording break [Riz Ameya/MilliPro]"
+      }
     },
     {
       "id": "6kkUuO04VaU",
@@ -197,16 +316,6 @@
       }
     },
     {
-      "id": "ff7pBHIEfEQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
-      "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
-      "publishedAt": "2026-10-24T14:23:20Z",
-      "live": false
-    },
-    {
       "id": "thlZTkOM5u0",
       "memberId": "koma",
       "member": "小廻こま",
@@ -214,7 +323,10 @@
       "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg",
       "publishedAt": "2026-10-24T13:44:54Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[BOMBANANA!] I want to see it, I want to say it, I want to hear it! ! ! ! ! [Komakoma/MilliPro]"
+      }
     },
     {
       "id": "1ZQ5sanS8C8",
@@ -237,7 +349,10 @@
       "title": "さよーならまたいつか！ / あくび・でもんすぺーど - cover",
       "thumb": "https://i.ytimg.com/vi/1LVXb__vHjo/hqdefault.jpg",
       "publishedAt": "2026-10-24T11:00:07Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "Goodbye, see you someday! / Yawn/Demon Speed - cover"
+      }
     },
     {
       "id": "cSbl-mK7dSE",
@@ -247,7 +362,10 @@
       "title": "プロセカ書き下ろし人気楽曲ファンテスト【#海琳あおい /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/cSbl-mK7dSE/hqdefault.jpg",
       "publishedAt": "2026-10-24T09:01:29Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "Popular song fan test written by Proseca [#Aoi Kairin / MilliPro]"
+      }
     },
     {
       "id": "0cQHF0UA560",
@@ -257,7 +375,10 @@
       "title": "【最後はあの曲⚡】だんだん懐かしくなるアニソンメドレー【眠雲ツクリ/ミリプロ】 #歌ってみた #アニソン",
       "thumb": "https://i.ytimg.com/vi/0cQHF0UA560/hqdefault.jpg",
       "publishedAt": "2026-10-24T09:00:30Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[That song at the end⚡] Anime song medley that makes you nostalgic [Nemugumo Tsukuri/MilliPro] #I tried singing #Anime song"
+      }
     },
     {
       "id": "rqFtq-nywbs",
@@ -267,7 +388,10 @@
       "title": "【アニメ】カラーサークルチャレンジ！#ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/rqFtq-nywbs/hqdefault.jpg",
       "publishedAt": "2026-10-24T09:00:10Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Anime] Color Circle Challenge! #milipro #anime"
+      }
     },
     {
       "id": "e6acfMolexU",
@@ -277,17 +401,10 @@
       "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
       "thumb": "https://i.ytimg.com/vi/e6acfMolexU/hqdefault.jpg",
       "publishedAt": "2026-10-24T09:00:09Z",
-      "live": false
-    },
-    {
-      "id": "OFNccogcP44",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg?v=6adc6f25",
-      "publishedAt": "2026-10-24T08:41:09Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
+      }
     },
     {
       "id": "zyez_zYXbWk",
@@ -368,19 +485,6 @@
       }
     },
     {
-      "id": "qc_zkIoureo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg?v=6adb470b",
-      "publishedAt": "2026-10-23T11:37:45Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
       "id": "eIjDFsmLw4s",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -444,82 +548,44 @@
       "en": {
         "title": "[Minecraft] Sweet Wolf Konomi takes on the close call challenge! [#MilliPro]"
       }
-    },
-    {
-      "id": "g4onBV6snfc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "メロ声合唱で『島のうた』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/g4onBV6snfc/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:25Z",
-      "live": false,
-      "en": {
-        "title": "I tried singing “Island Song” with a melodic chorus [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "onJ2sqs909o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "ちょっとしたお手伝いのはずが… #マイクラ",
-      "thumb": "https://i.ytimg.com/vi/onJ2sqs909o/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:22Z",
-      "live": false,
-      "en": {
-        "title": "It was supposed to be a little help... #Minecraft"
-      }
-    },
-    {
-      "id": "Tkit48gvqoM",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "高嶺の花子さん 歌ってみた【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Tkit48gvqoM/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:19Z",
-      "live": false,
-      "en": {
-        "title": "I tried singing Hanako-san from Takamine [Mahoro Kano/MilliPro]"
-      }
-    },
-    {
-      "id": "oURTKz6jl50",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 雑談 】話題の浮気判定シート💘やってみる♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oURTKz6jl50/hqdefault.jpg",
-      "publishedAt": "2026-10-22T14:24:37Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Popular cheating test sheet💘Try it♪ [Yuragi Yura/MilliPro]"
-      }
-    },
-    {
-      "id": "rDpjOTbIiFE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗告知アリ！あたしの好きなバンド、教えてあげる〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rDpjOTbIiFE/hqdefault.jpg",
-      "publishedAt": "2026-10-22T13:12:46Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Announcement ant! I'll tell you my favorite band〖 Negumo Tsukuri / Millipro〗"
-      }
     }
   ],
   "live": [
     {
-      "id": "ii_wtzZ-6Fw",
+      "id": "O62Whdk29mc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-25T11:00:34Z",
+      "status": "live",
+      "en": {
+        "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "hzjK6I1bLZM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-25T11:01:35Z",
+      "status": "live",
+      "en": {
+        "title": "[Chat] The ultimate two choices for love! ? Let's all say love💓 [Yuragi Yura/MilliPro]"
+      }
+    },
+    {
+      "id": "qc_zkIoureo",
       "memberId": "aoi",
       "member": "海琳あおい",
-      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T21:01:05Z",
-      "status": "live"
+      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-25T11:02:44Z",
+      "status": "live",
+      "en": {
+        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
+      }
     }
   ]
 }

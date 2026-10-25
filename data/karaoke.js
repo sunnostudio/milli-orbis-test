@@ -1,12 +1,37 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "9o6oRDN7iog",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-10-25",
+    "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] 2 80,000 people Endurance〖 Nemugumo Tsukuri / MilliPro〗"
+    }
+  },
+  {
+    "id": "O62Whdk29mc",
+    "memberId": "rei",
+    "publishedAt": "2026-10-25",
+    "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
+    }
+  },
+  {
     "id": "2nFCvxTjr-Q",
     "memberId": "nono",
     "publishedAt": "2026-10-24",
     "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
     "duration": 11347,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Sing in 3D┊︎#Otononono#Nononya"
+    }
   },
   {
     "id": "OnDjSzXKSWg",
@@ -14,7 +39,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-24",
     "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
     "duration": 6563,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Singing during a recording break [Riz Ameya/MilliPro]"
+    }
   },
   {
     "id": "rflF7bDpbrk",
@@ -55,7 +83,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-17",
     "title": "【歌枠+3Dお披露目スパチャ読み】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
     "duration": 6246,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame + 3D unveiling supercha reading] Revenge song frame, important announcement ~ 3D song frame! [Ameya Liz/MilliPro]"
+    }
   },
   {
     "id": "s-ZdfJ-vMNA",

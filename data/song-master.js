@@ -1,12 +1,15 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-25",
   "songs": {
     "ギタと孤独と蒼い惑星": {
-      "title": "In the Morning",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Mrs. GREEN APPLE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
+      "title": "もう一度キスしたかった",
+      "artist": "B'z",
+      "album": "IN THE LIFE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg",
+      "en": {
+        "title": "I wanted to kiss you again"
+      }
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -417,7 +420,10 @@ window.SONG_MASTER = {
       "title": "聴けば自然と眠くなる睡眠導入BGM ヒーリングピアノ (睡眠と集中のためのバイノーラルビート)",
       "artist": "SLEEPY NUTS",
       "album": "すぐに眠れる音楽 心が落ち着くリラクゼーションBGM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/9b/1b/ef9b1b15-49c4-a467-c796-ba5105e1481d/4550795067567_cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/9b/1b/ef9b1b15-49c4-a467-c796-ba5105e1481d/4550795067567_cover.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Sleep-inducing BGM that will naturally make you sleepy if you listen to it Healing piano (binaural beats for sleep and concentration)"
+      }
     },
     "ワルドイズマイン": {
       "title": "ワールドイズマイン",
@@ -648,12 +654,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "title": "メロリ",
+      "artist": "Hey! Say! JUMP",
+      "album": "S say",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg",
       "en": {
-        "title": "Feels good"
+        "title": "Melori"
       }
     },
     "1000年生きてる": {
@@ -1107,10 +1113,13 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
+      "title": "マーシャル・マキシマイザー",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "en": {
+        "title": "marshall maximizer"
+      }
     },
     "祝福": {
       "title": "祝福",
@@ -1629,10 +1638,13 @@ window.SONG_MASTER = {
       }
     },
     "嘘つきは恋のはじまりarrangever.40mp": {
-      "title": "Sharon",
-      "artist": "Official髭男dism",
-      "album": "Rejoice",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
+      "title": "バンド",
+      "artist": "back number",
+      "album": "もしも生まれ変わったならそっとこんな声になって",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/23/a7/1023a79c-dc39-dd88-2d4e-6e259455b76f/24UMGIM90423.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "band"
+      }
     },
     "会いたい《想见你想见你想见你》": {
       "title": "输入法记得你",
@@ -1692,7 +1704,10 @@ window.SONG_MASTER = {
       "title": "数え切れないくらいの",
       "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
       "album": "メメントモリ Lament Collection Vol.4",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "countless times"
+      }
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1722,12 +1737,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
       "en": {
-        "title": "hide and seek"
+        "title": "Ichikayori world"
       }
     },
     "メルティランドナイトメア": {

@@ -1,35 +1,14 @@
 {
-  "updatedAt": "2026-10-24T11:47:42.149Z",
+  "updatedAt": "2026-10-24T21:23:03.422Z",
   "streams": [
     {
-      "id": "2nFCvxTjr-Q",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T11:01:09Z",
+      "id": "ii_wtzZ-6Fw",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T21:01:05Z",
       "status": "live"
-    },
-    {
-      "id": "thlZTkOM5u0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "6kkUuO04VaU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
-      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T12:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[BOMBANANA] Bomb defusing game with Koma-chan and Meme-chan! [Mahoro Kano/MilliPro] with Komaekoma Memento Vanitas"
-      }
     },
     {
       "id": "OFNccogcP44",
@@ -175,17 +154,14 @@
   ],
   "videos": [
     {
-      "id": "1ZQ5sanS8C8",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault.jpg?v=6ac8e0f7",
-      "publishedAt": "2026-10-24T11:03:34Z",
-      "live": false,
-      "en": {
-        "title": "〖 Collaboration song frame 〗Song frame collaboration with Mikarun 🎶〖 Nemugumo Tsukuri / MilliPro〗"
-      }
+      "id": "ii_wtzZ-6Fw",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg?v=6add1af2",
+      "publishedAt": "2026-10-24T21:01:05Z",
+      "live": true
     },
     {
       "id": "2nFCvxTjr-Q",
@@ -193,9 +169,65 @@
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
       "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg?v=6adc5532",
-      "publishedAt": "2026-10-24T11:01:09Z",
+      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
+      "publishedAt": "2026-10-24T17:20:45Z",
       "live": false
+    },
+    {
+      "id": "OnDjSzXKSWg",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OnDjSzXKSWg/hqdefault.jpg",
+      "publishedAt": "2026-10-24T14:57:52Z",
+      "live": false
+    },
+    {
+      "id": "6kkUuO04VaU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
+      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
+      "publishedAt": "2026-10-24T14:34:27Z",
+      "live": false,
+      "en": {
+        "title": "[BOMBANANA] Bomb defusing game with Koma-chan and Meme-chan! [Mahoro Kano/MilliPro] with Komaekoma Memento Vanitas"
+      }
+    },
+    {
+      "id": "ff7pBHIEfEQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
+      "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
+      "publishedAt": "2026-10-24T14:23:20Z",
+      "live": false
+    },
+    {
+      "id": "thlZTkOM5u0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg",
+      "publishedAt": "2026-10-24T13:44:54Z",
+      "live": false
+    },
+    {
+      "id": "1ZQ5sanS8C8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault.jpg",
+      "publishedAt": "2026-10-24T12:10:12Z",
+      "live": false,
+      "en": {
+        "title": "〖 Collaboration song frame 〗Song frame collaboration with Mikarun 🎶〖 Nemugumo Tsukuri / MilliPro〗"
+      }
     },
     {
       "id": "1LVXb__vHjo",
@@ -212,7 +244,7 @@
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【どこまで知ってる？】プロセカ書き下ろし人気楽曲ファンテスト【#海琳あおい /ミリプロ】",
+      "title": "プロセカ書き下ろし人気楽曲ファンテスト【#海琳あおい /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/cSbl-mK7dSE/hqdefault.jpg",
       "publishedAt": "2026-10-24T09:01:29Z",
       "live": false
@@ -271,16 +303,6 @@
       }
     },
     {
-      "id": "thlZTkOM5u0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg?v=6adc3d65",
-      "publishedAt": "2026-10-24T05:08:51Z",
-      "live": false
-    },
-    {
       "id": "xwuzA-4xS_E",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -291,19 +313,6 @@
       "live": false,
       "en": {
         "title": "[Dressmaker] Think about Millipro members' dresses! [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "6kkUuO04VaU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
-      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg?v=6adb9906",
-      "publishedAt": "2026-10-23T17:27:32Z",
-      "live": false,
-      "en": {
-        "title": "[BOMBANANA] Bomb defusing game with Koma-chan and Meme-chan! [Mahoro Kano/MilliPro] with Komaekoma Memento Vanitas"
       }
     },
     {
@@ -500,55 +509,16 @@
       "en": {
         "title": "[Song frame] Announcement ant! I'll tell you my favorite band〖 Negumo Tsukuri / Millipro〗"
       }
-    },
-    {
-      "id": "GI8nM0jEKWQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】本日は静止画でお送りさせていただきます【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/GI8nM0jEKWQ/hqdefault.jpg",
-      "publishedAt": "2026-10-22T13:10:33Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Today I will send you a still image [Rainbow ° Nufu/MilliPro]"
-      }
-    },
-    {
-      "id": "NWCZtAxmvWc",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れてる全員見つけれる？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NWCZtAxmvWc/hqdefault.jpg",
-      "publishedAt": "2026-10-22T09:00:28Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Can you find everyone hiding? [#MilliPro]"
-      }
-    },
-    {
-      "id": "_7yatikmdaE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【朝活】早起きしちゃったからみんなにいってらっしゃい言うよ",
-      "thumb": "https://i.ytimg.com/vi/_7yatikmdaE/hqdefault.jpg",
-      "publishedAt": "2026-10-21T23:15:41Z",
-      "live": false,
-      "en": {
-        "title": "[Morning activity] I woke up early, so I'll tell everyone to come see me."
-      }
     }
   ],
   "live": [
     {
-      "id": "2nFCvxTjr-Q",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T11:01:09Z",
+      "id": "ii_wtzZ-6Fw",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T21:01:05Z",
       "status": "live"
     }
   ]
