@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "tsukuri",
     "publishedAt": "2026-10-25",
     "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 8302,
     "songs": [],
     "en": {
       "title": "[Song frame] 2 80,000 people Endurance〖 Nemugumo Tsukuri / MilliPro〗"
@@ -16,7 +16,7 @@ window.KARAOKE = [
     "memberId": "rei",
     "publishedAt": "2026-10-25",
     "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
-    "duration": 0,
+    "duration": 6973,
     "songs": [],
     "en": {
       "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"

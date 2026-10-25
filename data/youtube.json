@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-10-25T12:16:51.247Z",
+  "updatedAt": "2026-10-25T21:20:25.129Z",
   "streams": [
-    {
-      "id": "O62Whdk29mc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:00:34Z",
-      "status": "live",
-      "en": {
-        "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "hzjK6I1bLZM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:01:35Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] The ultimate two choices for love! ? Let's all say love💓 [Yuragi Yura/MilliPro]"
-      }
-    },
-    {
-      "id": "qc_zkIoureo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:02:44Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
-      }
-    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -165,24 +129,11 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9o6oRDN7iog/hqdefault.jpg?v=6addee6f",
-      "publishedAt": "2026-10-25T11:56:28Z",
+      "thumb": "https://i.ytimg.com/vi/9o6oRDN7iog/hqdefault.jpg",
+      "publishedAt": "2026-10-25T14:52:16Z",
       "live": false,
       "en": {
         "title": "[Song frame] 2 80,000 people Endurance〖 Nemugumo Tsukuri / MilliPro〗"
-      }
-    },
-    {
-      "id": "qc_zkIoureo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg?v=6adb470b",
-      "publishedAt": "2026-10-25T11:02:44Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
       }
     },
     {
@@ -191,11 +142,24 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg?v=6add86c6",
-      "publishedAt": "2026-10-25T11:01:35Z",
+      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
+      "publishedAt": "2026-10-25T13:15:30Z",
       "live": true,
       "en": {
         "title": "[Chat] The ultimate two choices for love! ? Let's all say love💓 [Yuragi Yura/MilliPro]"
+      }
+    },
+    {
+      "id": "qc_zkIoureo",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
+      "publishedAt": "2026-10-25T13:14:50Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
       }
     },
     {
@@ -204,11 +168,24 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg?v=6addda76",
-      "publishedAt": "2026-10-25T11:00:34Z",
+      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg",
+      "publishedAt": "2026-10-25T13:02:58Z",
       "live": false,
       "en": {
         "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "OFNccogcP44",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg",
+      "publishedAt": "2026-10-25T12:21:22Z",
+      "live": false,
+      "en": {
+        "title": "[Supermarket Chaos] I, who love cleaning, will save the dirty world ට⩊ටಇ [Mahoro Kano/MilliPro]"
       }
     },
     {
@@ -222,19 +199,6 @@
       "live": false,
       "en": {
         "title": "[Coordination showdown] Produce Konomi Amaro! ? Who understands your preferences the most? ? [Halloween]"
-      }
-    },
-    {
-      "id": "OFNccogcP44",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg?v=6adc6f25",
-      "publishedAt": "2026-10-25T09:59:48Z",
-      "live": false,
-      "en": {
-        "title": "[Supermarket Chaos] I, who love cleaning, will save the dirty world ට⩊ටಇ [Mahoro Kano/MilliPro]"
       }
     },
     {
@@ -550,42 +514,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "O62Whdk29mc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:00:34Z",
-      "status": "live",
-      "en": {
-        "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "hzjK6I1bLZM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:01:35Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] The ultimate two choices for love! ? Let's all say love💓 [Yuragi Yura/MilliPro]"
-      }
-    },
-    {
-      "id": "qc_zkIoureo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:02:44Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
-      }
-    }
-  ]
+  "live": []
 }
