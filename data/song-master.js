@@ -600,13 +600,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "butterfly knot"
-      }
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -1629,13 +1626,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
-      "title": "输入法记得你",
-      "artist": "Li2c",
-      "album": "输入法记得你 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/ef/3b/deef3b63-9414-375e-c91e-91c22b4864f8/25UM1IM01170.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "How to get import law"
-      }
+      "title": "输入法记得你 (DJAh版)",
+      "artist": "Djah",
+      "album": "输入法记得你 (DJAh版) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/db/ac/91/dbac91a9-3522-f309-47b3-984242807517/25UM1IM17374.rgb.jpg/600x600bb.jpg"
     },
     "花に亡霊-ヨルシカ": {
       "title": "花に亡霊",
@@ -1719,12 +1713,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
       "en": {
-        "title": "hide and seek"
+        "title": "Ichikayori world"
       }
     },
     "メルティランドナイトメア": {

@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-25T21:20:25.129Z",
+  "updatedAt": "2026-10-26T13:47:33.728Z",
   "streams": [
+    {
+      "id": "jwRK8qTpW2w",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Don&#39;t Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T12:00:59Z",
+      "status": "live"
+    },
+    {
+      "id": "IMBeVof6pOY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T12:33:24Z",
+      "status": "live"
+    },
+    {
+      "id": "IUbBRVm4aD4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T13:00:47Z",
+      "status": "live"
+    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -62,6 +89,15 @@
       }
     },
     {
+      "id": "ML6UdIQfYv0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ミリプロ ハロウィンコレクション 2026🔧",
+      "thumb": "https://i.ytimg.com/vi/ML6UdIQfYv0/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-24T14:45:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "gjos7ccWkac",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -86,18 +122,6 @@
       }
     },
     {
-      "id": "_Qz5P1BthrE",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "⋆⸜おやすみボイスコレクション受注受付中🛏️⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault.jpg",
-      "scheduledStartTime": "2027-01-30T06:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "⋆⸜Now accepting orders for the Good Night Voice Collection🛏️⸝⋆"
-      }
-    },
-    {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -108,21 +132,99 @@
       "en": {
         "title": "☁Aeon original goods to be released 🔧"
       }
-    },
-    {
-      "id": "OCDhtDgFVUU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "⋆⸜  イオン限定！『ミリプロ』オリジナルグッズが販売中👑  ⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault.jpg",
-      "scheduledStartTime": "2027-02-03T14:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "⋆⸜ Aeon only! “MilliPro” original goods are now on sale 👑 ⸝⋆"
-      }
     }
   ],
   "videos": [
+    {
+      "id": "IUbBRVm4aD4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg?v=6adf469c",
+      "publishedAt": "2026-10-26T13:00:47Z",
+      "live": false
+    },
+    {
+      "id": "IMBeVof6pOY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg?v=6adf4676",
+      "publishedAt": "2026-10-26T12:33:24Z",
+      "live": false
+    },
+    {
+      "id": "jwRK8qTpW2w",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 Don't Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg?v=6adf24b3",
+      "publishedAt": "2026-10-26T12:00:59Z",
+      "live": false
+    },
+    {
+      "id": "LAXQ38xCsUI",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
+      "publishedAt": "2026-10-26T11:44:46Z",
+      "live": false
+    },
+    {
+      "id": "TrrjmgVx0qU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg",
+      "publishedAt": "2026-10-26T11:33:52Z",
+      "live": false
+    },
+    {
+      "id": "o5hk_GzbYCQ",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『デビットビット』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/o5hk_GzbYCQ/hqdefault.jpg",
+      "publishedAt": "2026-10-26T09:00:34Z",
+      "live": false
+    },
+    {
+      "id": "kyn3h5oSAi0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【これ読める？】ボカロ歌詞漢字検定！✏️【眠雲ツクリ/ミリプロ】#歌ってみた #ボカロ",
+      "thumb": "https://i.ytimg.com/vi/kyn3h5oSAi0/hqdefault.jpg",
+      "publishedAt": "2026-10-26T09:00:33Z",
+      "live": false
+    },
+    {
+      "id": "0S0kq2MsiSg",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】1個しかないダイヤを見つけろ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0S0kq2MsiSg/hqdefault.jpg",
+      "publishedAt": "2026-10-26T09:00:01Z",
+      "live": false
+    },
+    {
+      "id": "ytpWQst7ky0",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【朝活】みんなに元気を分けるぞーーー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ytpWQst7ky0/hqdefault.jpg",
+      "publishedAt": "2026-10-26T00:12:56Z",
+      "live": false
+    },
     {
       "id": "9o6oRDN7iog",
       "memberId": "tsukuri",
@@ -251,19 +353,6 @@
       "live": false,
       "en": {
         "title": "[Song frame] Sing in 3D┊︎#Otononono#Nononya"
-      }
-    },
-    {
-      "id": "OnDjSzXKSWg",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OnDjSzXKSWg/hqdefault.jpg",
-      "publishedAt": "2026-10-24T14:57:52Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Singing during a recording break [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -408,111 +497,35 @@
       "en": {
         "title": "[Song frame] Let's sing! Let's sing! Let's sing! [Rako Otonose/MilliPro]"
       }
-    },
-    {
-      "id": "wk2cf7lobDQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【妹に運転を教える】運転を教えたい妹が、いるんだよね",
-      "thumb": "https://i.ytimg.com/vi/wk2cf7lobDQ/hqdefault.jpg",
-      "publishedAt": "2026-10-23T14:15:38Z",
-      "live": false,
-      "en": {
-        "title": "[Teaching my younger sister to drive] I have a younger sister who wants to teach me how to drive."
-      }
-    },
-    {
-      "id": "afCMVcBnGhU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】ウ　タ　ウ　ヨ【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/afCMVcBnGhU/hqdefault.jpg",
-      "publishedAt": "2026-10-23T12:48:41Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Uta Uyo [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "mr5SqswSds8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "浮気判定チェックシートをやる！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg",
-      "publishedAt": "2026-10-23T12:33:19Z",
-      "live": false,
-      "en": {
-        "title": "Do the cheating judgment check sheet! ! [Rako Otonose/MilliPro]"
-      }
-    },
-    {
-      "id": "eIjDFsmLw4s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
-      "thumb": "https://i.ytimg.com/vi/eIjDFsmLw4s/hqdefault.jpg",
-      "publishedAt": "2026-10-23T11:00:09Z",
-      "live": false,
-      "en": {
-        "title": "Guitar, Solitude, and Blue Planet / Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "id": "LAq7GXQX4QI",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】お う ち ３D┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/LAq7GXQX4QI/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:23:34Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Home 3D┊︎#Otononono#Nononya"
-      }
-    },
-    {
-      "id": "8IFwsGcU74c",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【声真似】映画ちいかわの『島のうた』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8IFwsGcU74c/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:37Z",
-      "live": false,
-      "en": {
-        "title": "[Voice imitation] I tried singing “Island Song” from the movie Chiikawa [Rako Otonose/MilliPro]"
-      }
-    },
-    {
-      "id": "rTUyRzF18Kc",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【shortオリジナル曲】LET ME OUTSIDE！ 😛#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rTUyRzF18Kc/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:34Z",
-      "live": false,
-      "en": {
-        "title": "[short original song] LET ME OUTSIDE! 😛#shorts [Ameya Liz/MilliPro]"
-      }
-    },
-    {
-      "id": "-SZ1nerCiqM",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】甘狼このみ危機一髪に挑戦！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-SZ1nerCiqM/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:27Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Sweet Wolf Konomi takes on the close call challenge! [#MilliPro]"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "jwRK8qTpW2w",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Don&#39;t Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T12:00:59Z",
+      "status": "live"
+    },
+    {
+      "id": "IMBeVof6pOY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T12:33:24Z",
+      "status": "live"
+    },
+    {
+      "id": "IUbBRVm4aD4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T13:00:47Z",
+      "status": "live"
+    }
+  ]
 }

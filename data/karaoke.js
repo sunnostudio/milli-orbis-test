@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "raco",
     "publishedAt": "2026-10-26",
     "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
-    "duration": 0,
+    "duration": 9947,
     "songs": []
   },
   {
