@@ -1,15 +1,12 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-25",
+  "generatedAt": "2026-10-26",
   "songs": {
     "ギタと孤独と蒼い惑星": {
-      "title": "もう一度キスしたかった",
-      "artist": "B'z",
-      "album": "IN THE LIFE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg",
-      "en": {
-        "title": "I wanted to kiss you again"
-      }
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -40,9 +37,9 @@ window.SONG_MASTER = {
     },
     "おもかげ": {
       "title": "おもかげ",
-      "artist": "林原めぐみ",
-      "album": "Northern lights - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg",
+      "artist": "KG",
+      "album": "Brand New Days",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
       "en": {
         "title": "Omokage"
       }
@@ -76,9 +73,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -234,13 +231,10 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
+      "title": "シス×ラブ (feat. Hanon & Kotoha)",
       "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
-      }
+      "album": "水声少女 (feat. Hanon & Kotoha)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -321,12 +315,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
       "en": {
-        "title": "Finale."
+        "title": "finale"
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -416,15 +410,6 @@ window.SONG_MASTER = {
         "title": "proposal"
       }
     },
-    "snooze": {
-      "title": "聴けば自然と眠くなる睡眠導入BGM ヒーリングピアノ (睡眠と集中のためのバイノーラルビート)",
-      "artist": "SLEEPY NUTS",
-      "album": "すぐに眠れる音楽 心が落ち着くリラクゼーションBGM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/9b/1b/ef9b1b15-49c4-a467-c796-ba5105e1481d/4550795067567_cover.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Sleep-inducing BGM that will naturally make you sleepy if you listen to it Healing piano (binaural beats for sleep and concentration)"
-      }
-    },
     "ワルドイズマイン": {
       "title": "ワールドイズマイン",
       "artist": "アーリャ(CV:上坂すみれ)",
@@ -477,10 +462,10 @@ window.SONG_MASTER = {
       }
     },
     "thecute!!!": {
-      "title": "The Cute!!!",
-      "artist": "初星学園 & 藤田ことね",
-      "album": "The Cute!!! - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/40/8e/22408efb-2c66-5577-be51-f1be16f3b4c7/PA00185233_0_221289_jacket.jpg/600x600bb.jpg"
+      "title": "The Cute",
+      "artist": "Cute",
+      "album": "Cute",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/ef/76/3cef7679-0a26-3db6-88bb-21ad14c501d4/3850245001921.jpg/600x600bb.jpg"
     },
     "完全感覚dreamer": {
       "title": "完全感覚Dreamer",
@@ -561,12 +546,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
-      "title": "ダーリン",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ダーリン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
+      "title": "アンコール",
+      "artist": "YOASOBI",
+      "album": "THE BOOK",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/8c/90/7f8c90dd-e11f-30d5-271d-4b72eee970bd/195497666737.jpg/600x600bb.jpg",
       "en": {
-        "title": "darling"
+        "title": "encore"
       }
     },
     "メルト": {
@@ -588,10 +573,13 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "雨のち晴レルヤ",
-      "artist": "ゆず",
-      "album": "新世界",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
+      "title": "踊ろうぜ",
+      "artist": "ヨルシカ",
+      "album": "だから僕は音楽を辞めた",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Let's dance"
+      }
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -993,10 +981,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",
@@ -1222,9 +1210,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Orangestar",
-      "album": "And So Henceforth,",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+      "artist": "Akuya",
+      "album": "Henceforth - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1635,13 +1623,10 @@ window.SONG_MASTER = {
       }
     },
     "嘘つきは恋のはじまりarrangever.40mp": {
-      "title": "バンド",
-      "artist": "back number",
-      "album": "もしも生まれ変わったならそっとこんな声になって",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/23/a7/1023a79c-dc39-dd88-2d4e-6e259455b76f/24UMGIM90423.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "band"
-      }
+      "title": "Sharon",
+      "artist": "Official髭男dism",
+      "album": "Rejoice",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
       "title": "输入法记得你",

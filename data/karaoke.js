@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "IMBeVof6pOY",
+    "memberId": "raco",
+    "publishedAt": "2026-10-26",
+    "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "9o6oRDN7iog",
     "memberId": "tsukuri",
     "publishedAt": "2026-10-25",
@@ -31,17 +39,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] Sing in 3D┊︎#Otononono#Nononya"
-    }
-  },
-  {
-    "id": "OnDjSzXKSWg",
-    "memberId": "liz",
-    "publishedAt": "2026-10-24",
-    "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
-    "duration": 6563,
-    "songs": [],
-    "en": {
-      "title": "[Song frame] Singing during a recording break [Riz Ameya/MilliPro]"
     }
   },
   {
