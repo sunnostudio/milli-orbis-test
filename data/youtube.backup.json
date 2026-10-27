@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-26T13:47:33.728Z",
+  "updatedAt": "2026-10-26T22:59:13.481Z",
   "streams": [
-    {
-      "id": "jwRK8qTpW2w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Don&#39;t Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T12:00:59Z",
-      "status": "live"
-    },
-    {
-      "id": "IMBeVof6pOY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T12:33:24Z",
-      "status": "live"
-    },
-    {
-      "id": "IUbBRVm4aD4",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T13:00:47Z",
-      "status": "live"
-    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -136,23 +109,13 @@
   ],
   "videos": [
     {
-      "id": "IUbBRVm4aD4",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg?v=6adf469c",
-      "publishedAt": "2026-10-26T13:00:47Z",
-      "live": false
-    },
-    {
       "id": "IMBeVof6pOY",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg?v=6adf4676",
-      "publishedAt": "2026-10-26T12:33:24Z",
+      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
+      "publishedAt": "2026-10-26T15:27:07Z",
       "live": false
     },
     {
@@ -161,8 +124,18 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 Don't Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg?v=6adf24b3",
-      "publishedAt": "2026-10-26T12:00:59Z",
+      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
+      "publishedAt": "2026-10-26T15:18:21Z",
+      "live": false
+    },
+    {
+      "id": "IUbBRVm4aD4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
+      "publishedAt": "2026-10-26T14:27:55Z",
       "live": false
     },
     {
@@ -499,33 +472,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "jwRK8qTpW2w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Don&#39;t Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T12:00:59Z",
-      "status": "live"
-    },
-    {
-      "id": "IMBeVof6pOY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T12:33:24Z",
-      "status": "live"
-    },
-    {
-      "id": "IUbBRVm4aD4",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T13:00:47Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
