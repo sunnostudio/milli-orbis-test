@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-27T12:55:03.434Z",
+  "updatedAt": "2026-10-27T22:49:08.956Z",
   "streams": [
-    {
-      "id": "wWQMEVgOVmI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-27T11:09:03Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft] First time! Defeat Soloendra! Where is the fortress? ? 🏹 [Yuragiyura/MilliPro]"
-      }
-    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -129,8 +117,8 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg?v=6ae04301",
-      "publishedAt": "2026-10-27T11:09:03Z",
+      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
+      "publishedAt": "2026-10-27T16:42:16Z",
       "live": false,
       "en": {
         "title": "[Minecraft] First time! Defeat Soloendra! Where is the fortress? ? 🏹 [Yuragiyura/MilliPro]"
@@ -514,18 +502,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "wWQMEVgOVmI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-27T11:09:03Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft] First time! Defeat Soloendra! Where is the fortress? ? 🏹 [Yuragiyura/MilliPro]"
-      }
-    }
-  ]
+  "live": []
 }

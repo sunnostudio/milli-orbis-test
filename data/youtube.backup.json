@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-10-26T22:59:13.481Z",
+  "updatedAt": "2026-10-27T12:55:03.434Z",
   "streams": [
+    {
+      "id": "wWQMEVgOVmI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-27T11:09:03Z",
+      "status": "live",
+      "en": {
+        "title": "[Minecraft] First time! Defeat Soloendra! Where is the fortress? ? 🏹 [Yuragiyura/MilliPro]"
+      }
+    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -68,7 +80,10 @@
       "title": "☁ミリプロ ハロウィンコレクション 2026🔧",
       "thumb": "https://i.ytimg.com/vi/ML6UdIQfYv0/hqdefault.jpg",
       "scheduledStartTime": "2026-11-24T14:45:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "☁MilliPro Halloween Collection 2026🔧"
+      }
     },
     {
       "id": "gjos7ccWkac",
@@ -109,6 +124,45 @@
   ],
   "videos": [
     {
+      "id": "wWQMEVgOVmI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg?v=6ae04301",
+      "publishedAt": "2026-10-27T11:09:03Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] First time! Defeat Soloendra! Where is the fortress? ? 🏹 [Yuragiyura/MilliPro]"
+      }
+    },
+    {
+      "id": "b79EbktKYoU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【ガキ！？】鬼ノ宴 歌ってみた【 海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/b79EbktKYoU/hqdefault.jpg",
+      "publishedAt": "2026-10-27T09:01:37Z",
+      "live": false,
+      "en": {
+        "title": "[Gaki! ? ] I tried singing Oninoen [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "GNACCAa8GFo",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】信用できない言葉 #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/GNACCAa8GFo/hqdefault.jpg",
+      "publishedAt": "2026-10-27T09:00:14Z",
+      "live": false,
+      "en": {
+        "title": "[Anime] Untrustworthy words #MilliPro #anime"
+      }
+    },
+    {
       "id": "IMBeVof6pOY",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -116,7 +170,10 @@
       "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
       "publishedAt": "2026-10-26T15:27:07Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Song frame] Endurance for 460,000 people! ! ! [Rako Otonose/MilliPro]"
+      }
     },
     {
       "id": "jwRK8qTpW2w",
@@ -126,7 +183,10 @@
       "title": "〖 Don't Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
       "publishedAt": "2026-10-26T15:18:21Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "〖 Don't Drop The Cake 〗I'll never drop it! ! ! Seriously, leave it to me! ! ! ! 〖 Nemugumo Tsukuri / MilliPro 〗"
+      }
     },
     {
       "id": "IUbBRVm4aD4",
@@ -136,7 +196,10 @@
       "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
       "publishedAt": "2026-10-26T14:27:55Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "A new life without a refrigerator, microwave, or washing machine [Yawn/Demon Speed/MilliPro]"
+      }
     },
     {
       "id": "LAXQ38xCsUI",
@@ -146,7 +209,10 @@
       "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
       "publishedAt": "2026-10-26T11:44:46Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Song frame] Guerrilla! Let's do our best this week too! [Aoi Kairin/MilliPro]"
+      }
     },
     {
       "id": "TrrjmgVx0qU",
@@ -156,7 +222,10 @@
       "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg",
       "publishedAt": "2026-10-26T11:33:52Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Does not open. [Laundry] I have plans after this, so could you please not lock me up? [Yuragiyura/Millipro]"
+      }
     },
     {
       "id": "o5hk_GzbYCQ",
@@ -166,7 +235,10 @@
       "title": "『デビットビット』歌ってみた【夕霧レイ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/o5hk_GzbYCQ/hqdefault.jpg",
       "publishedAt": "2026-10-26T09:00:34Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "I tried singing “Debit Bit” [Rei Yugiri/MilliPro]"
+      }
     },
     {
       "id": "kyn3h5oSAi0",
@@ -176,7 +248,10 @@
       "title": "【これ読める？】ボカロ歌詞漢字検定！✏️【眠雲ツクリ/ミリプロ】#歌ってみた #ボカロ",
       "thumb": "https://i.ytimg.com/vi/kyn3h5oSAi0/hqdefault.jpg",
       "publishedAt": "2026-10-26T09:00:33Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Can you read this? ] Vocaloid lyrics kanji test! ✏️ [Nemugumo Tsukuri/MilliPro] #I tried singing #Vocaloid"
+      }
     },
     {
       "id": "0S0kq2MsiSg",
@@ -186,7 +261,10 @@
       "title": "【マイクラ】1個しかないダイヤを見つけろ！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/0S0kq2MsiSg/hqdefault.jpg",
       "publishedAt": "2026-10-26T09:00:01Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Find the only diamond! [#MilliPro]"
+      }
     },
     {
       "id": "ytpWQst7ky0",
@@ -196,7 +274,10 @@
       "title": "【朝活】みんなに元気を分けるぞーーー！！【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ytpWQst7ky0/hqdefault.jpg",
       "publishedAt": "2026-10-26T00:12:56Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Morning activity] Let's share the energy with everyone! ! [Ameya Liz/MilliPro]"
+      }
     },
     {
       "id": "9o6oRDN7iog",
@@ -431,46 +512,20 @@
       "en": {
         "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
       }
-    },
-    {
-      "id": "zyez_zYXbWk",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "リスナーさんが描いてくれたこののFAをたくさん見るのだ！！【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/zyez_zYXbWk/hqdefault.jpg",
-      "publishedAt": "2026-10-24T07:15:43Z",
-      "live": false,
-      "en": {
-        "title": "I look at a lot of FAs drawn by listeners! ! [#Amakamirive]"
-      }
-    },
-    {
-      "id": "xwuzA-4xS_E",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Dressmaker 】ミリプロメンバーのドレス勝手に考える！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xwuzA-4xS_E/hqdefault.jpg",
-      "publishedAt": "2026-10-23T18:33:41Z",
-      "live": false,
-      "en": {
-        "title": "[Dressmaker] Think about Millipro members' dresses! [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "rflF7bDpbrk",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】歌うぞ！歌うぞ！歌うぞ！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rflF7bDpbrk/hqdefault.jpg",
-      "publishedAt": "2026-10-23T15:35:22Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Let's sing! Let's sing! Let's sing! [Rako Otonose/MilliPro]"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "wWQMEVgOVmI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-27T11:09:03Z",
+      "status": "live",
+      "en": {
+        "title": "[Minecraft] First time! Defeat Soloendra! Where is the fortress? ? 🏹 [Yuragiyura/MilliPro]"
+      }
+    }
+  ]
 }
