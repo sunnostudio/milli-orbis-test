@@ -1,15 +1,12 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "songs": {
     "ギタと孤独と蒼い惑星": {
-      "title": "もう一度キスしたかった",
-      "artist": "B'z",
-      "album": "IN THE LIFE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg",
-      "en": {
-        "title": "I wanted to kiss you again"
-      }
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -321,12 +318,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
       "en": {
-        "title": "finale"
+        "title": "Finale."
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -579,12 +576,12 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg",
       "en": {
-        "title": "Let's dance"
+        "title": "After the rain, it's sunny Reluya"
       }
     },
     "モニタリング": {
@@ -606,10 +603,13 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "StarRingChild",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Midnight Sun",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "butterfly knot"
+      }
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -642,19 +642,22 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
       "en": {
-        "title": "Feels good"
+        "title": "Swallow (feat. Midleys)"
       }
     },
     "1000年生きてる": {
-      "title": "レナセールセレナーデ",
-      "artist": "ももいろクローバーZ",
-      "album": "レナセールセレナーデ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/84/a1/3984a1dd-cb84-d388-ac65-c2107242a5ed/NOPA-6129.jpg/600x600bb.jpg"
+      "title": "筆舌",
+      "artist": "RADWIMPS",
+      "album": "あにゅー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/08/1e/5e081ea4-1f2f-d6f8-7db0-2d94740be7f5/25UM1IM46836.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "diction"
+      }
     },
     "メランコリック": {
       "title": "メランコリック",
@@ -981,10 +984,13 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
+      "en": {
+        "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
+      }
     },
     "青と夏": {
       "title": "群青",
@@ -1269,19 +1275,22 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "ドライフラワー",
-      "artist": "Uru",
-      "album": "ファーストラヴ",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
+      "title": "オーケストラ - From THE FIRST TAKE",
+      "artist": "アイナ・ジ・エンド",
+      "album": "オーケストラ - From THE FIRST TAKE - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/73/fa/69/73fa6945-c13b-e32e-b41d-0730d48a6943/ANTCD-A0000003752.jpg/600x600bb.jpg",
       "en": {
-        "title": "dried flowers"
+        "title": "Orchestra - From THE FIRST TAKE"
       }
     },
     "雨き声残響acoustic.": {
       "title": "セトリ (feat. Gang Boy)",
       "artist": "フジハラタク",
       "album": "hello good day",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Setori (feat. Gang Boy)"
+      }
     },
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
@@ -1896,13 +1905,19 @@ window.SONG_MASTER = {
       "title": "爛葬",
       "artist": "Sick2",
       "album": "爛葬【TYPE-B】 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/3f/c6/1e3fc662-82a6-687d-fe61-36a842f62ee3/13153900.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/3f/c6/1e3fc662-82a6-687d-fe61-36a842f62ee3/13153900.jpg/600x600bb.jpg",
+      "en": {
+        "title": "burial"
+      }
     },
     "ハロハワユいました": {
       "title": "秒針を噛む",
       "artist": "ずっと真夜中でいいのに。",
       "album": "秒針を噛む - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/38/2c/03/382c0375-11db-242e-4bf0-4e2e31380d74/00602567952343.rgb.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/38/2c/03/382c0375-11db-242e-4bf0-4e2e31380d74/00602567952343.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "bite the second hand"
+      }
     },
     "クエスチョン": {
       "title": "クエスチョン",
@@ -2117,8 +2132,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
+      "album": "MISSLIM",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }
