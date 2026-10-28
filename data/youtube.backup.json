@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-10-27T22:49:08.956Z",
+  "updatedAt": "2026-10-28T13:44:20.963Z",
   "streams": [
+    {
+      "id": "eGVLXNna8qU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
+      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-28T12:02:36Z",
+      "status": "live",
+      "en": {
+        "title": "[APEX] Yochiyochiepe! ? Finally, I am a senior too...! ? w/Rako Otonose, Aoi Kairin [Yuragi Yura/MilliPro] #Nobano Asobiba"
+      }
+    },
+    {
+      "id": "wx8QEU6nW8g",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【 APEX 】よちよちえーぺっくす！👶【 音ノ瀬らこ/ゆらぎゆら/海琳あおい 】#のばのあそびば",
+      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-28T12:03:55Z",
+      "status": "live",
+      "en": {
+        "title": "[APEX] Yochi Yochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
+      }
+    },
+    {
+      "id": "ArIfQMPZCeg",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-28T12:04:16Z",
+      "status": "live",
+      "en": {
+        "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
+      }
+    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -111,6 +147,84 @@
     }
   ],
   "videos": [
+    {
+      "id": "ArIfQMPZCeg",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg?v=6ae1cd0f",
+      "publishedAt": "2026-10-28T12:04:16Z",
+      "live": false,
+      "en": {
+        "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "wx8QEU6nW8g",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 APEX 】よちよちえーぺっくす！👶【 音ノ瀬らこ/ゆらぎゆら/海琳あおい 】#のばのあそびば",
+      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg?v=6ae1c8af",
+      "publishedAt": "2026-10-28T12:03:55Z",
+      "live": false,
+      "en": {
+        "title": "[APEX] Yochi Yochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
+      }
+    },
+    {
+      "id": "eGVLXNna8qU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
+      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg?v=6ae1ab72",
+      "publishedAt": "2026-10-28T12:02:36Z",
+      "live": false,
+      "en": {
+        "title": "[APEX] Yochiyochiepe! ? Finally, I am a senior too...! ? w/Rako Otonose, Aoi Kairin [Yuragi Yura/MilliPro] #Nobano Asobiba"
+      }
+    },
+    {
+      "id": "NKTx6T5QsHE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【検証】視聴者1,300人のアドバイス通りに描いたらプロ絵師のイラストは上手くなるのか？【甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/NKTx6T5QsHE/hqdefault.jpg",
+      "publishedAt": "2026-10-28T10:00:07Z",
+      "live": false,
+      "en": {
+        "title": "[Verification] Will professional illustrations become better if I draw according to the advice of 1,300 viewers? [Konomi Sweet Wolf]"
+      }
+    },
+    {
+      "id": "rBKwnBHQB2M",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】バレずに隠れろ！全員見つけれる？【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rBKwnBHQB2M/hqdefault.jpg",
+      "publishedAt": "2026-10-28T09:00:35Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Hide without being found out! Can you find them all? [#MilliPro]"
+      }
+    },
+    {
+      "id": "qcrAFW7Mgtc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【最後まで歌える？】超早口ボカロメドレー　第二段！【眠雲ツクリ/ミリプロ】 #vtuber #歌ってみた #ボカロ",
+      "thumb": "https://i.ytimg.com/vi/qcrAFW7Mgtc/hqdefault.jpg",
+      "publishedAt": "2026-10-28T09:00:15Z",
+      "live": false,
+      "en": {
+        "title": "[Can you sing until the end? ] Super fast Vocaloid medley second stage! [Nemugumo Tsukuri/MilliPro] #vtuber #I tried singing #Vocaloid"
+      }
+    },
     {
       "id": "wWQMEVgOVmI",
       "memberId": "yura",
@@ -422,85 +536,44 @@
       "en": {
         "title": "[BOMBANANA!] I want to see it, I want to say it, I want to hear it! ! ! ! ! [Komakoma/MilliPro]"
       }
-    },
-    {
-      "id": "1ZQ5sanS8C8",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault.jpg",
-      "publishedAt": "2026-10-24T12:10:12Z",
-      "live": false,
-      "en": {
-        "title": "〖 Collaboration song frame 〗Song frame collaboration with Mikarun 🎶〖 Nemugumo Tsukuri / MilliPro〗"
-      }
-    },
-    {
-      "id": "1LVXb__vHjo",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "さよーならまたいつか！ / あくび・でもんすぺーど - cover",
-      "thumb": "https://i.ytimg.com/vi/1LVXb__vHjo/hqdefault.jpg",
-      "publishedAt": "2026-10-24T11:00:07Z",
-      "live": false,
-      "en": {
-        "title": "Goodbye, see you someday! / Yawn/Demon Speed - cover"
-      }
-    },
-    {
-      "id": "cSbl-mK7dSE",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "プロセカ書き下ろし人気楽曲ファンテスト【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cSbl-mK7dSE/hqdefault.jpg",
-      "publishedAt": "2026-10-24T09:01:29Z",
-      "live": false,
-      "en": {
-        "title": "Popular song fan test written by Proseca [#Aoi Kairin / MilliPro]"
-      }
-    },
-    {
-      "id": "0cQHF0UA560",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【最後はあの曲⚡】だんだん懐かしくなるアニソンメドレー【眠雲ツクリ/ミリプロ】 #歌ってみた #アニソン",
-      "thumb": "https://i.ytimg.com/vi/0cQHF0UA560/hqdefault.jpg",
-      "publishedAt": "2026-10-24T09:00:30Z",
-      "live": false,
-      "en": {
-        "title": "[That song at the end⚡] Anime song medley that makes you nostalgic [Nemugumo Tsukuri/MilliPro] #I tried singing #Anime song"
-      }
-    },
-    {
-      "id": "rqFtq-nywbs",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】カラーサークルチャレンジ！#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/rqFtq-nywbs/hqdefault.jpg",
-      "publishedAt": "2026-10-24T09:00:10Z",
-      "live": false,
-      "en": {
-        "title": "[Anime] Color Circle Challenge! #milipro #anime"
-      }
-    },
-    {
-      "id": "e6acfMolexU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/e6acfMolexU/hqdefault.jpg",
-      "publishedAt": "2026-10-24T09:00:09Z",
-      "live": false,
-      "en": {
-        "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "eGVLXNna8qU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
+      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-28T12:02:36Z",
+      "status": "live",
+      "en": {
+        "title": "[APEX] Yochiyochiepe! ? Finally, I am a senior too...! ? w/Rako Otonose, Aoi Kairin [Yuragi Yura/MilliPro] #Nobano Asobiba"
+      }
+    },
+    {
+      "id": "wx8QEU6nW8g",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【 APEX 】よちよちえーぺっくす！👶【 音ノ瀬らこ/ゆらぎゆら/海琳あおい 】#のばのあそびば",
+      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-28T12:03:55Z",
+      "status": "live",
+      "en": {
+        "title": "[APEX] Yochi Yochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
+      }
+    },
+    {
+      "id": "ArIfQMPZCeg",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-28T12:04:16Z",
+      "status": "live",
+      "en": {
+        "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
+      }
+    }
+  ]
 }
