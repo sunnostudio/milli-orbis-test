@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-10-28T22:55:58.384Z",
+  "updatedAt": "2026-10-29T13:53:22.904Z",
   "streams": [
-    {
-      "id": "Mw5dDeQzSTU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T02:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[NTE] What exactly is “existing”? ? To the main story full of mysteries! [Yuragiyura / Millipro]"
-      }
-    },
-    {
-      "id": "jbUiIW7D2JE",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】10月もう少しで終わっちゃうらしい....【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/jbUiIW7D2JE/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T09:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Song frame] It seems like it will end in October.... [Aoi Kairin/MilliPro]"
-      }
-    },
     {
       "id": "xR9wTSCaLvk",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T11:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-10-29T11:00:58Z",
+      "status": "live",
       "en": {
         "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "DgsTtxGIiJY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T13:01:07Z",
+      "status": "live",
+      "en": {
+        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "Q6TwGrqk0yo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T13:36:07Z",
+      "status": "live",
+      "en": {
+        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
       }
     },
     {
@@ -152,12 +152,142 @@
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】10月もう少しで終わっちゃうらしい....【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/jbUiIW7D2JE/hqdefault.jpg?v=6ae25607",
-      "publishedAt": "2026-10-28T20:07:33Z",
+      "title": "【歌枠】16万人ありがとう🎉🎉【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/jbUiIW7D2JE/hqdefault.jpg",
+      "publishedAt": "2026-10-29T13:50:31Z",
       "live": false,
       "en": {
-        "title": "[Song frame] It seems like it will end in October.... [Aoi Kairin/MilliPro]"
+        "title": "[Song frame] Thank you for 160,000 people 🎉🎉 [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "Q6TwGrqk0yo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg?v=6ae34bb0",
+      "publishedAt": "2026-10-29T13:36:07Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
+      }
+    },
+    {
+      "id": "m_ciByRfBWg",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 歌枠 】うたわせてもらうのだ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/m_ciByRfBWg/hqdefault.jpg",
+      "publishedAt": "2026-10-29T13:13:09Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
+      }
+    },
+    {
+      "id": "DgsTtxGIiJY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg?v=6ae32a26",
+      "publishedAt": "2026-10-29T13:01:07Z",
+      "live": false,
+      "en": {
+        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "xR9wTSCaLvk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg?v=6ae216f4",
+      "publishedAt": "2026-10-29T11:00:58Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "mTX5KymYSFA",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】海琳あおい危機一髪に挑戦！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/mTX5KymYSFA/hqdefault.jpg",
+      "publishedAt": "2026-10-29T09:51:41Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Challenge Aoi Kairin to a close call! [#MilliPro]"
+      }
+    },
+    {
+      "id": "UA9zDIUAKaY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【左右反転】オリ曲『ルミナス』のダンス解説！💃【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UA9zDIUAKaY/hqdefault.jpg",
+      "publishedAt": "2026-10-29T09:00:27Z",
+      "live": false,
+      "en": {
+        "title": "[Left and right reversed] Dance commentary for the original song “Luminous”! 💃 [Rako Otonose/MilliPro]"
+      }
+    },
+    {
+      "id": "oXXXfkwBNhU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "Letters To Me - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/oXXXfkwBNhU/hqdefault.jpg",
+      "publishedAt": "2026-10-29T09:00:10Z",
+      "live": false,
+      "en": {
+        "title": "Letters To Me - Mahoro Kano cover."
+      }
+    },
+    {
+      "id": "_1mSTwqj_w0",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "アハ体験⁉️全部当てられる？#shorts #animation #illustration",
+      "thumb": "https://i.ytimg.com/vi/_1mSTwqj_w0/hqdefault.jpg",
+      "publishedAt": "2026-10-29T09:00:00Z",
+      "live": false,
+      "en": {
+        "title": "Aha experience⁉️ Can you guess everything? #shorts #animation #illustration"
+      }
+    },
+    {
+      "id": "-dYcnJfk3II",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "わたしの居ない将来にどうぞよろしく伝えてください。┊︎#音ノ乃のの #分かっちゃいないね #monet #花隅千冬 #shorts",
+      "thumb": "https://i.ytimg.com/vi/-dYcnJfk3II/hqdefault.jpg",
+      "publishedAt": "2026-10-29T08:41:58Z",
+      "live": false,
+      "en": {
+        "title": "Please convey my best wishes to the future without me. ┊︎#Otononono #You don't understand #monet #Chifuyu Hanazumi #shorts"
+      }
+    },
+    {
+      "id": "Mw5dDeQzSTU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg",
+      "publishedAt": "2026-10-29T07:26:35Z",
+      "live": false,
+      "en": {
+        "title": "[NTE] What exactly is “existing”? ? To the main story full of mysteries! [Yuragiyura / Millipro]"
       }
     },
     {
@@ -171,32 +301,6 @@
       "live": false,
       "en": {
         "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "xR9wTSCaLvk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg?v=6ae216f4",
-      "publishedAt": "2026-10-28T15:38:26Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "Mw5dDeQzSTU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg?v=6ae2142a",
-      "publishedAt": "2026-10-28T15:26:32Z",
-      "live": false,
-      "en": {
-        "title": "[NTE] What exactly is “existing”? ? To the main story full of mysteries! [Yuragiyura / Millipro]"
       }
     },
     {
@@ -432,111 +536,44 @@
       "en": {
         "title": "[Song frame] 2 80,000 people Endurance〖 Nemugumo Tsukuri / MilliPro〗"
       }
-    },
-    {
-      "id": "qc_zkIoureo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
-      "publishedAt": "2026-10-25T13:14:50Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Let's read Marshmallow! ! ! [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "O62Whdk29mc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg",
-      "publishedAt": "2026-10-25T13:02:58Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "OFNccogcP44",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg",
-      "publishedAt": "2026-10-25T12:21:22Z",
-      "live": false,
-      "en": {
-        "title": "[Supermarket Chaos] I, who love cleaning, will save the dirty world ට⩊ටಇ [Mahoro Kano/MilliPro]"
-      }
-    },
-    {
-      "id": "ff7pBHIEfEQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
-      "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
-      "publishedAt": "2026-10-25T10:00:08Z",
-      "live": false,
-      "en": {
-        "title": "[Coordination showdown] Produce Konomi Amaro! ? Who understands your preferences the most? ? [Halloween]"
-      }
-    },
-    {
-      "id": "GGkpzxoCX-c",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】ワニに噛まれず生き残れ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/GGkpzxoCX-c/hqdefault.jpg",
-      "publishedAt": "2026-10-25T09:00:13Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Survive without being bitten by a crocodile! [#MilliPro]"
-      }
-    },
-    {
-      "id": "XRI5cFo_ZXc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XRI5cFo_ZXc/hqdefault.jpg",
-      "publishedAt": "2026-10-25T07:27:33Z",
-      "live": false,
-      "en": {
-        "title": "Weekend homework, work that needs to be done, people piling up, forced gatherings. [#Amakamirive]"
-      }
-    },
-    {
-      "id": "2nFCvxTjr-Q",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
-      "publishedAt": "2026-10-24T17:20:45Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Sing in 3D┊︎#Otononono#Nononya"
-      }
-    },
-    {
-      "id": "6kkUuO04VaU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
-      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
-      "publishedAt": "2026-10-24T14:34:27Z",
-      "live": false,
-      "en": {
-        "title": "[BOMBANANA] Bomb defusing game with Koma-chan and Meme-chan! [Mahoro Kano/MilliPro] with Komaekoma Memento Vanitas"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "xR9wTSCaLvk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T11:00:58Z",
+      "status": "live",
+      "en": {
+        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "DgsTtxGIiJY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T13:01:07Z",
+      "status": "live",
+      "en": {
+        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "Q6TwGrqk0yo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T13:36:07Z",
+      "status": "live",
+      "en": {
+        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
+      }
+    }
+  ]
 }

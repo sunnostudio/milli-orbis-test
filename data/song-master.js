@@ -3,10 +3,13 @@ window.SONG_MASTER = {
   "generatedAt": "2026-10-29",
   "songs": {
     "ギタと孤独と蒼い惑星": {
-      "title": "In the Morning",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Mrs. GREEN APPLE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
+      "title": "もう一度キスしたかった",
+      "artist": "B'z",
+      "album": "IN THE LIFE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg",
+      "en": {
+        "title": "I wanted to kiss you again"
+      }
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -129,13 +132,10 @@ window.SONG_MASTER = {
       }
     },
     "気分上々↑↑": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "怪物",
+      "artist": "YOASOBI",
+      "album": "怪物 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
     },
     "readysteady-giga": {
       "title": "Ready Steady (Instrumental)",
@@ -549,12 +549,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
-      "title": "ダーリン",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ダーリン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
+      "title": "アンコール",
+      "artist": "YOASOBI",
+      "album": "THE BOOK",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/8c/90/7f8c90dd-e11f-30d5-271d-4b72eee970bd/195497666737.jpg/600x600bb.jpg",
       "en": {
-        "title": "darling"
+        "title": "encore"
       }
     },
     "メルト": {
@@ -603,10 +603,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "StarRingChild",
-      "artist": "Aimer",
-      "album": "Midnight Sun",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
+      "title": "HOWEVER",
+      "artist": "GLAY",
+      "album": "HOWEVER - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -639,12 +639,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "title": "メロリ",
+      "artist": "Hey! Say! JUMP",
+      "album": "S say",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg",
       "en": {
-        "title": "Feels good"
+        "title": "Melori"
       }
     },
     "1000年生きてる": {
@@ -823,7 +823,7 @@ window.SONG_MASTER = {
     },
     "ボルテッカ": {
       "title": "ボルテッカー",
-      "artist": "DECO*27",
+      "artist": "DECO*27 & 初音ミク",
       "album": "ボルテッカー - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/b7/b7/2db7b788-21d4-3512-d086-2c9802285fc5/4511820-96167.jpg/600x600bb.jpg",
       "en": {
@@ -841,9 +841,9 @@ window.SONG_MASTER = {
     },
     "stay": {
       "title": "Stay",
-      "artist": "Zedd & アレッシア・カーラ",
-      "album": "Stay - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
+      "artist": "カーク・フランクリン",
+      "album": "I Am What I Am",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/0a/2e/000a2ef6-7704-db9a-c492-da7123efb2d3/26UM1IM17728.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1497,13 +1497,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Blue Ambience (feat. asmi)"
-      }
+      "title": "Lemon",
+      "artist": "米津玄師",
+      "album": "STRAY SHEEP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1617,10 +1614,13 @@ window.SONG_MASTER = {
       }
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Give me a brains",
-      "artist": "RAXISS",
-      "album": "俺の城 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
+      "title": "Es (feat. 初音ミク)",
+      "artist": "PALZ",
+      "album": "Es (feat. 初音ミク) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "Es (feat. Hatsune Miku)"
+      }
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1728,12 +1728,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
+      "title": "シャッター",
       "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
       "en": {
-        "title": "hide and seek"
+        "title": "shutter"
       }
     },
     "メルティランドナイトメア": {
@@ -1842,12 +1842,12 @@ window.SONG_MASTER = {
       }
     },
     "クライヤいました": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "title": "白日",
+      "artist": "King Gnu",
+      "album": "白日 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3e/b8/ef/3eb8ef78-c575-eb81-f982-aaec74b5fe53/jacket_BVXX01177B00Z_550.jpg/600x600bb.jpg",
       "en": {
-        "title": "1.15 million kilometers of film"
+        "title": "daylight"
       }
     },
     "アイロニいました": {
