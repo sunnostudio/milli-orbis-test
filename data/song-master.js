@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-10-29",
   "songs": {
     "ギタと孤独と蒼い惑星": {
       "title": "In the Morning",
@@ -37,9 +37,9 @@ window.SONG_MASTER = {
     },
     "おもかげ": {
       "title": "おもかげ",
-      "artist": "林原めぐみ",
-      "album": "Northern lights - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg",
+      "artist": "KG",
+      "album": "Brand New Days",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
       "en": {
         "title": "Omokage"
       }
@@ -73,9 +73,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -576,12 +576,12 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "雨のち晴レルヤ",
-      "artist": "ゆず",
-      "album": "新世界",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg",
+      "title": "踊ろうぜ",
+      "artist": "ヨルシカ",
+      "album": "だから僕は音楽を辞めた",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
       "en": {
-        "title": "After the rain, it's sunny Reluya"
+        "title": "Let's dance"
       }
     },
     "モニタリング": {
@@ -648,10 +648,13 @@ window.SONG_MASTER = {
       }
     },
     "1000年生きてる": {
-      "title": "レナセールセレナーデ",
-      "artist": "ももいろクローバーZ",
-      "album": "レナセールセレナーデ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/84/a1/3984a1dd-cb84-d388-ac65-c2107242a5ed/NOPA-6129.jpg/600x600bb.jpg"
+      "title": "筆舌",
+      "artist": "RADWIMPS",
+      "album": "あにゅー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/08/1e/5e081ea4-1f2f-d6f8-7db0-2d94740be7f5/25UM1IM46836.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "diction"
+      }
     },
     "メランコリック": {
       "title": "メランコリック",
@@ -978,10 +981,13 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
+      "en": {
+        "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
+      }
     },
     "青と夏": {
       "title": "群青",
@@ -1096,9 +1102,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1241,8 +1247,8 @@ window.SONG_MASTER = {
     "adrenaline!!!trysail": {
       "title": "adrenaline!!!",
       "artist": "TrySail",
-      "album": "TAILWIND",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cd/f4/70/cdf4707d-3197-bd1b-20ee-cdb4fecd08a1/jacket_VVCL01087B00Z_550.jpg/600x600bb.jpg"
+      "album": "adrenaline!!! - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/d2/02/4cd2020b-7ece-0750-e67e-db707b14152e/jacket_VVCL01050B00Z_550.jpg/600x600bb.jpg"
     },
     "ぼなぺてぃと♡sブレンドa": {
       "title": "ぼなぺてぃーと♡S (Cover)",
@@ -1258,6 +1264,15 @@ window.SONG_MASTER = {
       "artist": "HANA",
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
+    },
+    "letterstome-.": {
+      "title": "メモリア (feat. 鹿乃まほろ)",
+      "artist": "しーけー & Qutabire",
+      "album": "Twilight",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/30/ba/3f/30ba3fc4-b17f-0fec-0f91-6b9e233870db/4550754818599_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "Memoria (feat. Mahoro Kano)"
+      }
     },
     "奏-.": {
       "title": "CANDY",
@@ -1470,7 +1485,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1767,12 +1782,12 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
+      "title": "突破口",
+      "artist": "SUPER BEAVER",
+      "album": "突破口 / 自慢になりたい - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg",
       "en": {
-        "title": "That's why I quit music"
+        "title": "breakthrough"
       }
     },
     "放課後のプレアデスいました": {
@@ -1869,10 +1884,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/5e/e4/0d5ee469-3ef5-a341-45d9-394c45bd18f9/PA00222991_0_250177_jacket.jpg/600x600bb.jpg"
     },
     "放課後ストライドいました": {
-      "title": "ばーちゃらぶ",
-      "artist": "夏色まつり",
-      "album": "Chasing the Dream 〜スポットライトは放課後に〜",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/fe/83/dafe8378-8847-1aa3-a1a4-02dafbb29937/matsuri_1stAL_Jacket_FIX_251009.png/600x600bb.jpg"
+      "title": "裸足じゃイラレナイ",
+      "artist": "放課後クライマックスガールズ",
+      "album": "THE IDOLM@STER SHINY COLORS Song for Prism 裸足じゃイラレナイ / 明日もBeautiful Day【アルストロメリア盤】 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/be/bb/babebb29-259b-0aa0-b719-539c8d80f7ae/4540774244768.jpg/600x600bb.jpg",
+      "en": {
+        "title": "I don't like being barefoot."
+      }
     },
     "メリメリいました": {
       "title": "メリーメリー",

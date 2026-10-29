@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-10-28T13:44:20.963Z",
+  "updatedAt": "2026-10-28T22:55:58.384Z",
   "streams": [
     {
-      "id": "eGVLXNna8qU",
+      "id": "Mw5dDeQzSTU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-28T12:02:36Z",
-      "status": "live",
+      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T02:30:00Z",
+      "status": "upcoming",
       "en": {
-        "title": "[APEX] Yochiyochiepe! ? Finally, I am a senior too...! ? w/Rako Otonose, Aoi Kairin [Yuragi Yura/MilliPro] #Nobano Asobiba"
+        "title": "[NTE] What exactly is “existing”? ? To the main story full of mysteries! [Yuragiyura / Millipro]"
       }
     },
     {
-      "id": "wx8QEU6nW8g",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【 APEX 】よちよちえーぺっくす！👶【 音ノ瀬らこ/ゆらぎゆら/海琳あおい 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-28T12:03:55Z",
-      "status": "live",
-      "en": {
-        "title": "[APEX] Yochi Yochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
-      }
-    },
-    {
-      "id": "ArIfQMPZCeg",
+      "id": "jbUiIW7D2JE",
       "memberId": "aoi",
       "member": "海琳あおい",
-      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-28T12:04:16Z",
-      "status": "live",
+      "title": "【歌枠】10月もう少しで終わっちゃうらしい....【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/jbUiIW7D2JE/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T09:00:00Z",
+      "status": "upcoming",
       "en": {
-        "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
+        "title": "[Song frame] It seems like it will end in October.... [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "xR9wTSCaLvk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T11:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
       }
     },
     {
@@ -148,16 +148,55 @@
   ],
   "videos": [
     {
+      "id": "jbUiIW7D2JE",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】10月もう少しで終わっちゃうらしい....【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/jbUiIW7D2JE/hqdefault.jpg?v=6ae25607",
+      "publishedAt": "2026-10-28T20:07:33Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] It seems like it will end in October.... [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
       "id": "ArIfQMPZCeg",
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg?v=6ae1cd0f",
-      "publishedAt": "2026-10-28T12:04:16Z",
+      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg",
+      "publishedAt": "2026-10-28T18:23:38Z",
       "live": false,
       "en": {
         "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "xR9wTSCaLvk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg?v=6ae216f4",
+      "publishedAt": "2026-10-28T15:38:26Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "Mw5dDeQzSTU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg?v=6ae2142a",
+      "publishedAt": "2026-10-28T15:26:32Z",
+      "live": false,
+      "en": {
+        "title": "[NTE] What exactly is “existing”? ? To the main story full of mysteries! [Yuragiyura / Millipro]"
       }
     },
     {
@@ -166,8 +205,8 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【 APEX 】よちよちえーぺっくす！👶【 音ノ瀬らこ/ゆらぎゆら/海琳あおい 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg?v=6ae1c8af",
-      "publishedAt": "2026-10-28T12:03:55Z",
+      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg",
+      "publishedAt": "2026-10-28T15:22:22Z",
       "live": false,
       "en": {
         "title": "[APEX] Yochi Yochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
@@ -179,8 +218,8 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg?v=6ae1ab72",
-      "publishedAt": "2026-10-28T12:02:36Z",
+      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg",
+      "publishedAt": "2026-10-28T15:17:34Z",
       "live": false,
       "en": {
         "title": "[APEX] Yochiyochiepe! ? Finally, I am a senior too...! ? w/Rako Otonose, Aoi Kairin [Yuragi Yura/MilliPro] #Nobano Asobiba"
@@ -395,19 +434,6 @@
       }
     },
     {
-      "id": "hzjK6I1bLZM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
-      "publishedAt": "2026-10-25T13:15:30Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] The ultimate two choices for love! ? Let's all say love💓 [Yuragi Yura/MilliPro]"
-      }
-    },
-    {
       "id": "qc_zkIoureo",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -486,19 +512,6 @@
       }
     },
     {
-      "id": "ii_wtzZ-6Fw",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
-      "publishedAt": "2026-10-24T23:19:04Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Morning activity! Let's go again today! [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
       "id": "2nFCvxTjr-Q",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -523,57 +536,7 @@
       "en": {
         "title": "[BOMBANANA] Bomb defusing game with Koma-chan and Meme-chan! [Mahoro Kano/MilliPro] with Komaekoma Memento Vanitas"
       }
-    },
-    {
-      "id": "thlZTkOM5u0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg",
-      "publishedAt": "2026-10-24T13:44:54Z",
-      "live": false,
-      "en": {
-        "title": "[BOMBANANA!] I want to see it, I want to say it, I want to hear it! ! ! ! ! [Komakoma/MilliPro]"
-      }
     }
   ],
-  "live": [
-    {
-      "id": "eGVLXNna8qU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-28T12:02:36Z",
-      "status": "live",
-      "en": {
-        "title": "[APEX] Yochiyochiepe! ? Finally, I am a senior too...! ? w/Rako Otonose, Aoi Kairin [Yuragi Yura/MilliPro] #Nobano Asobiba"
-      }
-    },
-    {
-      "id": "wx8QEU6nW8g",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【 APEX 】よちよちえーぺっくす！👶【 音ノ瀬らこ/ゆらぎゆら/海琳あおい 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-28T12:03:55Z",
-      "status": "live",
-      "en": {
-        "title": "[APEX] Yochi Yochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
-      }
-    },
-    {
-      "id": "ArIfQMPZCeg",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-28T12:04:16Z",
-      "status": "live",
-      "en": {
-        "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
-      }
-    }
-  ]
+  "live": []
 }

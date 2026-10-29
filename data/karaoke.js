@@ -1,6 +1,17 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "m_ciByRfBWg",
+    "memberId": "koma",
+    "publishedAt": "2026-10-29",
+    "title": "【 歌枠 】うたわせてもらうのだ【小廻こま/ミリプロ】",
+    "duration": 7475,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
+    }
+  },
+  {
     "id": "IMBeVof6pOY",
     "memberId": "raco",
     "publishedAt": "2026-10-26",

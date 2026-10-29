@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-10-29",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -3036,6 +3036,20 @@ window.SONGS = {
           "publishedAt": "2026-06-27"
         }
       ]
+    },
+    {
+      "title": "Letters To Me - 鹿乃まほろ cover.",
+      "key": "letterstome-.",
+      "urls": [
+        {
+          "id": "oXXXfkwBNhU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-10-29"
+        }
+      ],
+      "en": {
+        "title": "Letters To Me - Mahoro Kano cover."
+      }
     },
     {
       "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
