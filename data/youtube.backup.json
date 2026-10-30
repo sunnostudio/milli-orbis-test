@@ -1,41 +1,14 @@
 {
-  "updatedAt": "2026-10-29T13:53:22.904Z",
+  "updatedAt": "2026-10-29T23:04:14.400Z",
   "streams": [
     {
-      "id": "xR9wTSCaLvk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T11:00:58Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "DgsTtxGIiJY",
+      "id": "45YiKEpUiXo",
       "memberId": "rei",
       "member": "夕霧レイ",
-      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T13:01:07Z",
-      "status": "live",
-      "en": {
-        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "Q6TwGrqk0yo",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T13:36:07Z",
-      "status": "live",
-      "en": {
-        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
-      }
+      "title": "【 告知アリ！ 】マシュマロ50個食べるまで告知終われません！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/45YiKEpUiXo/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T10:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "Np7iIJhRB50",
@@ -48,6 +21,15 @@
       "en": {
         "title": "[📢Collaboration Information] Collaboration event of “MilliPro x 100 Hour Curry” will be held✨"
       }
+    },
+    {
+      "id": "xYPjcKTXcL4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【雑談】10月振り返り&amp;初配信のスパチャ読みする！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/xYPjcKTXcL4/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-31T10:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "WEI1si3sFaA",
@@ -148,6 +130,88 @@
   ],
   "videos": [
     {
+      "id": "Q6TwGrqk0yo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg",
+      "publishedAt": "2026-10-29T18:03:45Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
+      }
+    },
+    {
+      "id": "0QCgioCp__A",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/0QCgioCp__A/hqdefault.jpg",
+      "publishedAt": "2026-10-29T16:41:18Z",
+      "live": false,
+      "en": {
+        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "45YiKEpUiXo",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 告知アリ！ 】マシュマロ50個食べるまで告知終われません！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/45YiKEpUiXo/hqdefault.jpg?v=6ae3767d",
+      "publishedAt": "2026-10-29T16:38:19Z",
+      "live": false
+    },
+    {
+      "id": "xR9wTSCaLvk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg",
+      "publishedAt": "2026-10-29T15:22:07Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "xYPjcKTXcL4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】10月振り返り&初配信のスパチャ読みする！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/xYPjcKTXcL4/hqdefault.jpg?v=6ae36068",
+      "publishedAt": "2026-10-29T15:04:06Z",
+      "live": true
+    },
+    {
+      "id": "ThGSH_Jhj14",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】深夜のラジオ雑談🎶歌ったりもするのかもナ🎶【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ThGSH_Jhj14/hqdefault.jpg",
+      "publishedAt": "2026-10-29T14:20:54Z",
+      "live": true
+    },
+    {
+      "id": "DgsTtxGIiJY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg",
+      "publishedAt": "2026-10-29T14:09:33Z",
+      "live": false,
+      "en": {
+        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
       "id": "jbUiIW7D2JE",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -161,19 +225,6 @@
       }
     },
     {
-      "id": "Q6TwGrqk0yo",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg?v=6ae34bb0",
-      "publishedAt": "2026-10-29T13:36:07Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
-      }
-    },
-    {
       "id": "m_ciByRfBWg",
       "memberId": "koma",
       "member": "小廻こま",
@@ -184,32 +235,6 @@
       "live": false,
       "en": {
         "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
-      }
-    },
-    {
-      "id": "DgsTtxGIiJY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg?v=6ae32a26",
-      "publishedAt": "2026-10-29T13:01:07Z",
-      "live": false,
-      "en": {
-        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "xR9wTSCaLvk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg?v=6ae216f4",
-      "publishedAt": "2026-10-29T11:00:58Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
       }
     },
     {
@@ -484,96 +509,7 @@
       "en": {
         "title": "I tried singing “Debit Bit” [Rei Yugiri/MilliPro]"
       }
-    },
-    {
-      "id": "kyn3h5oSAi0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【これ読める？】ボカロ歌詞漢字検定！✏️【眠雲ツクリ/ミリプロ】#歌ってみた #ボカロ",
-      "thumb": "https://i.ytimg.com/vi/kyn3h5oSAi0/hqdefault.jpg",
-      "publishedAt": "2026-10-26T09:00:33Z",
-      "live": false,
-      "en": {
-        "title": "[Can you read this? ] Vocaloid lyrics kanji test! ✏️ [Nemugumo Tsukuri/MilliPro] #I tried singing #Vocaloid"
-      }
-    },
-    {
-      "id": "0S0kq2MsiSg",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】1個しかないダイヤを見つけろ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0S0kq2MsiSg/hqdefault.jpg",
-      "publishedAt": "2026-10-26T09:00:01Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Find the only diamond! [#MilliPro]"
-      }
-    },
-    {
-      "id": "ytpWQst7ky0",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【朝活】みんなに元気を分けるぞーーー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ytpWQst7ky0/hqdefault.jpg",
-      "publishedAt": "2026-10-26T00:12:56Z",
-      "live": false,
-      "en": {
-        "title": "[Morning activity] Let's share the energy with everyone! ! [Ameya Liz/MilliPro]"
-      }
-    },
-    {
-      "id": "9o6oRDN7iog",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9o6oRDN7iog/hqdefault.jpg",
-      "publishedAt": "2026-10-25T14:52:16Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] 2 80,000 people Endurance〖 Nemugumo Tsukuri / MilliPro〗"
-      }
     }
   ],
-  "live": [
-    {
-      "id": "xR9wTSCaLvk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T11:00:58Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft] Ends immediately after falling 5 times! ? I want to build a paradise from one block! [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "DgsTtxGIiJY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T13:01:07Z",
-      "status": "live",
-      "en": {
-        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "Q6TwGrqk0yo",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T13:36:07Z",
-      "status": "live",
-      "en": {
-        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
-      }
-    }
-  ]
+  "live": []
 }

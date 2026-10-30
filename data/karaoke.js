@@ -1,6 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "oxAEFK0J86A",
+    "memberId": "liz",
+    "publishedAt": "2026-10-30",
+    "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
+    "id": "3sKrr49yuEE",
+    "memberId": "rei",
+    "publishedAt": "2026-10-30",
+    "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "m_ciByRfBWg",
     "memberId": "koma",
     "publishedAt": "2026-10-29",

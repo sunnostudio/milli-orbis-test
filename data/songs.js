@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-29",
+  "generatedAt": "2026-10-30",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -2947,6 +2947,22 @@ window.SONGS = {
       "en": {
         "title": "A faint flower"
       }
+    },
+    {
+      "title": "ブルーアンビエンス",
+      "key": "ブルアンビエンス＆",
+      "urls": [
+        {
+          "id": "KyuXXAxFI60",
+          "memberId": "raco",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "id": "KyuXXAxFI60",
+          "memberId": "rei",
+          "publishedAt": "2026-10-30"
+        }
+      ]
     },
     {
       "title": "Henceforth",

@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-29",
+  "generatedAt": "2026-10-30",
   "songs": {
     "ギタと孤独と蒼い惑星": {
       "title": "もう一度キスしたかった",
@@ -135,7 +135,10 @@ window.SONG_MASTER = {
       "title": "怪物",
       "artist": "YOASOBI",
       "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg",
+      "en": {
+        "title": "monster"
+      }
     },
     "readysteady-giga": {
       "title": "Ready Steady (Instrumental)",
@@ -318,12 +321,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
       "en": {
-        "title": "Finale."
+        "title": "finale"
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -1174,9 +1177,9 @@ window.SONG_MASTER = {
     },
     "可愛くてごめん": {
       "title": "可愛くてごめん",
-      "artist": "Ado",
-      "album": "Adoの歌ってみたアルバム",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/e9/42/fae942a7-dca5-6cc0-9e49-4a4f2da6b81e/23UM1IM45777.rgb.jpg/600x600bb.jpg",
+      "artist": "AKB48",
+      "album": "なんてったってAKB48",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/1e/1d/a01e1d85-4912-2a18-2f1f-4280346a4108/24UM1IM35411.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Sorry for being cute"
       }
@@ -1209,6 +1212,15 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/68/f6/5b68f64c-c7d5-e95d-18ac-c13915e44fe7/199999632047.png/600x600bb.jpg",
       "en": {
         "title": "A faint flower"
+      }
+    },
+    "ブルアンビエンス＆": {
+      "title": "ブルーアンビエンス (feat. asmi)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Unity - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Blue Ambience (feat. asmi)"
       }
     },
     "henceforth": {
@@ -1497,10 +1509,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "Lemon",
-      "artist": "米津玄師",
-      "album": "STRAY SHEEP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
+      "title": "ブルーアンビエンス (feat. asmi)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Unity - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Blue Ambience (feat. asmi)"
+      }
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",

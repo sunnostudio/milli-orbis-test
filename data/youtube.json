@@ -1,13 +1,58 @@
 {
-  "updatedAt": "2026-10-29T23:04:14.400Z",
+  "updatedAt": "2026-10-30T13:45:41.569Z",
   "streams": [
     {
-      "id": "45YiKEpUiXo",
+      "id": "-93KpvKtvMs",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【マイクラ】ダイヤをたくさん掘るまで寝れない耐久の、はじまりはじまり～【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/-93KpvKtvMs/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T09:00:36Z",
+      "status": "live"
+    },
+    {
+      "id": "oxAEFK0J86A",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oxAEFK0J86A/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T11:01:08Z",
+      "status": "live"
+    },
+    {
+      "id": "cPbBrZ64rRg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T11:01:14Z",
+      "status": "live"
+    },
+    {
+      "id": "TSGgqNLUyS8",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "みんなで誕生日ぶち上げてくれ！！！【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TSGgqNLUyS8/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "3sKrr49yuEE",
       "memberId": "rei",
       "member": "夕霧レイ",
-      "title": "【 告知アリ！ 】マシュマロ50個食べるまで告知終われません！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/45YiKEpUiXo/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T10:00:00Z",
+      "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/3sKrr49yuEE/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T22:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "jpeNw-now8I",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【お片付け】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
+      "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-31T03:00:00Z",
       "status": "upcoming"
     },
     {
@@ -130,6 +175,116 @@
   ],
   "videos": [
     {
+      "id": "7t1ZgltRNp8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗急激な寒さに、怒っています〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/7t1ZgltRNp8/hqdefault.jpg",
+      "publishedAt": "2026-10-30T13:45:10Z",
+      "live": true
+    },
+    {
+      "id": "3sKrr49yuEE",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/3sKrr49yuEE/hqdefault.jpg?v=6ae49e05",
+      "publishedAt": "2026-10-30T13:39:15Z",
+      "live": false
+    },
+    {
+      "id": "45YiKEpUiXo",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 告知アリ！ 】マシュマロ50個食べるまで告知終われません！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/45YiKEpUiXo/hqdefault.jpg",
+      "publishedAt": "2026-10-30T12:41:59Z",
+      "live": false
+    },
+    {
+      "id": "KyuXXAxFI60",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "ブルーアンビエンス / 夕霧レイ＆音ノ瀬らこ(cover)",
+      "thumb": "https://i.ytimg.com/vi/KyuXXAxFI60/hqdefault.jpg",
+      "publishedAt": "2026-10-30T12:30:08Z",
+      "live": false
+    },
+    {
+      "id": "cPbBrZ64rRg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg?v=6ae464ea",
+      "publishedAt": "2026-10-30T11:01:14Z",
+      "live": false
+    },
+    {
+      "id": "oxAEFK0J86A",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oxAEFK0J86A/hqdefault.jpg?v=6ae460c3",
+      "publishedAt": "2026-10-30T11:01:08Z",
+      "live": false
+    },
+    {
+      "id": "jpeNw-now8I",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【お片付け】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
+      "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg?v=6ae476b3",
+      "publishedAt": "2026-10-30T10:51:29Z",
+      "live": false
+    },
+    {
+      "id": "BS9gQNoTJXA",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】ワニに噛まれるのは誰だ！ワニワニパニック！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BS9gQNoTJXA/hqdefault.jpg",
+      "publishedAt": "2026-10-30T09:30:21Z",
+      "live": false
+    },
+    {
+      "id": "S1Pc8FIRGmk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【全部知ってる？】ミクテト人気曲メドレー🎶【眠雲ツクリ/ミリプロ】 #vtuber #ボカロ",
+      "thumb": "https://i.ytimg.com/vi/S1Pc8FIRGmk/hqdefault.jpg",
+      "publishedAt": "2026-10-30T09:00:37Z",
+      "live": false
+    },
+    {
+      "id": "-93KpvKtvMs",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ】ダイヤをたくさん掘るまで寝れない耐久の、はじまりはじまり～【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/-93KpvKtvMs/hqdefault.jpg?v=6ae43547",
+      "publishedAt": "2026-10-30T09:00:36Z",
+      "live": false
+    },
+    {
+      "id": "BgHFeFVFe9Y",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "LET ME OUTSIDE！リズのShortsオリ曲歌ってみた🌂🖤┊︎#音ノ乃のの #LETMEOUTSIDE #雨夜リズ #shorts",
+      "thumb": "https://i.ytimg.com/vi/BgHFeFVFe9Y/hqdefault.jpg",
+      "publishedAt": "2026-10-30T09:00:05Z",
+      "live": false
+    },
+    {
       "id": "Q6TwGrqk0yo",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -154,16 +309,6 @@
       "en": {
         "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
       }
-    },
-    {
-      "id": "45YiKEpUiXo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 告知アリ！ 】マシュマロ50個食べるまで告知終われません！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/45YiKEpUiXo/hqdefault.jpg?v=6ae3767d",
-      "publishedAt": "2026-10-29T16:38:19Z",
-      "live": false
     },
     {
       "id": "xR9wTSCaLvk",
@@ -236,6 +381,16 @@
       "en": {
         "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
       }
+    },
+    {
+      "id": "TSGgqNLUyS8",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "みんなで誕生日ぶち上げてくれ！！！【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TSGgqNLUyS8/hqdefault.jpg?v=6ae32eb2",
+      "publishedAt": "2026-10-29T11:32:00Z",
+      "live": false
     },
     {
       "id": "mTX5KymYSFA",
@@ -366,150 +521,35 @@
       "en": {
         "title": "[Verification] Will professional illustrations become better if I draw according to the advice of 1,300 viewers? [Konomi Sweet Wolf]"
       }
-    },
-    {
-      "id": "rBKwnBHQB2M",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】バレずに隠れろ！全員見つけれる？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rBKwnBHQB2M/hqdefault.jpg",
-      "publishedAt": "2026-10-28T09:00:35Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Hide without being found out! Can you find them all? [#MilliPro]"
-      }
-    },
-    {
-      "id": "qcrAFW7Mgtc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【最後まで歌える？】超早口ボカロメドレー　第二段！【眠雲ツクリ/ミリプロ】 #vtuber #歌ってみた #ボカロ",
-      "thumb": "https://i.ytimg.com/vi/qcrAFW7Mgtc/hqdefault.jpg",
-      "publishedAt": "2026-10-28T09:00:15Z",
-      "live": false,
-      "en": {
-        "title": "[Can you sing until the end? ] Super fast Vocaloid medley second stage! [Nemugumo Tsukuri/MilliPro] #vtuber #I tried singing #Vocaloid"
-      }
-    },
-    {
-      "id": "wWQMEVgOVmI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
-      "publishedAt": "2026-10-27T16:42:16Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] First time! Defeat Soloendra! Where is the fortress? ? 🏹 [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "b79EbktKYoU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ガキ！？】鬼ノ宴 歌ってみた【 海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/b79EbktKYoU/hqdefault.jpg",
-      "publishedAt": "2026-10-27T09:01:37Z",
-      "live": false,
-      "en": {
-        "title": "[Gaki! ? ] I tried singing Oninoen [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "GNACCAa8GFo",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】信用できない言葉 #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/GNACCAa8GFo/hqdefault.jpg",
-      "publishedAt": "2026-10-27T09:00:14Z",
-      "live": false,
-      "en": {
-        "title": "[Anime] Untrustworthy words #MilliPro #anime"
-      }
-    },
-    {
-      "id": "IMBeVof6pOY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
-      "publishedAt": "2026-10-26T15:27:07Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Endurance for 460,000 people! ! ! [Rako Otonose/MilliPro]"
-      }
-    },
-    {
-      "id": "jwRK8qTpW2w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Don't Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
-      "publishedAt": "2026-10-26T15:18:21Z",
-      "live": false,
-      "en": {
-        "title": "〖 Don't Drop The Cake 〗I'll never drop it! ! ! Seriously, leave it to me! ! ! ! 〖 Nemugumo Tsukuri / MilliPro 〗"
-      }
-    },
-    {
-      "id": "IUbBRVm4aD4",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
-      "publishedAt": "2026-10-26T14:27:55Z",
-      "live": false,
-      "en": {
-        "title": "A new life without a refrigerator, microwave, or washing machine [Yawn/Demon Speed/MilliPro]"
-      }
-    },
-    {
-      "id": "LAXQ38xCsUI",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
-      "publishedAt": "2026-10-26T11:44:46Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Guerrilla! Let's do our best this week too! [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "TrrjmgVx0qU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg",
-      "publishedAt": "2026-10-26T11:33:52Z",
-      "live": false,
-      "en": {
-        "title": "[Does not open. [Laundry] I have plans after this, so could you please not lock me up? [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "o5hk_GzbYCQ",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "『デビットビット』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/o5hk_GzbYCQ/hqdefault.jpg",
-      "publishedAt": "2026-10-26T09:00:34Z",
-      "live": false,
-      "en": {
-        "title": "I tried singing “Debit Bit” [Rei Yugiri/MilliPro]"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "-93KpvKtvMs",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【マイクラ】ダイヤをたくさん掘るまで寝れない耐久の、はじまりはじまり～【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/-93KpvKtvMs/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T09:00:36Z",
+      "status": "live"
+    },
+    {
+      "id": "oxAEFK0J86A",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oxAEFK0J86A/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T11:01:08Z",
+      "status": "live"
+    },
+    {
+      "id": "cPbBrZ64rRg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T11:01:14Z",
+      "status": "live"
+    }
+  ]
 }
