@@ -481,6 +481,25 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "ブルーアンビエンス",
+      "key": "ブルアンビエンス＆",
+      "urls": [
+        {
+          "id": "KyuXXAxFI60",
+          "memberId": "raco",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "id": "KyuXXAxFI60",
+          "memberId": "rei",
+          "publishedAt": "2026-10-30"
+        }
+      ],
+      "en": {
+        "title": "blue ambience"
+      }
+    },
+    {
       "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
       "key": "ギタと孤独と蒼い惑星",
       "urls": [
@@ -2947,22 +2966,6 @@ window.SONGS = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    {
-      "title": "ブルーアンビエンス",
-      "key": "ブルアンビエンス＆",
-      "urls": [
-        {
-          "id": "KyuXXAxFI60",
-          "memberId": "raco",
-          "publishedAt": "2026-10-30"
-        },
-        {
-          "id": "KyuXXAxFI60",
-          "memberId": "rei",
-          "publishedAt": "2026-10-30"
-        }
-      ]
     },
     {
       "title": "Henceforth",

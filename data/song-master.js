@@ -2,6 +2,15 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-10-30",
   "songs": {
+    "ブルアンビエンス＆": {
+      "title": "ブルーアンビエンス (feat. asmi)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Unity - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Blue Ambience (feat. asmi)"
+      }
+    },
     "ギタと孤独と蒼い惑星": {
       "title": "もう一度キスしたかった",
       "artist": "B'z",
@@ -156,13 +165,10 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump!",
-      "artist": "μ's",
-      "album": "μ's Complete BEST BOX Chapter.01",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
-      "en": {
-        "title": "Summer color picture 1,2,Jump!"
-      }
+      "title": "夏色えがおで1,2,Jump! (NICO Mix)",
+      "artist": "矢澤にこ(CV.徳井青空)",
+      "album": "ラブライブ! Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/55/e1/b155e1c4-d79d-68b1-2ac2-4247945356da/4540774200580.png/600x600bb.jpg"
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -175,7 +181,7 @@ window.SONG_MASTER = {
     },
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
-      "artist": "じん",
+      "artist": "JIN",
       "album": "メカクシティデイズ",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f6/5b/57/f65b5760-739b-b207-9f1d-42fdbabb1580/4582290382272_cover.jpg/600x600bb.jpg",
       "en": {
@@ -321,12 +327,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
       "en": {
-        "title": "finale"
+        "title": "Finale."
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -606,10 +612,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "StarRingChild",
+      "artist": "Aimer",
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -642,12 +648,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "メロリ",
-      "artist": "Hey! Say! JUMP",
-      "album": "S say",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg",
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
       "en": {
-        "title": "Melori"
+        "title": "Feels good"
       }
     },
     "1000年生きてる": {
@@ -1177,9 +1183,9 @@ window.SONG_MASTER = {
     },
     "可愛くてごめん": {
       "title": "可愛くてごめん",
-      "artist": "AKB48",
-      "album": "なんてったってAKB48",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/1e/1d/a01e1d85-4912-2a18-2f1f-4280346a4108/24UM1IM35411.rgb.jpg/600x600bb.jpg",
+      "artist": "Ado",
+      "album": "Adoの歌ってみたアルバム",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/e9/42/fae942a7-dca5-6cc0-9e49-4a4f2da6b81e/23UM1IM45777.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Sorry for being cute"
       }
@@ -1212,15 +1218,6 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/68/f6/5b68f64c-c7d5-e95d-18ac-c13915e44fe7/199999632047.png/600x600bb.jpg",
       "en": {
         "title": "A faint flower"
-      }
-    },
-    "ブルアンビエンス＆": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Blue Ambience (feat. asmi)"
       }
     },
     "henceforth": {
@@ -1497,7 +1494,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1743,12 +1740,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
-      "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
       "en": {
-        "title": "shutter"
+        "title": "Ichikayori world"
       }
     },
     "メルティランドナイトメア": {
@@ -1857,12 +1854,12 @@ window.SONG_MASTER = {
       }
     },
     "クライヤいました": {
-      "title": "白日",
-      "artist": "King Gnu",
-      "album": "白日 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3e/b8/ef/3eb8ef78-c575-eb81-f982-aaec74b5fe53/jacket_BVXX01177B00Z_550.jpg/600x600bb.jpg",
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
       "en": {
-        "title": "daylight"
+        "title": "1.15 million kilometers of film"
       }
     },
     "アイロニいました": {
@@ -2127,10 +2124,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "Streamer",
-      "artist": "すとぷり",
-      "album": "Streamer - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
+      "title": "SHAMPOO",
+      "artist": "PUNPEE, BIM & Elle Teresa",
+      "album": "Iced Out - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",

@@ -5,8 +5,11 @@ window.KARAOKE = [
     "memberId": "liz",
     "publishedAt": "2026-10-30",
     "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
-    "duration": 0,
-    "songs": []
+    "duration": 10617,
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] Thank you for the 230,000 people and we'll do the highly rated 2300 Endurance Song Frame! [Ameya Liz/MilliPro]"
+    }
   },
   {
     "id": "3sKrr49yuEE",
@@ -14,7 +17,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-30",
     "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
     "duration": 0,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Morning song slot] Early risers, gather ⟡. · [Rei Yugiri/MilliPro]"
+    }
   },
   {
     "id": "m_ciByRfBWg",
