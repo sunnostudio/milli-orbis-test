@@ -1,50 +1,17 @@
 {
-  "updatedAt": "2026-10-30T13:45:41.569Z",
+  "updatedAt": "2026-10-30T22:45:05.518Z",
   "streams": [
-    {
-      "id": "-93KpvKtvMs",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ】ダイヤをたくさん掘るまで寝れない耐久の、はじまりはじまり～【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/-93KpvKtvMs/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T09:00:36Z",
-      "status": "live"
-    },
-    {
-      "id": "oxAEFK0J86A",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oxAEFK0J86A/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T11:01:08Z",
-      "status": "live"
-    },
-    {
-      "id": "cPbBrZ64rRg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T11:01:14Z",
-      "status": "live"
-    },
-    {
-      "id": "TSGgqNLUyS8",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "みんなで誕生日ぶち上げてくれ！！！【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/TSGgqNLUyS8/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T14:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "3sKrr49yuEE",
       "memberId": "rei",
       "member": "夕霧レイ",
       "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/3sKrr49yuEE/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T22:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-10-30T22:00:28Z",
+      "status": "live",
+      "en": {
+        "title": "[Morning song slot] Early risers, gather ⟡. · [Rei Yugiri/MilliPro]"
+      }
     },
     {
       "id": "jpeNw-now8I",
@@ -53,7 +20,22 @@
       "title": "【お片付け】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
       "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg",
       "scheduledStartTime": "2026-10-31T03:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[Cleaning up] Even though it's Halloween, the store is a mess! ? [Tidy Up the Halloween Shop]"
+      }
+    },
+    {
+      "id": "gYAqfSermVc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-31T05:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Drawing] Look at the autumn clothes that everyone has come up with and draw them! [#AmakamiLive/#Millipro]"
+      }
     },
     {
       "id": "Np7iIJhRB50",
@@ -74,7 +56,10 @@
       "title": "【雑談】10月振り返り&amp;初配信のスパチャ読みする！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/xYPjcKTXcL4/hqdefault.jpg",
       "scheduledStartTime": "2026-10-31T10:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[Chat] Looking back at October & reading the first distribution of Supercha! ! [Aoi Kairin/MilliPro]"
+      }
     },
     {
       "id": "WEI1si3sFaA",
@@ -89,6 +74,18 @@
       }
     },
     {
+      "id": "d5X6P7wMibE",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【雑談】今月もおつかれさまだようヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/d5X6P7wMibE/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-31T14:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Chat] Thank you for your hard work this monthヽ(.⊿·) [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
       "id": "h9nYQNJBBts",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -98,6 +95,18 @@
       "status": "upcoming",
       "en": {
         "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
+      }
+    },
+    {
+      "id": "8F-C9ivtBnE",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【告知】🌟魔法少女コレクション販売中！",
+      "thumb": "https://i.ytimg.com/vi/8F-C9ivtBnE/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-03T13:30:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Notice] 🌟Magical Girl Collection now on sale!"
       }
     },
     {
@@ -175,6 +184,97 @@
   ],
   "videos": [
     {
+      "id": "3sKrr49yuEE",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/3sKrr49yuEE/hqdefault.jpg?v=6ae49e05",
+      "publishedAt": "2026-10-30T22:00:28Z",
+      "live": false,
+      "en": {
+        "title": "[Morning song slot] Early risers, gather ⟡. · [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "gYAqfSermVc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg?v=6ae4e093",
+      "publishedAt": "2026-10-30T18:23:13Z",
+      "live": false,
+      "en": {
+        "title": "[Drawing] Look at the autumn clothes that everyone has come up with and draw them! [#AmakamiLive/#Millipro]"
+      }
+    },
+    {
+      "id": "-93KpvKtvMs",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ】ダイヤをたくさん掘るまで寝れない耐久の、はじまりはじまり～【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/-93KpvKtvMs/hqdefault.jpg",
+      "publishedAt": "2026-10-30T18:14:28Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Endurance where you can't sleep until you dig a lot of diamonds, the beginning is the beginning ~ [#AmakamiLive]"
+      }
+    },
+    {
+      "id": "d5X6P7wMibE",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】今月もおつかれさまだようヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/d5X6P7wMibE/hqdefault.jpg?v=6ae4c683",
+      "publishedAt": "2026-10-30T16:32:01Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Thank you for your hard work this monthヽ(.⊿·) [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
+      "id": "TSGgqNLUyS8",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【#あくび誕生祭2026】みんなで誕生日ぶち上げてくれ！！！【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TSGgqNLUyS8/hqdefault.jpg",
+      "publishedAt": "2026-10-30T15:17:13Z",
+      "live": false,
+      "en": {
+        "title": "[#Yawn Birthday Festival 2026] Everyone celebrate your birthday! ! ! [Yawn/Demon Speed/Millipro]"
+      }
+    },
+    {
+      "id": "cPbBrZ64rRg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg",
+      "publishedAt": "2026-10-30T15:05:26Z",
+      "live": false,
+      "en": {
+        "title": "[DressMaker] Time limit is 25 minutes! ? Make dresses for 7 Millipro members! ! [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "oxAEFK0J86A",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oxAEFK0J86A/hqdefault.jpg",
+      "publishedAt": "2026-10-30T14:08:22Z",
+      "live": false,
+      "en": {
+        "title": "[Song Frame] Thank you for the 230,000 people and we'll do the highly rated 2300 Endurance Song Frame! [Ameya Liz/MilliPro]"
+      }
+    },
+    {
       "id": "7t1ZgltRNp8",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -182,17 +282,10 @@
       "title": "〖 雑談 〗急激な寒さに、怒っています〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/7t1ZgltRNp8/hqdefault.jpg",
       "publishedAt": "2026-10-30T13:45:10Z",
-      "live": true
-    },
-    {
-      "id": "3sKrr49yuEE",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/3sKrr49yuEE/hqdefault.jpg?v=6ae49e05",
-      "publishedAt": "2026-10-30T13:39:15Z",
-      "live": false
+      "live": true,
+      "en": {
+        "title": "〖 Chat 〗 I'm angry about the sudden cold 〖 Nemugumo Tsukuri / MilliPro 〗"
+      }
     },
     {
       "id": "45YiKEpUiXo",
@@ -202,7 +295,10 @@
       "title": "【 告知アリ！ 】マシュマロ50個食べるまで告知終われません！ ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/45YiKEpUiXo/hqdefault.jpg",
       "publishedAt": "2026-10-30T12:41:59Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Announcement ant! ] The announcement will not end until you eat 50 marshmallows! ⟡.· [Rei Yugiri/MilliPro]"
+      }
     },
     {
       "id": "KyuXXAxFI60",
@@ -212,27 +308,10 @@
       "title": "ブルーアンビエンス / 夕霧レイ＆音ノ瀬らこ(cover)",
       "thumb": "https://i.ytimg.com/vi/KyuXXAxFI60/hqdefault.jpg",
       "publishedAt": "2026-10-30T12:30:08Z",
-      "live": false
-    },
-    {
-      "id": "cPbBrZ64rRg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg?v=6ae464ea",
-      "publishedAt": "2026-10-30T11:01:14Z",
-      "live": false
-    },
-    {
-      "id": "oxAEFK0J86A",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oxAEFK0J86A/hqdefault.jpg?v=6ae460c3",
-      "publishedAt": "2026-10-30T11:01:08Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "Blue Ambience / Rei Yugiri & Rako Otonose (cover)"
+      }
     },
     {
       "id": "jpeNw-now8I",
@@ -242,7 +321,10 @@
       "title": "【お片付け】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
       "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg?v=6ae476b3",
       "publishedAt": "2026-10-30T10:51:29Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Cleaning up] Even though it's Halloween, the store is a mess! ? [Tidy Up the Halloween Shop]"
+      }
     },
     {
       "id": "BS9gQNoTJXA",
@@ -252,7 +334,10 @@
       "title": "【マイクラ】ワニに噛まれるのは誰だ！ワニワニパニック！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/BS9gQNoTJXA/hqdefault.jpg",
       "publishedAt": "2026-10-30T09:30:21Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Who will be bitten by a crocodile? Wani Wani Panic! [#MilliPro]"
+      }
     },
     {
       "id": "S1Pc8FIRGmk",
@@ -262,17 +347,10 @@
       "title": "【全部知ってる？】ミクテト人気曲メドレー🎶【眠雲ツクリ/ミリプロ】 #vtuber #ボカロ",
       "thumb": "https://i.ytimg.com/vi/S1Pc8FIRGmk/hqdefault.jpg",
       "publishedAt": "2026-10-30T09:00:37Z",
-      "live": false
-    },
-    {
-      "id": "-93KpvKtvMs",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ】ダイヤをたくさん掘るまで寝れない耐久の、はじまりはじまり～【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/-93KpvKtvMs/hqdefault.jpg?v=6ae43547",
-      "publishedAt": "2026-10-30T09:00:36Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Do you know everything? ] Mixtet popular song medley 🎶 [Nemugumo Tsukuri/Miripro] #vtuber #Vocaloid"
+      }
     },
     {
       "id": "BgHFeFVFe9Y",
@@ -282,7 +360,10 @@
       "title": "LET ME OUTSIDE！リズのShortsオリ曲歌ってみた🌂🖤┊︎#音ノ乃のの #LETMEOUTSIDE #雨夜リズ #shorts",
       "thumb": "https://i.ytimg.com/vi/BgHFeFVFe9Y/hqdefault.jpg",
       "publishedAt": "2026-10-30T09:00:05Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "LET ME OUTSIDE! I tried singing Liz's Shorts original song 🌂🖤┊︎ #Otononono #LETMEOUTSIDE #Ameya Liz #shorts"
+      }
     },
     {
       "id": "Q6TwGrqk0yo",
@@ -331,7 +412,10 @@
       "title": "【雑談】10月振り返り&初配信のスパチャ読みする！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/xYPjcKTXcL4/hqdefault.jpg?v=6ae36068",
       "publishedAt": "2026-10-29T15:04:06Z",
-      "live": true
+      "live": true,
+      "en": {
+        "title": "[Chat] Looking back at October & reading the first distribution of Supercha! ! [Aoi Kairin/MilliPro]"
+      }
     },
     {
       "id": "ThGSH_Jhj14",
@@ -341,7 +425,10 @@
       "title": "【雑談】深夜のラジオ雑談🎶歌ったりもするのかもナ🎶【虹深°ぬふ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ThGSH_Jhj14/hqdefault.jpg",
       "publishedAt": "2026-10-29T14:20:54Z",
-      "live": true
+      "live": true,
+      "en": {
+        "title": "[Chat] Late night radio chat 🎶 Maybe he sings 🎶 [Rainbow ° Nufu/MilliPro]"
+      }
     },
     {
       "id": "DgsTtxGIiJY",
@@ -381,16 +468,6 @@
       "en": {
         "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
       }
-    },
-    {
-      "id": "TSGgqNLUyS8",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "みんなで誕生日ぶち上げてくれ！！！【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/TSGgqNLUyS8/hqdefault.jpg?v=6ae32eb2",
-      "publishedAt": "2026-10-29T11:32:00Z",
-      "live": false
     },
     {
       "id": "mTX5KymYSFA",
@@ -495,61 +572,20 @@
       "en": {
         "title": "[APEX] Yochi Yochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
       }
-    },
-    {
-      "id": "eGVLXNna8qU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg",
-      "publishedAt": "2026-10-28T15:17:34Z",
-      "live": false,
-      "en": {
-        "title": "[APEX] Yochiyochiepe! ? Finally, I am a senior too...! ? w/Rako Otonose, Aoi Kairin [Yuragi Yura/MilliPro] #Nobano Asobiba"
-      }
-    },
-    {
-      "id": "NKTx6T5QsHE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【検証】視聴者1,300人のアドバイス通りに描いたらプロ絵師のイラストは上手くなるのか？【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/NKTx6T5QsHE/hqdefault.jpg",
-      "publishedAt": "2026-10-28T10:00:07Z",
-      "live": false,
-      "en": {
-        "title": "[Verification] Will professional illustrations become better if I draw according to the advice of 1,300 viewers? [Konomi Sweet Wolf]"
-      }
     }
   ],
   "live": [
     {
-      "id": "-93KpvKtvMs",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ】ダイヤをたくさん掘るまで寝れない耐久の、はじまりはじまり～【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/-93KpvKtvMs/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T09:00:36Z",
-      "status": "live"
-    },
-    {
-      "id": "oxAEFK0J86A",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oxAEFK0J86A/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T11:01:08Z",
-      "status": "live"
-    },
-    {
-      "id": "cPbBrZ64rRg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-30T11:01:14Z",
-      "status": "live"
+      "id": "3sKrr49yuEE",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/3sKrr49yuEE/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-30T22:00:28Z",
+      "status": "live",
+      "en": {
+        "title": "[Morning song slot] Early risers, gather ⟡. · [Rei Yugiri/MilliPro]"
+      }
     }
   ]
 }

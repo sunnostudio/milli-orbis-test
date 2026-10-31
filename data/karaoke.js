@@ -16,7 +16,7 @@ window.KARAOKE = [
     "memberId": "rei",
     "publishedAt": "2026-10-30",
     "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
-    "duration": 0,
+    "duration": 7415,
     "songs": [],
     "en": {
       "title": "[Morning song slot] Early risers, gather ⟡. · [Rei Yugiri/MilliPro]"
