@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-31",
+  "generatedAt": "2026-11-01",
   "songs": {
     "ブルアンビエンス＆": {
       "title": "ブルーアンビエンス (feat. asmi)",
@@ -12,13 +12,10 @@ window.SONG_MASTER = {
       }
     },
     "ギタと孤独と蒼い惑星": {
-      "title": "もう一度キスしたかった",
-      "artist": "B'z",
-      "album": "IN THE LIFE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg",
-      "en": {
-        "title": "I wanted to kiss you again"
-      }
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -168,7 +165,10 @@ window.SONG_MASTER = {
       "title": "夏色えがおで1,2,Jump! (NICO Mix)",
       "artist": "矢澤にこ(CV.徳井青空)",
       "album": "ラブライブ! Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/55/e1/b155e1c4-d79d-68b1-2ac2-4247945356da/4540774200580.png/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/55/e1/b155e1c4-d79d-68b1-2ac2-4247945356da/4540774200580.png/600x600bb.jpg",
+      "en": {
+        "title": "Natsuiro Egaode 1,2,Jump! (NICO Mix)"
+      }
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -301,9 +301,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
+      "artist": "麻婆豆腐",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/f1/d5/abf1d530-f67d-b8d6-69dc-18af39756a63/SCGA-00310.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -1256,8 +1256,8 @@ window.SONG_MASTER = {
     "adrenaline!!!trysail": {
       "title": "adrenaline!!!",
       "artist": "TrySail",
-      "album": "TAILWIND",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cd/f4/70/cdf4707d-3197-bd1b-20ee-cdb4fecd08a1/jacket_VVCL01087B00Z_550.jpg/600x600bb.jpg"
+      "album": "adrenaline!!! - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/d2/02/4cd2020b-7ece-0750-e67e-db707b14152e/jacket_VVCL01050B00Z_550.jpg/600x600bb.jpg"
     },
     "ぼなぺてぃと♡sブレンドa": {
       "title": "ぼなぺてぃーと♡S (Cover)",
@@ -1740,12 +1740,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
+      "title": "かくれんぼ",
+      "artist": "優里",
+      "album": "かくれんぼ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
       "en": {
-        "title": "Ichikayori world"
+        "title": "hide and seek"
       }
     },
     "メルティランドナイトメア": {
