@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-01T13:58:23.920Z",
+  "updatedAt": "2026-11-01T22:35:01.715Z",
   "streams": [
-    {
-      "id": "h9nYQNJBBts",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！",
-      "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-01T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
-      }
-    },
     {
       "id": "Whn-Yo5Ccps",
       "memberId": "rei",
@@ -24,6 +12,42 @@
       "en": {
         "title": "[Japanese Ramen Simulator] Yugiri will drain the hot water! ⟡.· [Rei Yugiri/MilliPro]"
       }
+    },
+    {
+      "id": "KuAKFJRffQg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】２♡歳になる瞬間、一緒に迎えてくれる？🎂【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/KuAKFJRffQg/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-02T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "QGLcfX5WSqQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】※重大告知あり⁉️復帰後初めての歌枠🎉✨【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QGLcfX5WSqQ/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-03T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "7YuPprHMdDo",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Gamble With Your Friends】一攫千金！ギャンブルで借金返済します【鹿乃まほろ/ミリプロ】with 碧依さくら・しろまんた・Cpt・BobSappAim",
+      "thumb": "https://i.ytimg.com/vi/7YuPprHMdDo/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-03T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "IkKsQeRxBeI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 メン限✨冒頭30分無料✨ 】2か月ぶりの飲酒！？休止後初のぽしゃけ解禁！🍻【 #ゆらぎゆらお誕生日だぞ2026 】",
+      "thumb": "https://i.ytimg.com/vi/IkKsQeRxBeI/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-03T12:30:00Z",
+      "status": "upcoming"
     },
     {
       "id": "8F-C9ivtBnE",
@@ -71,6 +95,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁MilliPro Halloween Collection 2026🔧"
+      }
+    },
+    {
+      "id": "h9nYQNJBBts",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！",
+      "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-30T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
       }
     },
     {
@@ -123,6 +159,66 @@
     }
   ],
   "videos": [
+    {
+      "id": "qojMojsz3Tc",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【雑談】ねおちしていきなさい┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/qojMojsz3Tc/hqdefault.jpg",
+      "publishedAt": "2026-11-01T20:17:07Z",
+      "live": true
+    },
+    {
+      "id": "HQ3K_P6Pum0",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【朝活】月曜の朝、雨宿りしませんか？【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/HQ3K_P6Pum0/hqdefault.jpg?v=6ae77f73",
+      "publishedAt": "2026-11-01T18:05:36Z",
+      "live": false
+    },
+    {
+      "id": "IkKsQeRxBeI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 メン限✨冒頭30分無料✨ 】2か月ぶりの飲酒！？休止後初のぽしゃけ解禁！🍻【 #ゆらぎゆらお誕生日だぞ2026 】",
+      "thumb": "https://i.ytimg.com/vi/IkKsQeRxBeI/hqdefault.jpg?v=6ae769d5",
+      "publishedAt": "2026-11-01T16:33:23Z",
+      "live": false
+    },
+    {
+      "id": "QGLcfX5WSqQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】※重大告知あり⁉️復帰後初めての歌枠🎉✨【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QGLcfX5WSqQ/hqdefault.jpg?v=6ae767e4",
+      "publishedAt": "2026-11-01T16:25:06Z",
+      "live": false
+    },
+    {
+      "id": "7YuPprHMdDo",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Gamble With Your Friends】一攫千金！ギャンブルで借金返済します【鹿乃まほろ/ミリプロ】with 碧依さくら・しろまんた・Cpt・BobSappAim",
+      "thumb": "https://i.ytimg.com/vi/7YuPprHMdDo/hqdefault.jpg?v=6ae76514",
+      "publishedAt": "2026-11-01T16:13:06Z",
+      "live": false
+    },
+    {
+      "id": "KuAKFJRffQg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】２♡歳になる瞬間、一緒に迎えてくれる？🎂【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/KuAKFJRffQg/hqdefault.jpg?v=6ae7646f",
+      "publishedAt": "2026-11-01T16:10:20Z",
+      "live": false
+    },
     {
       "id": "ytlaS2AO4Pg",
       "memberId": "mahoro",
@@ -280,19 +376,6 @@
       }
     },
     {
-      "id": "jpeNw-now8I",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【耐久】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
-      "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg",
-      "publishedAt": "2026-10-31T09:11:23Z",
-      "live": false,
-      "en": {
-        "title": "[Durability] Even though it's Halloween, the store is a mess! ? [Tidy Up the Halloween Shop]"
-      }
-    },
-    {
       "id": "iTtWZgMCfUY",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -384,19 +467,6 @@
       }
     },
     {
-      "id": "cPbBrZ64rRg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 DressMaker 】制限時間25分！？ミリプロメンバー7人のドレスを作る！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cPbBrZ64rRg/hqdefault.jpg",
-      "publishedAt": "2026-10-30T15:05:26Z",
-      "live": false,
-      "en": {
-        "title": "[DressMaker] Time limit is 25 minutes! ? Make dresses for 7 Millipro members! ! [Yuragiyura/Millipro]"
-      }
-    },
-    {
       "id": "oxAEFK0J86A",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -459,58 +529,6 @@
       "live": false,
       "en": {
         "title": "[Minecraft] Who will be bitten by a crocodile? Wani Wani Panic! [#MilliPro]"
-      }
-    },
-    {
-      "id": "S1Pc8FIRGmk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【全部知ってる？】ミクテト人気曲メドレー🎶【眠雲ツクリ/ミリプロ】 #vtuber #ボカロ",
-      "thumb": "https://i.ytimg.com/vi/S1Pc8FIRGmk/hqdefault.jpg",
-      "publishedAt": "2026-10-30T09:00:37Z",
-      "live": false,
-      "en": {
-        "title": "[Do you know everything? ] Mixtet popular song medley 🎶 [Nemugumo Tsukuri/Miripro] #vtuber #Vocaloid"
-      }
-    },
-    {
-      "id": "BgHFeFVFe9Y",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "LET ME OUTSIDE！リズのShortsオリ曲歌ってみた🌂🖤┊︎#音ノ乃のの #LETMEOUTSIDE #雨夜リズ #shorts",
-      "thumb": "https://i.ytimg.com/vi/BgHFeFVFe9Y/hqdefault.jpg",
-      "publishedAt": "2026-10-30T09:00:05Z",
-      "live": false,
-      "en": {
-        "title": "LET ME OUTSIDE! I tried singing Liz's Shorts original song 🌂🖤┊︎ #Otononono #LETMEOUTSIDE #Ameya Liz #shorts"
-      }
-    },
-    {
-      "id": "Q6TwGrqk0yo",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】おやすみ日でも歌くらい歌いたいよね┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/Q6TwGrqk0yo/hqdefault.jpg",
-      "publishedAt": "2026-10-29T18:03:45Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] I want to sing at least a song even on a good night ┊︎ #Otononono #Nononya"
-      }
-    },
-    {
-      "id": "0QCgioCp__A",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/0QCgioCp__A/hqdefault.jpg",
-      "publishedAt": "2026-10-29T16:41:18Z",
-      "live": false,
-      "en": {
-        "title": "[Drinking Miscellaneous] Winter means alcohol, alcohol means winter ⟡.· [Rei Yugiri/MilliPro]"
       }
     }
   ],
