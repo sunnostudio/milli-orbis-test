@@ -1,9 +1,8 @@
-# Halloweenは準備中のため事前登録ページ以外は公開しない (404ページへ転送)
+# Halloweenは2026-11-01に2027年へ延期。全ページ非公開 (404ページへ転送)
 # 注意1: Pagesは.htmlを拡張子なしに正規化(308)してから判定するため、
 # _redirectsには拡張子なしで記述する。リライト(200)で.htmlを指定すると
 # 正規化と往復して無限ループになるため使わない。
-# 注意2: 事前登録にはルールを置かない。静的ファイル解決に任せると
-# /cursorsと同様に200で配信される。新規ページ追加時はここに301を追記すること。
+# 注意2: 新規ページ追加時はここに301を追記すること。
 # ファイル自体を上げたくない場合はダッシュボードのビルドコマンドに `rm -rf halloween` を設定
 /halloween /404.html 301
 /halloween/ /404.html 301
@@ -16,5 +15,7 @@
 /halloween/floor-6-room /404.html 301
 /halloween/floor-13 /404.html 301
 /halloween/invite /404.html 301
+/halloween/pre-register /404.html 301
+/halloween/pre-register.html /404.html 301
 /halloween/elevator-demo /404.html 301
 /halloween/invite-demo /404.html 301
