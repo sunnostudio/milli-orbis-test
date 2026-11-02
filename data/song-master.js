@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-01",
+  "generatedAt": "2026-11-02",
   "songs": {
     "ブルアンビエンス＆": {
       "title": "ブルーアンビエンス (feat. asmi)",
@@ -12,13 +12,10 @@ window.SONG_MASTER = {
       }
     },
     "ギタと孤独と蒼い惑星": {
-      "title": "もう一度キスしたかった",
-      "artist": "B'z",
-      "album": "IN THE LIFE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg",
-      "en": {
-        "title": "I wanted to kiss you again"
-      }
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -304,9 +301,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
+      "artist": "麻婆豆腐",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/f1/d5/abf1d530-f67d-b8d6-69dc-18af39756a63/SCGA-00310.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -833,15 +830,6 @@ window.SONG_MASTER = {
         "title": "loki"
       }
     },
-    "ボルテッカ": {
-      "title": "ボルテッカー",
-      "artist": "DECO*27 & 初音ミク",
-      "album": "ボルテッカー - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/b7/b7/2db7b788-21d4-3512-d086-2c9802285fc5/4511820-96167.jpg/600x600bb.jpg",
-      "en": {
-        "title": "voltecker"
-      }
-    },
     "花の塔さユり": {
       "title": "花の塔",
       "artist": "さユり",
@@ -993,13 +981,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
-      "artist": "Vivid BAD SQUAD",
-      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
-      "en": {
-        "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
-      }
+      "title": "MANIHEKE",
+      "artist": "アイリフドーパ",
+      "album": "GENTEN - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",
@@ -1116,7 +1101,10 @@ window.SONG_MASTER = {
       "title": "マーシャル・マキシマイザー (feat. 可不)",
       "artist": "柊マグネタイト",
       "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Marshall Maximizer (feat. Kafu)"
+      }
     },
     "祝福": {
       "title": "祝福",
@@ -1582,9 +1570,9 @@ window.SONG_MASTER = {
     },
     "キュトなカノジョ": {
       "title": "キュートなカノジョ",
-      "artist": "春猿火",
-      "album": "CREAM PUFF LIVE 2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/24/18/0d241844-7ee4-5192-cd81-ca07eae4607a/ANTCD-46565.jpg/600x600bb.jpg",
+      "artist": "IZUMI",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
         "title": "cute girlfriend"
       }
@@ -1650,7 +1638,10 @@ window.SONG_MASTER = {
       "title": "雨还没停 我还在等",
       "artist": "闰新",
       "album": "雨还没停 我还在等 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/44/be/bb44be0f-d605-1367-307d-4f1645158f78/4894965813951.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/44/be/bb44be0f-d605-1367-307d-4f1645158f78/4894965813951.jpg/600x600bb.jpg",
+      "en": {
+        "title": "The rain stopped and I was there."
+      }
     },
     "花に亡霊-ヨルシカ": {
       "title": "花に亡霊",
@@ -1752,12 +1743,12 @@ window.SONG_MASTER = {
       }
     },
     "ハイタ": {
-      "title": "ハイタ",
-      "artist": "Eve×Sou",
-      "album": "蒼",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7b/70/0e/7b700e6c-c679-567c-e1f8-5c89a25172e8/4562250641496_cover.jpg/600x600bb.jpg",
+      "title": "君はロックを聴かない",
+      "artist": "あいみょん",
+      "album": "青春のエキサイトメント",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/600x600bb.jpg",
       "en": {
-        "title": "Haita"
+        "title": "you don't listen to rock"
       }
     },
     "打上花火": {
@@ -2118,10 +2109,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "Streamer",
-      "artist": "すとぷり",
-      "album": "Streamer - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
+      "title": "SHAMPOO",
+      "artist": "PUNPEE, BIM & Elle Teresa",
+      "album": "Iced Out - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",

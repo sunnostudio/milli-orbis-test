@@ -6,24 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Milli Orbis イベントカレンダー
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:milli-orbis-e1c1d06@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
-DTSTART:20261102T110000Z
-DTEND:20261102T130000Z
-SUMMARY:【 Japanese Ramen Simulator 】ゆーぎりが湯切るぞ！ ⟡.· 【 夕霧レイ/ミリプロ 】
-URL:https://milli-unishare.pages.dev/#watch=Whn-Yo5Ccps
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-2d62b0d8@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
-DTSTART:20261102T140000Z
-DTEND:20261102T160000Z
-SUMMARY:【 #ゆらぎゆらお誕生日だぞ2026 】２♡歳になる瞬間、一緒に迎えてくれる？🎂【ゆらぎゆら/ミリプロ】
-URL:https://milli-unishare.pages.dev/#watch=KuAKFJRffQg
-END:VEVENT
-BEGIN:VEVENT
 UID:milli-orbis-7908306c@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261103T100000Z
 DTEND:20261103T120000Z
 SUMMARY:【 #ゆらぎゆらお誕生日だぞ2026 】※重大告知あり⁉️復帰後初めての歌枠🎉✨【ゆらぎゆら/ミリプロ】
@@ -31,7 +15,7 @@ URL:https://milli-unishare.pages.dev/#watch=QGLcfX5WSqQ
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-952660e9@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261103T110000Z
 DTEND:20261103T130000Z
 SUMMARY:【Gamble With Your Friends】一攫千金！ギャンブルで借金返済します【鹿乃まほろ/ミリプロ】with 碧依さくら・しろまんた・Cpt・BobSappAim
@@ -39,7 +23,7 @@ URL:https://milli-unishare.pages.dev/#watch=7YuPprHMdDo
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-ff2a75a8@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261103T123000Z
 DTEND:20261103T143000Z
 SUMMARY:【 メン限✨冒頭30分無料✨ 】2か月ぶりの飲酒！？休止後初のぽしゃけ解禁！🍻【 #ゆらぎゆらお誕生日だぞ2026 】
@@ -47,7 +31,7 @@ URL:https://milli-unishare.pages.dev/#watch=IkKsQeRxBeI
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-6ff67c75@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261103T133000Z
 DTEND:20261103T153000Z
 SUMMARY:【告知】🌟魔法少女コレクション販売中！
@@ -55,15 +39,23 @@ URL:https://milli-unishare.pages.dev/#watch=8F-C9ivtBnE
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1f9c0e1@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261103T143000Z
 DTEND:20261103T163000Z
 SUMMARY:【📢グッズ情報】魔法少女コレクション 2026 発売中！
 URL:https://milli-unishare.pages.dev/#watch=tUZw65HEVPc
 END:VEVENT
 BEGIN:VEVENT
+UID:milli-orbis-45f6a971@milli-orbis-portal.onrender.com
+DTSTAMP:20261102T164400Z
+DTSTART:20261107T110000Z
+DTEND:20261107T130000Z
+SUMMARY:【雑談】みんなのおもろ親戚おしえてや～～～～～┊︎#音ノ乃のの #ののん家
+URL:https://milli-unishare.pages.dev/#watch=lV08iY_IDzY
+END:VEVENT
+BEGIN:VEVENT
 UID:milli-orbis-5e048fd2@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261117T143000Z
 DTEND:20261117T163000Z
 SUMMARY:【📢グッズ情報】海琳あおい加入記念グッズ受注販売受付中🌱
@@ -71,7 +63,7 @@ URL:https://milli-unishare.pages.dev/#watch=1l1YkUzKuXs
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-ce8ffd8d@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261124T144500Z
 DTEND:20261124T164500Z
 SUMMARY:☁ミリプロ ハロウィンコレクション 2026🔧
@@ -79,7 +71,7 @@ URL:https://milli-unishare.pages.dev/#watch=ML6UdIQfYv0
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1352df82@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261130T145900Z
 DTEND:20261130T165900Z
 SUMMARY:【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！
@@ -87,7 +79,7 @@ URL:https://milli-unishare.pages.dev/#watch=h9nYQNJBBts
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-288abf7c@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20261231T145900Z
 DTEND:20261231T165900Z
 SUMMARY:【📢お知らせ】音ノ乃のの×タイクレコラボレーション！🤍
@@ -95,7 +87,7 @@ URL:https://milli-unishare.pages.dev/#watch=gjos7ccWkac
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-3c17c7af@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20270115T142500Z
 DTEND:20270115T162500Z
 SUMMARY:【📢イラスト技法書発売決定】現在販売中です！✨
@@ -103,7 +95,7 @@ URL:https://milli-unishare.pages.dev/#watch=sNJXQzJShuA
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-19da2734@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20270131T145900Z
 DTEND:20270131T165900Z
 SUMMARY:☁イオンオリジナルグッズ発売決定 🔧
@@ -111,7 +103,7 @@ URL:https://milli-unishare.pages.dev/#watch=FQUAaVHIEEo
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-a9d393b2@milli-orbis-portal.onrender.com
-DTSTAMP:20261101T223500Z
+DTSTAMP:20261102T164400Z
 DTSTART:20270301T110000Z
 DTEND:20270301T130000Z
 SUMMARY:【雑談】来年の私へ┊︎#音ノ乃のの #ののん家

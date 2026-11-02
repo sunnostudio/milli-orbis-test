@@ -1,6 +1,17 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "cYAYRJEnd0M",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-11-02",
+    "title": "〖 歌枠 〗11月、新機材で歌う〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 8857,
+    "songs": [],
+    "en": {
+      "title": "〖Singing frame〗Singing with new equipment in November〖Nemugumo Tsukuri / MilliPro〗"
+    }
+  },
+  {
     "id": "oxAEFK0J86A",
     "memberId": "liz",
     "publishedAt": "2026-10-30",
