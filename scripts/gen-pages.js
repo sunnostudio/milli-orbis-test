@@ -323,6 +323,7 @@ const mobileNav = (home) => `
       </div>
       <div class="drawer-section-label">セクション</div>
       <a href="${home}#home">Home</a>
+      <a href="news/" data-i18n="nav.news">お知らせ</a>
       <a href="${home}#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="${home}#members">Member Guide</a>
       <a href="${home}#calendar">Event Calendar</a>

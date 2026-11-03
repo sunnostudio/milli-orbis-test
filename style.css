@@ -1061,6 +1061,8 @@ img { max-width: 100%; }
 }
 #news .grid.grid-2 { align-items:start; }
 #newsList { align-content:start; }
+.news-all-wrap { margin-top: 18px; text-align: center; }
+.news-all-wrap .btn { padding: 8px 20px; font-size: 0.84rem; }
 @media (max-width: 720px) {
   #news .grid.grid-2 { gap:24px; }
 }

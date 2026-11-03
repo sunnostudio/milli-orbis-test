@@ -1,5 +1,5 @@
 /* Milli Orbis — ネットワーク優先のキャッシュでオフラインでも開けるようにする */
-var CACHE = "milli-orbis-v1";
+var CACHE = "milli-orbis-v2";
 
 self.addEventListener("install", function (e) {
   e.waitUntil(
@@ -21,6 +21,10 @@ self.addEventListener("activate", function (e) {
 
 self.addEventListener("fetch", function (e) {
   if (e.request.method !== "GET") return;
+  if (e.request.url.indexOf("/news/press/") !== -1) {
+    e.respondWith(fetch(e.request));
+    return;
+  }
   e.respondWith(
     fetch(e.request)
       .then(function (res) {

@@ -1185,38 +1185,25 @@
     var box = $("#newsList");
     if (!box) return;
     var EXPANDED = 4;
-    var html = NEWS.map(function (n, i) {
-      var more = n.url ? '<a class="btn btn-ghost news-more" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "";
+    var html = NEWS.slice().sort(function (a, b) {
+      return String(b.date || "").localeCompare(String(a.date || ""));
+    }).slice(0, EXPANDED).map(function (n, i) {
+      var ext = /^https?:\/\//.test(n.url || "");
+      var linkTarget = ext ? ' target="_blank" rel="noopener"' : "";
+      var more = n.url ? '<a class="btn btn-ghost news-more" href="' + n.url + '"' + linkTarget + ">" + T("news.more") + (ext ? " ↗" : "") + "</a>" : "";
       var bm = bmBtnHtml("nw:" + n.date + ":" + loc(n, "title"),
         ' data-bm-kind="news" data-bm-date="' + n.date + '" data-bm-tag="' + esc(loc(n, "tag")) + '"' +
         ' data-bm-title="' + esc(loc(n, "title")) + '" data-bm-desc="' + esc(loc(n, "desc") || "") + '"' +
         ' data-bm-url="' + esc(n.url || "") + '"');
-      var thumb = n.image ? '<a class="news-thumb-wrap wide" href="' + esc(n.url || "#") + '" target="_blank" rel="noopener"><img class="news-thumb" src="' + esc(n.image) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest(\'.news-thumb-wrap\').style.display=\'none\'"></a>' : "";
+      var thumb = n.image ? '<a class="news-thumb-wrap wide" href="' + esc(n.url || "#") + '"' + linkTarget + '><img class="news-thumb" src="' + esc(n.image) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest(\'.news-thumb-wrap\').style.display=\'none\'"></a>' : "";
       var head = '<div class="news-head"><span class="news-tag">' + esc(loc(n, "tag")) + "</span>" +
         '<span class="news-date">' + fmtDate(new Date(n.date)) + "</span>" + bm + "</div>";
       var textBody = '<div class="news-text"><div class="news-title">' + esc(loc(n, "title")) + "</div>" +
         '<div class="news-desc">' + esc(loc(n, "desc")) + "</div></div>";
-      var cls = "news-item card" + (n.image ? " has-thumb" : "") + (i >= EXPANDED ? " collapsed" : "");
+      var cls = "news-item card" + (n.image ? " has-thumb" : "");
       return '<div class="' + cls + '" data-news-idx="' + i + '">' + head + textBody + thumb + more + "</div>";
     }).join("");
-    var hidden = NEWS.length - EXPANDED;
-    if (hidden > 0) {
-      html += '<button class="news-toggle" type="button" data-collapsed="1">' +
-        T("news.toggle", { count: hidden }) + "</button>";
-    }
     box.innerHTML = html;
-    var toggle = box.querySelector(".news-toggle");
-    if (toggle) {
-      toggle.addEventListener("click", function () {
-        var collapsed = toggle.dataset.collapsed === "1";
-        box.querySelectorAll(".news-item.collapsed").forEach(function (el) {
-          el.classList.toggle("show", collapsed);
-          el.classList.toggle("collapsed", !collapsed);
-        });
-        toggle.dataset.collapsed = collapsed ? "0" : "1";
-        toggle.textContent = collapsed ? T("news.collapse") : T("news.toggle", { count: hidden });
-      });
-    }
     box.querySelectorAll(".news-item .news-title, .news-item .news-desc").forEach(function (el) {
       el.addEventListener("click", function () {
         el.closest(".news-item").classList.toggle("desc-open");
@@ -2251,7 +2238,7 @@
     if (!("serviceWorker" in navigator)) return;
     var host = location.hostname;
     if (location.protocol !== "https:" && host !== "localhost" && host !== "127.0.0.1") return;
-    navigator.serviceWorker.register("sw.js").catch(function () {});
+    navigator.serviceWorker.register("/sw.js").catch(function () {});
   }
 
   /* ============ アカウント連携: ホームのようこそ表示 ============ */

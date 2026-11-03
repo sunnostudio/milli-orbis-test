@@ -3,6 +3,28 @@ window.SONGS = {
   "generatedAt": "2026-11-03",
   "official": [
     {
+      "id": "8xTMPRDuLrA",
+      "title": "月の浮かぶ海 - ゆらぎゆら",
+      "publishedAt": "2026-11-03",
+      "members": [
+        "yura"
+      ],
+      "en": {
+        "title": "The Sea Where the Moon Floats - Yuragi Yura"
+      }
+    },
+    {
+      "id": "7oQJfeYuiKo",
+      "title": "Siren’s Siren - あくび・でもんすぺーど（official）",
+      "publishedAt": "2026-10-31",
+      "members": [
+        "akubi"
+      ],
+      "en": {
+        "title": "Siren’s Siren - Akubi Demonspade (official)"
+      }
+    },
+    {
       "id": "MG3I1rUs5v8",
       "title": "NET CHOOSE SHOW - 雨夜リズ（official）",
       "publishedAt": "2026-08-31",

@@ -88,7 +88,9 @@ const OFFICIAL_SONGS = [
   { re: /Princess\s*Viral/i, members: ["nono"] },
   { re: /ルミナス/, members: ["raco"] },
   { re: /おきらくスーパースター/, members: ["koma"] },
-  { re: /NET\s*CHOOSE\s*SHOW/i, members: ["liz"] }
+  { re: /NET\s*CHOOSE\s*SHOW/i, members: ["liz"] },
+  { re: /月の浮かぶ海/, members: ["yura"] },
+  { re: /Siren[’']s\s*Siren/i, members: ["akubi"] }
 ];
 
 function officialRule(title) {

@@ -1853,6 +1853,106 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-11-03",
+    tag: "イベント",
+    title: "Milli Orbis、新たなイベントシリーズ「ORBISTA」を始動",
+    desc: "季節イベントやファン参加型企画などを展開する「ORBISTA」が始動します。本企画はファンによる非公式の取り組みで、ミリプロ公式とは関係ありません。",
+    image: "ORBISTA-rogo.png",
+    url: "news/press/orbista-launch/",
+    source: "milliorbis",
+    en: { tag: "Event", title: "Milli Orbis Launches New Event Series \"ORBISTA\"", desc: "\"ORBISTA,\" a new series of seasonal events and fan-participation projects, is launching. This is an unofficial fan-made project and is not affiliated with MilliPro." }
+  },
+  {
+    date: "2026-11-03",
+    tag: "音楽",
+    title: "ゆらぎゆら オリジナル楽曲「月の浮かぶ海」リリース！",
+    desc: "ゆらぎゆら初のオリジナル楽曲「月の浮かぶ海」が登場。公式MVは11月3日21時に公開、各種音楽配信サービスでは11月4日0時より配信開始予定です。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_45ff11e1-5bda-42d7-a538-12a44a7e72a5.png",
+    url: "https://milpr.com/news/Sea-Surface-Moon",
+    source: "milipro",
+    en: { tag: "Music", title: "Yuragi Yura Releases Her Original Song \"The Sea Where the Moon Floats\"!", desc: "Yuragi Yura's first original song \"The Sea Where the Moon Floats\" arrives with its official music video on Nov 3 at 9 PM JST and streaming on music services from Nov 4 at midnight JST." }
+  },
+  {
+    date: "2026-11-03",
+    tag: "グッズ",
+    title: "ゆらぎゆら 誕生日記念グッズ 2026 受注開始！",
+    desc: "ゆらぎゆらの誕生日を記念したグッズの受注が、ミリプロオフィシャルショップでスタート。受注期間は2026年11月3日〜12月3日です。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_417643e2-e982-4361-9a7c-3e94833e7de3.png",
+    url: "https://milpr.com/news/cxHzQB3a",
+    source: "milipro",
+    en: { tag: "Goods", title: "Yuragi Yura Birthday Goods 2026 Now on Pre-order!", desc: "Pre-orders for Yuragi Yura's 2026 birthday goods are now open at the MilliPro official shop, from Nov 3 to Dec 3, 2026." }
+  },
+  {
+    date: "2026-11-02",
+    tag: "イベント",
+    title: "甘狼このみ 書籍発売記念のお話＆サイン会開催決定！",
+    desc: "『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』の発売を記念したお話＆サイン会が、12月5日・6日に開催決定。抽選制です。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_6387f10c-25c7-4c28-9278-4d8d7233a60b.png",
+    url: "https://milpr.com/news/konomi_EnglishwordBOOK_Session2",
+    source: "milipro",
+    en: { tag: "Event", title: "Amakami Konomi Book Release Talk & Signing Event Announced!", desc: "A talk and signing event celebrating the release of \"Learn Junior High English Vocabulary & Idioms with Amakami Konomi\" will be held Dec 5–6. Entry is by lottery." }
+  },
+  {
+    date: "2026-10-31",
+    tag: "音楽",
+    title: "あくび・でもんすぺーど 初のオリジナル楽曲「Siren’s Siren」リリース決定！",
+    desc: "あくび・でもんすぺーど初のオリジナル楽曲「Siren’s Siren」が、10月31日21時にMV公開、11月1日0時に各種音楽配信サービスで配信開始。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_21b129e9-ec14-49ca-9857-54f32549dfb5.png",
+    url: "https://milpr.com/news/Sirens-Siren",
+    source: "milipro",
+    en: { tag: "Music", title: "Akubi Demonspade's First Original Song \"Siren’s Siren\" Announced!", desc: "Akubi Demonspade's first original song \"Siren’s Siren\" premiered as a music video on Oct 31 at 9 PM and began streaming on music services Nov 1 at midnight." }
+  },
+  {
+    date: "2026-10-29",
+    tag: "お知らせ",
+    title: "虹深°ぬふ 初書籍の重版が決定！",
+    desc: "虹深°ぬふ初の書籍『キャラが動き出すイラストの教科書 ゼロからはじめて上手くなるまほうのヒント』の重版が決定しました。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_01fcdc30-b25e-431e-8157-1a65702cc904.png",
+    url: "https://milpr.com/news/nuhu_juhan",
+    source: "milipro",
+    en: { tag: "Notice", title: "Nijipuka Nuhu's First Book to Be Reprinted!", desc: "A reprint has been announced for Nijipuka Nuhu's first book, \"How to Make Characters Come to Life: Magical Tips to Improve from the Basics.\"" }
+  },
+  {
+    date: "2026-10-24",
+    tag: "グッズ",
+    title: "ミリプロ ハロウィンコレクション 2026 受注開始！",
+    desc: "ミリプロオフィシャルショップにて「ミリプロ ハロウィンコレクション 2026」の受注がスタート。受注期間は2026年10月24日〜11月24日です。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_80cc81fd-8e7f-4fed-aebc-af0f513f0dda.png",
+    url: "https://milpr.com/news/halloween_collection2026",
+    source: "milipro",
+    en: { tag: "Goods", title: "MilliPro Halloween Collection 2026 Now on Pre-order!", desc: "Pre-orders for the MilliPro Halloween Collection 2026 are now open at the official shop, from Oct 24 to Nov 24, 2026." }
+  },
+  {
+    date: "2026-10-16",
+    tag: "グッズ",
+    title: "海琳あおい 加入記念コレクション 受注開始！",
+    desc: "ミリプロオフィシャルショップにて「海琳あおい 加入記念コレクション」の受注がスタートしました。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_c6bc0da3-9847-49fd-9634-1512a5310350.png",
+    url: "https://milpr.com/news/5oeqtGVt",
+    source: "milipro",
+    en: { tag: "Goods", title: "Mitama Aoi Joining Collection Now on Pre-order!", desc: "Pre-orders for the Mitama Aoi Joining Collection are now open at the MilliPro official shop." }
+  },
+  {
+    date: "2026-10-09",
+    tag: "グッズ",
+    title: "雨夜リズ 20万人記念グッズ 受注開始！",
+    desc: "ミリプロオフィシャルショップにて「雨夜リズ 20万人記念グッズ」の受注がスタートしました。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_bd21ad41-3f65-4d66-a37e-08c83705a00c.png",
+    url: "https://milpr.com/news/liz_20",
+    source: "milipro",
+    en: { tag: "Goods", title: "Amayo Liz 200K Subscriber Commemorative Goods Now on Pre-order!", desc: "Pre-orders for Amayo Liz's 200K subscriber commemorative goods are now open at the MilliPro official shop." }
+  },
+  {
+    date: "2026-10-31",
+    tag: "グッズ",
+    title: "あくび・でもんすぺーど 誕生日記念グッズ 2026 受注開始！",
+    desc: "あくび・でもんすぺーどの誕生日記念グッズ全8アイテムの受注が、ミリプロオフィシャルショップでスタート。受注期間は2026年10月31日〜12月1日です。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1920x1080_v-frms_webp_6701fbfc-7801-4063-b0c7-d838f9b937f0.png",
+    url: "https://milpr.com/news/akubi_birthday2026",
+    source: "milipro",
+    en: { tag: "Goods", title: "Akubi Demonspade Birthday Goods 2026 Now on Pre-order!", desc: "Pre-orders for all 8 items in Akubi Demonspade's 2026 birthday collection are open at the MilliPro official shop, from Oct 31 to Dec 1, 2026." }
+  },
+  {
     date: "2026-10-18",
     tag: "サイト更新",
     title: "海琳あおい オリジナルカーソル配布開始！",
