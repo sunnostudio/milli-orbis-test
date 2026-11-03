@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T16:44:51.697Z",
+  "updatedAt": "2026-11-03T01:25:44.038Z",
   "streams": [
     {
       "id": "QGLcfX5WSqQ",
@@ -268,13 +268,10 @@
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "だんだんハモる『島の歌』歌ってみた【雨夜リズ/ミリプロ】",
+      "title": "だんだんハモる『島の歌』歌ってみた#shorts 【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/R7Um-W37lj4/hqdefault.jpg",
       "publishedAt": "2026-11-02T09:00:20Z",
-      "live": false,
-      "en": {
-        "title": "I tried singing the “Island Song” that gradually became more harmonious [Riz Ameya/MilliPro]"
-      }
+      "live": false
     },
     {
       "id": "uHsJJXkeO-8",
