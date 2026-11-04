@@ -1,7 +1,15 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "official": [
+    {
+      "id": "8xTMPRDuLrA",
+      "title": "月の浮かぶ海 - ゆらぎゆら",
+      "publishedAt": "2026-11-04",
+      "members": [
+        "yura"
+      ]
+    },
     {
       "id": "MG3I1rUs5v8",
       "title": "NET CHOOSE SHOW - 雨夜リズ（official）",
@@ -480,6 +488,20 @@ window.SONGS = {
     }
   ],
   "covers": [
+    {
+      "title": "ただ声一つ / ロクデナシ",
+      "key": "ただ声一つロクデナシ",
+      "urls": [
+        {
+          "id": "1szhoi_qfBI",
+          "memberId": "yura",
+          "publishedAt": "2026-11-04"
+        }
+      ],
+      "en": {
+        "title": "Just one voice / Rokudenashi"
+      }
+    },
     {
       "title": "ブルーアンビエンス",
       "key": "ブルアンビエンス＆",

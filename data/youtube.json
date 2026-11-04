@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-03T23:50:28.056Z",
+  "updatedAt": "2026-11-04T15:00:06.082Z",
   "streams": [
     {
-      "id": "biDODc3D_2k",
+      "id": "E0whs0sUudk",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
-      "title": "【Apex Legends】開幕からランクGo～！【鹿乃まほろ/ミリプロ】with 海琳あおい",
-      "thumb": "https://i.ytimg.com/vi/biDODc3D_2k/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-04T04:00:00Z",
-      "status": "upcoming"
+      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-04T13:00:46Z",
+      "status": "live"
     },
     {
-      "id": "AXZWvNLFX-o",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【Apex Legends】開幕ランク～！Let&#39;s Gooooooo!!!!! w/鹿乃まほろ【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AXZWvNLFX-o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-04T04:00:00Z",
-      "status": "upcoming"
+      "id": "GXD1eabLHN8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "家事している",
+      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-04T14:58:35Z",
+      "status": "live"
     },
     {
       "id": "lV08iY_IDzY",
@@ -127,13 +127,73 @@
   ],
   "videos": [
     {
-      "id": "kdVkPT7DVyU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg?v=6aea4b39",
-      "publishedAt": "2026-11-03T23:47:12Z",
+      "id": "GXD1eabLHN8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "家事している",
+      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg?v=6aeb4807",
+      "publishedAt": "2026-11-04T14:58:35Z",
+      "live": false
+    },
+    {
+      "id": "g8JnUfKAlmY",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 歌枠 】リハビリ！ちょっと歌ってみる♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/g8JnUfKAlmY/hqdefault.jpg",
+      "publishedAt": "2026-11-04T14:20:25Z",
+      "live": false
+    },
+    {
+      "id": "E0whs0sUudk",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg?v=6aead497",
+      "publishedAt": "2026-11-04T13:00:46Z",
+      "live": true
+    },
+    {
+      "id": "ZAGS2b2sgkQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "初のオリジナル曲『月の浮かぶ海』🌙🫧",
+      "thumb": "https://i.ytimg.com/vi/ZAGS2b2sgkQ/hqdefault.jpg",
+      "publishedAt": "2026-11-04T09:22:21Z",
+      "live": false
+    },
+    {
+      "id": "-oR1C22TrIA",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【縛】いつもと違うとこ、どーこだ？【眠雲ツクリ/ミリプロ】 #歌ってみた #vtuber",
+      "thumb": "https://i.ytimg.com/vi/-oR1C22TrIA/hqdefault.jpg",
+      "publishedAt": "2026-11-04T09:00:18Z",
+      "live": false
+    },
+    {
+      "id": "wlJj2a8rjKA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "『ray(超かぐや姫！version)』公式振り付けで踊ってみた！【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/wlJj2a8rjKA/hqdefault.jpg",
+      "publishedAt": "2026-11-04T09:00:17Z",
+      "live": false
+    },
+    {
+      "id": "VEZROqELQb4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】ダイヤ直下掘りトーナメント！誰が勝つでしょう？【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VEZROqELQb4/hqdefault.jpg",
+      "publishedAt": "2026-11-04T09:00:05Z",
       "live": false
     },
     {
@@ -142,8 +202,8 @@
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【Apex Legends】開幕ランク～！Let's Gooooooo!!!!! w/鹿乃まほろ【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AXZWvNLFX-o/hqdefault.jpg?v=6aea42c3",
-      "publishedAt": "2026-11-03T20:23:29Z",
+      "thumb": "https://i.ytimg.com/vi/AXZWvNLFX-o/hqdefault.jpg",
+      "publishedAt": "2026-11-04T06:58:35Z",
       "live": false
     },
     {
@@ -152,8 +212,31 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【Apex Legends】開幕からランクGo～！【鹿乃まほろ/ミリプロ】with 海琳あおい",
-      "thumb": "https://i.ytimg.com/vi/biDODc3D_2k/hqdefault.jpg?v=6aea2e06",
-      "publishedAt": "2026-11-03T18:53:20Z",
+      "thumb": "https://i.ytimg.com/vi/biDODc3D_2k/hqdefault.jpg",
+      "publishedAt": "2026-11-04T06:51:42Z",
+      "live": false
+    },
+    {
+      "id": "7YuPprHMdDo",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Gamble With Your Friends】一攫千金！ギャンブルで借金返済します【鹿乃まほろ/ミリプロ】with 碧依さくら・しろまんた・Cpt・BobSappAim",
+      "thumb": "https://i.ytimg.com/vi/7YuPprHMdDo/hqdefault.jpg",
+      "publishedAt": "2026-11-04T02:00:49Z",
+      "live": false,
+      "en": {
+        "title": "[Gamble With Your Friends] Get rich quick! I will repay my debt through gambling [Mahoro Kano/MilliPro] with Sakura Aoi, Shiromanta, Cpt, BobSappAim"
+      }
+    },
+    {
+      "id": "kdVkPT7DVyU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg",
+      "publishedAt": "2026-11-03T23:54:46Z",
       "live": false
     },
     {
@@ -201,26 +284,6 @@
       "en": {
         "title": "[#YuragiYurao's birthday 2026] *Important announcement⁉️ First singing slot after returning🎉✨ [YuragiYura/MilliPro]"
       }
-    },
-    {
-      "id": "1szhoi_qfBI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "ただ声一つ / ロクデナシ covered by ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/1szhoi_qfBI/hqdefault.jpg",
-      "publishedAt": "2026-11-03T11:45:11Z",
-      "live": false
-    },
-    {
-      "id": "qgzMxLz2OVY",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ASMR】99.9％即寝落ち！認知シャッフル睡眠法【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qgzMxLz2OVY/hqdefault.jpg",
-      "publishedAt": "2026-11-03T11:35:39Z",
-      "live": false
     },
     {
       "id": "cUU_fYQKeKY",
@@ -404,85 +467,26 @@
       "en": {
         "title": "[Chat] Please go home ┊︎ #Otononono #Nononya"
       }
-    },
-    {
-      "id": "ytlaS2AO4Pg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リ・ストーリー: 思い出修理屋】圧倒的高評価！チル修理ゲーをします！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ytlaS2AO4Pg/hqdefault.jpg",
-      "publishedAt": "2026-11-01T10:38:30Z",
-      "live": false,
-      "en": {
-        "title": "[Re-Story: Memories Repair Shop] Overwhelmingly highly rated! Let's play a chill repair game! [Mahoro Kano/MilliPro]"
-      }
-    },
-    {
-      "id": "M0-GKpTH8ME",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【友情崩壊】力を合わせて理不尽な試練を乗り越えるチャレンジをしたらカオスになったｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/M0-GKpTH8ME/hqdefault.jpg",
-      "publishedAt": "2026-11-01T10:00:09Z",
-      "live": false,
-      "en": {
-        "title": "[Friendship collapse] When we tried to overcome an unreasonable challenge by working together, it turned into chaos lol"
-      }
-    },
-    {
-      "id": "eKA5V4pzF1Y",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】授業中の絵しりとり #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/eKA5V4pzF1Y/hqdefault.jpg",
-      "publishedAt": "2026-11-01T09:00:16Z",
-      "live": false,
-      "en": {
-        "title": "[Anime] Illustration during class #Miripro #anime"
-      }
-    },
-    {
-      "id": "8eae_8roVVk",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8eae_8roVVk/hqdefault.jpg",
-      "publishedAt": "2026-11-01T07:19:36Z",
-      "live": false,
-      "en": {
-        "title": "Weekend homework, work that needs to be done, people piling up, forced gatherings. [#Amakamirive]"
-      }
-    },
-    {
-      "id": "d5X6P7wMibE",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】今月もおつかれさまだようヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/d5X6P7wMibE/hqdefault.jpg",
-      "publishedAt": "2026-10-31T19:55:44Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Thank you for your hard work this monthヽ(.⊿·) [Mahoro Kano/MilliPro]"
-      }
-    },
-    {
-      "id": "D-Qr5xAioGw",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【#あくび誕生祭2026】※重大告知あり※ 歌えないとイタズラされる！？【あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/D-Qr5xAioGw/hqdefault.jpg",
-      "publishedAt": "2026-10-31T12:19:14Z",
-      "live": false,
-      "en": {
-        "title": "[#Yawn Birthday Festival 2026] *Important announcement* If you can't sing, you'll get pranked! ? [Yawn/Demon Speed]"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "E0whs0sUudk",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-04T13:00:46Z",
+      "status": "live"
+    },
+    {
+      "id": "GXD1eabLHN8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "家事している",
+      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-04T14:58:35Z",
+      "status": "live"
+    }
+  ]
 }

@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "g8JnUfKAlmY",
+    "memberId": "yura",
+    "publishedAt": "2026-11-04",
+    "title": "【 歌枠 】リハビリ！ちょっと歌ってみる♪【ゆらぎゆら/ミリプロ】",
+    "duration": 6190,
+    "songs": []
+  },
+  {
     "id": "cYAYRJEnd0M",
     "memberId": "tsukuri",
     "publishedAt": "2026-11-02",
