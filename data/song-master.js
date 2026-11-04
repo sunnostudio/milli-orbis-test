@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "songs": {
     "ブルアンビエンス＆": {
       "title": "ブルーアンビエンス (feat. asmi)",
@@ -85,9 +85,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -267,12 +267,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄 (feat. 井上苑子)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "青と夏 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg",
+      "title": "点描の唄",
+      "artist": "石崎ひゅーい",
+      "album": "night milk",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
       "en": {
-        "title": "Pointillist Song (feat. Sonoko Inoue)"
+        "title": "Pointillist song"
       }
     },
     "花女花譜": {
@@ -304,9 +304,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "麻婆豆腐",
+      "artist": "doriko",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/f1/d5/abf1d530-f67d-b8d6-69dc-18af39756a63/SCGA-00310.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -330,12 +330,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
       "en": {
-        "title": "finale"
+        "title": "Finale."
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -469,9 +469,9 @@ window.SONG_MASTER = {
     },
     "小悪魔だってかまわない！": {
       "title": "小悪魔だってかまわない!",
-      "artist": "めいちゃん",
+      "artist": "高嶺のなでしこ",
       "album": "小悪魔だってかまわない! - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/97/3f/42/973f4260-c205-030f-7861-fef0a4340a23/21UMGIM34839.rgb.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/45/e5/a145e5c0-602e-658d-e83f-ae7108b55d8d/4571640926181_cover.jpg/600x600bb.jpg",
       "en": {
         "title": "I don't care if you're a little devil!"
       }
@@ -852,10 +852,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "Stay",
-      "artist": "Zedd & アレッシア・カーラ",
-      "album": "Stay - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
+      "title": "STAY",
+      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
+      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1110,12 +1110,12 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
       "en": {
-        "title": "marshall maximizer"
+        "title": "Marshall Maximizer (feat. Kafu)"
       }
     },
     "祝福": {
@@ -1222,9 +1222,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Akuya",
-      "album": "Henceforth - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1740,12 +1740,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
       "en": {
-        "title": "hide and seek"
+        "title": "Ichikayori world"
       }
     },
     "メルティランドナイトメア": {
@@ -2124,10 +2124,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "SHAMPOO",
-      "artist": "PUNPEE, BIM & Elle Teresa",
-      "album": "Iced Out - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
+      "title": "Streamer",
+      "artist": "すとぷり",
+      "album": "Streamer - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
