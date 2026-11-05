@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "kAhJw-_o2BI",
+    "memberId": "raco",
+    "publishedAt": "2026-11-05",
+    "title": "【歌枠】寝る前に聴いていかない？【音ノ瀬らこ /ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "g8JnUfKAlmY",
     "memberId": "yura",
     "publishedAt": "2026-11-04",

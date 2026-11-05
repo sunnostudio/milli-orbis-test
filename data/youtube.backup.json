@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-11-04T15:00:06.082Z",
+  "updatedAt": "2026-11-05T00:04:42.147Z",
   "streams": [
     {
-      "id": "E0whs0sUudk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-04T13:00:46Z",
-      "status": "live"
-    },
-    {
-      "id": "GXD1eabLHN8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "家事している",
-      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-04T14:58:35Z",
-      "status": "live"
+      "id": "JnnX9D_BlgY",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/JnnX9D_BlgY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-05T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "lV08iY_IDzY",
@@ -132,8 +123,28 @@
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
       "title": "家事している",
-      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg?v=6aeb4807",
-      "publishedAt": "2026-11-04T14:58:35Z",
+      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg",
+      "publishedAt": "2026-11-04T18:30:35Z",
+      "live": false
+    },
+    {
+      "id": "E0whs0sUudk",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
+      "publishedAt": "2026-11-04T16:48:51Z",
+      "live": true
+    },
+    {
+      "id": "JnnX9D_BlgY",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/JnnX9D_BlgY/hqdefault.jpg?v=6aeb5852",
+      "publishedAt": "2026-11-04T16:07:44Z",
       "live": false
     },
     {
@@ -145,16 +156,6 @@
       "thumb": "https://i.ytimg.com/vi/g8JnUfKAlmY/hqdefault.jpg",
       "publishedAt": "2026-11-04T14:20:25Z",
       "live": false
-    },
-    {
-      "id": "E0whs0sUudk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg?v=6aead497",
-      "publishedAt": "2026-11-04T13:00:46Z",
-      "live": true
     },
     {
       "id": "ZAGS2b2sgkQ",
@@ -271,19 +272,6 @@
       "thumb": "https://i.ytimg.com/vi/8xTMPRDuLrA/hqdefault.jpg",
       "publishedAt": "2026-11-03T12:00:07Z",
       "live": false
-    },
-    {
-      "id": "QGLcfX5WSqQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】※重大告知あり⁉️復帰後初めての歌枠🎉✨【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QGLcfX5WSqQ/hqdefault.jpg",
-      "publishedAt": "2026-11-03T11:54:16Z",
-      "live": false,
-      "en": {
-        "title": "[#YuragiYurao's birthday 2026] *Important announcement⁉️ First singing slot after returning🎉✨ [YuragiYura/MilliPro]"
-      }
     },
     {
       "id": "cUU_fYQKeKY",
@@ -469,24 +457,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "E0whs0sUudk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-04T13:00:46Z",
-      "status": "live"
-    },
-    {
-      "id": "GXD1eabLHN8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "家事している",
-      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-04T14:58:35Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

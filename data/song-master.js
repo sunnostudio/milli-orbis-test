@@ -91,9 +91,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -336,12 +336,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
       "en": {
-        "title": "Finale."
+        "title": "finale"
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -405,12 +405,12 @@ window.SONG_MASTER = {
       }
     },
     "magnet": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg",
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
       "en": {
-        "title": "monster"
+        "title": "1.15 million kilometers of film"
       }
     },
     "gimmegimme-八王子pgiga": {
@@ -567,12 +567,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
-      "title": "ダーリン",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ダーリン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
+      "title": "アンコール",
+      "artist": "YOASOBI",
+      "album": "THE BOOK",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/8c/90/7f8c90dd-e11f-30d5-271d-4b72eee970bd/195497666737.jpg/600x600bb.jpg",
       "en": {
-        "title": "darling"
+        "title": "encore"
       }
     },
     "メルト": {
@@ -858,10 +858,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "カーク・フランクリン",
+      "album": "I Am What I Am (Expanded Version)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/17/9c/f6179cf1-c186-51ae-ecf5-5c9589609a1e/26UM1IM17728.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1452,13 +1452,10 @@ window.SONG_MASTER = {
       }
     },
     "寝起きヤシの木-yukopi": {
-      "title": "寝起きヤシの木",
+      "title": "寝起きヤシの木 (feat. 魔界ノりりむ)",
       "artist": "ゆこぴ",
-      "album": "アルバム1号",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/40/be/ff40beb0-82bd-dcfb-b1c6-a40c23fc760e/PA00129089_0_174606_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "waking up palm tree"
-      }
+      "album": "つめあわせデラックス",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/75/8c/3d758c82-3269-d8fe-c031-886cf87346d4/PA00241281_0_257902_jacket.jpg/600x600bb.jpg"
     },
     "アイドル-yoasobi": {
       "title": "オリオン",
@@ -1710,13 +1707,10 @@ window.SONG_MASTER = {
       }
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "ここから、かなたから~bambi-no cover~",
-      "artist": "鹿乃",
-      "album": "Stella-rium - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg",
-      "en": {
-        "title": "From here, from far away~bambi-no cover~"
-      }
+      "title": "アトノマツリ",
+      "artist": "乃木坂46",
+      "album": "ここにはないもの (Special Edition)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/91/ae/cb91ae8f-24d7-16b6-374f-322a704cc5cb/4547366595635.jpg/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1746,12 +1740,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
+      "title": "シャッター",
+      "artist": "優里",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
       "en": {
-        "title": "Ichikayori world"
+        "title": "shutter"
       }
     },
     "メルティランドナイトメア": {
