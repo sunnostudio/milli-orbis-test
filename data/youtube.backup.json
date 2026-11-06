@@ -1,22 +1,40 @@
 {
-  "updatedAt": "2026-11-05T23:55:18.307Z",
+  "updatedAt": "2026-11-06T14:44:14.178Z",
   "streams": [
     {
-      "id": "-VmnIZDwC2o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
-      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:00:00Z",
-      "status": "upcoming"
+      "id": "_glr4NLHJTw",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-06T12:02:42Z",
+      "status": "live"
     },
     {
-      "id": "RcAC2Be-o7o",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
-      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:00:00Z",
+      "id": "PHcyN511nvY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【 APEX 】保護者2人と一緒にえーぺっくす！！【 音ノ瀬らこ/ゆらぎゆら/鹿乃まほろ 】",
+      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-06T12:02:52Z",
+      "status": "live"
+    },
+    {
+      "id": "sTDasfwFcHI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】よちよちゆるペックス ♪ w/音ノ瀬らこ、鹿乃まほろ 【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/sTDasfwFcHI/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-06T12:05:05Z",
+      "status": "live"
+    },
+    {
+      "id": "zurS7dG2IeU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-07T02:30:00Z",
       "status": "upcoming"
     },
     {
@@ -30,6 +48,15 @@
       "en": {
         "title": "[Chat] Tell me about everyone's relatives~~~~~~┊︎#Otononono#Nononya"
       }
+    },
+    {
+      "id": "e67VLOD5rm4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-07T23:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "JmHL3tmx6MA",
@@ -75,6 +102,15 @@
       "en": {
         "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
       }
+    },
+    {
+      "id": "pnSTro7MCbQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "12/3〆🩵 𓊆 誕生日記念グッズ2026 受注受付中！ 𓊇 🩵",
+      "thumb": "https://i.ytimg.com/vi/pnSTro7MCbQ/hqdefault.jpg",
+      "scheduledStartTime": "2026-12-03T14:59:00Z",
+      "status": "upcoming"
     },
     {
       "id": "gjos7ccWkac",
@@ -127,6 +163,126 @@
   ],
   "videos": [
     {
+      "id": "xg_VkDwhNmI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 絶対遵守 〗必ず守ります〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/xg_VkDwhNmI/hqdefault.jpg",
+      "publishedAt": "2026-11-06T13:50:47Z",
+      "live": false
+    },
+    {
+      "id": "tIBG9ymUNFU",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】７０万 人 耐 久 マ ジ か ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/tIBG9ymUNFU/hqdefault.jpg?v=6aed8704",
+      "publishedAt": "2026-11-06T13:18:05Z",
+      "live": false
+    },
+    {
+      "id": "RcAC2Be-o7o",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
+      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg",
+      "publishedAt": "2026-11-06T12:21:41Z",
+      "live": false
+    },
+    {
+      "id": "sTDasfwFcHI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 APEX 】よちよちゆるペックス ♪ w/音ノ瀬らこ、鹿乃まほろ 【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/sTDasfwFcHI/hqdefault.jpg?v=6aed9501",
+      "publishedAt": "2026-11-06T12:05:05Z",
+      "live": false
+    },
+    {
+      "id": "PHcyN511nvY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 APEX 】保護者2人と一緒にえーぺっくす！！【 音ノ瀬らこ/ゆらぎゆら/鹿乃まほろ 】",
+      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg?v=6aedb2b2",
+      "publishedAt": "2026-11-06T12:02:52Z",
+      "live": false
+    },
+    {
+      "id": "_glr4NLHJTw",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg?v=6aed8ba0",
+      "publishedAt": "2026-11-06T12:02:42Z",
+      "live": false
+    },
+    {
+      "id": "-VmnIZDwC2o",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
+      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg",
+      "publishedAt": "2026-11-06T11:49:04Z",
+      "live": false
+    },
+    {
+      "id": "e67VLOD5rm4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg?v=6aedab87",
+      "publishedAt": "2026-11-06T10:27:16Z",
+      "live": false
+    },
+    {
+      "id": "zurS7dG2IeU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg?v=6aeda7ba",
+      "publishedAt": "2026-11-06T10:11:04Z",
+      "live": false
+    },
+    {
+      "id": "bO9WzbiQZEg",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "夕霧レイと『Surges』歌ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/bO9WzbiQZEg/hqdefault.jpg",
+      "publishedAt": "2026-11-06T09:00:34Z",
+      "live": false
+    },
+    {
+      "id": "jLOPE3HBQ5s",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】why are you blinking so much？ #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/jLOPE3HBQ5s/hqdefault.jpg",
+      "publishedAt": "2026-11-06T09:00:25Z",
+      "live": false
+    },
+    {
+      "id": "rPIzfKzH6e8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【#バズって生きたい】人生トゥライ(т-т)【眠雲ツクリ/ミリプロ】 #shorts #オリジナル",
+      "thumb": "https://i.ytimg.com/vi/rPIzfKzH6e8/hqdefault.jpg",
+      "publishedAt": "2026-11-06T09:00:13Z",
+      "live": false
+    },
+    {
       "id": "kAhJw-_o2BI",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -154,26 +310,6 @@
       "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/AqogOVxUAuQ/hqdefault.jpg",
       "publishedAt": "2026-11-05T15:44:57Z",
-      "live": false
-    },
-    {
-      "id": "-VmnIZDwC2o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
-      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg?v=6aec5413",
-      "publishedAt": "2026-11-05T10:01:53Z",
-      "live": false
-    },
-    {
-      "id": "RcAC2Be-o7o",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
-      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg?v=6aec5261",
-      "publishedAt": "2026-11-05T09:54:38Z",
       "live": false
     },
     {
@@ -225,26 +361,6 @@
       "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
       "publishedAt": "2026-11-04T16:48:51Z",
       "live": true
-    },
-    {
-      "id": "g8JnUfKAlmY",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 歌枠 】リハビリ！ちょっと歌ってみる♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/g8JnUfKAlmY/hqdefault.jpg",
-      "publishedAt": "2026-11-04T14:20:25Z",
-      "live": false
-    },
-    {
-      "id": "ZAGS2b2sgkQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "初のオリジナル曲『月の浮かぶ海』🌙🫧",
-      "thumb": "https://i.ytimg.com/vi/ZAGS2b2sgkQ/hqdefault.jpg",
-      "publishedAt": "2026-11-04T09:22:21Z",
-      "live": false
     },
     {
       "id": "-oR1C22TrIA",
@@ -330,19 +446,6 @@
       "live": false
     },
     {
-      "id": "IkKsQeRxBeI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 メン限✨冒頭30分無料✨ 】2か月ぶりの飲酒！？休止後初のぽしゃけ解禁！🍻【 #ゆらぎゆらお誕生日だぞ2026 】",
-      "thumb": "https://i.ytimg.com/vi/IkKsQeRxBeI/hqdefault.jpg",
-      "publishedAt": "2026-11-03T13:02:57Z",
-      "live": false,
-      "en": {
-        "title": "[Men only ✨First 30 minutes free✨] Drinking for the first time in 2 months! ? First Poshake ban released after hiatus! 🍻【#Yuragiyurao's birthday 2026】"
-      }
-    },
-    {
       "id": "cUU_fYQKeKY",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -361,95 +464,35 @@
       "thumb": "https://i.ytimg.com/vi/fQ6Y9Weewbw/hqdefault.jpg",
       "publishedAt": "2026-11-03T09:00:26Z",
       "live": false
-    },
-    {
-      "id": "-pR6v_cX1f4",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】な、泣いてる？！ #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/-pR6v_cX1f4/hqdefault.jpg",
-      "publishedAt": "2026-11-03T09:00:12Z",
-      "live": false
-    },
-    {
-      "id": "cYAYRJEnd0M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗11月、新機材で歌う〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/cYAYRJEnd0M/hqdefault.jpg",
-      "publishedAt": "2026-11-02T14:50:15Z",
-      "live": false,
-      "en": {
-        "title": "〖Singing frame〗Singing with new equipment in November〖Nemugumo Tsukuri / MilliPro〗"
-      }
-    },
-    {
-      "id": "Whn-Yo5Ccps",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 Japanese Ramen Simulator 】ゆーぎりが湯切るぞ！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Whn-Yo5Ccps/hqdefault.jpg",
-      "publishedAt": "2026-11-02T14:14:49Z",
-      "live": false,
-      "en": {
-        "title": "[Japanese Ramen Simulator] Yugiri will drain the hot water! ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "LvTS8eYAm5A",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Japanese Ramen Simulator 】なにがどうなるラーメン屋さん！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LvTS8eYAm5A/hqdefault.jpg",
-      "publishedAt": "2026-11-02T14:13:23Z",
-      "live": false,
-      "en": {
-        "title": "[Japanese Ramen Simulator] What happens at a ramen shop! [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "lV08iY_IDzY",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】みんなのおもろ親戚おしえてや～～～～～┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/lV08iY_IDzY/hqdefault.jpg?v=6ae886ca",
-      "publishedAt": "2026-11-02T12:49:13Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Tell me about everyone's relatives~~~~~~┊︎#Otononono#Nononya"
-      }
-    },
-    {
-      "id": "-QjROuQk15c",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【本発売記念！】今年もサイン会&お話会決定～～！！！！✨会いに来てくれますか？【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-QjROuQk15c/hqdefault.jpg",
-      "publishedAt": "2026-11-02T12:04:55Z",
-      "live": false,
-      "en": {
-        "title": "[Commemorating book release! ] Autograph session and talk session decided again this year! ! ! ! ✨Will you come to see me? [#AmakamiLive/#Millipro]"
-      }
-    },
-    {
-      "id": "MKY_LrGogko",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【波乱万丈!?】○○といったら？夕霧レイとやってみた【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MKY_LrGogko/hqdefault.jpg",
-      "publishedAt": "2026-11-02T09:00:25Z",
-      "live": false,
-      "en": {
-        "title": "[Ups and downs!?] How about ○○? I tried it with Rei Yugiri [Komakoma/MilliPro]"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "_glr4NLHJTw",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-06T12:02:42Z",
+      "status": "live"
+    },
+    {
+      "id": "PHcyN511nvY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【 APEX 】保護者2人と一緒にえーぺっくす！！【 音ノ瀬らこ/ゆらぎゆら/鹿乃まほろ 】",
+      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-06T12:02:52Z",
+      "status": "live"
+    },
+    {
+      "id": "sTDasfwFcHI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】よちよちゆるペックス ♪ w/音ノ瀬らこ、鹿乃まほろ 【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/sTDasfwFcHI/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-06T12:05:05Z",
+      "status": "live"
+    }
+  ]
 }
