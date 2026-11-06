@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-05T15:06:18.800Z",
+  "updatedAt": "2026-11-05T23:55:18.307Z",
   "streams": [
-    {
-      "id": "AqogOVxUAuQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AqogOVxUAuQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-05T11:57:23Z",
-      "status": "live"
-    },
-    {
-      "id": "kAhJw-_o2BI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】寝る前に聴いていかない？【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kAhJw-_o2BI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-05T14:00:42Z",
-      "status": "live"
-    },
     {
       "id": "-VmnIZDwC2o",
       "memberId": "konomi",
@@ -150,8 +132,8 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【歌枠】寝る前に聴いていかない？【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kAhJw-_o2BI/hqdefault.jpg?v=6aec86e4",
-      "publishedAt": "2026-11-05T14:00:42Z",
+      "thumb": "https://i.ytimg.com/vi/kAhJw-_o2BI/hqdefault.jpg",
+      "publishedAt": "2026-11-05T16:23:17Z",
       "live": false
     },
     {
@@ -160,8 +142,8 @@
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【お絵描き雑談】とあるイラスト描くンゴ～【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gF9q3vknsVM/hqdefault.jpg?v=6aec54ba",
-      "publishedAt": "2026-11-05T12:56:18Z",
+      "thumb": "https://i.ytimg.com/vi/gF9q3vknsVM/hqdefault.jpg",
+      "publishedAt": "2026-11-05T16:06:11Z",
       "live": true
     },
     {
@@ -170,8 +152,8 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AqogOVxUAuQ/hqdefault.jpg?v=6aec6b3f",
-      "publishedAt": "2026-11-05T11:57:23Z",
+      "thumb": "https://i.ytimg.com/vi/AqogOVxUAuQ/hqdefault.jpg",
+      "publishedAt": "2026-11-05T15:44:57Z",
       "live": false
     },
     {
@@ -469,24 +451,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "AqogOVxUAuQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AqogOVxUAuQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-05T11:57:23Z",
-      "status": "live"
-    },
-    {
-      "id": "kAhJw-_o2BI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】寝る前に聴いていかない？【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kAhJw-_o2BI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-05T14:00:42Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
