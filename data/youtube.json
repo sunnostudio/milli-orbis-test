@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-07T13:41:54.338Z",
+  "updatedAt": "2026-11-07T22:27:33.827Z",
   "streams": [
-    {
-      "id": "1A1iwh_25mg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 雑談 】整地！！！！！！！！！！！！！！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1A1iwh_25mg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T10:31:45Z",
-      "status": "live"
-    },
-    {
-      "id": "sb2k1uNdMNg",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】リクエストタイム祭りをしようじゃないか！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sb2k1uNdMNg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T13:01:57Z",
-      "status": "live"
-    },
-    {
-      "id": "WRbjivMIQKk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗寝かしつけ歌〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/WRbjivMIQKk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T14:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "e67VLOD5rm4",
       "memberId": "yura",
@@ -44,6 +17,15 @@
       "title": "【マインクラフト】はじめてのミリ鯖DA(∂ω∂)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg",
       "scheduledStartTime": "2026-11-08T02:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "QTmXw0HZKGk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】本編：第6章「霧の巣遊戯」ナナリ早く目を覚まして。【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/QTmXw0HZKGk/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-08T03:00:00Z",
       "status": "upcoming"
     },
     {
@@ -151,6 +133,56 @@
   ],
   "videos": [
     {
+      "id": "mnd1ZwNzMe0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "ののさんねおき、弾き語り、寝ていきなさい。",
+      "thumb": "https://i.ytimg.com/vi/mnd1ZwNzMe0/hqdefault.jpg",
+      "publishedAt": "2026-11-07T18:46:07Z",
+      "live": false
+    },
+    {
+      "id": "WRbjivMIQKk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 歌枠 〗寝かしつけ歌〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/WRbjivMIQKk/hqdefault.jpg",
+      "publishedAt": "2026-11-07T16:36:21Z",
+      "live": false
+    },
+    {
+      "id": "QTmXw0HZKGk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】本編：第6章「霧の巣遊戯」ナナリ早く目を覚まして。【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/QTmXw0HZKGk/hqdefault.jpg?v=6aef4da5",
+      "publishedAt": "2026-11-07T16:05:04Z",
+      "live": false
+    },
+    {
+      "id": "1A1iwh_25mg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 雑談 】整地！！！！！！！！！！！！！！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1A1iwh_25mg/hqdefault.jpg",
+      "publishedAt": "2026-11-07T15:37:12Z",
+      "live": true
+    },
+    {
+      "id": "sb2k1uNdMNg",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】リクエストタイム祭りをしようじゃないか！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sb2k1uNdMNg/hqdefault.jpg",
+      "publishedAt": "2026-11-07T15:30:04Z",
+      "live": false
+    },
+    {
       "id": "Tka1c4DXly4",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -172,26 +204,6 @@
       "en": {
         "title": "[Chat] Tell me about everyone's relatives~~~~~~┊︎#Otononono#Nononya"
       }
-    },
-    {
-      "id": "sb2k1uNdMNg",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】リクエストタイム祭りをしようじゃないか！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sb2k1uNdMNg/hqdefault.jpg?v=6aef201e",
-      "publishedAt": "2026-11-07T13:01:57Z",
-      "live": false
-    },
-    {
-      "id": "1A1iwh_25mg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 雑談 】整地！！！！！！！！！！！！！！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1A1iwh_25mg/hqdefault.jpg?v=6aee08bb",
-      "publishedAt": "2026-11-07T10:31:45Z",
-      "live": true
     },
     {
       "id": "Uu8_k1poH7g",
@@ -244,16 +256,6 @@
       "live": false
     },
     {
-      "id": "WRbjivMIQKk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗寝かしつけ歌〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/WRbjivMIQKk/hqdefault.jpg?v=6aeee7ed",
-      "publishedAt": "2026-11-07T08:57:14Z",
-      "live": false
-    },
-    {
       "id": "zurS7dG2IeU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -269,7 +271,7 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【マインクラフト】はじめてのミリ鯖DA(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg?v=6aeea18e",
+      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg?v=6aef395c",
       "publishedAt": "2026-11-07T03:57:00Z",
       "live": false
     },
@@ -341,16 +343,6 @@
       "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
       "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg",
       "publishedAt": "2026-11-06T11:49:04Z",
-      "live": false
-    },
-    {
-      "id": "e67VLOD5rm4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg?v=6aeee349",
-      "publishedAt": "2026-11-06T10:27:16Z",
       "live": false
     },
     {
@@ -442,36 +434,7 @@
       "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
       "publishedAt": "2026-11-04T16:48:51Z",
       "live": true
-    },
-    {
-      "id": "-oR1C22TrIA",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【縛】いつもと違うとこ、どーこだ？【眠雲ツクリ/ミリプロ】 #歌ってみた #vtuber",
-      "thumb": "https://i.ytimg.com/vi/-oR1C22TrIA/hqdefault.jpg",
-      "publishedAt": "2026-11-04T09:00:18Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "1A1iwh_25mg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 雑談 】整地！！！！！！！！！！！！！！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1A1iwh_25mg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T10:31:45Z",
-      "status": "live"
-    },
-    {
-      "id": "sb2k1uNdMNg",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】リクエストタイム祭りをしようじゃないか！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sb2k1uNdMNg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T13:01:57Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

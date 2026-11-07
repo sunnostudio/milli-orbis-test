@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "raco",
     "publishedAt": "2026-11-07",
     "title": "【歌枠】リクエストタイム祭りをしようじゃないか！【音ノ瀬らこ /ミリプロ】",
-    "duration": 0,
+    "duration": 8352,
     "songs": []
   },
   {
@@ -13,7 +13,7 @@ window.KARAOKE = [
     "memberId": "tsukuri",
     "publishedAt": "2026-11-07",
     "title": "〖 歌枠 〗寝かしつけ歌〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 6928,
     "songs": []
   },
   {
