@@ -1883,6 +1883,16 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-11-08",
+    tag: "新人加入",
+    title: "【新人加入発表】？？？「もういいか〜い？」",
+    desc: "ミリプロ公式Xに、新人加入発表の予告ポストが投稿されました。添付画像にはシルエットが描かれています。続報をお待ちください。",
+    image: "https://pbs.twimg.com/media/HWRKAgHagAANZpH?format=webp&name=large",
+    url: "https://x.com/Mil_Pro_/status/2119354241269616803",
+    source: "milipro",
+    en: { tag: "New Talent", title: "[New Talent Announcement] ??? \"Ready or not?\"", desc: "MilliPro's official X account posted a teaser for a new talent announcement, with a silhouette image. Stay tuned for more information." }
+  },
+  {
     date: "2026-11-07",
     tag: "ユニット",
     title: "「ぷかあま」結成のお知らせ！",
