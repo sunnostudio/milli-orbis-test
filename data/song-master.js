@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-07",
+  "generatedAt": "2026-11-08",
   "songs": {
     "ただ声一つロクデナシ": {
       "title": "ただ声一つ",
@@ -171,10 +171,13 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump! (MAKI Mix)",
-      "artist": "西木野真姫(CV.Pile)",
-      "album": "ラブライブ! Solo Live! Collection from μ's 西木野真姫 TRUE DIVA",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/aa/3a/75aa3a6b-ef2e-0163-b929-4053a8218926/4540774200597.png/600x600bb.jpg"
+      "title": "夏色えがおで1,2,Jump! (NICO Mix)",
+      "artist": "矢澤にこ(CV.徳井青空)",
+      "album": "ラブライブ! Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/55/e1/b155e1c4-d79d-68b1-2ac2-4247945356da/4540774200580.png/600x600bb.jpg",
+      "en": {
+        "title": "Natsuiro Egaode 1,2,Jump! (NICO Mix)"
+      }
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -307,9 +310,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
-      "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
+      "artist": "doriko feat. 初音ミク",
+      "album": "Download (feat.初音ミク)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -352,9 +355,9 @@ window.SONG_MASTER = {
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
-      "artist": "ときのそら",
-      "album": "holo*27 Covers Vol.1",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/84/c3/d984c37b-cfba-9892-3560-ee5ccc2642c4/TFCC-86897WW.jpg/600x600bb.jpg",
+      "artist": "DECO*27",
+      "album": "愛言葉Ⅳ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/46/b1/9246b172-c303-b082-7ac2-8b78ffe89711/4511820-95551.jpg/600x600bb.jpg",
       "en": {
         "title": "Love words Ⅳ"
       }
@@ -618,10 +621,13 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "地球儀 (with Vaundy)",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Walpurgis",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "butterfly knot"
+      }
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -805,9 +811,9 @@ window.SONG_MASTER = {
     },
     "心做し": {
       "title": "心做し",
-      "artist": "majiko",
-      "album": "Contrast",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
+      "artist": "Sou",
+      "album": "深層から",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -1225,9 +1231,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Akuya",
-      "album": "Henceforth - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1293,12 +1299,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "オーケストラ - From THE FIRST TAKE",
-      "artist": "アイナ・ジ・エンド",
-      "album": "オーケストラ - From THE FIRST TAKE - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/73/fa/69/73fa6945-c13b-e32e-b41d-0730d48a6943/ANTCD-A0000003752.jpg/600x600bb.jpg",
+      "title": "ドライフラワー",
+      "artist": "Uru",
+      "album": "ファーストラヴ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
       "en": {
-        "title": "Orchestra - From THE FIRST TAKE"
+        "title": "dried flowers"
       }
     },
     "雨き声残響acoustic.": {
@@ -1896,10 +1902,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/5e/e4/0d5ee469-3ef5-a341-45d9-394c45bd18f9/PA00222991_0_250177_jacket.jpg/600x600bb.jpg"
     },
     "放課後ストライドいました": {
-      "title": "ばーちゃらぶ",
-      "artist": "夏色まつり",
-      "album": "Chasing the Dream 〜スポットライトは放課後に〜",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/fe/83/dafe8378-8847-1aa3-a1a4-02dafbb29937/matsuri_1stAL_Jacket_FIX_251009.png/600x600bb.jpg"
+      "title": "裸足じゃイラレナイ",
+      "artist": "放課後クライマックスガールズ",
+      "album": "THE IDOLM@STER SHINY COLORS Song for Prism 裸足じゃイラレナイ / 明日もBeautiful Day【アルストロメリア盤】 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/be/bb/babebb29-259b-0aa0-b719-539c8d80f7ae/4540774244768.jpg/600x600bb.jpg",
+      "en": {
+        "title": "I don't like being barefoot."
+      }
     },
     "メリメリいました": {
       "title": "メリーメリー",
@@ -1926,10 +1935,13 @@ window.SONG_MASTER = {
       }
     },
     "ハロハワユいました": {
-      "title": "シャルル",
-      "artist": "96猫",
-      "album": "O2O",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg"
+      "title": "ドーナツホール (COVER)",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Donut hole (COVER)"
+      }
     },
     "クエスチョン": {
       "title": "クエスチョン",
@@ -2093,8 +2105,8 @@ window.SONG_MASTER = {
     "かわいいだけじゃだめですか?": {
       "title": "かわいいだけじゃだめですか?",
       "artist": "CUTIE STREET",
-      "album": "かわいいだけじゃだめですか? - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/a6/91/71a691bc-b5a6-7903-4b13-608611c2f2b3/4580789670411.jpg/600x600bb.jpg",
+      "album": "かわいいだけじゃだめですか? - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/b2/c5/e4b2c55b-5668-6d7f-57e1-e418bb6ae2f5/4580789660139.jpg/600x600bb.jpg",
       "en": {
         "title": "Isn't just cute enough?"
       }
