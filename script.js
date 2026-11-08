@@ -186,6 +186,20 @@
     return MEMBERS.find(function (m) { return m.id === id; });
   }
 
+  function videoSourceName(item) {
+    if (!item) return "";
+    var member = getMember(item.memberId);
+    if (member) return mName(member);
+    if (item.memberId === "official") return T("video.official");
+    var sources = YOUTUBE.extraSources || [];
+    for (var i = 0; i < sources.length; i++) {
+      if (sources[i].id === item.memberId) {
+        return milliLang.get() === "en" ? (sources[i].nameEn || sources[i].name) : sources[i].name;
+      }
+    }
+    return item.member || item.channelTitle || "";
+  }
+
   function getMemberByDate(mmdd, type) {
     return MEMBERS.filter(function (m) {
       if (!m.birthday) return false;
@@ -708,7 +722,7 @@
       html += '<div class="stream-group"><h3 class="stream-group-title">' + T(names[b]) +
         ' <span class="range">' + bucketRange(b) + "</span></h3>" +
         g.map(function (it) {
-          var s = it.s, m = getMember(s.memberId) || (s.memberId === "official" ? { name: T("video.official") } : null);
+          var s = it.s, sourceName = videoSourceName(s);
           var isLive = s.status === "live";
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
           var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">' + T("streams.in", { x: hoursText(diff) }) + "</span>" : "");
@@ -720,7 +734,7 @@
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
             '<div class="video-body">' +
             '<div class="video-title">' + esc(tt(s)) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
-            '<div class="video-meta">' + (m ? mName(m) + " ・ " : "") + when + soon + "</div>" +
+            '<div class="video-meta">' + (sourceName ? esc(sourceName) + " ・ " : "") + when + soon + "</div>" +
             "</div></a>" +
             '<div class="stream-actions">' + cal + remind + "</div>" +
             "</div>";
@@ -1148,14 +1162,14 @@
     }
     var vids = videos.slice(0, YOUTUBE.maxVideos);
     box.innerHTML = vids.map(function (v) {
-      var m = getMember(v.memberId) || (v.memberId === "official" ? { name: T("video.official") } : null);
+      var sourceName = videoSourceName(v);
       var typeLabel = v.type === "short" ? "Short" : (v.type === "live" || v.live === true) ? T("videos.stream") : "";
       var published = new Date(v.publishedAt);
       return '<a class="video-card card" href="' + videoUrl(v.id) + '" target="_blank" rel="noopener">' +
         '<div class="video-thumb"><img src="' + thumbUrl(v.id) + '" alt="" loading="lazy"></div>' +
         '<div class="video-body"><div class="video-title">' + esc(tt(v)) +
         (typeLabel ? '<span class="video-tag">' + typeLabel + "</span>" : "") + "</div>" +
-        '<div class="video-meta">' + (m ? mName(m) + " ・ " : "") + relTime(published) + "</div></div></a>";
+        '<div class="video-meta">' + (sourceName ? esc(sourceName) + " ・ " : "") + relTime(published) + "</div></div></a>";
     }).join("");
   }
 
@@ -1200,7 +1214,7 @@
         '<span class="news-date">' + fmtDate(new Date(n.date)) + "</span>" + bm + "</div>";
       var textBody = '<div class="news-text"><div class="news-title">' + esc(loc(n, "title")) + "</div>" +
         '<div class="news-desc">' + esc(loc(n, "desc")) + "</div></div>";
-      var cls = "news-item card" + (n.image ? " has-thumb" : "");
+      var cls = "news-item card" + (n.image ? " has-thumb" : "") + (isOrbistaNews(n) ? " is-orbista" : "");
       return '<div class="' + cls + '" data-news-idx="' + i + '">' + head + textBody + thumb + more + "</div>";
     }).join("");
     box.innerHTML = html;
@@ -1211,19 +1225,13 @@
     });
   }
 
-  /* ============ X埋め込み ============ */
-  function renderXPosts() {
-    var box = $("#xposts");
-    if (!box) return;
-    var urls = X_POSTS.filter(function (u) { return u; });
-    if (urls.length === 0) return;
-    box.innerHTML = urls.map(function (u) {
-      return '<div class="xpost-card"><blockquote class="twitter-tweet" data-dnt="true"><a href="' + u + '"></a></blockquote></div>';
-    }).join("");
-    var w = document.createElement("script");
-    w.src = "https://platform.twitter.com/widgets.js";
-    w.async = true;
-    document.body.appendChild(w);
+  function isOrbistaNews(n) {
+    if (!n) return false;
+    if (String(n.tag || "").toUpperCase() === "ORBISTA") return true;
+    var tags = [loc(n, "tag"), n.tag].filter(Boolean).join(" ").toUpperCase();
+    if (tags.indexOf("ORBISTA") !== -1) return true;
+    var url = String(n.url || "");
+    return /(^|\/)orbista(\/|$)|orbista-launch/.test(url);
   }
 
   /* ============ メンバーカード（Member Guide） ============ */
@@ -1280,11 +1288,15 @@
       }).join("");
       var badge = g.badge === "new" ? '<span class="gp-badge">' + T("groups.new") + "</span>" : "";
       var icon = g.icon ? '<img class="gp-icon" src="' + esc(g.icon) + '" alt="" loading="lazy">' : "";
+      var links = [];
+      if (g.links && g.links.yt) links.push('<a href="' + esc(g.links.yt) + '" target="_blank" rel="noopener">YouTube ↗</a>');
+      if (g.links && g.links.x) links.push('<a href="' + esc(g.links.x) + '" target="_blank" rel="noopener">X ↗</a>');
       return '<div class="gp-card card">' +
         '<div class="gp-head">' + icon +
         '<div class="gp-title-wrap"><h3 class="gp-name">' + esc(loc(g, "name")) + "</h3>" +
         "</div>" + badge + "</div>" +
         '<p class="gp-desc">' + esc(loc(g, "desc")) + "</p>" +
+        (links.length ? '<div class="gp-links">' + links.join("") + "</div>" : "") +
         '<p class="gp-label">' + T("groups.members") + "</p>" +
         '<div class="gp-members">' + memberChips + "</div>" +
         "</div>";
@@ -2305,9 +2317,9 @@
       if (!sameDay(start)) return;
       /* 開始済みの予定は「📺 〜時」で出し続けない（配信中のみ表示） */
       if (s.status !== "live" && start <= now) return;
-      var m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
+      var sourceName = videoSourceName(s);
       var label = s.status === "live" ? T("today.live") : T("today.stream", { time: fmtTime(start) });
-      items.push(label + " " + esc(tt(s)) + (m ? "（" + esc(mName(m)) + "）" : ""));
+      items.push(label + " " + esc(tt(s)) + (sourceName ? "（" + esc(sourceName) + "）" : ""));
     });
     if (!items.length) { box.style.display = "none"; box.innerHTML = ""; return; }
     box.style.display = "block";
@@ -2328,7 +2340,6 @@
     loadYoutubeData();
     initYoutubeRefetch();
     renderNews();
-    renderXPosts();
     renderMembers();
     renderGroups();
     renderMemberCompare();

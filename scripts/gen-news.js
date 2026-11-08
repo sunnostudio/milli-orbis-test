@@ -241,6 +241,7 @@ ${robots}
     <div class="press-body">${body}</div>
     ${relatedLinks.trim()}
     <div class="press-actions">
+      ${isOrbista ? '<a class="btn" href="../../../orbista/">ORBISTA特設サイトへ →</a>' : ""}
       <a class="btn btn-ghost" href="../../">お知らせ一覧へ ←</a>
     </div>
   </article>

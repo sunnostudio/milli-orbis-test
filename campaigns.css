@@ -1,0 +1,550 @@
+/* ============================================================
+   Milli Orbis — seasonal campaign layer
+   ------------------------------------------------------------
+   テーマ本体は data/campaigns.js。
+   ここでは「バー」「トップページのスポットライト」「切替UI」だけを担当。
+   ORBISTA 特設ページは standalone のため、このCSSを読みません。
+   ============================================================ */
+
+html[data-campaign="halloween2027"] {
+  --campaign-accent: #ffb15c;
+  --campaign-accent-2: #b98cff;
+  --campaign-accent-ink: #1a1730;
+  --campaign-deep: #1d1326;
+  --campaign-glow: rgba(255, 177, 92, 0.3);
+  --campaign-bar-text: #fff;
+  --campaign-bar-label: #ffb15c;
+  --campaign-bar-border: rgba(255, 177, 92, 0.34);
+  --campaign-bar-bg:
+    radial-gradient(1px 1px at 12% 30%, rgba(255, 255, 255, 0.75) 98%, transparent),
+    radial-gradient(1px 1px at 37% 70%, rgba(255, 255, 255, 0.55) 98%, transparent),
+    radial-gradient(1px 1px at 63% 25%, rgba(255, 255, 255, 0.7) 98%, transparent),
+    radial-gradient(1px 1px at 88% 65%, rgba(255, 255, 255, 0.5) 98%, transparent),
+    linear-gradient(90deg, #0b0e22 0%, #1d1326 48%, #2a1f45 100%);
+  --campaign-card-text: #fff;
+  --campaign-card-muted: rgba(255, 255, 255, 0.72);
+  --campaign-card-border: rgba(255, 177, 92, 0.28);
+  --campaign-card-bg:
+    radial-gradient(ellipse at 86% 18%, rgba(255, 177, 92, 0.18), transparent 34%),
+    radial-gradient(ellipse at 10% 100%, rgba(185, 140, 255, 0.18), transparent 42%),
+    linear-gradient(120deg, #0d1026 0%, #1d1326 52%, #33254c 100%);
+  --campaign-pattern: radial-gradient(1px 1px at 8% 20%, #fff 98%, transparent), radial-gradient(1px 1px at 24% 74%, rgba(255, 255, 255, 0.7) 98%, transparent), radial-gradient(1px 1px at 48% 32%, #fff 98%, transparent), radial-gradient(1px 1px at 68% 82%, rgba(255, 255, 255, 0.6) 98%, transparent), radial-gradient(1px 1px at 86% 42%, #fff 98%, transparent);
+  --campaign-pattern-opacity: 0.42;
+}
+
+/* ORBISTA の紙吹雪パターン（特設サイトと共通のモチーフ） */
+html[data-campaign] {
+  --campaign-confetti: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'340'%20height%3D'280'%3E%0A%3Crect%20x%3D'22'%20y%3D'34'%20width%3D'11'%20height%3D'6'%20rx%3D'2'%20fill%3D'%23ff8fba'%20transform%3D'rotate(24%2027%2037)'%2F%3E%0A%3Ccircle%20cx%3D'122'%20cy%3D'58'%20r%3D'4'%20fill%3D'%23ffd75e'%2F%3E%0A%3Cpath%20d%3D'M232%2027l3.2%209.6%209.6%203.2-9.6%203.2L232%2052.6l-3.2-9.6L219.2%2039.8l9.6-3.2z'%20fill%3D'%236ecff0'%2F%3E%0A%3Ccircle%20cx%3D'286'%20cy%3D'76'%20r%3D'6.5'%20fill%3D'none'%20stroke%3D'%23ffd75e'%20stroke-width%3D'2'%2F%3E%0A%3Crect%20x%3D'302'%20y%3D'146'%20width%3D'10'%20height%3D'6'%20rx%3D'2'%20fill%3D'%23b49bff'%20transform%3D'rotate(-32%20307%20149)'%2F%3E%0A%3Ccircle%20cx%3D'58'%20cy%3D'202'%20r%3D'4'%20fill%3D'%237fdfb0'%2F%3E%0A%3Cpath%20d%3D'M182%20206l2.4%207.2%207.2%202.4-7.2%202.4-2.4%207.2-2.4-7.2-7.2-2.4%207.2-2.4z'%20fill%3D'%23ff9fc4'%2F%3E%0A%3Ccircle%20cx%3D'246'%20cy%3D'242'%20r%3D'2.8'%20fill%3D'%236ecff0'%2F%3E%0A%3Crect%20x%3D'118'%20y%3D'148'%20width%3D'7'%20height%3D'7'%20rx%3D'1.6'%20fill%3D'%23ffd75e'%20transform%3D'rotate(18%20121%20151)'%2F%3E%0A%3Ccircle%20cx%3D'324'%20cy%3D'228'%20r%3D'3'%20fill%3D'%23b49bff'%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ---------- ヘッダー直下のキャンペーンバー ---------- */
+.campaign-bar {
+  display: none;
+  position: relative;
+  z-index: 999;
+  margin-top: 62px;
+  min-height: 40px;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--campaign-bar-text, #fff);
+  text-decoration: none;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  background: var(--campaign-bar-bg);
+  border-bottom: 1px solid var(--campaign-bar-border, color-mix(in srgb, var(--campaign-accent) 32%, transparent));
+  box-shadow: 0 6px 18px rgba(90, 62, 160, 0.08);
+  isolation: isolate;
+}
+
+.campaign-bar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: var(--campaign-pattern, none);
+  background-size: 340px 280px;
+  opacity: var(--campaign-pattern-opacity, 0.4);
+  pointer-events: none;
+}
+
+html[data-campaign="halloween2027"] .campaign-bar {
+  display: flex;
+}
+
+.campaign-bar-star {
+  color: var(--campaign-accent);
+  font-size: 0.9rem;
+  line-height: 1;
+  text-shadow: 0 0 12px var(--campaign-glow);
+  animation: campaignTwinkle 3.4s ease-in-out infinite;
+}
+
+.campaign-bar-label {
+  color: var(--campaign-bar-label, var(--campaign-accent));
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.campaign-bar-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.campaign-bar-cta {
+  flex: 0 0 auto;
+  margin-left: 6px;
+  padding: 3px 10px;
+  border: 1px solid color-mix(in srgb, var(--campaign-accent) 52%, transparent);
+  border-radius: 999px;
+  color: var(--campaign-accent);
+  font-size: 0.64rem;
+  letter-spacing: 0.06em;
+}
+
+.campaign-bar:hover .campaign-bar-cta {
+  background: var(--campaign-accent);
+  color: var(--campaign-accent-ink, #fff);
+}
+
+html[data-campaign="halloween2027"] #siteHeader {
+  border-bottom-color: color-mix(in srgb, var(--campaign-accent) 55%, #fff);
+}
+
+#siteHeader .logo { position: relative; }
+
+html[data-campaign="halloween2027"] #siteHeader .logo::after {
+  content: "✦";
+  position: absolute;
+  top: -7px;
+  right: -17px;
+  color: var(--campaign-accent);
+  font-size: 0.72rem;
+  line-height: 1;
+  text-shadow: 0 0 10px var(--campaign-glow);
+  pointer-events: none;
+}
+
+@keyframes campaignTwinkle {
+  0%, 100% { opacity: 0.65; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.12); }
+}
+
+/* ---------- トップページのスポットライト ---------- */
+.campaign-spotlight {
+  padding: clamp(26px, 4.5vw, 46px) 20px;
+}
+
+.campaign-spotlight[hidden] { display: none !important; }
+
+.campaign-spotlight-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  align-items: center;
+  gap: clamp(20px, 4vw, 54px);
+  max-width: 1120px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: clamp(26px, 4.5vw, 46px);
+  border: 1px solid var(--campaign-card-border, color-mix(in srgb, var(--campaign-accent) 34%, transparent));
+  border-radius: 28px;
+  color: var(--campaign-card-text, #fff);
+  background: var(--campaign-card-bg);
+  box-shadow: 0 18px 50px rgba(90, 62, 160, 0.14);
+  isolation: isolate;
+}
+
+.campaign-spotlight-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: var(--campaign-pattern-opacity, 0.42);
+  pointer-events: none;
+  background-image: var(--campaign-pattern, none);
+  background-size: 340px 280px;
+}
+
+.campaign-spotlight-inner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #ff8fba, #ffd75e 28%, #b49bff 54%, #6ecff0 78%, #7fdfb0);
+}
+
+html[data-campaign="halloween2027"] .campaign-spotlight-inner::after {
+  background: linear-gradient(90deg, #ffb15c, #b98cff 50%, #ffb15c);
+}
+
+.campaign-spotlight-copy { position: relative; z-index: 1; }
+
+.campaign-spotlight-eyebrow {
+  margin: 0 0 8px;
+  color: var(--campaign-accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.campaign-spotlight-title {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.7rem, 3.8vw, 3rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+}
+
+.campaign-spotlight-desc {
+  max-width: 640px;
+  margin: 12px 0 18px;
+  color: var(--campaign-card-muted, rgba(255, 255, 255, 0.72));
+  font-size: 0.84rem;
+  line-height: 1.9;
+}
+
+.campaign-spotlight-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 44px;
+  padding: 0 17px;
+  border: 1px solid color-mix(in srgb, var(--campaign-accent) 55%, transparent);
+  border-radius: 999px;
+  color: var(--campaign-accent);
+  background: rgba(255, 255, 255, 0.55);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.campaign-spotlight-cta b { font-size: 1rem; font-weight: 400; }
+.campaign-spotlight-cta:hover { background: var(--campaign-accent); color: var(--campaign-accent-ink, #1a1730); }
+
+.campaign-spotlight-art {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+}
+
+.campaign-spotlight-art svg {
+  display: block;
+  width: min(100%, 270px);
+  height: auto;
+  filter: drop-shadow(0 0 22px var(--campaign-glow));
+}
+
+/* ---------- トップページの ORBISTA ニュースカード ---------- */
+.news-item.is-orbista {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(143, 123, 240, 0.24);
+  background:
+    radial-gradient(circle at 92% 4%, rgba(255, 215, 94, 0.26), transparent 34%),
+    radial-gradient(circle at 4% 100%, rgba(110, 207, 240, 0.2), transparent 38%),
+    linear-gradient(135deg, #fffaf0 0%, #fff0f8 56%, #eef9ff 100%);
+  box-shadow: 0 10px 26px rgba(90, 62, 160, 0.1);
+}
+
+.news-item.is-orbista::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #ff8fba, #ffd75e 28%, #b49bff 54%, #6ecff0 78%, #7fdfb0);
+}
+
+.news-item.is-orbista .news-tag {
+  background: linear-gradient(100deg, #8f7bf0, #6a4fd6);
+  color: #fff;
+}
+
+.news-item.is-orbista .news-thumb {
+  object-fit: contain;
+  background: #fffaf0;
+}
+
+:root[data-theme="dark"] .news-item.is-orbista .news-thumb {
+  background: #241d3a;
+}
+
+.news-item.is-orbista .news-date { color: #6a4fd6; }
+.news-item.is-orbista .news-title { color: #352b5c; }
+.news-item.is-orbista .news-desc { color: #5a4f7d; }
+
+.news-item.is-orbista .news-more {
+  border-color: rgba(106, 79, 214, 0.45);
+  color: #46357f;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.news-item.is-orbista .news-more:hover {
+  background: #6a4fd6;
+  border-color: #6a4fd6;
+  color: #fff;
+}
+
+:root[data-theme="dark"] .news-item.is-orbista {
+  border-color: rgba(180, 155, 255, 0.3);
+  background:
+    radial-gradient(circle at 92% 4%, rgba(255, 215, 94, 0.12), transparent 34%),
+    radial-gradient(circle at 4% 100%, rgba(110, 207, 240, 0.12), transparent 38%),
+    linear-gradient(135deg, #241d3a 0%, #2d1f33 56%, #1b2a35 100%);
+}
+
+:root[data-theme="dark"] .news-item.is-orbista .news-title { color: #f4efe7; }
+:root[data-theme="dark"] .news-item.is-orbista .news-desc { color: #cbbfe3; }
+:root[data-theme="dark"] .news-item.is-orbista .news-date { color: #c9b8ff; }
+:root[data-theme="dark"] .news-item.is-orbista .news-more {
+  border-color: rgba(201, 184, 255, 0.4);
+  color: #e3d9ff;
+  background: rgba(36, 29, 58, 0.7);
+}
+:root[data-theme="dark"] .news-item.is-orbista .news-more:hover {
+  background: #8f7bf0;
+  border-color: #8f7bf0;
+  color: #fff;
+}
+
+/* ---------- 季節テーマ切替UI ---------- */
+.campaign-switcher {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 950;
+  font-family: var(--font);
+}
+
+.campaign-switcher-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 0 15px;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 0.76rem;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.campaign-switcher-toggle svg {
+  width: 17px;
+  height: 17px;
+  color: var(--accent-deep);
+}
+
+.campaign-switcher-toggle:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.campaign-switcher-panel {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 10px);
+  width: min(310px, calc(100vw - 32px));
+  max-height: min(72vh, 560px);
+  overflow-y: auto;
+  padding: 16px;
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  background: var(--card);
+  color: var(--text);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+}
+
+.campaign-switcher-panel[hidden] { display: none !important; }
+
+.campaign-switcher-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.campaign-switcher-kicker {
+  margin: 0 0 2px;
+  color: var(--muted);
+  font-family: var(--font-display);
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+.campaign-switcher-head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.campaign-switcher-close {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.campaign-switcher-close:hover { color: var(--text); border-color: var(--accent); }
+
+.campaign-switcher-note {
+  margin: 9px 0 11px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1.7;
+}
+
+.campaign-switcher-options {
+  display: grid;
+  gap: 4px;
+}
+
+.campaign-switcher-options label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 9px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+
+.campaign-switcher-options label:hover { background: rgba(117, 177, 192, 0.12); }
+
+.campaign-switcher-options input {
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  margin: 3px 0 0;
+  accent-color: var(--accent-deep);
+}
+
+.campaign-switcher-options b {
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.campaign-switcher-options small {
+  display: block;
+  margin-top: 1px;
+  color: var(--muted);
+  font-size: 0.64rem;
+  line-height: 1.4;
+}
+
+.campaign-switcher-status {
+  margin: 10px 0 8px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.campaign-switcher-reset {
+  width: 100%;
+  min-height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 0.7rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.campaign-switcher-reset:hover { border-color: var(--accent); background: rgba(117, 177, 192, 0.1); }
+
+@media (max-width: 760px) {
+  .campaign-bar {
+    /* 601–760px はヘッダーが 62px コンテンツ + 3px ボーダー */
+    margin-top: 62px;
+    min-height: 44px;
+    padding: 0 14px;
+    gap: 8px;
+    font-size: 0.7rem;
+  }
+
+  .campaign-bar-label { display: none; }
+  .campaign-bar-cta { display: none; }
+  .campaign-bar-text { max-width: 100%; }
+
+  .campaign-spotlight-inner {
+    grid-template-columns: 1fr;
+    padding: 24px 20px;
+    border-radius: 22px;
+  }
+
+  .campaign-spotlight-art { display: none; }
+  .campaign-spotlight-title { font-size: clamp(1.55rem, 7vw, 2.2rem); }
+  .campaign-spotlight-desc { font-size: 0.8rem; }
+
+  .campaign-switcher { left: 12px; bottom: 12px; }
+  .campaign-switcher-toggle { padding: 0 12px; }
+  .campaign-switcher-panel {
+    left: 0;
+    width: min(310px, calc(100vw - 24px));
+  }
+}
+
+@media (max-width: 600px) {
+  .campaign-bar {
+    /* 〜600px はヘッダーが 56px コンテンツ + 3px ボーダー */
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 420px) {
+  .campaign-bar-star { font-size: 0.8rem; }
+  .campaign-bar-text { font-size: 0.66rem; }
+  .campaign-switcher-toggle span { display: none; }
+  .campaign-switcher-toggle { width: 46px; justify-content: center; padding: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .campaign-bar-star { animation: none; }
+  .campaign-switcher-toggle { transition: none; }
+}

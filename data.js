@@ -1848,6 +1848,26 @@ const GROUP_INFO = [
       name: "MilliPro SONA",
       desc: "A new unit combining Sound and Persona. Founded as a place where each member's individuality and artistry shine through \"solo artist activities\" that maximize their strengths and appeal."
     }
+  },
+  {
+    id: "pukaama",
+    name: "ぷかあま",
+    nameEn: "Pukaama",
+    icon: "images/icon/group/pukaama.jpg",
+    badge: "new",
+    desc: "甘狼このみと虹深°ぬふによるミリプロ初のユニット。「楽しいことは全部ここから！」をコンセプトに、2人の個性とクリエイティブな発想を活かした活動を展開します。",
+    members: [
+      { id: "konomi" },
+      { id: "nuhu" }
+    ],
+    links: {
+      yt: "https://www.youtube.com/@ぷかあま",
+      x: "https://x.com/puka_ama"
+    },
+    en: {
+      name: "Pukaama",
+      desc: "MilliPro's first unit, formed by Amakami Konomi and Nijipuka Nuhu. With the concept \"All the fun starts here!\", they create new content using their distinct personalities and creative ideas."
+    }
   }
 ];
 
@@ -1863,14 +1883,44 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-11-07",
+    tag: "ユニット",
+    title: "「ぷかあま」結成のお知らせ！",
+    desc: "甘狼このみと虹深°ぬふによるミリプロ初のユニット「ぷかあま」が結成。公式YouTubeチャンネル「ぷかあまぱーく」で毎週土曜日19時に動画を投稿予定です。",
+    image: "images/rogo/pukaama.webp",
+    url: "https://milpr.com/news/pukaama",
+    source: "milipro",
+    en: { tag: "Unit", title: "MilliPro Announces New Unit \"Pukaama\"!", desc: "MilliPro's first unit, Pukaama, brings together Amakami Konomi and Nijipuka Nuhu. Their official YouTube channel, Pukaama Park, plans to post videos every Saturday at 7 PM JST." }
+  },
+  {
+    date: "2026-11-06",
+    tag: "記念",
+    title: "音ノ乃のののYouTubeチャンネル登録者数が70万人を突破！",
+    desc: "2026年11月6日、音ノ乃のののYouTubeチャンネル登録者数が70万人を突破しました。公式サイトでは本人からのコメントも公開されています。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_f916589a-6b38-4578-a3a9-310bfdba4f19.png",
+    url: "https://milpr.com/news/nonono_nono70",
+    source: "milipro",
+    en: { tag: "Milestone", title: "Nono Nono's YouTube Channel Reaches 700,000 Subscribers!", desc: "On Nov 6, 2026, Nono Nono's YouTube channel surpassed 700,000 subscribers. Her message is available on the official site." }
+  },
+  {
+    date: "2026-11-08",
+    tag: "ORBISTA",
+    title: "ORBISTA特設サイトを公開しました",
+    desc: "イベントシリーズ「ORBISTA」の特設サイトを公開しました。シリーズの概要や募集要項をご覧いただけます。本企画はファンによる非公式の取り組みで、ミリプロ公式とは関係ありません。",
+    image: "ORBISTA-rogo.png",
+    url: "orbista/",
+    source: "milliorbis",
+    en: { tag: "ORBISTA", title: "The ORBISTA Special Site Is Now Open", desc: "The special site for the ORBISTA event series is now open, featuring an overview and recruitment guidelines. This is an unofficial fan-made project and is not affiliated with MilliPro." }
+  },
+  {
     date: "2026-11-03",
-    tag: "イベント",
+    tag: "ORBISTA",
     title: "Milli Orbis、新たなイベントシリーズ「ORBISTA」を始動",
     desc: "季節イベントやファン参加型企画などを展開する「ORBISTA」が始動します。本企画はファンによる非公式の取り組みで、ミリプロ公式とは関係ありません。",
     image: "ORBISTA-rogo.png",
     url: "news/press/orbista-launch/",
     source: "milliorbis",
-    en: { tag: "Event", title: "Milli Orbis Launches New Event Series \"ORBISTA\"", desc: "\"ORBISTA,\" a new series of seasonal events and fan-participation projects, is launching. This is an unofficial fan-made project and is not affiliated with MilliPro." }
+    en: { tag: "ORBISTA", title: "Milli Orbis Launches New Event Series \"ORBISTA\"", desc: "\"ORBISTA,\" a new series of seasonal events and fan-participation projects, is launching. This is an unofficial fan-made project and is not affiliated with MilliPro." }
   },
   {
     date: "2026-11-03",
@@ -2229,15 +2279,6 @@ const EVENTS = [
   { type: "birthday", member: "aoi", title: "海琳あおい 誕生日", url: "aoi.html", en: { title: "Mitama Aoi's Birthday" } }
 ];
 
-const X_POSTS = [
-  "https://x.com/Mil_Pro_/status/2097610970613117371",
-  "https://x.com/Mil_Pro_/status/2095708467248214056",
-  "https://x.com/Mil_Pro_/status/2094983904189178149",
-  "https://x.com/Mil_Pro_/status/2088971545511444730",
-  "https://x.com/Mil_Pro_/status/2088971188920050018",
-  "https://x.com/Mil_Pro_/status/2088969048700899793"
-];
-
 const HISTORY = [
   { date: "2022/12/23", title: "甘狼このみ、個人勢として初配信", en: { title: "Amakami Konomi streams for the first time as an indie" } },
   { date: "2023/4/1", title: "ミリプロ設立（甘狼このみ・ミリちゃん）", desc: "「無数の」という意味のMillionには、無数の可能性を秘めたタレントが飛躍するサポートをしたいという想いが込められています", en: { title: "MilliPro founded (Amakami Konomi & Mil-chan)", desc: "The name \"Million\" means \"countless\" — a wish to support talents with countless possibilities as they take flight." } },
@@ -2267,7 +2308,16 @@ const HISTORY = [
 const YOUTUBE = {
   dataUrl: "data/youtube.json",
   maxVideos: 10,
-  maxStreams: 8
+  maxStreams: 8,
+  extraSources: [
+    {
+      id: "pukaama",
+      name: "ぷかあまぱーく",
+      nameEn: "Pukaama Park",
+      handle: "@ぷかあま",
+      channelId: "UCmf_GTJk0OgZ0xBLPKAmesA"
+    }
+  ]
 };
 
 /* ミリプロ検定（quiz.html）。a: 正解の選択肢インデックス */

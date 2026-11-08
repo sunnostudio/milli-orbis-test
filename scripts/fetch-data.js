@@ -25,7 +25,8 @@ const handleOf = (m) => {
 /* 取得対象: メンバー個人チャンネル + ミリプロ公式チャンネル */
 const sources = [
   ...members.map((m) => ({ id: m.id, name: m.name, handle: handleOf(m) })),
-  { id: "official", name: "ミリプロ公式", handle: "@Mil_Pro" }
+  { id: "official", name: "ミリプロ公式", handle: "@Mil_Pro" },
+  ...(YOUTUBE.extraSources || [])
 ];
 
 async function fetchJson(url, tries = 3) {
@@ -86,8 +87,11 @@ async function main() {
   const channelResults = await Promise.all(
     sources.map(async (s) => {
       try {
+        const channelParams = new URLSearchParams({ part: "contentDetails,id", key: API_KEY });
+        if (s.channelId) channelParams.set("id", s.channelId);
+        else channelParams.set("forHandle", s.handle);
         const j = await fetchJson(
-          `${API}/channels?part=contentDetails,id&forHandle=${encodeURIComponent(s.handle)}&key=${API_KEY}`
+          `${API}/channels?${channelParams}`
         );
         const ch = j.items && j.items[0];
         return ch ? { src: s, playlistId: ch.contentDetails.relatedPlaylists.uploads, channelId: ch.id } : null;

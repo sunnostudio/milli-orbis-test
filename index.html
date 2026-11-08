@@ -43,6 +43,12 @@
 <link rel="preload" as="image" href="images/rogo/Milli%20Orbis-rogo.webp" type="image/webp" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<!-- MILLI_CAMPAIGN_HEAD_START -->
+<script src="/data/campaigns.js"></script>
+<script src="/scripts/campaign-boot.js"></script>
+<script src="/scripts/campaign.js" defer></script>
+<link rel="stylesheet" href="/campaigns.css">
+<!-- MILLI_CAMPAIGN_HEAD_END -->
 </head>
 <body data-oshi="">
 <!-- Cloudflare移行: 旧RenderでJS無効/遅延時に表示するfallbackバナー -->
@@ -159,11 +165,20 @@
     <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
     <a href="songs.html" data-i18n="nav.songs">楽曲一覧</a>
     <a href="cursors.html">カーソル配布</a>
+    <a href="orbista/">ORBISTA 特設サイト</a>
     <a href="account.html" data-i18n="nav.account">マイページ</a>
     <div class="drawer-section-label" data-i18n="footer.about">サイトについて</div>
     <div class="drawer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><br><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></div>
   </nav>
 </header>
+<!-- MILLI_CAMPAIGN_BAR_START -->
+<a class="campaign-bar" id="campaignBar" href="/orbista/" aria-label="ORBISTA 特設サイトへ">
+  <span class="campaign-bar-star" aria-hidden="true">✦</span>
+  <span class="campaign-bar-label">ORBISTA</span>
+  <span class="campaign-bar-text" id="campaignBarText">季節のイベントシリーズ「ORBISTA」</span>
+  <span class="campaign-bar-cta">特設サイトへ <span aria-hidden="true">→</span></span>
+</a>
+<!-- MILLI_CAMPAIGN_BAR_END -->
 
 <main>
   <section id="home" class="hero">
@@ -199,6 +214,91 @@
   </section>
 
   <div class="wave" aria-hidden="true"></div>
+
+  <!-- MILLI_CAMPAIGN_SPOTLIGHT_START -->
+  <section id="campaignSpotlight" class="campaign-spotlight" hidden aria-labelledby="campaignSpotlightTitle">
+    <div class="campaign-spotlight-inner">
+      <div class="campaign-spotlight-copy">
+        <p class="campaign-spotlight-eyebrow" data-campaign-eyebrow></p>
+        <h2 class="campaign-spotlight-title" id="campaignSpotlightTitle" data-campaign-title></h2>
+        <p class="campaign-spotlight-desc" data-campaign-desc></p>
+        <a class="campaign-spotlight-cta" href="/orbista/" data-campaign-cta>
+          <span data-campaign-cta-label>ORBISTA特設サイトへ</span>
+          <b aria-hidden="true">↗</b>
+        </a>
+      </div>
+      <div class="campaign-spotlight-art" aria-hidden="true">
+        <svg viewBox="0 0 300 240" role="presentation" focusable="false">
+          <defs>
+            <radialGradient id="cspot-glow" cx="50%" cy="50%" r="50%">
+              <stop offset="0" stop-color="#fff7cc"/>
+              <stop offset=".55" stop-color="#ffd7e8" stop-opacity=".6"/>
+              <stop offset="1" stop-color="#c9b8ff" stop-opacity="0"/>
+            </radialGradient>
+            <radialGradient id="cspot-planet" cx="34%" cy="28%" r="74%">
+              <stop offset="0" stop-color="#fffbe2"/>
+              <stop offset=".4" stop-color="#ffd3e6"/>
+              <stop offset=".74" stop-color="#c9b8ff"/>
+              <stop offset="1" stop-color="#8f7bf0"/>
+            </radialGradient>
+            <linearGradient id="cspot-star" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#fffbe0"/>
+              <stop offset=".5" stop-color="#ffd75e"/>
+              <stop offset="1" stop-color="#ff9fc4"/>
+            </linearGradient>
+            <linearGradient id="cspot-ring" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ff8fba" stop-opacity=".12"/>
+              <stop offset=".5" stop-color="#ff8fba" stop-opacity=".8"/>
+              <stop offset="1" stop-color="#6ecff0" stop-opacity=".25"/>
+            </linearGradient>
+          </defs>
+
+          <circle cx="150" cy="132" r="92" fill="url(#cspot-glow)"/>
+
+          <path d="M18 22 Q150 72 282 22" fill="none" stroke="#b49bff" stroke-opacity=".45" stroke-width="1.4"/>
+          <g>
+            <path d="M40 26l8 15-17 1z" fill="#6ecff0"/>
+            <path d="M72 37l8 15-17 1z" fill="#ffd75e"/>
+            <path d="M104 46l8 15-17 1z" fill="#b49bff"/>
+            <path d="M136 52l8 15-17 1z" fill="#ff9fc4"/>
+            <path d="M168 52l8 15-17 1z" fill="#7fdfb0"/>
+            <path d="M200 46l8 15-17 1z" fill="#6ecff0"/>
+            <path d="M232 36l8 15-17 1z" fill="#ffd75e"/>
+            <path d="M256 29l8 15-17 1z" fill="#b49bff"/>
+          </g>
+
+          <ellipse cx="150" cy="136" rx="116" ry="44" fill="none" stroke="url(#cspot-ring)" stroke-width="1.4" transform="rotate(-16 150 136)"/>
+          <ellipse cx="150" cy="132" rx="88" ry="82" fill="none" stroke="#b49bff" stroke-opacity=".26" stroke-dasharray="3 8"/>
+
+          <circle cx="150" cy="132" r="45" fill="url(#cspot-planet)"/>
+          <ellipse cx="150" cy="132" rx="66" ry="16" fill="none" stroke="#fff" stroke-opacity=".68" stroke-width="2.2" transform="rotate(-18 150 132)"/>
+          <path d="M150 100l8.6 24.4L183 133l-24.4 8.6L150 166l-8.6-24.4L117 133l24.4-8.6z" fill="url(#cspot-star)"/>
+          <circle cx="132" cy="118" r="6" fill="#fff" opacity=".52"/>
+
+          <g>
+            <path d="M48 164c-3 24 5 42 2 56" fill="none" stroke="#b49bff" stroke-opacity=".45"/>
+            <ellipse cx="48" cy="146" rx="17" ry="22" fill="#ff9fc4" opacity=".9"/>
+            <ellipse cx="43" cy="138" rx="4" ry="7" transform="rotate(-16 43 138)" fill="#fff" opacity=".48"/>
+            <path d="M44 166l4 8 5-8z" fill="#e65f95" opacity=".9"/>
+          </g>
+          <g>
+            <path d="M252 176c3 20-4 36-1 48" fill="none" stroke="#b49bff" stroke-opacity=".45"/>
+            <ellipse cx="252" cy="160" rx="15" ry="20" fill="#7ed8f5" opacity=".92"/>
+            <ellipse cx="248" cy="152" rx="3.5" ry="6" transform="rotate(-16 248 152)" fill="#fff" opacity=".5"/>
+            <path d="M248 178l4 8 5-8z" fill="#2f9cc9" opacity=".9"/>
+          </g>
+
+          <path d="M64 92l2.6 8 8 2.6-8 2.6-2.6 8-2.6-8-8-2.6 8-2.6z" fill="#ffd75e" opacity=".9"/>
+          <path d="M244 96l2 6.4 6.4 2-6.4 2-2 6.4-2-6.4-6.4-2 6.4-2z" fill="#ff9fc4" opacity=".9"/>
+          <circle cx="96" cy="206" r="3.2" fill="#7fdfb0"/>
+          <circle cx="214" cy="214" r="2.6" fill="#6ecff0"/>
+          <circle cx="180" cy="72" r="2.4" fill="#fff"/>
+          <circle cx="118" cy="66" r="2" fill="#b49bff"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+  <!-- MILLI_CAMPAIGN_SPOTLIGHT_END -->
 
   <section id="gameFeature" class="section container game-feature-section"></section>
 
@@ -240,13 +340,7 @@
   <section id="news" class="section container">
     <h2 class="section-title" data-i18n="news.title">注目のお知らせ</h2>
     <p class="section-sub" data-i18n="news.sub">公式サイト・公式Xを確認して手動で更新しています</p>
-    <div class="grid grid-2">
-      <div id="newsList" class="grid"></div>
-      <div>
-        <h3 class="section-sub" style="margin-bottom:14px;" data-i18n="news.latestX">最新ポスト（公式X）</h3>
-        <div id="xposts" class="xpost-list"></div>
-      </div>
-    </div>
+    <div id="newsList" class="grid grid-2"></div>
     <p class="news-all-wrap"><a class="btn btn-ghost" href="news/" data-i18n="news.all">すべてのお知らせを見る →</a></p>
   </section>
 
@@ -326,7 +420,7 @@
   <p class="source-note"><span data-i18n="footer.apiPre">YouTube Data API を利用しています（</span><a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a><span data-i18n="footer.apiPost">）</span></p>
   <p data-i18n="footer.copy">© 2026 Milli Orbis（非公式ファンサイト）</p>
   <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
-  <p class="footer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
+  <p class="footer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><span class="sep">・</span><a href="orbista/">ORBISTA</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
 </footer>
 
 

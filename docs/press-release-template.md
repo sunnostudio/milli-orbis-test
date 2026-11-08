@@ -7,15 +7,15 @@
 ```js
 window.PRESS_RELEASES = [
   {
-    slug: "christmas-2026",
+    slug: "event-sample",
     published: false,
     date: "2026-12-01",
     updated: "",
     category: "イベント",
-    title: "Milli Orbis Christmas 2026 開催決定",
-    lead: "クリスマス企画の概要をここに書きます。",
-    image: "dist/press/christmas-2026.png",
-    imageAlt: "クリスマス企画のキービジュアル",
+    title: "Milli Orbis イベントのお知らせ",
+    lead: "イベントの概要をここに書きます。",
+    image: "dist/press/event-sample.png",
+    imageAlt: "イベントのキービジュアル",
     imageCaption: "キービジュアル",
     body: `
       <p>本文をHTMLで書きます。</p>
@@ -41,7 +41,7 @@ node scripts/gen-news.js
 表示例:
 
 ```text
-generated: news/press/christmas-2026/ (noindex)
+generated: news/press/event-sample/ (noindex)
 ```
 
 生成されたURLを直接共有してください。
@@ -57,10 +57,10 @@ generated: news/press/christmas-2026/ (noindex)
 {
   date: "2026-12-01",
   tag: "イベント",
-  title: "Milli Orbis Christmas 2026 開催決定",
-  desc: "クリスマス企画の概要。",
-  image: "dist/press/christmas-2026.png",
-  url: "/news/press/christmas-2026/"
+  title: "Milli Orbis イベントのお知らせ",
+  desc: "イベントの概要。",
+  image: "dist/press/event-sample.png",
+  url: "/news/press/event-sample/"
 }
 ```
 

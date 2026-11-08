@@ -353,6 +353,7 @@ const mobileNav = (home) => `
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="cursors.html">カーソル配布</a>
+      <a href="orbista/">ORBISTA 特設サイト</a>
       <a href="account.html" data-i18n="nav.account">マイページ</a>
       <div class="drawer-section-label" data-i18n="footer.about">サイトについて</div>
       <div class="drawer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><br><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></div>`;
@@ -582,7 +583,7 @@ const footerHtml = `
   <p class="source-note"><span data-i18n="footer.yt">本サイトは YouTube の利用規約に同意の上でご利用ください: </span><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">https://www.youtube.com/t/terms</a></p>
   <p data-i18n="footer.copy">© 2026 Milli Orbis（非公式ファンサイト）</p>
   <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
-  <p class="footer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
+  <p class="footer-legal"><a href="legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="rights.html" data-i18n="footer.rights">権利表記</a><span class="sep">・</span><a href="orbista/">ORBISTA</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
 </footer>`;
 
 const i18nScriptTags = `

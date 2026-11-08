@@ -74,6 +74,12 @@
 .millidex-hero-logo{max-width:min(420px,80vw);height:auto;display:block;margin:0 auto 12px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.12))}
 [data-theme="dark"] .millidex-hero-logo{background:rgba(255,255,255,.92);border-radius:14px;padding:6px 10px}
 </style>
+<!-- MILLI_CAMPAIGN_HEAD_START -->
+<script src="/data/campaigns.js"></script>
+<script src="/scripts/campaign-boot.js"></script>
+<script src="/scripts/campaign.js" defer></script>
+<link rel="stylesheet" href="/campaigns.css">
+<!-- MILLI_CAMPAIGN_HEAD_END -->
 </head>
 <body data-oshi="">
 <!-- Cloudflare移行: 旧RenderでJS無効/遅延時に表示するfallbackバナー -->
@@ -187,11 +193,20 @@
     <a href="../quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
     <a href="../songs.html" data-i18n="nav.songs">楽曲一覧</a>
     <a href="../cursors.html">カーソル配布</a>
+      <a href="../orbista/">ORBISTA 特設サイト</a>
     <a href="../account.html" data-i18n="nav.account">マイページ</a>
     <div class="drawer-section-label" data-i18n="footer.about">サイトについて</div>
     <div class="drawer-legal"><a href="../legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="../privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="../rights.html" data-i18n="footer.rights">権利表記</a><br><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></div>
   </nav>
 </header>
+<!-- MILLI_CAMPAIGN_BAR_START -->
+<a class="campaign-bar" id="campaignBar" href="/orbista/" aria-label="ORBISTA 特設サイトへ">
+  <span class="campaign-bar-star" aria-hidden="true">✦</span>
+  <span class="campaign-bar-label">ORBISTA</span>
+  <span class="campaign-bar-text" id="campaignBarText">季節のイベントシリーズ「ORBISTA」</span>
+  <span class="campaign-bar-cta">特設サイトへ <span aria-hidden="true">→</span></span>
+</a>
+<!-- MILLI_CAMPAIGN_BAR_END -->
 <main class="container" style="padding-top:84px">
 <nav class="breadcrumb"><a href="../index.html">Home</a><span>MilliDex</span><span>現在販売中</span></nav>
 <section class="subpage-hero"><img src="../images/MilliDex-rogo.png" alt="MilliDex グッズ・情報データベース" class="millidex-hero-logo" width="594" height="191" loading="eager" decoding="async"><h1 style="font-family:var(--font-display);font-weight:900">現在販売中・販売予定</h1><p class="section-sub" style="padding-left:0">タレント・種類・カテゴリ・販売場所で絞り込み、受注期間と発送期間を一覧で確認できます。受注終了が近い順にも並べ替え可能。</p><p class="cmp-disclaimer">本ページはファン有志による非公式まとめです。価格・在庫はリンク先の公式ページでご確認ください。</p></section>
@@ -216,7 +231,7 @@
 <p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト / eeo Store / KADOKAWA / セガ・タイトー（全973件: 公式767+既存コラボ5+外部コラボ201）</p>
 <div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
 </main>
-<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p style="font-size:.72rem;color:var(--muted);margin-top:6px">画像の掲載を禁止されているサイトの商品は自作SVG画像で代用しています。予告なく画像の掲載をなくす可能性があります。</p><p>© 2026 MilliDex（Milli Orbis内 グッズ・情報データベース・非公式ファンまとめ）</p><p class="footer-legal"><a href="../legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="../privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="../rights.html" data-i18n="footer.rights">権利表記</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
+<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p style="font-size:.72rem;color:var(--muted);margin-top:6px">画像の掲載を禁止されているサイトの商品は自作SVG画像で代用しています。予告なく画像の掲載をなくす可能性があります。</p><p>© 2026 MilliDex（Milli Orbis内 グッズ・情報データベース・非公式ファンまとめ）</p><p class="footer-legal"><a href="../legal.html" data-i18n="footer.terms">利用規約</a><span class="sep">・</span><a href="../privacy.html" data-i18n="footer.privacy">プライバシーポリシー</a><span class="sep">・</span><a href="../rights.html" data-i18n="footer.rights">権利表記</a><span class="sep">・</span><a href="../orbista/">ORBISTA</a><span class="sep">／</span><a href="https://x.com/milliorbis_info" target="_blank" rel="noopener">𝕏 @milliorbis_info</a></p>
 </footer>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
