@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-08T14:00:49.381Z",
+  "updatedAt": "2026-11-08T22:37:33.963Z",
   "streams": [
     {
-      "id": "Nzwdwvcdvew",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "大声出してはいけない配信【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Nzwdwvcdvew/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-08T13:06:05Z",
-      "status": "live"
+      "id": "gb9OZsmBytY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-09T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "fMJHBB-soDg",
@@ -124,13 +124,23 @@
   ],
   "videos": [
     {
+      "id": "gb9OZsmBytY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg?v=6af0979a",
+      "publishedAt": "2026-11-08T15:39:03Z",
+      "live": false
+    },
+    {
       "id": "Nzwdwvcdvew",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
       "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
       "title": "大声出してはいけない配信【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Nzwdwvcdvew/hqdefault.jpg?v=6af06d92",
-      "publishedAt": "2026-11-08T13:06:05Z",
+      "thumb": "https://i.ytimg.com/vi/Nzwdwvcdvew/hqdefault.jpg",
+      "publishedAt": "2026-11-08T14:33:30Z",
       "live": true
     },
     {
@@ -415,27 +425,7 @@
       "thumb": "https://i.ytimg.com/vi/p0ZxgOC6qh0/hqdefault.jpg",
       "publishedAt": "2026-11-06T11:45:10Z",
       "live": false
-    },
-    {
-      "id": "bO9WzbiQZEg",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "夕霧レイと『Surges』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bO9WzbiQZEg/hqdefault.jpg",
-      "publishedAt": "2026-11-06T09:00:34Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "Nzwdwvcdvew",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "大声出してはいけない配信【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Nzwdwvcdvew/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-08T13:06:05Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
