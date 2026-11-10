@@ -1401,15 +1401,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2027年5月上旬頃"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:52+09:00"
   },
   {
@@ -1434,15 +1434,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2027年5月上旬頃"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:51+09:00"
   },
   {
@@ -1467,15 +1467,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2027年5月上旬頃"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:51+09:00"
   },
   {
@@ -1500,15 +1500,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2027年5月上旬頃"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:50+09:00"
   },
   {
@@ -1533,15 +1533,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2026年10月9日 〜 2026年11月9日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "ブロマイド・カード",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:49+09:00"
   },
   {
@@ -1566,15 +1566,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2027年5月上旬頃"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:49+09:00"
   },
   {
@@ -1599,15 +1599,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2026年10月9日 〜 2026年11月9日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "バッジ・ピンバッジ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:48+09:00"
   },
   {
@@ -1632,15 +1632,15 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": null
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "雨夜リズ"
     ],
     "product_type": "ボイス",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:47+09:00"
   },
   {
@@ -1665,16 +1665,16 @@
       "rawOrder": "2026年10月9日 〜 2026年11月9日",
       "rawShip": "2026年10月9日 〜 2026年11月9日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "常設同梱不可",
       "雨夜リズ"
     ],
     "product_type": "フルセット",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-09T21:33:46+09:00"
   },
   {
