@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-10T01:50:17.523Z",
+  "updatedAt": "2026-11-10T15:22:15.065Z",
   "streams": [
-    {
-      "id": "K2l78r6KPw4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】加入記念グッズにサイン入れしていくぞ～～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/K2l78r6KPw4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-10T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "JmHL3tmx6MA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 #ゆらぎゆら新モデル 】ちょっぴり大人な「せくすぃ」うぉんなになりました。【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JmHL3tmx6MA/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-10T12:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "hDUmONQouqA",
       "memberId": "aoi",
@@ -48,6 +30,15 @@
       "en": {
         "title": "[📢Goods information] Now accepting orders for commemorative goods for Aoi Kairin 🌱"
       }
+    },
+    {
+      "id": "nElUBc_Ji-Y",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【📢グッズ情報】ハロウィンコレクション2026受注開始🎃",
+      "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-24T14:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "ML6UdIQfYv0",
@@ -132,6 +123,56 @@
     }
   ],
   "videos": [
+    {
+      "id": "k0kpimOohm0",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【お絵描き雑談】久々にショートの絵描くぞ～～～！",
+      "thumb": "https://i.ytimg.com/vi/k0kpimOohm0/hqdefault.jpg",
+      "publishedAt": "2026-11-10T14:38:13Z",
+      "live": true
+    },
+    {
+      "id": "JmHL3tmx6MA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 #ゆらぎゆら新モデル 】ちょっぴり大人な「せくすぃ」うぉんなになりました。【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JmHL3tmx6MA/hqdefault.jpg",
+      "publishedAt": "2026-11-10T14:36:08Z",
+      "live": false
+    },
+    {
+      "id": "K2l78r6KPw4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】加入記念グッズにサイン入れしていくぞ～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/K2l78r6KPw4/hqdefault.jpg",
+      "publishedAt": "2026-11-10T13:42:04Z",
+      "live": true
+    },
+    {
+      "id": "HIwoQ2jtBE0",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】お手伝い頑張る！ #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/HIwoQ2jtBE0/hqdefault.jpg",
+      "publishedAt": "2026-11-10T09:00:08Z",
+      "live": false
+    },
+    {
+      "id": "igxTQC0hcig",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【眠雲ツクリと】引いた言葉が歌詞に含まれる曲歌ってみた#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/igxTQC0hcig/hqdefault.jpg",
+      "publishedAt": "2026-11-10T09:00:07Z",
+      "live": false
+    },
     {
       "id": "BqMG0kSpu_c",
       "memberId": "nuhu",
@@ -263,16 +304,6 @@
       "live": false
     },
     {
-      "id": "K2l78r6KPw4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】加入記念グッズにサイン入れしていくぞ～～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/K2l78r6KPw4/hqdefault.jpg?v=6af141a7",
-      "publishedAt": "2026-11-09T03:44:36Z",
-      "live": true
-    },
-    {
       "id": "Nzwdwvcdvew",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -373,16 +404,6 @@
       "live": false
     },
     {
-      "id": "1A1iwh_25mg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 雑談 】整地！！！！！！！！！！！！！！！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1A1iwh_25mg/hqdefault.jpg",
-      "publishedAt": "2026-11-07T15:37:12Z",
-      "live": true
-    },
-    {
       "id": "sb2k1uNdMNg",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -400,39 +421,6 @@
       "title": "【歌枠】久々の３D雨夜さんですよ🌂【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/Tka1c4DXly4/hqdefault.jpg",
       "publishedAt": "2026-11-07T13:23:27Z",
-      "live": false
-    },
-    {
-      "id": "lV08iY_IDzY",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】みんなのおもろ親戚おしえてや～～～～～┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/lV08iY_IDzY/hqdefault.jpg",
-      "publishedAt": "2026-11-07T13:12:57Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Tell me about everyone's relatives~~~~~~┊︎#Otononono#Nononya"
-      }
-    },
-    {
-      "id": "8x5trkrm_Eg",
-      "memberId": "pukaama",
-      "member": "ぷかあまぱーく",
-      "channelTitle": "ぷかあまぱーく",
-      "title": "【 #ぷかあま初配信 】私たちユニット結成しました ！",
-      "thumb": "https://i.ytimg.com/vi/8x5trkrm_Eg/hqdefault.jpg",
-      "publishedAt": "2026-11-07T10:57:35Z",
-      "live": true
-    },
-    {
-      "id": "iBi9NepjF2c",
-      "memberId": "pukaama",
-      "member": "ぷかあまぱーく",
-      "channelTitle": "ぷかあまぱーく",
-      "title": "【検証】イラストレーターなら『パンケーキ』でも神絵作れる説！？",
-      "thumb": "https://i.ytimg.com/vi/iBi9NepjF2c/hqdefault.jpg",
-      "publishedAt": "2026-11-07T10:00:08Z",
       "live": false
     }
   ],
