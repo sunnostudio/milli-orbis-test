@@ -1,22 +1,31 @@
 {
-  "updatedAt": "2026-11-08T22:37:33.963Z",
+  "updatedAt": "2026-11-09T17:03:34.378Z",
   "streams": [
     {
-      "id": "gb9OZsmBytY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T11:00:00Z",
+      "id": "BqMG0kSpu_c",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【雑談】なにやろっかな～(無計画)",
+      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-09T13:30:20Z",
+      "status": "live"
+    },
+    {
+      "id": "sVx1yVitLwo",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【朝活】２日目のカレーが一番美味いよね【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sVx1yVitLwo/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-09T20:45:00Z",
       "status": "upcoming"
     },
     {
-      "id": "fMJHBB-soDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T11:00:00Z",
+      "id": "K2l78r6KPw4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【雑談】加入記念グッズにサイン入れしていくぞ～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/K2l78r6KPw4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-10T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -26,6 +35,24 @@
       "title": "【 #ゆらぎゆら新モデル 】ちょっぴり大人な「せくすぃ」うぉんなになりました。【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/JmHL3tmx6MA/hqdefault.jpg",
       "scheduledStartTime": "2026-11-10T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "hDUmONQouqA",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-13T09:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "8otOGZZ2NuY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -124,14 +151,154 @@
   ],
   "videos": [
     {
+      "id": "8otOGZZ2NuY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg?v=6af1f9bc",
+      "publishedAt": "2026-11-09T16:50:02Z",
+      "live": false
+    },
+    {
+      "id": "hDUmONQouqA",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg?v=6af1efc5",
+      "publishedAt": "2026-11-09T16:07:30Z",
+      "live": false
+    },
+    {
+      "id": "sVx1yVitLwo",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【朝活】２日目のカレーが一番美味いよね【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sVx1yVitLwo/hqdefault.jpg?v=6af1e642",
+      "publishedAt": "2026-11-09T15:26:56Z",
+      "live": false
+    },
+    {
+      "id": "Ch1FdMjW0B8",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 つぐのひ-天招ねく救いの糸- 】ホラゲ嫌いな私でもできると言われました。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Ch1FdMjW0B8/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:44:50Z",
+      "live": false
+    },
+    {
+      "id": "fMJHBB-soDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:32:38Z",
+      "live": false
+    },
+    {
       "id": "gb9OZsmBytY",
       "memberId": "koma",
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg?v=6af0979a",
-      "publishedAt": "2026-11-08T15:39:03Z",
+      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:30:32Z",
       "live": false
+    },
+    {
+      "id": "BqMG0kSpu_c",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】なにやろっかな～(無計画)",
+      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg?v=6af1c86e",
+      "publishedAt": "2026-11-09T13:30:20Z",
+      "live": true
+    },
+    {
+      "id": "HfXxFckQlEc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 事故物件 〗お部屋探しはNEMUKUMOへ！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/HfXxFckQlEc/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:22:56Z",
+      "live": false
+    },
+    {
+      "id": "0Jp7zpLkOB4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】ゲリラでちょこっと歌うよ～！今週もがんばろ～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0Jp7zpLkOB4/hqdefault.jpg",
+      "publishedAt": "2026-11-09T12:10:32Z",
+      "live": false
+    },
+    {
+      "id": "zKJEt6DZTmM",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【どこまで出るか！？】ボカロ高音曲チャレンジ！【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/zKJEt6DZTmM/hqdefault.jpg",
+      "publishedAt": "2026-11-09T09:01:37Z",
+      "live": false
+    },
+    {
+      "id": "urukibWWcPI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "オリ曲GB配布✨️10万再生感謝❤️‍🔥 #ゆらぎゆら_月の浮かぶ海 #animation",
+      "thumb": "https://i.ytimg.com/vi/urukibWWcPI/hqdefault.jpg",
+      "publishedAt": "2026-11-09T09:00:33Z",
+      "live": false
+    },
+    {
+      "id": "KZJQryhu5uM",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】コップに入ったら絶対！絶対行動ゲーム！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/KZJQryhu5uM/hqdefault.jpg",
+      "publishedAt": "2026-11-09T09:00:29Z",
+      "live": false
+    },
+    {
+      "id": "nr67GQZ9CxA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【はーい口開けて〜】『デビットビット』歌ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/nr67GQZ9CxA/hqdefault.jpg",
+      "publishedAt": "2026-11-09T09:00:11Z",
+      "live": false
+    },
+    {
+      "id": "75HywfNmORU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【バズって生きたい】眠雲ツクリのオリジナル曲歌ってみた#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/75HywfNmORU/hqdefault.jpg",
+      "publishedAt": "2026-11-09T09:00:00Z",
+      "live": false
+    },
+    {
+      "id": "K2l78r6KPw4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】加入記念グッズにサイン入れしていくぞ～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/K2l78r6KPw4/hqdefault.jpg?v=6af141a7",
+      "publishedAt": "2026-11-09T03:44:36Z",
+      "live": true
     },
     {
       "id": "Nzwdwvcdvew",
@@ -142,16 +309,6 @@
       "thumb": "https://i.ytimg.com/vi/Nzwdwvcdvew/hqdefault.jpg",
       "publishedAt": "2026-11-08T14:33:30Z",
       "live": true
-    },
-    {
-      "id": "fMJHBB-soDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg?v=6af0691c",
-      "publishedAt": "2026-11-08T12:20:41Z",
-      "live": false
     },
     {
       "id": "Uu8_k1poH7g",
@@ -295,137 +452,17 @@
       "thumb": "https://i.ytimg.com/vi/8x5trkrm_Eg/hqdefault.jpg",
       "publishedAt": "2026-11-07T10:57:35Z",
       "live": true
-    },
-    {
-      "id": "iBi9NepjF2c",
-      "memberId": "pukaama",
-      "member": "ぷかあまぱーく",
-      "channelTitle": "ぷかあまぱーく",
-      "title": "【検証】イラストレーターなら『パンケーキ』でも神絵作れる説！？",
-      "thumb": "https://i.ytimg.com/vi/iBi9NepjF2c/hqdefault.jpg",
-      "publishedAt": "2026-11-07T10:00:08Z",
-      "live": false
-    },
-    {
-      "id": "b2n4yuBANlU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "高嶺の花 #minecraft #anime",
-      "thumb": "https://i.ytimg.com/vi/b2n4yuBANlU/hqdefault.jpg",
-      "publishedAt": "2026-11-07T09:15:44Z",
-      "live": false
-    },
-    {
-      "id": "K_5860Ybs2c",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "『Overdose』歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/K_5860Ybs2c/hqdefault.jpg",
-      "publishedAt": "2026-11-07T09:01:30Z",
-      "live": false
-    },
-    {
-      "id": "vkj0bwGObrw",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】3回で隠れてる場所を当てろ！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vkj0bwGObrw/hqdefault.jpg",
-      "publishedAt": "2026-11-07T09:00:36Z",
-      "live": false
-    },
-    {
-      "id": "trFXuEGZu8I",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【雨夜と】引いた言葉が歌詞に含まれる曲歌った🎶【眠雲ツクリ/雨夜リズ】#歌ってみた #ボカロ",
-      "thumb": "https://i.ytimg.com/vi/trFXuEGZu8I/hqdefault.jpg",
-      "publishedAt": "2026-11-07T09:00:27Z",
-      "live": false
-    },
-    {
-      "id": "zurS7dG2IeU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg",
-      "publishedAt": "2026-11-07T07:19:24Z",
-      "live": false
-    },
-    {
-      "id": "tIBG9ymUNFU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】７０万 人 耐 久 マ ジ か ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/tIBG9ymUNFU/hqdefault.jpg",
-      "publishedAt": "2026-11-06T17:21:24Z",
-      "live": false
-    },
-    {
-      "id": "PHcyN511nvY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 APEX 】保護者2人と一緒にえーぺっくす！！【 音ノ瀬らこ/ゆらぎゆら/鹿乃まほろ 】",
-      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg",
-      "publishedAt": "2026-11-06T15:32:07Z",
-      "live": false
-    },
-    {
-      "id": "_glr4NLHJTw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg",
-      "publishedAt": "2026-11-06T15:25:37Z",
-      "live": false
-    },
-    {
-      "id": "xg_VkDwhNmI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 絶対遵守 〗必ず守ります〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/xg_VkDwhNmI/hqdefault.jpg",
-      "publishedAt": "2026-11-06T13:50:47Z",
-      "live": false
-    },
-    {
-      "id": "RcAC2Be-o7o",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
-      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg",
-      "publishedAt": "2026-11-06T12:21:41Z",
-      "live": false
-    },
-    {
-      "id": "-VmnIZDwC2o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
-      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg",
-      "publishedAt": "2026-11-06T11:49:04Z",
-      "live": false
-    },
-    {
-      "id": "p0ZxgOC6qh0",
-      "memberId": "pukaama",
-      "member": "ぷかあまぱーく",
-      "channelTitle": "ぷかあまぱーく",
-      "title": "【ティザーPV】ぷかあまぱーくへごあんない！【ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/p0ZxgOC6qh0/hqdefault.jpg",
-      "publishedAt": "2026-11-06T11:45:10Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "BqMG0kSpu_c",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【雑談】なにやろっかな～(無計画)",
+      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-09T13:30:20Z",
+      "status": "live"
+    }
+  ]
 }

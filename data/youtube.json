@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-09T17:03:34.378Z",
+  "updatedAt": "2026-11-10T01:50:17.523Z",
   "streams": [
-    {
-      "id": "BqMG0kSpu_c",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【雑談】なにやろっかな～(無計画)",
-      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T13:30:20Z",
-      "status": "live"
-    },
-    {
-      "id": "sVx1yVitLwo",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【朝活】２日目のカレーが一番美味いよね【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sVx1yVitLwo/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T20:45:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "K2l78r6KPw4",
       "memberId": "aoi",
@@ -151,6 +133,16 @@
   ],
   "videos": [
     {
+      "id": "BqMG0kSpu_c",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】なにやろっかな～(無計画)",
+      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg",
+      "publishedAt": "2026-11-09T17:18:14Z",
+      "live": true
+    },
+    {
       "id": "8otOGZZ2NuY",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -168,16 +160,6 @@
       "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg?v=6af1efc5",
       "publishedAt": "2026-11-09T16:07:30Z",
-      "live": false
-    },
-    {
-      "id": "sVx1yVitLwo",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【朝活】２日目のカレーが一番美味いよね【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sVx1yVitLwo/hqdefault.jpg?v=6af1e642",
-      "publishedAt": "2026-11-09T15:26:56Z",
       "live": false
     },
     {
@@ -209,16 +191,6 @@
       "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
       "publishedAt": "2026-11-09T13:30:32Z",
       "live": false
-    },
-    {
-      "id": "BqMG0kSpu_c",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】なにやろっかな～(無計画)",
-      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg?v=6af1c86e",
-      "publishedAt": "2026-11-09T13:30:20Z",
-      "live": true
     },
     {
       "id": "HfXxFckQlEc",
@@ -452,17 +424,17 @@
       "thumb": "https://i.ytimg.com/vi/8x5trkrm_Eg/hqdefault.jpg",
       "publishedAt": "2026-11-07T10:57:35Z",
       "live": true
+    },
+    {
+      "id": "iBi9NepjF2c",
+      "memberId": "pukaama",
+      "member": "ぷかあまぱーく",
+      "channelTitle": "ぷかあまぱーく",
+      "title": "【検証】イラストレーターなら『パンケーキ』でも神絵作れる説！？",
+      "thumb": "https://i.ytimg.com/vi/iBi9NepjF2c/hqdefault.jpg",
+      "publishedAt": "2026-11-07T10:00:08Z",
+      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "BqMG0kSpu_c",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【雑談】なにやろっかな～(無計画)",
-      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T13:30:20Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
