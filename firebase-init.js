@@ -67,11 +67,31 @@ function getMilliproUid() {
 }
 
 // ログイン状態の変化を監視（未ログイン/未設定なら null を渡す）
+var _mpAuthResolved = false
+
 function onMilliproAuth(cb) {
   if (!isAuthAvailable()) { cb(null); return }
   firebase.auth().onAuthStateChanged(function (user) {
+    _mpAuthResolved = true
     cb(user ? user.uid : null)
   })
+}
+
+// Firebase のログイン復元が終わるまで待ってからモーダルを開く。
+// 復元前に開くと、ログイン済みでもログイン画面が一瞬表示されるため。
+function mpAuthReady(cb) {
+  if (!isAuthAvailable() || _mpAuthResolved) { cb(); return }
+  var done = false
+  var unsub = null
+  var finish = function () {
+    if (done) return
+    done = true
+    _mpAuthResolved = true
+    if (typeof unsub === 'function') unsub()
+    cb()
+  }
+  unsub = firebase.auth().onAuthStateChanged(function () { finish() })
+  setTimeout(finish, 1500)
 }
 
 function milliproLogin(email, password) {
@@ -90,17 +110,39 @@ function milliproLogout() {
 }
 
 // ---------- OAuth（Google / X） ----------
+function oauthUserAgent() {
+  return (typeof navigator !== 'undefined' && navigator.userAgent) ? navigator.userAgent : ''
+}
+
 function isOAuthInAppBrowser() {
-  var ua = (typeof navigator !== 'undefined' && navigator.userAgent) ? navigator.userAgent : ''
-  return /Twitter|Line|Instagram|FBAN|FBAV|FB_IAB|FBAN\/Messenger/i.test(ua)
+  var ua = oauthUserAgent()
+  return /Twitter|Line|Instagram|FBAN|FBAV|FB_IAB|FBAN\/Messenger|MicroMessenger|KAKAOTALK|NAVER|Snapchat|Pinterest|; wv\)|WebView/i.test(ua)
+}
+
+function isOAuthMobileBrowser() {
+  var ua = oauthUserAgent()
+  var iPadOS = /Macintosh/i.test(ua) && typeof navigator !== 'undefined' && navigator.maxTouchPoints > 1
+  return iPadOS || /Android|iPhone|iPad|iPod|Mobile/i.test(ua)
+}
+
+function isOAuthStandalone() {
+  try {
+    if (typeof window !== 'undefined' && window.navigator && window.navigator.standalone === true) return true
+    if (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) return true
+  } catch (e) {}
+  return false
 }
 
 function signInWithOAuthProvider(provider) {
   if (!isAuthAvailable()) return Promise.reject(new Error('auth unavailable'))
-  if (isOAuthInAppBrowser()) return firebase.auth().signInWithRedirect(provider)
+  // モバイル・アプリ内ブラウザ・ホーム画面アプリでは、ポップアップのストレージ分離や
+  // ポップアップブロックでログイン状態が引き継がれないことがあるためリダイレクトを使う。
+  if (isOAuthInAppBrowser() || isOAuthMobileBrowser() || isOAuthStandalone()) {
+    return firebase.auth().signInWithRedirect(provider)
+  }
   return firebase.auth().signInWithPopup(provider).catch(function (e) {
-    if (e && (e.code === 'auth/popup-blocked' || e.code === 'auth/popup-closed-by-user' || e.code === 'auth/cancelled-popup-request')) {
-      if (e.code === 'auth/popup-blocked') return firebase.auth().signInWithRedirect(provider)
+    if (e && (e.code === 'auth/popup-blocked' || e.code === 'auth/operation-not-supported-in-this-environment')) {
+      return firebase.auth().signInWithRedirect(provider)
     }
     return Promise.reject(e)
   })
@@ -134,6 +176,10 @@ function oauthErrorMessage(e) {
   if (e.code === 'auth/network-request-failed') return '通信エラーです。接続を確認してください。'
   if (e.code === 'auth/user-disabled') return 'このアカウントは無効化されています。'
   if (e.code === 'auth/operation-not-allowed') return 'このログイン方法は現在無効です。管理者にお問い合わせください。'
+  if (e.code === 'auth/unauthorized-domain') return 'このドメインはFirebase Authenticationの承認済みドメインに登録されていません。管理者に連絡してください。'
+  if (e.code === 'auth/operation-not-supported-in-this-environment') return 'このブラウザではログイン用のポップアップを開けません。別のブラウザでお試しください。'
+  if (e.code === 'auth/web-storage-unsupported') return 'ブラウザのCookie/サイトデータが無効になっています。設定を確認して再試行してください。'
+  if (e.code === 'auth/redirect-cancelled-by-user') return 'ログインがキャンセルされました。'
   return e.message || 'エラーが発生しました。'
 }
 
@@ -148,9 +194,14 @@ function linkWithOAuthProvider(provider) {
   if (!isAuthAvailable()) return Promise.reject(new Error('auth unavailable'))
   var user = firebase.auth().currentUser
   if (!user) return Promise.reject(new Error('not logged in'))
-  if (isOAuthInAppBrowser()) return user.linkWithRedirect(provider)
+  // ログインと同様、モバイル・アプリ内ブラウザ・ホーム画面アプリではリダイレクトを使う。
+  if (isOAuthInAppBrowser() || isOAuthMobileBrowser() || isOAuthStandalone()) {
+    return user.linkWithRedirect(provider)
+  }
   return user.linkWithPopup(provider).catch(function (e) {
-    if (e && e.code === 'auth/popup-blocked') return user.linkWithRedirect(provider)
+    if (e && (e.code === 'auth/popup-blocked' || e.code === 'auth/operation-not-supported-in-this-environment')) {
+      return user.linkWithRedirect(provider)
+    }
     return Promise.reject(e)
   })
 }
@@ -169,7 +220,7 @@ function milliproLinkWithTwitter() {
 }
 
 function newPlayerIdFallback() {
-  if (crypto && typeof crypto.randomUUID === 'function') return crypto.randomUUID()
+  if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') return crypto.randomUUID()
   return 'P' + Date.now()
 }
 
@@ -547,6 +598,11 @@ function mpSaveProfile() {
 // アカウント連携ポップアップ — Milli Unishare 参考: 4モーダル構成 (acct/login/signup/mypage)
 function mpOpen() {
   var uid = getMilliproUid()
+  // ログイン復元中に開かれた場合は、復元結果を待ってから表示を決める
+  if (!uid && isAuthAvailable() && !_mpAuthResolved) {
+    mpAuthReady(function () { mpOpen() })
+    return
+  }
   // 未ログイン時はログインポップアップを最優先表示（ユーザ要望: ログインが最初）
   if (uid) mp_show('acctModal')
   else mp_show('loginModal')
@@ -715,21 +771,28 @@ function mpOpenAccount() {
 }
 
 // ---------- OAuth ポップアップ連携（Milli Orbisアカウント） — Unishare 参考 ----------
+function mpSetAuthMessage(text) {
+  var ids = ["mp-msg-login", "mp-msg-signup", "mp-msg"]
+  for (var i = 0; i < ids.length; i++) {
+    var el = document.getElementById(ids[i])
+    if (el) el.textContent = text || ""
+  }
+}
+
 function mpOAuthLogin(provider) {
-  var msgEl = document.getElementById("mp-msg-login") || document.getElementById("mp-msg-signup") || document.getElementById("mp-msg");
-  var msgEl2 = document.getElementById("mp-msg")
-  var setMsg = function(t){ if(msgEl) msgEl.textContent=t; if(msgEl2 && msgEl2!==msgEl) msgEl2.textContent=t; }
-  setMsg("処理中…")
+  mpSetAuthMessage("処理中…")
   var p = null;
   if (provider === "google" && typeof milliproLoginWithGoogle === "function") p = milliproLoginWithGoogle();
   else if (provider === "twitter" && typeof milliproLoginWithTwitter === "function") p = milliproLoginWithTwitter();
-  else { setMsg("未対応のプロバイダです"); return; }
+  else { mpSetAuthMessage("未対応のプロバイダです"); return; }
   p.then(function (result) {
     var uid = (typeof getMilliproUid === "function" ? getMilliproUid() : null) || (result && result.user ? result.user.uid : null);
-    if (!uid) { setMsg("Milli Orbisアカウントにログインしました"); return; }
+    // リダイレクト方式ではこの Promise は遷移開始時に解決し、user はまだ存在しない。
+    // ログイン完了と誤表示せず、遷移中であることを案内する。
+    if (!uid) { mpSetAuthMessage(result && result.user ? "Milli Orbisアカウントにログインしました" : "ログイン画面に移動しています…"); return; }
     if (typeof completeMilliproLogin === "function") {
       return completeMilliproLogin(uid).then(function () {
-        setMsg("Milli Orbisアカウントにログインしました");
+        mpSetAuthMessage("Milli Orbisアカウントにログインしました");
         if (typeof mpRender === "function") mpRender(uid);
         mpRefreshBanner();
         // ニックネーム未設定なら編集を促す（Unishare と同機構）
@@ -737,11 +800,11 @@ function mpOAuthLogin(provider) {
         if (!prof.playerName) setTimeout(function(){ try{ mpOpen(); mpStartEdit(); }catch(e){} }, 400)
       });
     } else {
-      setMsg("Milli Orbisアカウントにログインしました");
+      mpSetAuthMessage("Milli Orbisアカウントにログインしました");
     }
   }).catch(function (e) {
     var friendly = (typeof oauthErrorMessage === "function" ? oauthErrorMessage(e) : null);
-    setMsg(friendly || (e && e.message ? e.message : "ログインに失敗しました"));
+    mpSetAuthMessage(friendly || (e && e.message ? e.message : "ログインに失敗しました"));
   });
 }
 
@@ -898,42 +961,51 @@ function mpResetSubmit() {
 
 // プロフィール保存時に _pendingIconDataUrl があれば優先（画像アップロード対応）
 (function(){
-  var _origSave = mpSaveProfile
   window.mpSaveProfile = function(){
     var uid = getMilliproUid()
-    if (!uid) { alert('ログインが必要です'); return }
+    if (!uid) { alert('ログインが必要です。ログイン後に再度お試しください。'); return }
     // 新IDと旧IDの両方から値を取得
     var nameEl = document.getElementById('mp-pname') || document.getElementById('mp-edit-name')
     var iconEl = document.getElementById('mp-picon')
     var msgEl = document.getElementById('mp-pmsg')
     var name = nameEl ? nameEl.value.trim() : ''
     var icon = _pendingIconDataUrl || (iconEl ? iconEl.value.trim() : '')
-    // 旧プレビューも更新
-    if (_pendingIconDataUrl) {
-      var oldPreview = document.getElementById('mp-edit-icon-preview')
-      if (oldPreview) renderUserIcon(oldPreview, { icon: icon })
-    }
     var msg = msgEl ? msgEl.value.trim() : ''
-    var p = _mpProfile || { playerId: getMilliproPlayerId() || '' }
-    p.playerName = name
-    if (icon) p.icon = icon
-    else if (!_pendingIconDataUrl) { /* アイコン未入力なら既存を保持 */ }
-    p.comment = msg
-    p.updatedAt = Date.now()
-    _mpProfile = p
-    _pendingIconDataUrl = null
-    firebase.database().ref('millipro/users/' + uid + '/profile').set(p)
-      .then(function () {
+    var note = document.getElementById('mp-edit-note')
+    if (note) { note.textContent = '保存中…'; note.classList.remove('ok') }
+
+    var ref = firebase.database().ref('millipro/users/' + uid + '/profile')
+    // 既存プロフィールを読んでから更新する。set() で favorites / 最推しを消さないため。
+    ref.once('value').then(function (snap) {
+      var p = snap.val()
+      if (!p || typeof p !== 'object') p = _mpProfile || { playerId: getMilliproPlayerId() || '' }
+      var update = { playerName: name, comment: msg, updatedAt: Date.now() }
+      if (icon) update.icon = icon
+      if (!p.playerId) update.playerId = getMilliproPlayerId() || newPlayerIdFallback()
+      return ref.update(update).then(function () {
+        p.playerName = name
+        p.comment = msg
+        if (icon) p.icon = icon
+        if (update.playerId) p.playerId = update.playerId
+        p.updatedAt = update.updatedAt
+        _mpProfile = p
+        _pendingIconDataUrl = null
         applyMilliproProfile(p)
         mpRender(uid)
         mpCancelEdit()
+        if (note) { note.textContent = ''; note.classList.remove('ok') }
         alert('プロフィールを保存しました')
         // ニックネーム未設定だった場合の初回登録完了トースト
         if (name) {
           try { localStorage.setItem('milli-nickname-set', '1') } catch(e){}
         }
       })
-      .catch(function (e) { console.warn('profile save failed', e); alert(oauthErrorMessage(e)) })
+    }).catch(function (e) {
+      console.warn('profile save failed', e)
+      var t = (typeof oauthErrorMessage === 'function' ? oauthErrorMessage(e) : null) || '保存に失敗しました'
+      if (note) note.textContent = t
+      alert(t)
+    })
   }
 })()
 
@@ -979,7 +1051,9 @@ onMilliproAuth(function (uid) {
   if (uid) {
     completeMilliproLogin(uid).then(function (profile) {
       mpRender(uid)
-      mpClose()
+      // ログイン/新規登録モーダルだけ閉じる。アカウントモーダルで編集中なら閉じない。
+      mp_hide('loginModal')
+      mp_hide('signupModal')
       mpRefreshBanner()
       // ニックネーム未登録なら登録を促す（Unishare 同様: 初回ログイン時に編集を開く）
       var needsNickname = !profile || !profile.playerName
@@ -1017,7 +1091,12 @@ if (typeof consumeMilliproRedirectResult === "function") {
     }
   }).catch(function (e) {
     var msg = (typeof oauthErrorMessage === "function" ? oauthErrorMessage(e) : null) || (e && e.message ? e.message : "エラーが発生しました");
-    var el = document.getElementById("mp-link-msg") || document.getElementById("mp-msg");
-    if (el) el.textContent = msg;
+    if (typeof mpSetAuthMessage === "function") mpSetAuthMessage(msg);
+    // リダイレクト復帰時のエラーは画面にモーダルがないと見えないため、ログイン画面を開いて表示する
+    var login = document.getElementById("loginModal");
+    if (login && !login.classList.contains("open") && typeof mpOpenLogin === "function") {
+      mpOpenLogin();
+      if (typeof mpSetAuthMessage === "function") mpSetAuthMessage(msg);
+    }
   });
 }
