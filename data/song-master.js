@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-11",
   "songs": {
     "ただ声一つロクデナシ": {
       "title": "ただ声一つ",
@@ -246,12 +246,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ",
-      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
-      "album": "ほろはにヶ丘高校 -Covers-",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
+      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
+      "artist": "HoneyWorks",
+      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
       "en": {
-        "title": "Sis x Love"
+        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
       }
     },
     "プラネテス": {
@@ -333,12 +333,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
       "en": {
-        "title": "Finale."
+        "title": "finale"
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -1116,12 +1116,12 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
       "en": {
-        "title": "marshall maximizer"
+        "title": "Marshall Maximizer (feat. Kafu)"
       }
     },
     "祝福": {
@@ -1228,9 +1228,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Akuya",
-      "album": "Henceforth - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1707,13 +1707,10 @@ window.SONG_MASTER = {
       }
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "数え切れないくらいの",
-      "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
-      "album": "メメントモリ Lament Collection Vol.4",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg",
-      "en": {
-        "title": "countless times"
-      }
+      "title": "アトノマツリ",
+      "artist": "乃木坂46",
+      "album": "ここにはないもの (Special Edition)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/91/ae/cb91ae8f-24d7-16b6-374f-322a704cc5cb/4547366595635.jpg/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -2031,13 +2028,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなちゃっと読み": {
-      "title": "愛してみてよ減るもんじゃないし",
-      "artist": "ねぐせ。",
-      "album": "愛してみてよ減るもんじゃないし - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/6c/d9/706cd9d0-5c42-0b18-c42a-f11647046025/197188388706.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Try to love me, it won't diminish"
-      }
+      "title": "かわいいさがしてくれますか?",
+      "artist": "CUTIE STREET",
+      "album": "CUTIE LAND",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/d5/2c/4dd52c96-bc10-a908-2209-7cc91af0b6d4/885288824650.jpg/600x600bb.jpg"
     },
     "シルエット": {
       "title": "シルエット",
@@ -2102,8 +2096,8 @@ window.SONG_MASTER = {
     "かわいいだけじゃだめですか?": {
       "title": "かわいいだけじゃだめですか?",
       "artist": "CUTIE STREET",
-      "album": "かわいいだけじゃだめですか? - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/b2/c5/e4b2c55b-5668-6d7f-57e1-e418bb6ae2f5/4580789660139.jpg/600x600bb.jpg",
+      "album": "CUTIE LAND",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/d5/2c/4dd52c96-bc10-a908-2209-7cc91af0b6d4/885288824650.jpg/600x600bb.jpg",
       "en": {
         "title": "Isn't just cute enough?"
       }
