@@ -91,9 +91,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -307,9 +307,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko feat. 初音ミク",
-      "album": "Download (feat.初音ミク)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg",
+      "artist": "doriko",
+      "album": "ロミオとシンデレラ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -480,10 +480,10 @@ window.SONG_MASTER = {
       }
     },
     "thecute!!!": {
-      "title": "The Cute",
-      "artist": "Cute",
-      "album": "Cute",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/ef/76/3cef7679-0a26-3db6-88bb-21ad14c501d4/3850245001921.jpg/600x600bb.jpg"
+      "title": "The Cute!!!",
+      "artist": "初星学園 & 藤田ことね",
+      "album": "The Cute!!! - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/40/8e/22408efb-2c66-5577-be51-f1be16f3b4c7/PA00185233_0_221289_jacket.jpg/600x600bb.jpg"
     },
     "完全感覚dreamer": {
       "title": "完全感覚Dreamer",
@@ -799,9 +799,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -999,10 +999,13 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
+      "en": {
+        "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
+      }
     },
     "青と夏": {
       "title": "群青",
@@ -1116,12 +1119,12 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
+      "title": "マーシャル・マキシマイザー",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "Marshall Maximizer (feat. Kafu)"
+        "title": "marshall maximizer"
       }
     },
     "祝福": {
@@ -1135,9 +1138,9 @@ window.SONG_MASTER = {
     },
     "生きる": {
       "title": "生きる",
-      "artist": "水野あつ",
+      "artist": "LANA",
       "album": "生きる - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/00/38/5f/00385f84-4951-99a1-00d2-3296cd654e79/859757176199_cover.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/96/fe/3c96fedb-f03b-9192-84e3-d50e5d073a65/ANTCD-A0000021531.jpg/600x600bb.jpg",
       "en": {
         "title": "live"
       }
@@ -1228,9 +1231,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Orangestar",
-      "album": "And So Henceforth,",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+      "artist": "Akuya",
+      "album": "Henceforth - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1653,12 +1656,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
-      "title": "雨还没停 我还在等",
-      "artist": "闰新",
-      "album": "雨还没停 我还在等 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/44/be/bb44be0f-d605-1367-307d-4f1645158f78/4894965813951.jpg/600x600bb.jpg",
+      "title": "输入法记得你",
+      "artist": "Li2c",
+      "album": "输入法记得你 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/ef/3b/deef3b63-9414-375e-c91e-91c22b4864f8/25UM1IM01170.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "The rain stopped and I was there."
+        "title": "How to get import law"
       }
     },
     "花に亡霊-ヨルシカ": {
@@ -1707,10 +1710,13 @@ window.SONG_MASTER = {
       }
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "アトノマツリ",
-      "artist": "乃木坂46",
-      "album": "ここにはないもの (Special Edition)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/91/ae/cb91ae8f-24d7-16b6-374f-322a704cc5cb/4547366595635.jpg/600x600bb.jpg"
+      "title": "数え切れないくらいの",
+      "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
+      "album": "メメントモリ Lament Collection Vol.4",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "countless times"
+      }
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",

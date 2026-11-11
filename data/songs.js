@@ -1,10 +1,10 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-11",
   "official": [
     {
       "id": "8xTMPRDuLrA",
-      "title": "月の浮かぶ海 - ゆらぎゆら",
+      "title": "月の浮かぶ海 - ゆらぎゆら 【Official MV】",
       "publishedAt": "2026-11-04",
       "members": [
         "yura"
