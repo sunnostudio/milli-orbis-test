@@ -179,6 +179,55 @@
   border-top: 2px solid var(--border);
 }
 
+.press-related {
+  margin-top: 28px;
+  padding: 20px;
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  background: var(--card);
+}
+
+.press-related h3 {
+  margin: 0;
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 900;
+}
+
+.press-related ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.press-related li {
+  margin: 0;
+}
+
+.press-related a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--accent-deep);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.press-related a:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+
 .press-footer {
   padding: 30px 20px 46px;
   color: var(--muted);
@@ -192,6 +241,217 @@
 :root[data-theme="dark"] .press-header { border-bottom-color: #2c2838; }
 :root[data-theme="dark"] .press-release { border-color: #2c2838; }
 :root[data-theme="dark"] .press-figure img { border-color: #2c2838; }
+
+.milipro-50-press {
+  background: #10152a;
+}
+
+.milipro-50-press .press-release {
+  color: #f4f2ff;
+  background: #171d37;
+  border-color: #393451;
+}
+
+.milipro-50-press .press-release h1,
+.milipro-50-press .press-lead,
+.milipro-50-press .press-body {
+  color: #f4f2ff;
+}
+
+.milipro-50-press .press-label {
+  color: #e8c879;
+}
+
+.milipro-50-press .press-body a,
+.milipro-50-press .press-footer a {
+  color: #ffe4a0;
+}
+
+.milipro-50-press .press-meta {
+  border-color: #393451;
+  color: #c5c6d7;
+}
+
+.milipro-50-press .press-category {
+  color: #ffe4a0;
+  background: #3a3150;
+}
+
+.milipro-50-press .press-body h2 {
+  border-left-color: #e8c879;
+}
+
+.milipro-50-press .press-figure {
+  margin: 28px 0 34px;
+  padding: 10px;
+  border: 1px solid rgba(239, 213, 147, 0.55);
+  border-radius: 18px;
+  background: #10152a;
+}
+
+.milipro-50-press .press-figure img {
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.milipro-50-press .press-figure figcaption {
+  color: #c5c6d7;
+}
+
+.milipro50-about,
+.milipro50-from {
+  margin: 30px 0;
+  padding: 24px clamp(18px, 4vw, 32px);
+  border: 1px solid #393451;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.milipro-50-press .milipro50-about h2,
+.milipro-50-press .milipro50-from h2 {
+  margin-top: 8px;
+  color: #ffe4a0;
+}
+
+.milipro50-eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  margin: 0;
+  color: #e8c879;
+}
+
+.milipro-50-press .press-body .milipro50-disclaimer {
+  margin-bottom: 0;
+  color: #c5c6d7;
+  font-size: 0.82rem;
+}
+
+.milipro50-message {
+  margin: 36px 0;
+  padding: clamp(24px, 5vw, 46px);
+  border-radius: 18px;
+  background: #fbf9f4;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.16);
+  color: #25283a;
+}
+
+.milipro-50-press .press-body .milipro50-message h2 {
+  margin-top: 10px;
+  border-left-color: #b18b3e;
+  color: #20243a;
+}
+
+.milipro-50-press .press-body .milipro50-message p {
+  color: #303247;
+}
+
+.milipro-50-press .press-body .milipro50-message .milipro50-eyebrow {
+  color: #80621f;
+}
+
+.milipro-50-press .press-body .milipro50-message .milipro50-message-close {
+  margin-top: 1.8em;
+  color: #614d25;
+  font-weight: 900;
+}
+
+.milipro-50-press .press-body .milipro50-message .milipro50-signature {
+  margin-top: 1.5em;
+  color: #56586a;
+  font-weight: 700;
+  text-align: right;
+}
+
+.milipro-50-press .press-body .milipro50-related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0 0;
+}
+
+.milipro-50-press .press-body .milipro50-related-card {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-width: 0;
+  padding: 15px;
+  border: 1px solid rgba(143, 123, 240, 0.18);
+  border-radius: 18px;
+  background: #fff;
+  color: #25283a;
+  text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.milipro-50-press .press-body .milipro50-related-card:hover {
+  transform: translateY(-2px);
+  border-color: #9c86ef;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.milipro-50-press .press-body .milipro50-related-mark {
+  display: inline-grid;
+  flex: 0 0 44px;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  border: 1px solid rgba(143, 123, 240, 0.16);
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(90, 62, 160, 0.1);
+}
+
+.milipro-50-press .press-body .milipro50-related-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.milipro-50-press .press-body .milipro50-related-info {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.milipro-50-press .press-body .milipro50-related-info strong {
+  color: #28253b;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.milipro-50-press .press-body .milipro50-related-info small {
+  color: #777487;
+  font-size: 0.66rem;
+  line-height: 1.5;
+}
+
+.milipro-50-press .press-body .milipro50-related-arrow {
+  margin-left: auto;
+  color: #c36d9e;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.milipro-50-press .press-body .milipro50-related-card:hover .milipro50-related-arrow {
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 620px) {
+  .milipro-50-press .press-body .milipro50-related-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.milipro-50-press .press-footer {
+  color: #c5c6d7;
+}
 
 @media (max-width: 620px) {
   .press-header-inner { padding: 10px 14px; }

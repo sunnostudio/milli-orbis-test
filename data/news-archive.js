@@ -1,5 +1,32 @@
 window.NEWS_ARCHIVE = [
   {
+    date: "2026-11-10",
+    tag: "達成",
+    title: "ミリプロ公式YouTubeチャンネル 登録者50万人突破！",
+    desc: "11月10日に登録者50万人を突破。公式発表と、ひとりのミリリスであるすんすんからのお祝いメッセージを掲載しています。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_db788af7-1b9b-45c9-823a-681f58b68c42.png",
+    url: "/news/press/milipro-50/",
+    source: "milipro",
+    en: {
+      tag: "Milestone",
+      title: "MilliPro Official YouTube Channel Surpasses 500,000 Subscribers!",
+      desc: "The channel reached 500,000 subscribers on November 10. Read the official announcement and a congratulatory message from Sunsun, a fan."
+    }
+  },
+  {
+    date: "2026-11-12",
+    tag: "楽曲",
+    title: "音ノ瀬らこ Shortsオリ曲「ボルケーの！」公開！",
+    desc: "高音チャレンジソングとして、Shortsオリジナル曲「ボルケーの！」が公開されました。みんなはどこまで歌える？",
+    url: "https://x.com/OtonoseRaco/status/2120803791805304868",
+    source: "milipro",
+    en: {
+      tag: "Music",
+      title: "Otonose Raco Releases Shorts Original Song \"Boru-ke no!\"",
+      desc: "Raco's Shorts original song \"Boru-ke no!\" is out as a high-note challenge song. How far can you sing?"
+    }
+  },
+  {
     date: "2026-09-23",
     tag: "イベント",
     title: "ハロウィーン企画「HOTEL GRAND MILLI」事前登録開始！",

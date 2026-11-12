@@ -1,5 +1,23 @@
 window.PRESS_RELEASES = [
   {
+    slug: "milipro-50",
+    title: "ミリプロ公式YouTubeチャンネル 登録者50万人突破！",
+    date: "2026-11-10",
+    category: "FAN MESSAGE",
+    lead: "たくさんの出会いと、たくさんの想いをくれたミリプロへ。",
+    body: [
+      "<section class=\"milipro50-about\"><p class=\"milipro50-eyebrow\">ABOUT THIS NEWS</p><h2>50万人という大きな節目に</h2><p>ミリプロ公式は、2026年11月10日に公式YouTubeチャンネルの登録者数が50万人を突破したと発表しました。チャンネルの歩みやミリちゃんからのメッセージは、<a href=\"https://milpr.com/news/milpr50\" target=\"_blank\" rel=\"noopener noreferrer\">ミリプロ公式のお知らせ</a>をご覧ください。</p><p>ここからは、ひとりのミリリスである私、すんすんから、お祝いとミリプロへの感謝をお伝えします。</p><p class=\"milipro50-disclaimer\">Milli Orbisはファンメイドの二次創作サイトです。以下のメッセージは、すんすん個人が一人のファンとして書いたものです。</p></section>",
+      "<section class=\"milipro50-message\"><p class=\"milipro50-eyebrow\">MESSAGE FROM SUNSUN</p><h2>50万人突破、本当におめでとうございます。</h2><p>ミリプロ公式YouTubeチャンネル登録者数50万人突破、本当におめでとうございます！</p><p>私がミリプロに出会ってから、たくさんのことが変わりました。</p><p>ミリプロをきっかけに自分のコミュニティが広がり、これまで出会うことのなかったような人たちと交流する機会が生まれました。また、ミリプロをテーマにした様々な創作活動を通して、自分の持っている知識や技術を活かせる場所があること、そして自分の手で何かを作り上げる楽しさを知ることができました。</p><p>正直、ミリプロに出会っていなかったら。ミリ創作という機会がなかったら。今のようにたくさんの人と知り合うことも、こうして様々なウェブサイトやサービスを制作することもなかったと思います。</p><p>私にとってミリプロは、単なる一つの趣味という言葉では表せないほど、たくさんのものを与えてくれた大切な存在です。</p><p>ミリプロからもらったものを、何か大きな形で返せるとは思っていません。それでも、一人のファンとして、自分にできる範囲で応援し、楽しさを周りに共有できたらと思っています。</p><p>私自身のファン活動の中で、ミリリスの皆さんの推し活が少し便利になったり、ミリプロをまだ知らない方がその魅力に触れるきっかけになったりしたら、ファンとしてとても嬉しいです。</p><p>そんな気持ちもあり、趣味の延長としてMilli Orbisをはじめとするサイトやサービス作りを続けています。</p><p>私にできることは小さなものですが、作ったものが誰かの楽しみや推し活の助けになっていたら、それだけで十分うれしいです。</p><p>改めまして、登録者数50万人突破、本当におめでとうございます！</p><p>これまでたくさんのものを届けてくださったミリプロの皆さんに、心からの感謝を。そして、これから先のさらなるご活躍を楽しみにしています。</p><p class=\"milipro50-message-close\">これからも一人のミリリスとして応援しています。</p><p class=\"milipro50-signature\">すんすん</p></section>",
+      "<section class=\"milipro50-from\"><p class=\"milipro50-eyebrow\">ABOUT MILLI ORBIS</p><h2>ファン活動のひとつとして</h2><p>Milli Orbisは、すんすんが個人で制作・運営しているミリプロのファンメイド二次創作サイトです。下記の関連サイトとともに、ファン活動の中で見つけた楽しみを紹介しています。公式とは関係のない非公式の二次創作ですが、これらが皆さんの推し活を少し楽しくするきっかけになればうれしいです。</p><div class=\"milipro50-related-grid\"><a class=\"milipro50-related-card\" href=\"https://milli-orbis-portal.pages.dev/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"milipro50-related-mark\" aria-hidden=\"true\"><img src=\"../../../orbista/assets/icon-milli-orbis.png\" alt=\"\" width=\"192\" height=\"192\" loading=\"lazy\" decoding=\"async\"></span><span class=\"milipro50-related-info\"><strong>Milli Orbis</strong><small>ミリプロ非公式ポータル</small></span><span class=\"milipro50-related-arrow\" aria-hidden=\"true\">↗</span></a><a class=\"milipro50-related-card\" href=\"https://milli-unishare.pages.dev/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"milipro50-related-mark\" aria-hidden=\"true\"><img src=\"../../../orbista/assets/icon-milli-unishare.png\" alt=\"\" width=\"192\" height=\"192\" loading=\"lazy\" decoding=\"async\"></span><span class=\"milipro50-related-info\"><strong>Milli Unishare</strong><small>動画・配信コミュニティ</small></span><span class=\"milipro50-related-arrow\" aria-hidden=\"true\">↗</span></a><a class=\"milipro50-related-card\" href=\"https://milli-games.onrender.com/index.html\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"milipro50-related-mark\" aria-hidden=\"true\"><img src=\"../../../orbista/assets/icon-milli-games.png\" alt=\"\" width=\"192\" height=\"192\" loading=\"lazy\" decoding=\"async\"></span><span class=\"milipro50-related-info\"><strong>Milli Games</strong><small>ゲーム・参加型コンテンツ</small></span><span class=\"milipro50-related-arrow\" aria-hidden=\"true\">↗</span></a><a class=\"milipro50-related-card\" href=\"https://milli-kit.pages.dev/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"milipro50-related-mark\" aria-hidden=\"true\"><img src=\"../../../orbista/assets/icon-milli-kit.png\" alt=\"\" width=\"192\" height=\"192\" loading=\"lazy\" decoding=\"async\"></span><span class=\"milipro50-related-info\"><strong>Milli Kit</strong><small>便利なツール・サービス</small></span><span class=\"milipro50-related-arrow\" aria-hidden=\"true\">↗</span></a></div></section>"
+    ].join(""),
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_db788af7-1b9b-45c9-823a-681f58b68c42.png",
+    imageAlt: "ミリプロ公式YouTubeチャンネル登録者数50万人突破記念ビジュアル",
+    imageCaption: "画像出典：ミリプロ公式ニュース",
+    ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-3840x2160_v-frms_webp_db788af7-1b9b-45c9-823a-681f58b68c42.png",
+    published: true,
+    updated: "2026-11-12"
+  },
+  {
     slug: "orbista-launch",
     title: "Milli Orbis、新たなイベントシリーズ「ORBISTA」を始動",
     date: "2026-11-03",

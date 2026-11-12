@@ -62,6 +62,7 @@ function render(release) {
   const description = lead || title;
   const canonical = SITE_URL + "/news/press/" + slug + "/";
   const ogImage = absUrl(release.ogImage || image);
+  const isMilipro50 = slug === "milipro-50";
   const robots = published
     ? '<meta name="robots" content="index,follow">'
     : '<meta name="robots" content="noindex,nofollow,noarchive">';
@@ -80,7 +81,7 @@ function render(release) {
     </div>
   ` : "";
 
-  const relatedLinks = `
+  const relatedLinks = isMilipro50 ? "" : `
     <div class="press-related">
       <h3>関連サイト</h3>
       <ul>
@@ -123,7 +124,7 @@ ${robots}
 <link rel="stylesheet" href="../../../style.css">
 <link rel="stylesheet" href="../press.css">
 </head>
-<body class="press-page${isOrbista ? " orbista-press" : ""}" data-oshi="">
+<body class="press-page${isOrbista ? " orbista-press" : ""}${isMilipro50 ? " milipro-50-press" : ""}" data-oshi="">
 <header id="siteHeader">
   <div class="header-inner">
     <a class="logo" href="../../../index.html"><img src="../../../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis" width="1774" height="430" decoding="async"></a>
