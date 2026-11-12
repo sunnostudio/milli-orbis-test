@@ -19,3 +19,31 @@
 /halloween/pre-register.html /404.html 301
 /halloween/elevator-demo /404.html 301
 /halloween/invite-demo /404.html 301
+
+# ------------------------------------------------------------------
+# 非公開コンテンツ（告知前・公式確認前）
+# 公開解禁時は、該当パスのルールを削除してからページを公開する。
+# 301ではなく302を使い、ブラウザに恒久的なリダイレクトをキャッシュさせない。
+# ------------------------------------------------------------------
+
+# まよい（新人候補ページ）: 公式発表まで非公開
+/mayoi /404.html 302
+/mayoi.html /404.html 302
+/images/icon/mayoi_profile.jpg /404.html 302
+
+# お正月イベント（ORBISTA Brand New Years 2027）: 告知まで非公開
+/orbista/brand-new-years-2027 /404.html 302
+/orbista/brand-new-years-2027/* /404.html 302
+/news/press/brand-new-years /404.html 302
+/news/press/brand-new-years/* /404.html 302
+
+# 企画書・ローカルメモ・内部ツール: サイトから参照させない
+/docs /404.html 302
+/docs/* /404.html 302
+/.local-notes /404.html 302
+/.local-notes/* /404.html 302
+/tools /404.html 302
+/tools/* /404.html 302
+
+# 延期中のハロウィン（既存ルールの取りこぼし防止）
+/halloween/* /404.html 302

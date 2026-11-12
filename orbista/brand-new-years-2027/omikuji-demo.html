@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#17253d">
+  <title>おみくじ試作 | ORBISTA Brand New Years 2027</title>
+  <meta name="description" content="ORBISTA Brand New Years 2027のおみくじ機能試作品です。">
+  <link rel="icon" href="../../images/icon/Milli%20Orbis.ico" sizes="any">
+  <link rel="stylesheet" href="omikuji-demo.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <main class="prototype" id="main">
+    <header class="prototype-heading">
+      <a class="back-link" href="index.html">イベントページへ戻る <span aria-hidden="true">↗</span></a>
+      <p class="prototype-kicker">ORBISTA BRAND NEW YEARS 2027 — PROTOTYPE</p>
+      <h1>おみくじ 試作</h1>
+      <p class="prototype-intro">
+        通常・宝石・恋みくじを選んで引く、機能確認用のデモです。
+        大吉は項目ごとの候補文を組み合わせます。他の運勢・特別運勢は固定文面のサンプルです。
+      </p>
+      <p class="prototype-notice">ファンメイドの試作品です。ミリプロ公式とは関係ありません。</p>
+    </header>
+
+    <div class="prototype-layout">
+      <section class="draw-panel" aria-labelledby="draw-title">
+        <p class="panel-kicker">01 — DRAW</p>
+        <h2 id="draw-title">おみくじを引く</h2>
+        <fieldset class="type-picker">
+          <legend>おみくじの種類を選んでください</legend>
+          <label class="type-option">
+            <input type="radio" name="fortune-type" value="normal" checked>
+            <span class="type-mark" aria-hidden="true">御</span>
+            <span class="type-copy"><strong>通常</strong><small>日々の運勢</small></span>
+          </label>
+          <label class="type-option">
+            <input type="radio" name="fortune-type" value="jewel">
+            <span class="type-mark" aria-hidden="true">宝</span>
+            <span class="type-copy"><strong>宝石みくじ</strong><small>今日の宝石と運勢</small></span>
+          </label>
+          <label class="type-option">
+            <input type="radio" name="fortune-type" value="love">
+            <span class="type-mark" aria-hidden="true">恋</span>
+            <span class="type-copy"><strong>恋みくじ</strong><small>恋愛にまつわる運勢</small></span>
+          </label>
+        </fieldset>
+
+        <button class="draw-button" id="drawButton" type="button">おみくじを引く <span aria-hidden="true">✦</span></button>
+        <button class="preview-button" id="previewDaikichi" type="button">大吉の組み合わせを試す</button>
+        <p class="preview-note">プレビューは抽選回数に含まれず、保存もされません。</p>
+        <p class="draw-rule">各種類につき1日1回。日本時間の午前0時に回数をリセットします。</p>
+        <p class="draw-status" id="drawStatus" role="status" aria-live="polite"></p>
+        <button class="reset-button" id="resetDemo" type="button">試作の抽選履歴をリセット</button>
+      </section>
+
+      <section class="result-panel" aria-labelledby="result-title">
+        <p class="panel-kicker">02 — RESULT</p>
+        <h2 id="result-title">今日の運勢</h2>
+        <div class="result-placeholder" id="resultPlaceholder">
+          <span aria-hidden="true">✧</span>
+          <p>おみくじを選んで、<br>新しい一年の運勢を占いましょう。</p>
+        </div>
+        <article class="fortune-result" id="fortuneResult" aria-live="polite" hidden></article>
+      </section>
+    </div>
+
+    <details class="rate-panel">
+      <summary>試作中の排出率メモ</summary>
+      <div class="rate-content">
+        <p>カテゴリを先に抽選し、選ばれたカテゴリ内の結果を均等に選ぶ想定です。通常枠は残りの確率で抽選し、その中で運勢を大吉20%・吉25%・中吉25%・小吉20%・凶10%に分けます。</p>
+        <ul>
+          <li>個人タレント運勢全体：10%</li>
+          <li>ミリちゃん：7%</li>
+          <li>期生運勢全体：5%</li>
+          <li>NOVA・UNI・SONA・ぷかあま：各5%</li>
+          <li>ミリプロオールスター：2%</li>
+        </ul>
+        <p>大吉は10項目それぞれから候補文を一つずつ組み合わせます。ほかの運勢・特別運勢は固定文面のサンプルで、表示名や文章は確定版ではありません。</p>
+      </div>
+    </details>
+
+    <footer class="prototype-footer">
+      <p>試作の結果と抽選回数は、このブラウザー内に保存されます。</p>
+      <a href="index.html">イベントページへ戻る</a>
+    </footer>
+  </main>
+
+  <script type="module" src="omikuji-demo.mjs"></script>
+</body>
+</html>

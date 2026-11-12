@@ -1,46 +1,30 @@
 /* ============================================================
-   Campaign boot — <head> で同期的に実行し、描画前にテーマを決定
+   Campaign boot — <head> で同期的に実行し、テーマを決定
    ------------------------------------------------------------
-   キャンペーン属性を先に付けることで、
-   キャンペーンバーの表示によるレイアウトシフトを防ぎます。
+   - 開催期間内の最初の有効なキャンペーンを自動選択
+   - ユーザーによる手動切替は行わない
+     （localStorage / URL パラメータによる上書きなし）
+   - キャンペーン属性を先に付けることで、
+     キャンペーンバーの表示によるレイアウトシフトを防ぎます。
    ============================================================ */
 (function () {
   "use strict";
 
-  var KEY = "milli-campaign";
   var list = window.MILLI_CAMPAIGNS || [];
   var now = Date.now();
-  var pref = null;
+  var active = "normal";
 
-  function has(id) {
-    return list.some(function (c) { return c.id === id; });
-  }
-
-  try {
-    var q = new URLSearchParams(location.search).get("campaign");
-    if (q) pref = q;
-    else pref = localStorage.getItem(KEY);
-  } catch (e) {}
-
-  var active = null;
-
-  if (pref === "normal") {
-    active = "normal";
-  } else if (pref && pref !== "auto" && has(pref)) {
-    /* プレビュー / 強制表示。enabled:false のテーマも確認できます。 */
-    active = pref;
-  }
-
-  if (!active) {
-    for (var i = 0; i < list.length; i++) {
-      var c = list[i];
-      if (c.enabled === false) continue;
-      if (now >= Date.parse(c.start) && now < Date.parse(c.end)) {
-        active = c.id;
-        break;
-      }
+  for (var i = 0; i < list.length; i++) {
+    var c = list[i];
+    if (!c || !c.id || c.enabled === false) continue;
+    var start = Date.parse(c.start);
+    var end = Date.parse(c.end);
+    if (isNaN(start) || isNaN(end)) continue;
+    if (now >= start && now < end) {
+      active = c.id;
+      break;
     }
   }
 
-  document.documentElement.dataset.campaign = active || "normal";
+  document.documentElement.dataset.campaign = active;
 })();

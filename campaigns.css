@@ -2,9 +2,37 @@
    Milli Orbis — seasonal campaign layer
    ------------------------------------------------------------
    テーマ本体は data/campaigns.js。
-   ここでは「バー」「トップページのスポットライト」「切替UI」だけを担当。
+   ここでは「バー」と「トップページのスポットライト」だけを担当。
+   テーマは開催期間内に自動適用され、ユーザー向けの切替UIはありません。
    ORBISTA 特設ページは standalone のため、このCSSを読みません。
    ============================================================ */
+
+/* テーマ固有の色が未定義でもバーが読めるようにする共通フォールバック。
+   各テーマは html[data-campaign="<id>"] で上書きする。 */
+html[data-campaign]:where(:not([data-campaign="normal"])) {
+  --campaign-accent: #ff9fc4;
+  --campaign-accent-2: #b49bff;
+  --campaign-accent-ink: #1a1730;
+  --campaign-glow: rgba(255, 159, 196, 0.3);
+  --campaign-bar-text: #fff;
+  --campaign-bar-label: #ffd75e;
+  --campaign-bar-border: rgba(255, 255, 255, 0.28);
+  --campaign-bar-bg:
+    radial-gradient(1px 1px at 12% 30%, rgba(255, 255, 255, 0.75) 98%, transparent),
+    radial-gradient(1px 1px at 37% 70%, rgba(255, 255, 255, 0.55) 98%, transparent),
+    radial-gradient(1px 1px at 63% 25%, rgba(255, 255, 255, 0.7) 98%, transparent),
+    radial-gradient(1px 1px at 88% 65%, rgba(255, 255, 255, 0.5) 98%, transparent),
+    linear-gradient(90deg, #2a2140 0%, #4a3160 48%, #643d6a 100%);
+  --campaign-card-text: #fff;
+  --campaign-card-muted: rgba(255, 255, 255, 0.78);
+  --campaign-card-border: rgba(255, 255, 255, 0.24);
+  --campaign-card-bg:
+    radial-gradient(ellipse at 86% 18%, rgba(255, 159, 196, 0.2), transparent 34%),
+    radial-gradient(ellipse at 10% 100%, rgba(180, 155, 255, 0.2), transparent 42%),
+    linear-gradient(120deg, #2a2140 0%, #4a3160 52%, #643d6a 100%);
+  --campaign-pattern: radial-gradient(1px 1px at 8% 20%, #fff 98%, transparent), radial-gradient(1px 1px at 24% 74%, rgba(255, 255, 255, 0.7) 98%, transparent), radial-gradient(1px 1px at 48% 32%, #fff 98%, transparent), radial-gradient(1px 1px at 68% 82%, rgba(255, 255, 255, 0.6) 98%, transparent), radial-gradient(1px 1px at 86% 42%, #fff 98%, transparent);
+  --campaign-pattern-opacity: 0.42;
+}
 
 html[data-campaign="halloween2027"] {
   --campaign-accent: #ffb15c;
@@ -83,7 +111,7 @@ html[data-campaign] {
   pointer-events: none;
 }
 
-html[data-campaign="halloween2027"] .campaign-bar {
+html[data-campaign]:not([data-campaign="normal"]) .campaign-bar {
   display: flex;
 }
 
@@ -125,13 +153,13 @@ html[data-campaign="halloween2027"] .campaign-bar {
   color: var(--campaign-accent-ink, #fff);
 }
 
-html[data-campaign="halloween2027"] #siteHeader {
+html[data-campaign]:not([data-campaign="normal"]) #siteHeader {
   border-bottom-color: color-mix(in srgb, var(--campaign-accent) 55%, #fff);
 }
 
 #siteHeader .logo { position: relative; }
 
-html[data-campaign="halloween2027"] #siteHeader .logo::after {
+html[data-campaign]:not([data-campaign="normal"]) #siteHeader .logo::after {
   content: "✦";
   position: absolute;
   top: -7px;
@@ -334,170 +362,6 @@ html[data-campaign="halloween2027"] .campaign-spotlight-inner::after {
   color: #fff;
 }
 
-/* ---------- 季節テーマ切替UI ---------- */
-.campaign-switcher {
-  position: fixed;
-  left: 16px;
-  bottom: 16px;
-  z-index: 950;
-  font-family: var(--font);
-}
-
-.campaign-switcher-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  min-height: 44px;
-  padding: 0 15px;
-  border: 2px solid var(--border);
-  border-radius: 999px;
-  background: var(--card);
-  color: var(--text);
-  font-family: var(--font);
-  font-size: 0.76rem;
-  font-weight: 900;
-  cursor: pointer;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.campaign-switcher-toggle svg {
-  width: 17px;
-  height: 17px;
-  color: var(--accent-deep);
-}
-
-.campaign-switcher-toggle:hover {
-  transform: translateY(-2px);
-  border-color: var(--accent);
-}
-
-.campaign-switcher-panel {
-  position: absolute;
-  left: 0;
-  bottom: calc(100% + 10px);
-  width: min(310px, calc(100vw - 32px));
-  max-height: min(72vh, 560px);
-  overflow-y: auto;
-  padding: 16px;
-  border: 2px solid var(--border);
-  border-radius: 20px;
-  background: var(--card);
-  color: var(--text);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(16px);
-}
-
-.campaign-switcher-panel[hidden] { display: none !important; }
-
-.campaign-switcher-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.campaign-switcher-kicker {
-  margin: 0 0 2px;
-  color: var(--muted);
-  font-family: var(--font-display);
-  font-size: 0.58rem;
-  font-weight: 900;
-  letter-spacing: 0.16em;
-}
-
-.campaign-switcher-head h2 {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: 1.08rem;
-  font-weight: 900;
-  line-height: 1.3;
-}
-
-.campaign-switcher-close {
-  flex: 0 0 auto;
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  background: transparent;
-  color: var(--muted);
-  font-size: 1rem;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.campaign-switcher-close:hover { color: var(--text); border-color: var(--accent); }
-
-.campaign-switcher-note {
-  margin: 9px 0 11px;
-  color: var(--muted);
-  font-size: 0.68rem;
-  line-height: 1.7;
-}
-
-.campaign-switcher-options {
-  display: grid;
-  gap: 4px;
-}
-
-.campaign-switcher-options label {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 8px 9px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: background 0.18s ease;
-}
-
-.campaign-switcher-options label:hover { background: rgba(117, 177, 192, 0.12); }
-
-.campaign-switcher-options input {
-  flex: 0 0 auto;
-  width: 16px;
-  height: 16px;
-  margin: 3px 0 0;
-  accent-color: var(--accent-deep);
-}
-
-.campaign-switcher-options b {
-  display: block;
-  font-size: 0.78rem;
-  line-height: 1.4;
-}
-
-.campaign-switcher-options small {
-  display: block;
-  margin-top: 1px;
-  color: var(--muted);
-  font-size: 0.64rem;
-  line-height: 1.4;
-}
-
-.campaign-switcher-status {
-  margin: 10px 0 8px;
-  color: var(--muted);
-  font-size: 0.68rem;
-  font-weight: 700;
-}
-
-.campaign-switcher-reset {
-  width: 100%;
-  min-height: 36px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: transparent;
-  color: var(--text);
-  font-family: var(--font);
-  font-size: 0.7rem;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.campaign-switcher-reset:hover { border-color: var(--accent); background: rgba(117, 177, 192, 0.1); }
-
 @media (max-width: 760px) {
   .campaign-bar {
     /* 601–760px はヘッダーが 62px コンテンツ + 3px ボーダー */
@@ -521,13 +385,6 @@ html[data-campaign="halloween2027"] .campaign-spotlight-inner::after {
   .campaign-spotlight-art { display: none; }
   .campaign-spotlight-title { font-size: clamp(1.55rem, 7vw, 2.2rem); }
   .campaign-spotlight-desc { font-size: 0.8rem; }
-
-  .campaign-switcher { left: 12px; bottom: 12px; }
-  .campaign-switcher-toggle { padding: 0 12px; }
-  .campaign-switcher-panel {
-    left: 0;
-    width: min(310px, calc(100vw - 24px));
-  }
 }
 
 @media (max-width: 600px) {
@@ -540,11 +397,8 @@ html[data-campaign="halloween2027"] .campaign-spotlight-inner::after {
 @media (max-width: 420px) {
   .campaign-bar-star { font-size: 0.8rem; }
   .campaign-bar-text { font-size: 0.66rem; }
-  .campaign-switcher-toggle span { display: none; }
-  .campaign-switcher-toggle { width: 46px; justify-content: center; padding: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .campaign-bar-star { animation: none; }
-  .campaign-switcher-toggle { transition: none; }
 }
