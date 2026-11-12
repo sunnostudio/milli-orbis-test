@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-11",
+  "generatedAt": "2026-11-12",
   "songs": {
     "ただ声一つロクデナシ": {
       "title": "ただ声一つ",
@@ -205,9 +205,9 @@ window.SONG_MASTER = {
     },
     "zzz": {
       "title": "Zzz",
-      "artist": "佐咲紗花",
-      "album": "Zzz - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/cf/70/ffcf7086-55c8-6252-db2f-8298edd4d932/4562409333975.jpg/600x600bb.jpg"
+      "artist": "60 juno",
+      "album": "Zzz - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c2/17/3d/c2173de9-554b-0ea9-dd4e-46fdbf9d1eef/197773587057_cover.jpg/600x600bb.jpg"
     },
     "名前のない怪物": {
       "title": "名前のない怪物",
@@ -307,9 +307,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
-      "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
+      "artist": "doriko feat. 初音ミク",
+      "album": "Download (feat.初音ミク)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -999,13 +999,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
-      "artist": "Vivid BAD SQUAD",
-      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
-      "en": {
-        "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
-      }
+      "title": "MANIHEKE",
+      "artist": "アイリフドーパ",
+      "album": "GENTEN - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",
@@ -1120,9 +1117,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1588,9 +1585,9 @@ window.SONG_MASTER = {
     },
     "キュトなカノジョ": {
       "title": "キュートなカノジョ",
-      "artist": "IZUMI",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "syudou",
+      "album": "キュートなカノジョ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/9b/03/199b0378-0cc2-12b6-68d0-745c2503ca53/25UMGIM91994.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "cute girlfriend"
       }
@@ -1746,12 +1743,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
+      "title": "かくれんぼ",
       "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
+      "album": "かくれんぼ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
       "en": {
-        "title": "shutter"
+        "title": "hide and seek"
       }
     },
     "メルティランドナイトメア": {
@@ -1824,13 +1821,10 @@ window.SONG_MASTER = {
       }
     },
     "東京レトロいました": {
-      "title": "ベイビー・アイラブユー",
-      "artist": "TEE",
-      "album": "Baby I Love You",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a6/5d/97/a65d97f9-c02a-0702-305c-72e364e84910/00600406136404.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "baby i love you"
-      }
+      "title": "忘れる前に",
+      "artist": "Vaundy",
+      "album": "忘れる前に - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f6/9a/54f69acd-e53b-69a2-9a79-2945bd512df7/4582795383422.jpg/600x600bb.jpg"
     },
     "繰り返し一粒いました": {
       "title": "夜に駆ける",

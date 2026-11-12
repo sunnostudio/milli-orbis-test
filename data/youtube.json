@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-11-11T14:52:18.106Z",
+  "updatedAt": "2026-11-12T01:14:05.641Z",
   "streams": [
-    {
-      "id": "Fpr4KDb3m2o",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:01:15Z",
-      "status": "live"
-    },
-    {
-      "id": "41WZtUztgFY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】集まれ！深夜のドパガキ達！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T14:30:28Z",
-      "status": "live"
-    },
-    {
-      "id": "W7bR1EwgsDs",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T14:31:12Z",
-      "status": "live"
-    },
-    {
-      "id": "04s7XN3PX5Y",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【VALORANT】フルパコンペって癒しなんだよね",
-      "thumb": "https://i.ytimg.com/vi/04s7XN3PX5Y/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T14:32:17Z",
-      "status": "live"
-    },
     {
       "id": "IHZg-W1RGlg",
       "memberId": "yura",
@@ -53,6 +17,15 @@
       "title": "【口癖禁止】第４回『えへへ』言ったら即終了！？　前回の記録：1分51秒【 #あまかみらいぶ / #ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/OHkrmu-pADE/hqdefault.jpg",
       "scheduledStartTime": "2026-11-12T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "x--B8wu0B7s",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Goose Goose Duck 】大人数コラボ！仮サムネ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-12T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -178,23 +151,23 @@
   ],
   "videos": [
     {
+      "id": "wxRgM_Qst_0",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】ぐっどなも～にんぐですな！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/wxRgM_Qst_0/hqdefault.jpg",
+      "publishedAt": "2026-11-12T01:08:16Z",
+      "live": true
+    },
+    {
       "id": "04s7XN3PX5Y",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【VALORANT】フルパコンペって癒しなんだよね",
-      "thumb": "https://i.ytimg.com/vi/04s7XN3PX5Y/hqdefault.jpg?v=6af47866",
-      "publishedAt": "2026-11-11T14:32:17Z",
-      "live": false
-    },
-    {
-      "id": "W7bR1EwgsDs",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg?v=6af47865",
-      "publishedAt": "2026-11-11T14:31:12Z",
+      "thumb": "https://i.ytimg.com/vi/04s7XN3PX5Y/hqdefault.jpg",
+      "publishedAt": "2026-11-11T17:22:04Z",
       "live": false
     },
     {
@@ -203,8 +176,38 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 VALORANT 】集まれ！深夜のドパガキ達！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg?v=6af47763",
-      "publishedAt": "2026-11-11T14:30:28Z",
+      "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg",
+      "publishedAt": "2026-11-11T17:20:22Z",
+      "live": false
+    },
+    {
+      "id": "W7bR1EwgsDs",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
+      "publishedAt": "2026-11-11T17:17:03Z",
+      "live": false
+    },
+    {
+      "id": "x--B8wu0B7s",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Goose Goose Duck 】大人数コラボ！仮サムネ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg?v=6af49da6",
+      "publishedAt": "2026-11-11T16:53:56Z",
+      "live": false
+    },
+    {
+      "id": "Fpr4KDb3m2o",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
+      "publishedAt": "2026-11-11T15:41:10Z",
       "live": false
     },
     {
@@ -265,16 +268,6 @@
       "title": "〖 崩壊：スターレイル 〗お絵描き人狼  隠された嘘を見抜け！〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/Re17g97z-Ok/hqdefault.jpg",
       "publishedAt": "2026-11-11T12:19:05Z",
-      "live": false
-    },
-    {
-      "id": "Fpr4KDb3m2o",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg?v=6af3fa12",
-      "publishedAt": "2026-11-11T10:01:15Z",
       "live": false
     },
     {
@@ -456,64 +449,7 @@
       "thumb": "https://i.ytimg.com/vi/0Jp7zpLkOB4/hqdefault.jpg",
       "publishedAt": "2026-11-09T12:10:32Z",
       "live": false
-    },
-    {
-      "id": "zKJEt6DZTmM",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【どこまで出るか！？】ボカロ高音曲チャレンジ！【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/zKJEt6DZTmM/hqdefault.jpg",
-      "publishedAt": "2026-11-09T09:01:37Z",
-      "live": false
-    },
-    {
-      "id": "urukibWWcPI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "オリ曲GB配布✨️10万再生感謝❤️‍🔥 #ゆらぎゆら_月の浮かぶ海 #animation",
-      "thumb": "https://i.ytimg.com/vi/urukibWWcPI/hqdefault.jpg",
-      "publishedAt": "2026-11-09T09:00:33Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "Fpr4KDb3m2o",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:01:15Z",
-      "status": "live"
-    },
-    {
-      "id": "41WZtUztgFY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】集まれ！深夜のドパガキ達！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T14:30:28Z",
-      "status": "live"
-    },
-    {
-      "id": "W7bR1EwgsDs",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T14:31:12Z",
-      "status": "live"
-    },
-    {
-      "id": "04s7XN3PX5Y",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【VALORANT】フルパコンペって癒しなんだよね",
-      "thumb": "https://i.ytimg.com/vi/04s7XN3PX5Y/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T14:32:17Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
