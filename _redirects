@@ -2,23 +2,23 @@
 # 注意1: Pagesは.htmlを拡張子なしに正規化(308)してから判定するため、
 # _redirectsには拡張子なしで記述する。リライト(200)で.htmlを指定すると
 # 正規化と往復して無限ループになるため使わない。
-# 注意2: 新規ページ追加時はここに301を追記すること。
+# 注意2: 新規ページ追加時も301は使わず、302を追記すること。
 # ファイル自体を上げたくない場合はダッシュボードのビルドコマンドに `rm -rf halloween` を設定
-/halloween /404.html 301
-/halloween/ /404.html 301
-/halloween/index /404.html 301
-/halloween/floor-1-lobby /404.html 301
-/halloween/floor-2-closet /404.html 301
-/halloween/floor-3-theater /404.html 301
-/halloween/floor-4-salon /404.html 301
-/halloween/floor-5-ballroom /404.html 301
-/halloween/floor-6-room /404.html 301
-/halloween/floor-13 /404.html 301
-/halloween/invite /404.html 301
-/halloween/pre-register /404.html 301
-/halloween/pre-register.html /404.html 301
-/halloween/elevator-demo /404.html 301
-/halloween/invite-demo /404.html 301
+/halloween /404.html 302
+/halloween/ /404.html 302
+/halloween/index /404.html 302
+/halloween/floor-1-lobby /404.html 302
+/halloween/floor-2-closet /404.html 302
+/halloween/floor-3-theater /404.html 302
+/halloween/floor-4-salon /404.html 302
+/halloween/floor-5-ballroom /404.html 302
+/halloween/floor-6-room /404.html 302
+/halloween/floor-13 /404.html 302
+/halloween/invite /404.html 302
+/halloween/pre-register /404.html 302
+/halloween/pre-register.html /404.html 302
+/halloween/elevator-demo /404.html 302
+/halloween/invite-demo /404.html 302
 
 # ------------------------------------------------------------------
 # 非公開コンテンツ（告知前・公式確認前）
