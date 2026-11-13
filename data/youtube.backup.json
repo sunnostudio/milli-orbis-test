@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-12T01:14:05.641Z",
+  "updatedAt": "2026-11-12T15:43:46.483Z",
   "streams": [
-    {
-      "id": "IHZg-W1RGlg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 NTE 】ドラゴン討伐！？ 番外編：第7章「赤竜討伐譚」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/IHZg-W1RGlg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-12T02:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "OHkrmu-pADE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【口癖禁止】第４回『えへへ』言ったら即終了！？　前回の記録：1分51秒【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/OHkrmu-pADE/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-12T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "x--B8wu0B7s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Goose Goose Duck 】大人数コラボ！仮サムネ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-12T12:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "hDUmONQouqA",
       "memberId": "aoi",
@@ -38,12 +11,30 @@
       "status": "upcoming"
     },
     {
+      "id": "8EqvMGx7kWI",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-13T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "8otOGZZ2NuY",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
       "scheduledStartTime": "2026-11-14T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "C_1hrGDZZKY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語&amp;熟語1800』発売記念のお話&amp;サイン会が決定！",
+      "thumb": "https://i.ytimg.com/vi/C_1hrGDZZKY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-15T14:45:00Z",
       "status": "upcoming"
     },
     {
@@ -151,6 +142,116 @@
   ],
   "videos": [
     {
+      "id": "x--B8wu0B7s",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Goose Goose Duck 】人いすぎだろー！？ひよるなｵﾚ、、、【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:23:20Z",
+      "live": false
+    },
+    {
+      "id": "uWQFplpFYww",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【Goose Goose Duck】いっぱい人がいるぜ🔥",
+      "thumb": "https://i.ytimg.com/vi/uWQFplpFYww/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:18:02Z",
+      "live": false
+    },
+    {
+      "id": "kzKdwhFmTuQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Goose Goose Duck 】たくさん人がいる緊張！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kzKdwhFmTuQ/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:13:27Z",
+      "live": false
+    },
+    {
+      "id": "r9nFT4An-Yk",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【お絵描き雑談】今日もショート作るよどこまでも【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/r9nFT4An-Yk/hqdefault.jpg",
+      "publishedAt": "2026-11-12T11:37:11Z",
+      "live": true
+    },
+    {
+      "id": "8EqvMGx7kWI",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg?v=6af5a2f8",
+      "publishedAt": "2026-11-12T11:28:54Z",
+      "live": false
+    },
+    {
+      "id": "OHkrmu-pADE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【口癖禁止】第４回『えへへ』言ったら即終了！？　前回の記録：1分51秒【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/OHkrmu-pADE/hqdefault.jpg",
+      "publishedAt": "2026-11-12T11:17:54Z",
+      "live": false
+    },
+    {
+      "id": "IHZg-W1RGlg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】ドラゴン討伐！？ 番外編：第7章「赤竜討伐譚」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/IHZg-W1RGlg/hqdefault.jpg",
+      "publishedAt": "2026-11-12T10:14:44Z",
+      "live": false
+    },
+    {
+      "id": "tOJqcfKz4uo",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "ミリプロメンバーの衣装を交換してみたら激カワなイラストが生まれてしまいました【甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/tOJqcfKz4uo/hqdefault.jpg",
+      "publishedAt": "2026-11-12T10:00:07Z",
+      "live": false
+    },
+    {
+      "id": "vY2U25oudsA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【挑戦状⁉️】段々キーが上がるオリ曲『ボルケーの！』歌ってみた！【音ノ瀬らこ/ミリプロ】#Shortsオリ曲",
+      "thumb": "https://i.ytimg.com/vi/vY2U25oudsA/hqdefault.jpg",
+      "publishedAt": "2026-11-12T09:00:36Z",
+      "live": false
+    },
+    {
+      "id": "G4RnNutTJEM",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【3人で】以心伝心『ゴーストルール』歌ってみた#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/G4RnNutTJEM/hqdefault.jpg",
+      "publishedAt": "2026-11-12T09:00:27Z",
+      "live": false
+    },
+    {
+      "id": "JFpAmXD8iNE",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JFpAmXD8iNE/hqdefault.jpg",
+      "publishedAt": "2026-11-12T09:00:14Z",
+      "live": false
+    },
+    {
       "id": "wxRgM_Qst_0",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -188,16 +289,6 @@
       "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
       "publishedAt": "2026-11-11T17:17:03Z",
-      "live": false
-    },
-    {
-      "id": "x--B8wu0B7s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Goose Goose Duck 】大人数コラボ！仮サムネ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg?v=6af49da6",
-      "publishedAt": "2026-11-11T16:53:56Z",
       "live": false
     },
     {
@@ -291,16 +382,6 @@
       "live": false
     },
     {
-      "id": "IHZg-W1RGlg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】ドラゴン討伐！？ 番外編：第7章「赤竜討伐譚」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/IHZg-W1RGlg/hqdefault.jpg?v=6af41e35",
-      "publishedAt": "2026-11-11T07:50:11Z",
-      "live": false
-    },
-    {
       "id": "dJoLignQRJI",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -308,16 +389,6 @@
       "title": "セレナーデ - なとり covered by 雨夜リズ",
       "thumb": "https://i.ytimg.com/vi/dJoLignQRJI/hqdefault.jpg",
       "publishedAt": "2026-11-11T07:15:05Z",
-      "live": false
-    },
-    {
-      "id": "OHkrmu-pADE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【口癖禁止】第４回『えへへ』言ったら即終了！？　前回の記録：1分51秒【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/OHkrmu-pADE/hqdefault.jpg?v=6af3ea27",
-      "publishedAt": "2026-11-11T04:06:45Z",
       "live": false
     },
     {
@@ -368,86 +439,6 @@
       "title": "【眠雲ツクリと】引いた言葉が歌詞に含まれる曲歌ってみた#shorts 【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/igxTQC0hcig/hqdefault.jpg",
       "publishedAt": "2026-11-10T09:00:07Z",
-      "live": false
-    },
-    {
-      "id": "BqMG0kSpu_c",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】なにやろっかな～(無計画)",
-      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg",
-      "publishedAt": "2026-11-09T17:18:14Z",
-      "live": true
-    },
-    {
-      "id": "8otOGZZ2NuY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg?v=6af1f9bc",
-      "publishedAt": "2026-11-09T16:50:02Z",
-      "live": false
-    },
-    {
-      "id": "hDUmONQouqA",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg?v=6af1efc5",
-      "publishedAt": "2026-11-09T16:07:30Z",
-      "live": false
-    },
-    {
-      "id": "Ch1FdMjW0B8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 つぐのひ-天招ねく救いの糸- 】ホラゲ嫌いな私でもできると言われました。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Ch1FdMjW0B8/hqdefault.jpg",
-      "publishedAt": "2026-11-09T13:44:50Z",
-      "live": false
-    },
-    {
-      "id": "fMJHBB-soDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg",
-      "publishedAt": "2026-11-09T13:32:38Z",
-      "live": false
-    },
-    {
-      "id": "gb9OZsmBytY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
-      "publishedAt": "2026-11-09T13:30:32Z",
-      "live": false
-    },
-    {
-      "id": "HfXxFckQlEc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 事故物件 〗お部屋探しはNEMUKUMOへ！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/HfXxFckQlEc/hqdefault.jpg",
-      "publishedAt": "2026-11-09T13:22:56Z",
-      "live": false
-    },
-    {
-      "id": "0Jp7zpLkOB4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】ゲリラでちょこっと歌うよ～！今週もがんばろ～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0Jp7zpLkOB4/hqdefault.jpg",
-      "publishedAt": "2026-11-09T12:10:32Z",
       "live": false
     }
   ],

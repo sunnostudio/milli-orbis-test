@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T15:43:46.483Z",
+  "updatedAt": "2026-11-12T23:57:06.525Z",
   "streams": [
     {
       "id": "hDUmONQouqA",
@@ -17,6 +17,15 @@
       "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg",
       "scheduledStartTime": "2026-11-13T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "U8L0-g4JBlM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-13T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -141,6 +150,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "U8L0-g4JBlM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg?v=6af5fe20",
+      "publishedAt": "2026-11-12T17:57:50Z",
+      "live": false
+    },
     {
       "id": "x--B8wu0B7s",
       "memberId": "yura",
@@ -429,16 +448,6 @@
       "title": "【アニメ】お手伝い頑張る！ #ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/HIwoQ2jtBE0/hqdefault.jpg",
       "publishedAt": "2026-11-10T09:00:08Z",
-      "live": false
-    },
-    {
-      "id": "igxTQC0hcig",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【眠雲ツクリと】引いた言葉が歌詞に含まれる曲歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/igxTQC0hcig/hqdefault.jpg",
-      "publishedAt": "2026-11-10T09:00:07Z",
       "live": false
     }
   ],
