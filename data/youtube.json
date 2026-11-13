@@ -1,32 +1,14 @@
 {
-  "updatedAt": "2026-11-12T23:57:06.525Z",
+  "updatedAt": "2026-11-13T15:02:03.034Z",
   "streams": [
     {
-      "id": "hDUmONQouqA",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T09:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "8EqvMGx7kWI",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "U8L0-g4JBlM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T12:00:00Z",
-      "status": "upcoming"
+      "id": "8R4TC_Wlq6M",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-13T13:03:02Z",
+      "status": "live"
     },
     {
       "id": "8otOGZZ2NuY",
@@ -151,13 +133,153 @@
   ],
   "videos": [
     {
+      "id": "YR3-NjMBTDI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】ねむーーーーい‼️‼️‼️【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YR3-NjMBTDI/hqdefault.jpg?v=6af6ff21",
+      "publishedAt": "2026-11-13T14:56:37Z",
+      "live": false
+    },
+    {
       "id": "U8L0-g4JBlM",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg?v=6af5fe20",
-      "publishedAt": "2026-11-12T17:57:50Z",
+      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg",
+      "publishedAt": "2026-11-13T14:50:22Z",
+      "live": false
+    },
+    {
+      "id": "HOUzYRdYWNQ",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【作業雑談】ショート制作、頑張ってんだ",
+      "thumb": "https://i.ytimg.com/vi/HOUzYRdYWNQ/hqdefault.jpg",
+      "publishedAt": "2026-11-13T13:55:44Z",
+      "live": true
+    },
+    {
+      "id": "iEUTUjLo318",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 雑談 】寒くなってきたね、自分大事に【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iEUTUjLo318/hqdefault.jpg",
+      "publishedAt": "2026-11-13T13:23:52Z",
+      "live": true
+    },
+    {
+      "id": "8R4TC_Wlq6M",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg?v=6af6eca1",
+      "publishedAt": "2026-11-13T13:03:02Z",
+      "live": false
+    },
+    {
+      "id": "GYnF2iZKqzQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "ねぇ、君はどこの駅まで？",
+      "thumb": "https://i.ytimg.com/vi/GYnF2iZKqzQ/hqdefault.jpg",
+      "publishedAt": "2026-11-13T12:00:16Z",
+      "live": false
+    },
+    {
+      "id": "8EqvMGx7kWI",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg",
+      "publishedAt": "2026-11-13T11:15:09Z",
+      "live": false
+    },
+    {
+      "id": "hDUmONQouqA",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg",
+      "publishedAt": "2026-11-13T11:03:08Z",
+      "live": false
+    },
+    {
+      "id": "bYH8Lg0dqi4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "鬼ノ宴 / 海琳あおい (cover)",
+      "thumb": "https://i.ytimg.com/vi/bYH8Lg0dqi4/hqdefault.jpg",
+      "publishedAt": "2026-11-13T11:00:07Z",
+      "live": false
+    },
+    {
+      "id": "Hnkp0YXqEWM",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "『寄り酔い』歌ってみた 【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Hnkp0YXqEWM/hqdefault.jpg",
+      "publishedAt": "2026-11-13T09:01:09Z",
+      "live": false
+    },
+    {
+      "id": "cw7MFYYb__4",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【#バズって生きたい】眠雲のオリ曲歌ってみた！(т-т)【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cw7MFYYb__4/hqdefault.jpg",
+      "publishedAt": "2026-11-13T09:00:24Z",
+      "live": false
+    },
+    {
+      "id": "D8xHPCeEGfc",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "歌詞に𓏸𓏸が入った曲を歌えチャレンジ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/D8xHPCeEGfc/hqdefault.jpg",
+      "publishedAt": "2026-11-13T09:00:15Z",
+      "live": false
+    },
+    {
+      "id": "iPdOvjbmsh4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "『奏』歌ってみた【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iPdOvjbmsh4/hqdefault.jpg",
+      "publishedAt": "2026-11-13T09:00:10Z",
+      "live": false
+    },
+    {
+      "id": "KoQZFmgi6es",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【こまのオリ曲】「おきらくスーパースター」歌ってみた🎶【眠雲ツクリ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/KoQZFmgi6es/hqdefault.jpg",
+      "publishedAt": "2026-11-13T09:00:08Z",
+      "live": false
+    },
+    {
+      "id": "S1Fmht1Jy_I",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】隠れながらバレずに息継ぎして生き残れ！",
+      "thumb": "https://i.ytimg.com/vi/S1Fmht1Jy_I/hqdefault.jpg",
+      "publishedAt": "2026-11-13T09:00:06Z",
       "live": false
     },
     {
@@ -199,16 +321,6 @@
       "thumb": "https://i.ytimg.com/vi/r9nFT4An-Yk/hqdefault.jpg",
       "publishedAt": "2026-11-12T11:37:11Z",
       "live": true
-    },
-    {
-      "id": "8EqvMGx7kWI",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg?v=6af5a2f8",
-      "publishedAt": "2026-11-12T11:28:54Z",
-      "live": false
     },
     {
       "id": "OHkrmu-pADE",
@@ -319,137 +431,17 @@
       "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
       "publishedAt": "2026-11-11T15:41:10Z",
       "live": false
-    },
-    {
-      "id": "p4LCQo0tFFk",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【崩壊：スターレイル】お絵描き人狼でバトル！？🎨🔥",
-      "thumb": "https://i.ytimg.com/vi/p4LCQo0tFFk/hqdefault.jpg",
-      "publishedAt": "2026-11-11T13:33:33Z",
-      "live": false
-    },
-    {
-      "id": "HsgRGzmzNrs",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 崩壊：スターレイル 】みんなでお絵描き人狼⁉️【 音ノ瀬らこ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/HsgRGzmzNrs/hqdefault.jpg",
-      "publishedAt": "2026-11-11T12:20:49Z",
-      "live": false
-    },
-    {
-      "id": "yke6FUAZPKQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【崩壊：スターレイル】みんなとお絵描き人狼するぞ～～～！！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/yke6FUAZPKQ/hqdefault.jpg",
-      "publishedAt": "2026-11-11T12:20:48Z",
-      "live": false
-    },
-    {
-      "id": "pEm12-6CmwA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 崩壊：スターレイル 】お絵描きしながら人狼を探せ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/pEm12-6CmwA/hqdefault.jpg",
-      "publishedAt": "2026-11-11T12:19:42Z",
-      "live": false
-    },
-    {
-      "id": "5DiH5ohf9Fk",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 崩壊：スターレイル 】画力と推理力で人狼を追い詰めろ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5DiH5ohf9Fk/hqdefault.jpg",
-      "publishedAt": "2026-11-11T12:19:28Z",
-      "live": false
-    },
-    {
-      "id": "Re17g97z-Ok",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 崩壊：スターレイル 〗お絵描き人狼  隠された嘘を見抜け！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/Re17g97z-Ok/hqdefault.jpg",
-      "publishedAt": "2026-11-11T12:19:05Z",
-      "live": false
-    },
-    {
-      "id": "JUQfN_anuro",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【一人合唱！】だんだんハモる『シャルル』#歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JUQfN_anuro/hqdefault.jpg",
-      "publishedAt": "2026-11-11T09:01:28Z",
-      "live": false
-    },
-    {
-      "id": "3-i1xDZJNBE",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】10秒を超えたら負け！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3-i1xDZJNBE/hqdefault.jpg",
-      "publishedAt": "2026-11-11T09:00:35Z",
-      "live": false
-    },
-    {
-      "id": "dJoLignQRJI",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "セレナーデ - なとり covered by 雨夜リズ",
-      "thumb": "https://i.ytimg.com/vi/dJoLignQRJI/hqdefault.jpg",
-      "publishedAt": "2026-11-11T07:15:05Z",
-      "live": false
-    },
-    {
-      "id": "k0kpimOohm0",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【お絵描き雑談】久々にショートの絵描くぞ～～～！",
-      "thumb": "https://i.ytimg.com/vi/k0kpimOohm0/hqdefault.jpg",
-      "publishedAt": "2026-11-10T14:38:13Z",
-      "live": true
-    },
-    {
-      "id": "JmHL3tmx6MA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 #ゆらぎゆら新モデル 】ちょっぴり大人な「せくすぃ」うぉんなになりました。【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JmHL3tmx6MA/hqdefault.jpg",
-      "publishedAt": "2026-11-10T14:36:08Z",
-      "live": false
-    },
-    {
-      "id": "K2l78r6KPw4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】加入記念グッズにサイン入れしていくぞ～～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/K2l78r6KPw4/hqdefault.jpg",
-      "publishedAt": "2026-11-10T13:42:04Z",
-      "live": true
-    },
-    {
-      "id": "HIwoQ2jtBE0",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】お手伝い頑張る！ #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/HIwoQ2jtBE0/hqdefault.jpg",
-      "publishedAt": "2026-11-10T09:00:08Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "8R4TC_Wlq6M",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-13T13:03:02Z",
+      "status": "live"
+    }
+  ]
 }

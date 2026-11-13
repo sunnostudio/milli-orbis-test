@@ -618,13 +618,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "butterfly knot"
-      }
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -657,13 +654,10 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "会いたい夜 (feat. Macheri)",
+      "artist": "ONE☆DRAFT",
+      "album": "蜂の巣",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/8f/15/8e8f1590-bb54-a91e-8bb2-73ac6876a3f0/jacket_AICL02193B00Z_550.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -808,9 +802,9 @@ window.SONG_MASTER = {
     },
     "心做し": {
       "title": "心做し",
-      "artist": "majiko",
-      "album": "Contrast",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
+      "artist": "Sou",
+      "album": "深層から",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -967,9 +961,9 @@ window.SONG_MASTER = {
     },
     "dec.": {
       "title": "Dec.",
-      "artist": "Kanaria",
+      "artist": "Ayiko & Yuri",
       "album": "Dec. - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b1/78/feb17895-1c2c-67ea-e6d0-849540da9c58/0198448153041_cover.png/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/d1/ee/01d1ee8f-99d7-298f-50c1-2de91afa87b6/artwork.jpg/600x600bb.jpg"
     },
     "少女レイ": {
       "title": "少女レイ",
@@ -1119,12 +1113,12 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
       "en": {
-        "title": "marshall maximizer"
+        "title": "Marshall Maximizer (feat. Kafu)"
       }
     },
     "祝福": {
@@ -1231,9 +1225,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Akuya",
-      "album": "Henceforth - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1335,12 +1329,12 @@ window.SONG_MASTER = {
       }
     },
     "アイロニacoustic.": {
-      "title": "ハロ/ハワユ",
+      "title": "クライヤ",
       "artist": "鹿乃",
-      "album": "rye",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
+      "album": "クライヤ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/d0/ed/11/d0ed111f-596d-4e42-d654-47c51f37bbb6/4571192987258.jpg/600x600bb.jpg",
       "en": {
-        "title": "halo/hawayu"
+        "title": "Cryer"
       }
     },
     "p.h..": {
@@ -1939,6 +1933,12 @@ window.SONG_MASTER = {
       "en": {
         "title": "Donut hole (COVER)"
       }
+    },
+    "鬼ノ宴": {
+      "title": "鬼ノ宴",
+      "artist": "友成空",
+      "album": "鬼ノ宴 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/03/7c/b6037c92-4729-1d43-f4d9-da33c37b66da/ANTCD-A0000012397.jpg/600x600bb.jpg"
     },
     "クエスチョン": {
       "title": "クエスチョン",

@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-13",
   "official": [
     {
       "id": "8xTMPRDuLrA",
@@ -4352,6 +4352,17 @@ window.SONGS = {
       "en": {
         "title": "Hello/Hawayu sang"
       }
+    },
+    {
+      "title": "鬼ノ宴",
+      "key": "鬼ノ宴",
+      "urls": [
+        {
+          "id": "bYH8Lg0dqi4",
+          "memberId": "aoi",
+          "publishedAt": "2026-11-13"
+        }
+      ]
     }
   ]
 };

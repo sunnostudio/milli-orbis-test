@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "YR3-NjMBTDI",
+    "memberId": "raco",
+    "publishedAt": "2026-11-13",
+    "title": "【歌枠】ねむーーーーい‼️‼️‼️【音ノ瀬らこ /ミリプロ】",
+    "duration": 8734,
+    "songs": []
+  },
+  {
     "id": "sb2k1uNdMNg",
     "memberId": "raco",
     "publishedAt": "2026-11-07",
