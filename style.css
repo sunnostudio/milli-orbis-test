@@ -273,6 +273,10 @@ body[data-member="aoi"] .section h3::before {
   -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="%23000"><ellipse cx="48" cy="54" rx="25" ry="19"/><circle cx="76" cy="48" r="9"/><path d="M26,50 L10,40 L17,55 L9,62 L25,61 Z"/><path d="M30,66 L22,80 L35,72 Z"/><path d="M60,66 L56,82 L69,71 Z"/></g></svg>') center/contain no-repeat;
   mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="%23000"><ellipse cx="48" cy="54" rx="25" ry="19"/><circle cx="76" cy="48" r="9"/><path d="M26,50 L10,40 L17,55 L9,62 L25,61 Z"/><path d="M30,66 L22,80 L35,72 Z"/><path d="M60,66 L56,82 L69,71 Z"/></g></svg>') center/contain no-repeat;
 }
+body[data-member="mayoi"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50 7C29 7 15 23 15 47v40c0 5 4 5 7 1l8-8 7 10 7-8 6 11 7-11 7 8 7-10 8 8c3 4 7 4 7-1V47C85 23 71 7 50 7Z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50 7C29 7 15 23 15 47v40c0 5 4 5 7 1l8-8 7 10 7-8 6 11 7-11 7 8 7-10 8 8c3 4 7 4 7-1V47C85 23 71 7 50 7Z"/></svg>') center/contain no-repeat;
+}
 
 @media (max-width: 640px) {
   .page-deco .d-f { width: 36px !important; height: 36px !important; opacity: 0.4; }
@@ -1750,6 +1754,148 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
   box-shadow: 0 8px 0 rgba(90, 80, 70, 0.1), 0 14px 26px rgba(90, 80, 70, 0.16);
   background: #fff;
   margin: 4px 0 16px;
+}
+body[data-member="mayoi"] .talent-hero {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.9) 0 4px, transparent 5px),
+    radial-gradient(circle at 83% 30%, rgba(255, 255, 255, 0.85) 0 6px, transparent 7px),
+    radial-gradient(ellipse at 10% 100%, rgba(255, 183, 216, 0.48), transparent 42%),
+    radial-gradient(ellipse at 92% 6%, rgba(169, 232, 244, 0.62), transparent 38%),
+    linear-gradient(145deg, #fff5fa 0%, #fff 54%, #effcff 100%);
+}
+body[data-member="mayoi"] .talent-hero-art {
+  width: min(280px, 68vw);
+  height: auto;
+  aspect-ratio: auto;
+  max-height: 420px;
+  object-fit: contain;
+  border-radius: 22px;
+}
+body[data-member="mayoi"] .talent-hero h1 {
+  color: #b94f85;
+  text-shadow: 0 2px 0 #fff;
+}
+body[data-member="mayoi"] .mayoi-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+body[data-member="mayoi"] .mayoi-mark { width: .9em; height: .9em; flex: none; fill: #ed64a8; }
+body[data-member="mayoi"] .intro-overlay {
+  background:
+    radial-gradient(circle at 50% 46%, rgba(255, 255, 255, 0.72) 0 130px, transparent 131px),
+    radial-gradient(ellipse at 10% 18%, rgba(255, 255, 255, 0.72), transparent 32%),
+    radial-gradient(ellipse at 92% 78%, rgba(176, 236, 246, 0.72), transparent 34%),
+    linear-gradient(145deg, #ffe5f1 0%, #ffc2de 48%, #f5dcfb 76%, #d9f7fb 100%);
+}
+body[data-member="mayoi"] .intro-ring { opacity: 0.36; border-color: rgba(255, 255, 255, 0.78); }
+body[data-member="mayoi"] .intro-art {
+  width: min(210px, 38vw);
+  height: min(300px, 36vh);
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: 18px;
+  border-width: 4px;
+}
+body[data-member="mayoi"] .intro-name { color: #a84579; text-shadow: 0 2px 0 rgba(255, 255, 255, 0.9); }
+body[data-member="mayoi"] .intro-catch { color: #89516d; }
+
+/* まよい: ピンクと水色のおばけ、星と泡 */
+.fx-mayoi-ghost {
+  position: absolute;
+  z-index: 1;
+  top: 43%;
+  left: 50%;
+  width: clamp(112px, 17vw, 208px);
+  --mayoi-rest-x: calc(min(105px, 19vw) + clamp(56px, 8.5vw, 104px) + 12px);
+  opacity: 0;
+  filter: drop-shadow(0 14px 18px rgba(129, 83, 130, 0.2));
+}
+.fx-mayoi-ghost svg { width: 100%; height: auto; overflow: visible; }
+.intro-overlay.play .fx-mayoi-pink { animation: mayoiGhostInLeft 2.45s cubic-bezier(0.18, 0.78, 0.2, 1) 0.12s both; }
+.intro-overlay.play .fx-mayoi-blue { animation: mayoiGhostInRight 2.45s cubic-bezier(0.18, 0.78, 0.2, 1) 0.32s both; }
+.intro-overlay.play .fx-mayoi-ghost svg { animation: mayoiGhostBob 3.8s ease-in-out 2.9s infinite; }
+@keyframes mayoiGhostInLeft {
+  0% { opacity: 0; transform: translate(-50%, -50%) translateX(-68vw) rotate(-22deg) scale(.66); }
+  48% { opacity: 1; transform: translate(-50%, -50%) translateX(-4vw) rotate(9deg) scale(1.05); }
+  57% { transform: translate(-50%, -50%) translateX(calc(0px - var(--mayoi-rest-x) - 24px)) rotate(-14deg) scale(1.06); }
+  76% { transform: translate(-50%, -50%) translateX(calc(0px - var(--mayoi-rest-x) + 6px)) rotate(7deg) scale(.97); }
+  89% { transform: translate(-50%, -50%) translateX(calc(0px - var(--mayoi-rest-x) - 8px)) rotate(-3deg) scale(1.02); }
+  100% { opacity: 1; transform: translate(-50%, -50%) translateX(calc(0px - var(--mayoi-rest-x))) rotate(0) scale(1); }
+}
+@keyframes mayoiGhostInRight {
+  0% { opacity: 0; transform: translate(-50%, -50%) translateX(68vw) rotate(22deg) scale(.66); }
+  48% { opacity: 1; transform: translate(-50%, -50%) translateX(4vw) rotate(-9deg) scale(1.05); }
+  57% { transform: translate(-50%, -50%) translateX(var(--mayoi-rest-x)) rotate(14deg) scale(1.06); }
+  76% { transform: translate(-50%, -50%) translateX(calc(var(--mayoi-rest-x) - 6px)) rotate(-7deg) scale(.97); }
+  89% { transform: translate(-50%, -50%) translateX(calc(var(--mayoi-rest-x) + 8px)) rotate(3deg) scale(1.02); }
+  100% { opacity: 1; transform: translate(-50%, -50%) translateX(var(--mayoi-rest-x)) rotate(0) scale(1); }
+}
+@keyframes mayoiGhostBob {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-12px) rotate(2deg); }
+}
+.fx-mayoi-orbit {
+  position: absolute;
+  left: 50%;
+  top: 43%;
+  width: min(68vw, 620px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(255, 255, 255, 0.56);
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(-18deg) scale(.7);
+}
+.intro-overlay.play .fx-mayoi-orbit { animation: mayoiOrbitIn 2.4s ease-out .25s forwards, mayoiOrbitSpin 28s linear 2.7s infinite; }
+@keyframes mayoiOrbitIn {
+  0% { opacity: 0; transform: translate(-50%, -50%) rotate(-45deg) scale(.62); }
+  100% { opacity: .7; transform: translate(-50%, -50%) rotate(-18deg) scale(1); }
+}
+@keyframes mayoiOrbitSpin { to { rotate: 342deg; } }
+.fx-mayoi-shape {
+  position: absolute;
+  z-index: 1;
+  left: var(--x);
+  top: var(--y);
+  width: 17px;
+  height: 17px;
+  background: var(--c);
+  opacity: 0;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, .9));
+}
+.fx-mayoi-shape.star {
+  clip-path: polygon(50% 0, 62% 35%, 100% 50%, 62% 64%, 50% 100%, 38% 64%, 0 50%, 38% 35%);
+}
+.fx-mayoi-shape.diamond { width: 12px; height: 12px; border-radius: 3px; rotate: 45deg; }
+.fx-mayoi-shape.bubble { width: 18px; height: 18px; border: 2px solid var(--c); border-radius: 50%; background: transparent; }
+.intro-overlay.play .fx-mayoi-shape { animation: mayoiShapeFloat 4.5s ease-in-out var(--d) infinite; }
+@keyframes mayoiShapeFloat {
+  0%, 100% { opacity: 0; transform: translate3d(0, 12px, 0) scale(.55) rotate(0); }
+  35%, 68% { opacity: .86; }
+  50% { opacity: 1; transform: translate3d(12px, -18px, 0) scale(1.18) rotate(45deg); }
+}
+body[data-member="mayoi"] .talent-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto -30px -72px auto;
+  width: 210px;
+  height: 150px;
+  border: 2px dashed rgba(237, 145, 189, .28);
+  border-radius: 50%;
+  transform: rotate(-24deg);
+  pointer-events: none;
+  animation: mayoiHeroOrbit 18s linear infinite;
+}
+@keyframes mayoiHeroOrbit { to { transform: rotate(336deg); } }
+@media (max-width: 600px) {
+  .fx-mayoi-ghost { top: 39%; width: clamp(96px, 28vw, 140px); }
+  .intro-overlay.play .fx-mayoi-ghost { --mayoi-rest-x: calc(min(85px, 19vw) + clamp(48px, 14vw, 70px) + 12px); }
+  .fx-mayoi-orbit { width: 84vw; }
+  body[data-member="mayoi"] .intro-art { width: min(170px, 38vw); height: min(245px, 32vh); }
+}
+@media (prefers-reduced-motion: reduce) {
+  body[data-member="mayoi"] .talent-hero::after { animation: none; }
 }
 .talent-hero h1 {
   font-family: var(--font-display);

@@ -40,6 +40,31 @@ function fxHtml(kind) {
       '" d="M0,42 Q120,6 240,42 T480,42 T720,42 T960,42 T1200,42 T1440,42 L1440,80 L0,80 Z"/></svg>';
   };
   var V = {
+    mayoi:
+      '<span class="fx-mayoi-ghost fx-mayoi-pink" aria-hidden="true"><svg viewBox="0 0 160 176">' +
+      '<defs><linearGradient id="mayoiPink" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#fff8fc"/><stop offset=".56" stop-color="#ffb9d8"/><stop offset="1" stop-color="#ee86b6"/></linearGradient><clipPath id="mayoiPinkClip"><path d="M80 10C50 10 31 32 31 62c0 15 5 26-3 42l-12 25c-4 9 2 15 11 11l22-11 7 10 5-7 8 12 6-10 7 11 6-8 8 9 7-14c10 9 21 6 25-4l17 9c9 4 15-2 10-11l-14-25c-7-13-3-25-3-41 0-29-20-51-60-51Z"/></clipPath></defs>' +
+      '<path d="M80 10C50 10 31 32 31 62c0 15 5 26-3 42l-12 25c-4 9 2 15 11 11l22-11 7 10 5-7 8 12 6-10 7 11 6-8 8 9 7-14c10 9 21 6 25-4l17 9c9 4 15-2 10-11l-14-25c-7-13-3-25-3-41 0-29-20-51-60-51Z" fill="url(#mayoiPink)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>' +
+      '<path d="M34 42Q44 18 68 14L76 47Q55 51 41 63 34 55 34 42Z" fill="#fffdfb" stroke="#f18fbd" stroke-width="2.5" stroke-dasharray="2 4" stroke-linejoin="round"/>' +
+      '<g fill="#4e4555" stroke="#fff" stroke-width="2"><circle cx="59" cy="69" r="9"/><circle cx="101" cy="69" r="9"/></g><g fill="none" stroke="#332d38" stroke-width="1"><circle cx="59" cy="69" r="6.5"/><circle cx="101" cy="69" r="6.5"/></g><path d="m57 67 4 4m0-4-4 4m42-4 4 4m0-4-4 4" stroke="#f8e9f1" stroke-width="1.5" stroke-linecap="round"/>' +
+      '<path d="M72 100c4-5 9-4 13-1s7 1 12-1l-4 5c-4 0-6 4-11 1l-5 3-6-2Z" fill="#947488" stroke="#70566a" stroke-width="1.4" stroke-linejoin="round"/><path d="m77 99 4 3m5-2-1 3m5-3-2 3" fill="none" stroke="#c3a9b5" stroke-width="1" stroke-linecap="round"/>' +
+      '<path d="m112 105 8-5 8 5-8 6zm8 1 1 9m-1-9-1 9" fill="#554452" stroke="#554452" stroke-width="2" stroke-linejoin="round"/>' +
+      '<g clip-path="url(#mayoiPinkClip)" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><path d="m43 119 5 3m2-7 5 3m54 8 5-3m2 7 5-3"/></g>' +
+      '</svg></span>' +
+      '<span class="fx-mayoi-ghost fx-mayoi-blue" aria-hidden="true"><svg viewBox="0 0 160 176">' +
+      '<defs><linearGradient id="mayoiBlue" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#f5fdff"/><stop offset=".55" stop-color="#b5edf5"/><stop offset="1" stop-color="#77d1e2"/></linearGradient><clipPath id="mayoiBlueClip"><path d="M81 11C48 11 27 33 27 64c0 13 5 23 0 36l-11 23c-5 10 2 16 11 12l18-9 6 10 5-8 7 13 6-10 8 12 5-8 8 9 7-13c11 10 22 7 27-4l18 9c9 4 15-2 10-12l-12-24c-7-14-1-25-1-40 0-30-22-51-64-51Z"/></clipPath></defs>' +
+      '<path d="M81 11C48 11 27 33 27 64c0 13 5 23 0 36l-11 23c-5 10 2 16 11 12l18-9 6 10 5-8 7 13 6-10 8 12 5-8 8 9 7-13c11 10 22 7 27-4l18 9c9 4 15-2 10-12l-12-24c-7-14-1-25-1-40 0-30-22-51-64-51Z" fill="url(#mayoiBlue)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>' +
+      '<path d="M28 66 139 121 154 151 15 148Z" fill="#fffdfb" clip-path="url(#mayoiBlueClip)"/><path d="M30 65 137 119" fill="none" stroke="#75c8d8" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round"/>' +
+      '<g fill="#46525d" stroke="#fff" stroke-width="2"><circle cx="59" cy="69" r="9"/><circle cx="102" cy="69" r="9"/></g><g fill="none" stroke="#303b43" stroke-width="1"><circle cx="59" cy="69" r="6.5"/><circle cx="102" cy="69" r="6.5"/></g><path d="m57 67 4 4m0-4-4 4m43-4 4 4m0-4-4 4" stroke="#edf9fb" stroke-width="1.5" stroke-linecap="round"/>' +
+      '<path d="M120 39c-8-9-17-6-15 0 2 6 10 5 15 2 5 3 13 4 15-2 2-6-7-9-15 0Z" fill="#554452"/><circle cx="120" cy="40" r="3.5" fill="#403642"/><path d="M118 42q-3 7-1 16l5-4 1-12m2 0q3 7 8 11l-1-8-6-5" fill="#554452" stroke="#554452" stroke-width="1.5" stroke-linejoin="round"/>' +
+      '<g clip-path="url(#mayoiBlueClip)" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><path d="m105 119 5 3m2-7 5 3m-69 8 5-3m2 7 5-3"/></g>' +
+      '</svg></span>' +
+      '<span class="fx-mayoi-orbit" aria-hidden="true"></span>' +
+      '<span class="fx-mayoi-shape star" style="--x:12%;--y:19%;--d:.2s;--c:#ffaad0" aria-hidden="true"></span>' +
+      '<span class="fx-mayoi-shape bubble" style="--x:24%;--y:72%;--d:.7s;--c:#a7e8f4" aria-hidden="true"></span>' +
+      '<span class="fx-mayoi-shape diamond" style="--x:78%;--y:19%;--d:1.1s;--c:#ffd37c" aria-hidden="true"></span>' +
+      '<span class="fx-mayoi-shape star" style="--x:87%;--y:68%;--d:.45s;--c:#b9a2ef" aria-hidden="true"></span>' +
+      '<span class="fx-mayoi-shape bubble" style="--x:68%;--y:82%;--d:1.3s;--c:#ffafd2" aria-hidden="true"></span>' +
+      '<span class="fx-mayoi-shape diamond" style="--x:36%;--y:14%;--d:.9s;--c:#a7e8f4" aria-hidden="true"></span>',
     choco:
       '<span class="fx-chip" style="left:10%;animation-delay:0s"></span>' +
       '<span class="fx-chip" style="left:30%;animation-delay:1.3s"></span>' +
@@ -300,6 +325,7 @@ const navDrop = (home) => `
           <a href="rei.html" data-i18n-name="rei">夕霧レイ</a>
           <a href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
           <a href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
+          <a href="mayoi.html" data-i18n-name="mayoi">旋風マヨイ</a>
           <a href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
@@ -341,6 +367,7 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
       <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
       <a class="mobile-sub" href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
+      <a class="mobile-sub" href="mayoi.html" data-i18n-name="mayoi">旋風マヨイ</a>
       <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <div class="drawer-section-label">MilliDex</div>
@@ -711,7 +738,7 @@ ${decoHtml(m)}
     <div class="talent-hero-inner">
       ${m.logo ? '<img class="talent-hero-logo" src="' + m.logo + '" alt="" decoding="async">' : ""}
       ${m.img ? '<img class="talent-hero-art" src="' + m.img + '" alt="' + m.name + '" fetchpriority="high" decoding="async">' : ""}
-      <h1 data-i18n-name="${m.id}">${m.name}</h1>
+      ${m.id === "mayoi" ? '<div class="mayoi-title"><svg class="mayoi-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c-4.9 0-8.3 3.8-8.3 8.7v9.2c0 .9 1 .8 1.5.2 1.3-1.6 2.2-1.5 3.4.1.5.7 1.1.7 1.6 0 1.2-1.6 2.2-1.6 3.4 0 .5.7 1.1.7 1.6 0 1.2-1.6 2.3-1.7 3.6-.1.6.7 1.4.8 1.4-.2v-9.2c0-4.9-3.4-8.7-8.2-8.7Z"/></svg><h1 data-i18n-name="' + m.id + '">' + m.name + '</h1></div>' : '<h1 data-i18n-name="' + m.id + '">' + m.name + '</h1>'}
       <p class="talent-name-en">${m.nameEn}</p>
       <p class="talent-catch" id="tCatch"></p>
       <p class="talent-tags">

@@ -21,10 +21,14 @@ const handleOf = (m) => {
   const i = u.indexOf("@");
   return i >= 0 ? u.slice(i) : null;
 };
+const channelIdOf = (m) => {
+  const match = m.links.yt.match(/youtube\.com\/channel\/(UC[\w-]+)/);
+  return match ? match[1] : null;
+};
 
 /* 取得対象: メンバー個人チャンネル + ミリプロ公式チャンネル */
 const sources = [
-  ...members.map((m) => ({ id: m.id, name: m.name, handle: handleOf(m) })),
+  ...members.map((m) => ({ id: m.id, name: m.name, handle: handleOf(m), channelId: channelIdOf(m) })),
   { id: "official", name: "ミリプロ公式", handle: "@Mil_Pro" },
   ...(YOUTUBE.extraSources || [])
 ];
@@ -89,7 +93,8 @@ async function main() {
       try {
         const channelParams = new URLSearchParams({ part: "contentDetails,id", key: API_KEY });
         if (s.channelId) channelParams.set("id", s.channelId);
-        else channelParams.set("forHandle", s.handle);
+        else if (s.handle) channelParams.set("forHandle", s.handle);
+        else throw new Error(`No YouTube channel handle or ID for ${s.id}`);
         const j = await fetchJson(
           `${API}/channels?${channelParams}`
         );

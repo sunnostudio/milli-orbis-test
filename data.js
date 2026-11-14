@@ -30,7 +30,8 @@ const DECO_SVG = {
   ribbon: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><path d="M50,40 C38,24 12,28 14,46 C16,60 34,58 50,44 C66,58 84,60 86,46 C88,28 62,24 50,40 Z"/><path d="M50,44 C48,56 42,68 34,80 L44,82 C48,70 51,58 52,46 Z"/><path d="M50,44 C52,56 58,68 66,80 L56,82 C52,70 49,58 48,46 Z"/><rect x="44" y="33" width="12" height="21" rx="6"/></g></svg>',
   antler: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M22,90 C26,66 28,48 36,30 C40,20 47,14 56,10"/><path d="M31,60 C24,54 18,52 12,48"/><path d="M33,44 C27,38 24,34 22,26"/><path d="M39,30 C45,24 49,20 54,16"/></g></svg>',
   turtle: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><ellipse cx="48" cy="54" rx="25" ry="19"/><circle cx="76" cy="48" r="9"/><path d="M26,50 L10,40 L17,55 L9,62 L25,61 Z"/><path d="M30,66 L22,80 L35,72 Z"/><path d="M60,66 L56,82 L69,71 Z"/><path d="M22,44 L10,42 L19,52 Z"/></g><g stroke="#fff" stroke-width="3" fill="none" opacity="0.9" stroke-linecap="round"><path d="M37,46 L43,62"/><path d="M49,42 L49,64"/><path d="M61,46 L55,62"/></g><circle cx="78" cy="46" r="1.8" fill="#fff"/></svg>',
-  seaweed: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"><path d="M30,96 C24,76 36,66 30,46 C26,33 32,23 30,13"/><path d="M52,96 C58,73 46,61 54,41 C58,29 52,19 56,9"/><path d="M74,96 C70,79 80,69 74,51 C70,41 76,31 74,21"/></g><g fill="currentColor"><ellipse cx="30" cy="12" rx="5" ry="7"/><ellipse cx="56" cy="8" rx="5" ry="7"/><ellipse cx="74" cy="20" rx="4" ry="6"/></g></svg>'
+  seaweed: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"><path d="M30,96 C24,76 36,66 30,46 C26,33 32,23 30,13"/><path d="M52,96 C58,73 46,61 54,41 C58,29 52,19 56,9"/><path d="M74,96 C70,79 80,69 74,51 C70,41 76,31 74,21"/></g><g fill="currentColor"><ellipse cx="30" cy="12" rx="5" ry="7"/><ellipse cx="56" cy="8" rx="5" ry="7"/><ellipse cx="74" cy="20" rx="4" ry="6"/></g></svg>',
+  ghost: '<svg viewBox="0 0 120 140" aria-hidden="true"><image href="/images/talents/mayoi-ghost-shadow.svg" width="120" height="140"/></svg>'
 };
 
 /* グッズジャンル別の手描きSVGアイコン（画像はShopify CDNへのホットリンクで表示、保存せず参照。onerrorでSVGフォールバック §9） */
@@ -1617,7 +1618,7 @@ const MEMBERS = [
     tags: { stream: "#まほろたいむ", clip: "#まほろくりっぷ", art: "#まほろしか描かん" },
     links: { yt: "https://www.youtube.com/@Kano_", x: "https://x.com/kano_2525", tiktok: "" },
     img: "images/talents/mahoro.webp",
-    logo: "images/rogo/mahororogo.png",
+    logo: "images/rogo/mahororogo.webp",
     icon: "images/icon/mahoro_profile.jpg",
     catchphrase: "みんなの毎日を、まほろばに！",
     introVoice: "",
@@ -1722,6 +1723,60 @@ const MEMBERS = [
     }
   },
   {
+    id: "mayoi",
+    gen: "ミリプロUNI",
+    name: "旋風マヨイ",
+    nameEn: "Tsumuji Mayoi",
+    color: "#ed91bd",
+    subColor: "#c5edf4",
+    birthday: "",
+    debut: "",
+    catch: "風に彷徨うおばけVTuber、旋風マヨイです👻👻",
+    fanName: "",
+    calls: "",
+    profile: "歌うことと話すことが大好きなおばけ。いつか立派なVsingerになって、たくさんの人を驚かせることを目指している。",
+    skills: "歌うこと・話すこと",
+    phrases: ["もういいか～い？？"],
+    likes: "歌うこと、話すこと",
+    dislikes: "—",
+    achievements: ["2026/11/14 ミリプロUNI加入発表（公式X @Mil_Pro_）"],
+    tags: { stream: "", clip: "", art: "" },
+    links: {
+      yt: "https://www.youtube.com/channel/UCC_JkPMH5C6mgLDpy4uO-Aw",
+      x: "https://x.com/TsumujiMayoi",
+      tiktok: ""
+    },
+    img: "images/talents/mayoi.png",
+    logo: "images/rogo/mayoirogo.png",
+    icon: "images/icon/mayoi_profile.jpg",
+    catchphrase: "もういいか～い？？",
+    introVoice: "",
+    fx: "mayoi",
+    deco: {
+      label: "ghost",
+      floats: [
+        { k: "ghost", x: 8, y: 14, size: 74, dur: 13 },
+        { k: "ghost", x: 86, y: 10, size: 58, dur: 15 },
+        { k: "ghost", x: 12, y: 76, size: 48, dur: 12 },
+        { k: "ghost", x: 84, y: 68, size: 80, dur: 16 }
+      ]
+    },
+    featuredVideos: [],
+    voice: "",
+    intro: "",
+    en: {
+      gen: "MilliPro UNI",
+      catch: "A ghost VTuber wandering in the wind—I'm Tsumuji Mayoi! 👻👻",
+      profile: "A ghost who loves singing and chatting. She hopes to become a wonderful Vsinger and surprise lots of people.",
+      skills: "Singing and chatting",
+      phrases: ["Ready or not??"],
+      likes: "Singing, chatting",
+      dislikes: "—",
+      achievements: ["Nov 14, 2026 Announced joining MilliPro UNI (official X @Mil_Pro_)"],
+      catchphrase: "Ready or not??"
+    }
+  },
+  {
     id: "milchan",
     gen: "事務所スタッフ・マスコット",
     name: "ミリちゃん",
@@ -1821,15 +1876,16 @@ const GROUP_INFO = [
     name: "ミリプロUNI",
     nameEn: "MilliPro UNI",
     icon: "images/icon/group/uni.webp",
-    desc: "「Unique / Universe / Unity」などの意味合いを持つ音楽特化型ユニット。メンバーそれぞれに「天気（雲・雨・霧）」を連想させるモチーフや名前が取り入れられているのが特徴です。",
+    desc: "「Unique / Universe / Unity」などの意味合いを持つ音楽特化型ユニット。雲・雨・霧など天気を連想させるメンバーに加え、旋風マヨイが所属しています。",
     members: [
       { id: "tsukuri", note: "［モチーフ：雲］" },
       { id: "liz", note: "［モチーフ：雨］" },
-      { id: "rei", note: "［モチーフ：霧］" }
+      { id: "rei", note: "［モチーフ：霧］" },
+      { id: "mayoi", note: "2026/11/14 加入発表" }
     ],
     en: {
       name: "MilliPro UNI",
-      desc: "A music-specialized unit whose name evokes \"Unique / Universe / Unity\". Each member features weather motifs (clouds, rain, fog) in their names and themes."
+      desc: "A music-specialized unit whose name evokes \"Unique / Universe / Unity\". It includes weather-themed members and Tsumuji Mayoi."
     }
   },
   {
@@ -1883,14 +1939,24 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
-    date: "2026-11-08",
-    tag: "新人加入",
-    title: "【新人加入発表】？？？「もういいか〜い？」",
-    desc: "ミリプロ公式Xに、新人加入発表の予告ポストが投稿されました。添付画像にはシルエットが描かれています。続報をお待ちください。",
-    image: "https://pbs.twimg.com/media/HWRKAgHagAANZpH?format=webp&name=large",
-    url: "https://x.com/Mil_Pro_/status/2119354241269616803",
+    date: "2026-11-14",
+    tag: "グッズ",
+    title: "わんわんにゃんにゃんコレクション 2026 受注開始！",
+    desc: "犬・猫モチーフの全8アイテムが受注開始。受注期間は2026年11月14日〜12月14日、発送は2027年6月上旬頃までの予定です。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1921x1080_v-frms_webp_62f5f7b6-ae34-4f6c-9503-156e62972b3e.png",
+    url: "https://milpr.com/news/qGtiPefK",
     source: "milipro",
-    en: { tag: "New Talent", title: "[New Talent Announcement] ??? \"Ready or not?\"", desc: "MilliPro's official X account posted a teaser for a new talent announcement, with a silhouette image. Stay tuned for more information." }
+    en: { tag: "Goods", title: "Wanwan Nyannyan Collection 2026 Now on Pre-order!", desc: "Eight dog- and cat-themed items are available for pre-order from Nov 14 to Dec 14, 2026. Shipping is scheduled by early June 2027." }
+  },
+  {
+    date: "2026-11-14",
+    tag: "新人加入",
+    title: "【重大発表】旋風マヨイ ミリプロUNIに加入決定！",
+    desc: "ミリプロ公式より、新たな仲間「旋風マヨイ」の加入が発表されました。ミリプロUNI所属として活動します。",
+    image: "https://pbs.twimg.com/media/HWRKKpbawAAZFN8.jpg",
+    url: "https://x.com/Mil_Pro_/status/2121528563799359734",
+    source: "milipro",
+    en: { tag: "New Talent", title: "[Major Announcement] Tsumuji Mayoi Joins MilliPro UNI!", desc: "MilliPro announced that Tsumuji Mayoi is joining the agency as a member of MilliPro UNI." }
   },
   {
     date: "2026-11-07",
@@ -2312,11 +2378,12 @@ const HISTORY = [
   { date: "2026/9/12", title: "海琳あおい ミリプロNOVA加入発表（デビュー前）", desc: "公式Xにて発表。デビュー日・詳細は未公開のため本サイトも準備中表示", en: { title: "Mitama Aoi announced for MilliPro NOVA (pre-debut)", desc: "Announced on official X. Details TBA." } },
   { date: "2026/9/13", title: "海琳あおい、チャンネル登録者数10万人突破", desc: "デビュー前の段階で登録者数10万人を突破。本人からの感謝コメントや初のショート動画も公開", en: { title: "Mitama Aoi surpasses 100K subscribers", desc: "Reached 100K before her debut, with a thank-you message and her first Short" } },
   { date: "2026/10/17", title: "海琳あおい 初配信（ミリプロNOVA）", en: { title: "Mitama Aoi debuts (MilliPro NOVA)" } },
-  { date: "2026/10/18", title: "本サイト 海琳あおい対応＆オリジナルカーソル配布開始", desc: "海琳あおいのプロフィール反映（デビュー済み化）とオリジナルカーソル（Win/Mac/Chromebook 15種）配布開始", image: "dist/announce/x-cursor-aoi-1600x900.png", en: { title: "Mitama Aoi page update & original cursor release", desc: "Aoi's profile updated (post-debut) and her 15-type cursors released for Win/Mac/Chromebook" } }
+  { date: "2026/10/18", title: "本サイト 海琳あおい対応＆オリジナルカーソル配布開始", desc: "海琳あおいのプロフィール反映（デビュー済み化）とオリジナルカーソル（Win/Mac/Chromebook 15種）配布開始", image: "dist/announce/x-cursor-aoi-1600x900.png", en: { title: "Mitama Aoi page update & original cursor release", desc: "Aoi's profile updated (post-debut) and her 15-type cursors released for Win/Mac/Chromebook" } },
+  { date: "2026/11/14", title: "旋風マヨイ ミリプロUNI加入発表", en: { title: "Tsumuji Mayoi announced as a MilliPro UNI member" } }
 ];
 
 const YOUTUBE = {
-  dataUrl: "data/youtube.json",
+  dataUrl: "/data/youtube.json",
   maxVideos: 10,
   maxStreams: 8,
   extraSources: [

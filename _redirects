@@ -26,11 +26,6 @@
 # 301ではなく302を使い、ブラウザに恒久的なリダイレクトをキャッシュさせない。
 # ------------------------------------------------------------------
 
-# まよい（新人候補ページ）: 公式発表まで非公開
-/mayoi /404.html 302
-/mayoi.html /404.html 302
-/images/icon/mayoi_profile.jpg /404.html 302
-
 # お正月イベント（ORBISTA Brand New Years 2027）: 告知まで非公開
 /orbista/brand-new-years-2027 /404.html 302
 /orbista/brand-new-years-2027/* /404.html 302
