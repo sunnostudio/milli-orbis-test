@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "rei",
     "publishedAt": "2026-11-14",
     "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
-    "duration": 0,
+    "duration": 10520,
     "songs": []
   },
   {

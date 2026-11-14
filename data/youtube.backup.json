@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-11-14T00:06:11.888Z",
+  "updatedAt": "2026-11-14T13:54:20.021Z",
   "streams": [
     {
-      "id": "4CksLOGlFLM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T03:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "8otOGZZ2NuY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T11:00:00Z",
-      "status": "upcoming"
+      "id": "_LPhVs1jP6I",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T11:00:30Z",
+      "status": "live"
     },
     {
       "id": "mEwkI97JoTI",
@@ -25,7 +16,16 @@
       "member": "夕霧レイ",
       "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T11:00:00Z",
+      "scheduledStartTime": "2026-11-14T15:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "Daq4QSdEd1U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-15T02:00:00Z",
       "status": "upcoming"
     },
     {
@@ -142,6 +142,106 @@
   ],
   "videos": [
     {
+      "id": "Daq4QSdEd1U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg?v=6af8659a",
+      "publishedAt": "2026-11-14T13:43:52Z",
+      "live": false
+    },
+    {
+      "id": "OCnbau5EVxE",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】音ノ瀬らこ、1ブロックに放置してみた。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/OCnbau5EVxE/hqdefault.jpg",
+      "publishedAt": "2026-11-14T13:12:29Z",
+      "live": false
+    },
+    {
+      "id": "0v9bNgqgnc0",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 Minecraft 】1ブロックに放置されるらしい…？【 音ノ瀬らこ/ゆらぎゆら 】",
+      "thumb": "https://i.ytimg.com/vi/0v9bNgqgnc0/hqdefault.jpg",
+      "publishedAt": "2026-11-14T13:11:17Z",
+      "live": false
+    },
+    {
+      "id": "8otOGZZ2NuY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
+      "publishedAt": "2026-11-14T12:20:00Z",
+      "live": false
+    },
+    {
+      "id": "_LPhVs1jP6I",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg?v=6af81da8",
+      "publishedAt": "2026-11-14T11:00:30Z",
+      "live": false
+    },
+    {
+      "id": "A5SvRUodlz0",
+      "memberId": "pukaama",
+      "member": "ぷかあまぱーく",
+      "channelTitle": "ぷかあまぱーく",
+      "title": "VTuber同士がモチーフを交換して描いたら可愛すぎた!!!!【お絵描き】",
+      "thumb": "https://i.ytimg.com/vi/A5SvRUodlz0/hqdefault.jpg",
+      "publishedAt": "2026-11-14T10:00:09Z",
+      "live": false
+    },
+    {
+      "id": "FK291xBzdXk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【雨夜と】引いた言葉が歌詞に含まれる曲！🎤【眠雲ツクリ/雨夜リズ】#歌ってみた #ボカロ",
+      "thumb": "https://i.ytimg.com/vi/FK291xBzdXk/hqdefault.jpg",
+      "publishedAt": "2026-11-14T09:00:38Z",
+      "live": false
+    },
+    {
+      "id": "_PmSquF8k2A",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】しゃっくりの止めかた #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/_PmSquF8k2A/hqdefault.jpg",
+      "publishedAt": "2026-11-14T09:00:32Z",
+      "live": false
+    },
+    {
+      "id": "ICKUuZBmfEQ",
+      "memberId": "mayoi",
+      "member": "旋風マヨイ",
+      "channelTitle": "旋風マヨイ / TsumujiMayoi",
+      "title": "【Q.ミリプロ入らないの？】『エゴロック』歌ってみた【旋風マヨイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ICKUuZBmfEQ/hqdefault.jpg",
+      "publishedAt": "2026-11-14T09:00:19Z",
+      "live": false
+    },
+    {
+      "id": "4CksLOGlFLM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg",
+      "publishedAt": "2026-11-14T07:55:24Z",
+      "live": true
+    },
+    {
       "id": "mEwkI97JoTI",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -160,16 +260,6 @@
       "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
       "publishedAt": "2026-11-13T17:50:30Z",
       "live": false
-    },
-    {
-      "id": "4CksLOGlFLM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg?v=6af73250",
-      "publishedAt": "2026-11-13T15:52:46Z",
-      "live": true
     },
     {
       "id": "YR3-NjMBTDI",
@@ -350,97 +440,17 @@
       "thumb": "https://i.ytimg.com/vi/r9nFT4An-Yk/hqdefault.jpg",
       "publishedAt": "2026-11-12T11:37:11Z",
       "live": true
-    },
-    {
-      "id": "OHkrmu-pADE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【口癖禁止】第４回『えへへ』言ったら即終了！？　前回の記録：1分51秒【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/OHkrmu-pADE/hqdefault.jpg",
-      "publishedAt": "2026-11-12T11:17:54Z",
-      "live": false
-    },
-    {
-      "id": "IHZg-W1RGlg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】ドラゴン討伐！？ 番外編：第7章「赤竜討伐譚」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/IHZg-W1RGlg/hqdefault.jpg",
-      "publishedAt": "2026-11-12T10:14:44Z",
-      "live": false
-    },
-    {
-      "id": "tOJqcfKz4uo",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "ミリプロメンバーの衣装を交換してみたら激カワなイラストが生まれてしまいました【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/tOJqcfKz4uo/hqdefault.jpg",
-      "publishedAt": "2026-11-12T10:00:07Z",
-      "live": false
-    },
-    {
-      "id": "vY2U25oudsA",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【挑戦状⁉️】段々キーが上がるオリ曲『ボルケーの！』歌ってみた！【音ノ瀬らこ/ミリプロ】#Shortsオリ曲",
-      "thumb": "https://i.ytimg.com/vi/vY2U25oudsA/hqdefault.jpg",
-      "publishedAt": "2026-11-12T09:00:36Z",
-      "live": false
-    },
-    {
-      "id": "G4RnNutTJEM",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【3人で】以心伝心『ゴーストルール』歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/G4RnNutTJEM/hqdefault.jpg",
-      "publishedAt": "2026-11-12T09:00:27Z",
-      "live": false
-    },
-    {
-      "id": "JFpAmXD8iNE",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JFpAmXD8iNE/hqdefault.jpg",
-      "publishedAt": "2026-11-12T09:00:14Z",
-      "live": false
-    },
-    {
-      "id": "wxRgM_Qst_0",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】ぐっどなも～にんぐですな！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/wxRgM_Qst_0/hqdefault.jpg",
-      "publishedAt": "2026-11-12T01:08:16Z",
-      "live": true
-    },
-    {
-      "id": "04s7XN3PX5Y",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【VALORANT】フルパコンペって癒しなんだよね",
-      "thumb": "https://i.ytimg.com/vi/04s7XN3PX5Y/hqdefault.jpg",
-      "publishedAt": "2026-11-11T17:22:04Z",
-      "live": false
-    },
-    {
-      "id": "41WZtUztgFY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 VALORANT 】集まれ！深夜のドパガキ達！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg",
-      "publishedAt": "2026-11-11T17:20:22Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "_LPhVs1jP6I",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T11:00:30Z",
+      "status": "live"
+    }
+  ]
 }
