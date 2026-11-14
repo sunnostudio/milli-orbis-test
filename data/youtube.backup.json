@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-13T15:02:03.034Z",
+  "updatedAt": "2026-11-14T00:06:11.888Z",
   "streams": [
     {
-      "id": "8R4TC_Wlq6M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T13:03:02Z",
-      "status": "live"
+      "id": "4CksLOGlFLM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T03:30:00Z",
+      "status": "upcoming"
     },
     {
       "id": "8otOGZZ2NuY",
@@ -16,6 +16,15 @@
       "member": "眠雲ツクリ",
       "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "mEwkI97JoTI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
       "scheduledStartTime": "2026-11-14T11:00:00Z",
       "status": "upcoming"
     },
@@ -133,13 +142,43 @@
   ],
   "videos": [
     {
+      "id": "mEwkI97JoTI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg?v=6af77e17",
+      "publishedAt": "2026-11-13T21:16:04Z",
+      "live": true
+    },
+    {
+      "id": "8R4TC_Wlq6M",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
+      "publishedAt": "2026-11-13T17:50:30Z",
+      "live": false
+    },
+    {
+      "id": "4CksLOGlFLM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg?v=6af73250",
+      "publishedAt": "2026-11-13T15:52:46Z",
+      "live": true
+    },
+    {
       "id": "YR3-NjMBTDI",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【歌枠】ねむーーーーい‼️‼️‼️【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YR3-NjMBTDI/hqdefault.jpg?v=6af6ff21",
-      "publishedAt": "2026-11-13T14:56:37Z",
+      "thumb": "https://i.ytimg.com/vi/YR3-NjMBTDI/hqdefault.jpg",
+      "publishedAt": "2026-11-13T15:03:27Z",
       "live": false
     },
     {
@@ -171,16 +210,6 @@
       "thumb": "https://i.ytimg.com/vi/iEUTUjLo318/hqdefault.jpg",
       "publishedAt": "2026-11-13T13:23:52Z",
       "live": true
-    },
-    {
-      "id": "8R4TC_Wlq6M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg?v=6af6eca1",
-      "publishedAt": "2026-11-13T13:03:02Z",
-      "live": false
     },
     {
       "id": "GYnF2iZKqzQ",
@@ -411,37 +440,7 @@
       "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg",
       "publishedAt": "2026-11-11T17:20:22Z",
       "live": false
-    },
-    {
-      "id": "W7bR1EwgsDs",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
-      "publishedAt": "2026-11-11T17:17:03Z",
-      "live": false
-    },
-    {
-      "id": "Fpr4KDb3m2o",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
-      "publishedAt": "2026-11-11T15:41:10Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "8R4TC_Wlq6M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T13:03:02Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "_LPhVs1jP6I",
+    "memberId": "rei",
+    "publishedAt": "2026-11-14",
+    "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "YR3-NjMBTDI",
     "memberId": "raco",
     "publishedAt": "2026-11-13",

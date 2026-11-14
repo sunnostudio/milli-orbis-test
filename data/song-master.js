@@ -2,6 +2,12 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-11-14",
   "songs": {
+    "鬼ノ宴": {
+      "title": "鬼ノ宴",
+      "artist": "友成空",
+      "album": "鬼ノ宴 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/03/7c/b6037c92-4729-1d43-f4d9-da33c37b66da/ANTCD-A0000012397.jpg/600x600bb.jpg"
+    },
     "ただ声一つロクデナシ": {
       "title": "ただ声一つ",
       "artist": "ロクデナシ",
@@ -249,12 +255,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ (feat. Hanon & Kotoha)",
+      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
       "artist": "HoneyWorks",
-      "album": "水声少女 (feat. Hanon & Kotoha)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg",
+      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
       "en": {
-        "title": "Sis x Love (feat. Hanon & Kotoha)"
+        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
       }
     },
     "プラネテス": {
@@ -319,9 +325,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "カグラナナ",
-      "album": "Astrolabe",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
+      "artist": "Lamu",
+      "album": "New Beginning - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -336,12 +342,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
       "en": {
-        "title": "finale"
+        "title": "Finale."
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -483,10 +489,10 @@ window.SONG_MASTER = {
       }
     },
     "thecute!!!": {
-      "title": "The Cute!!!",
-      "artist": "初星学園 & 藤田ことね",
-      "album": "The Cute!!! - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/40/8e/22408efb-2c66-5577-be51-f1be16f3b4c7/PA00185233_0_221289_jacket.jpg/600x600bb.jpg"
+      "title": "The Cute",
+      "artist": "Cute",
+      "album": "Cute",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/ef/76/3cef7679-0a26-3db6-88bb-21ad14c501d4/3850245001921.jpg/600x600bb.jpg"
     },
     "完全感覚dreamer": {
       "title": "完全感覚Dreamer",
@@ -594,12 +600,12 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg",
       "en": {
-        "title": "Let's dance"
+        "title": "After the rain, it's sunny Reluya"
       }
     },
     "モニタリング": {
@@ -657,10 +663,13 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "会いたい夜 (feat. Macheri)",
-      "artist": "ONE☆DRAFT",
-      "album": "蜂の巣",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/8f/15/8e8f1590-bb54-a91e-8bb2-73ac6876a3f0/jacket_AICL02193B00Z_550.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Swallow (feat. Midleys)"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -855,10 +864,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "Stay",
-      "artist": "Lucas Mason",
-      "album": "Lucas Mason",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/f6/9b/13f69b4f-260e-884c-7177-45381da06593/artwork.jpg/600x600bb.jpg"
+      "title": "STAY",
+      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
+      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -978,12 +987,12 @@ window.SONG_MASTER = {
       }
     },
     "ぎゅっと。": {
-      "title": "ぎゅっと",
-      "artist": "timelesz",
-      "album": "Hello! We’re timelesz",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/81/23/ad81236b-400f-fbbc-5538-efc069cc9ce1/25UMGIM17821.rgb.jpg/600x600bb.jpg",
+      "title": "ぎゅっと。",
+      "artist": "もさを。",
+      "album": "ぎゅっと。 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0d/64/c1/0d64c185-4d93-c90f-5857-1cf937d1effb/20UMGIM58199.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "tightly"
+        "title": "tightly."
       }
     },
     "アイドル": {
@@ -1228,9 +1237,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Orangestar",
-      "album": "And So Henceforth,",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+      "artist": "Akuya",
+      "album": "Henceforth - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1585,9 +1594,9 @@ window.SONG_MASTER = {
     },
     "キュトなカノジョ": {
       "title": "キュートなカノジョ",
-      "artist": "IZUMI",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "春猿火",
+      "album": "CREAM PUFF LIVE 2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/24/18/0d241844-7ee4-5192-cd81-ca07eae4607a/ANTCD-46565.jpg/600x600bb.jpg",
       "en": {
         "title": "cute girlfriend"
       }
@@ -1937,12 +1946,6 @@ window.SONG_MASTER = {
         "title": "Donut hole (COVER)"
       }
     },
-    "鬼ノ宴": {
-      "title": "鬼ノ宴",
-      "artist": "友成空",
-      "album": "鬼ノ宴 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/03/7c/b6037c92-4729-1d43-f4d9-da33c37b66da/ANTCD-A0000012397.jpg/600x600bb.jpg"
-    },
     "クエスチョン": {
       "title": "クエスチョン",
       "artist": "meiyo",
@@ -2000,8 +2003,8 @@ window.SONG_MASTER = {
     "タッチ": {
       "title": "タッチ",
       "artist": "岩崎良美",
-      "album": "half time",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/89/3b/3c/893b3cf3-ecbe-f2cb-adc9-323f1d3898c6/PCSP_01801_itunes.png/600x600bb.jpg",
+      "album": "「岩崎良美」SINGLESコンプリート",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ef/20/23/ef2023ef-ca97-b664-0947-d92308bffd6d/PCSP_01807_itunes.png/600x600bb.jpg",
       "en": {
         "title": "touch"
       }

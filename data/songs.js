@@ -489,6 +489,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "鬼ノ宴",
+      "key": "鬼ノ宴",
+      "urls": [
+        {
+          "id": "bYH8Lg0dqi4",
+          "memberId": "aoi",
+          "publishedAt": "2026-11-14"
+        }
+      ]
+    },
+    {
       "title": "ただ声一つ / ロクデナシ",
       "key": "ただ声一つロクデナシ",
       "urls": [
@@ -4352,17 +4363,6 @@ window.SONGS = {
       "en": {
         "title": "Hello/Hawayu sang"
       }
-    },
-    {
-      "title": "鬼ノ宴",
-      "key": "鬼ノ宴",
-      "urls": [
-        {
-          "id": "bYH8Lg0dqi4",
-          "memberId": "aoi",
-          "publishedAt": "2026-11-13"
-        }
-      ]
     }
   ]
 };
