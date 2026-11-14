@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "songs": {
     "ただ声一つロクデナシ": {
       "title": "ただ声一つ",
@@ -171,10 +171,13 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump! (MAKI Mix)",
-      "artist": "西木野真姫(CV.Pile)",
-      "album": "ラブライブ! Solo Live! Collection from μ's 西木野真姫 TRUE DIVA",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/aa/3a/75aa3a6b-ef2e-0163-b929-4053a8218926/4540774200597.png/600x600bb.jpg"
+      "title": "夏色えがおで1,2,Jump!",
+      "artist": "μ's",
+      "album": "μ's Complete BEST BOX Chapter.01",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -246,12 +249,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
+      "title": "シス×ラブ (feat. Hanon & Kotoha)",
       "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "album": "水声少女 (feat. Hanon & Kotoha)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg",
       "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+        "title": "Sis x Love (feat. Hanon & Kotoha)"
       }
     },
     "プラネテス": {
@@ -307,9 +310,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
-      "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
+      "artist": "doriko feat. 初音ミク",
+      "album": "Download (feat.初音ミク)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -793,9 +796,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "P丸様。",
-      "album": "Sunny!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
+      "artist": "かいりきベア",
+      "album": "バグエフェクト",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -852,10 +855,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "Lucas Mason",
+      "album": "Lucas Mason",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/f6/9b/13f69b4f-260e-884c-7177-45381da06593/artwork.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1113,12 +1116,12 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
+      "title": "マーシャル・マキシマイザー",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
-        "title": "Marshall Maximizer (feat. Kafu)"
+        "title": "marshall maximizer"
       }
     },
     "祝福": {
@@ -1740,12 +1743,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
+      "title": "かくれんぼ",
       "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
+      "album": "かくれんぼ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
       "en": {
-        "title": "shutter"
+        "title": "hide and seek"
       }
     },
     "メルティランドナイトメア": {
@@ -2031,10 +2034,13 @@ window.SONG_MASTER = {
       }
     },
     "すぱなちゃっと読み": {
-      "title": "かわいいさがしてくれますか?",
-      "artist": "CUTIE STREET",
-      "album": "CUTIE LAND",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/d5/2c/4dd52c96-bc10-a908-2209-7cc91af0b6d4/885288824650.jpg/600x600bb.jpg"
+      "title": "愛してみてよ減るもんじゃないし",
+      "artist": "ねぐせ。",
+      "album": "愛してみてよ減るもんじゃないし - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/6c/d9/706cd9d0-5c42-0b18-c42a-f11647046025/197188388706.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Try to love me, it won't diminish"
+      }
     },
     "シルエット": {
       "title": "シルエット",
