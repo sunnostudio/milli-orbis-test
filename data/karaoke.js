@@ -13,7 +13,7 @@ window.KARAOKE = [
     "memberId": "liz",
     "publishedAt": "2026-11-15",
     "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
-    "duration": 0,
+    "duration": 7623,
     "songs": []
   },
   {

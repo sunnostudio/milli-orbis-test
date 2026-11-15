@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-15T14:27:48.414Z",
+  "updatedAt": "2026-11-15T23:17:45.557Z",
   "streams": [
-    {
-      "id": "Gsb_F_eqvic",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T13:32:45Z",
-      "status": "live"
-    },
-    {
-      "id": "C_1hrGDZZKY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語&amp;熟語1800』発売記念のお話&amp;サイン会が決定！",
-      "thumb": "https://i.ytimg.com/vi/C_1hrGDZZKY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T14:45:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "mEwkI97JoTI",
       "memberId": "rei",
@@ -26,6 +8,15 @@
       "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
       "scheduledStartTime": "2026-11-16T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "8Me2smZujGY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【雑談】寝る前におしゃべりしよう～ヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-16T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -160,14 +151,14 @@
   ],
   "videos": [
     {
-      "id": "6Rf-D8KntDM",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/6Rf-D8KntDM/hqdefault.jpg",
-      "publishedAt": "2026-11-15T14:11:24Z",
-      "live": false
+      "id": "8Me2smZujGY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】寝る前におしゃべりしよう～ヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg?v=6afa2425",
+      "publishedAt": "2026-11-15T21:29:06Z",
+      "live": true
     },
     {
       "id": "Gsb_F_eqvic",
@@ -175,8 +166,18 @@
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg?v=6af9ae41",
-      "publishedAt": "2026-11-15T13:32:45Z",
+      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg",
+      "publishedAt": "2026-11-15T15:46:10Z",
+      "live": false
+    },
+    {
+      "id": "6Rf-D8KntDM",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/6Rf-D8KntDM/hqdefault.jpg",
+      "publishedAt": "2026-11-15T14:11:24Z",
       "live": false
     },
     {
@@ -214,7 +215,7 @@
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【あなたはどこまで古参！？】ボカロ古参ファンテスト2【#海琳あおい /ミリプロ】",
+      "title": "ボカロ古参ファンテスト2【#海琳あおい /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/MLLAqvcUMR0/hqdefault.jpg",
       "publishedAt": "2026-11-15T09:01:36Z",
       "live": false
@@ -448,27 +449,7 @@
       "thumb": "https://i.ytimg.com/vi/GYnF2iZKqzQ/hqdefault.jpg",
       "publishedAt": "2026-11-13T12:00:16Z",
       "live": false
-    },
-    {
-      "id": "8EqvMGx7kWI",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg",
-      "publishedAt": "2026-11-13T11:15:09Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "Gsb_F_eqvic",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T13:32:45Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

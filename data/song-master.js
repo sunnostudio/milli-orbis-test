@@ -285,12 +285,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄 (feat. 井上苑子)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "青と夏 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg",
+      "title": "点描の唄",
+      "artist": "石崎ひゅーい",
+      "album": "night milk",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
       "en": {
-        "title": "Pointillist Song (feat. Sonoko Inoue)"
+        "title": "Pointillist song"
       }
     },
     "花女花譜": {
@@ -322,9 +322,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko feat. 初音ミク",
-      "album": "Download (feat.初音ミク)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg",
+      "artist": "doriko",
+      "album": "ロミオとシンデレラ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -357,13 +357,10 @@ window.SONG_MASTER = {
       }
     },
     "おやすみ泣き声、さよなら姫": {
-      "title": "栞",
+      "title": "蛍の光",
       "artist": "クリープハイプ",
       "album": "泣きたくなるほど嬉しい日々に",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/11/dc/5e11dcbd-42fa-f7e2-7623-8707947b84b4/00602567936688.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "bookmark"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/11/dc/5e11dcbd-42fa-f7e2-7623-8707947b84b4/00602567936688.rgb.jpg/600x600bb.jpg"
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
@@ -666,12 +663,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
       "en": {
-        "title": "Swallow (feat. Midleys)"
+        "title": "Feels good"
       }
     },
     "1000年生きてる": {
@@ -1286,6 +1283,21 @@ window.SONG_MASTER = {
         "title": "Bonapeite♡S (Cover)"
       }
     },
+    "ワルズエンドダンスホルwowaka": {
+      "title": "ワールズエンド・ダンスホール",
+      "artist": "ヒトリエ",
+      "album": "NOTOK - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/9f/e0/789fe024-7771-1fc9-ed9a-d53e2e6c6a56/4547366718270.jpg/600x600bb.jpg",
+      "en": {
+        "title": "world's end dance hall"
+      }
+    },
+    "bad∞end∞nightひとしずくやま△": {
+      "title": "Bad ∞ End ∞ Night (feat. 初音ミク&鏡音リン&鏡音レン&巡音ルカ&MEIKO&KAITO&がくっぽいど&メグッポイド)",
+      "artist": "ひとしずく & やま△",
+      "album": "After the partY",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/01/d1/76/01d176f0-545d-8af7-7eec-e11c39f326af/KRHS-92448_Afterthepa.jpg/600x600bb.jpg"
+    },
     "tiger-hana": {
       "title": "Tiger – HANA with HONEYs Ver.",
       "artist": "HANA",
@@ -1800,13 +1812,10 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "突破口",
+      "title": "人として",
       "artist": "SUPER BEAVER",
-      "album": "突破口 / 自慢になりたい - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg",
-      "en": {
-        "title": "breakthrough"
-      }
+      "album": "27",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",

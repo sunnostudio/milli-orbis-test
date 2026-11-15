@@ -3093,6 +3093,28 @@ window.SONGS = {
       }
     },
     {
+      "title": "ワールズエンドダンスホール / wowaka",
+      "key": "ワルズエンドダンスホルwowaka",
+      "urls": [
+        {
+          "id": "kFdHGjY48Pg",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "title": "Bad ∞ End ∞ Night／ひとしずく×やま△",
+      "key": "bad∞end∞nightひとしずくやま△",
+      "urls": [
+        {
+          "id": "pyjKpx844Ws",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
       "title": "Tiger  -  HANA",
       "key": "tiger-hana",
       "urls": [
