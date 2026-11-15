@@ -1,7 +1,13 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "songs": {
+    "奏-.": {
+      "title": "CANDY",
+      "artist": "Mr.Children",
+      "album": "I ♥ U",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
+    },
     "鬼ノ宴": {
       "title": "鬼ノ宴",
       "artist": "友成空",
@@ -325,9 +331,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "Lamu",
-      "album": "New Beginning - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
+      "artist": "カグラナナ",
+      "album": "Astrolabe",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -342,21 +348,21 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
       "en": {
-        "title": "Finale."
+        "title": "finale"
       }
     },
     "おやすみ泣き声、さよなら姫": {
-      "title": "愛の標識",
+      "title": "栞",
       "artist": "クリープハイプ",
-      "album": "死ぬまで一生愛されてると思ってたよ",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/20/07/5e200773-e433-51b4-4aca-4701a4ab08d9/VICL-63865.jpg/600x600bb.jpg",
+      "album": "泣きたくなるほど嬉しい日々に",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/11/dc/5e11dcbd-42fa-f7e2-7623-8707947b84b4/00602567936688.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "love sign"
+        "title": "bookmark"
       }
     },
     "愛言葉ⅳ": {
@@ -528,10 +534,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/62/73/ab62738c-48bb-8d63-11f4-7278e56b4ba6/VEATP-34875.jpg/600x600bb.jpg"
     },
     "ヒバナ-deco*27shortby": {
-      "title": "Same Blue",
-      "artist": "Official髭男dism",
-      "album": "Same Blue - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/2b/64/8e2b64e9-85f2-2486-364d-e4b72c40f4c9/PCSP_06085_A.jpg/600x600bb.jpg"
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
     },
     "妄想感傷代償連盟": {
       "title": "病んでる",
@@ -970,9 +976,9 @@ window.SONG_MASTER = {
     },
     "dec.": {
       "title": "Dec.",
-      "artist": "Ayiko & Yuri",
+      "artist": "Kanaria",
       "album": "Dec. - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/d1/ee/01d1ee8f-99d7-298f-50c1-2de91afa87b6/artwork.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b1/78/feb17895-1c2c-67ea-e6d0-849540da9c58/0198448153041_cover.png/600x600bb.jpg"
     },
     "少女レイ": {
       "title": "少女レイ",
@@ -984,12 +990,12 @@ window.SONG_MASTER = {
       }
     },
     "ぎゅっと。": {
-      "title": "ぎゅっと。",
-      "artist": "もさを。",
-      "album": "ぎゅっと。 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0d/64/c1/0d64c185-4d93-c90f-5857-1cf937d1effb/20UMGIM58199.rgb.jpg/600x600bb.jpg",
+      "title": "ぎゅっと",
+      "artist": "timelesz",
+      "album": "Hello! We’re timelesz",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/81/23/ad81236b-400f-fbbc-5538-efc069cc9ce1/25UMGIM17821.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "tightly."
+        "title": "tightly"
       }
     },
     "アイドル": {
@@ -1123,9 +1129,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1295,12 +1301,6 @@ window.SONG_MASTER = {
         "title": "Memoria (feat. Mahoro Kano)"
       }
     },
-    "奏-.": {
-      "title": "CANDY",
-      "artist": "Mr.Children",
-      "album": "I ♥ U",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
-    },
     "ドライフラワacoustic.": {
       "title": "ドライフラワー",
       "artist": "Uru",
@@ -1422,10 +1422,10 @@ window.SONG_MASTER = {
       }
     },
     "お呪い-なきそ": {
-      "title": "MAD HEAD LOVE",
+      "title": "POP SONG",
       "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "album": "POP SONG - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/6a/a2/836aa298-4442-2178-cbf7-03fed785d53f/4547366551730.jpg/600x600bb.jpg"
     },
     "うぉんちゅばっど-jon-yakitory": {
       "title": "うぉんちゅーばっど",
@@ -1488,13 +1488,10 @@ window.SONG_MASTER = {
       }
     },
     "カタオモイ-aimer": {
-      "title": "カタオモイ",
+      "title": "カタオモイ - From THE FIRST TAKE",
       "artist": "Aimer",
-      "album": "daydream",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Kataomoi"
-      }
+      "album": "カタオモイ - From THE FIRST TAKE - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/4a/e1/864ae18f-02ac-4b99-aedb-9b5376e44303/4547366597387.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1549,9 +1546,9 @@ window.SONG_MASTER = {
     },
     "フォニイphony": {
       "title": "フォニイ",
-      "artist": "R+...",
+      "artist": "和楽器バンド",
       "album": "フォニイ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/85/23/76/852376bb-3785-29c8-c665-0068b3e741b8/bigup13512121.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/f5/66/3ef566ab-7d44-c0a9-0f28-0d322eeb69b3/22UMGIM64974.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "phonii"
       }
@@ -1659,12 +1656,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
-      "title": "雨还没停 我还在等",
-      "artist": "闰新",
-      "album": "雨还没停 我还在等 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/44/be/bb44be0f-d605-1367-307d-4f1645158f78/4894965813951.jpg/600x600bb.jpg",
+      "title": "输入法记得你",
+      "artist": "Li2c",
+      "album": "输入法记得你 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/ef/3b/deef3b63-9414-375e-c91e-91c22b4864f8/25UM1IM01170.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "The rain stopped and I was there."
+        "title": "How to get import law"
       }
     },
     "花に亡霊-ヨルシカ": {
@@ -1749,12 +1746,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
+      "title": "シャッター",
       "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
       "en": {
-        "title": "hide and seek"
+        "title": "shutter"
       }
     },
     "メルティランドナイトメア": {
@@ -1827,10 +1824,10 @@ window.SONG_MASTER = {
       }
     },
     "東京レトロいました": {
-      "title": "灯火",
+      "title": "僕にはどうしてわかるんだろう",
       "artist": "Vaundy",
-      "album": "strobo",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/89/00/09890002-b2de-3637-39b2-f6c2d34d0e93/197189854859.jpg/600x600bb.jpg"
+      "album": "僕にはどうしてわかるんだろう - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/09/2b/3e092b3c-bb61-9781-8403-84b29bb7d1de/4547366745498.jpg/600x600bb.jpg"
     },
     "繰り返し一粒いました": {
       "title": "夜に駆ける",
@@ -1842,13 +1839,10 @@ window.SONG_MASTER = {
       }
     },
     "小夜子いました": {
-      "title": "のびしろ",
-      "artist": "Creepy Nuts",
-      "album": "Case",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Stretch out"
-      }
+      "title": "ドラマツルギー",
+      "artist": "Eve",
+      "album": "文化",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/4f/a7/954fa762-540c-afd0-50b1-2fc52d920cb1/4988004145858_cover.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
       "title": "助演男優賞",
@@ -1860,22 +1854,16 @@ window.SONG_MASTER = {
       }
     },
     "クライヤいました": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "いつか",
+      "artist": "Saucy Dog",
+      "album": "カントリーロード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/ee/77/b4ee7755-2ed2-c0b0-06ed-1ac8c114fb46/25UMGIM93005.rgb.jpg/600x600bb.jpg"
     },
     "アイロニいました": {
-      "title": "ツキミソウ",
-      "artist": "Novelbright",
-      "album": "ツキミソウ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Tsukimiso"
-      }
+      "title": "カメレオン",
+      "artist": "King Gnu",
+      "album": "カメレオン - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/5e/6a/285e6aab-fb7d-aca7-2cd0-7d0502cabdde/4547366552881.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
       "title": "声をきかせて",
@@ -2081,8 +2069,8 @@ window.SONG_MASTER = {
     "lovesosweet": {
       "title": "Love so sweet",
       "artist": "嵐",
-      "album": "Love so sweet - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/600x600bb.jpg"
+      "album": "Time",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/53/9d/ff/539dffce-0f78-aca4-e93e-319c78b477d5/194491831011.jpg/600x600bb.jpg"
     },
     "フライングゲット": {
       "title": "フライングゲット",
@@ -2130,10 +2118,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "Streamer",
-      "artist": "すとぷり",
-      "album": "Streamer - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
+      "title": "SHAMPOO",
+      "artist": "PUNPEE, BIM & Elle Teresa",
+      "album": "Iced Out - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",

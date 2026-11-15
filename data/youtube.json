@@ -1,32 +1,14 @@
 {
-  "updatedAt": "2026-11-14T22:50:09.354Z",
+  "updatedAt": "2026-11-15T14:27:48.414Z",
   "streams": [
     {
-      "id": "AdQC-0-9BiU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T22:32:54Z",
+      "id": "Gsb_F_eqvic",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-15T13:32:45Z",
       "status": "live"
-    },
-    {
-      "id": "7zo2lBTOfQ4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T23:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "Daq4QSdEd1U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T02:00:00Z",
-      "status": "upcoming"
     },
     {
       "id": "C_1hrGDZZKY",
@@ -178,13 +160,113 @@
   ],
   "videos": [
     {
+      "id": "6Rf-D8KntDM",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/6Rf-D8KntDM/hqdefault.jpg",
+      "publishedAt": "2026-11-15T14:11:24Z",
+      "live": false
+    },
+    {
+      "id": "Gsb_F_eqvic",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg?v=6af9ae41",
+      "publishedAt": "2026-11-15T13:32:45Z",
+      "live": false
+    },
+    {
+      "id": "dJoLignQRJI",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "セレナーデ - なとり covered by 雨夜リズ",
+      "thumb": "https://i.ytimg.com/vi/dJoLignQRJI/hqdefault.jpg",
+      "publishedAt": "2026-11-15T11:00:08Z",
+      "live": false
+    },
+    {
+      "id": "_CPbZxOZBjg",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】5人の中に裏切り者が！？仲間のフリをして襲ってくる人狼が怖すぎるｗｗｗ【ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_CPbZxOZBjg/hqdefault.jpg",
+      "publishedAt": "2026-11-15T10:00:11Z",
+      "live": false
+    },
+    {
+      "id": "fpqFCOSWvVA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【オリ曲】踊ってみた！ #ゆらぎゆら_月の浮かぶ海 #animation",
+      "thumb": "https://i.ytimg.com/vi/fpqFCOSWvVA/hqdefault.jpg",
+      "publishedAt": "2026-11-15T09:26:46Z",
+      "live": false
+    },
+    {
+      "id": "MLLAqvcUMR0",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【あなたはどこまで古参！？】ボカロ古参ファンテスト2【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MLLAqvcUMR0/hqdefault.jpg",
+      "publishedAt": "2026-11-15T09:01:36Z",
+      "live": false
+    },
+    {
+      "id": "UVNcW_FAQtk",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【激ムズステップに挑戦！】『UNDEAD』踊ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UVNcW_FAQtk/hqdefault.jpg",
+      "publishedAt": "2026-11-15T09:00:05Z",
+      "live": false
+    },
+    {
+      "id": "Dr4wCItWPh4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】選択ミスで即終了！運命の直下掘り対決！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Dr4wCItWPh4/hqdefault.jpg",
+      "publishedAt": "2026-11-15T09:00:00Z",
+      "live": false
+    },
+    {
+      "id": "Daq4QSdEd1U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg",
+      "publishedAt": "2026-11-15T07:13:48Z",
+      "live": false
+    },
+    {
       "id": "AdQC-0-9BiU",
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg?v=6af8e08d",
-      "publishedAt": "2026-11-14T22:32:54Z",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
+      "publishedAt": "2026-11-15T01:40:06Z",
+      "live": false
+    },
+    {
+      "id": "7zo2lBTOfQ4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
+      "publishedAt": "2026-11-15T00:07:21Z",
       "live": false
     },
     {
@@ -208,16 +290,6 @@
       "live": false
     },
     {
-      "id": "7zo2lBTOfQ4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg?v=6af87ca7",
-      "publishedAt": "2026-11-14T15:22:13Z",
-      "live": false
-    },
-    {
       "id": "_LPhVs1jP6I",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -225,16 +297,6 @@
       "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
       "publishedAt": "2026-11-14T14:10:22Z",
-      "live": false
-    },
-    {
-      "id": "Daq4QSdEd1U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg?v=6af8659a",
-      "publishedAt": "2026-11-14T13:43:52Z",
       "live": false
     },
     {
@@ -396,96 +458,16 @@
       "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg",
       "publishedAt": "2026-11-13T11:15:09Z",
       "live": false
-    },
-    {
-      "id": "hDUmONQouqA",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg",
-      "publishedAt": "2026-11-13T11:03:08Z",
-      "live": false
-    },
-    {
-      "id": "bYH8Lg0dqi4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "鬼ノ宴 / 海琳あおい (cover)",
-      "thumb": "https://i.ytimg.com/vi/bYH8Lg0dqi4/hqdefault.jpg",
-      "publishedAt": "2026-11-13T11:00:07Z",
-      "live": false
-    },
-    {
-      "id": "Hnkp0YXqEWM",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "『寄り酔い』歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Hnkp0YXqEWM/hqdefault.jpg",
-      "publishedAt": "2026-11-13T09:01:09Z",
-      "live": false
-    },
-    {
-      "id": "cw7MFYYb__4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【#バズって生きたい】眠雲のオリ曲歌ってみた！(т-т)【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cw7MFYYb__4/hqdefault.jpg",
-      "publishedAt": "2026-11-13T09:00:24Z",
-      "live": false
-    },
-    {
-      "id": "D8xHPCeEGfc",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "歌詞に𓏸𓏸が入った曲を歌えチャレンジ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/D8xHPCeEGfc/hqdefault.jpg",
-      "publishedAt": "2026-11-13T09:00:15Z",
-      "live": false
-    },
-    {
-      "id": "iPdOvjbmsh4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "『奏』歌ってみた【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iPdOvjbmsh4/hqdefault.jpg",
-      "publishedAt": "2026-11-13T09:00:10Z",
-      "live": false
-    },
-    {
-      "id": "KoQZFmgi6es",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【こまのオリ曲】「おきらくスーパースター」歌ってみた🎶【眠雲ツクリ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KoQZFmgi6es/hqdefault.jpg",
-      "publishedAt": "2026-11-13T09:00:08Z",
-      "live": false
-    },
-    {
-      "id": "S1Fmht1Jy_I",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れながらバレずに息継ぎして生き残れ！",
-      "thumb": "https://i.ytimg.com/vi/S1Fmht1Jy_I/hqdefault.jpg",
-      "publishedAt": "2026-11-13T09:00:06Z",
-      "live": false
     }
   ],
   "live": [
     {
-      "id": "AdQC-0-9BiU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T22:32:54Z",
+      "id": "Gsb_F_eqvic",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-15T13:32:45Z",
       "status": "live"
     }
   ]

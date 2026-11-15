@@ -1,6 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "6Rf-D8KntDM",
+    "memberId": "nono",
+    "publishedAt": "2026-11-15",
+    "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
+    "duration": 10840,
+    "songs": []
+  },
+  {
+    "id": "Gsb_F_eqvic",
+    "memberId": "liz",
+    "publishedAt": "2026-11-15",
+    "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "_LPhVs1jP6I",
     "memberId": "rei",
     "publishedAt": "2026-11-14",

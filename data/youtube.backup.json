@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-11-14T13:54:20.021Z",
+  "updatedAt": "2026-11-14T22:50:09.354Z",
   "streams": [
     {
-      "id": "_LPhVs1jP6I",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T11:00:30Z",
+      "id": "AdQC-0-9BiU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T22:32:54Z",
       "status": "live"
     },
     {
-      "id": "mEwkI97JoTI",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T15:00:00Z",
+      "id": "7zo2lBTOfQ4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T23:00:00Z",
       "status": "upcoming"
     },
     {
@@ -35,6 +35,15 @@
       "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語&amp;熟語1800』発売記念のお話&amp;サイン会が決定！",
       "thumb": "https://i.ytimg.com/vi/C_1hrGDZZKY/hqdefault.jpg",
       "scheduledStartTime": "2026-11-15T14:45:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "mEwkI97JoTI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-16T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -71,6 +80,15 @@
       }
     },
     {
+      "id": "s8GUUlmV46k",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "🍓ミリプロ ハロウィンコレクション 2026🦌【〆11/24】",
+      "thumb": "https://i.ytimg.com/vi/s8GUUlmV46k/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-24T14:45:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "h9nYQNJBBts",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -89,6 +107,24 @@
       "title": "12/3〆🩵 𓊆 誕生日記念グッズ2026 受注受付中！ 𓊇 🩵",
       "thumb": "https://i.ytimg.com/vi/pnSTro7MCbQ/hqdefault.jpg",
       "scheduledStartTime": "2026-12-03T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "tUZw65HEVPc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【📢グッズ情報】わんわんにゃんにゃんコレクション 2026 受注開始！",
+      "thumb": "https://i.ytimg.com/vi/tUZw65HEVPc/hqdefault.jpg",
+      "scheduledStartTime": "2026-12-14T14:45:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "N9cuK9dWtm4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "🍓ミリプロ わんわんにゃんにゃんコレクション 2026🦌【〆12/14】",
+      "thumb": "https://i.ytimg.com/vi/N9cuK9dWtm4/hqdefault.jpg",
+      "scheduledStartTime": "2026-12-14T14:45:00Z",
       "status": "upcoming"
     },
     {
@@ -142,6 +178,56 @@
   ],
   "videos": [
     {
+      "id": "AdQC-0-9BiU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg?v=6af8e08d",
+      "publishedAt": "2026-11-14T22:32:54Z",
+      "live": false
+    },
+    {
+      "id": "N9cuK9dWtm4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "🍓ミリプロ わんわんにゃんにゃんコレクション 2026🦌【〆12/14】",
+      "thumb": "https://i.ytimg.com/vi/N9cuK9dWtm4/hqdefault.jpg?v=6af89a56",
+      "publishedAt": "2026-11-14T17:28:52Z",
+      "live": false
+    },
+    {
+      "id": "s8GUUlmV46k",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "🍓ミリプロ ハロウィンコレクション 2026🦌【〆11/24】",
+      "thumb": "https://i.ytimg.com/vi/s8GUUlmV46k/hqdefault.jpg?v=6af898dc",
+      "publishedAt": "2026-11-14T17:22:34Z",
+      "live": false
+    },
+    {
+      "id": "7zo2lBTOfQ4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg?v=6af87ca7",
+      "publishedAt": "2026-11-14T15:22:13Z",
+      "live": false
+    },
+    {
+      "id": "_LPhVs1jP6I",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
+      "publishedAt": "2026-11-14T14:10:22Z",
+      "live": false
+    },
+    {
       "id": "Daq4QSdEd1U",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -179,16 +265,6 @@
       "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
       "publishedAt": "2026-11-14T12:20:00Z",
-      "live": false
-    },
-    {
-      "id": "_LPhVs1jP6I",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg?v=6af81da8",
-      "publishedAt": "2026-11-14T11:00:30Z",
       "live": false
     },
     {
@@ -400,56 +476,16 @@
       "thumb": "https://i.ytimg.com/vi/S1Fmht1Jy_I/hqdefault.jpg",
       "publishedAt": "2026-11-13T09:00:06Z",
       "live": false
-    },
-    {
-      "id": "x--B8wu0B7s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Goose Goose Duck 】人いすぎだろー！？ひよるなｵﾚ、、、【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg",
-      "publishedAt": "2026-11-12T15:23:20Z",
-      "live": false
-    },
-    {
-      "id": "uWQFplpFYww",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【Goose Goose Duck】いっぱい人がいるぜ🔥",
-      "thumb": "https://i.ytimg.com/vi/uWQFplpFYww/hqdefault.jpg",
-      "publishedAt": "2026-11-12T15:18:02Z",
-      "live": false
-    },
-    {
-      "id": "kzKdwhFmTuQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Goose Goose Duck 】たくさん人がいる緊張！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kzKdwhFmTuQ/hqdefault.jpg",
-      "publishedAt": "2026-11-12T15:13:27Z",
-      "live": false
-    },
-    {
-      "id": "r9nFT4An-Yk",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【お絵描き雑談】今日もショート作るよどこまでも【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/r9nFT4An-Yk/hqdefault.jpg",
-      "publishedAt": "2026-11-12T11:37:11Z",
-      "live": true
     }
   ],
   "live": [
     {
-      "id": "_LPhVs1jP6I",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T11:00:30Z",
+      "id": "AdQC-0-9BiU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T22:32:54Z",
       "status": "live"
     }
   ]

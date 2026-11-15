@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "official": [
     {
       "id": "8xTMPRDuLrA",
@@ -488,6 +488,20 @@ window.SONGS = {
     }
   ],
   "covers": [
+    {
+      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
+      "key": "奏-.",
+      "urls": [
+        {
+          "id": "e6acfMolexU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-15"
+        }
+      ],
+      "en": {
+        "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
+      }
+    },
     {
       "title": "鬼ノ宴",
       "key": "鬼ノ宴",
@@ -3101,20 +3115,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "Letters To Me - Mahoro Kano cover."
-      }
-    },
-    {
-      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
-      "key": "奏-.",
-      "urls": [
-        {
-          "id": "e6acfMolexU",
-          "memberId": "mahoro",
-          "publishedAt": "2026-10-24"
-        }
-      ],
-      "en": {
-        "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
       }
     },
     {
