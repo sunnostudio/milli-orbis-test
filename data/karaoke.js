@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "td5z0ck7Ihg",
+    "memberId": "yura",
+    "publishedAt": "2026-11-16",
+    "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
+    "duration": 10046,
+    "songs": []
+  },
+  {
     "id": "6Rf-D8KntDM",
     "memberId": "nono",
     "publishedAt": "2026-11-15",

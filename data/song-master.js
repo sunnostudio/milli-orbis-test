@@ -1,18 +1,48 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-15",
+  "generatedAt": "2026-11-16",
   "songs": {
-    "奏-.": {
-      "title": "CANDY",
-      "artist": "Mr.Children",
-      "album": "I ♥ U",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
+    "セレナデ-なとり": {
+      "title": "セレナーデ",
+      "artist": "なとり",
+      "album": "セレナーデ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/13/14/101314ec-9f43-cf79-88df-6e1fcce7e979/4547366801668.jpg/600x600bb.jpg"
     },
     "鬼ノ宴": {
       "title": "鬼ノ宴",
       "artist": "友成空",
       "album": "鬼ノ宴 - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/03/7c/b6037c92-4729-1d43-f4d9-da33c37b66da/ANTCD-A0000012397.jpg/600x600bb.jpg"
+    },
+    "さよならまたいつか！": {
+      "title": "さよーならまたいつか!- Sayonara",
+      "artist": "米津玄師",
+      "album": "さよーならまたいつか!- Sayonara - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/d1/33/2bd13372-77d7-63c0-3f10-65f497c9aec3/4547366679601.jpg/600x600bb.jpg"
+    },
+    "これから": {
+      "title": "これから",
+      "artist": "コレサワ",
+      "album": "コレカラー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/b2/63/32/b26332ff-3199-e549-efa1-54f6996f9f54/CRCP-40522.jpg/600x600bb.jpg"
+    },
+    "henceforth": {
+      "title": "Henceforth",
+      "artist": "Akuya",
+      "album": "Henceforth - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
+    },
+    "ラグトレイン": {
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "album": "ラグトレイン - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg"
+    },
+    "奏-.": {
+      "title": "CANDY",
+      "artist": "Mr.Children",
+      "album": "I ♥ U",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
     },
     "ただ声一つロクデナシ": {
       "title": "ただ声一つ",
@@ -242,15 +272,6 @@ window.SONG_MASTER = {
         "title": "Monster's Flower Song"
       }
     },
-    "ラグトレイン": {
-      "title": "花鳥風月 (Album Mix)",
-      "artist": "ケツメイシ",
-      "album": "ケツノポリス3",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/95/7e/c0/mzi.lmvojsks.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Kachofuugetsu (Album Mix)"
-      }
-    },
     "フロムトキョ": {
       "title": "フロムトーキョー",
       "artist": "夏代孝明",
@@ -320,15 +341,6 @@ window.SONG_MASTER = {
         "title": "grand escape"
       }
     },
-    "ロミオとシンデレラ": {
-      "title": "ロミオとシンデレラ",
-      "artist": "doriko",
-      "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "romeo and cinderella"
-      }
-    },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
       "artist": "カグラナナ",
@@ -348,12 +360,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
       "en": {
-        "title": "finale"
+        "title": "Finale."
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -361,6 +373,15 @@ window.SONG_MASTER = {
       "artist": "クリープハイプ",
       "album": "泣きたくなるほど嬉しい日々に",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/11/dc/5e11dcbd-42fa-f7e2-7623-8707947b84b4/00602567936688.rgb.jpg/600x600bb.jpg"
+    },
+    "ロミオとシンデレラ": {
+      "title": "ロミオとシンデレラ",
+      "artist": "doriko",
+      "album": "ロミオとシンデレラ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
+      "en": {
+        "title": "romeo and cinderella"
+      }
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
@@ -536,15 +557,6 @@ window.SONG_MASTER = {
       "album": "Mrs. GREEN APPLE",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
     },
-    "妄想感傷代償連盟": {
-      "title": "病んでる",
-      "artist": "85",
-      "album": "開梱 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/31/df/4231df2c-7fb7-aa5a-5d86-135cfb21a027/artwork.jpg/600x600bb.jpg",
-      "en": {
-        "title": "sick"
-      }
-    },
     "モニタリング-deco*27shortby": {
       "title": "吉原ラメント (feat. 重音テト)",
       "artist": "亜沙",
@@ -552,6 +564,21 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/25/64/6f/25646f35-e08e-ea49-3952-f49a5d52f9ba/KRHS-92035.jpg/600x600bb.jpg",
       "en": {
         "title": "Yoshiwara Lament (feat. Juune Teto)"
+      }
+    },
+    "specialz": {
+      "title": "SPECIALZ",
+      "artist": "King Gnu",
+      "album": "SPECIALZ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
+    },
+    "妄想感傷代償連盟": {
+      "title": "病んでる",
+      "artist": "85",
+      "album": "開梱 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/31/df/4231df2c-7fb7-aa5a-5d86-135cfb21a027/artwork.jpg/600x600bb.jpg",
+      "en": {
+        "title": "sick"
       }
     },
     "g4l-giga": {
@@ -568,12 +595,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "Nobresse oblige"
       }
-    },
-    "specialz": {
-      "title": "SPECIALZ",
-      "artist": "King Gnu",
-      "album": "SPECIALZ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
       "title": "ダーリン",
@@ -632,6 +653,18 @@ window.SONG_MASTER = {
       "album": "Everybody!!",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/47/d6/9547d65b-8bb3-b7cc-4b6e-fbab8747530f/190295700706.jpg/600x600bb.jpg"
     },
+    "-error-niki": {
+      "title": "-ERROR (feat. Kradness)",
+      "artist": "niki",
+      "album": "KRAD MATRiX",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/36/9e/2e/369e2e3a-b602-54e5-bd4a-8f4342e18a63/QWCE_00425_itunes.png/600x600bb.jpg"
+    },
+    "irisout": {
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
+      "album": "IRIS OUT - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
+    },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
@@ -640,18 +673,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "That's why I quit music"
       }
-    },
-    "irisout": {
-      "title": "IRIS OUT",
-      "artist": "米津玄師",
-      "album": "IRIS OUT - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
-    },
-    "-error-niki": {
-      "title": "-ERROR (feat. Kradness)",
-      "artist": "niki",
-      "album": "KRAD MATRiX",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/36/9e/2e/369e2e3a-b602-54e5-bd4a-8f4342e18a63/QWCE_00425_itunes.png/600x600bb.jpg"
     },
     "チェリポップ": {
       "title": "チェリーポップ",
@@ -973,9 +994,9 @@ window.SONG_MASTER = {
     },
     "dec.": {
       "title": "Dec.",
-      "artist": "Kanaria",
+      "artist": "Ayiko & Yuri",
       "album": "Dec. - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b1/78/feb17895-1c2c-67ea-e6d0-849540da9c58/0198448153041_cover.png/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/d1/ee/01d1ee8f-99d7-298f-50c1-2de91afa87b6/artwork.jpg/600x600bb.jpg"
     },
     "少女レイ": {
       "title": "少女レイ",
@@ -995,6 +1016,15 @@ window.SONG_MASTER = {
         "title": "tightly"
       }
     },
+    "青と夏": {
+      "title": "群青",
+      "artist": "YOASOBI",
+      "album": "群青 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/7e/4a/ae7e4a28-fd46-9617-1066-fcbd124303d6/195497105656.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Gunjo"
+      }
+    },
     "アイドル": {
       "title": "アイドル",
       "artist": "YOASOBI",
@@ -1011,15 +1041,6 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
       "en": {
         "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
-      }
-    },
-    "青と夏": {
-      "title": "群青",
-      "artist": "YOASOBI",
-      "album": "群青 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/7e/4a/ae7e4a28-fd46-9617-1066-fcbd124303d6/195497105656.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Gunjo"
       }
     },
     "絶頂讃": {
@@ -1082,15 +1103,6 @@ window.SONG_MASTER = {
         "title": "The signature is B -New Arrange Ver.-"
       }
     },
-    "恋愛サキュレション": {
-      "title": "恋愛サーキュレーション",
-      "artist": "物語シリーズ",
-      "album": "化物語 劇伴音楽集",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/80/5f/0d805fe3-630a-e1a3-4cdc-2f532cfd4e02/4534530114181.jpg/600x600bb.jpg",
-      "en": {
-        "title": "love circulation"
-      }
-    },
     "king": {
       "title": "KING",
       "artist": "Kanaria",
@@ -1106,6 +1118,15 @@ window.SONG_MASTER = {
         "title": "lower"
       }
     },
+    "恋愛サキュレション": {
+      "title": "恋愛サーキュレーション",
+      "artist": "物語シリーズ",
+      "album": "化物語 劇伴音楽集",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/80/5f/0d805fe3-630a-e1a3-4cdc-2f532cfd4e02/4534530114181.jpg/600x600bb.jpg",
+      "en": {
+        "title": "love circulation"
+      }
+    },
     "誇り高きアイドル": {
       "title": "誇り高きアイドル",
       "artist": "ときのそら",
@@ -1113,15 +1134,6 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
       "en": {
         "title": "proud idol"
-      }
-    },
-    "寝起きヤシの木兎鞠まり": {
-      "title": "寝起きヤシの木",
-      "artist": "ゆこぴ",
-      "album": "アルバム1号",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/40/be/ff40beb0-82bd-dcfb-b1c6-a40c23fc760e/PA00129089_0_174606_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "waking up palm tree"
       }
     },
     "マシャルマキシマイザ": {
@@ -1133,13 +1145,13 @@ window.SONG_MASTER = {
         "title": "marshall maximizer"
       }
     },
-    "祝福": {
-      "title": "祝福",
-      "artist": "YOASOBI",
-      "album": "祝福 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5c/45/a9/5c45a9cf-678a-a945-3544-923382e5d1c4/197186993001.jpg/600x600bb.jpg",
+    "きゅうくらりん": {
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "album": "きゅうくらりん - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/54/86/ec/5486ec42-99b8-c383-eb3a-e79be573ba64/859757307081_cover.jpg/600x600bb.jpg",
       "en": {
-        "title": "blessing"
+        "title": "Kyukurarin"
       }
     },
     "生きる": {
@@ -1151,13 +1163,22 @@ window.SONG_MASTER = {
         "title": "live"
       }
     },
-    "きゅうくらりん": {
-      "title": "きゅうくらりん",
-      "artist": "いよわ",
-      "album": "きゅうくらりん - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/54/86/ec/5486ec42-99b8-c383-eb3a-e79be573ba64/859757307081_cover.jpg/600x600bb.jpg",
+    "祝福": {
+      "title": "祝福",
+      "artist": "YOASOBI",
+      "album": "祝福 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5c/45/a9/5c45a9cf-678a-a945-3544-923382e5d1c4/197186993001.jpg/600x600bb.jpg",
       "en": {
-        "title": "Kyukurarin"
+        "title": "blessing"
+      }
+    },
+    "寝起きヤシの木兎鞠まり": {
+      "title": "寝起きヤシの木",
+      "artist": "ゆこぴ",
+      "album": "アルバム1号",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/40/be/ff40beb0-82bd-dcfb-b1c6-a40c23fc760e/PA00129089_0_174606_jacket.jpg/600x600bb.jpg",
+      "en": {
+        "title": "waking up palm tree"
       }
     },
     "キャットラビング": {
@@ -1234,12 +1255,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    "henceforth": {
-      "title": "Henceforth",
-      "artist": "Akuya",
-      "album": "Henceforth - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1812,10 +1827,13 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "人として",
+      "title": "突破口",
       "artist": "SUPER BEAVER",
-      "album": "27",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
+      "album": "突破口 / 自慢になりたい - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg",
+      "en": {
+        "title": "breakthrough"
+      }
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",
@@ -1848,10 +1866,10 @@ window.SONG_MASTER = {
       }
     },
     "小夜子いました": {
-      "title": "ドラマツルギー",
-      "artist": "Eve",
-      "album": "文化",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/4f/a7/954fa762-540c-afd0-50b1-2fc52d920cb1/4988004145858_cover.jpg/600x600bb.jpg"
+      "title": "うるうびと",
+      "artist": "RADWIMPS",
+      "album": "余命10年 (Original Soundtrack)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/31/d5/84/31d5848e-2975-7aeb-b4ed-0feb428ea1ab/22UMGIM12204.rgb.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
       "title": "助演男優賞",

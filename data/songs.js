@@ -1,7 +1,18 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-15",
+  "generatedAt": "2026-11-16",
   "official": [
+    {
+      "id": "7oQJfeYuiKo",
+      "title": "Siren’s Siren - あくび・でもんすぺーど（official）",
+      "publishedAt": "2026-11-16",
+      "members": [
+        "akubi"
+      ],
+      "en": {
+        "title": "Siren’s Siren – Yawn/Demon Speed (official)"
+      }
+    },
     {
       "id": "8xTMPRDuLrA",
       "title": "月の浮かぶ海 - ゆらぎゆら 【Official MV】",
@@ -489,6 +500,77 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "セレナーデ - なとり",
+      "key": "セレナデ-なとり",
+      "urls": [
+        {
+          "id": "dJoLignQRJI",
+          "memberId": "liz",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "title": "鬼ノ宴",
+      "key": "鬼ノ宴",
+      "urls": [
+        {
+          "id": "bYH8Lg0dqi4",
+          "memberId": "aoi",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "title": "さよーならまたいつか！",
+      "key": "さよならまたいつか！",
+      "urls": [
+        {
+          "id": "1LVXb__vHjo",
+          "memberId": "akubi",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "title": "これから",
+      "key": "これから",
+      "urls": [
+        {
+          "id": "AC7i7JGKRnE",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "title": "Henceforth",
+      "key": "henceforth",
+      "urls": [
+        {
+          "id": "qQGJV431vVI",
+          "memberId": "raco",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "title": "ラグトレイン",
+      "key": "ラグトレイン",
+      "urls": [
+        {
+          "id": "GLU0JIrSqn0",
+          "memberId": "nono",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "id": "XogPaIFnJDo",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
       "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
       "key": "奏-.",
       "urls": [
@@ -501,17 +583,6 @@ window.SONGS = {
       "en": {
         "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
       }
-    },
-    {
-      "title": "鬼ノ宴",
-      "key": "鬼ノ宴",
-      "urls": [
-        {
-          "id": "bYH8Lg0dqi4",
-          "memberId": "aoi",
-          "publishedAt": "2026-11-14"
-        }
-      ]
     },
     {
       "title": "ただ声一つ / ロクデナシ",
@@ -1020,25 +1091,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "ラグトレイン／眠雲ツクリ（cover）",
-      "key": "ラグトレイン",
-      "urls": [
-        {
-          "id": "GLU0JIrSqn0",
-          "memberId": "nono",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "id": "XogPaIFnJDo",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-07-04"
-        }
-      ],
-      "en": {
-        "title": "Rag Train/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
       "title": "フロムトーキョー",
       "key": "フロムトキョ",
       "urls": [
@@ -1163,25 +1215,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "ロミオとシンデレラ",
-      "key": "ロミオとシンデレラ",
-      "urls": [
-        {
-          "id": "MxrnywtLkR0",
-          "memberId": "akubi",
-          "publishedAt": "2026-05-28"
-        },
-        {
-          "id": "Hs-gxOofX1s",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-10-16"
-        }
-      ],
-      "en": {
-        "title": "romeo and cinderella"
-      }
-    },
-    {
       "title": "ブラック★ロックシューター - ryo（supercell）",
       "key": "ブラック★ロックシュタ-ryo",
       "urls": [
@@ -1235,6 +1268,25 @@ window.SONGS = {
       ],
       "en": {
         "title": "Goodnight cry, goodbye diva"
+      }
+    },
+    {
+      "title": "ロミオとシンデレラ",
+      "key": "ロミオとシンデレラ",
+      "urls": [
+        {
+          "id": "MxrnywtLkR0",
+          "memberId": "akubi",
+          "publishedAt": "2026-05-28"
+        },
+        {
+          "id": "Hs-gxOofX1s",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-10-16"
+        }
+      ],
+      "en": {
+        "title": "romeo and cinderella"
       }
     },
     {
@@ -1633,20 +1685,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "妄想感傷代償連盟／眠雲ツクリ（cover）",
-      "key": "妄想感傷代償連盟",
-      "urls": [
-        {
-          "id": "8FchJH33Gm0",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-11-20"
-        }
-      ],
-      "en": {
-        "title": "Delusional Sentiment Compensation Federation/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
       "title": "モニタリング (Best Friend Remix) - DECO*27 short cover by 雨夜リズ",
       "key": "モニタリング-deco*27shortby",
       "urls": [
@@ -1658,6 +1696,31 @@ window.SONGS = {
       ],
       "en": {
         "title": "Monitoring (Best Friend Remix) - DECO*27 short cover by Ameya Riz"
+      }
+    },
+    {
+      "title": "SPECIALZ",
+      "key": "specialz",
+      "urls": [
+        {
+          "id": "TG6Hq_ALDGE",
+          "memberId": "nono",
+          "publishedAt": "2025-11-20"
+        }
+      ]
+    },
+    {
+      "title": "妄想感傷代償連盟／眠雲ツクリ（cover）",
+      "key": "妄想感傷代償連盟",
+      "urls": [
+        {
+          "id": "8FchJH33Gm0",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-11-20"
+        }
+      ],
+      "en": {
+        "title": "Delusional Sentiment Compensation Federation/Nemugumo Tsukuri (cover)"
       }
     },
     {
@@ -1684,17 +1747,6 @@ window.SONGS = {
       "en": {
         "title": "Nobresse oblige"
       }
-    },
-    {
-      "title": "SPECIALZ",
-      "key": "specialz",
-      "urls": [
-        {
-          "id": "TG6Hq_ALDGE",
-          "memberId": "nono",
-          "publishedAt": "2025-11-20"
-        }
-      ]
     },
     {
       "title": "嫌々 - HALVES short cover by 雨夜リズ",
@@ -1820,6 +1872,28 @@ window.SONGS = {
       }
     },
     {
+      "title": "-ERROR - niki",
+      "key": "-error-niki",
+      "urls": [
+        {
+          "id": "crDo4vrANXk",
+          "memberId": "liz",
+          "publishedAt": "2025-10-04"
+        }
+      ]
+    },
+    {
+      "title": "IRIS OUT",
+      "key": "irisout",
+      "urls": [
+        {
+          "id": "9jF60mq9Qdk",
+          "memberId": "nono",
+          "publishedAt": "2025-10-05"
+        }
+      ]
+    },
+    {
       "title": "だから僕は音楽を辞めた",
       "key": "だから僕は音楽を辞めた",
       "urls": [
@@ -1846,28 +1920,6 @@ window.SONGS = {
       "en": {
         "title": "Goodnight Cry, Goodbye Diva - Creep Hype short cover by Ameya Riz"
       }
-    },
-    {
-      "title": "IRIS OUT",
-      "key": "irisout",
-      "urls": [
-        {
-          "id": "9jF60mq9Qdk",
-          "memberId": "nono",
-          "publishedAt": "2025-10-05"
-        }
-      ]
-    },
-    {
-      "title": "-ERROR - niki",
-      "key": "-error-niki",
-      "urls": [
-        {
-          "id": "crDo4vrANXk",
-          "memberId": "liz",
-          "publishedAt": "2025-10-04"
-        }
-      ]
     },
     {
       "title": "チェリーポップ",
@@ -2595,6 +2647,20 @@ window.SONGS = {
       }
     },
     {
+      "title": "青と夏／あくび・でもんすぺーど（cover）",
+      "key": "青と夏",
+      "urls": [
+        {
+          "id": "DjNbcHCxVD4",
+          "memberId": "akubi",
+          "publishedAt": "2024-09-09"
+        }
+      ],
+      "en": {
+        "title": "Blue and Summer/Yawn Monster Speed (cover)"
+      }
+    },
+    {
       "title": "アイドル",
       "key": "アイドル",
       "urls": [
@@ -2625,20 +2691,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "How the Devil Dances/Yawn Demon Speed (cover)"
-      }
-    },
-    {
-      "title": "青と夏／あくび・でもんすぺーど（cover）",
-      "key": "青と夏",
-      "urls": [
-        {
-          "id": "DjNbcHCxVD4",
-          "memberId": "akubi",
-          "publishedAt": "2024-09-09"
-        }
-      ],
-      "en": {
-        "title": "Blue and Summer/Yawn Monster Speed (cover)"
       }
     },
     {
@@ -2757,20 +2809,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "恋愛サーキュレーション",
-      "key": "恋愛サキュレション",
-      "urls": [
-        {
-          "id": "Lw8bY6neidA",
-          "memberId": "konomi",
-          "publishedAt": "2024-03-15"
-        }
-      ],
-      "en": {
-        "title": "love circulation"
-      }
-    },
-    {
       "title": "KING",
       "key": "king",
       "urls": [
@@ -2801,6 +2839,20 @@ window.SONGS = {
       }
     },
     {
+      "title": "恋愛サーキュレーション",
+      "key": "恋愛サキュレション",
+      "urls": [
+        {
+          "id": "Lw8bY6neidA",
+          "memberId": "konomi",
+          "publishedAt": "2024-03-15"
+        }
+      ],
+      "en": {
+        "title": "love circulation"
+      }
+    },
+    {
       "title": "誇り高きアイドル",
       "key": "誇り高きアイドル",
       "urls": [
@@ -2812,20 +2864,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "proud idol"
-      }
-    },
-    {
-      "title": "寝起きヤシの木",
-      "key": "寝起きヤシの木兎鞠まり",
-      "urls": [
-        {
-          "id": "vUpiTCZandE",
-          "memberId": "konomi",
-          "publishedAt": "2023-12-25"
-        }
-      ],
-      "en": {
-        "title": "waking up palm tree"
       }
     },
     {
@@ -2843,17 +2881,17 @@ window.SONGS = {
       }
     },
     {
-      "title": "祝福",
-      "key": "祝福",
+      "title": "きゅうくらりん",
+      "key": "きゅうくらりん",
       "urls": [
         {
-          "id": "GPo2s-QrOI4",
-          "memberId": "nono",
+          "id": "Xdc-2kleB6E",
+          "memberId": "konomi",
           "publishedAt": "2023-12-09"
         }
       ],
       "en": {
-        "title": "blessing"
+        "title": "Kyukurarin"
       }
     },
     {
@@ -2871,17 +2909,31 @@ window.SONGS = {
       }
     },
     {
-      "title": "きゅうくらりん",
-      "key": "きゅうくらりん",
+      "title": "祝福",
+      "key": "祝福",
       "urls": [
         {
-          "id": "Xdc-2kleB6E",
-          "memberId": "konomi",
+          "id": "GPo2s-QrOI4",
+          "memberId": "nono",
           "publishedAt": "2023-12-09"
         }
       ],
       "en": {
-        "title": "Kyukurarin"
+        "title": "blessing"
+      }
+    },
+    {
+      "title": "寝起きヤシの木",
+      "key": "寝起きヤシの木兎鞠まり",
+      "urls": [
+        {
+          "id": "vUpiTCZandE",
+          "memberId": "konomi",
+          "publishedAt": "2023-12-25"
+        }
+      ],
+      "en": {
+        "title": "waking up palm tree"
       }
     },
     {
@@ -3013,17 +3065,6 @@ window.SONGS = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    {
-      "title": "Henceforth",
-      "key": "henceforth",
-      "urls": [
-        {
-          "id": "qQGJV431vVI",
-          "memberId": "raco",
-          "publishedAt": "2026-10-06"
-        }
-      ]
     },
     {
       "title": "恋するフォーチュンクッキー",
