@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-11-15T23:17:45.557Z",
+  "updatedAt": "2026-11-16T16:41:45.042Z",
   "streams": [
-    {
-      "id": "mEwkI97JoTI",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T11:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "8Me2smZujGY",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
-      "title": "【雑談】寝る前におしゃべりしよう～ヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T13:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-16T13:00:11Z",
+      "status": "live"
     },
     {
       "id": "1l1YkUzKuXs",
@@ -151,14 +142,104 @@
   ],
   "videos": [
     {
+      "id": "sjTXWYj63e0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗時オカリメイク初見旅！！！#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg",
+      "publishedAt": "2026-11-16T16:12:18Z",
+      "live": false
+    },
+    {
+      "id": "ec0Q7YwGGk8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "仕事おわり、寝転がり雑談",
+      "thumb": "https://i.ytimg.com/vi/ec0Q7YwGGk8/hqdefault.jpg",
+      "publishedAt": "2026-11-16T15:38:31Z",
+      "live": true
+    },
+    {
+      "id": "td5z0ck7Ihg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
+      "thumb": "https://i.ytimg.com/vi/td5z0ck7Ihg/hqdefault.jpg",
+      "publishedAt": "2026-11-16T13:31:21Z",
+      "live": false
+    },
+    {
       "id": "8Me2smZujGY",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】寝る前におしゃべりしよう～ヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg?v=6afa2425",
-      "publishedAt": "2026-11-15T21:29:06Z",
+      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg?v=6afaf1e3",
+      "publishedAt": "2026-11-16T13:00:11Z",
       "live": true
+    },
+    {
+      "id": "QFwC04e6TWU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "以心伝心で『乙女解剖』歌ってみた 【ゆらぎゆら/眠雲ツクリ/夕霧レイ】#ミリプロ",
+      "thumb": "https://i.ytimg.com/vi/QFwC04e6TWU/hqdefault.jpg",
+      "publishedAt": "2026-11-16T09:29:02Z",
+      "live": false
+    },
+    {
+      "id": "UNDDKD8kChg",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【右左どっち⁈】六兆年と一夜物語歌ってみた【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UNDDKD8kChg/hqdefault.jpg",
+      "publishedAt": "2026-11-16T09:00:37Z",
+      "live": false
+    },
+    {
+      "id": "kyBTiOfyGv4",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "１００万再生ありがとう～～～！🤍 #音ノ乃のの #オリ曲 #PrincessViral #shorts",
+      "thumb": "https://i.ytimg.com/vi/kyBTiOfyGv4/hqdefault.jpg",
+      "publishedAt": "2026-11-16T09:00:20Z",
+      "live": false
+    },
+    {
+      "id": "c1ooUeUUV4o",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】無茶ぶり連発！絶対行動ゲーム！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/c1ooUeUUV4o/hqdefault.jpg",
+      "publishedAt": "2026-11-16T09:00:14Z",
+      "live": false
+    },
+    {
+      "id": "e6mqPZjISaY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【みんなで】右左どっち？『ダーリンダンス』歌ってみた#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/e6mqPZjISaY/hqdefault.jpg",
+      "publishedAt": "2026-11-16T09:00:03Z",
+      "live": false
+    },
+    {
+      "id": "hDU9YvSUbtg",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "「結び」歌ってみた🧵🪡【眠雲ツクリ/ミリプロ】#歌ってみた #VTuber #結び",
+      "thumb": "https://i.ytimg.com/vi/hDU9YvSUbtg/hqdefault.jpg",
+      "publishedAt": "2026-11-16T09:00:02Z",
+      "live": false
     },
     {
       "id": "Gsb_F_eqvic",
@@ -359,97 +440,17 @@
       "thumb": "https://i.ytimg.com/vi/_PmSquF8k2A/hqdefault.jpg",
       "publishedAt": "2026-11-14T09:00:32Z",
       "live": false
-    },
-    {
-      "id": "ICKUuZBmfEQ",
-      "memberId": "mayoi",
-      "member": "旋風マヨイ",
-      "channelTitle": "旋風マヨイ / TsumujiMayoi",
-      "title": "【Q.ミリプロ入らないの？】『エゴロック』歌ってみた【旋風マヨイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ICKUuZBmfEQ/hqdefault.jpg",
-      "publishedAt": "2026-11-14T09:00:19Z",
-      "live": false
-    },
-    {
-      "id": "4CksLOGlFLM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg",
-      "publishedAt": "2026-11-14T07:55:24Z",
-      "live": true
-    },
-    {
-      "id": "mEwkI97JoTI",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg?v=6af77e17",
-      "publishedAt": "2026-11-13T21:16:04Z",
-      "live": true
-    },
-    {
-      "id": "8R4TC_Wlq6M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
-      "publishedAt": "2026-11-13T17:50:30Z",
-      "live": false
-    },
-    {
-      "id": "YR3-NjMBTDI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】ねむーーーーい‼️‼️‼️【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YR3-NjMBTDI/hqdefault.jpg",
-      "publishedAt": "2026-11-13T15:03:27Z",
-      "live": false
-    },
-    {
-      "id": "U8L0-g4JBlM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg",
-      "publishedAt": "2026-11-13T14:50:22Z",
-      "live": false
-    },
-    {
-      "id": "HOUzYRdYWNQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【作業雑談】ショート制作、頑張ってんだ",
-      "thumb": "https://i.ytimg.com/vi/HOUzYRdYWNQ/hqdefault.jpg",
-      "publishedAt": "2026-11-13T13:55:44Z",
-      "live": true
-    },
-    {
-      "id": "iEUTUjLo318",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】寒くなってきたね、自分大事に【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iEUTUjLo318/hqdefault.jpg",
-      "publishedAt": "2026-11-13T13:23:52Z",
-      "live": true
-    },
-    {
-      "id": "GYnF2iZKqzQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "ねぇ、君はどこの駅まで？",
-      "thumb": "https://i.ytimg.com/vi/GYnF2iZKqzQ/hqdefault.jpg",
-      "publishedAt": "2026-11-13T12:00:16Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "8Me2smZujGY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-16T13:00:11Z",
+      "status": "live"
+    }
+  ]
 }

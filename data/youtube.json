@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-16T16:41:45.042Z",
+  "updatedAt": "2026-11-17T02:15:04.683Z",
   "streams": [
-    {
-      "id": "8Me2smZujGY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T13:00:11Z",
-      "status": "live"
-    },
     {
       "id": "1l1YkUzKuXs",
       "memberId": "aoi",
@@ -142,6 +133,16 @@
   ],
   "videos": [
     {
+      "id": "8Me2smZujGY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
+      "publishedAt": "2026-11-16T19:37:45Z",
+      "live": true
+    },
+    {
       "id": "sjTXWYj63e0",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -170,16 +171,6 @@
       "thumb": "https://i.ytimg.com/vi/td5z0ck7Ihg/hqdefault.jpg",
       "publishedAt": "2026-11-16T13:31:21Z",
       "live": false
-    },
-    {
-      "id": "8Me2smZujGY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg?v=6afaf1e3",
-      "publishedAt": "2026-11-16T13:00:11Z",
-      "live": true
     },
     {
       "id": "QFwC04e6TWU",
@@ -296,7 +287,7 @@
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "ボカロ古参ファンテスト2【#海琳あおい /ミリプロ】",
+      "title": "【最後までわかったらボカロ厨⁉️】だんだん昔になるボカロ古参ファンテスト！ 【#海琳あおい /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/MLLAqvcUMR0/hqdefault.jpg",
       "publishedAt": "2026-11-15T09:01:36Z",
       "live": false
@@ -442,15 +433,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "8Me2smZujGY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T13:00:11Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
