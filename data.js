@@ -1948,6 +1948,16 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-11-18",
+    tag: "サイト",
+    title: "ミニ漫画アーカイブを公開しました！",
+    desc: "ミリプロ公式Xのミニ漫画53作品を、タレントと投稿月で絞り込んで読めるアーカイブです。Xの埋め込みに加えて、3:4の漫画全体を拡大表示できます。",
+    image: "https://pbs.twimg.com/media/HVe4wS1aMAA58e-.jpg?name=medium",
+    url: "comics.html",
+    source: "milliorbis",
+    en: { tag: "Site", title: "Mini Manga Archive is now open!", desc: "Browse 53 mini manga posts from MilliPro's official X account, filtered by talent and month. In addition to the X embed, you can view each 3:4 manga in full size." }
+  },
+  {
     date: "2026-11-14",
     tag: "グッズ",
     title: "わんわんにゃんにゃんコレクション 2026 受注開始！",
