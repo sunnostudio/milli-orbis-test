@@ -1161,7 +1161,8 @@
     "news:1t22jkv": 1,
     "news:1hxjzx6": 1,
     "news:18hi8na": 1,
-    "news:69lslp": 1
+    "news:69lslp": 1,
+    "news:np2k0l": 1
   },
   "digests": {
     "2026-10-04-goods-deadline": 0,
@@ -1253,6 +1254,8 @@
     "2026-11-16-goods-deadline": 0,
     "2026-11-16-events-today": 2,
     "2026-11-17-goods-deadline": 11,
-    "2026-11-17-events-today": 2
+    "2026-11-17-events-today": 2,
+    "2026-11-18-goods-deadline": 0,
+    "2026-11-18-events-today": 2
   }
 }
