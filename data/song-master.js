@@ -597,12 +597,12 @@ window.SONG_MASTER = {
       }
     },
     "嫌々-halvesshortby": {
-      "title": "ブルーアンビエンス (feat. asmi)",
+      "title": "ダーリン",
       "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
+      "album": "ダーリン - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "Blue Ambience (feat. asmi)"
+        "title": "darling"
       }
     },
     "メルト": {
@@ -624,10 +624,13 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "一途 (ALBUM ver.)",
-      "artist": "King Gnu",
-      "album": "THE GREATEST UNKNOWN",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b1/26/69/b1266981-eabb-65ef-9180-18960e2e7dee/4547366657081.jpg/600x600bb.jpg"
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg",
+      "en": {
+        "title": "After the rain, it's sunny Reluya"
+      }
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -648,10 +651,13 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "やってみよう",
-      "artist": "WANIMA",
-      "album": "Everybody!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/47/d6/9547d65b-8bb3-b7cc-4b6e-fbab8747530f/190295700706.jpg/600x600bb.jpg"
+      "title": "蝶々結び",
+      "artist": "Aimer",
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "butterfly knot"
+      }
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -1256,6 +1262,12 @@ window.SONG_MASTER = {
         "title": "A faint flower"
       }
     },
+    "???": {
+      "title": "陽炎 (Drum’n’Bass Arranged by Len)",
+      "artist": "カグラナナ",
+      "album": "Astrolabe",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg"
+    },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
       "artist": "AKB48",
@@ -1515,13 +1527,10 @@ window.SONG_MASTER = {
       }
     },
     "カタオモイ-aimer": {
-      "title": "カタオモイ",
+      "title": "カタオモイ - From THE FIRST TAKE",
       "artist": "Aimer",
-      "album": "daydream",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Kataomoi"
-      }
+      "album": "カタオモイ - From THE FIRST TAKE - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/4a/e1/864ae18f-02ac-4b99-aedb-9b5376e44303/4547366597387.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1576,9 +1585,9 @@ window.SONG_MASTER = {
     },
     "フォニイphony": {
       "title": "フォニイ",
-      "artist": "R+...",
+      "artist": "和楽器バンド",
       "album": "フォニイ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/85/23/76/852376bb-3785-29c8-c665-0068b3e741b8/bigup13512121.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/f5/66/3ef566ab-7d44-c0a9-0f28-0d322eeb69b3/22UMGIM64974.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "phonii"
       }
@@ -1776,12 +1785,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
+      "title": "かくれんぼ",
+      "artist": "優里",
+      "album": "かくれんぼ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
       "en": {
-        "title": "Ichikayori world"
+        "title": "hide and seek"
       }
     },
     "メルティランドナイトメア": {

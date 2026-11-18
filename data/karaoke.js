@@ -1,6 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "ioD_wqVg8TU",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-11-18",
+    "title": "〖 歌枠 〗もう年末だね～みたいな雰囲気やめれる？〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 6740,
+    "songs": []
+  },
+  {
+    "id": "_0XtSHQUj6Q",
+    "memberId": "liz",
+    "publishedAt": "2026-11-18",
+    "title": "【歌枠】お引越し前の最後の配信‼️【雨夜リズ/ミリプロ】",
+    "duration": 8138,
+    "songs": []
+  },
+  {
     "id": "td5z0ck7Ihg",
     "memberId": "yura",
     "publishedAt": "2026-11-16",

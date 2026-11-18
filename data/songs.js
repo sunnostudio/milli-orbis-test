@@ -3067,6 +3067,22 @@ window.SONGS = {
       }
     },
     {
+      "title": "???／小廻こま × 夕霧レイ（cover）",
+      "key": "???",
+      "urls": [
+        {
+          "id": "J_SDhKZkOsQ",
+          "memberId": "koma",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "id": "J_SDhKZkOsQ",
+          "memberId": "rei",
+          "publishedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
       "title": "恋するフォーチュンクッキー",
       "key": "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし",
       "urls": [
