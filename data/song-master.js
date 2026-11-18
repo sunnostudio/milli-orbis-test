@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "songs": {
     "セレナデ-なとり": {
       "title": "セレナーデ",
@@ -28,9 +28,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Akuya",
-      "album": "Henceforth - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
     },
     "ラグトレイン": {
       "title": "ラグトレイン",
@@ -282,12 +282,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ (feat. Hanon & Kotoha)",
+      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
       "artist": "HoneyWorks",
-      "album": "水声少女 (feat. Hanon & Kotoha)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg",
+      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
       "en": {
-        "title": "Sis x Love (feat. Hanon & Kotoha)"
+        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
       }
     },
     "プラネテス": {
@@ -360,12 +360,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
       "en": {
-        "title": "Finale."
+        "title": "finale"
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -597,12 +597,12 @@ window.SONG_MASTER = {
       }
     },
     "嫌々-halvesshortby": {
-      "title": "ダーリン",
+      "title": "ブルーアンビエンス (feat. asmi)",
       "artist": "Mrs. GREEN APPLE",
-      "album": "ダーリン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
+      "album": "Unity - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "darling"
+        "title": "Blue Ambience (feat. asmi)"
       }
     },
     "メルト": {
@@ -648,13 +648,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
-      "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "butterfly knot"
-      }
+      "title": "やってみよう",
+      "artist": "WANIMA",
+      "album": "Everybody!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/47/d6/9547d65b-8bb3-b7cc-4b6e-fbab8747530f/190295700706.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -997,9 +994,9 @@ window.SONG_MASTER = {
     },
     "dec.": {
       "title": "Dec.",
-      "artist": "Ayiko & Yuri",
+      "artist": "Kanaria",
       "album": "Dec. - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/d1/ee/01d1ee8f-99d7-298f-50c1-2de91afa87b6/artwork.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b1/78/feb17895-1c2c-67ea-e6d0-849540da9c58/0198448153041_cover.png/600x600bb.jpg"
     },
     "少女レイ": {
       "title": "少女レイ",
@@ -1011,12 +1008,12 @@ window.SONG_MASTER = {
       }
     },
     "ぎゅっと。": {
-      "title": "ぎゅっと",
-      "artist": "timelesz",
-      "album": "Hello! We’re timelesz",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/81/23/ad81236b-400f-fbbc-5538-efc069cc9ce1/25UMGIM17821.rgb.jpg/600x600bb.jpg",
+      "title": "ぎゅっと。",
+      "artist": "もさを。",
+      "album": "ぎゅっと。 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0d/64/c1/0d64c185-4d93-c90f-5857-1cf937d1effb/20UMGIM58199.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "tightly"
+        "title": "tightly."
       }
     },
     "青と夏": {
@@ -1743,12 +1740,12 @@ window.SONG_MASTER = {
       }
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "ここから、かなたから~bambi-no cover~",
-      "artist": "鹿乃",
-      "album": "Stella-rium - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg",
+      "title": "数え切れないくらいの",
+      "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
+      "album": "メメントモリ Lament Collection Vol.4",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg",
       "en": {
-        "title": "From here, from far away~bambi-no cover~"
+        "title": "countless times"
       }
     },
     "地球最後の告白をacoustic.": {
@@ -2135,8 +2132,8 @@ window.SONG_MASTER = {
     "かわいいだけじゃだめですか?": {
       "title": "かわいいだけじゃだめですか?",
       "artist": "CUTIE STREET",
-      "album": "CUTIE LAND",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/d5/2c/4dd52c96-bc10-a908-2209-7cc91af0b6d4/885288824650.jpg/600x600bb.jpg",
+      "album": "かわいいだけじゃだめですか? - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/a6/91/71a691bc-b5a6-7903-4b13-608611c2f2b3/4580789670411.jpg/600x600bb.jpg",
       "en": {
         "title": "Isn't just cute enough?"
       }
@@ -2160,10 +2157,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "SHAMPOO",
-      "artist": "PUNPEE, BIM & Elle Teresa",
-      "album": "Iced Out - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
+      "title": "Streamer",
+      "artist": "すとぷり",
+      "album": "Streamer - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
