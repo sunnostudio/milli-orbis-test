@@ -971,8 +971,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1007,8 +1008,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1043,8 +1045,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1079,8 +1082,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1115,8 +1119,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1151,8 +1156,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1187,8 +1193,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1223,8 +1230,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1259,9 +1267,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "ゆらぎゆら",
       "デジタルグッズ",
       "夕霧レイ",
@@ -1303,8 +1312,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "デジタルグッズ",
       "夕霧レイ",
       "常設同梱不可",
@@ -1371,15 +1381,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:40:20+09:00"
   },
   {
@@ -1404,15 +1414,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:46+09:00"
   },
   {
@@ -1437,15 +1447,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "生活雑貨・小物",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:44+09:00"
   },
   {
@@ -1470,15 +1480,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:43+09:00"
   },
   {
@@ -1503,15 +1513,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "アクリルグッズ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:42+09:00"
   },
   {
@@ -1536,15 +1546,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "バッジ・ピンバッジ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:41+09:00"
   },
   {
@@ -1569,15 +1579,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "バッジ・ピンバッジ",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:40+09:00"
   },
   {
@@ -1602,15 +1612,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "ブロマイド・カード",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:39+09:00"
   },
   {
@@ -1635,15 +1645,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2027年5月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "ブロマイド・カード",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:39+09:00"
   },
   {
@@ -1668,15 +1678,15 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": null
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "海琳あおい"
     ],
     "product_type": "ボイス",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:38+09:00"
   },
   {
@@ -1701,17 +1711,17 @@
       "rawOrder": "2026年10月17日 〜 2026年11月17日",
       "rawShip": "2026年10月17日 〜 2026年11月17日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "デジタルグッズ",
       "常設同梱不可",
       "海琳あおい"
     ],
     "product_type": "フルセット",
-    "available": true,
+    "available": false,
     "published_at": "2026-10-17T19:36:37+09:00"
   },
   {
