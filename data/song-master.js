@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-18",
+  "generatedAt": "2026-11-19",
   "songs": {
     "セレナデ-なとり": {
       "title": "セレナーデ",
