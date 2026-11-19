@@ -97,9 +97,9 @@ window.SONG_MASTER = {
     },
     "おもかげ": {
       "title": "おもかげ",
-      "artist": "KG",
-      "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
+      "artist": "林原めぐみ",
+      "album": "Northern lights - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg",
       "en": {
         "title": "Omokage"
       }
@@ -360,12 +360,12 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg",
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
       "en": {
-        "title": "finale"
+        "title": "Finale."
       }
     },
     "おやすみ泣き声、さよなら姫": {
@@ -690,13 +690,10 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "会いたい夜 (feat. Macheri)",
+      "artist": "ONE☆DRAFT",
+      "album": "蜂の巣",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/8f/15/8e8f1590-bb54-a91e-8bb2-73ac6876a3f0/jacket_AICL02193B00Z_550.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -891,10 +888,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "Stay",
-      "artist": "Zedd & アレッシア・カーラ",
-      "album": "Stay - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
+      "title": "STAY",
+      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
+      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1014,12 +1011,12 @@ window.SONG_MASTER = {
       }
     },
     "ぎゅっと。": {
-      "title": "ぎゅっと。",
-      "artist": "もさを。",
-      "album": "ぎゅっと。 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0d/64/c1/0d64c185-4d93-c90f-5857-1cf937d1effb/20UMGIM58199.rgb.jpg/600x600bb.jpg",
+      "title": "ぎゅっと",
+      "artist": "timelesz",
+      "album": "Hello! We’re timelesz",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/81/23/ad81236b-400f-fbbc-5538-efc069cc9ce1/25UMGIM17821.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "tightly."
+        "title": "tightly"
       }
     },
     "青と夏": {
@@ -1527,10 +1524,13 @@ window.SONG_MASTER = {
       }
     },
     "カタオモイ-aimer": {
-      "title": "カタオモイ - From THE FIRST TAKE",
+      "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "カタオモイ - From THE FIRST TAKE - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/4a/e1/864ae18f-02ac-4b99-aedb-9b5376e44303/4547366597387.jpg/600x600bb.jpg"
+      "album": "BEST SELECTION \"blanc\"",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Kataomoi"
+      }
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1585,9 +1585,9 @@ window.SONG_MASTER = {
     },
     "フォニイphony": {
       "title": "フォニイ",
-      "artist": "和楽器バンド",
+      "artist": "R+...",
       "album": "フォニイ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/f5/66/3ef566ab-7d44-c0a9-0f28-0d322eeb69b3/22UMGIM64974.rgb.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/85/23/76/852376bb-3785-29c8-c665-0068b3e741b8/bigup13512121.jpg/600x600bb.jpg",
       "en": {
         "title": "phonii"
       }
@@ -1785,13 +1785,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "hide and seek"
-      }
+      "title": "ブルーアンバー",
+      "artist": "back number",
+      "album": "ブルーアンバー - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/b9/bc/d5b9bc67-dc87-e451-1ccb-67f3e8b77aa6/25UMGIM41036.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",

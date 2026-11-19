@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T16:06:37.229Z",
+  "updatedAt": "2026-11-19T00:54:58.941Z",
   "streams": [
     {
       "id": "nElUBc_Ji-Y",
@@ -121,13 +121,13 @@
   ],
   "videos": [
     {
-      "id": "9dUKo2hJ-Zs",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg",
-      "publishedAt": "2026-11-18T15:50:27Z",
+      "id": "pLmuD7kvOvk",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】あさうたタイム～～～☀【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pLmuD7kvOvk/hqdefault.jpg",
+      "publishedAt": "2026-11-18T23:34:10Z",
       "live": false
     },
     {
@@ -136,9 +136,19 @@
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【歌枠】お引越し前の最後の配信‼️【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_0XtSHQUj6Q/hqdefault.jpg?v=6afd6f5d",
-      "publishedAt": "2026-11-18T15:22:32Z",
+      "thumb": "https://i.ytimg.com/vi/_0XtSHQUj6Q/hqdefault.jpg",
+      "publishedAt": "2026-11-18T17:41:36Z",
       "live": true
+    },
+    {
+      "id": "9dUKo2hJ-Zs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg",
+      "publishedAt": "2026-11-18T15:50:27Z",
+      "live": false
     },
     {
       "id": "ioD_wqVg8TU",
@@ -408,16 +418,6 @@
       "title": "【最後までわかったらボカロ厨⁉️】だんだん昔になるボカロ古参ファンテスト！ 【#海琳あおい /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/MLLAqvcUMR0/hqdefault.jpg",
       "publishedAt": "2026-11-15T09:01:36Z",
-      "live": false
-    },
-    {
-      "id": "UVNcW_FAQtk",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【激ムズステップに挑戦！】『UNDEAD』踊ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UVNcW_FAQtk/hqdefault.jpg",
-      "publishedAt": "2026-11-15T09:00:05Z",
       "live": false
     }
   ],
