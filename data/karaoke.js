@@ -1,6 +1,30 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "qKUB-P6qfAU",
+    "memberId": "nono",
+    "publishedAt": "2026-11-20",
+    "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
+    "duration": 0,
+    "songs": []
+  },
+  {
+    "id": "wilgy3UkVvk",
+    "memberId": "raco",
+    "publishedAt": "2026-11-20",
+    "title": "【歌枠】もうだいぶ寒くなったね～【音ノ瀬らこ /ミリプロ】",
+    "duration": 9422,
+    "songs": []
+  },
+  {
+    "id": "Q2qHtxGlF4A",
+    "memberId": "yura",
+    "publishedAt": "2026-11-20",
+    "title": "【 儚い歌枠 】儚いだろ‼️どう考えても儚いだろ‼️【 #ゆらのやすらぎ 】",
+    "duration": 3446,
+    "songs": []
+  },
+  {
     "id": "ioD_wqVg8TU",
     "memberId": "tsukuri",
     "publishedAt": "2026-11-18",
