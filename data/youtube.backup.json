@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-11-20T15:52:24.532Z",
+  "updatedAt": "2026-11-21T00:33:46.615Z",
   "streams": [
+    {
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-20T21:02:11Z",
+      "status": "live"
+    },
+    {
+      "id": "Dt1wIQ8dgb4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "k5VBzDCV23M",
       "memberId": "yura",
@@ -147,6 +165,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg?v=6b00a197",
+      "publishedAt": "2026-11-20T21:02:11Z",
+      "live": true
+    },
+    {
+      "id": "Dt1wIQ8dgb4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg?v=6b0098b8",
+      "publishedAt": "2026-11-20T19:00:06Z",
+      "live": false
+    },
     {
       "id": "wilgy3UkVvk",
       "memberId": "raco",
@@ -426,27 +464,17 @@
       "thumb": "https://i.ytimg.com/vi/1y8NQ93dxtY/hqdefault.jpg",
       "publishedAt": "2026-11-17T17:37:24Z",
       "live": false
-    },
-    {
-      "id": "hhVIGi2UrDk",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【 APEX 】今日の戦場はお花畑のような匂いがします🌷【カグラナナ/琶舞/雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hhVIGi2UrDk/hqdefault.jpg",
-      "publishedAt": "2026-11-17T15:45:28Z",
-      "live": false
-    },
-    {
-      "id": "VWWcBgyR37o",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ボカロ難読歌詞クイズ】ヒントなしじゃ読むのむずすぎる！！ 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VWWcBgyR37o/hqdefault.jpg",
-      "publishedAt": "2026-11-17T09:01:05Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-20T21:02:11Z",
+      "status": "live"
+    }
+  ]
 }

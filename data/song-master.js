@@ -97,9 +97,9 @@ window.SONG_MASTER = {
     },
     "おもかげ": {
       "title": "おもかげ",
-      "artist": "林原めぐみ",
-      "album": "Northern lights - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg",
+      "artist": "KG",
+      "album": "Brand New Days",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
       "en": {
         "title": "Omokage"
       }
@@ -690,12 +690,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
       "en": {
-        "title": "Feels good"
+        "title": "Swallow (feat. Midleys)"
       }
     },
     "1000年生きてる": {
@@ -1247,11 +1247,11 @@ window.SONG_MASTER = {
       "album": "slash - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e5/75/38e57594-3fb3-b71c-55fd-6aa2e7ce6d7e/4547366615692.jpg/600x600bb.jpg"
     },
-    "???": {
-      "title": "陽炎 (Drum’n’Bass Arranged by Len)",
-      "artist": "カグラナナ",
-      "album": "Astrolabe",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg"
+    "しんでしまうとはなさけない！": {
+      "title": "Paradise Lost",
+      "artist": "DaizyStripper",
+      "album": "HUMALOID - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/dd/ff/97ddff15-d827-01f5-65f8-4d7116e83e33/859758472368_cover.jpg/600x600bb.jpg"
     },
     "legendofmermaid": {
       "title": "Legend of Mermaid",
@@ -1716,10 +1716,13 @@ window.SONG_MASTER = {
       }
     },
     "猫猫的宇宙論.": {
-      "title": "ミッドナイトシアター",
-      "artist": "鹿乃 & 根本凪",
-      "album": "コンパスソング - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/00/de/f700deda-bedc-539d-f872-7b7012b6ffca/859756574767_cover.jpg/600x600bb.jpg"
+      "title": "シュガーソングとビターステップ",
+      "artist": "鹿乃",
+      "album": "アルストロメリア",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b4/61/dc/b461dc57-7509-22f1-2098-00ba3ab94777/1000701238_kano_Alstromeria_tsujo_Jkt.jpg/600x600bb.jpg",
+      "en": {
+        "title": "sugar song and bitter step"
+      }
     },
     "別の人の彼女になったよarrange.": {
       "title": "执笔江湖",
@@ -1785,12 +1788,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
-      "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
       "en": {
-        "title": "shutter"
+        "title": "Ichikayori world"
       }
     },
     "メルティランドナイトメア": {
@@ -1839,13 +1842,10 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "突破口",
+      "title": "人として",
       "artist": "SUPER BEAVER",
-      "album": "突破口 / 自慢になりたい - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg",
-      "en": {
-        "title": "breakthrough"
-      }
+      "album": "27",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",

@@ -1,47 +1,29 @@
 {
-  "updatedAt": "2026-11-21T00:33:46.615Z",
+  "updatedAt": "2026-11-21T15:02:14.173Z",
   "streams": [
     {
-      "id": "McUkLff3U8U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-20T21:02:11Z",
+      "id": "DmS-DyRfP8s",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T13:01:35Z",
       "status": "live"
     },
     {
-      "id": "Dt1wIQ8dgb4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T03:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "k5VBzDCV23M",
+      "id": "8WxiXNe4-Os",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T03:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "qKUB-P6qfAU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T10:00:00Z",
-      "status": "upcoming"
+      "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T14:16:55Z",
+      "status": "live"
     },
     {
       "id": "ZmXOwmBFgj8",
       "memberId": "nono",
       "member": "音ノ乃のの",
-      "title": "【#ののとノクターン】第2回のゲストは？？？？様！┊︎#音ノ乃のの #ののん家",
+      "title": "【#ののとノクターン】第2回のゲストはてにをは様！┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg",
       "scheduledStartTime": "2026-11-22T12:00:00Z",
       "status": "upcoming"
@@ -166,14 +148,164 @@
   ],
   "videos": [
     {
-      "id": "McUkLff3U8U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg?v=6b00a197",
-      "publishedAt": "2026-11-20T21:02:11Z",
-      "live": true
+      "id": "8WxiXNe4-Os",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg?v=6b01a7a8",
+      "publishedAt": "2026-11-21T14:16:55Z",
+      "live": false
+    },
+    {
+      "id": "EbuN1fmR_u0",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 APEX 】ゆるゆるランク上げえぺ【 音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/EbuN1fmR_u0/hqdefault.jpg",
+      "publishedAt": "2026-11-21T13:58:47Z",
+      "live": false
+    },
+    {
+      "id": "zbK70jpLYa8",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 APEX 】ゆるっとランク♪カスタムに向けて少しでもキャラに慣れる！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/zbK70jpLYa8/hqdefault.jpg",
+      "publishedAt": "2026-11-21T13:52:59Z",
+      "live": false
+    },
+    {
+      "id": "DmS-DyRfP8s",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg?v=6b018e96",
+      "publishedAt": "2026-11-21T13:01:35Z",
+      "live": false
+    },
+    {
+      "id": "qKUB-P6qfAU",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg",
+      "publishedAt": "2026-11-21T12:07:07Z",
+      "live": false
+    },
+    {
+      "id": "Dj9D6ZA2bDo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "Princess Viral / 音ノ乃のの  (namigroove Remix)",
+      "thumb": "https://i.ytimg.com/vi/Dj9D6ZA2bDo/hqdefault.jpg",
+      "publishedAt": "2026-11-21T12:00:10Z",
+      "live": false
+    },
+    {
+      "id": "-9NCG8TzzUc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "ぼうけんのしょがきえました！／夕霧レイ × 小廻こま（cover）",
+      "thumb": "https://i.ytimg.com/vi/-9NCG8TzzUc/hqdefault.jpg",
+      "publishedAt": "2026-11-21T11:10:10Z",
+      "live": false
+    },
+    {
+      "id": "J_SDhKZkOsQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "しんでしまうとはなさけない！／小廻こま × 夕霧レイ（cover）",
+      "thumb": "https://i.ytimg.com/vi/J_SDhKZkOsQ/hqdefault.jpg",
+      "publishedAt": "2026-11-21T11:00:11Z",
+      "live": false
+    },
+    {
+      "id": "aCiEZ7a5Zzs",
+      "memberId": "pukaama",
+      "member": "ぷかあまぱーく",
+      "channelTitle": "ぷかあまぱーく",
+      "title": "【閲覧注意】イラストレーターVTuber同士が性癖交換して絵を描いてみたら衝撃の結果に！？ww【お絵描き】",
+      "thumb": "https://i.ytimg.com/vi/aCiEZ7a5Zzs/hqdefault.jpg",
+      "publishedAt": "2026-11-21T10:00:08Z",
+      "live": false
+    },
+    {
+      "id": "k5VBzDCV23M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:56:54Z",
+      "live": false
+    },
+    {
+      "id": "08rTWjEW754",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【どのボカロ曲でしょうか？】ボカロクイズに挑戦してみた！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/08rTWjEW754/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:01:20Z",
+      "live": false
+    },
+    {
+      "id": "CuUrJfzvxag",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "Double Tap Beat!👆💗Part 4 #shorts #DoubleTapBeat #animation",
+      "thumb": "https://i.ytimg.com/vi/CuUrJfzvxag/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:00:36Z",
+      "live": false
+    },
+    {
+      "id": "8W-WqEyBw_U",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【以心伝心】3人で『ヴァンパイア』歌ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8W-WqEyBw_U/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:00:19Z",
+      "live": false
+    },
+    {
+      "id": "YwsVfb0BuYY",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】分からない人 #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/YwsVfb0BuYY/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:00:15Z",
+      "live": false
+    },
+    {
+      "id": "rQ41Vyy-tZc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【以心伝心🐾】メロい2人を連れて「アニマル」歌ったら穴空きすぎで喧嘩になりました【眠雲ツクリ/あくび・でもんすぺーど/夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rQ41Vyy-tZc/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:00:09Z",
+      "live": false
+    },
+    {
+      "id": "TUxhY1RI42k",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】18万人をみんなと迎えたいいいいいい！！！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TUxhY1RI42k/hqdefault.jpg",
+      "publishedAt": "2026-11-21T07:07:47Z",
+      "live": false
     },
     {
       "id": "Dt1wIQ8dgb4",
@@ -181,9 +313,19 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg?v=6b0098b8",
-      "publishedAt": "2026-11-20T19:00:06Z",
+      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg",
+      "publishedAt": "2026-11-21T06:37:50Z",
       "live": false
+    },
+    {
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
+      "publishedAt": "2026-11-21T01:46:06Z",
+      "live": true
     },
     {
       "id": "wilgy3UkVvk",
@@ -206,16 +348,6 @@
       "live": false
     },
     {
-      "id": "k5VBzDCV23M",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg?v=6b004166",
-      "publishedAt": "2026-11-20T12:47:32Z",
-      "live": false
-    },
-    {
       "id": "r634BPOIKUY",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -230,8 +362,8 @@
       "memberId": "nono",
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【#ののとノクターン】第2回のゲストは？？？？様！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg?v=6b003b9b",
+      "title": "【#ののとノクターン】第2回のゲストはてにをは様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg?v=6b0192d7",
       "publishedAt": "2026-11-20T12:22:50Z",
       "live": false
     },
@@ -253,16 +385,6 @@
       "title": "【Apex Legends】こはくちゃんとといちゃんとカスタム本番に向けて練習だあ！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
       "thumb": "https://i.ytimg.com/vi/0TuXuglq-UA/hqdefault.jpg",
       "publishedAt": "2026-11-20T11:57:48Z",
-      "live": false
-    },
-    {
-      "id": "qKUB-P6qfAU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg?v=6b00353f",
-      "publishedAt": "2026-11-20T11:55:41Z",
       "live": false
     },
     {
@@ -316,164 +438,33 @@
       "live": false
     },
     {
-      "id": "jdkmjdJFkx4",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【ウキウキ歌枠】絵描きだって歌うんですよ",
-      "thumb": "https://i.ytimg.com/vi/jdkmjdJFkx4/hqdefault.jpg",
-      "publishedAt": "2026-11-19T14:37:02Z",
-      "live": false
-    },
-    {
-      "id": "JHH0HXDyQIk",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "『セレナーデ』歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JHH0HXDyQIk/hqdefault.jpg",
-      "publishedAt": "2026-11-19T09:01:26Z",
-      "live": false
-    },
-    {
-      "id": "NIUaxvHp8A0",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "NGワード対決がまさかの展開すぎたwww【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NIUaxvHp8A0/hqdefault.jpg",
-      "publishedAt": "2026-11-19T09:00:38Z",
-      "live": false
-    },
-    {
-      "id": "YumzE91LQLM",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "『愛包ダンスホール』踊ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YumzE91LQLM/hqdefault.jpg",
-      "publishedAt": "2026-11-19T09:00:22Z",
-      "live": false
-    },
-    {
-      "id": "wv0yzUn-30M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "「初音ミクの消失は歌えないかw」【眠雲ツクリ/ミリプロ】#歌ってみた #VTuber #初音ミクの消失  #ボカロ",
-      "thumb": "https://i.ytimg.com/vi/wv0yzUn-30M/hqdefault.jpg",
-      "publishedAt": "2026-11-19T09:00:21Z",
-      "live": false
-    },
-    {
-      "id": "Dj9D6ZA2bDo",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "？？？？？",
-      "thumb": "https://i.ytimg.com/vi/Dj9D6ZA2bDo/hqdefault.jpg",
-      "publishedAt": "2026-11-19T07:55:14Z",
-      "live": false
-    },
-    {
-      "id": "T4J7RrV8VYQ",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "美容院に行く支度(シャワー浴びてきた)",
-      "thumb": "https://i.ytimg.com/vi/T4J7RrV8VYQ/hqdefault.jpg",
-      "publishedAt": "2026-11-19T07:26:14Z",
-      "live": false
-    },
-    {
-      "id": "pLmuD7kvOvk",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】あさうたタイム～～～☀【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pLmuD7kvOvk/hqdefault.jpg",
-      "publishedAt": "2026-11-18T23:34:10Z",
-      "live": false
-    },
-    {
-      "id": "_0XtSHQUj6Q",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】お引越し前の最後の配信‼️【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_0XtSHQUj6Q/hqdefault.jpg",
-      "publishedAt": "2026-11-18T17:41:36Z",
-      "live": true
-    },
-    {
-      "id": "9dUKo2hJ-Zs",
+      "id": "3ZWeKCqRahM",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg",
-      "publishedAt": "2026-11-18T15:50:27Z",
-      "live": false
-    },
-    {
-      "id": "ioD_wqVg8TU",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗もう年末だね～みたいな雰囲気やめれる？〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ioD_wqVg8TU/hqdefault.jpg",
-      "publishedAt": "2026-11-18T14:30:54Z",
-      "live": false
-    },
-    {
-      "id": "FW8djhz8RJQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "真生活 / covered by ゆらぎゆら・西園チグサ",
-      "thumb": "https://i.ytimg.com/vi/FW8djhz8RJQ/hqdefault.jpg",
-      "publishedAt": "2026-11-18T12:00:11Z",
-      "live": false
-    },
-    {
-      "id": "xRwM_WBVi0c",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】ギリギリを攻めろ！10秒タイマー対決！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/xRwM_WBVi0c/hqdefault.jpg",
-      "publishedAt": "2026-11-18T09:00:23Z",
-      "live": false
-    },
-    {
-      "id": "uEOU9l2xg-I",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【以心伝心】シャルル歌ってみた！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/uEOU9l2xg-I/hqdefault.jpg",
-      "publishedAt": "2026-11-18T09:00:07Z",
-      "live": false
-    },
-    {
-      "id": "1y8NQ93dxtY",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】てとちゃんに教えてもらう✨さくらさん途中合流！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1y8NQ93dxtY/hqdefault.jpg",
-      "publishedAt": "2026-11-17T17:37:24Z",
+      "title": "？？？ - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/3ZWeKCqRahM/hqdefault.jpg",
+      "publishedAt": "2026-11-20T01:59:57Z",
       "live": false
     }
   ],
   "live": [
     {
-      "id": "McUkLff3U8U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-20T21:02:11Z",
+      "id": "DmS-DyRfP8s",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T13:01:35Z",
+      "status": "live"
+    },
+    {
+      "id": "8WxiXNe4-Os",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T14:16:55Z",
       "status": "live"
     }
   ]

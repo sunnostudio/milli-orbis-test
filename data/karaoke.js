@@ -1,11 +1,19 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "DmS-DyRfP8s",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-11-21",
+    "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "qKUB-P6qfAU",
     "memberId": "nono",
     "publishedAt": "2026-11-20",
     "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
-    "duration": 0,
+    "duration": 7087,
     "songs": []
   },
   {
