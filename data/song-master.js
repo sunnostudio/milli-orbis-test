@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "songs": {
     "セレナデ-なとり": {
       "title": "セレナーデ",
@@ -376,9 +376,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko feat. 初音ミク",
-      "album": "Download (feat.初音ミク)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg",
+      "artist": "doriko",
+      "album": "ロミオとシンデレラ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
@@ -690,10 +690,13 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "会いたい夜 (feat. Macheri)",
-      "artist": "ONE☆DRAFT",
-      "album": "蜂の巣",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/8f/15/8e8f1590-bb54-a91e-8bb2-73ac6876a3f0/jacket_AICL02193B00Z_550.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1713,13 +1716,10 @@ window.SONG_MASTER = {
       }
     },
     "猫猫的宇宙論.": {
-      "title": "シュガーソングとビターステップ",
-      "artist": "鹿乃",
-      "album": "アルストロメリア",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b4/61/dc/b461dc57-7509-22f1-2098-00ba3ab94777/1000701238_kano_Alstromeria_tsujo_Jkt.jpg/600x600bb.jpg",
-      "en": {
-        "title": "sugar song and bitter step"
-      }
+      "title": "ミッドナイトシアター",
+      "artist": "鹿乃 & 根本凪",
+      "album": "コンパスソング - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/00/de/f700deda-bedc-539d-f872-7b7012b6ffca/859756574767_cover.jpg/600x600bb.jpg"
     },
     "別の人の彼女になったよarrange.": {
       "title": "执笔江湖",
@@ -1785,12 +1785,12 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
+      "title": "シャッター",
       "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg",
       "en": {
-        "title": "hide and seek"
+        "title": "shutter"
       }
     },
     "メルティランドナイトメア": {

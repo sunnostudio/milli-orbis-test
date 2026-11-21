@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-20T00:59:01.916Z",
+  "updatedAt": "2026-11-20T15:52:24.532Z",
   "streams": [
+    {
+      "id": "k5VBzDCV23M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "qKUB-P6qfAU",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ZmXOwmBFgj8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【#ののとノクターン】第2回のゲストは？？？？様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-22T12:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "nElUBc_Ji-Y",
       "memberId": "raco",
@@ -121,6 +148,136 @@
   ],
   "videos": [
     {
+      "id": "wilgy3UkVvk",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】もうだいぶ寒くなったね～【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/wilgy3UkVvk/hqdefault.jpg",
+      "publishedAt": "2026-11-20T15:16:50Z",
+      "live": false
+    },
+    {
+      "id": "Q2qHtxGlF4A",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 儚い歌枠 】儚いだろ‼️どう考えても儚いだろ‼️【 #ゆらのやすらぎ 】",
+      "thumb": "https://i.ytimg.com/vi/Q2qHtxGlF4A/hqdefault.jpg",
+      "publishedAt": "2026-11-20T13:37:12Z",
+      "live": false
+    },
+    {
+      "id": "k5VBzDCV23M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg?v=6b004166",
+      "publishedAt": "2026-11-20T12:47:32Z",
+      "live": false
+    },
+    {
+      "id": "r634BPOIKUY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "新しいおうちに招待するね",
+      "thumb": "https://i.ytimg.com/vi/r634BPOIKUY/hqdefault.jpg",
+      "publishedAt": "2026-11-20T12:43:51Z",
+      "live": false
+    },
+    {
+      "id": "ZmXOwmBFgj8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#ののとノクターン】第2回のゲストは？？？？様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg?v=6b003b9b",
+      "publishedAt": "2026-11-20T12:22:50Z",
+      "live": false
+    },
+    {
+      "id": "7QSEhUIAiOw",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "ニア / covered by ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/7QSEhUIAiOw/hqdefault.jpg",
+      "publishedAt": "2026-11-20T12:00:06Z",
+      "live": false
+    },
+    {
+      "id": "0TuXuglq-UA",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Apex Legends】こはくちゃんとといちゃんとカスタム本番に向けて練習だあ！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
+      "thumb": "https://i.ytimg.com/vi/0TuXuglq-UA/hqdefault.jpg",
+      "publishedAt": "2026-11-20T11:57:48Z",
+      "live": false
+    },
+    {
+      "id": "qKUB-P6qfAU",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg?v=6b00353f",
+      "publishedAt": "2026-11-20T11:55:41Z",
+      "live": false
+    },
+    {
+      "id": "iuj-ZOPWGPU",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "検証！1日だけでVTuberになれるのか⁉ #shorts #nizimaLIVE #イラスト",
+      "thumb": "https://i.ytimg.com/vi/iuj-ZOPWGPU/hqdefault.jpg",
+      "publishedAt": "2026-11-20T09:15:34Z",
+      "live": false
+    },
+    {
+      "id": "Tp68DqWKzwU",
+      "memberId": "mayoi",
+      "member": "旋風マヨイ",
+      "channelTitle": "旋風マヨイ / TsumujiMayoi",
+      "title": "【令和VS平成⁉️】最強ボカロ合戦【旋風マヨイ/ミリプロ】#歌ってみた",
+      "thumb": "https://i.ytimg.com/vi/Tp68DqWKzwU/hqdefault.jpg",
+      "publishedAt": "2026-11-20T09:00:36Z",
+      "live": false
+    },
+    {
+      "id": "86HfraHzFyw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【KING】以心伝心で歌ってみた！【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/86HfraHzFyw/hqdefault.jpg",
+      "publishedAt": "2026-11-20T09:00:27Z",
+      "live": false
+    },
+    {
+      "id": "aRk90_7ka8o",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】足跡でバレバレ！？隠れた犯人を見つけろ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aRk90_7ka8o/hqdefault.jpg",
+      "publishedAt": "2026-11-20T09:00:18Z",
+      "live": false
+    },
+    {
+      "id": "foJfAy-zibI",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【検証】ガチ” 1日\"でセルフ受肉VTuberになるチャレンジ やってみた結果…【nizima LIVE】",
+      "thumb": "https://i.ytimg.com/vi/foJfAy-zibI/hqdefault.jpg",
+      "publishedAt": "2026-11-20T09:00:07Z",
+      "live": false
+    },
+    {
       "id": "jdkmjdJFkx4",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -168,6 +325,16 @@
       "title": "「初音ミクの消失は歌えないかw」【眠雲ツクリ/ミリプロ】#歌ってみた #VTuber #初音ミクの消失  #ボカロ",
       "thumb": "https://i.ytimg.com/vi/wv0yzUn-30M/hqdefault.jpg",
       "publishedAt": "2026-11-19T09:00:21Z",
+      "live": false
+    },
+    {
+      "id": "Dj9D6ZA2bDo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "？？？？？",
+      "thumb": "https://i.ytimg.com/vi/Dj9D6ZA2bDo/hqdefault.jpg",
+      "publishedAt": "2026-11-19T07:55:14Z",
       "live": false
     },
     {
@@ -278,146 +445,6 @@
       "title": "【ボカロ難読歌詞クイズ】ヒントなしじゃ読むのむずすぎる！！ 【#海琳あおい /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/VWWcBgyR37o/hqdefault.jpg",
       "publishedAt": "2026-11-17T09:01:05Z",
-      "live": false
-    },
-    {
-      "id": "coeIjyitEY8",
-      "memberId": "mayoi",
-      "member": "旋風マヨイ",
-      "channelTitle": "旋風マヨイ / TsumujiMayoi",
-      "title": "ボカロ最高音Tier表を作れ！【旋風マヨイ/ミリプロ】#歌ってみた",
-      "thumb": "https://i.ytimg.com/vi/coeIjyitEY8/hqdefault.jpg",
-      "publishedAt": "2026-11-17T09:00:28Z",
-      "live": false
-    },
-    {
-      "id": "UAR0VgOsazg",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】給食で嫌いな食べ物が出たとき #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/UAR0VgOsazg/hqdefault.jpg",
-      "publishedAt": "2026-11-17T09:00:22Z",
-      "live": false
-    },
-    {
-      "id": "IV1gjTJKA34",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【高音厨＆メロ声】夕霧レイと『Surges』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IV1gjTJKA34/hqdefault.jpg",
-      "publishedAt": "2026-11-17T09:00:21Z",
-      "live": false
-    },
-    {
-      "id": "8Me2smZujGY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
-      "publishedAt": "2026-11-16T19:37:45Z",
-      "live": true
-    },
-    {
-      "id": "sjTXWYj63e0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗時オカリメイク初見旅！！！#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg",
-      "publishedAt": "2026-11-16T16:12:18Z",
-      "live": false
-    },
-    {
-      "id": "ec0Q7YwGGk8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "仕事おわり、寝転がり雑談",
-      "thumb": "https://i.ytimg.com/vi/ec0Q7YwGGk8/hqdefault.jpg",
-      "publishedAt": "2026-11-16T15:38:31Z",
-      "live": true
-    },
-    {
-      "id": "td5z0ck7Ihg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
-      "thumb": "https://i.ytimg.com/vi/td5z0ck7Ihg/hqdefault.jpg",
-      "publishedAt": "2026-11-16T13:31:21Z",
-      "live": false
-    },
-    {
-      "id": "QFwC04e6TWU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "以心伝心で『乙女解剖』歌ってみた 【ゆらぎゆら/眠雲ツクリ/夕霧レイ】#ミリプロ",
-      "thumb": "https://i.ytimg.com/vi/QFwC04e6TWU/hqdefault.jpg",
-      "publishedAt": "2026-11-16T09:29:02Z",
-      "live": false
-    },
-    {
-      "id": "UNDDKD8kChg",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【右左どっち⁈】六兆年と一夜物語歌ってみた【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UNDDKD8kChg/hqdefault.jpg",
-      "publishedAt": "2026-11-16T09:00:37Z",
-      "live": false
-    },
-    {
-      "id": "kyBTiOfyGv4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "１００万再生ありがとう～～～！🤍 #音ノ乃のの #オリ曲 #PrincessViral #shorts",
-      "thumb": "https://i.ytimg.com/vi/kyBTiOfyGv4/hqdefault.jpg",
-      "publishedAt": "2026-11-16T09:00:20Z",
-      "live": false
-    },
-    {
-      "id": "c1ooUeUUV4o",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】無茶ぶり連発！絶対行動ゲーム！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/c1ooUeUUV4o/hqdefault.jpg",
-      "publishedAt": "2026-11-16T09:00:14Z",
-      "live": false
-    },
-    {
-      "id": "e6mqPZjISaY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【みんなで】右左どっち？『ダーリンダンス』歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/e6mqPZjISaY/hqdefault.jpg",
-      "publishedAt": "2026-11-16T09:00:03Z",
-      "live": false
-    },
-    {
-      "id": "hDU9YvSUbtg",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "「結び」歌ってみた🧵🪡【眠雲ツクリ/ミリプロ】#歌ってみた #VTuber #結び",
-      "thumb": "https://i.ytimg.com/vi/hDU9YvSUbtg/hqdefault.jpg",
-      "publishedAt": "2026-11-16T09:00:02Z",
-      "live": false
-    },
-    {
-      "id": "7QSEhUIAiOw",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "ニア / covered by ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/7QSEhUIAiOw/hqdefault.jpg",
-      "publishedAt": "2026-11-16T07:14:34Z",
       "live": false
     }
   ],
