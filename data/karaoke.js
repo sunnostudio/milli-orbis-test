@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "tsukuri",
     "publishedAt": "2026-11-21",
     "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 10810,
     "songs": []
   },
   {

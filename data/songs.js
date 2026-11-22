@@ -3,6 +3,14 @@ window.SONGS = {
   "generatedAt": "2026-11-21",
   "official": [
     {
+      "id": "Dj9D6ZA2bDo",
+      "title": "Princess Viral / 音ノ乃のの  (namigroove Remix)",
+      "publishedAt": "2026-11-21",
+      "members": [
+        "nono"
+      ]
+    },
+    {
       "id": "7oQJfeYuiKo",
       "title": "Siren’s Siren - あくび・でもんすぺーど（official）",
       "publishedAt": "2026-11-16",
@@ -500,6 +508,71 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "ぼうけんのしょがきえました！／夕霧レイ × 小廻こま（cover）",
+      "key": "ぼうけんのしょがきえました！",
+      "urls": [
+        {
+          "id": "-9NCG8TzzUc",
+          "memberId": "koma",
+          "publishedAt": "2026-11-21"
+        },
+        {
+          "id": "-9NCG8TzzUc",
+          "memberId": "rei",
+          "publishedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "title": "しんでしまうとはなさけない！／小廻こま × 夕霧レイ（cover）",
+      "key": "しんでしまうとはなさけない！",
+      "urls": [
+        {
+          "id": "J_SDhKZkOsQ",
+          "memberId": "koma",
+          "publishedAt": "2026-11-21"
+        },
+        {
+          "id": "J_SDhKZkOsQ",
+          "memberId": "rei",
+          "publishedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "title": "ニア",
+      "key": "ニア",
+      "urls": [
+        {
+          "id": "7QSEhUIAiOw",
+          "memberId": "yura",
+          "publishedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "title": "？？？ - 鹿乃まほろ cover.",
+      "key": "？？？-.",
+      "urls": [
+        {
+          "id": "3ZWeKCqRahM",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "title": "真生活",
+      "key": "真生活",
+      "urls": [
+        {
+          "id": "FW8djhz8RJQ",
+          "memberId": "yura",
+          "publishedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
       "title": "セレナーデ - なとり",
       "key": "セレナデ-なとり",
       "urls": [
@@ -520,69 +593,6 @@ window.SONGS = {
           "publishedAt": "2026-11-16"
         }
       ]
-    },
-    {
-      "title": "さよーならまたいつか！",
-      "key": "さよならまたいつか！",
-      "urls": [
-        {
-          "id": "1LVXb__vHjo",
-          "memberId": "akubi",
-          "publishedAt": "2026-11-16"
-        }
-      ]
-    },
-    {
-      "title": "これから",
-      "key": "これから",
-      "urls": [
-        {
-          "id": "AC7i7JGKRnE",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-11-16"
-        }
-      ]
-    },
-    {
-      "title": "Henceforth",
-      "key": "henceforth",
-      "urls": [
-        {
-          "id": "qQGJV431vVI",
-          "memberId": "raco",
-          "publishedAt": "2026-11-16"
-        }
-      ]
-    },
-    {
-      "title": "ラグトレイン",
-      "key": "ラグトレイン",
-      "urls": [
-        {
-          "id": "GLU0JIrSqn0",
-          "memberId": "nono",
-          "publishedAt": "2026-11-16"
-        },
-        {
-          "id": "XogPaIFnJDo",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-07-04"
-        }
-      ]
-    },
-    {
-      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
-      "key": "奏-.",
-      "urls": [
-        {
-          "id": "e6acfMolexU",
-          "memberId": "mahoro",
-          "publishedAt": "2026-11-15"
-        }
-      ],
-      "en": {
-        "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
-      }
     },
     {
       "title": "ただ声一つ / ロクデナシ",
@@ -618,6 +628,45 @@ window.SONGS = {
       }
     },
     {
+      "title": "Letters To Me - 鹿乃まほろ cover.",
+      "key": "letterstome-.",
+      "urls": [
+        {
+          "id": "oXXXfkwBNhU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-21"
+        }
+      ],
+      "en": {
+        "title": "Letters To Me - Mahoro Kano cover."
+      }
+    },
+    {
+      "title": "さよーならまたいつか！",
+      "key": "さよならまたいつか！",
+      "urls": [
+        {
+          "id": "1LVXb__vHjo",
+          "memberId": "akubi",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
+      "key": "奏-.",
+      "urls": [
+        {
+          "id": "e6acfMolexU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-15"
+        }
+      ],
+      "en": {
+        "title": "Kanade (Sukima Switch) - Mahoro Kano cover."
+      }
+    },
+    {
       "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
       "key": "ギタと孤独と蒼い惑星",
       "urls": [
@@ -646,18 +695,15 @@ window.SONGS = {
       }
     },
     {
-      "title": "狂乱 Hey Kids!!",
-      "key": "狂乱heykids!!",
+      "title": "Henceforth",
+      "key": "henceforth",
       "urls": [
         {
-          "id": "Uvz0tf2tGIE",
-          "memberId": "rei",
-          "publishedAt": "2026-10-14"
+          "id": "qQGJV431vVI",
+          "memberId": "raco",
+          "publishedAt": "2026-11-16"
         }
-      ],
-      "en": {
-        "title": "Frenzy Hey Kids!!"
-      }
+      ]
     },
     {
       "title": "デビットビット",
@@ -674,17 +720,28 @@ window.SONGS = {
       }
     },
     {
-      "title": "おもかげ",
-      "key": "おもかげ",
+      "title": "これから",
+      "key": "これから",
       "urls": [
         {
-          "id": "QlaGDL69HjY",
-          "memberId": "nono",
-          "publishedAt": "2026-09-22"
+          "id": "AC7i7JGKRnE",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "title": "狂乱 Hey Kids!!",
+      "key": "狂乱heykids!!",
+      "urls": [
+        {
+          "id": "Uvz0tf2tGIE",
+          "memberId": "rei",
+          "publishedAt": "2026-10-14"
         }
       ],
       "en": {
-        "title": "Omokage"
+        "title": "Frenzy Hey Kids!!"
       }
     },
     {
@@ -730,6 +787,22 @@ window.SONGS = {
       }
     },
     {
+      "title": "ラグトレイン",
+      "key": "ラグトレイン",
+      "urls": [
+        {
+          "id": "GLU0JIrSqn0",
+          "memberId": "nono",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "id": "XogPaIFnJDo",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
       "title": "Surges",
       "key": "surges＆",
       "urls": [
@@ -760,6 +833,34 @@ window.SONGS = {
       }
     },
     {
+      "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
+      "key": "ワルドランプシェド",
+      "urls": [
+        {
+          "id": "dkfixC4fq-w",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "en": {
+        "title": "World Lampshade / Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "おもかげ",
+      "key": "おもかげ",
+      "urls": [
+        {
+          "id": "QlaGDL69HjY",
+          "memberId": "nono",
+          "publishedAt": "2026-09-22"
+        }
+      ],
+      "en": {
+        "title": "Omokage"
+      }
+    },
+    {
       "title": "III",
       "key": "iii",
       "urls": [
@@ -787,20 +888,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "That summer is saturated. /Kanzaki Iori"
-      }
-    },
-    {
-      "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
-      "key": "ワルドランプシェド",
-      "urls": [
-        {
-          "id": "dkfixC4fq-w",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-09-03"
-        }
-      ],
-      "en": {
-        "title": "World Lampshade / Nemugumo Tsukuri (cover)"
       }
     },
     {
@@ -943,30 +1030,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "夏色えがおで1,2,Jump!",
-      "key": "夏色えがおで1,2,jump!",
-      "urls": [
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "nuhu",
-          "publishedAt": "2026-08-19"
-        },
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "official",
-          "publishedAt": "2026-08-21"
-        },
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "raco",
-          "publishedAt": "2026-08-16"
-        }
-      ],
-      "en": {
-        "title": "Summer color picture 1,2,Jump!"
-      }
-    },
-    {
       "title": "イケナイ太陽",
       "key": "イケナイ太陽",
       "urls": [
@@ -991,6 +1054,30 @@ window.SONGS = {
       }
     },
     {
+      "title": "夏色えがおで1,2,Jump!",
+      "key": "夏色えがおで1,2,jump!",
+      "urls": [
+        {
+          "id": "g4qGSYgxHLU",
+          "memberId": "nuhu",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "id": "g4qGSYgxHLU",
+          "memberId": "official",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "id": "g4qGSYgxHLU",
+          "memberId": "raco",
+          "publishedAt": "2026-08-16"
+        }
+      ],
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
+    },
+    {
       "title": "カゲロウデイズ",
       "key": "カゲロウデイズfeat.",
       "urls": [
@@ -1007,20 +1094,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "Kagerou Days"
-      }
-    },
-    {
-      "title": "あぶく",
-      "key": "あぶく",
-      "urls": [
-        {
-          "id": "HIqDEryZgVk",
-          "memberId": "nono",
-          "publishedAt": "2026-08-15"
-        }
-      ],
-      "en": {
-        "title": "Bubbles"
       }
     },
     {
@@ -1046,6 +1119,20 @@ window.SONGS = {
       ],
       "en": {
         "title": "monster with no name"
+      }
+    },
+    {
+      "title": "あぶく",
+      "key": "あぶく",
+      "urls": [
+        {
+          "id": "HIqDEryZgVk",
+          "memberId": "nono",
+          "publishedAt": "2026-08-15"
+        }
+      ],
+      "en": {
+        "title": "Bubbles"
       }
     },
     {
@@ -1105,23 +1192,15 @@ window.SONGS = {
       }
     },
     {
-      "title": "シス×ラブ",
-      "key": "シスラブ＆",
+      "title": "I’m a mess",
+      "key": "i’mamess",
       "urls": [
         {
-          "id": "srWPlYD9-lQ",
-          "memberId": "raco",
-          "publishedAt": "2026-07-04"
-        },
-        {
-          "id": "srWPlYD9-lQ",
-          "memberId": "yura",
-          "publishedAt": "2026-07-04"
+          "id": "xQSTs3nRxMg",
+          "memberId": "akubi",
+          "publishedAt": "2026-06-28"
         }
-      ],
-      "en": {
-        "title": "Sis x Love"
-      }
+      ]
     },
     {
       "title": "プラネテス",
@@ -1136,17 +1215,6 @@ window.SONGS = {
       "en": {
         "title": "Planetes"
       }
-    },
-    {
-      "title": "I’m a mess",
-      "key": "i’mamess",
-      "urls": [
-        {
-          "id": "xQSTs3nRxMg",
-          "memberId": "akubi",
-          "publishedAt": "2026-06-28"
-        }
-      ]
     },
     {
       "title": "点描の唄 / Mrs. GREEN APPLE",
@@ -1165,6 +1233,25 @@ window.SONGS = {
       ],
       "en": {
         "title": "Pointillist Song / Mrs. GREEN APPLE"
+      }
+    },
+    {
+      "title": "シス×ラブ",
+      "key": "シスラブ＆",
+      "urls": [
+        {
+          "id": "srWPlYD9-lQ",
+          "memberId": "raco",
+          "publishedAt": "2026-07-04"
+        },
+        {
+          "id": "srWPlYD9-lQ",
+          "memberId": "yura",
+          "publishedAt": "2026-07-04"
+        }
+      ],
+      "en": {
+        "title": "Sis x Love"
       }
     },
     {
@@ -3042,22 +3129,6 @@ window.SONGS = {
       ]
     },
     {
-      "title": "しんでしまうとはなさけない！／小廻こま × 夕霧レイ（cover）",
-      "key": "しんでしまうとはなさけない！",
-      "urls": [
-        {
-          "id": "J_SDhKZkOsQ",
-          "memberId": "koma",
-          "publishedAt": "2026-11-18"
-        },
-        {
-          "id": "J_SDhKZkOsQ",
-          "memberId": "rei",
-          "publishedAt": "2026-11-18"
-        }
-      ]
-    },
-    {
       "title": "Legend of Mermaid",
       "key": "legendofmermaid",
       "urls": [
@@ -3181,20 +3252,6 @@ window.SONGS = {
           "publishedAt": "2026-06-27"
         }
       ]
-    },
-    {
-      "title": "Letters To Me - 鹿乃まほろ cover.",
-      "key": "letterstome-.",
-      "urls": [
-        {
-          "id": "oXXXfkwBNhU",
-          "memberId": "mahoro",
-          "publishedAt": "2026-10-29"
-        }
-      ],
-      "en": {
-        "title": "Letters To Me - Mahoro Kano cover."
-      }
     },
     {
       "title": "DAYBREAK FRONTLINE（Orangestar）/ acoustic cover. 鹿乃",

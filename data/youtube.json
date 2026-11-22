@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-21T15:02:14.173Z",
+  "updatedAt": "2026-11-21T23:41:03.477Z",
   "streams": [
-    {
-      "id": "DmS-DyRfP8s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T13:01:35Z",
-      "status": "live"
-    },
-    {
-      "id": "8WxiXNe4-Os",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T14:16:55Z",
-      "status": "live"
-    },
     {
       "id": "ZmXOwmBFgj8",
       "memberId": "nono",
@@ -153,8 +135,18 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg?v=6b01a7a8",
-      "publishedAt": "2026-11-21T14:16:55Z",
+      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg",
+      "publishedAt": "2026-11-21T18:43:33Z",
+      "live": false
+    },
+    {
+      "id": "DmS-DyRfP8s",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg",
+      "publishedAt": "2026-11-21T16:09:39Z",
       "live": false
     },
     {
@@ -175,16 +167,6 @@
       "title": "【 APEX 】ゆるっとランク♪カスタムに向けて少しでもキャラに慣れる！【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/zbK70jpLYa8/hqdefault.jpg",
       "publishedAt": "2026-11-21T13:52:59Z",
-      "live": false
-    },
-    {
-      "id": "DmS-DyRfP8s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg?v=6b018e96",
-      "publishedAt": "2026-11-21T13:01:35Z",
       "live": false
     },
     {
@@ -448,24 +430,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "DmS-DyRfP8s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T13:01:35Z",
-      "status": "live"
-    },
-    {
-      "id": "8WxiXNe4-Os",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T14:16:55Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
