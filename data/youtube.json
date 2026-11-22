@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-11-21T23:41:03.477Z",
+  "updatedAt": "2026-11-22T14:59:44.868Z",
   "streams": [
     {
-      "id": "ZmXOwmBFgj8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【#ののとノクターン】第2回のゲストはてにをは様！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-22T12:00:00Z",
+      "id": "nruIpOCG6NI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-22T12:42:46Z",
+      "status": "live"
+    },
+    {
+      "id": "DP2SU4mhoKc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】ぶいすぽGGカスタム！笑顔でGGって言いたい！！！w/心白てと, 碧依さくら【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DP2SU4mhoKc/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-23T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -129,6 +138,96 @@
     }
   ],
   "videos": [
+    {
+      "id": "ZmXOwmBFgj8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#ののとノクターン】第2回のゲストはてにをは様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg",
+      "publishedAt": "2026-11-22T14:02:00Z",
+      "live": false
+    },
+    {
+      "id": "yKxIF9_Bml8",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Apex Legends】ぶいすぽGGスクリム！3人で楽しくがんばる！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
+      "thumb": "https://i.ytimg.com/vi/yKxIF9_Bml8/hqdefault.jpg",
+      "publishedAt": "2026-11-22T13:59:02Z",
+      "live": false
+    },
+    {
+      "id": "nruIpOCG6NI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg?v=6b02a267",
+      "publishedAt": "2026-11-22T12:42:46Z",
+      "live": false
+    },
+    {
+      "id": "DP2SU4mhoKc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 APEX 】ぶいすぽGGカスタム！笑顔でGGって言いたい！！！w/心白てと, 碧依さくら【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DP2SU4mhoKc/hqdefault.jpg?v=6b02dcde",
+      "publishedAt": "2026-11-22T12:15:24Z",
+      "live": false
+    },
+    {
+      "id": "EoHrWX405ao",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【下剋上】先輩VS後輩！？プライドをかけた真剣勝負でまさかの結末にｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/EoHrWX405ao/hqdefault.jpg",
+      "publishedAt": "2026-11-22T10:00:08Z",
+      "live": false
+    },
+    {
+      "id": "fqheI4cf6Dc",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】お願いだから入らないで！絶対行動ゲーム！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fqheI4cf6Dc/hqdefault.jpg",
+      "publishedAt": "2026-11-22T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "jwbS5oa3P6k",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【右左どっち!?】4人で『カゲロウデイズ』歌ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/jwbS5oa3P6k/hqdefault.jpg",
+      "publishedAt": "2026-11-22T09:00:27Z",
+      "live": false
+    },
+    {
+      "id": "3ZWeKCqRahM",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/3ZWeKCqRahM/hqdefault.jpg",
+      "publishedAt": "2026-11-22T09:00:11Z",
+      "live": false
+    },
+    {
+      "id": "ADek0LTd0pQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【　ぴ　】間違いながら生きてたら、間違いない！【小廻こま/ミリプロ】#歌ってみた",
+      "thumb": "https://i.ytimg.com/vi/ADek0LTd0pQ/hqdefault.jpg",
+      "publishedAt": "2026-11-22T09:00:01Z",
+      "live": false
+    },
     {
       "id": "8WxiXNe4-Os",
       "memberId": "yura",
@@ -338,97 +437,17 @@
       "thumb": "https://i.ytimg.com/vi/r634BPOIKUY/hqdefault.jpg",
       "publishedAt": "2026-11-20T12:43:51Z",
       "live": false
-    },
-    {
-      "id": "ZmXOwmBFgj8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【#ののとノクターン】第2回のゲストはてにをは様！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg?v=6b0192d7",
-      "publishedAt": "2026-11-20T12:22:50Z",
-      "live": false
-    },
-    {
-      "id": "7QSEhUIAiOw",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "ニア / covered by ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/7QSEhUIAiOw/hqdefault.jpg",
-      "publishedAt": "2026-11-20T12:00:06Z",
-      "live": false
-    },
-    {
-      "id": "0TuXuglq-UA",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】こはくちゃんとといちゃんとカスタム本番に向けて練習だあ！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
-      "thumb": "https://i.ytimg.com/vi/0TuXuglq-UA/hqdefault.jpg",
-      "publishedAt": "2026-11-20T11:57:48Z",
-      "live": false
-    },
-    {
-      "id": "iuj-ZOPWGPU",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "検証！1日だけでVTuberになれるのか⁉ #shorts #nizimaLIVE #イラスト",
-      "thumb": "https://i.ytimg.com/vi/iuj-ZOPWGPU/hqdefault.jpg",
-      "publishedAt": "2026-11-20T09:15:34Z",
-      "live": false
-    },
-    {
-      "id": "Tp68DqWKzwU",
-      "memberId": "mayoi",
-      "member": "旋風マヨイ",
-      "channelTitle": "旋風マヨイ / TsumujiMayoi",
-      "title": "【令和VS平成⁉️】最強ボカロ合戦【旋風マヨイ/ミリプロ】#歌ってみた",
-      "thumb": "https://i.ytimg.com/vi/Tp68DqWKzwU/hqdefault.jpg",
-      "publishedAt": "2026-11-20T09:00:36Z",
-      "live": false
-    },
-    {
-      "id": "86HfraHzFyw",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【KING】以心伝心で歌ってみた！【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/86HfraHzFyw/hqdefault.jpg",
-      "publishedAt": "2026-11-20T09:00:27Z",
-      "live": false
-    },
-    {
-      "id": "aRk90_7ka8o",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】足跡でバレバレ！？隠れた犯人を見つけろ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aRk90_7ka8o/hqdefault.jpg",
-      "publishedAt": "2026-11-20T09:00:18Z",
-      "live": false
-    },
-    {
-      "id": "foJfAy-zibI",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【検証】ガチ” 1日\"でセルフ受肉VTuberになるチャレンジ やってみた結果…【nizima LIVE】",
-      "thumb": "https://i.ytimg.com/vi/foJfAy-zibI/hqdefault.jpg",
-      "publishedAt": "2026-11-20T09:00:07Z",
-      "live": false
-    },
-    {
-      "id": "3ZWeKCqRahM",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "？？？ - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/3ZWeKCqRahM/hqdefault.jpg",
-      "publishedAt": "2026-11-20T01:59:57Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "nruIpOCG6NI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-22T12:42:46Z",
+      "status": "live"
+    }
+  ]
 }

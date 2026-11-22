@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-22",
   "official": [
     {
       "id": "Dj9D6ZA2bDo",
@@ -551,8 +551,8 @@ window.SONGS = {
       ]
     },
     {
-      "title": "？？？ - 鹿乃まほろ cover.",
-      "key": "？？？-.",
+      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
+      "key": "回る空うさぎ-.",
       "urls": [
         {
           "id": "3ZWeKCqRahM",
