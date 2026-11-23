@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-22T14:59:44.868Z",
+  "updatedAt": "2026-11-22T23:57:31.929Z",
   "streams": [
-    {
-      "id": "nruIpOCG6NI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-22T12:42:46Z",
-      "status": "live"
-    },
     {
       "id": "DP2SU4mhoKc",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "title": "【 APEX 】ぶいすぽGGカスタム！笑顔でGGって言いたい！！！w/心白てと, 碧依さくら【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/DP2SU4mhoKc/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-23T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "7ErM_QlcdcY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Apex Legends】ぶいすぽGG本番！れつご～！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
+      "thumb": "https://i.ytimg.com/vi/7ErM_QlcdcY/hqdefault.jpg",
       "scheduledStartTime": "2026-11-23T10:00:00Z",
       "status": "upcoming"
     },
@@ -139,6 +139,26 @@
   ],
   "videos": [
     {
+      "id": "7ErM_QlcdcY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Apex Legends】ぶいすぽGG本番！れつご～！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
+      "thumb": "https://i.ytimg.com/vi/7ErM_QlcdcY/hqdefault.jpg?v=6b032f6d",
+      "publishedAt": "2026-11-22T18:07:39Z",
+      "live": false
+    },
+    {
+      "id": "nruIpOCG6NI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg",
+      "publishedAt": "2026-11-22T17:53:04Z",
+      "live": false
+    },
+    {
       "id": "ZmXOwmBFgj8",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -156,16 +176,6 @@
       "title": "【Apex Legends】ぶいすぽGGスクリム！3人で楽しくがんばる！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
       "thumb": "https://i.ytimg.com/vi/yKxIF9_Bml8/hqdefault.jpg",
       "publishedAt": "2026-11-22T13:59:02Z",
-      "live": false
-    },
-    {
-      "id": "nruIpOCG6NI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg?v=6b02a267",
-      "publishedAt": "2026-11-22T12:42:46Z",
       "live": false
     },
     {
@@ -427,27 +437,7 @@
       "thumb": "https://i.ytimg.com/vi/Q2qHtxGlF4A/hqdefault.jpg",
       "publishedAt": "2026-11-20T13:37:12Z",
       "live": false
-    },
-    {
-      "id": "r634BPOIKUY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "新しいおうちに招待するね",
-      "thumb": "https://i.ytimg.com/vi/r634BPOIKUY/hqdefault.jpg",
-      "publishedAt": "2026-11-20T12:43:51Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "nruIpOCG6NI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-22T12:42:46Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
