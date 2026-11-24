@@ -1,36 +1,6 @@
 {
-  "updatedAt": "2026-11-24T04:09:36.878Z",
+  "updatedAt": "2026-11-24T18:33:46.204Z",
   "streams": [
-    {
-      "id": "nElUBc_Ji-Y",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【📢グッズ情報】ハロウィンコレクション2026受注開始🎃",
-      "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-24T14:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "ML6UdIQfYv0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ミリプロ ハロウィンコレクション 2026🔧",
-      "thumb": "https://i.ytimg.com/vi/ML6UdIQfYv0/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-24T14:45:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁MilliPro Halloween Collection 2026🔧"
-      }
-    },
-    {
-      "id": "s8GUUlmV46k",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "🍓ミリプロ ハロウィンコレクション 2026🦌【〆11/24】",
-      "thumb": "https://i.ytimg.com/vi/s8GUUlmV46k/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-24T14:45:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "h9nYQNJBBts",
       "memberId": "nono",
@@ -121,6 +91,36 @@
   ],
   "videos": [
     {
+      "id": "zNiC6snFrbc",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【お絵描き雑談】新たなメン限背景考えてみる！",
+      "thumb": "https://i.ytimg.com/vi/zNiC6snFrbc/hqdefault.jpg",
+      "publishedAt": "2026-11-24T11:14:32Z",
+      "live": true
+    },
+    {
+      "id": "yL45fU4oMOw",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "『ルカルカ★ナイトフィーバー』踊ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/yL45fU4oMOw/hqdefault.jpg",
+      "publishedAt": "2026-11-24T09:00:16Z",
+      "live": false
+    },
+    {
+      "id": "Lg-RSDpXSCI",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】「あ」と「ん」だけで会話 #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/Lg-RSDpXSCI/hqdefault.jpg",
+      "publishedAt": "2026-11-24T09:00:02Z",
+      "live": false
+    },
+    {
       "id": "7ErM_QlcdcY",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -175,7 +175,7 @@
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ラストは超高音!?】裏声禁止でだんだんキーが上がる『フォニイ』歌ってみた！【海琳あおい/ミリプロ】",
+      "title": "【ラストは+14!?】 裏声禁止でだんだんキーが上がる『フォニイ』歌ってみた！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/c3XsoHfd3Fg/hqdefault.jpg",
       "publishedAt": "2026-11-23T09:01:34Z",
       "live": false
@@ -388,36 +388,6 @@
       "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
       "publishedAt": "2026-11-21T09:56:54Z",
-      "live": false
-    },
-    {
-      "id": "08rTWjEW754",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【どのボカロ曲でしょうか？】ボカロクイズに挑戦してみた！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/08rTWjEW754/hqdefault.jpg",
-      "publishedAt": "2026-11-21T09:01:20Z",
-      "live": false
-    },
-    {
-      "id": "CuUrJfzvxag",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "Double Tap Beat!👆💗Part 4 #shorts #DoubleTapBeat #animation",
-      "thumb": "https://i.ytimg.com/vi/CuUrJfzvxag/hqdefault.jpg",
-      "publishedAt": "2026-11-21T09:00:36Z",
-      "live": false
-    },
-    {
-      "id": "8W-WqEyBw_U",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【以心伝心】3人で『ヴァンパイア』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8W-WqEyBw_U/hqdefault.jpg",
-      "publishedAt": "2026-11-21T09:00:19Z",
       "live": false
     }
   ],

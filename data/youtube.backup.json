@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:55:02.531Z",
+  "updatedAt": "2026-11-24T04:09:36.878Z",
   "streams": [
     {
       "id": "nElUBc_Ji-Y",
@@ -121,6 +121,16 @@
   ],
   "videos": [
     {
+      "id": "7ErM_QlcdcY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Apex Legends】ぶいすぽGG本番！れつご～！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
+      "thumb": "https://i.ytimg.com/vi/7ErM_QlcdcY/hqdefault.jpg",
+      "publishedAt": "2026-11-23T20:43:24Z",
+      "live": false
+    },
+    {
       "id": "qhlQheL5Ugw",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -158,16 +168,6 @@
       "title": "【ダレカレ】「朝起きたら知らない男がいる。」絶対に泣いてしまうと噂のゲーム【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/A0CEx2vIpL4/hqdefault.jpg",
       "publishedAt": "2026-11-23T13:14:01Z",
-      "live": false
-    },
-    {
-      "id": "7ErM_QlcdcY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】ぶいすぽGG本番！れつご～！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
-      "thumb": "https://i.ytimg.com/vi/7ErM_QlcdcY/hqdefault.jpg?v=6b032f6d",
-      "publishedAt": "2026-11-23T13:11:50Z",
       "live": false
     },
     {
