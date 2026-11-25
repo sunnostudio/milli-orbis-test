@@ -684,10 +684,13 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "StarRingChild",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Midnight Sun",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "butterfly knot"
+      }
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -720,13 +723,10 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版)",
+      "artist": "Dream Ami",
+      "album": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/4f/58/754f582c-d1fd-e35d-c622-f83ee6ed1fae/25UM2IM06914.rgb.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1272,10 +1272,10 @@ window.SONG_MASTER = {
       }
     },
     "slashyama": {
-      "title": "/SLASH",
-      "artist": "ROF-MAO",
-      "album": "/SLASH - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/70/86/fc708689-14f0-d566-5202-e6499912ce7a/26UM1IM29256.rgb.jpg/600x600bb.jpg"
+      "title": "slash",
+      "artist": "yama",
+      "album": "slash - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e5/75/38e57594-3fb3-b71c-55fd-6aa2e7ce6d7e/4547366615692.jpg/600x600bb.jpg"
     },
     "legendofmermaid": {
       "title": "Legend of Mermaid",
@@ -1800,13 +1800,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Ichikayori world"
-      }
+      "title": "ブルーアンバー",
+      "artist": "back number",
+      "album": "ブルーアンバー - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/b9/bc/d5b9bc67-dc87-e451-1ccb-67f3e8b77aa6/25UMGIM41036.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1878,13 +1875,10 @@ window.SONG_MASTER = {
       }
     },
     "東京レトロいました": {
-      "title": "ベイビー・アイラブユー",
-      "artist": "TEE",
-      "album": "Baby I Love You",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a6/5d/97/a65d97f9-c02a-0702-305c-72e364e84910/00600406136404.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "baby i love you"
-      }
+      "title": "忘れる前に",
+      "artist": "Vaundy",
+      "album": "忘れる前に - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f6/9a/54f69acd-e53b-69a2-9a79-2945bd512df7/4582795383422.jpg/600x600bb.jpg"
     },
     "繰り返し一粒いました": {
       "title": "夜に駆ける",

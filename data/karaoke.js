@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "lDqoVxt0ZTA",
+    "memberId": "yura",
+    "publishedAt": "2026-11-25",
+    "title": "【 歌枠 】グルグルになったら終わるンゴゴゴ【 #ゆらのやすらぎ 】",
+    "duration": 5795,
+    "songs": []
+  },
+  {
     "id": "TLNp-TOBy7U",
     "memberId": "raco",
     "publishedAt": "2026-11-24",

@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-24T18:33:46.204Z",
+  "updatedAt": "2026-11-25T02:54:03.474Z",
   "streams": [
+    {
+      "id": "TAKa1F9qzRs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TAKa1F9qzRs/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-29T13:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "h9nYQNJBBts",
       "memberId": "nono",
@@ -90,6 +99,36 @@
     }
   ],
   "videos": [
+    {
+      "id": "IYZ3ByC4MUw",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】おはよ～ございます☀少しお話していきませんか～！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IYZ3ByC4MUw/hqdefault.jpg",
+      "publishedAt": "2026-11-25T00:07:02Z",
+      "live": true
+    },
+    {
+      "id": "TLNp-TOBy7U",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】たまには朝活とかしちゃったり【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TLNp-TOBy7U/hqdefault.jpg",
+      "publishedAt": "2026-11-24T23:40:24Z",
+      "live": false
+    },
+    {
+      "id": "TAKa1F9qzRs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TAKa1F9qzRs/hqdefault.jpg?v=6b05ea68",
+      "publishedAt": "2026-11-24T19:49:58Z",
+      "live": false
+    },
     {
       "id": "zNiC6snFrbc",
       "memberId": "nuhu",
@@ -358,36 +397,6 @@
       "title": "ぼうけんのしょがきえました！／夕霧レイ × 小廻こま（cover）",
       "thumb": "https://i.ytimg.com/vi/-9NCG8TzzUc/hqdefault.jpg",
       "publishedAt": "2026-11-21T11:10:10Z",
-      "live": false
-    },
-    {
-      "id": "J_SDhKZkOsQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "しんでしまうとはなさけない！／小廻こま × 夕霧レイ（cover）",
-      "thumb": "https://i.ytimg.com/vi/J_SDhKZkOsQ/hqdefault.jpg",
-      "publishedAt": "2026-11-21T11:00:11Z",
-      "live": false
-    },
-    {
-      "id": "aCiEZ7a5Zzs",
-      "memberId": "pukaama",
-      "member": "ぷかあまぱーく",
-      "channelTitle": "ぷかあまぱーく",
-      "title": "【閲覧注意】イラストレーターVTuber同士が性癖交換して絵を描いてみたら衝撃の結果に！？ww【お絵描き】",
-      "thumb": "https://i.ytimg.com/vi/aCiEZ7a5Zzs/hqdefault.jpg",
-      "publishedAt": "2026-11-21T10:00:08Z",
-      "live": false
-    },
-    {
-      "id": "k5VBzDCV23M",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
-      "publishedAt": "2026-11-21T09:56:54Z",
       "live": false
     }
   ],

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-25T02:54:03.474Z",
+  "updatedAt": "2026-11-25T17:45:12.436Z",
   "streams": [
     {
       "id": "TAKa1F9qzRs",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
-      "title": "まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
+      "title": "【雑談＋歌】まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/TAKa1F9qzRs/hqdefault.jpg",
       "scheduledStartTime": "2026-11-29T13:00:00Z",
       "status": "upcoming"
@@ -100,6 +100,66 @@
   ],
   "videos": [
     {
+      "id": "lDqoVxt0ZTA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 歌枠 】グルグルになったら終わるンゴゴゴ【 #ゆらのやすらぎ 】",
+      "thumb": "https://i.ytimg.com/vi/lDqoVxt0ZTA/hqdefault.jpg",
+      "publishedAt": "2026-11-25T14:19:59Z",
+      "live": false
+    },
+    {
+      "id": "3aS-CpvGl8E",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【いんぐりっしゅ難しい】『FOCUS』歌ってみた 【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3aS-CpvGl8E/hqdefault.jpg",
+      "publishedAt": "2026-11-25T09:01:28Z",
+      "live": false
+    },
+    {
+      "id": "91FF306eTqI",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】誰もいない！？絶対に終わらない水中かくれんぼ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/91FF306eTqI/hqdefault.jpg",
+      "publishedAt": "2026-11-25T09:00:30Z",
+      "live": false
+    },
+    {
+      "id": "Dy0dnm9r6lU",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【音ノ瀬らこと】1文字目で何の曲か当てろ！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Dy0dnm9r6lU/hqdefault.jpg",
+      "publishedAt": "2026-11-25T09:00:22Z",
+      "live": false
+    },
+    {
+      "id": "Ys4J9Z40Y_4",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "二日酔いVTuberのリアル",
+      "thumb": "https://i.ytimg.com/vi/Ys4J9Z40Y_4/hqdefault.jpg",
+      "publishedAt": "2026-11-25T09:00:07Z",
+      "live": false
+    },
+    {
+      "id": "FtXr-g454HU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【Apex Legends】お昼のソロランク頑張るぞ～～！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/FtXr-g454HU/hqdefault.jpg",
+      "publishedAt": "2026-11-25T06:06:46Z",
+      "live": false
+    },
+    {
       "id": "IYZ3ByC4MUw",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -124,10 +184,10 @@
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
+      "title": "【雑談＋歌】まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/TAKa1F9qzRs/hqdefault.jpg?v=6b05ea68",
       "publishedAt": "2026-11-24T19:49:58Z",
-      "live": false
+      "live": true
     },
     {
       "id": "zNiC6snFrbc",
@@ -337,66 +397,6 @@
       "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg",
       "publishedAt": "2026-11-21T18:43:33Z",
-      "live": false
-    },
-    {
-      "id": "DmS-DyRfP8s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 耐久歌枠 〗改めて29万人お迎えします〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/DmS-DyRfP8s/hqdefault.jpg",
-      "publishedAt": "2026-11-21T16:09:39Z",
-      "live": false
-    },
-    {
-      "id": "EbuN1fmR_u0",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 APEX 】ゆるゆるランク上げえぺ【 音ノ瀬らこ 】",
-      "thumb": "https://i.ytimg.com/vi/EbuN1fmR_u0/hqdefault.jpg",
-      "publishedAt": "2026-11-21T13:58:47Z",
-      "live": false
-    },
-    {
-      "id": "zbK70jpLYa8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】ゆるっとランク♪カスタムに向けて少しでもキャラに慣れる！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/zbK70jpLYa8/hqdefault.jpg",
-      "publishedAt": "2026-11-21T13:52:59Z",
-      "live": false
-    },
-    {
-      "id": "qKUB-P6qfAU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg",
-      "publishedAt": "2026-11-21T12:07:07Z",
-      "live": false
-    },
-    {
-      "id": "Dj9D6ZA2bDo",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "Princess Viral / 音ノ乃のの  (namigroove Remix)",
-      "thumb": "https://i.ytimg.com/vi/Dj9D6ZA2bDo/hqdefault.jpg",
-      "publishedAt": "2026-11-21T12:00:10Z",
-      "live": false
-    },
-    {
-      "id": "-9NCG8TzzUc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "ぼうけんのしょがきえました！／夕霧レイ × 小廻こま（cover）",
-      "thumb": "https://i.ytimg.com/vi/-9NCG8TzzUc/hqdefault.jpg",
-      "publishedAt": "2026-11-21T11:10:10Z",
       "live": false
     }
   ],
