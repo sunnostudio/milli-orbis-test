@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "TLNp-TOBy7U",
+    "memberId": "raco",
+    "publishedAt": "2026-11-24",
+    "title": "【歌枠】たまには朝活とかしちゃったり【音ノ瀬らこ /ミリプロ】",
+    "duration": 6465,
+    "songs": []
+  },
+  {
     "id": "DmS-DyRfP8s",
     "memberId": "tsukuri",
     "publishedAt": "2026-11-21",
