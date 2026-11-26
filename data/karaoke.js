@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "AInQgd85za4",
+    "memberId": "raco",
+    "publishedAt": "2026-11-26",
+    "title": "【歌枠】登録者47万人耐久‼️【音ノ瀬らこ /ミリプロ】",
+    "duration": 12790,
+    "songs": []
+  },
+  {
     "id": "lDqoVxt0ZTA",
     "memberId": "yura",
     "publishedAt": "2026-11-25",

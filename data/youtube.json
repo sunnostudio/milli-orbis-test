@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-26T02:00:15.996Z",
+  "updatedAt": "2026-11-26T17:28:31.680Z",
   "streams": [
+    {
+      "id": "QxAOAh6wSKU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 朝活 】1000人におはよういうまで終われな！？【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QxAOAh6wSKU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-26T22:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "TAKa1F9qzRs",
       "memberId": "mahoro",
@@ -21,6 +30,15 @@
       "en": {
         "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
       }
+    },
+    {
+      "id": "L1eIG3FGLdE",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】Ver.1.5だああああ！待望のExeがきたぞ！新コンテンツも盛りだくさん！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/L1eIG3FGLdE/hqdefault.jpg",
+      "scheduledStartTime": "2026-12-02T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pnSTro7MCbQ",
@@ -100,13 +118,103 @@
   ],
   "videos": [
     {
-      "id": "lDqoVxt0ZTA",
+      "id": "DibA3dcHrYc",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 歌枠 】グルグルになったら終わるンゴゴゴ【 #ゆらのやすらぎ 】",
-      "thumb": "https://i.ytimg.com/vi/lDqoVxt0ZTA/hqdefault.jpg",
-      "publishedAt": "2026-11-25T14:19:59Z",
+      "title": "【 NTE 】 番外編！「あの日の私たちへ」ネコトリ！！！！やるぞ！！！！！！！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DibA3dcHrYc/hqdefault.jpg",
+      "publishedAt": "2026-11-26T17:00:58Z",
+      "live": false
+    },
+    {
+      "id": "QxAOAh6wSKU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】1000人におはよういうまで終われな！？【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QxAOAh6wSKU/hqdefault.jpg?v=6b085b51",
+      "publishedAt": "2026-11-26T16:16:14Z",
+      "live": false
+    },
+    {
+      "id": "AInQgd85za4",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】登録者47万人耐久‼️【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AInQgd85za4/hqdefault.jpg",
+      "publishedAt": "2026-11-26T15:28:06Z",
+      "live": false
+    },
+    {
+      "id": "88QTG4TEIAU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】事故物件。過剰にホラーが‐苦手な人はご注意ください。【 #ゆらのやすらぎ 】",
+      "thumb": "https://i.ytimg.com/vi/88QTG4TEIAU/hqdefault.jpg",
+      "publishedAt": "2026-11-26T12:39:23Z",
+      "live": false
+    },
+    {
+      "id": "aQ5MJqDX2zo",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】一時間だけ歌う！！リクエストOK！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aQ5MJqDX2zo/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:14:27Z",
+      "live": false
+    },
+    {
+      "id": "HfJ2u2J6W1A",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【小廻こま と】1文字で何の曲か当てろゲーム！【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/HfJ2u2J6W1A/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:38Z",
+      "live": false
+    },
+    {
+      "id": "cx_0UMQJZ6E",
+      "memberId": "mayoi",
+      "member": "旋風マヨイ",
+      "channelTitle": "旋風マヨイ / TsumujiMayoi",
+      "title": "【これはなんと読む？】難読ボカロ歌詞クイズ②【旋風マヨイ/ミリプロ】#歌ってみた",
+      "thumb": "https://i.ytimg.com/vi/cx_0UMQJZ6E/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:15Z",
+      "live": false
+    },
+    {
+      "id": "7MbAVcXXvc0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "どこが変わったかわかる？ウミユリ海底譚歌ってみた【ゆらぎゆら/ミリプロ】 #歌ってみた",
+      "thumb": "https://i.ytimg.com/vi/7MbAVcXXvc0/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:02Z",
+      "live": false
+    },
+    {
+      "id": "kyUFG7Psf1A",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】NET CHOOSE SHOW #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/kyUFG7Psf1A/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:01Z",
+      "live": false
+    },
+    {
+      "id": "L1eIG3FGLdE",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】Ver.1.5だああああ！待望のExeがきたぞ！新コンテンツも盛りだくさん！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/L1eIG3FGLdE/hqdefault.jpg?v=6b07216e",
+      "publishedAt": "2026-11-25T17:57:00Z",
       "live": false
     },
     {
@@ -250,16 +358,6 @@
       "live": true
     },
     {
-      "id": "DP2SU4mhoKc",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】ぶいすぽGGカスタム！笑顔でGGって言いたい！！！w/心白てと, 碧依さくら【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/DP2SU4mhoKc/hqdefault.jpg",
-      "publishedAt": "2026-11-23T13:34:30Z",
-      "live": false
-    },
-    {
       "id": "A0CEx2vIpL4",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -300,16 +398,6 @@
       "live": false
     },
     {
-      "id": "NjmgbJIjQIg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【APEX】キャラに操作慣れるぞ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/NjmgbJIjQIg/hqdefault.jpg",
-      "publishedAt": "2026-11-23T08:26:20Z",
-      "live": false
-    },
-    {
       "id": "nruIpOCG6NI",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -327,76 +415,6 @@
       "title": "【#ののとノクターン】第2回のゲストはてにをは様！┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg",
       "publishedAt": "2026-11-22T14:02:00Z",
-      "live": false
-    },
-    {
-      "id": "yKxIF9_Bml8",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】ぶいすぽGGスクリム！3人で楽しくがんばる！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
-      "thumb": "https://i.ytimg.com/vi/yKxIF9_Bml8/hqdefault.jpg",
-      "publishedAt": "2026-11-22T13:59:02Z",
-      "live": false
-    },
-    {
-      "id": "EoHrWX405ao",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【下剋上】先輩VS後輩！？プライドをかけた真剣勝負でまさかの結末にｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/EoHrWX405ao/hqdefault.jpg",
-      "publishedAt": "2026-11-22T10:00:08Z",
-      "live": false
-    },
-    {
-      "id": "fqheI4cf6Dc",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】お願いだから入らないで！絶対行動ゲーム！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fqheI4cf6Dc/hqdefault.jpg",
-      "publishedAt": "2026-11-22T09:00:28Z",
-      "live": false
-    },
-    {
-      "id": "jwbS5oa3P6k",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【右左どっち!?】4人で『カゲロウデイズ』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/jwbS5oa3P6k/hqdefault.jpg",
-      "publishedAt": "2026-11-22T09:00:27Z",
-      "live": false
-    },
-    {
-      "id": "3ZWeKCqRahM",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/3ZWeKCqRahM/hqdefault.jpg",
-      "publishedAt": "2026-11-22T09:00:11Z",
-      "live": false
-    },
-    {
-      "id": "ADek0LTd0pQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【　ぴ　】間違いながら生きてたら、間違いない！【小廻こま/ミリプロ】#歌ってみた",
-      "thumb": "https://i.ytimg.com/vi/ADek0LTd0pQ/hqdefault.jpg",
-      "publishedAt": "2026-11-22T09:00:01Z",
-      "live": false
-    },
-    {
-      "id": "8WxiXNe4-Os",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】カスタム練習！！！！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8WxiXNe4-Os/hqdefault.jpg",
-      "publishedAt": "2026-11-21T18:43:33Z",
       "live": false
     }
   ],
