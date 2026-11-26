@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-25",
+  "generatedAt": "2026-11-26",
   "official": [
     {
       "id": "Dj9D6ZA2bDo",
@@ -508,6 +508,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
+      "key": "回る空うさぎ-.",
+      "urls": [
+        {
+          "id": "3ZWeKCqRahM",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
       "title": "ぼうけんのしょがきえました！／夕霧レイ × 小廻こま（cover）",
       "key": "ぼうけんのしょがきえました！",
       "urls": [
@@ -546,17 +557,6 @@ window.SONGS = {
         {
           "id": "7QSEhUIAiOw",
           "memberId": "yura",
-          "publishedAt": "2026-11-21"
-        }
-      ]
-    },
-    {
-      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
-      "key": "回る空うさぎ-.",
-      "urls": [
-        {
-          "id": "3ZWeKCqRahM",
-          "memberId": "mahoro",
           "publishedAt": "2026-11-21"
         }
       ]
