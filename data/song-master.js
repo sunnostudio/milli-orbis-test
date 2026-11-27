@@ -409,16 +409,16 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "麻婆豆腐",
+      "artist": "doriko",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/f1/d5/abf1d530-f67d-b8d6-69dc-18af39756a63/SCGA-00310.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
       "en": {
         "title": "romeo and cinderella"
       }
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
-      "artist": "DECO*27",
+      "artist": "DECO*27 & 初音ミク",
       "album": "愛言葉Ⅳ - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/46/b1/9246b172-c303-b082-7ac2-8b78ffe89711/4511820-95551.jpg/600x600bb.jpg",
       "en": {
@@ -720,12 +720,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
       "en": {
-        "title": "Feels good"
+        "title": "Swallow (feat. Midleys)"
       }
     },
     "1000年生きてる": {
@@ -748,7 +748,7 @@ window.SONG_MASTER = {
     },
     "ラビットホル": {
       "title": "ラビットホール",
-      "artist": "DECO*27",
+      "artist": "DECO*27 & 初音ミク",
       "album": "ラビットホール - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/1e/f0/dc1ef0a5-40b8-434e-2213-e4a1c83022d1/4511820-95968.jpg/600x600bb.jpg",
       "en": {
