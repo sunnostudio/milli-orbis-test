@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-26",
+  "generatedAt": "2026-11-27",
   "songs": {
     "ぼうけんのしょがきえました！": {
       "title": "花占い",
@@ -383,6 +383,15 @@ window.SONG_MASTER = {
         "title": "Black★Rock Shooter (Cover)"
       }
     },
+    "daybreakfrontline": {
+      "title": "DAYBREAK FRONTLINE (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & Hatsune Miku)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM vol.2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/1a/19/881a1906-be30-d547-7651-b0518a6bb446/4511820-60049.jpg/600x600bb.jpg",
+      "en": {
+        "title": "DAYBREAK FRONTLINE (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Toya Aoyagi & Hatsune Miku)"
+      }
+    },
     "フィナレ。": {
       "title": "フィナーレ。",
       "artist": "eill",
@@ -675,13 +684,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "地球儀 (with Vaundy)",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "butterfly knot"
-      }
+      "album": "Walpurgis",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -856,18 +862,18 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "P丸様。",
-      "album": "Sunny!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
+      "artist": "かいりきベア",
+      "album": "バグエフェクト",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
     },
     "心做し": {
       "title": "心做し",
-      "artist": "Sou",
-      "album": "深層から",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
+      "artist": "majiko",
+      "album": "Contrast",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -1350,12 +1356,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "ドライフラワー",
-      "artist": "Uru",
-      "album": "ファーストラヴ",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
+      "title": "オーケストラ - From THE FIRST TAKE",
+      "artist": "アイナ・ジ・エンド",
+      "album": "オーケストラ - From THE FIRST TAKE - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/73/fa/69/73fa6945-c13b-e32e-b41d-0730d48a6943/ANTCD-A0000003752.jpg/600x600bb.jpg",
       "en": {
-        "title": "dried flowers"
+        "title": "Orchestra - From THE FIRST TAKE"
       }
     },
     "雨き声残響acoustic.": {
