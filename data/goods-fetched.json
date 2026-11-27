@@ -515,8 +515,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -548,8 +549,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -581,8 +583,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら"
     ],
     "product_type": "ボイス",
@@ -613,8 +616,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -646,8 +650,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -679,8 +684,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -712,8 +718,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -745,8 +752,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら"
     ],
     "product_type": "ボイス",
@@ -777,8 +785,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -810,8 +819,9 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
+      "まもなく終了",
       "ゆらぎゆら",
       "常設同梱不可"
     ],
@@ -7161,7 +7171,7 @@
       "音ノ瀬らこ"
     ],
     "product_type": "カードゲーム",
-    "available": false,
+    "available": true,
     "published_at": "2026-07-17T19:28:08+09:00"
   },
   {
@@ -7199,7 +7209,7 @@
       "音ノ瀬らこ"
     ],
     "product_type": "カードゲーム",
-    "available": false,
+    "available": true,
     "published_at": "2026-07-17T19:28:07+09:00"
   },
   {
