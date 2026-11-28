@@ -508,6 +508,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "創聖のアクエリオン（AKINO） - 鹿乃まほろ cover.",
+      "key": "創聖のアクエリオン-.",
+      "urls": [
+        {
+          "id": "GHikg4z5AdU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-28"
+        }
+      ]
+    },
+    {
       "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
       "key": "回る空うさぎ-.",
       "urls": [
@@ -3250,17 +3261,6 @@ window.SONGS = {
           "id": "8GrmzSxxJkI",
           "memberId": "liz",
           "publishedAt": "2026-06-27"
-        }
-      ]
-    },
-    {
-      "title": "？？？ - 鹿乃まほろ cover.",
-      "key": "？？？-.",
-      "urls": [
-        {
-          "id": "GHikg4z5AdU",
-          "memberId": "mahoro",
-          "publishedAt": "2026-11-28"
         }
       ]
     },

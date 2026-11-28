@@ -1,31 +1,22 @@
 {
-  "updatedAt": "2026-11-28T01:45:10.820Z",
+  "updatedAt": "2026-11-28T15:55:29.489Z",
   "streams": [
     {
-      "id": "TcPIMfoooaw",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 Potato Please 】剥く。すべてを。⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-28T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "AkmJpEFi-4A",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 メン限 】さて、乾杯 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AkmJpEFi-4A/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-28T14:00:00Z",
-      "status": "upcoming"
+      "id": "8dAq6B4VfGA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【 APEX 】ゆるゆるえぺんちょす【 音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/8dAq6B4VfGA/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-28T14:30:17Z",
+      "status": "live"
     },
     {
       "id": "ajFu5VLHpBg",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "(時間変更の可能性大)【 NTE 】 大絶賛と噂の最新ストーリー！第9章「再会の虚数解」Ver.1.5【 ゆらぎゆら / ミリプロ 】",
+      "title": "【 NTE 】 大絶賛と噂の最新ストーリー！第9章「再会の虚数解」Ver.1.5【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/ajFu5VLHpBg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-29T04:30:00Z",
+      "scheduledStartTime": "2026-11-29T03:00:00Z",
       "status": "upcoming"
     },
     {
@@ -145,13 +136,13 @@
   ],
   "videos": [
     {
-      "id": "AkmJpEFi-4A",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 メン限 】さて、乾杯 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AkmJpEFi-4A/hqdefault.jpg?v=6b09b850",
-      "publishedAt": "2026-11-27T17:05:17Z",
+      "id": "8dAq6B4VfGA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 APEX 】ゆるゆるえぺんちょす【 音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/8dAq6B4VfGA/hqdefault.jpg?v=6b0ae3f0",
+      "publishedAt": "2026-11-28T14:30:17Z",
       "live": false
     },
     {
@@ -160,8 +151,78 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 Potato Please 】剥く。すべてを。⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg?v=6b09b371",
-      "publishedAt": "2026-11-27T16:44:30Z",
+      "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg",
+      "publishedAt": "2026-11-28T14:20:34Z",
+      "live": false
+    },
+    {
+      "id": "N6iEdW5cpzk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】今宵歌い狂う(ぶちぶちぐるぐるしたら終わる)┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/N6iEdW5cpzk/hqdefault.jpg",
+      "publishedAt": "2026-11-28T14:08:23Z",
+      "live": false
+    },
+    {
+      "id": "L1fcGlOw2HE",
+      "memberId": "pukaama",
+      "member": "ぷかあまぱーく",
+      "channelTitle": "ぷかあまぱーく",
+      "title": "【ご報告】2人の子供が生まれました。【お絵描き】",
+      "thumb": "https://i.ytimg.com/vi/L1fcGlOw2HE/hqdefault.jpg",
+      "publishedAt": "2026-11-28T10:00:09Z",
+      "live": false
+    },
+    {
+      "id": "-ifpU3tn16I",
+      "memberId": "mayoi",
+      "member": "旋風マヨイ",
+      "channelTitle": "旋風マヨイ / TsumujiMayoi",
+      "title": "【初投稿】初配信が延期になりました。【ミリプロ / 手描きアニメ】",
+      "thumb": "https://i.ytimg.com/vi/-ifpU3tn16I/hqdefault.jpg",
+      "publishedAt": "2026-11-28T10:00:07Z",
+      "live": true
+    },
+    {
+      "id": "YqymEk08d9Y",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【 漢字でGOGO!】漢字のお勉強する！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YqymEk08d9Y/hqdefault.jpg",
+      "publishedAt": "2026-11-28T09:15:00Z",
+      "live": false
+    },
+    {
+      "id": "Nl-evRXSR3g",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【らこちと】ブルーアンビエンス歌ってみた！【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Nl-evRXSR3g/hqdefault.jpg",
+      "publishedAt": "2026-11-28T09:00:34Z",
+      "live": false
+    },
+    {
+      "id": "GHikg4z5AdU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "創聖のアクエリオン（AKINO） - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/GHikg4z5AdU/hqdefault.jpg",
+      "publishedAt": "2026-11-28T09:00:10Z",
+      "live": false
+    },
+    {
+      "id": "uttGbgS9C6w",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】世界に1つだけのダイヤを見つけ出せ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/uttGbgS9C6w/hqdefault.jpg",
+      "publishedAt": "2026-11-28T09:00:01Z",
       "live": false
     },
     {
@@ -199,7 +260,7 @@
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "(時間変更の可能性大)【 NTE 】 大絶賛と噂の最新ストーリー！第9章「再会の虚数解」Ver.1.5【 ゆらぎゆら / ミリプロ 】",
+      "title": "【 NTE 】 大絶賛と噂の最新ストーリー！第9章「再会の虚数解」Ver.1.5【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/ajFu5VLHpBg/hqdefault.jpg?v=6b096258",
       "publishedAt": "2026-11-27T10:58:30Z",
       "live": false
@@ -262,16 +323,6 @@
       "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/VFhewTONgSQ/hqdefault.jpg",
       "publishedAt": "2026-11-27T09:00:13Z",
-      "live": false
-    },
-    {
-      "id": "GHikg4z5AdU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "？？？ - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/GHikg4z5AdU/hqdefault.jpg",
-      "publishedAt": "2026-11-27T08:26:00Z",
       "live": false
     },
     {
@@ -383,67 +434,17 @@
       "thumb": "https://i.ytimg.com/vi/Dy0dnm9r6lU/hqdefault.jpg",
       "publishedAt": "2026-11-25T09:00:22Z",
       "live": false
-    },
-    {
-      "id": "Ys4J9Z40Y_4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "二日酔いVTuberのリアル",
-      "thumb": "https://i.ytimg.com/vi/Ys4J9Z40Y_4/hqdefault.jpg",
-      "publishedAt": "2026-11-25T09:00:07Z",
-      "live": false
-    },
-    {
-      "id": "FtXr-g454HU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【Apex Legends】お昼のソロランク頑張るぞ～～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/FtXr-g454HU/hqdefault.jpg",
-      "publishedAt": "2026-11-25T06:06:46Z",
-      "live": false
-    },
-    {
-      "id": "IYZ3ByC4MUw",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】おはよ～ございます☀少しお話していきませんか～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IYZ3ByC4MUw/hqdefault.jpg",
-      "publishedAt": "2026-11-25T00:07:02Z",
-      "live": true
-    },
-    {
-      "id": "-ifpU3tn16I",
-      "memberId": "mayoi",
-      "member": "旋風マヨイ",
-      "channelTitle": "旋風マヨイ / TsumujiMayoi",
-      "title": "【初投稿】初配信が延期になりました。【ミリプロ / 手描きアニメ】",
-      "thumb": "https://i.ytimg.com/vi/-ifpU3tn16I/hqdefault.jpg",
-      "publishedAt": "2026-11-24T23:55:44Z",
-      "live": true
-    },
-    {
-      "id": "TLNp-TOBy7U",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】たまには朝活とかしちゃったり【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/TLNp-TOBy7U/hqdefault.jpg",
-      "publishedAt": "2026-11-24T23:40:24Z",
-      "live": false
-    },
-    {
-      "id": "TAKa1F9qzRs",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談＋歌】まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/TAKa1F9qzRs/hqdefault.jpg?v=6b05ea68",
-      "publishedAt": "2026-11-24T19:49:58Z",
-      "live": true
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "8dAq6B4VfGA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【 APEX 】ゆるゆるえぺんちょす【 音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/8dAq6B4VfGA/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-28T14:30:17Z",
+      "status": "live"
+    }
+  ]
 }
