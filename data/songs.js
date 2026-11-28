@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-11-27",
+  "generatedAt": "2026-11-28",
   "official": [
     {
       "id": "Dj9D6ZA2bDo",
@@ -3250,6 +3250,17 @@ window.SONGS = {
           "id": "8GrmzSxxJkI",
           "memberId": "liz",
           "publishedAt": "2026-06-27"
+        }
+      ]
+    },
+    {
+      "title": "？？？ - 鹿乃まほろ cover.",
+      "key": "？？？-.",
+      "urls": [
+        {
+          "id": "GHikg4z5AdU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-28"
         }
       ]
     },

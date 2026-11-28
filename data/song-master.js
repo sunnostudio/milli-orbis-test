@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-27",
+  "generatedAt": "2026-11-28",
   "songs": {
     "ぼうけんのしょがきえました！": {
       "title": "花占い",
@@ -418,7 +418,7 @@ window.SONG_MASTER = {
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
-      "artist": "DECO*27 & 初音ミク",
+      "artist": "DECO*27",
       "album": "愛言葉Ⅳ - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/46/b1/9246b172-c303-b082-7ac2-8b78ffe89711/4511820-95551.jpg/600x600bb.jpg",
       "en": {
@@ -720,12 +720,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
       "en": {
-        "title": "Swallow (feat. Midleys)"
+        "title": "Feels good"
       }
     },
     "1000年生きてる": {
@@ -1071,13 +1071,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
-      "artist": "Vivid BAD SQUAD",
-      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
-      "en": {
-        "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
-      }
+      "title": "MANIHEKE",
+      "artist": "アイリフドーパ",
+      "album": "GENTEN - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
     },
     "絶頂讃": {
       "title": "絶頂讃歌",
@@ -1354,6 +1351,12 @@ window.SONG_MASTER = {
       "artist": "HANA",
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
+    },
+    "？？？-.": {
+      "title": "スペクトルホログラム",
+      "artist": "鹿乃まほろ & USAGI Production",
+      "album": "VirtuaREAL.05",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/dd/78/a3/dd78a30f-50d1-5497-eda4-e03c83b925e3/859759206047_cover.png/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
       "title": "オーケストラ - From THE FIRST TAKE",

@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-11-27T02:00:21.409Z",
+  "updatedAt": "2026-11-27T17:07:55.576Z",
   "streams": [
+    {
+      "id": "TcPIMfoooaw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 Potato Please 】剥く。すべてを。⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-28T09:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "AkmJpEFi-4A",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 メン限 】さて、乾杯 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AkmJpEFi-4A/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-28T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ajFu5VLHpBg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "(時間変更の可能性大)【 NTE 】 大絶賛と噂の最新ストーリー！第9章「再会の虚数解」Ver.1.5【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/ajFu5VLHpBg/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-29T04:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "cWd96-zgg04",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 雑談 】最近の振り返りと、誕生日グッズにサイン入れ♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cWd96-zgg04/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-29T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "TAKa1F9qzRs",
       "memberId": "mahoro",
@@ -109,6 +145,126 @@
   ],
   "videos": [
     {
+      "id": "AkmJpEFi-4A",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 メン限 】さて、乾杯 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AkmJpEFi-4A/hqdefault.jpg?v=6b09b850",
+      "publishedAt": "2026-11-27T17:05:17Z",
+      "live": false
+    },
+    {
+      "id": "TcPIMfoooaw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 Potato Please 】剥く。すべてを。⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg?v=6b09b371",
+      "publishedAt": "2026-11-27T16:44:30Z",
+      "live": false
+    },
+    {
+      "id": "paeGEaqy7eE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗風邪がデフォになってきてる〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/paeGEaqy7eE/hqdefault.jpg",
+      "publishedAt": "2026-11-27T14:15:58Z",
+      "live": true
+    },
+    {
+      "id": "DY-Yo7gpJKg",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】ポテサラ食べる【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/DY-Yo7gpJKg/hqdefault.jpg",
+      "publishedAt": "2026-11-27T13:25:34Z",
+      "live": true
+    },
+    {
+      "id": "bFYBzOBhHCw",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】〇んだら即終了！？1ブロックマイクラ！！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/bFYBzOBhHCw/hqdefault.jpg",
+      "publishedAt": "2026-11-27T12:58:35Z",
+      "live": false
+    },
+    {
+      "id": "ajFu5VLHpBg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "(時間変更の可能性大)【 NTE 】 大絶賛と噂の最新ストーリー！第9章「再会の虚数解」Ver.1.5【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/ajFu5VLHpBg/hqdefault.jpg?v=6b096258",
+      "publishedAt": "2026-11-27T10:58:30Z",
+      "live": false
+    },
+    {
+      "id": "cWd96-zgg04",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 雑談 】最近の振り返りと、誕生日グッズにサイン入れ♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cWd96-zgg04/hqdefault.jpg?v=6b09501c",
+      "publishedAt": "2026-11-27T09:40:42Z",
+      "live": true
+    },
+    {
+      "id": "WYrs1SDEhQk",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【ゆらぎゆら と】1文字目で何の曲か当てろ！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/WYrs1SDEhQk/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:01:39Z",
+      "live": false
+    },
+    {
+      "id": "lC73Yvec_jU",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【ナマケモノ】あぁもう全部めんどくさい！💤【眠雲ツクリ/ミリプロ】 #shorts #オリジナル",
+      "thumb": "https://i.ytimg.com/vi/lC73Yvec_jU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:00:35Z",
+      "live": false
+    },
+    {
+      "id": "b6VAVRh0BUQ",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "『ただ君に晴れ』歌ってみた【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/b6VAVRh0BUQ/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:00:35Z",
+      "live": false
+    },
+    {
+      "id": "MVyTdd95gAo",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "Don't Eat Me!!🦀💦#shorts #animation #illustration",
+      "thumb": "https://i.ytimg.com/vi/MVyTdd95gAo/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:00:13Z",
+      "live": false
+    },
+    {
+      "id": "VFhewTONgSQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VFhewTONgSQ/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:00:13Z",
+      "live": false
+    },
+    {
       "id": "QxAOAh6wSKU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -149,16 +305,6 @@
       "live": false
     },
     {
-      "id": "88QTG4TEIAU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】事故物件。過剰にホラーが‐苦手な人はご注意ください。【 #ゆらのやすらぎ 】",
-      "thumb": "https://i.ytimg.com/vi/88QTG4TEIAU/hqdefault.jpg",
-      "publishedAt": "2026-11-26T12:39:23Z",
-      "live": false
-    },
-    {
       "id": "aQ5MJqDX2zo",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -189,16 +335,6 @@
       "live": false
     },
     {
-      "id": "7MbAVcXXvc0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "どこが変わったかわかる？ウミユリ海底譚歌ってみた【ゆらぎゆら/ミリプロ】 #歌ってみた",
-      "thumb": "https://i.ytimg.com/vi/7MbAVcXXvc0/hqdefault.jpg",
-      "publishedAt": "2026-11-26T09:00:02Z",
-      "live": false
-    },
-    {
       "id": "kyUFG7Psf1A",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -206,16 +342,6 @@
       "title": "【アニメ】NET CHOOSE SHOW #ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/kyUFG7Psf1A/hqdefault.jpg",
       "publishedAt": "2026-11-26T09:00:01Z",
-      "live": false
-    },
-    {
-      "id": "L1eIG3FGLdE",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】Ver.1.5だああああ！待望のExeがきたぞ！新コンテンツも盛りだくさん！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/L1eIG3FGLdE/hqdefault.jpg?v=6b07216e",
-      "publishedAt": "2026-11-25T17:57:00Z",
       "live": false
     },
     {
@@ -279,6 +405,16 @@
       "live": true
     },
     {
+      "id": "-ifpU3tn16I",
+      "memberId": "mayoi",
+      "member": "旋風マヨイ",
+      "channelTitle": "旋風マヨイ / TsumujiMayoi",
+      "title": "【初投稿】初配信が延期になりました。【ミリプロ / 手描きアニメ】",
+      "thumb": "https://i.ytimg.com/vi/-ifpU3tn16I/hqdefault.jpg",
+      "publishedAt": "2026-11-24T23:55:44Z",
+      "live": true
+    },
+    {
       "id": "TLNp-TOBy7U",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -307,106 +443,6 @@
       "thumb": "https://i.ytimg.com/vi/zNiC6snFrbc/hqdefault.jpg",
       "publishedAt": "2026-11-24T11:14:32Z",
       "live": true
-    },
-    {
-      "id": "yL45fU4oMOw",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "『ルカルカ★ナイトフィーバー』踊ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/yL45fU4oMOw/hqdefault.jpg",
-      "publishedAt": "2026-11-24T09:00:16Z",
-      "live": false
-    },
-    {
-      "id": "Lg-RSDpXSCI",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】「あ」と「ん」だけで会話 #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/Lg-RSDpXSCI/hqdefault.jpg",
-      "publishedAt": "2026-11-24T09:00:02Z",
-      "live": false
-    },
-    {
-      "id": "7ErM_QlcdcY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】ぶいすぽGG本番！れつご～！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
-      "thumb": "https://i.ytimg.com/vi/7ErM_QlcdcY/hqdefault.jpg",
-      "publishedAt": "2026-11-23T20:43:24Z",
-      "live": false
-    },
-    {
-      "id": "qhlQheL5Ugw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】飲む┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/qhlQheL5Ugw/hqdefault.jpg",
-      "publishedAt": "2026-11-23T17:45:08Z",
-      "live": true
-    },
-    {
-      "id": "mEwkI97JoTI",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】どう考えたって儚い近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
-      "publishedAt": "2026-11-23T14:10:27Z",
-      "live": true
-    },
-    {
-      "id": "A0CEx2vIpL4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【ダレカレ】「朝起きたら知らない男がいる。」絶対に泣いてしまうと噂のゲーム【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/A0CEx2vIpL4/hqdefault.jpg",
-      "publishedAt": "2026-11-23T13:14:01Z",
-      "live": false
-    },
-    {
-      "id": "c3XsoHfd3Fg",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ラストは+14!?】 裏声禁止でだんだんキーが上がる『フォニイ』歌ってみた！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/c3XsoHfd3Fg/hqdefault.jpg",
-      "publishedAt": "2026-11-23T09:01:34Z",
-      "live": false
-    },
-    {
-      "id": "Y4sDtl1pmfA",
-      "memberId": "mayoi",
-      "member": "旋風マヨイ",
-      "channelTitle": "旋風マヨイ / TsumujiMayoi",
-      "title": "【あなたは何曲知ってる？】まぢ病み曲メドレー歌ってみた【旋風マヨイ/ミリプロ】#cover",
-      "thumb": "https://i.ytimg.com/vi/Y4sDtl1pmfA/hqdefault.jpg",
-      "publishedAt": "2026-11-23T09:00:38Z",
-      "live": false
-    },
-    {
-      "id": "OZnmMmOyuyw",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】逆転ドッキリ！剣を刺した人が吹っ飛ぶ！？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OZnmMmOyuyw/hqdefault.jpg",
-      "publishedAt": "2026-11-23T09:00:15Z",
-      "live": false
-    },
-    {
-      "id": "nruIpOCG6NI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗最後の精霊石を、あつめる！#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/nruIpOCG6NI/hqdefault.jpg",
-      "publishedAt": "2026-11-22T17:53:04Z",
-      "live": false
     }
   ],
   "live": []

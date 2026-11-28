@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T17:07:55.576Z",
+  "updatedAt": "2026-11-28T01:45:10.820Z",
   "streams": [
     {
       "id": "TcPIMfoooaw",
@@ -7,7 +7,7 @@
       "member": "夕霧レイ",
       "title": "【 Potato Please 】剥く。すべてを。⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-28T09:00:00Z",
+      "scheduledStartTime": "2026-11-28T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -265,6 +265,16 @@
       "live": false
     },
     {
+      "id": "GHikg4z5AdU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "？？？ - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/GHikg4z5AdU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T08:26:00Z",
+      "live": false
+    },
+    {
       "id": "QxAOAh6wSKU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -432,16 +442,6 @@
       "title": "【雑談＋歌】まほろのおやすみラジオ #1【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/TAKa1F9qzRs/hqdefault.jpg?v=6b05ea68",
       "publishedAt": "2026-11-24T19:49:58Z",
-      "live": true
-    },
-    {
-      "id": "zNiC6snFrbc",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【お絵描き雑談】新たなメン限背景考えてみる！",
-      "thumb": "https://i.ytimg.com/vi/zNiC6snFrbc/hqdefault.jpg",
-      "publishedAt": "2026-11-24T11:14:32Z",
       "live": true
     }
   ],
